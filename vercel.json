@@ -4,5 +4,5 @@
       "main": true
     }
   },
-  "ignoreCommand": "bash -c 'if git diff HEAD^ HEAD --quiet -- \":(exclude)*.md\" \":(exclude).github/**\" \":(exclude)LICENSE\" \":(exclude)docs/**\" \":(exclude).devcontainer/**\" \":(exclude)scripts/**\" \":(exclude).gitignore\" \":(exclude).env.example\"; then echo \"Only non-production files changed, skipping build\" && exit 0; else echo \"Production files changed, proceeding with build\" && exit 1; fi'"
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet -- . ':(exclude)*.md' ':(exclude).github' ':(exclude)docs' ':(exclude)scripts' ':(exclude)LICENSE'"
 }
