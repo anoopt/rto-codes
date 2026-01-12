@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Start a Discussion
+    url: https://github.com/anoopt/rto-codes/discussions
+    about: "Want to add RTOs for a new state? Have a question? Start a discussion!"
+  - name: 📖 Contribution Guide
+    url: https://github.com/anoopt/rto-codes/blob/main/CONTRIBUTING.md
+    about: "Read the full contribution guide for technical contributors"
+  - name: 🌐 Visit the Site
+    url: https://rtocod.es
+    about: "Check out the RTO Codes website"

@@ -1,0 +1,18 @@
+{
+  "code": "KA-25",
+  "region": "Dharwad",
+  "city": "Dharwad",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Dharwad",
+  "division": "Belagavi Division",
+  "description": "The KA-25 Regional Transport Office (Dharwad RTO) handles vehicle registrations and transport services for this region in Dharwad district.",
+  "established": "N/A",
+  "address": "Navanagar Post, Hubli-Dharwad Road, Dharwad",
+  "pinCode": "580001",
+  "phone": "0836-2233929, 2233925, 2233920",
+  "email": "rtodwd-ka@nic.in",
+  "jurisdictionAreas": [
+    "Dharwad"
+  ]
+}

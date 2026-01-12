@@ -1,0 +1,23 @@
+{
+  "code": "KA-16",
+  "region": "Chitradurga",
+  "city": "Chitradurga",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Chitradurga",
+  "division": "Shivamogga Division",
+  "description": "The KA-16 Regional Transport Office (Chitradurga RTO) handles vehicle registrations and transport services for this region in Chitradurga district.",
+  "established": "N/A",
+  "address": "NH-4, Deviation Road, Chitradurga",
+  "pinCode": "577501",
+  "phone": "08194-230434, 08194-231894",
+  "email": "rtoctg-ka@nic.in",
+  "jurisdictionAreas": [
+    "Chitradurga",
+    "Holalkere",
+    "Challakere",
+    "Molakalmuru",
+    "Hosadurga",
+    "Hiriyur"
+  ]
+}

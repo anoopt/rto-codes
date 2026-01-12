@@ -1,0 +1,19 @@
+{
+  "code": "KA-38",
+  "region": "Bidar",
+  "city": "Bidar",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bidar",
+  "division": "Kalaburagi Division",
+  "description": "The KA-38 Regional Transport Office (Bidar RTO) handles vehicle registrations and transport services for this region in Bidar district.",
+  "established": "N/A",
+  "address": "Near Airforce Gate, Bidar",
+  "pinCode": "585401",
+  "phone": "08482-226361",
+  "email": "rtobdr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Bidar",
+    "Aurad"
+  ]
+}

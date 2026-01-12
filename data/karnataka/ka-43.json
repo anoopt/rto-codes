@@ -1,0 +1,19 @@
+{
+  "code": "KA-43",
+  "region": "Devanahalli",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Rural",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-43 Assistant Regional Transport Office (Devanahalli ARTO) handles vehicle registrations and transport services for this region in Bengaluru Rural district.",
+  "established": "N/A",
+  "address": "Rani Cross, NH-7, Devanahalli",
+  "pinCode": "562110",
+  "phone": "080-29780046",
+  "email": "artodhalli-ka@nic.in",
+  "jurisdictionAreas": [
+    "Devanahalli",
+    "Doddaballapura"
+  ]
+}

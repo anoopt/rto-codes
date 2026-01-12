@@ -1,0 +1,23 @@
+{
+  "code": "KA-55",
+  "region": "Mysuru East",
+  "city": "Mysuru East",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Mysuru",
+  "division": "Mysuru Division",
+  "description": "The KA-55 Regional Transport Office (Mysuru East RTO) handles vehicle registrations and transport services for this region in Mysuru district.",
+  "established": "N/A",
+  "address": "Rajeev Nagar, Mysore",
+  "pinCode": "570019",
+  "phone": "0821-2570700",
+  "email": "rtomyse-ka@nic.in",
+  "jurisdictionAreas": [
+    "T. Narasipura Taluk",
+    "Bengaluru-Mysuru Road via Banni Mantapa",
+    "Sayyajirao Road",
+    "Chamundipura Circle",
+    "Vidyaranyapuram-Nanjanagud Link Road",
+    "Areas extending towards East"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "code": "GA-09",
+  "region": "Quepem",
+  "city": "Quepem",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "South Goa",
+  "division": "South Goa Division",
+  "description": "The GA-09 Regional Transport Office (Assistant Director of Transport, Quepem) handles vehicle registrations and transport services for Quepem and Sanguem talukas in the South Goa district. This office provides licensing, registration, and permit services for the hinterland region known for its mining history and wildlife sanctuaries.",
+  "established": "2010",
+  "address": "Office of the Assistant Director of Transport, Govt. Multi-Storeyed Building, Quepem, Goa",
+  "pinCode": "403705",
+  "phone": "0832-2662241",
+  "email": "adt-que.goa@gov.in",
+  "jurisdictionAreas": [
+    "Ambaulim",
+    "Balli",
+    "Barcem",
+    "Bhati",
+    "Cavrem",
+    "Curchorem",
+    "Fatorpa",
+    "Mollem",
+    "Netravali",
+    "Pali",
+    "Quepem",
+    "Rivona",
+    "Sanvordem",
+    "Sanguem",
+    "Uguem",
+    "Xeldem"
+  ]
+}

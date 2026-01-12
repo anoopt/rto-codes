@@ -1,0 +1,24 @@
+{
+  "code": "KA-32",
+  "region": "Kalaburagi",
+  "city": "Kalaburagi",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Kalaburagi",
+  "division": "Kalaburagi Division",
+  "description": "The KA-32 Regional Transport Office (Kalaburagi RTO) handles vehicle registrations and transport services for this region in Kalaburagi district.",
+  "established": "N/A",
+  "address": "Rajapur Cross, Sedam Road, Kalaburagi",
+  "pinCode": "585105",
+  "phone": "08472-248805, 246926",
+  "email": "rtoglbka@nic.in",
+  "jurisdictionAreas": [
+    "Kalaburagi",
+    "Sedam",
+    "Chittapur",
+    "Chincholi",
+    "Aland",
+    "Jevargi",
+    "Afzalpur"
+  ]
+}

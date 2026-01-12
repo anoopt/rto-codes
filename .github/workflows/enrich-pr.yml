@@ -1,0 +1,321 @@
+name: Enrich RTO Data
+
+# This workflow enriches RTO data with AI-generated details.
+#
+# Triggers:
+# 1. AUTOMATIC: When maintainer adds "enrich" label to a PR
+# 2. MANUAL: Via Actions → "Enrich RTO Data" → Run workflow
+#
+# For fork PRs: The contributor must enable "Allow edits from maintainers"
+# or the push will fail. In that case, enrich manually using:
+#   gh pr checkout <PR_NUMBER>
+#   bun scripts/populate-rto-data.ts <state-code> <rto-code>
+
+on:
+  # Automatic trigger when "enrich" label is added
+  pull_request_target:
+    types: [labeled]
+
+  # Manual trigger for fallback
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Pull Request number to enrich"
+        required: true
+        type: number
+
+jobs:
+  enrich-data:
+    name: Enrich RTO Data with AI
+    runs-on: ubuntu-latest
+    # Only run if:
+    # - Manual trigger (workflow_dispatch), OR
+    # - Label "enrich" was added (pull_request_target)
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request_target' && github.event.label.name == 'enrich')
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Determine PR number
+        id: get-pr
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "pr_number=${{ inputs.pr_number }}" >> $GITHUB_OUTPUT
+            echo "trigger=manual" >> $GITHUB_OUTPUT
+          else
+            echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+            echo "trigger=label" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Get PR information
+        id: pr-info
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = ${{ steps.get-pr.outputs.pr_number }};
+
+            const pr = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber
+            });
+
+            core.setOutput('head_ref', pr.data.head.ref);
+            core.setOutput('head_sha', pr.data.head.sha);
+            core.setOutput('base_ref', pr.data.base.ref);
+            core.setOutput('pr_title', pr.data.title);
+            core.setOutput('mergeable', pr.data.mergeable);
+
+            // Check if PR is from a fork
+            const isFork = pr.data.head.repo.full_name !== pr.data.base.repo.full_name;
+            core.setOutput('is_fork', isFork);
+
+            // Check if maintainer can push (for forks)
+            core.setOutput('maintainer_can_modify', pr.data.maintainer_can_modify);
+
+            console.log(`PR #${prNumber}: ${pr.data.title}`);
+            console.log(`Branch: ${pr.data.head.ref}`);
+            console.log(`Is fork: ${isFork}`);
+            console.log(`Maintainer can modify: ${pr.data.maintainer_can_modify}`);
+
+      - name: Check fork permissions
+        if: steps.pr-info.outputs.is_fork == 'true' && steps.pr-info.outputs.maintainer_can_modify != 'true'
+        run: |
+          echo "❌ Cannot enrich this fork PR"
+          echo ""
+          echo "The contributor has NOT enabled 'Allow edits from maintainers'."
+          echo ""
+          echo "Options:"
+          echo "1. Ask the contributor to enable it in their PR settings"
+          echo "2. Manually enrich the data locally:"
+          echo "   gh pr checkout ${{ steps.get-pr.outputs.pr_number }}"
+          echo "   bun scripts/populate-rto-data.ts <state-code> <rto-code>"
+          echo "   git add . && git commit -m 'Enrich RTO data' && git push"
+          exit 1
+
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ steps.pr-info.outputs.head_ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Get changed files in PR
+        id: changed-files
+        run: |
+          # Get the list of changed files compared to base branch
+          git fetch origin ${{ steps.pr-info.outputs.base_ref }}
+
+          changed_files=$(git diff --name-only origin/${{ steps.pr-info.outputs.base_ref }}...HEAD -- 'data/**/*.json' | \
+            grep -v 'index.json' | \
+            grep -v 'rto-images.json' || true)
+
+          echo "Changed files:"
+          echo "$changed_files"
+
+          # Save to output
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$changed_files" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          if [ -z "$changed_files" ]; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Enrich RTO data
+        if: steps.changed-files.outputs.has_changes == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "Enriching RTO data with AI-generated details..."
+          echo "=========================================="
+
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "❌ GEMINI_API_KEY secret is not configured"
+            echo "   Please add it in Repository Settings → Secrets"
+            exit 1
+          fi
+
+          # Process each changed file
+          while IFS= read -r file; do
+            if [ -z "$file" ]; then
+              continue
+            fi
+            
+            # Skip config.json files
+            if [[ "$file" == *"config.json" ]]; then
+              echo "⏭️  Skipping config file: $file"
+              continue
+            fi
+            
+            echo ""
+            echo "📄 Processing: $file"
+            
+            # Extract state folder and RTO code
+            state=$(echo "$file" | grep -oP 'data/\K[^/]+')
+            rto_code=$(basename "$file" .json | tr '[:lower:]' '[:upper:]')
+            
+            # Get state code from config.json
+            state_code=""
+            if [ -f "data/$state/config.json" ]; then
+              state_code=$(jq -r '.stateCode' "data/$state/config.json" | tr '[:upper:]' '[:lower:]')
+            fi
+            
+            if [ -z "$state_code" ] || [ "$state_code" == "null" ]; then
+              echo "  ⚠️  Could not determine state code for $state, skipping"
+              continue
+            fi
+            
+            echo "  State: $state (code: $state_code)"
+            echo "  RTO: $rto_code"
+            
+            # Show current data summary
+            echo "  Current data:"
+            echo "    Region: $(jq -r '.region // "N/A"' "$file")"
+            echo "    City: $(jq -r '.city // "N/A"' "$file")"
+            echo "    District: $(jq -r '.district // "N/A"' "$file")"
+            
+            # Enrich the data
+            echo "  🔄 Enriching with Gemini..."
+            bun scripts/populate-rto-data.ts "$state_code" "$rto_code" --force || {
+              echo "  ⚠️  Failed to enrich $rto_code, continuing..."
+              continue
+            }
+            
+            # Show enriched data summary
+            echo "  ✅ Enriched data:"
+            echo "    Region: $(jq -r '.region // "N/A"' "$file")"
+            echo "    City: $(jq -r '.city // "N/A"' "$file")"
+            echo "    District: $(jq -r '.district // "N/A"' "$file")"
+            echo "    Description: $(jq -r '.description // "N/A" | .[0:60]' "$file")..."
+            
+          done <<< "${{ steps.changed-files.outputs.files }}"
+
+          echo ""
+          echo "=========================================="
+          echo "✅ Enrichment complete!"
+
+      - name: Commit enriched data
+        if: steps.changed-files.outputs.has_changes == 'true'
+        id: commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Check if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit - data was already enriched"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git add data/**/*.json
+            git commit -m "chore: enrich RTO data with AI-generated details" \
+              -m "Enriched via ${{ steps.get-pr.outputs.trigger }} trigger" \
+              -m "PR #${{ steps.get-pr.outputs.pr_number }}"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Push changes
+        if: steps.commit.outputs.has_changes == 'true'
+        run: |
+          git push origin ${{ steps.pr-info.outputs.head_ref }}
+          echo "✅ Enriched data pushed to PR branch"
+
+      - name: Remove enrich label
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v7
+        continue-on-error: true
+        with:
+          script: |
+            await github.rest.issues.removeLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.get-pr.outputs.pr_number }},
+              name: 'enrich'
+            });
+
+      - name: Comment on PR
+        if: steps.changed-files.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const hasChanges = '${{ steps.commit.outputs.has_changes }}' === 'true';
+            const trigger = '${{ steps.get-pr.outputs.trigger }}';
+            const triggerText = trigger === 'label' ? 'via "enrich" label' : 'via manual trigger';
+
+            let body;
+            if (hasChanges) {
+              body = `## 🤖 RTO Data Enriched
+
+            I've enriched the RTO data in this PR with AI-generated details including:
+            - 📝 Detailed descriptions
+            - 📍 Jurisdiction areas  
+            - 📞 Contact information (when available)
+            - 🏛️ Division and establishment info
+
+            **Please review the enriched data** to ensure accuracy before merging.
+
+            <details>
+            <summary>What was added?</summary>
+
+            The AI enrichment typically adds or improves:
+            - \`description\`: A 2-3 sentence description of the RTO
+            - \`division\`: Administrative division name
+            - \`jurisdictionAreas\`: List of talukas/areas covered
+            - \`address\`, \`phone\`, \`email\`: Contact details (when known)
+            - \`established\`: Year established (when known)
+
+            </details>
+
+            ---
+            *Triggered by @${{ github.actor }} ${triggerText}*`;
+            } else {
+              body = `## ✅ RTO Data Already Enriched
+
+            The RTO data in this PR is already complete - no additional enrichment was needed.
+
+            **Ready for review and merge!**
+
+            ---
+            *Checked by @${{ github.actor }} ${triggerText}*`;
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.get-pr.outputs.pr_number }},
+              body: body
+            });
+
+      - name: Summary
+        run: |
+          echo "=========================================="
+          echo "Enrichment Summary"
+          echo "=========================================="
+          echo "PR: #${{ steps.get-pr.outputs.pr_number }} - ${{ steps.pr-info.outputs.pr_title }}"
+          echo "Branch: ${{ steps.pr-info.outputs.head_ref }}"
+          echo "Trigger: ${{ steps.get-pr.outputs.trigger }}"
+          echo ""
+          if [ "${{ steps.commit.outputs.has_changes }}" == "true" ]; then
+            echo "✅ Data enriched and pushed to PR"
+            echo ""
+            echo "Next steps:"
+            echo "1. Review the enriched data in the PR"
+            echo "2. Approve and merge if satisfied"
+          else
+            echo "ℹ️  No enrichment needed - data was already complete"
+          fi
+          echo "=========================================="

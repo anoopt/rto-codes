@@ -1,0 +1,8 @@
+# RTO Codes India - Robots.txt
+# https://rto-codes.in
+
+User-agent: *
+Allow: /
+Disallow: /_next/
+
+Sitemap: https://rto-codes.in/sitemap.xml

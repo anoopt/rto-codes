@@ -1,0 +1,5 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#0f172a"/>
+  <text x="256" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="180" fill="#f59e0b">RTO</text>
+  <text x="256" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="60" fill="#ffffff" opacity="0.7">CODES</text>
+</svg>

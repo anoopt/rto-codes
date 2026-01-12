@@ -1,0 +1,22 @@
+{
+  "code": "KA-11",
+  "region": "Mandya",
+  "city": "Mandya",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Mandya",
+  "division": "Mysuru Division",
+  "description": "The KA-11 Regional Transport Office (Mandya RTO) handles vehicle registrations and transport services for this region in Mandya district.",
+  "established": "N/A",
+  "address": "Near Deputy Commissioners Office, Mandya",
+  "pinCode": "571401",
+  "phone": "08232-220031",
+  "email": "rtomndy-ka@nic.in",
+  "jurisdictionAreas": [
+    "Malavalli",
+    "Maddur",
+    "Mandya",
+    "Srirangapatna",
+    "Pandava Pura"
+  ]
+}

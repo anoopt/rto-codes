@@ -1,0 +1,22 @@
+{
+  "code": "KA-09",
+  "region": "Mysuru West",
+  "city": "Mysuru West",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Mysuru",
+  "division": "Mysore Division",
+  "description": "The KA-09 Regional Transport Office (Mysuru West RTO) handles vehicle registrations and transport services for this region in Mysuru district.",
+  "established": "N/A",
+  "address": "Chamarajapuram, Mysore (West)",
+  "pinCode": "570005",
+  "phone": "0821-2330364, 0821-2334430",
+  "email": "rtomysw-ka@nic.in",
+  "jurisdictionAreas": [
+    "Nanjangud Taluk",
+    "Bengaluru-Mysuru Road via Bannimantap",
+    "Sayyaji Rao Road",
+    "Chamundipuram Circle",
+    "Vidyaranyapuram-Nanjanagud Link Road Areas"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "code": "GA-01",
+  "region": "Panaji",
+  "city": "Panaji",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "North Goa",
+  "division": "North Goa Division",
+  "description": "The GA-01 RTO code was originally assigned to Panaji in North Goa district but is currently not in use. Vehicle registrations for Panaji are now handled by GA-07 (Tiswadi taluka).",
+  "status": "not-in-use",
+  "established": "1987",
+  "address": "Directorate of Transport, 1st Floor, Patto Centre, Panaji, Goa",
+  "pinCode": "403001",
+  "phone": "0832-2437500",
+  "email": "rtopanaji-trans.goa@nic.in",
+  "jurisdictionAreas": [],
+  "redirectTo": "GA-07",
+  "note": "This RTO code is not in use. For Panaji registrations, please refer to GA-07."
+}

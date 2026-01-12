@@ -1,0 +1,92 @@
+# RTO Codes India
+
+> A comprehensive, searchable database of Regional Transport Office (RTO) codes in India. Currently covering all 70 RTO codes in Karnataka with plans to expand to other Indian states.
+
+## About This Site
+
+RTO Codes India helps users understand vehicle registration numbers in India. Every Indian vehicle has a registration number in the format `XX-00-XX-0000`, where:
+- First two letters: State code (e.g., KA for Karnataka)
+- Next two digits: RTO office code (e.g., 01 for Bangalore Central)
+- Remaining characters: Unique vehicle identifier
+
+This site provides detailed information about each RTO office, including the region it serves, the district, and coverage area.
+
+## Available Pages
+
+- `/` - Homepage with searchable grid of all RTO codes
+- `/rto/{code}` - Individual RTO detail page (e.g., `/rto/ka-01` for Bangalore Central)
+- `/about` - About the project and data sources
+- `/contribute` - How to contribute to the project
+
+## Data Structure
+
+Each RTO entry follows this JSON schema:
+
+```json
+{
+  "code": "KA-01",           // RTO code (STATE-NUMBER format)
+  "region": "Bangalore (Central)", // Region/area name
+  "city": "Bangalore",       // Primary city
+  "state": "Karnataka",      // Full state name
+  "stateCode": "KA",         // Two-letter state code
+  "district": "Bangalore Urban", // District name (optional)
+  "description": "...",      // Detailed description (optional)
+  "established": "1988",     // Year established (optional)
+  "additionalInfo": "..."    // Coverage areas, pin codes (optional)
+}
+```
+
+## Data Organization
+
+Data is organized by state in the `/data` directory:
+- `/data/karnataka/` - Karnataka RTO data files
+- Each RTO has its own JSON file: `ka-01.json`, `ka-02.json`, etc.
+
+Future expansion will add more states:
+- `/data/tamil-nadu/` (planned)
+- `/data/maharashtra/` (planned)
+- etc.
+
+## Current Coverage
+
+- **Karnataka**: 70 RTO codes across 30+ districts
+  - Major cities: Bangalore (KA-01 to KA-05, KA-41, KA-50 to KA-53), Mysore (KA-09, KA-55), Mangalore (KA-19, KA-21), Hubli-Dharwad (KA-25, KA-63)
+  - Complete coverage of all RTOs from KA-01 to KA-70
+
+## Example Queries This Site Can Answer
+
+- "What is KA-01?" → Bangalore (Central) RTO
+- "Which RTO covers Mysore?" → KA-09 (Mysore) and KA-55 (Mysore South)
+- "How many RTOs are in Karnataka?" → 70 RTOs
+- "What district does KA-32 belong to?" → Raichur
+- "List all Bangalore RTOs" → KA-01 through KA-05, KA-41, KA-50 through KA-53
+
+## Technical Details
+
+- Framework: Next.js 15 with App Router
+- Styling: Tailwind CSS v4
+- Language: TypeScript
+- Hosting: Static site generation (SSG)
+- Data: JSON files, no database required
+
+## API Access
+
+This is a static site without a REST API. However, the data files are publicly accessible:
+- Raw data: `https://github.com/anoopt/rtocodes/tree/main/data/karnataka/`
+- Each file can be fetched directly for programmatic access
+
+## Contributing
+
+Contributions are welcome via GitHub:
+- Repository: https://github.com/anoopt/rtocodes
+- Add new RTO data by creating JSON files following the schema above
+- Report issues or suggest improvements via GitHub Issues
+
+## Contact
+
+- Maintainer: Anoop T
+- GitHub: https://github.com/anoopt/rtocodes
+
+## Last Updated
+
+January 2026

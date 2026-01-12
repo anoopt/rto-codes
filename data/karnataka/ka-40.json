@@ -1,0 +1,22 @@
+{
+  "code": "KA-40",
+  "region": "Chikkaballapura",
+  "city": "Chikkaballapura",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Chikkaballapura",
+  "division": "Bengaluru Rural Division",
+  "description": "The KA-40 Regional Transport Office (Chikkaballapura RTO) handles vehicle registrations and transport services for this region in Chikkaballapura district.",
+  "established": "N/A",
+  "address": "Bengaluru Road, Chikkaballapura",
+  "pinCode": "562101",
+  "phone": "08156-270446",
+  "email": "rtokar-ka@nic.in",
+  "jurisdictionAreas": [
+    "Chikkaballapura",
+    "Gowribidanur",
+    "Bagepalli",
+    "Sidlaghatta",
+    "Chintamani"
+  ]
+}

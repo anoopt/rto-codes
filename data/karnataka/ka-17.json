@@ -1,0 +1,23 @@
+{
+  "code": "KA-17",
+  "region": "Davanagere",
+  "city": "Davanagere",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Davanagere",
+  "division": "Shivamogga Division",
+  "description": "The KA-17 Regional Transport Office (Davanagere RTO) handles vehicle registrations and transport services for this region in Davanagere district.",
+  "established": "N/A",
+  "address": "Devaraj Urs Layout, Davanagere",
+  "pinCode": "577006",
+  "phone": "08192-259848, 08192-232023",
+  "email": "rtodvg-ka@nic.in",
+  "jurisdictionAreas": [
+    "Davanagere",
+    "Harihara",
+    "Honnali",
+    "Channagiri",
+    "Jagaluru",
+    "Harapanahalli"
+  ]
+}

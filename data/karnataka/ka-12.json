@@ -1,0 +1,20 @@
+{
+  "code": "KA-12",
+  "region": "Madikeri",
+  "city": "Madikeri",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Kodagu",
+  "division": "Mysuru Division",
+  "description": "The KA-12 Regional Transport Office (Madikeri RTO) handles vehicle registrations and transport services for this region in Kodagu district.",
+  "established": "N/A",
+  "address": "Sunny Side, General Thimmaiah Road, Madikeri",
+  "pinCode": "571201",
+  "phone": "08272-298785",
+  "email": "rtomdkr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Madikeri",
+    "Somavarpet",
+    "Virajpet"
+  ]
+}

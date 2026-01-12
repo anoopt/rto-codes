@@ -1,0 +1,20 @@
+{
+  "code": "KA-19",
+  "region": "Mangalore",
+  "city": "Mangalore",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Dakshina Kannada",
+  "division": "Shivamogga Division",
+  "description": "The KA-19 Regional Transport Office (Mangalore RTO) handles vehicle registrations and transport services for this region in Dakshina Kannada district.",
+  "established": "N/A",
+  "address": "Hampankatta, Nehru Maidan Road, East A.B. Shetty Circle, Mangaluru",
+  "pinCode": "575001",
+  "phone": "0824-2220577",
+  "email": "rtomng-ka@nic.in",
+  "jurisdictionAreas": [
+    "Mangaluru",
+    "B.C. Road",
+    "Moodabidire"
+  ]
+}

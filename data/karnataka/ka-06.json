@@ -1,0 +1,20 @@
+{
+  "code": "KA-06",
+  "region": "Tumkur",
+  "city": "Tumkur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Tumakuru",
+  "division": "Bengaluru Rural Division",
+  "description": "The KA-06 Regional Transport Office (Tumkur RTO) handles vehicle registrations and transport services for this region in Tumakuru district.",
+  "established": "N/A",
+  "address": "B.H. Road, Tumkur",
+  "pinCode": "572101",
+  "phone": "0816-2278473, 0816-2277644, 0816-2276444",
+  "email": "rtotmkr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Tumakuru",
+    "Kunigal",
+    "Gubbi"
+  ]
+}

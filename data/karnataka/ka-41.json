@@ -1,0 +1,25 @@
+{
+  "code": "KA-41",
+  "region": "Jnanabharathi",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Urban",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-41 Regional Transport Office (Jnanabharathi RTO) handles vehicle registrations and transport services for this region in Bengaluru Urban district.",
+  "established": "N/A",
+  "address": "Railwaymen Layout, Near Upkar Layout, Mallathahalli, Bengaluru",
+  "pinCode": "560056",
+  "phone": "080-23286712, 23286713",
+  "email": "rtojnbt-ka@nic.in",
+  "jurisdictionAreas": [
+    "Jnanabharathi",
+    "Kengeri",
+    "Rajarajeshwarinagar",
+    "Nagarabhavi",
+    "Mallathahalli",
+    "Nayandahalli",
+    "Hosakerehalli",
+    "Ullal"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "code": "KA-51",
+  "region": "Electronic City",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Urban",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-51 Regional Transport Office (Electronic City RTO) handles vehicle registrations and transport services for this region in Bengaluru Urban district.",
+  "established": "N/A",
+  "address": "Vijaya Bank Layout, BTM 4th Stage, 2nd Main, Devarachikkanahalli, Bengaluru",
+  "pinCode": "560076",
+  "phone": "080-29911921",
+  "email": "rtocity-kar@nic.in",
+  "jurisdictionAreas": [
+    "Electronic City",
+    "BTM Layout",
+    "Bellandur",
+    "Begur",
+    "Bommanahalli",
+    "Arakere",
+    "Hosur Road"
+  ]
+}

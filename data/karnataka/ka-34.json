@@ -1,0 +1,19 @@
+{
+  "code": "KA-34",
+  "region": "Ballari",
+  "city": "Ballari",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Ballari",
+  "division": "Kalaburagi Division",
+  "description": "The KA-34 Regional Transport Office (Ballari RTO) handles vehicle registrations and transport services for this region in Ballari district.",
+  "established": "N/A",
+  "address": "Hospet Road, Cantonment, Ballari",
+  "pinCode": "583101",
+  "phone": "08392-240048, 244116, 240038",
+  "email": "rtoblr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Ballari",
+    "Siruguppa"
+  ]
+}

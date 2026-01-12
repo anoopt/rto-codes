@@ -1,0 +1,20 @@
+{
+  "code": "KA-65",
+  "region": "Dandeli",
+  "city": "Dandeli",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Uttara Kannada",
+  "division": "Belagavi Division",
+  "description": "The KA-65 Assistant Regional Transport Office (Dandeli ARTO) handles vehicle registrations and transport services for this region in Uttara Kannada district.",
+  "established": "N/A",
+  "address": "Bombay Chawl, Dandeli Ferro Alloys Premises",
+  "pinCode": "581325",
+  "phone": "08284-230916",
+  "email": "artodandeli@gmail.com",
+  "jurisdictionAreas": [
+    "Dandeli",
+    "Joyda",
+    "Haliyal"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "code": "KA-42",
+  "region": "Ramanagara",
+  "city": "Ramanagara",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Ramanagara",
+  "division": "Bengaluru Rural Division",
+  "description": "The KA-42 Regional Transport Office (Ramanagara RTO) handles vehicle registrations and transport services for this region in Ramanagara district.",
+  "established": "N/A",
+  "address": "Near Ghousia College, Mysuru Road, Ramanagara",
+  "pinCode": "562159",
+  "phone": "080-2727347",
+  "email": "rtormgm-ka@nic.in",
+  "jurisdictionAreas": [
+    "Ramanagara",
+    "Channapatna",
+    "Magadi",
+    "Kanakapura"
+  ]
+}

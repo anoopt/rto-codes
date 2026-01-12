@@ -1,0 +1,216 @@
+name: Add New RTO
+description: Submit a new RTO code to be added to the database (non-technical users welcome!)
+title: "[ADD] "
+labels: ["enhancement", "data", "rto"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a New RTO Code
+
+        Fill out this form to submit a new RTO. Don't worry about JSON - we'll create it for you!
+
+        **Required fields are marked with ***
+
+  - type: input
+    id: rto-code
+    attributes:
+      label: RTO Code *
+      description: "Format: XX-YY (e.g., KA-01, MH-12, TN-05)"
+      placeholder: "KA-72"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: state
+    attributes:
+      label: State *
+      description: Select the state for this RTO
+      options:
+        - Andhra Pradesh
+        - Arunachal Pradesh
+        - Assam
+        - Bihar
+        - Chhattisgarh
+        - Delhi
+        - Goa
+        - Gujarat
+        - Haryana
+        - Himachal Pradesh
+        - Jharkhand
+        - Karnataka
+        - Kerala
+        - Madhya Pradesh
+        - Maharashtra
+        - Manipur
+        - Meghalaya
+        - Mizoram
+        - Nagaland
+        - Odisha
+        - Punjab
+        - Rajasthan
+        - Sikkim
+        - Tamil Nadu
+        - Telangana
+        - Tripura
+        - Uttar Pradesh
+        - Uttarakhand
+        - West Bengal
+        - Other (specify in notes)
+    validations:
+      required: true
+
+  - type: input
+    id: state-code
+    attributes:
+      label: State Code *
+      description: "2-letter state code (e.g., KA, MH, TN, GA)"
+      placeholder: "KA"
+    validations:
+      required: true
+
+  - type: input
+    id: region
+    attributes:
+      label: Region/Office Name *
+      description: The name of the RTO region or office
+      placeholder: "Kolar Gold Fields"
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: City *
+      description: The city where this RTO is located
+      placeholder: "KGF"
+    validations:
+      required: true
+
+  - type: input
+    id: district
+    attributes:
+      label: District *
+      description: The district this RTO belongs to
+      placeholder: "Kolar"
+    validations:
+      required: true
+
+  - type: input
+    id: division
+    attributes:
+      label: Division
+      description: Administrative division (optional)
+      placeholder: "Kolar Division"
+    validations:
+      required: false
+
+  - type: textarea
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction Areas
+      description: "List the talukas, mandals, or areas covered by this RTO (one per line or comma-separated)"
+      placeholder: |
+        KGF Town
+        Bangarpet Taluk
+        Kolar Taluk (partial)
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the RTO (optional - AI will generate if empty)
+      placeholder: "The KGF RTO is an Additional Regional Transport Office serving the Kolar Gold Fields area..."
+    validations:
+      required: false
+
+  - type: input
+    id: address
+    attributes:
+      label: Address
+      description: Full address of the RTO office (if known)
+      placeholder: "RTO Office, Main Road, KGF, Karnataka 563115"
+    validations:
+      required: false
+
+  - type: input
+    id: pincode
+    attributes:
+      label: PIN Code
+      description: "6-digit PIN code"
+      placeholder: "563115"
+    validations:
+      required: false
+
+  - type: input
+    id: phone
+    attributes:
+      label: Phone Number
+      description: Contact phone number (if known)
+      placeholder: "08153-260123"
+    validations:
+      required: false
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Official email address (if known)
+      placeholder: "rto-kgf.kar@nic.in"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Is this RTO currently active?
+      options:
+        - active
+        - not-in-use
+        - discontinued
+      default: 0
+    validations:
+      required: false
+
+  - type: input
+    id: established
+    attributes:
+      label: Year Established
+      description: When was this RTO established? (if known)
+      placeholder: "1995"
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: Data Source *
+      description: Where did you find this information? (link or description)
+      placeholder: "https://transport.karnataka.gov.in/..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified this RTO code does not already exist on the site
+          required: true
+        - label: The information I provided is accurate to the best of my knowledge
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other information that might be helpful
+      placeholder: "Any additional context..."
+    validations:
+      required: false

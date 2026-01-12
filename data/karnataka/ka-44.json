@@ -1,0 +1,20 @@
+{
+  "code": "KA-44",
+  "region": "Tiptur",
+  "city": "Tiptur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Tumakuru",
+  "division": "Bengaluru Rural Division",
+  "description": "The KA-44 Assistant Regional Transport Office (Tiptur ARTO) handles vehicle registrations and transport services for this region in Tumakuru district.",
+  "established": "N/A",
+  "address": "Revenue Dept. Employees Society Building, Honnavar Road, Tiptur",
+  "pinCode": "572201",
+  "phone": "08134-254799",
+  "email": "artotpt-ka@nic.in",
+  "jurisdictionAreas": [
+    "Tiptur",
+    "Turuvekere",
+    "Chikkanayakanahalli"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "code": "KA-62",
+  "region": "Sullia",
+  "city": "Sullia",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Dakshina Kannada",
+  "division": "Shivamogga Division",
+  "description": "The KA-62 Assistant Regional Transport Office (Sullia ARTO) handles vehicle registrations and transport services for this region in Dakshina Kannada district.",
+  "established": "N/A",
+  "address": "ARTO Office, Sullia, Dakshina Kannada District",
+  "pinCode": "574239",
+  "phone": "08257-230100",
+  "email": "artosullia-ka@nic.in",
+  "jurisdictionAreas": [
+    "Sullia",
+    "Kadaba"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "code": "KA-22",
+  "region": "Belagavi",
+  "city": "Belagavi",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Belagavi",
+  "division": "Belagavi Division",
+  "description": "The KA-22 Regional Transport Office (Belagavi RTO) handles vehicle registrations and transport services for this region in Belagavi district.",
+  "established": "N/A",
+  "address": "Sangolli Rayanna Circle, Shivaji Nagar, Belagavi",
+  "pinCode": "590016",
+  "phone": "0831-2465503, 0831-2404759",
+  "email": "rtobgm-ka@nic.in",
+  "jurisdictionAreas": [
+    "Belagavi",
+    "Khanapur"
+  ]
+}

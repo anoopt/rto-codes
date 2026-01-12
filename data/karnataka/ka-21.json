@@ -1,0 +1,19 @@
+{
+  "code": "KA-21",
+  "region": "Puttur",
+  "city": "Puttur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Dakshina Kannada",
+  "division": "Shivamogga Division",
+  "description": "The KA-21 Regional Transport Office (Puttur RTO) handles vehicle registrations and transport services for this region in Dakshina Kannada district.",
+  "established": "N/A",
+  "address": "Opp: K.E.B Office, Bannur, Puttur D.K.",
+  "pinCode": "574203",
+  "phone": "08251-230729",
+  "email": "rtoptr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Puttur",
+    "Sulya"
+  ]
+}

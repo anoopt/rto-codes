@@ -1,0 +1,24 @@
+{
+  "code": "GA-12",
+  "region": "Dharbandora",
+  "city": "Dharbandora",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "South Goa",
+  "division": "South Goa Division",
+  "description": "The GA-12 Regional Transport Office (Assistant Director of Transport) handles vehicle registrations and transport services for Dharbandora taluka in South Goa district. Dharbandora was established as Goa's 12th taluka in 2011, primarily carved out from Sanguem taluka.",
+  "established": "2011",
+  "address": "Assistant Director of Transport, Government Administrative Complex, Dharbandora, Goa",
+  "pinCode": "403406",
+  "phone": "0832-2614001",
+  "email": "adt-dhara.goa@nic.in",
+  "jurisdictionAreas": [
+    "Dharbandora",
+    "Collem",
+    "Curdi",
+    "Molem",
+    "Kulem",
+    "Savri",
+    "Tambdi Surla"
+  ]
+}

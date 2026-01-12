@@ -1,0 +1,20 @@
+{
+  "code": "KA-30",
+  "region": "Karwar",
+  "city": "Karwar",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Uttara Kannada",
+  "division": "Belagavi Division",
+  "description": "The KA-30 Regional Transport Office (Karwar RTO) handles vehicle registrations and transport services for this region in Uttara Kannada district.",
+  "established": "N/A",
+  "address": "Near PWD Inspection Bungalow, Karwar",
+  "pinCode": "581301",
+  "phone": "08382-226364, 229249",
+  "email": "rtokwr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Karwar",
+    "Joida",
+    "Ankola"
+  ]
+}

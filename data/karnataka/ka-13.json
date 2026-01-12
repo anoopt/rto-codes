@@ -1,0 +1,22 @@
+{
+  "code": "KA-13",
+  "region": "Hassan",
+  "city": "Hassan",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Hassan",
+  "division": "Mysuru Division",
+  "description": "The KA-13 Regional Transport Office (Hassan RTO) handles vehicle registrations and transport services for this region in Hassan district.",
+  "established": "N/A",
+  "address": "B.Kathihalli, Arasikere Road, Hassan",
+  "pinCode": "573201",
+  "phone": "08172-240660, 08172-240514",
+  "email": "rtohasn-ka@nic.in",
+  "jurisdictionAreas": [
+    "Hassan",
+    "Arasikere",
+    "Holenarasipura",
+    "Channarayapatna",
+    "Arakalgud"
+  ]
+}

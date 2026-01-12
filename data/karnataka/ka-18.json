@@ -1,0 +1,23 @@
+{
+  "code": "KA-18",
+  "region": "Chikmagalur",
+  "city": "Chikmagalur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Chikkamagaluru",
+  "division": "Shivamogga Division",
+  "description": "The KA-18 Regional Transport Office (Chikmagalur RTO) handles vehicle registrations and transport services for this region in Chikkamagaluru district.",
+  "established": "N/A",
+  "address": "M.L. Vasudeva Murthy Building, Hosmane Extension, Chikmagalur",
+  "pinCode": "577102",
+  "phone": "08262-220366",
+  "email": "rtockm-ka@nic.in",
+  "jurisdictionAreas": [
+    "Chikkamagaluru",
+    "Kadur",
+    "Mudigere",
+    "Koppa",
+    "Sringeri",
+    "N.R. Pura"
+  ]
+}

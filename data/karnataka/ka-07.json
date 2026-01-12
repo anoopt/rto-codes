@@ -1,0 +1,20 @@
+{
+  "code": "KA-07",
+  "region": "Kolar",
+  "city": "Kolar",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Kolar",
+  "division": "Bengaluru Rural Division",
+  "description": "The KA-07 Regional Transport Office (Kolar RTO) handles vehicle registrations and transport services for this region in Kolar district.",
+  "established": "N/A",
+  "address": "Sarige Soudha, Bangarpet Main Road, Kolar",
+  "pinCode": "563101",
+  "phone": "08152-222039",
+  "email": "rtoklr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Kolar",
+    "Srinivasapura",
+    "Mulbagal"
+  ]
+}

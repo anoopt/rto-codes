@@ -1,0 +1,22 @@
+{
+  "code": "KA-28",
+  "region": "Vijayapura",
+  "city": "Vijayapura",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Vijayapura",
+  "division": "Belagavi Division",
+  "description": "The KA-28 Regional Transport Office (Vijayapura RTO) handles vehicle registrations and transport services for this region in Vijayapura district.",
+  "established": "N/A",
+  "address": "Bagalkot Road, Vijayapura",
+  "pinCode": "586101",
+  "phone": "08352-276228, 276218",
+  "email": "rtobjp-ka@nic.in",
+  "jurisdictionAreas": [
+    "Vijayapura",
+    "Muddebihal",
+    "Basavana Bagewadi",
+    "Indi",
+    "Sindhagi"
+  ]
+}

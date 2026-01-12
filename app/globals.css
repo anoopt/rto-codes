@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+/* Configure dark mode to use class strategy (for next-themes) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Light theme (default for :root, applied when no .dark class) */
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --header-bg: rgba(248, 250, 252, 0.95);
+  --header-border: rgba(15, 23, 42, 0.1);
+  --card-bg: #ffffff;
+  --card-border: rgba(15, 23, 42, 0.1);
+  --muted: #64748b;
+  --muted-foreground: #94a3b8;
+  --accent: #f59e0b;
+  --accent-hover: #d97706;
+
+  /* Map colors */
+  --map-district-fill: #cbd5e1;
+  --map-district-stroke: #0f172a;
+  --map-highlight-fill: #f59e0b;
+  --map-highlight-stroke: #0f172a;
+  --map-hover-fill: #3b82f6;
+
+  /* Tooltip colors */
+  --tooltip-bg: rgba(15, 23, 42, 0.9);
+  --tooltip-text: #ffffff;
+
+  --font-heading: var(--font-josefin), "Josefin Sans", Helvetica, Arial,
+    sans-serif;
+  --font-body: Georgia, serif;
+}
+
+/* Dark theme */
+.dark {
+  --background: #0f172a;
+  --foreground: #ededed;
+  --header-bg: rgba(15, 23, 42, 0.95);
+  --header-border: rgba(255, 255, 255, 0.1);
+  --card-bg: #1e293b;
+  --card-border: rgba(255, 255, 255, 0.1);
+  --muted: #cbd5e1;
+  --muted-foreground: #94a3b8;
+  --accent: #f59e0b;
+  --accent-hover: #fbbf24;
+
+  /* Map colors */
+  --map-district-fill: #1e293b;
+  --map-district-stroke: #ffffff;
+  --map-highlight-fill: #f59e0b;
+  --map-highlight-stroke: #ffffff;
+  --map-hover-fill: #60a5fa;
+
+  /* Tooltip colors */
+  --tooltip-bg: rgba(30, 41, 59, 0.95);
+  --tooltip-text: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-heading);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  /* Screen reader only - for accessibility */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+}
+
+/* Search expand animation */
+@keyframes search-expand {
+  from {
+    opacity: 0;
+    transform: scaleX(0.8);
+    transform-origin: right center;
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: right center;
+  }
+}
+
+.animate-search-expand {
+  animation: search-expand 0.2s ease-out forwards;
+}

@@ -1,0 +1,22 @@
+{
+  "code": "KA-36",
+  "region": "Raichur",
+  "city": "Raichur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Raichur",
+  "division": "Kalaburagi Division",
+  "description": "The KA-36 Regional Transport Office (Raichur RTO) handles vehicle registrations and transport services for this region in Raichur district.",
+  "established": "N/A",
+  "address": "Near KSRTC Depot, Mantralaya Road, Raichur",
+  "pinCode": "584101",
+  "phone": "08532-223329, 223094",
+  "email": "rtorcr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Raichur",
+    "Manvi",
+    "Sindhanur",
+    "Lingasugur",
+    "Devadurga"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "code": "GA-06",
+  "region": "Vasco da Gama",
+  "city": "Vasco da Gama",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "South Goa",
+  "division": "South Goa Division",
+  "description": "The GA-06 Regional Transport Office (Vasco RTO) handles vehicle registrations and transport services for Mormugao taluka in South Goa district. Vasco da Gama is home to Goa's major port and Dabolim Airport.",
+  "established": "1987",
+  "address": "Ground Floor, KTC Bus Stand, Vasco-da-Gama, Goa",
+  "pinCode": "403802",
+  "phone": "0832-2512634",
+  "email": "rto-vasco.goa@nic.in",
+  "jurisdictionAreas": [
+    "Bogmalo",
+    "Chicalim",
+    "Chicolna",
+    "Cansaulim",
+    "Cortalim",
+    "Dabolim",
+    "Desterro",
+    "Headland Sada",
+    "Issorcim",
+    "Majorda",
+    "Mormugao",
+    "Sancoale",
+    "Sao Jacinto",
+    "Vasco da Gama",
+    "Verna",
+    "Zuarinagar"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "code": "KA-26",
+  "region": "Gadag",
+  "city": "Gadag",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Gadag",
+  "division": "Belagavi Division",
+  "description": "The KA-26 Regional Transport Office (Gadag RTO) handles vehicle registrations and transport services for this region in Gadag district.",
+  "established": "N/A",
+  "address": "Haveri Road, Near Anjuman College, Gadag",
+  "pinCode": "582102",
+  "phone": "08372-297219",
+  "email": "rtogdg-ka@nic.in",
+  "jurisdictionAreas": [
+    "Gadag",
+    "Mundaragi",
+    "Shirahatti",
+    "Naragunda",
+    "Rona"
+  ]
+}

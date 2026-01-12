@@ -1,0 +1,82 @@
+name: Fix RTO Data
+description: Report incorrect or outdated RTO information
+title: "[FIX] "
+labels: ["bug", "data", "rto"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Report Incorrect RTO Data
+
+        Found an error in our RTO data? Let us know and we'll fix it!
+
+  - type: input
+    id: rto-code
+    attributes:
+      label: RTO Code *
+      description: "Which RTO has incorrect data? (e.g., KA-01, GA-07)"
+      placeholder: "KA-01"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: fields-affected
+    attributes:
+      label: Which fields are incorrect? *
+      description: Select all that apply
+      options:
+        - label: Region/Office name
+        - label: City
+        - label: District
+        - label: Division
+        - label: Description
+        - label: Jurisdiction areas
+        - label: Address
+        - label: PIN code
+        - label: Phone number
+        - label: Email
+        - label: Status (active/not-in-use)
+        - label: Year established
+        - label: Other
+
+  - type: textarea
+    id: current-value
+    attributes:
+      label: Current (Wrong) Value *
+      description: What does the site currently show?
+      placeholder: |
+        District: Bangalore Urban
+        City: Bangalore
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct-value
+    attributes:
+      label: Correct Value *
+      description: What should it say instead?
+      placeholder: |
+        District: Bengaluru Urban
+        City: Bengaluru
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source *
+      description: Where did you find the correct information?
+      placeholder: "https://transport.karnataka.gov.in/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other details that might help
+      placeholder: "The official spelling changed in 2014..."
+    validations:
+      required: false

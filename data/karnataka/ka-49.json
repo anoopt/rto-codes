@@ -1,0 +1,20 @@
+{
+  "code": "KA-49",
+  "region": "Gokak",
+  "city": "Gokak",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Belagavi",
+  "division": "Belagavi Division",
+  "description": "The KA-49 Assistant Regional Transport Office (Gokak ARTO) handles vehicle registrations and transport services for this region in Belagavi district.",
+  "established": "N/A",
+  "address": "Gokak, Belagavi District",
+  "pinCode": "591307",
+  "phone": "08332-224727",
+  "email": "artogkk-ka@nic.in",
+  "jurisdictionAreas": [
+    "Gokak",
+    "Gokak Hobali",
+    "Parts of Hukkeri Taluk"
+  ]
+}

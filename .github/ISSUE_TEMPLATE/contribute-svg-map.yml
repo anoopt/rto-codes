@@ -1,0 +1,151 @@
+name: Contribute SVG Map
+description: Submit a state district map for visualization
+title: "[MAP] "
+labels: ["enhancement", "map", "design"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Contribute a State Map
+
+        Help us add interactive district maps! SVG maps can be found on [Wikimedia Commons](https://commons.wikimedia.org/).
+
+  - type: dropdown
+    id: state
+    attributes:
+      label: State *
+      description: Which state is this map for?
+      options:
+        - Andhra Pradesh
+        - Arunachal Pradesh
+        - Assam
+        - Bihar
+        - Chhattisgarh
+        - Delhi
+        - Goa
+        - Gujarat
+        - Haryana
+        - Himachal Pradesh
+        - Jharkhand
+        - Karnataka
+        - Kerala
+        - Madhya Pradesh
+        - Maharashtra
+        - Manipur
+        - Meghalaya
+        - Mizoram
+        - Nagaland
+        - Odisha
+        - Punjab
+        - Rajasthan
+        - Sikkim
+        - Tamil Nadu
+        - Telangana
+        - Tripura
+        - Uttar Pradesh
+        - Uttarakhand
+        - West Bengal
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: state-code
+    attributes:
+      label: State Code *
+      description: "2-letter state code (e.g., KA, MH, TN)"
+      placeholder: "MH"
+    validations:
+      required: true
+
+  - type: input
+    id: source-url
+    attributes:
+      label: SVG Source URL *
+      description: Link to the SVG file (preferably Wikimedia Commons)
+      placeholder: "https://commons.wikimedia.org/wiki/File:Maharashtra_districts_map.svg"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License *
+      description: What license is the SVG under?
+      options:
+        - CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike)
+        - CC BY-SA 3.0
+        - CC BY 4.0 (Creative Commons Attribution)
+        - CC0 / Public Domain
+        - Original Work (my own creation)
+        - Other (specify in notes)
+    validations:
+      required: true
+
+  - type: input
+    id: num-districts
+    attributes:
+      label: Number of Districts
+      description: How many districts are in this map?
+      placeholder: "36"
+    validations:
+      required: false
+
+  - type: textarea
+    id: district-ids
+    attributes:
+      label: District IDs in SVG
+      description: 'List the district element IDs from the SVG (one per line). These are found in the id="..." attributes.'
+      placeholder: |
+        Mumbai_City
+        Mumbai_Suburban
+        Pune
+        Nagpur
+        Nashik
+    validations:
+      required: false
+
+  - type: textarea
+    id: district-mapping
+    attributes:
+      label: District Name Mapping
+      description: "Map modern district names to SVG IDs. Format: District Name → SVG_ID"
+      placeholder: |
+        Mumbai City → Mumbai_City
+        Mumbai Suburban → Mumbai_Suburban
+        Pune → Pune
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please verify
+      options:
+        - label: The SVG has separate elements for each district
+          required: true
+        - label: Each district element has a unique ID
+          required: true
+        - label: The license allows reuse with attribution
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any special considerations or notes about the map
+      placeholder: "Some districts were reorganized in 2020..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: preview
+    attributes:
+      label: Preview
+      description: Paste a screenshot of the map (drag and drop an image)
+      placeholder: "Drag and drop an image here..."
+    validations:
+      required: false

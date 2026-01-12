@@ -1,0 +1,21 @@
+{
+  "code": "KA-23",
+  "region": "Chikkodi",
+  "city": "Chikkodi",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Belagavi",
+  "division": "Belagavi Division",
+  "description": "The KA-23 Regional Transport Office (Chikkodi RTO) handles vehicle registrations and transport services for this region in Belagavi district.",
+  "established": "N/A",
+  "address": "N M Road, Chikkodi",
+  "pinCode": "591201",
+  "phone": "08338-272241, 08338-274129",
+  "email": "rtockd-ka@nic.in",
+  "jurisdictionAreas": [
+    "Chikkodi",
+    "Raibagh",
+    "Athani",
+    "Sankeswara"
+  ]
+}

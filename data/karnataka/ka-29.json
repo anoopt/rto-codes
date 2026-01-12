@@ -1,0 +1,21 @@
+{
+  "code": "KA-29",
+  "region": "Bagalkot",
+  "city": "Bagalkot",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bagalkot",
+  "division": "Belagavi Division",
+  "description": "The KA-29 Regional Transport Office (Bagalkot RTO) handles vehicle registrations and transport services for this region in Bagalkot district.",
+  "established": "N/A",
+  "address": "Station Road Extension Area, Navanagar, Bagalkot",
+  "pinCode": "577101",
+  "phone": "08354-235275, 235276",
+  "email": "rtobgkt-ka@nic.in",
+  "jurisdictionAreas": [
+    "Bagalkot",
+    "Hunagund",
+    "Bilagi",
+    "Badami"
+  ]
+}

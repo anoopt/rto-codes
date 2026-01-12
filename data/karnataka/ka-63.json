@@ -1,0 +1,19 @@
+{
+  "code": "KA-63",
+  "region": "Hubli",
+  "city": "Hubli",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Dharwad",
+  "division": "Belagavi Division",
+  "description": "The KA-63 Regional Transport Office (Hubli RTO) handles vehicle registrations and transport services for this region in Dharwad district.",
+  "established": "N/A",
+  "address": "Dharwad (East), Gabbur Cross, P.B. Road",
+  "pinCode": "580001",
+  "phone": "0836-2244550",
+  "email": "rtodwdeast.63@ka.gov.in",
+  "jurisdictionAreas": [
+    "Hubli",
+    "Dharwad East Areas"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "code": "KA-27",
+  "region": "Haveri",
+  "city": "Haveri",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Haveri",
+  "division": "Belagavi Division",
+  "description": "The KA-27 Regional Transport Office (Haveri RTO) handles vehicle registrations and transport services for this region in Haveri district.",
+  "established": "N/A",
+  "address": "Hubballi Road, Haveri",
+  "pinCode": "581110",
+  "phone": "08375-232299",
+  "email": "rtohvr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Haveri",
+    "Hanagal",
+    "Shiggao",
+    "Savanoor"
+  ]
+}

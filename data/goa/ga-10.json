@@ -1,0 +1,31 @@
+{
+  "code": "GA-10",
+  "region": "Canacona",
+  "city": "Canacona",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "South Goa",
+  "division": "South Goa Division",
+  "description": "The GA-10 Regional Transport Office (Canacona RTO) handles vehicle registrations and transport services for Canacona taluka in South Goa district. The region is famous for Palolem and Agonda beaches.",
+  "established": "2013",
+  "address": "Sub-Regional Transport Office, Canacona Municipal Council Building, Chaudi, Canacona, Goa",
+  "pinCode": "403702",
+  "phone": "0832-2643555",
+  "email": "adt-can-trans.goa@nic.in",
+  "jurisdictionAreas": [
+    "Agonda",
+    "Canacona",
+    "Chaudi",
+    "Cola",
+    "Cotigao",
+    "Gaondongrem",
+    "Karwar Border",
+    "Loliem",
+    "Mashem",
+    "Palolem",
+    "Patnem",
+    "Poinguinim",
+    "Rajbag",
+    "Shrishthal"
+  ]
+}

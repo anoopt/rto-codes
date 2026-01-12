@@ -1,0 +1,97 @@
+name: Bug Report
+description: Report a bug or issue with the website
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Report a Bug
+
+        Found something not working correctly? Let us know!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug *
+      description: A clear and concise description of what the bug is
+      placeholder: "When I click on the RTO code, the page shows an error..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce *
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Go to the homepage
+        2. Search for 'KA-01'
+        3. Click on the result
+        4. See error message
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: "The RTO details page should load correctly"
+    validations:
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: Which page has the issue?
+      placeholder: "https://rtocod.es/rto/ka-01"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Opera
+        - Other
+    validations:
+      required: false
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      description: What type of device?
+      options:
+        - Desktop
+        - Mobile
+        - Tablet
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop any screenshots that help explain the problem
+      placeholder: "Drag and drop images here..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other information that might help
+    validations:
+      required: false

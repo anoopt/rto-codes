@@ -1,0 +1,21 @@
+{
+  "code": "KA-20",
+  "region": "Udupi",
+  "city": "Udupi",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Udupi",
+  "division": "Shivamogga Division",
+  "description": "The KA-20 Regional Transport Office (Udupi RTO) handles vehicle registrations and transport services for this region in Udupi district.",
+  "established": "N/A",
+  "address": "Sarige Sowdha, Rajatadri, Manipal, Udupi",
+  "pinCode": "576103",
+  "phone": "0820-2575137",
+  "email": "rtoudp-ka@nic.in",
+  "jurisdictionAreas": [
+    "Udupi",
+    "Kundapura",
+    "Karkala",
+    "Brahmavar"
+  ]
+}

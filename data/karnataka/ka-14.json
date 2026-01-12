@@ -1,0 +1,20 @@
+{
+  "code": "KA-14",
+  "region": "Shivamogga",
+  "city": "Shivamogga",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Shivamogga",
+  "division": "Shivamogga Division",
+  "description": "The KA-14 Regional Transport Office (Shivamogga RTO) handles vehicle registrations and transport services for this region in Shivamogga district.",
+  "established": "N/A",
+  "address": "Sowlang Road, Old D.C Office Compound, Shivamogga",
+  "pinCode": "577201",
+  "phone": "08182-222209",
+  "email": "rtosmg-ka@nic.in",
+  "jurisdictionAreas": [
+    "Shivamogga",
+    "Bhadravathi",
+    "Theerthahalli"
+  ]
+}

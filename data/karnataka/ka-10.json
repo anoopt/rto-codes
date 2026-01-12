@@ -1,0 +1,21 @@
+{
+  "code": "KA-10",
+  "region": "Chamarajanagar",
+  "city": "Chamarajanagar",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Chamarajanagar",
+  "division": "Mysuru Division",
+  "description": "The KA-10 Regional Transport Office (Chamarajanagar RTO) handles vehicle registrations and transport services for this region in Chamarajanagar district.",
+  "established": "N/A",
+  "address": "Near Railway Station Road, Chamarajanagar",
+  "pinCode": "571313",
+  "phone": "08226-222444",
+  "email": "rtochmgr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Chamarajanagar",
+    "Kollegal",
+    "Gundlupet",
+    "Yelandur"
+  ]
+}

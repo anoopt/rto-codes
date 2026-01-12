@@ -1,0 +1,20 @@
+{
+  "code": "KA-57",
+  "region": "Shanthinagar",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Urban",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-57 Regional Transport Office (Shanthinagar RTO) handles vehicle registrations and transport services for this region in Bengaluru Urban district.",
+  "established": "N/A",
+  "address": "STU and Autorikshaws, Shanthinagar, Bengaluru",
+  "pinCode": "560027",
+  "phone": "080-22230051, 22230110",
+  "email": "rtoarstu-ka@nic.in",
+  "jurisdictionAreas": [
+    "STU Vehicles",
+    "Autorickshaws",
+    "Shanthinagar Area"
+  ]
+}

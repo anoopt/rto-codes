@@ -1,0 +1,23 @@
+{
+  "code": "KA-52",
+  "region": "Nelamangala",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Rural",
+  "division": "Bengaluru Rural Division",
+  "description": "The KA-52 Regional Transport Office (Nelamangala RTO) handles vehicle registrations and transport services for this region in Bengaluru Rural district.",
+  "established": "N/A",
+  "address": "Survey No. 63, Gowdahalli Village, Dasanapura Hobli, Bengaluru North",
+  "pinCode": "562162",
+  "phone": "080-29511295",
+  "email": "rtonmg-ka@nic.in",
+  "jurisdictionAreas": [
+    "Nelamangala",
+    "Dasanapura",
+    "Dobaspet",
+    "Hesaraghatta Hobli",
+    "Thyamagondlu",
+    "Arishinakunte"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "code": "KA-37",
+  "region": "Koppal",
+  "city": "Koppal",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Koppal",
+  "division": "Kalaburagi Division",
+  "description": "The KA-37 Regional Transport Office (Koppal RTO) handles vehicle registrations and transport services for this region in Koppal district.",
+  "established": "N/A",
+  "address": "APMC Yard, Koppal",
+  "pinCode": "583231",
+  "phone": "08539-220829, 225023",
+  "email": "rtokpl-ka@nic.in",
+  "jurisdictionAreas": [
+    "Koppal",
+    "Kushtagi",
+    "Yelburga",
+    "Gangavathi"
+  ]
+}

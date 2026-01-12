@@ -1,0 +1,21 @@
+{
+  "code": "GA-02",
+  "region": "Margao",
+  "city": "Margao",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "South Goa",
+  "division": "South Goa Division",
+  "description": "The GA-02 RTO code was originally assigned to Margao in South Goa district but is currently not in use. Vehicle registrations for Margao are now handled by GA-08 (Salcette taluka).",
+  "status": "discontinued",
+  "established": "1988",
+  "address": "1st Floor, Matanhy Saldanha Administrative Complex, South Goa Collectorate, Arlem, Margao, Goa",
+  "pinCode": "403601",
+  "phone": "0832-2794406",
+  "email": "adtm-trans.goa@nic.in",
+  "jurisdictionAreas": [
+    "Salcete"
+  ],
+  "redirectTo": "GA-08",
+  "note": "This RTO code is not in use. For Margao registrations, please refer to GA-08."
+}

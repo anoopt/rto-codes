@@ -1,0 +1,118 @@
+name: Post-Merge Processing
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**/*.json"
+      - "!data/**/index.json"
+      - "!data/rto-images.json"
+
+jobs:
+  generate-images:
+    name: Generate RTO Images
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v46.0.1
+        with:
+          files: |
+            data/**/*.json
+          files_ignore: |
+            data/**/index.json
+            data/rto-images.json
+
+      - name: Generate RTO images
+        if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: |
+          echo "Generating RTO images..."
+
+          # Only run if all required secrets are available
+          if [ -z "$GEMINI_API_KEY" ] || [ -z "$CLOUDINARY_CLOUD_NAME" ] || [ -z "$CLOUDINARY_API_KEY" ] || [ -z "$CLOUDINARY_API_SECRET" ]; then
+            echo "⚠️  Image generation secrets not configured - skipping"
+            echo "   Required secrets: GEMINI_API_KEY, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET"
+            echo ""
+            echo "Note: Index and sitemap are generated during Vercel build (prebuild step)"
+            exit 0
+          fi
+
+          # Extract states from changed files
+          states=$(echo "${{ steps.changed-files.outputs.all_changed_files }}" | \
+            grep -oP 'data/\K[^/]+' | sort -u)
+
+          for state in $states; do
+            if [ -d "data/$state" ] && [ "$state" != "rto-images.json" ]; then
+              echo "Generating images for state: $state"
+              bun scripts/generate-rto-images.ts --state="$state" || echo "⚠️  Failed to generate images for $state"
+            fi
+          done
+
+      - name: Commit rto-images.json
+        if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+        run: |
+          # Only commit if secrets were available (images were generated)
+          if [ -z "$GEMINI_API_KEY" ] || [ -z "$CLOUDINARY_CLOUD_NAME" ]; then
+            echo "Skipping commit - no images were generated"
+            exit 0
+          fi
+
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Only add rto-images.json (index.json and sitemap are generated during build)
+          git add data/rto-images.json 2>/dev/null || true
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No new images generated"
+          else
+            git commit -m "chore: update RTO images tracking"
+            git push
+            echo "✅ rto-images.json updated"
+          fi
+
+      - name: Summary
+        if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+        run: |
+          echo "=========================================="
+          echo "Post-Merge Processing Complete"
+          echo "=========================================="
+          echo ""
+          echo "ℹ️  Index files and sitemap are generated during Vercel build"
+          echo "   (via prebuild script in package.json)"
+          echo ""
+          if [ -n "$GEMINI_API_KEY" ] && [ -n "$CLOUDINARY_CLOUD_NAME" ]; then
+            echo "✅ RTO images generated and uploaded to Cloudinary"
+          else
+            echo "⚠️  RTO images skipped (secrets not configured)"
+            echo "   Configure secrets in repository settings to enable automatic image generation"
+          fi

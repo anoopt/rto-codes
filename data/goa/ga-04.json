@@ -1,0 +1,33 @@
+{
+  "code": "GA-04",
+  "region": "Bicholim",
+  "city": "Bicholim",
+  "state": "Goa",
+  "stateCode": "GA",
+  "district": "North Goa",
+  "division": "North Goa Division",
+  "description": "The GA-04 Regional Transport Office (Bicholim RTO) handles vehicle registrations and transport services for Bicholim and Sattari talukas in North Goa district. The region is known for its mining industry and historical temples.",
+  "established": "1989",
+  "address": "Assistant Director of Transport, 1st Floor, Govt. Building (Mini Secretariat), Bicholim, Goa",
+  "pinCode": "403504",
+  "phone": "0832-2363066",
+  "email": "adt-bich.goa@nic.in",
+  "jurisdictionAreas": [
+    "Amona",
+    "Bicholim",
+    "Cudnem",
+    "Honda",
+    "Latambarcem",
+    "Maulinguem",
+    "Mayem",
+    "Navelim",
+    "Pale",
+    "Piligao",
+    "Sal",
+    "Sanquelim",
+    "Sattari",
+    "Sirigao",
+    "Surla",
+    "Valpoi"
+  ]
+}

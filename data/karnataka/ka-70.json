@@ -1,0 +1,19 @@
+{
+  "code": "KA-70",
+  "region": "Bantwal",
+  "city": "Bantwal",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Dakshina Kannada",
+  "division": "Shivamogga Division",
+  "description": "The KA-70 Assistant Regional Transport Office (Bantwal ARTO) handles vehicle registrations and transport services for this region in Dakshina Kannada district.",
+  "established": "N/A",
+  "address": "No. 21-65/2, Birwa Tower, Melkar, Bantwala TQ & Post",
+  "pinCode": "574231",
+  "phone": "08255-280504",
+  "email": "artobantwal@gmail.com",
+  "jurisdictionAreas": [
+    "Bantwal",
+    "Belthangady"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "code": "KA-45",
+  "region": "Hunsur",
+  "city": "Hunsur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Mysuru",
+  "division": "Mysuru Division",
+  "description": "The KA-45 Assistant Regional Transport Office (Hunsur ARTO) handles vehicle registrations and transport services for this region in Mysuru district.",
+  "established": "N/A",
+  "address": "Cauvery Irrigation Nigama, No.1, HRBC Building, Hunsur",
+  "pinCode": "571105",
+  "phone": "08222-252699",
+  "email": "artohnsr-ka@nic.in",
+  "jurisdictionAreas": [
+    "Hunsur",
+    "Periyapatna",
+    "H.D. Kote",
+    "K.R. Nagar"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "code": "KA-53",
+  "region": "KR Puram",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Urban",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-53 Regional Transport Office (KR Puram RTO) handles vehicle registrations and transport services for this region in Bengaluru Urban district.",
+  "established": "N/A",
+  "address": "No. 5/4, Bhattarahalli, Old Madras Road, K.R. Puram, Bengaluru",
+  "pinCode": "560049",
+  "phone": "080-25617951, 25617959",
+  "email": "rtokrpur-ka@nic.in",
+  "jurisdictionAreas": [
+    "K.R. Puram",
+    "Mahadevapura",
+    "Whitefield",
+    "ITPL",
+    "Hoodi",
+    "HBR Layout",
+    "Hennur",
+    "Hosakote"
+  ]
+}

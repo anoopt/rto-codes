@@ -1,0 +1,22 @@
+{
+  "code": "KA-59",
+  "region": "Chandapura",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Urban",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-59 Regional Transport Office (Chandapura RTO) handles vehicle registrations and transport services for this region in Bengaluru Urban district.",
+  "established": "N/A",
+  "address": "No. 194 & 195, Anekal Main Road, Marasuru Village",
+  "pinCode": "562106",
+  "phone": "080-27827265",
+  "email": "rto-chandapura@karnataka.gov.in",
+  "jurisdictionAreas": [
+    "Anekal Taluk",
+    "Jigani",
+    "Attibele",
+    "Sarjapura",
+    "Chandapura"
+  ]
+}

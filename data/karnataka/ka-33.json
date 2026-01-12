@@ -1,0 +1,20 @@
+{
+  "code": "KA-33",
+  "region": "Yadgir",
+  "city": "Yadgir",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Yadgir",
+  "division": "Kalaburagi Division",
+  "description": "The KA-33 Regional Transport Office (Yadgir RTO) handles vehicle registrations and transport services for this region in Yadgir district.",
+  "established": "N/A",
+  "address": "Near KSRTC Bus Depot, Station Area, Yadgir",
+  "pinCode": "585201",
+  "phone": "08473-252580",
+  "email": "rtoydgrka@nic.in",
+  "jurisdictionAreas": [
+    "Yadgir",
+    "Shahapur",
+    "Surapura"
+  ]
+}

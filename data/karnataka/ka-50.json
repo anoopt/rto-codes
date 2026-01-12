@@ -1,0 +1,24 @@
+{
+  "code": "KA-50",
+  "region": "Yelahanka",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Bengaluru Urban",
+  "division": "Bengaluru Urban Division",
+  "description": "The KA-50 Regional Transport Office (Yelahanka RTO) handles vehicle registrations and transport services for this region in Bengaluru Urban district.",
+  "established": "N/A",
+  "address": "Survey No. 111, Singanayakanahalli Village, Yelahanka Hobli (North), Bengaluru",
+  "pinCode": "560064",
+  "phone": "080-29729909",
+  "email": "rtoylnk-ka@nic.in",
+  "jurisdictionAreas": [
+    "Yelahanka",
+    "Yelahanka New Town",
+    "Jakkur",
+    "Vidyaranyapura",
+    "Sahakaranagara",
+    "Hebbal",
+    "GKVK"
+  ]
+}

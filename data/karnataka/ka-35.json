@@ -1,0 +1,22 @@
+{
+  "code": "KA-35",
+  "region": "Hospet",
+  "city": "Hospet",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Vijayanagara",
+  "division": "Kalaburagi Division",
+  "description": "The KA-35 Regional Transport Office (Hospet RTO) handles vehicle registrations and transport services for this region in Vijayanagara district.",
+  "established": "N/A",
+  "address": "No.180, Near Harihara Road, Amaravathi, Hospet",
+  "pinCode": "583201",
+  "phone": "08394-230766, 231982",
+  "email": "rtohsp-ka@nic.in",
+  "jurisdictionAreas": [
+    "Hospet",
+    "Kudligi",
+    "Sandur",
+    "Hagaribommanahalli",
+    "Hadagali"
+  ]
+}

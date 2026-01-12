@@ -1,0 +1,192 @@
+name: Validate RTO Data PR
+
+on:
+  pull_request:
+    paths:
+      - "data/**/*.json"
+      - "!data/**/index.json"
+      - "!data/rto-images.json"
+
+jobs:
+  validate-json:
+    name: Validate JSON Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v46.0.1
+        with:
+          files: |
+            data/**/*.json
+          files_ignore: |
+            data/**/index.json
+            data/rto-images.json
+
+      - name: Validate JSON syntax
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Validating JSON syntax for changed files..."
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Checking $file"
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ Invalid JSON syntax in $file"
+              exit 1
+            fi
+            echo "✅ $file is valid JSON"
+          done
+
+      - name: Validate RTO file naming
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Validating RTO file naming convention..."
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            # Skip config.json files
+            if [[ "$file" == *"config.json" ]]; then
+              continue
+            fi
+            
+            filename=$(basename "$file")
+            # Should match pattern: xx-yy.json (e.g., ka-01.json, mh-12.json)
+            if [[ ! "$filename" =~ ^[a-z]{2}-[0-9]{2}\.json$ ]]; then
+              echo "❌ Invalid filename: $filename"
+              echo "   Expected format: xx-yy.json (e.g., ka-01.json, mh-12.json)"
+              exit 1
+            fi
+            echo "✅ $filename follows naming convention"
+          done
+
+      - name: Validate RTO data structure
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Validating RTO data structure..."
+          exit_code=0
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            # Skip config.json files
+            if [[ "$file" == *"config.json" ]]; then
+              continue
+            fi
+            
+            echo "Validating $file"
+            
+            # Check required fields
+            required_fields=("code" "region" "city" "state" "stateCode" "district")
+            for field in "${required_fields[@]}"; do
+              if ! jq -e ".$field" "$file" > /dev/null 2>&1; then
+                echo "❌ Missing required field '$field' in $file"
+                exit_code=1
+              elif [ "$(jq -r ".$field" "$file")" == "null" ] || [ "$(jq -r ".$field" "$file")" == "" ]; then
+                echo "❌ Required field '$field' is empty in $file"
+                exit_code=1
+              fi
+            done
+            
+            # Validate code format (XX-YY)
+            code=$(jq -r '.code' "$file")
+            if [[ ! "$code" =~ ^[A-Z]{2}-[0-9]{2}$ ]]; then
+              echo "❌ Invalid code format '$code' in $file (expected XX-YY, e.g., KA-01)"
+              exit_code=1
+            fi
+            
+            # Validate state code format (XX)
+            stateCode=$(jq -r '.stateCode' "$file")
+            if [[ ! "$stateCode" =~ ^[A-Z]{2}$ ]]; then
+              echo "❌ Invalid stateCode format '$stateCode' in $file (expected XX, e.g., KA)"
+              exit_code=1
+            fi
+            
+            # Validate PIN code format if present (6 digits)
+            if jq -e '.pinCode' "$file" > /dev/null 2>&1; then
+              pinCode=$(jq -r '.pinCode' "$file")
+              if [ "$pinCode" != "null" ] && [ "$pinCode" != "" ] && [[ ! "$pinCode" =~ ^[0-9]{6}$ ]]; then
+                echo "⚠️  Warning: Invalid PIN code format '$pinCode' in $file (expected 6 digits)"
+              fi
+            fi
+            
+            # Validate status if present
+            if jq -e '.status' "$file" > /dev/null 2>&1; then
+              status=$(jq -r '.status' "$file")
+              if [ "$status" != "null" ] && [ "$status" != "" ]; then
+                if [[ ! "$status" =~ ^(active|not-in-use|discontinued)$ ]]; then
+                  echo "❌ Invalid status '$status' in $file (expected: active, not-in-use, or discontinued)"
+                  exit_code=1
+                fi
+              fi
+            fi
+            
+            # Validate jurisdictionAreas is an array if present
+            if jq -e '.jurisdictionAreas' "$file" > /dev/null 2>&1; then
+              if ! jq -e '.jurisdictionAreas | type == "array"' "$file" > /dev/null 2>&1; then
+                echo "❌ Field 'jurisdictionAreas' must be an array in $file"
+                exit_code=1
+              fi
+            fi
+            
+            if [ $exit_code -eq 0 ]; then
+              echo "✅ $file passed validation"
+            fi
+          done
+
+          exit $exit_code
+
+      - name: Check for auto-generated files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Checking for auto-generated files that shouldn't be in PR..."
+          error=0
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ "$file" == *"index.json" ]]; then
+              echo "❌ Please don't include index.json files in your PR"
+              echo "   These are auto-generated during the build process"
+              error=1
+            fi
+            if [[ "$file" == "data/rto-images.json" ]]; then
+              echo "❌ Please don't include rto-images.json in your PR"
+              echo "   This file is auto-generated by the image generation script"
+              error=1
+            fi
+          done
+
+          if [ $error -eq 1 ]; then
+            echo ""
+            echo "Please remove auto-generated files from your PR and commit again."
+            exit 1
+          fi
+
+          echo "✅ No auto-generated files detected"
+
+      - name: Validation Summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "Validation Summary"
+          echo "=========================================="
+          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
+          echo ""
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "✅ All validations passed!"
+            echo ""
+            echo "Next steps for maintainers:"
+            echo "1. Review the contribution"
+            echo "2. Run 'Enrich RTO Data' workflow to add AI-generated details"
+            echo "3. Review the enriched data"
+            echo "4. Approve and merge"
+          else
+            echo "❌ Some validations failed"
+            echo "Please check the errors above and fix them"
+          fi

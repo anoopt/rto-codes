@@ -1,0 +1,20 @@
+{
+  "code": "KA-68",
+  "region": "Ranebennur",
+  "city": "Ranebennur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Haveri",
+  "division": "Belagavi Division",
+  "description": "The KA-68 Assistant Regional Transport Office (Ranebennur ARTO) handles vehicle registrations and transport services for this region in Haveri district.",
+  "established": "N/A",
+  "address": "Reg.No. 304-A/1A/1, Plot No.103, Siddeshwara Nagara, Haveri",
+  "pinCode": "581115",
+  "phone": "08373-260452",
+  "email": "artoranebennur@gmail.com",
+  "jurisdictionAreas": [
+    "Ranebennur",
+    "Hirekerur",
+    "Byadagi"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "code": "KA-60",
+  "region": "Yellapur",
+  "city": "Yellapur",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Uttara Kannada",
+  "division": "Belagavi Division",
+  "description": "The KA-60 Assistant Regional Transport Office (Yellapur ARTO) handles vehicle registrations and transport services for this region in Uttara Kannada district.",
+  "established": "N/A",
+  "address": "ARTO Office, Yellapur, Uttara Kannada",
+  "pinCode": "581359",
+  "phone": "08382-256100",
+  "email": "artoukeka@nic.in",
+  "jurisdictionAreas": [
+    "Yellapur",
+    "Mundgod",
+    "Haliyal"
+  ]
+}

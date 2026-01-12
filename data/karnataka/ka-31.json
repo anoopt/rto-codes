@@ -1,0 +1,23 @@
+{
+  "code": "KA-31",
+  "region": "Sirsi",
+  "city": "Sirsi",
+  "state": "Karnataka",
+  "stateCode": "KA",
+  "district": "Uttara Kannada",
+  "division": "Belagavi Division",
+  "description": "The KA-31 Regional Transport Office (Sirsi RTO) handles vehicle registrations and transport services for this region in Uttara Kannada district.",
+  "established": "N/A",
+  "address": "Basaveshwara Colony, Uttara Kannada, Sirsi",
+  "pinCode": "581402",
+  "phone": "08384-233090, 234259",
+  "email": "rtosrs-ka@nic.in",
+  "jurisdictionAreas": [
+    "Sirsi",
+    "Siddapura",
+    "Yellapura",
+    "Mundagod",
+    "Haliyal",
+    "Dandeli"
+  ]
+}
