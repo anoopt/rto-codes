@@ -9,7 +9,7 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
 
-## � Screenshots
+## 🖼️ Screenshots
 
 <table>
   <tr>
@@ -32,7 +32,7 @@ Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
   </tr>
 </table>
 
-## �📋 Project Status
+## 📋 Project Status
 
 ✅ **Karnataka Complete** - All 70 RTO codes documented and searchable!
 
