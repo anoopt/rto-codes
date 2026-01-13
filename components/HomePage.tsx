@@ -14,7 +14,7 @@ interface HomePageProps {
 
 export default function HomePage({ rtos, availableImages }: HomePageProps) {
     const [searchQuery, setSearchQuery] = useState('');
-    
+
     // Constant for retry delay when scrolling to tile
     const TILE_SCROLL_RETRY_DELAY = 100;
 
@@ -23,10 +23,10 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
         if (typeof window !== 'undefined') {
             // Check if there's a hash in the URL (e.g., #ka-01)
             const hash = window.location.hash.slice(1); // Remove the '#'
-            
+
             if (hash) {
                 let retryTimeout: ReturnType<typeof setTimeout> | null = null;
-                
+
                 // Wait for DOM to be ready and then scroll to the tile
                 const scrollToTile = () => {
                     // Use data attribute for more robust element selection
@@ -40,7 +40,7 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
                     }
                     return false;
                 };
-                
+
                 // Use requestAnimationFrame to ensure DOM is ready
                 requestAnimationFrame(() => {
                     // Try to scroll immediately first
@@ -50,7 +50,7 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
                         retryTimeout = setTimeout(scrollToTile, TILE_SCROLL_RETRY_DELAY);
                     }
                 });
-                
+
                 // Clean up timeout on unmount
                 return () => {
                     if (retryTimeout) {
@@ -98,10 +98,10 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
             <section className="pt-12 bg-[var(--background)] border-b border-[var(--header-border)] transition-colors duration-300">
                 <div className="max-w-4xl mx-auto px-4 py-8 text-center">
                     <p className="text-[var(--muted)] text-lg leading-relaxed">
-                        Every vehicle in India has a registration number in the format{' '}
-                        <span className="text-[var(--foreground)] font-medium">XX-00-XX-0000</span>.{' '}
+                        Most vehicles in India have a registration number in the format{' '}
+                        <span className="text-[var(--foreground)] font-medium">XX-00(0)-XX-0000</span>.{' '}
                         The first two letters represent the <span className="text-[var(--foreground)]">state</span> (e.g., KA for Karnataka),{' '}
-                        followed by a <span className="text-[var(--foreground)]">two-digit code</span> identifying the Regional Transport Office (RTO){' '}
+                        followed by a <span className="text-[var(--foreground)]">two or three-digit code</span> identifying the Regional Transport Office (RTO){' '}
                         where the vehicle was registered.{' '}
                         This site catalogues all <span className="text-[var(--accent)] font-medium">{rtos.length} RTO codes</span> across {stateText}, with more states coming soon.
                     </p>

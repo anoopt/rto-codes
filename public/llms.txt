@@ -1,12 +1,12 @@
 # RTO Codes India
 
-> A comprehensive, searchable database of Regional Transport Office (RTO) codes in India. Currently covering all 70 RTO codes in Karnataka with plans to expand to other Indian states.
+> A comprehensive, searchable database of Regional Transport Office (RTO) codes in India. Currently covering all 83 RTO codes in Karnataka and Goa with plans to expand to other Indian states.
 
 ## About This Site
 
-RTO Codes India helps users understand vehicle registration numbers in India. Every Indian vehicle has a registration number in the format `XX-00-XX-0000`, where:
+RTO Codes India helps users understand vehicle registration numbers in India. Most Indian vehicles have a registration number in the format `XX-00(0)-XX-0000`, where:
 - First two letters: State code (e.g., KA for Karnataka)
-- Next two digits: RTO office code (e.g., 01 for Bangalore Central)
+- Next two or three digits: RTO office code (e.g., 01 for Bangalore Central or 324 for Markapur)
 - Remaining characters: Unique vehicle identifier
 
 This site provides detailed information about each RTO office, including the region it serves, the district, and coverage area.
