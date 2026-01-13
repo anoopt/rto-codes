@@ -80,7 +80,7 @@ export default function ContributePage() {
               </a>{' '}
               or{' '}
               <a
-                href="https://twitter.com/AnoopTatti"
+                href="https://twitter.com/anooptells"
                 className="text-[var(--accent)] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
