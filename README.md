@@ -1,13 +1,36 @@
 # RTO Codes India
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes)
-[![Website](https://img.shields.io/badge/WEBSITE-UP-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://rto-codes.in)
 
-A comprehensive, searchable database of RTO (Regional Transport Office) codes in India, starting with Karnataka.
+A comprehensive, searchable database of RTO (Regional Transport Office) codes in India (currently covering Karnataka and Goa) with detailed information and interactive maps. Plans to expand to all Indian states and union territories.
 
-🌐 **Live Site**: [https://rto-codes.in](https://rto-codes.in)
+💡 Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
 
-Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
+🌐 **Live Site**: [rto-codes.in](https://rto-codes.in)
+
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Frto-codes.in&logo=vercel&logoColor=white&up_message=online&down_message=offline)](https://rto-codes.in)
+
+## Data & Coverage Status
+
+### 📊 Summary
+
+![States](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.states.length&label=States&suffix=%20%2F%2028&color=brightgreen)
+![Union Territories](https://img.shields.io/badge/Union%20Territories-0%20%2F%208-orange)
+![Total RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalRTOs&label=Total%20RTOs&color=blue)
+![Verified RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalVerified&label=Verified&color=success)
+
+### 🗺 State-wise Breakdown
+
+| State              | Status                                                          | RTOs                                                                                                                                                                                                     | Map Asset    |
+| ------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| **Karnataka (KA)** | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![KA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fkarnataka%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue) | ✅ Available |
+| **Goa (GA)**       | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![GA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fgoa%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue)       | ✅ Available |
+
+## 🛠 Tech Specs
+
+![Bun](https://img.shields.io/badge/Runtime-Bun-f9f1e1?logo=bun&logoColor=black)
+![Next.js](https://img.shields.io/badge/Framework-Next.js%2015-black?logo=next.js)
+![Tailwind](https://img.shields.io/badge/CSS-Tailwind%204-38B2AC?logo=tailwind-css)
 
 ## 🖼️ Screenshots
 
@@ -32,34 +55,33 @@ Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
   </tr>
 </table>
 
-## 📋 Project Status
+## ✨ Features
 
-✅ **Karnataka Complete** - All 70 RTO codes documented and searchable!
+- 🔍 **Instant Search** - Search by code, region, city, or district
+- 📱 **Fully Responsive** - Optimized for all devices
+- 🗺️ **Interactive Maps** - District map highlighting for supported states
+- ⚡ **Fast Loading** - Static site generation with Next.js
+- 🎨 **Dark Theme** - Beautiful dark UI with theme switching
+- 🚀 **Performance** - Built with Bun for maximum speed
 
-**Features:**
+## 📊 Coverage
 
-- 🔍 Instant search by code, region, city, or district
-- 📱 Fully responsive design
-- 🗺️ District map highlighting (optional)
-- ⚡ Static site generation for fast loading
-- 🎨 Dark theme UI
+✅ **Karnataka** - All 70 RTO codes complete  
+✅ **Goa** - All 12 RTO codes complete
+
+🔄 **Coming Soon**: Additional Indian states and union territories
 
 ### Quick Links
 
-- **[PLANNING.md](./PLANNING.md)** - Comprehensive planning and roadmap
+- **[PLANNING.md](./PLANNING.md)** - Roadmap and future plans
 
-## 🎯 Goals
+## 🛠 Technology Stack
 
-1. **Phase 1**: Create a comprehensive, searchable database of Karnataka RTO codes
-2. **Future**: Expand to other Indian states
-3. **Provide**: Easy-to-use interface for looking up RTO codes and their regions
-
-## 🛠 Planned Technology Stack
-
-- **Framework**: Next.js 15+ (React with TypeScript)
-- **Styling**: Tailwind CSS
+- **Framework**: Next.js 16+ with React 19 and TypeScript
+- **Styling**: Tailwind CSS 4
 - **Search**: Fuse.js for fuzzy search
-- **Deployment**: Vercel or GitHub Pages
+- **Package Manager**: Bun
+- **Deployment**: Vercel
 - **Data**: JSON files with TypeScript types
 
 ## 🤝 Contributing
