@@ -89,7 +89,7 @@ export default function StateMapClient({
     }, []);
 
     useEffect(() => {
-        if (!containerRef.current || !svgContent) return;
+        if (!containerRef.current || !svgContent || svgContent.trim() === '') return;
 
         // Convert district IDs array to Set for O(1) lookup
         const districtIdSet = new Set(districtIds);
@@ -126,6 +126,12 @@ export default function StateMapClient({
 
             if (!svgElement) {
                 console.warn('StateMapClient: No SVG element found in content');
+                return;
+            }
+
+            // Additional safety check: ensure svgElement is actually an SVGSVGElement
+            if (!(svgElement instanceof SVGSVGElement)) {
+                console.warn('StateMapClient: Element is not a valid SVG element');
                 return;
             }
 
@@ -268,7 +274,8 @@ export default function StateMapClient({
         return () => observer.disconnect();
     }, [svgContent, highlightDistrictId, districtIds, interactive, districtInfoMap, onDistrictClick, createTooltip]);
 
-    if (!svgContent) {
+    // Don't render if no SVG content is provided
+    if (!svgContent || svgContent.trim() === '') {
         return null;
     }
 

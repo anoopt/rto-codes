@@ -332,11 +332,11 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                   {/* Jurisdiction Areas */}
                   {rto.jurisdictionAreas && rto.jurisdictionAreas.length > 0 && (
                     <div className="mt-6 text-[var(--muted-foreground)] text-sm max-w-md mx-auto">
-                      <div className="flex flex-wrap justify-center gap-2">
+                      <div className="flex flex-wrap justify-center items-center gap-2">
                         {rto.jurisdictionAreas.map((area: string, index: number) => (
                           <span
                             key={index}
-                            className="px-3 py-1 bg-[var(--card-bg)] border border-[var(--card-border)] rounded-full text-xs uppercase tracking-wide"
+                            className="inline-flex items-center justify-center px-3 pt-2 pb-1.5 bg-[var(--card-bg)] border border-[var(--card-border)] rounded-full text-xs uppercase tracking-wide leading-none"
                           >
                             {area}
                           </span>
@@ -384,7 +384,7 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                   {/* Division Badge */}
                   {rto.division && (
                     <div className="mt-6 text-center">
-                      <span className="inline-block px-4 py-1.5 bg-[var(--card-bg)] border border-[var(--card-border)] rounded text-xs text-[var(--muted-foreground)] uppercase tracking-wider">
+                      <span className="inline-flex items-center justify-center px-4 pt-2 pb-1.5 bg-[var(--card-bg)] border border-[var(--card-border)] rounded text-xs text-[var(--muted-foreground)] uppercase tracking-wider leading-none">
                         {rto.division}
                       </span>
                     </div>

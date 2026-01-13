@@ -18,7 +18,7 @@ body:
     id: rto-code
     attributes:
       label: RTO Code *
-      description: "Format: XX-YY (e.g., KA-01, MH-12, TN-05)"
+      description: "Format: XX-YY or XX-YYY (e.g., KA-01, MH-12, TN-123)"
       placeholder: "KA-72"
     validations:
       required: true

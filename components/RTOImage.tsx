@@ -15,6 +15,11 @@ interface RTOImageProps {
 }
 
 /**
+ * Check if Cloudinary is configured (client-side)
+ */
+const isCloudinaryConfigured = !!process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+
+/**
  * Get the Cloudinary public ID for an RTO code
  */
 function getRTOImagePublicId(rtoCode: string): string {
@@ -32,8 +37,8 @@ export default function RTOImage({ rtoCode, city, variant, className = '', hasIm
     // Grayscale + desaturation filter for inactive RTOs
     const inactiveFilter = isInactive ? 'grayscale(100%) brightness(0.7) contrast(0.9)' : undefined;
 
-    // Don't render if no image exists for this RTO
-    if (!hasImage || hasError) {
+    // Don't render if Cloudinary is not configured or no image exists
+    if (!isCloudinaryConfigured || !hasImage || hasError) {
         return null;
     }
 

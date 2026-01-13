@@ -60,10 +60,10 @@ jobs:
             fi
             
             filename=$(basename "$file")
-            # Should match pattern: xx-yy.json (e.g., ka-01.json, mh-12.json)
-            if [[ ! "$filename" =~ ^[a-z]{2}-[0-9]{2}\.json$ ]]; then
+            # Should match pattern: xx-yy.json or xx-yyy.json (e.g., ka-01.json, mh-123.json)
+            if [[ ! "$filename" =~ ^[a-z]{2}-[0-9]{2,3}\.json$ ]]; then
               echo "❌ Invalid filename: $filename"
-              echo "   Expected format: xx-yy.json (e.g., ka-01.json, mh-12.json)"
+              echo "   Expected format: xx-yy.json or xx-yyy.json (e.g., ka-01.json, mh-123.json)"
               exit 1
             fi
             echo "✅ $filename follows naming convention"
@@ -95,10 +95,10 @@ jobs:
               fi
             done
             
-            # Validate code format (XX-YY)
+            # Validate code format (XX-YY or XX-YYY)
             code=$(jq -r '.code' "$file")
-            if [[ ! "$code" =~ ^[A-Z]{2}-[0-9]{2}$ ]]; then
-              echo "❌ Invalid code format '$code' in $file (expected XX-YY, e.g., KA-01)"
+            if [[ ! "$code" =~ ^[A-Z]{2}-[0-9]{2,3}$ ]]; then
+              echo "❌ Invalid code format '$code' in $file (expected XX-YY or XX-YYY, e.g., KA-01, MH-123)"
               exit_code=1
             fi
             

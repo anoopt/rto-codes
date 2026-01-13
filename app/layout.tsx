@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Josefin_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import DevWarningBanner from "@/components/DevWarningBanner";
 import "./globals.css";
 
 const josefinSans = Josefin_Sans({
@@ -93,6 +94,8 @@ export default function RootLayout({
     <html lang="en" className={josefinSans.variable} suppressHydrationWarning>
       <body className="antialiased bg-[var(--background)] text-[var(--foreground)] transition-colors duration-300">
         <ThemeProvider>
+          {/* Development warning banner for missing env vars */}
+          <DevWarningBanner />
           {/* Skip to main content link for accessibility */}
           <a
             href="#main-content"

@@ -150,9 +150,9 @@ interface StateConfig {
 
 ### RTO Code Naming
 
-- Format: `XX-YY` where `XX` is state code, `YY` is 2-digit number
-- Filename: `xx-yy.json` (lowercase)
-- Examples: `ka-01.json`, `ga-12.json`, `mh-01.json`
+- Format: `XX-YY` or `XX-YYY` where `XX` is state code, `YY`/`YYY` is 2-3 digit number
+- Filename: `xx-yy.json` or `xx-yyy.json` (lowercase)
+- Examples: `ka-01.json`, `ga-12.json`, `mh-123.json`
 
 ### Required Fields for RTO Data
 
@@ -233,14 +233,18 @@ const { theme, setTheme } = useTheme();
 
 ## Environment Variables
 
-Create `.env.local` for local development:
+Create `.env.local` for local development (optional but recommended):
 
 ```bash
-# Enable district map highlighting
+# Recommended: Cloudinary cloud name for RTO images
+# Without this, the app works but images won't display
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae
+
+# Optional: Enable district map highlighting
 NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
 ```
 
-**Note**: Cloudinary and AI-related environment variables are only needed by maintainers. Image generation is handled exclusively by maintainers via GitHub Actions workflows.
+**Note**: The Cloudinary cloud name is a public identifier for fetching images and is safe to share. Without it, the app still compiles and runs - images simply won't display. Cloudinary API credentials and AI-related environment variables are only needed by maintainers. Image generation is handled exclusively by maintainers via GitHub Actions workflows.
 
 ## Adding New States
 

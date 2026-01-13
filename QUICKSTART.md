@@ -71,12 +71,18 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env.local` file (optional):
+Create a `.env.local` file (optional but recommended):
 
 ```bash
-# Enable district map highlighting on RTO detail pages
+# Recommended: Cloudinary cloud name for RTO images
+# Without this, the app works but images won't display
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae
+
+# Optional: Enable district map highlighting on RTO detail pages
 NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
 ```
+
+> **Note**: The Cloudinary cloud name above is the project's public cloud name for fetching images. It's safe to use for development - you cannot upload or modify images without API credentials.
 
 ## Available Commands
 

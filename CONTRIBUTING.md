@@ -47,7 +47,7 @@ If you're comfortable with Git and JSON, you can directly contribute RTO data fi
 
 #### Step 1: Prepare Your JSON File
 
-Create a JSON file following this naming convention: `xx-yy.json` (e.g., `ka-01.json`, `mh-12.json`)
+Create a JSON file following this naming convention: `xx-yy.json` or `xx-yyy.json` (e.g., `ka-01.json`, `mh-12.json`, `tn-123.json`)
 
 - `xx` = 2-letter state code (lowercase)
 - `yy` = 2-digit RTO number (with leading zero if needed)
@@ -56,7 +56,7 @@ Create a JSON file following this naming convention: `xx-yy.json` (e.g., `ka-01.
 
 ```json
 {
-  "code": "XX-YY",
+  "code": "XX-YY", // or XX-YYY for 3-digit codes
   "region": "Region/Area Name",
   "city": "City Name",
   "state": "State Name",
@@ -306,7 +306,7 @@ Your JSON files should pass these checks:
 - Valid JSON syntax
 - Required fields present
 - Proper data types (strings for most, arrays for jurisdictionAreas)
-- Correct naming format (XX-YY)
+- Correct naming format (XX-YY or XX-YYY)
 - PIN codes are 6 digits
 - Phone/email format is reasonable
 

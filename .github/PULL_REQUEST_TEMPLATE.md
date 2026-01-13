@@ -15,9 +15,9 @@
 
 <!-- List the RTO codes you've added or modified -->
 
-| Code | Change Type | Description |
-|------|-------------|-------------|
-| XX-YY | Added/Updated | Brief description |
+| Code     | Change Type   | Description       |
+| -------- | ------------- | ----------------- |
+| XX-YY(Y) | Added/Updated | Brief description |
 
 ## SVG Map Contribution (if applicable)
 
@@ -53,8 +53,9 @@
 ### What Happens Next?
 
 1. **Automated Validation**: GitHub Actions will validate your JSON files for:
+
    - Valid JSON syntax
-   - Correct file naming (xx-yy.json)
+   - Correct file naming (xx-yy.json or xx-yyy.json)
    - Required fields present
    - Data structure validity
 

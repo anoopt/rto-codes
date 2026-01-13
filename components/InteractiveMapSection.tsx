@@ -28,6 +28,8 @@ interface InteractiveMapSectionProps {
  * 
  * State-specific data (districtMapping, svgDistrictIds) must be passed
  * from the server component to keep this client component free of Node.js deps.
+ * 
+ * Returns null if no valid SVG content is provided (e.g., state has no map file yet).
  */
 export default function InteractiveMapSection({
     district,
@@ -39,7 +41,13 @@ export default function InteractiveMapSection({
     const [showHint, setShowHint] = useState(false);
     const [hintVisible, setHintVisible] = useState(false);
 
+    // Check if we have valid SVG content
+    const hasValidSvg = svgContent && svgContent.trim() !== '';
+
     useEffect(() => {
+        // Only run if we have valid SVG content
+        if (!hasValidSvg) return;
+
         // Check if hint was already dismissed (must be exactly 'true')
         const dismissed = localStorage.getItem(STORAGE_KEY) === 'true';
         if (!dismissed) {
@@ -48,7 +56,7 @@ export default function InteractiveMapSection({
             const timer = setTimeout(() => setHintVisible(true), 500);
             return () => clearTimeout(timer);
         }
-    }, []);
+    }, [hasValidSvg]);
 
     // Auto-dismiss after 8 seconds
     useEffect(() => {
@@ -63,6 +71,11 @@ export default function InteractiveMapSection({
         localStorage.setItem(STORAGE_KEY, 'true');
         setTimeout(() => setShowHint(false), 300);
     };
+
+    // Don't render anything if there's no valid SVG content
+    if (!hasValidSvg) {
+        return null;
+    }
 
     return (
         <div className="mt-8 flex flex-col items-center gap-3 relative">

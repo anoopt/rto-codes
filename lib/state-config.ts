@@ -139,18 +139,14 @@ export function getSvgDistrictIds(stateName: string): string[] {
 export function getStateMapSvg(stateName: string): string | null {
   try {
     const config = getStateConfig(stateName);
-    if (!config) return null;
+    if (!config || !config.mapFile) return null;
 
-    // First try data/[state]/map.svg, then fall back to public/map.svg for backwards compatibility
-    let svgPath = path.join(process.cwd(), 'data', stateName, config.mapFile);
-
-    if (!fs.existsSync(svgPath)) {
-      // Fallback to public folder
-      svgPath = path.join(process.cwd(), 'public', config.mapFile);
-    }
+    // Only look in data/[state]/ folder - no fallback to public/
+    // Each state should have its own map file in its data folder
+    const svgPath = path.join(process.cwd(), 'data', stateName, config.mapFile);
 
     if (!fs.existsSync(svgPath)) {
-      console.error(`Map file not found for state: ${stateName}`);
+      // Map file doesn't exist for this state - this is fine, not an error
       return null;
     }
 

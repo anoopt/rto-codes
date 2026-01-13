@@ -3,9 +3,6 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes)
 [![Website](https://img.shields.io/badge/WEBSITE-UP-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://rto-codes.in)
 
-
-
-
 A comprehensive, searchable database of RTO (Regional Transport Office) codes in India, starting with Karnataka.
 
 🌐 **Live Site**: [https://rto-codes.in](https://rto-codes.in)
@@ -130,16 +127,22 @@ npm run dev
 
 ### Environment Variables
 
-Create a `.env.local` file:
+Create a `.env.local` file (optional but recommended):
 
 ```bash
-# Enable district map highlighting on RTO detail pages
+# Recommended: Cloudinary cloud name for RTO images
+# Without this, the app works but images won't display
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae
+
+# Optional: Enable district map highlighting on RTO detail pages
 NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
 ```
 
+> **Note**: The Cloudinary cloud name is a public identifier for fetching images. It's safe to use for development.
+
 ### Using GitHub Codespaces
 
-See **[CODESPACES.md](./CODESPACES.md)** for zero-setup cloud development.
+See **[QUICKSTART.md](./QUICKSTART.md)** for zero-setup cloud development with Codespaces.
 
 ## 🚀 Deployment
 
