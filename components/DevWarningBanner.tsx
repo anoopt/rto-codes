@@ -40,7 +40,7 @@ export default function DevWarningBanner() {
     // Don't render on server or in production or if Cloudinary is configured
     const shouldHide = !isMounted || process.env.NODE_ENV !== 'development' || isCloudinaryConfigured || isDismissed;
     console.log('[DevWarningBanner] shouldHide:', shouldHide, { isMounted, isDismissed });
-    
+
     if (shouldHide) {
         return null;
     }
@@ -62,9 +62,9 @@ export default function DevWarningBanner() {
                                 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
                             </code>{' '}
                             not set.{' '}
-                            <a 
-                                href="https://github.com/anoopt/rto-codes#environment-variables" 
-                                target="_blank" 
+                            <a
+                                href="https://github.com/anoopt/rto-codes#environment-variables"
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className="underline hover:no-underline font-semibold"
                             >
