@@ -1,6 +1,6 @@
 # RTO Codes India
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frtocodes)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frto-codes.in)](https://rto-codes.in)
 
 A comprehensive, searchable database of RTO (Regional Transport Office) codes in India, starting with Karnataka.
@@ -149,7 +149,7 @@ This site is deployed on **Vercel** with automatic deployments from the `main` b
 3. Add environment variable: `NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true`
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frtocodes&env=NEXT_PUBLIC_ENABLE_DISTRICT_MAP&envDescription=Enable%20district%20map%20feature&envLink=https%3A%2F%2Fgithub.com%2Fanoopt%2Frtocodes%23environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes&env=NEXT_PUBLIC_ENABLE_DISTRICT_MAP&envDescription=Enable%20district%20map%20feature&envLink=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes%23environment-variables)
 
 ## 📝 License
 
