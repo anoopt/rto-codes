@@ -1,7 +1,10 @@
 # RTO Codes India
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Frto-codes.in)](https://rto-codes.in)
+[![Website](https://img.shields.io/badge/WEBSITE-UP-4CAF50?style=for-the-badge&logo=vercel&logoColor=white)](https://rto-codes.in)
+
+
+
 
 A comprehensive, searchable database of RTO (Regional Transport Office) codes in India, starting with Karnataka.
 
