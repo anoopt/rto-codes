@@ -1,0 +1,26 @@
+{
+    "code": "KL-02",
+    "region": "Kollam",
+    "city": "Kollam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "South Zone",
+    "description": "Regional Transport Office (RTO) Kollam serves as a primary hub for vehicle registration and licensing in the southern part of Kerala. It handles the issuance of driving licenses, vehicle permits, and tax collection for the Kollam municipal corporation and surrounding regions.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Collectorate P.O, Kollam, Kerala",
+    "pinCode": "691013",
+    "phone": "0474-2748474",
+    "email": "kl02@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kollam Taluk",
+        "Eravipuram",
+        "Chathannoor",
+        "Paravur",
+        "Kundara",
+        "Kollam Corporation",
+        "Mayyanad",
+        "Adichanalloor"
+    ]
+}
