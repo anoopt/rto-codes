@@ -1,0 +1,26 @@
+{
+    "code": "KL-04",
+    "region": "Alappuzha",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Central Zone",
+    "description": "KL-04 is the Regional Transport Office (RTO) serving the Alappuzha district headquarters. It is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations within the Ambalappuzha taluk and surrounding regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Ground Floor, Civil Station, Alappuzha, Kerala",
+    "pinCode": "688001",
+    "phone": "0477-2251171",
+    "email": "kl04@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Ambalappuzha Taluk",
+        "Alappuzha Municipality",
+        "Aryad",
+        "Mararikulam South",
+        "Mararikulam North",
+        "Punnapra North",
+        "Punnapra South",
+        "Mannanchery"
+    ]
+}
