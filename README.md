@@ -10,30 +10,23 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Frto-codes.in&logo=vercel&logoColor=white&up_message=online&down_message=offline)](https://rto-codes.in)
 
-## Data & Coverage Status
-
-### 📊 Summary
+## 📊 Data & Coverage Status
 
 ![States Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedStates&suffix=%2F28%20States&label=🚧&color=orange)
 ![UTs Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedUTs&suffix=%2F8%20UTs&label=🚧&color=orange)
 ![Total RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalRTOs&label=Total%20RTOs&color=blue)
 ![Verified RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalVerified&label=Verified&color=success)
 
-### 🗺️ State-wise Breakdown
+**Current Status:**
 
-| State              | Status                                                          | RTOs                                                                                                                                                                                                     | Map Asset                                                         |
-| ------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Karnataka (KA)** | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![KA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fkarnataka%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue) | ![Available](https://img.shields.io/badge/-Available-brightgreen) |
-| **Goa (GA)**       | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![GA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fgoa%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue)       | ![Available](https://img.shields.io/badge/-Available-brightgreen) |
-| Other States (26)  | ![Scaffolded](https://img.shields.io/badge/-Scaffolded-yellow)  | Ready for contributions                                                                                                                                                                                  | ![Needed](https://img.shields.io/badge/-Needed-red)               |
+| State/UT              | Status                                                             | RTOs                                                                             | Map                                                                  |
+| --------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Karnataka**         | ![Complete](https://img.shields.io/badge/-Complete-brightgreen)    | ![71 RTOs](https://img.shields.io/badge/RTOs-71-blue)                            | ![Available](https://img.shields.io/badge/Map-Available-brightgreen) |
+| **Goa**               | ![Complete](https://img.shields.io/badge/-Complete-brightgreen)    | ![12 RTOs](https://img.shields.io/badge/RTOs-12-blue)                            | ![Available](https://img.shields.io/badge/Map-Available-brightgreen) |
+| **Kerala**            | ![In Progress](https://img.shields.io/badge/-In%20Progress-orange) | ![6/93 RTOs](https://img.shields.io/badge/RTOs-6%2F93-orange)                    | ![Needed](https://img.shields.io/badge/Map-Needed-red)               |
+| **26 States + 8 UTs** | ![Scaffolded](https://img.shields.io/badge/-Scaffolded-yellow)     | ![Ready](https://img.shields.io/badge/Status-Ready%20for%20Contributions-yellow) | ![Needed](https://img.shields.io/badge/Maps-Needed-red)              |
 
-### 🏛️ Union Territory Breakdown
-
-| Union Territory | Status                                                         | RTOs                    | Map Asset                                           |
-| --------------- | -------------------------------------------------------------- | ----------------------- | --------------------------------------------------- |
-| All (8)         | ![Scaffolded](https://img.shields.io/badge/-Scaffolded-yellow) | Ready for contributions | ![Needed](https://img.shields.io/badge/-Needed-red) |
-
-#### 📊 Detailed stats and coverage info can be [found here](./DATA-STATUS.md)
+**[→ View detailed state-by-state breakdown in DATA.md](./DATA.md)**
 
 ## 🛠 Tech Specs
 
@@ -73,18 +66,10 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 - 🎨 **Dark Theme** - Beautiful dark UI with theme switching
 - 🚀 **Performance** - Built with Bun for maximum speed
 
-## 📊 Coverage
-
-✅ **Karnataka** - All 71 RTO codes complete  
-✅ **Goa** - All 12 RTO codes complete
-
-🏗️ **Scaffolded & Ready for Contributions**:  
-All 28 states and 8 Union Territories have folder structures in place with configuration files and contribution guides. Contributors can immediately start adding RTO data!
-
-📝 **How to Contribute**: See our [CONTRIBUTING.md](./CONTRIBUTING.md) guide to add RTO data for any scaffolded state.
-
 ### Quick Links
 
+- **[DATA.md](./DATA.md)** - Complete state-by-state coverage breakdown
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to add RTO data
 - **[PLANNING.md](./PLANNING.md)** - Roadmap and future plans
 
 ## 🛠 Technology Stack
