@@ -104,5 +104,62 @@
       "Punnapra South",
       "Mannanchery"
     ]
+  },
+  {
+    "code": "KL-05",
+    "region": "Kottayam",
+    "city": "Kottayam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Central Zone",
+    "description": "KL-05 is the Regional Transport Office (RTO) serving the Kottayam municipality and surrounding areas. It is responsible for driver licensing, vehicle registration, and enforcing road transport regulations in the heart of the Kottayam district.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, 2nd Floor, Civil Station, Collectorate P.O, Kottayam, Kerala",
+    "pinCode": "686002",
+    "phone": "0481-2560429",
+    "email": "kl05@keralamvd.gov.in",
+    "jurisdictionAreas": [
+      "Kottayam Municipality",
+      "Kottayam Taluka",
+      "Vijayapuram",
+      "Panachikkad",
+      "Puthuppally",
+      "Kumarakom",
+      "Thiruvarpu",
+      "Aymanam",
+      "Arpookara",
+      "Neendoor",
+      "Athirampuzha"
+    ]
+  },
+  {
+    "code": "KL-06",
+    "region": "Thodupuzha",
+    "city": "Thodupuzha",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Idukki",
+    "division": "Central Zone",
+    "description": "KL-06 is the Regional Transport Office located in Thodupuzha, serving the Idukki district. It is a key administrative hub for vehicle registrations, driving licenses, and transport permits in the high-range region of Kerala.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, 2nd Floor, Mini Civil Station, Thodupuzha, Idukki, Kerala",
+    "pinCode": "685584",
+    "phone": "04862-222626",
+    "email": "rtokl06.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+      "Thodupuzha Taluk",
+      "Karimannoor",
+      "Muttom",
+      "Udumbannoor",
+      "Vannappuram",
+      "Velliyamattom",
+      "Kodikulam",
+      "Alakode",
+      "Arakulam",
+      "Kanjiramattom"
+    ]
   }
 ]
