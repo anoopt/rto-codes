@@ -769,14 +769,57 @@ ${'='.repeat(60)}
         wikiLookup.set(rto.code, rto.location);
     }
 
+    // Load valid codes from config if available (for non-sequential RTOs)
+    const configPath = path.join(process.cwd(), 'data', stateInfo.folder, 'config.json');
+    let validCodes: string[] | null = null;
+
+    if (fs.existsSync(configPath)) {
+        try {
+            const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+            if (config.validCodes && Array.isArray(config.validCodes)) {
+                validCodes = config.validCodes;
+                console.log(`📋 Using valid codes list from config (${validCodes.length} codes)`);
+                console.log(`   Sample codes: ${validCodes.slice(0, 5).join(', ')}...\n`);
+            }
+        } catch (error) {
+            console.log(`   ⚠️  Could not load valid codes from config: ${error instanceof Error ? error.message : 'Unknown error'}`);
+        }
+    }
+
+    // Determine which codes to process
+    let codesToProcess: string[];
+
+    if (validCodes && validCodes.length > 0) {
+        // Use valid codes list (handles non-sequential)
+        const startIdx = options.start - 1; // Convert to 0-based index
+        const endIdx = options.end; // End is inclusive, but slice is exclusive
+        codesToProcess = validCodes.slice(startIdx, endIdx);
+
+        if (codesToProcess.length === 0) {
+            console.error(`❌ No valid codes found in range ${options.start} to ${options.end}`);
+            console.error(`   Total valid codes: ${validCodes.length}`);
+            process.exit(1);
+        }
+    } else {
+        // Fallback to sequential generation (legacy behavior)
+        console.log(`⚠️  No valid codes list found - using sequential generation`);
+        console.log(`   This may create invalid codes if RTO numbering is non-sequential!\n`);
+        codesToProcess = [];
+        for (let i = options.start; i <= options.end; i++) {
+            codesToProcess.push(formatCode(options.stateCode, i));
+        }
+    }
+
+    console.log(`📝 Processing ${codesToProcess.length} RTO code(s): ${codesToProcess[0]}${codesToProcess.length > 1 ? ` to ${codesToProcess[codesToProcess.length - 1]}` : ''}\n`);
+
+
     // Process RTOs
     const results: PopulateResult[] = [];
     let successCount = 0;
     let skipCount = 0;
     let failCount = 0;
 
-    for (let i = options.start; i <= options.end; i++) {
-        const code = formatCode(options.stateCode, i);
+    for (const code of codesToProcess) {
         const locationHint = wikiLookup.get(code) || '';
 
         process.stdout.write(`⏳ ${code}${locationHint ? ` (${locationHint})` : ''} ... `);
@@ -812,7 +855,8 @@ ${'='.repeat(60)}
         }
 
         // Rate limiting
-        if (i < options.end) {
+        const isLastCode = code === codesToProcess[codesToProcess.length - 1];
+        if (!isLastCode) {
             await sleep(API_DELAY_MS);
         }
     }

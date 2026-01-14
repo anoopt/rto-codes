@@ -1,0 +1,274 @@
+name: Auto-Complete State
+
+# This workflow automatically updates the isComplete flag when a state reaches its totalRTOs count
+
+on:
+  # Run after post-merge workflow completes
+  workflow_run:
+    workflows: ["Post-Merge Processing"]
+    types:
+      - completed
+
+  # Allow manual trigger for specific states
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "State to check (leave empty to check all)"
+        required: false
+        type: string
+
+jobs:
+  check-completion:
+    name: Check State Completion
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Check state completion
+        id: check
+        run: |
+          echo "Checking state completion status..."
+          echo "=========================================="
+
+          # Get states to check
+          if [ -n "${{ inputs.state }}" ]; then
+            states="${{ inputs.state }}"
+          else
+            # Check all states
+            states=$(find data -name "config.json" -type f | \
+              xargs dirname | \
+              xargs -I {} basename {} | \
+              sort)
+          fi
+
+          completed_states=""
+          updated_states=""
+          celebration_data=""
+
+          for state_dir in $states; do
+            config_file="data/$state_dir/config.json"
+            
+            if [ ! -f "$config_file" ]; then
+              continue
+            fi
+
+            # Get current status
+            is_complete=$(jq -r '.isComplete' "$config_file")
+            total_rtos=$(jq -r '.totalRTOs' "$config_file")
+            state_name=$(jq -r '.displayName // .name' "$config_file")
+            state_code=$(jq -r '.stateCode' "$config_file")
+
+            # Skip if already complete
+            if [ "$is_complete" = "true" ]; then
+              continue
+            fi
+
+            # Skip if totalRTOs not set
+            if [ "$total_rtos" = "0" ] || [ "$total_rtos" = "null" ]; then
+              echo "⏭️  Skipping $state_name - totalRTOs not set"
+              continue
+            fi
+
+            # Count actual RTO files
+            actual_count=$(find "data/$state_dir" -name "*.json" -type f \
+              ! -name "config.json" \
+              ! -name "index.json" \
+              ! -name "validation-report.json" | wc -l)
+
+            echo ""
+            echo "📍 $state_name ($state_code)"
+            echo "   Expected: $total_rtos RTOs"
+            echo "   Actual: $actual_count RTOs"
+
+            # Check if complete
+            if [ "$actual_count" -ge "$total_rtos" ]; then
+              echo "   ✅ COMPLETE!"
+              completed_states="$completed_states $state_dir"
+              
+              # Update config.json
+              jq '.isComplete = true' "$config_file" > "$config_file.tmp"
+              mv "$config_file.tmp" "$config_file"
+              
+              updated_states="$updated_states\n- $state_name ($state_code): $actual_count/$total_rtos RTOs"
+              
+              # Collect data for celebration
+              celebration_data="$celebration_data\n| $state_name | $state_code | $actual_count | $total_rtos | 100% |"
+              
+              echo "   📝 Updated isComplete flag"
+            else
+              progress=$((actual_count * 100 / total_rtos))
+              echo "   📊 Progress: $progress% ($actual_count/$total_rtos)"
+            fi
+          done
+
+          echo ""
+          echo "=========================================="
+
+          # Save outputs
+          if [ -n "$completed_states" ]; then
+            echo "has_updates=true" >> $GITHUB_OUTPUT
+            echo "completed_states=$completed_states" >> $GITHUB_OUTPUT
+            echo "updated_states<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$updated_states" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "celebration_data<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$celebration_data" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo ""
+            echo "✅ Found newly completed states!"
+          else
+            echo "has_updates=false" >> $GITHUB_OUTPUT
+            echo ""
+            echo "ℹ️  No states completed in this check"
+          fi
+
+      - name: Commit updated configs
+        if: steps.check.outputs.has_updates == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Stage updated config files
+          git add data/*/config.json
+
+          # Check if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: mark completed states as isComplete=true" \
+              -m "States completed:" \
+              -m "${{ steps.check.outputs.updated_states }}"
+            git push
+            echo "✅ Pushed config updates"
+          else
+            echo "ℹ️  No config changes to commit"
+          fi
+
+      - name: Generate completion report
+        if: steps.check.outputs.has_updates == 'true'
+        id: report
+        run: |
+          echo "Generating completion report..."
+
+          # Count overall progress
+          total_states=$(find data -name "config.json" -type f | wc -l)
+          complete_states=$(find data -name "config.json" -type f -exec jq -r '.isComplete' {} \; | grep -c "true" || echo 0)
+          incomplete_states=$((total_states - complete_states))
+
+          # Calculate total RTOs across all states
+          total_rtos_overall=$(find data -name "config.json" -type f -exec jq -r '.totalRTOs' {} \; | awk '{sum+=$1} END {print sum}')
+          actual_rtos_overall=$(find data -type f -name "*.json" ! -name "config.json" ! -name "index.json" ! -name "rto-images.json" ! -name "validation-report.json" | wc -l)
+
+          overall_progress=$((actual_rtos_overall * 100 / total_rtos_overall))
+
+          echo "total_states=$total_states" >> $GITHUB_OUTPUT
+          echo "complete_states=$complete_states" >> $GITHUB_OUTPUT
+          echo "incomplete_states=$incomplete_states" >> $GITHUB_OUTPUT
+          echo "overall_progress=$overall_progress" >> $GITHUB_OUTPUT
+          echo "total_rtos=$total_rtos_overall" >> $GITHUB_OUTPUT
+          echo "actual_rtos=$actual_rtos_overall" >> $GITHUB_OUTPUT
+
+      - name: Create celebration issue
+        if: steps.check.outputs.has_updates == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const celebrationData = `${{ steps.check.outputs.celebration_data }}`;
+            const updatedStates = `${{ steps.check.outputs.updated_states }}`;
+            const totalStates = '${{ steps.report.outputs.total_states }}';
+            const completeStates = '${{ steps.report.outputs.complete_states }}';
+            const incompleteStates = '${{ steps.report.outputs.incomplete_states }}';
+            const overallProgress = '${{ steps.report.outputs.overall_progress }}';
+            const totalRTOs = '${{ steps.report.outputs.total_rtos }}';
+            const actualRTOs = '${{ steps.report.outputs.actual_rtos }}';
+
+            const now = new Date().toISOString().split('T')[0];
+
+            const body = `## 🎉 State(s) Completed!
+
+            We've reached a milestone - the following state(s) now have complete RTO data:
+            ${updatedStates}
+
+            ### 📊 Newly Completed States
+
+            | State | Code | RTOs Added | Total RTOs | Completion |
+            |-------|------|-----------|------------|------------|
+            ${celebrationData}
+
+            ### 🗺️ Overall Project Progress
+
+            - **Total States/UTs:** ${totalStates}
+            - **Complete:** ${completeStates} ✅
+            - **In Progress:** ${incompleteStates} 🚧
+            - **Overall RTOs:** ${actualRTOs}/${totalRTOs} (${overallProgress}%)
+
+            ### 📈 Progress Bar
+
+            \`\`\`
+            ${'█'.repeat(Math.floor(overallProgress / 5))}${'░'.repeat(20 - Math.floor(overallProgress / 5))} ${overallProgress}%
+            \`\`\`
+
+            ### 🎯 Next Steps
+
+            ${incompleteStates > 0 ? `
+            The automated population workflow will continue processing the remaining ${incompleteStates} states.
+            Expected completion: ~${Math.ceil(incompleteStates * 10 / 50)} days at 50 RTOs/day.
+            ` : `
+            🎊 **All states complete!** The RTO Codes India database is now fully populated!
+            `}
+
+            ### 🙏 Thank You
+
+            This milestone was made possible by:
+            - 🤖 Automated workflows and AI enrichment
+            - 📚 Data from government sources and Wikipedia
+            - ✨ The power of Gemini AI and Cloudinary
+
+            ---
+            *Automatically generated on ${now}*
+            *Workflow: [Auto-Complete State](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})*`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🎉 State Completion Milestone - ${now}`,
+              body: body,
+              labels: ['automated', 'celebration', 'data']
+            });
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "Auto-Complete State Summary"
+          echo "=========================================="
+
+          if [ "${{ steps.check.outputs.has_updates }}" = "true" ]; then
+            echo ""
+            echo "✅ States marked complete:"
+            echo "${{ steps.check.outputs.updated_states }}"
+            echo ""
+            echo "📊 Overall progress:"
+            echo "  Complete: ${{ steps.report.outputs.complete_states }}/${{ steps.report.outputs.total_states }} states"
+            echo "  RTOs: ${{ steps.report.outputs.actual_rtos }}/${{ steps.report.outputs.total_rtos }} (${{ steps.report.outputs.overall_progress }}%)"
+            echo ""
+            echo "🎉 Celebration issue created!"
+          else
+            echo ""
+            echo "ℹ️  No states completed in this check"
+          fi
+
+          echo "=========================================="

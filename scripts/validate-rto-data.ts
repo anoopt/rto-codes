@@ -145,7 +145,7 @@ function loadSingleRTO(state: string, code: string): RTOData | null {
 async function validateWithGemini(rto: RTOData, stateConfig: StateConfig | null): Promise<ValidationResult> {
     try {
         const model = genAI.getGenerativeModel({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-3-flash-preview',
         });
 
         const prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems. 
@@ -241,18 +241,21 @@ function printResult(result: ValidationResult): void {
 /**
  * Save validation results to a file
  */
-function saveResults(results: ValidationResult[], state: string): void {
-    const outputPath = path.join(process.cwd(), 'data', state, 'validation-results.json');
+function saveResults(results: ValidationResult[], state: string, reportFormat: boolean = false): void {
+    const filename = reportFormat ? 'validation-report.json' : 'validation-results.json';
+    const outputPath = path.join(process.cwd(), 'data', state, filename);
 
-    const output = {
-        state,
-        timestamp: new Date().toISOString(),
-        totalValidated: results.length,
-        validCount: results.filter(r => r.isValid).length,
-        invalidCount: results.filter(r => !r.isValid).length,
-        averageConfidence: results.reduce((sum, r) => sum + r.confidence, 0) / results.length,
-        results,
-    };
+    const output = reportFormat
+        ? results // Simple array format for CI
+        : {
+            state,
+            timestamp: new Date().toISOString(),
+            totalValidated: results.length,
+            validCount: results.filter(r => r.isValid).length,
+            invalidCount: results.filter(r => !r.isValid).length,
+            averageConfidence: results.reduce((sum, r) => sum + r.confidence, 0) / results.length,
+            results,
+        };
 
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2) + '\n');
     console.log(`\n📝 Results saved to: ${outputPath}`);
@@ -282,7 +285,8 @@ Examples:
 Options:
   --all           Validate all available states
   --limit=N       Limit number of RTOs to validate per state
-  --save          Save results to JSON file
+  --save          Save detailed results to JSON file
+  --save-report   Save simple report format for CI (validation-report.json)
   --skip-notinuse Skip 'not-in-use' RTO codes
 `);
         process.exit(0);
@@ -290,6 +294,7 @@ Options:
 
     const validateAll = args.includes('--all');
     const saveToFile = args.includes('--save');
+    const saveReport = args.includes('--save-report');
     const skipNotInUse = args.includes('--skip-notinuse');
     const limitArg = args.find(arg => arg.startsWith('--limit='));
     const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 0;
@@ -383,8 +388,8 @@ Options:
             await new Promise(resolve => setTimeout(resolve, 1500));
         }
 
-        if (saveToFile && results.length > 0) {
-            saveResults(results, state);
+        if ((saveToFile || saveReport) && results.length > 0) {
+            saveResults(results, state, saveReport);
         }
     }
 

@@ -1,0 +1,393 @@
+name: Scheduled RTO Population
+
+on:
+  # Run daily at 2 AM UTC
+  schedule:
+    - cron: "0 2 * * *"
+
+  # Allow manual trigger with optional parameters
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "State to process (leave empty for auto-rotation)"
+        required: false
+        type: string
+      limit:
+        description: "Number of RTOs to generate (default: 50, use 2-5 for testing)"
+        required: false
+        type: number
+        default: 50
+      force:
+        description: "Force processing even if already complete"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  populate-rtos:
+    name: Generate RTO Data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Restore state rotation cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: .github-cache/state-rotation.json
+          key: state-rotation-${{ github.run_id }}
+          restore-keys: |
+            state-rotation-
+
+      - name: Determine target state
+        id: determine-state
+        run: |
+          # Manual trigger takes precedence
+          if [ -n "${{ inputs.state }}" ]; then
+            echo "state=${{ inputs.state }}" >> $GITHUB_OUTPUT
+            echo "📌 Manual trigger - processing state: ${{ inputs.state }}"
+            exit 0
+          fi
+
+          # Load state rotation data
+          if [ -f .github-cache/state-rotation.json ]; then
+            LAST_STATE=$(jq -r '.lastProcessedState' .github-cache/state-rotation.json)
+            PROCESSED_STATES=$(jq -r '.processedStates | join(",")' .github-cache/state-rotation.json)
+            echo "Last processed: $LAST_STATE"
+            echo "Processed states: $PROCESSED_STATES"
+          else
+            mkdir -p .github-cache
+            LAST_STATE=""
+            PROCESSED_STATES=""
+          fi
+
+          # Get all incomplete states
+          STATES=$(find data -name "config.json" -type f | while read config; do
+            IS_COMPLETE=$(jq -r '.isComplete' "$config")
+            TOTAL_RTOS=$(jq -r '.totalRTOs' "$config")
+            STATE_DIR=$(dirname "$config" | xargs basename)
+            
+            # Skip if complete or totalRTOs is 0 (not researched yet)
+            if [ "$IS_COMPLETE" != "true" ] && [ "$TOTAL_RTOS" != "0" ]; then
+              echo "$STATE_DIR"
+            fi
+          done | sort)
+
+          if [ -z "$STATES" ]; then
+            echo "✅ All states complete or need RTO count verification!"
+            echo "   Run: bun scripts/verify-total-rtos.ts"
+            echo "state=NONE" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Find next state to process
+          FOUND_NEXT=false
+          for state in $STATES; do
+            if [ "$FOUND_NEXT" = "true" ]; then
+              echo "state=$state" >> $GITHUB_OUTPUT
+              echo "🔄 Next in rotation: $state"
+              exit 0
+            fi
+            
+            if [ "$state" = "$LAST_STATE" ]; then
+              FOUND_NEXT=true
+            fi
+          done
+
+          # If we're here, start from beginning
+          FIRST_STATE=$(echo "$STATES" | head -n1)
+          echo "state=$FIRST_STATE" >> $GITHUB_OUTPUT
+          echo "🔄 Starting new rotation cycle: $FIRST_STATE"
+
+      - name: Check if state needs verification
+        if: steps.determine-state.outputs.state != 'NONE'
+        id: check-verification
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+
+          if [ ! -d "data/$STATE" ]; then
+            echo "❌ State directory not found: $STATE"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Check if totalRTOs is set
+          TOTAL_RTOS=$(jq -r '.totalRTOs' "data/$STATE/config.json")
+
+          if [ "$TOTAL_RTOS" = "0" ]; then
+            echo "needs_verification=true" >> $GITHUB_OUTPUT
+          else
+            echo "needs_verification=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Auto-verify state RTO codes
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-verification.outputs.needs_verification == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+
+          echo "🔍 Auto-verifying RTO codes for $STATE..."
+
+          if bun scripts/verify-total-rtos.ts --state="$STATE"; then
+            echo "✅ Verification complete"
+            
+            # Commit the updated config
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add "data/$STATE/config.json"
+            git commit -m "chore: auto-verify totalRTOs and validCodes for $STATE" || echo "No changes to commit"
+            git push
+          else
+            echo "❌ Verification failed for $STATE"
+            exit 1
+          fi
+
+      - name: Check if state needs processing
+        if: steps.determine-state.outputs.state != 'NONE'
+        id: check-state
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+
+          # Re-check config (may have been updated by verification)
+          IS_COMPLETE=$(jq -r '.isComplete' "data/$STATE/config.json")
+          TOTAL_RTOS=$(jq -r '.totalRTOs' "data/$STATE/config.json")
+
+          # Count existing RTOs
+          EXISTING_COUNT=$(find "data/$STATE" -name "*.json" -type f ! -name "config.json" ! -name "index.json" | wc -l)
+
+          echo "State: $STATE"
+          echo "Total RTOs expected: $TOTAL_RTOS"
+          echo "Existing RTOs: $EXISTING_COUNT"
+          echo "Is complete: $IS_COMPLETE"
+
+          # Skip if already complete (unless force flag)
+          if [ "$IS_COMPLETE" = "true" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "⏭️ State already marked complete"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # This should not happen after auto-verification, but check anyway
+          if [ "$TOTAL_RTOS" = "0" ]; then
+            echo "❌ totalRTOs still 0 after verification - something went wrong"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "skip=false" >> $GITHUB_OUTPUT
+          echo "existing=$EXISTING_COUNT" >> $GITHUB_OUTPUT
+          echo "total=$TOTAL_RTOS" >> $GITHUB_OUTPUT
+
+      - name: Generate RTO data
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true'
+        id: generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+          LIMIT="${{ inputs.limit || 50 }}"
+          EXISTING="${{ steps.check-state.outputs.existing }}"
+          TOTAL="${{ steps.check-state.outputs.total }}"
+
+          # Calculate starting point (next RTO after existing ones)
+          START=$((EXISTING + 1))
+          END=$((START + LIMIT - 1))
+
+          # Don't exceed total
+          if [ $END -gt $TOTAL ]; then
+            END=$TOTAL
+          fi
+
+          echo "📝 Generating RTOs $START to $END for $STATE"
+
+          # Run populate script with retry logic
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          SUCCESS=false
+
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            if [ $RETRY_COUNT -gt 0 ]; then
+              echo "⚠️ Retry attempt $RETRY_COUNT/$MAX_RETRIES"
+              sleep 5
+            fi
+            
+            if bun scripts/populate-rto-data.ts "$STATE" $START $END; then
+              SUCCESS=true
+              echo "✅ Successfully generated RTOs"
+            else
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              echo "❌ Generation failed, attempt $RETRY_COUNT/$MAX_RETRIES"
+            fi
+          done
+
+          if [ "$SUCCESS" = "false" ]; then
+            echo "❌ Failed after $MAX_RETRIES attempts"
+            echo "success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+          # Count new files
+          NEW_COUNT=$(find "data/$STATE" -name "*.json" -type f ! -name "config.json" ! -name "index.json" | wc -l)
+          GENERATED=$((NEW_COUNT - EXISTING))
+
+          echo "success=true" >> $GITHUB_OUTPUT
+          echo "generated=$GENERATED" >> $GITHUB_OUTPUT
+          echo "new_total=$NEW_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true' && steps.generate.outputs.success == 'true'
+        id: create-pr
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+          GENERATED="${{ steps.generate.outputs.generated }}"
+          NEW_TOTAL="${{ steps.generate.outputs.new_total }}"
+          TOTAL="${{ steps.check-state.outputs.total }}"
+
+          # Configure git
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Create branch
+          BRANCH="automated/populate-$STATE-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
+
+          # Stage new RTO files
+          git add "data/$STATE/*.json"
+
+          # Commit
+          git commit -m "chore: Add $GENERATED RTOs for $STATE ($NEW_TOTAL/$TOTAL)" \
+                     -m "Automated RTO data population" \
+                     -m "- Generated: $GENERATED new RTOs" \
+                     -m "- Progress: $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" \
+                     -m "- State: $STATE"
+
+          # Push
+          git push origin "$BRANCH"
+
+          # Create PR using GitHub CLI
+          PR_TITLE="chore: Add $GENERATED RTOs for $STATE ($NEW_TOTAL/$TOTAL)"
+
+          # Create PR body using printf to avoid YAML escaping issues
+          printf '%s\n' "## Automated RTO Data Population" "" > /tmp/pr-body.txt
+          printf '%s\n' "**State:** $STATE" >> /tmp/pr-body.txt
+          printf '%s\n' "**Generated:** $GENERATED new RTOs" >> /tmp/pr-body.txt
+          printf '%s\n' "**Progress:** $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" "" >> /tmp/pr-body.txt
+          printf '%s\n' "### What's included" >> /tmp/pr-body.txt
+          printf '%s\n' "- $GENERATED new RTO JSON files with basic data structure" >> /tmp/pr-body.txt
+          printf '%s\n' "- Ready for AI enrichment (will auto-trigger on merge)" >> /tmp/pr-body.txt
+          printf '%s\n' "- Images will be generated after merge" "" >> /tmp/pr-body.txt
+          printf '%s\n' "### Next steps" >> /tmp/pr-body.txt
+          printf '%s\n' "1. This PR will be automatically enriched with detailed data using Gemini AI" >> /tmp/pr-body.txt
+          printf '%s\n' "2. If validation confidence ≥90%, it will auto-merge" >> /tmp/pr-body.txt
+          printf '%s\n' "3. Images will be generated automatically after merge" "" >> /tmp/pr-body.txt
+          printf '%s\n' "### Review checklist" >> /tmp/pr-body.txt
+          printf '%s\n' "- [ ] RTO codes follow naming convention" >> /tmp/pr-body.txt
+          printf '%s\n' "- [ ] Required fields are present" >> /tmp/pr-body.txt
+          printf '%s\n' "- [ ] Data looks reasonable" "" >> /tmp/pr-body.txt
+          printf '%s\n' "---" >> /tmp/pr-body.txt
+          printf '%s\n' "Automatically created by the scheduled RTO population workflow." >> /tmp/pr-body.txt
+          printf '%s\n' "Triggered by: ${{ github.event_name }}" >> /tmp/pr-body.txt
+
+          gh pr create \
+            --title "$PR_TITLE" \
+            --body-file /tmp/pr-body.txt \
+            --label "automated,data,rto,enrich" \
+            --head "$BRANCH" \
+            --base main
+
+          # Get PR number
+          PR_NUMBER=$(gh pr view "$BRANCH" --json number -q .number)
+          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+
+          echo "✅ Created PR #$PR_NUMBER"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Update state rotation cache
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true'
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+
+          mkdir -p .github-cache
+
+          # Update rotation data using printf
+          printf '{\n  "lastProcessedState": "%s",\n  "lastRunTime": "%s",\n  "lastPR": "%s"\n}\n' \
+            "$STATE" \
+            "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            "${{ steps.create-pr.outputs.pr_number }}" \
+            > .github-cache/state-rotation.json
+
+      - name: Save state rotation cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .github-cache/state-rotation.json
+          key: state-rotation-${{ github.run_id }}
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const state = '${{ steps.determine-state.outputs.state }}';
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🚨 Automated RTO Population Failed: ${state}`,
+              body: `## Automated RTO Population Failed
+
+            **State:** ${state}
+            **Workflow Run:** ${runUrl}
+            **Triggered by:** ${{ github.event_name }}
+            **Time:** ${new Date().toISOString()}
+
+            ### Error Details
+            The automated RTO population workflow failed. This could be due to:
+            - API rate limits exceeded
+            - Invalid data format
+            - Network issues
+            - Missing environment variables
+
+            ### Action Required
+            Please review the workflow logs and retry manually if needed.
+
+            ---
+            *This issue was automatically created by the scheduled RTO population workflow.*`,
+              labels: ['automated', 'bug', 'data']
+            });
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "Scheduled RTO Population Summary"
+          echo "=========================================="
+          echo ""
+          echo "State: ${{ steps.determine-state.outputs.state }}"
+          echo "Generated: ${{ steps.generate.outputs.generated || 0 }} RTOs"
+          echo "PR: #${{ steps.create-pr.outputs.pr_number || 'N/A' }}"
+          echo ""
+          echo "Next steps:"
+          echo "1. AI enrichment will run automatically"
+          echo "2. PR will auto-merge if confidence ≥90%"
+          echo "3. Images will generate after merge"
+          echo "=========================================="

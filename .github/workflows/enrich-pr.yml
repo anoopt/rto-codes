@@ -247,6 +247,104 @@ jobs:
               name: 'enrich'
             });
 
+      - name: Validate enriched data
+        if: steps.commit.outputs.has_changes == 'true'
+        id: validate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "Validating enriched RTO data..."
+          echo "=========================================="
+
+          # Extract states from changed files
+          states=$(echo "${{ steps.changed-files.outputs.files }}" | \
+            grep -oP 'data/\K[^/]+' | sort -u)
+
+          total_rtos=0
+          valid_rtos=0
+          confidence_sum=0
+          min_confidence=100
+          max_confidence=0
+          low_confidence_codes=""
+
+          for state in $states; do
+            if [ -d "data/$state" ] && [ "$state" != "." ]; then
+              echo ""
+              echo "Validating state: $state"
+              
+              # Run validation and capture output
+              validation_output=$(bun scripts/validate-rto-data.ts "$state" --save-report 2>&1 || true)
+              
+              # Parse validation report if it exists
+              report_file="data/$state/validation-report.json"
+              if [ -f "$report_file" ]; then
+                while IFS= read -r line; do
+                  code=$(echo "$line" | jq -r '.code')
+                  conf=$(echo "$line" | jq -r '.confidence')
+                  
+                  if [ "$conf" != "null" ]; then
+                    total_rtos=$((total_rtos + 1))
+                    confidence_sum=$((confidence_sum + conf))
+                    
+                    # Track min/max
+                    if [ "$conf" -lt "$min_confidence" ]; then
+                      min_confidence=$conf
+                    fi
+                    if [ "$conf" -gt "$max_confidence" ]; then
+                      max_confidence=$conf
+                    fi
+                    
+                    # Check if confidence is acceptable
+                    if [ "$conf" -ge 90 ]; then
+                      valid_rtos=$((valid_rtos + 1))
+                    else
+                      low_confidence_codes="$low_confidence_codes\n- $code: ${conf}%"
+                    fi
+                  fi
+                done < <(jq -c '.[]' "$report_file")
+                
+                # Clean up report file
+                rm -f "$report_file"
+              fi
+            fi
+          done
+
+          # Calculate average confidence
+          if [ "$total_rtos" -gt 0 ]; then
+            avg_confidence=$((confidence_sum / total_rtos))
+          else
+            avg_confidence=0
+          fi
+
+          echo ""
+          echo "=========================================="
+          echo "Validation Results:"
+          echo "  Total RTOs: $total_rtos"
+          echo "  Valid (≥90%): $valid_rtos"
+          echo "  Average confidence: ${avg_confidence}%"
+          echo "  Min confidence: ${min_confidence}%"
+          echo "  Max confidence: ${max_confidence}%"
+          echo "=========================================="
+
+          # Save results
+          echo "total_rtos=$total_rtos" >> $GITHUB_OUTPUT
+          echo "valid_rtos=$valid_rtos" >> $GITHUB_OUTPUT
+          echo "avg_confidence=$avg_confidence" >> $GITHUB_OUTPUT
+          echo "min_confidence=$min_confidence" >> $GITHUB_OUTPUT
+          echo "max_confidence=$max_confidence" >> $GITHUB_OUTPUT
+          echo "low_confidence_codes<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$low_confidence_codes" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          # Determine if auto-merge is allowed
+          if [ "$total_rtos" -gt 0 ] && [ "$valid_rtos" -eq "$total_rtos" ]; then
+            echo "can_auto_merge=true" >> $GITHUB_OUTPUT
+            echo "✅ All RTOs passed validation - eligible for auto-merge"
+          else
+            echo "can_auto_merge=false" >> $GITHUB_OUTPUT
+            echo "⚠️ Some RTOs need manual review"
+          fi
+
       - name: Comment on PR
         if: steps.changed-files.outputs.has_changes == 'true'
         uses: actions/github-script@v7
@@ -255,9 +353,34 @@ jobs:
             const hasChanges = '${{ steps.commit.outputs.has_changes }}' === 'true';
             const trigger = '${{ steps.get-pr.outputs.trigger }}';
             const triggerText = trigger === 'label' ? 'via "enrich" label' : 'via manual trigger';
+            const canAutoMerge = '${{ steps.validate.outputs.can_auto_merge }}' === 'true';
+            const totalRTOs = '${{ steps.validate.outputs.total_rtos }}';
+            const validRTOs = '${{ steps.validate.outputs.valid_rtos }}';
+            const avgConfidence = '${{ steps.validate.outputs.avg_confidence }}';
+            const minConfidence = '${{ steps.validate.outputs.min_confidence }}';
+            const maxConfidence = '${{ steps.validate.outputs.max_confidence }}';
+            const lowConfidenceCodes = `${{ steps.validate.outputs.low_confidence_codes }}`;
 
             let body;
             if (hasChanges) {
+              let validationSection = '';
+              
+              if (totalRTOs > 0) {
+                validationSection = `
+            ### 📊 Validation Results
+            - **Total RTOs:** ${totalRTOs}
+            - **High confidence (≥90%):** ${validRTOs}/${totalRTOs}
+            - **Average confidence:** ${avgConfidence}%
+            - **Range:** ${minConfidence}% - ${maxConfidence}%
+            `;
+                
+                if (canAutoMerge) {
+                  validationSection += `\n✅ **All RTOs passed validation** - This PR will auto-merge after checks pass.\n`;
+                } else {
+                  validationSection += `\n⚠️ **Manual review required** - Some RTOs have confidence <90%:\n${lowConfidenceCodes}\n`;
+                }
+              }
+
               body = `## 🤖 RTO Data Enriched
 
             I've enriched the RTO data in this PR with AI-generated details including:
@@ -265,9 +388,7 @@ jobs:
             - 📍 Jurisdiction areas  
             - 📞 Contact information (when available)
             - 🏛️ Division and establishment info
-
-            **Please review the enriched data** to ensure accuracy before merging.
-
+            ${validationSection}
             <details>
             <summary>What was added?</summary>
 
@@ -299,6 +420,68 @@ jobs:
               issue_number: ${{ steps.get-pr.outputs.pr_number }},
               body: body
             });
+
+      - name: Auto-merge PR
+        if: steps.validate.outputs.can_auto_merge == 'true' && contains(github.event.pull_request.labels.*.name, 'automated')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = ${{ steps.get-pr.outputs.pr_number }};
+            const avgConfidence = '${{ steps.validate.outputs.avg_confidence }}';
+
+            console.log(`Attempting to auto-merge PR #${prNumber}...`);
+            console.log(`Average confidence: ${avgConfidence}%`);
+
+            try {
+              // Enable auto-merge
+              await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+                merge_method: 'squash',
+                commit_title: `chore: Auto-merge enriched RTO data (#${prNumber})`,
+                commit_message: `Automated merge after AI enrichment validation.\n\nValidation confidence: ${avgConfidence}%\nAll RTOs passed ≥90% confidence threshold.`
+              });
+              
+              console.log('✅ PR auto-merged successfully');
+              
+              // Comment on success
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: `🎉 **Auto-merged!**\n\nThis PR passed all validation checks with ${avgConfidence}% average confidence and has been automatically merged.\n\nImages will be generated in the post-merge workflow.`
+              });
+              
+            } catch (error) {
+              console.log('⚠️ Auto-merge failed:', error.message);
+              console.log('This is expected if checks are still running or PR is not mergeable');
+              
+              // Try to enable auto-merge for when checks pass
+              try {
+                await github.graphql(`
+                  mutation($pullRequestId: ID!, $mergeMethod: PullRequestMergeMethod!) {
+                    enablePullRequestAutoMerge(input: {
+                      pullRequestId: $pullRequestId,
+                      mergeMethod: $mergeMethod
+                    }) {
+                      pullRequest {
+                        autoMergeRequest {
+                          enabledAt
+                        }
+                      }
+                    }
+                  }
+                `, {
+                  pullRequestId: context.payload.pull_request.node_id,
+                  mergeMethod: 'SQUASH'
+                });
+                
+                console.log('✅ Auto-merge enabled - will merge when checks pass');
+              } catch (autoMergeError) {
+                console.log('Could not enable auto-merge:', autoMergeError.message);
+              }
+            }
 
       - name: Summary
         run: |

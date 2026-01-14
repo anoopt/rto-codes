@@ -11,6 +11,8 @@ export interface StateConfig {
   displayName: string;
   capital: string;
   totalRTOs: number;
+  /** Optional: List of valid RTO codes (for non-sequential numbering) */
+  validCodes?: string[];
   mapFile?: string;
   districtMapping: Record<string, string>;
   svgDistrictIds: string[];
