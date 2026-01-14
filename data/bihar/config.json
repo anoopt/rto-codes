@@ -1,0 +1,11 @@
+{
+  "stateCode": "BR",
+  "name": "Bihar",
+  "displayName": "Bihar",
+  "capital": "Patna",
+  "totalRTOs": 0,
+  "districtMapping": {},
+  "svgDistrictIds": [],
+  "isComplete": false,
+  "type": "state"
+}

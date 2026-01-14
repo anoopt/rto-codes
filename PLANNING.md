@@ -4,9 +4,12 @@
 
 This document outlines the approach and technology recommendations for building an RTO (Regional Transport Office) codes website for India, starting with Karnataka. The project is inspired by the [airport-codes](https://github.com/lynnandtonic/airport-codes) repository but will use modern web development technologies suitable for 2026.
 
+> **Status Update (January 2026)**: Karnataka and Goa are complete. All 28 states and 8 Union Territories have been scaffolded with folder structures and are ready for community contributions.
+
 ## Analysis of Airport-Codes Repository
 
 ### Current Technology Stack (airport-codes)
+
 - **Node.js**: Custom HTTP server using Node.js native `http` module
 - **Templating**: Pug (formerly Jade) for HTML generation
 - **CSS**: Stylus preprocessor
@@ -27,6 +30,7 @@ This document outlines the approach and technology recommendations for building 
 7. **Limited Search/Filter**: Basic string matching without proper search functionality
 
 **What still works well:**
+
 - Simple data structure (JSON files per code)
 - Clean separation of data and presentation
 - Community contribution model
@@ -37,6 +41,7 @@ This document outlines the approach and technology recommendations for building 
 ### Core Framework: **Next.js 15+ (React)**
 
 **Why Next.js?**
+
 - ✅ Static Site Generation (SSG) for fast loading
 - ✅ Server Components for optimal performance
 - ✅ Built-in image optimization
@@ -48,6 +53,7 @@ This document outlines the approach and technology recommendations for building 
 - ✅ Large community and ecosystem
 
 **Alternative Options:**
+
 1. **Astro**: Excellent for content-heavy sites, even faster than Next.js
 2. **SvelteKit**: Great performance, smaller bundle sizes
 3. **Remix**: Good for dynamic data, but overkill for this project
@@ -57,6 +63,7 @@ This document outlines the approach and technology recommendations for building 
 ### Styling: **Tailwind CSS**
 
 **Why Tailwind CSS?**
+
 - ✅ Utility-first approach for rapid development
 - ✅ No unused CSS in production
 - ✅ Consistent design system
@@ -69,23 +76,25 @@ This document outlines the approach and technology recommendations for building 
 ### Data Management: **JSON + TypeScript Types**
 
 **Structure:**
+
 ```typescript
 interface RTOCode {
-  code: string;              // e.g., "KA-01"
-  region: string;            // e.g., "Bangalore (Central)"
-  city: string;              // e.g., "Bangalore"
-  state: string;             // "Karnataka"
-  stateCode: string;         // "KA"
-  district?: string;         // Optional district name
-  description?: string;      // Markdown supported
-  established?: string;      // Year established
-  imageCredit?: string;      // Photographer name
-  imageCreditLink?: string;  // Link to source
-  additionalInfo?: string;   // Any extra details
+  code: string; // e.g., "KA-01"
+  region: string; // e.g., "Bangalore (Central)"
+  city: string; // e.g., "Bangalore"
+  state: string; // "Karnataka"
+  stateCode: string; // "KA"
+  district?: string; // Optional district name
+  description?: string; // Markdown supported
+  established?: string; // Year established
+  imageCredit?: string; // Photographer name
+  imageCreditLink?: string; // Link to source
+  additionalInfo?: string; // Any extra details
 }
 ```
 
 **Data Organization:**
+
 ```
 /data
   /karnataka
@@ -98,17 +107,20 @@ interface RTOCode {
 
 ### Search: **Fuse.js or Algolia**
 
-**For Phase 1 (Karnataka only):** 
+**For Phase 1 (Karnataka only):**
+
 - **Fuse.js**: Lightweight fuzzy search, client-side
 - Searches across code, region, city, district
 
 **For Future (Multiple States):**
+
 - **Algolia**: Hosted search solution, instant results
 - Better for large datasets
 
 ### Image Handling: **Next.js Image Component + Cloudinary**
 
 **Why:**
+
 - ✅ Automatic image optimization
 - ✅ Multiple format support (WebP, AVIF)
 - ✅ Lazy loading built-in
@@ -119,6 +131,7 @@ interface RTOCode {
 ### TypeScript: **Mandatory**
 
 **Benefits:**
+
 - ✅ Type safety for data structures
 - ✅ Better IDE support and autocomplete
 - ✅ Catch errors at compile time
@@ -127,6 +140,7 @@ interface RTOCode {
 ### Package Manager: **pnpm**
 
 **Why pnpm over npm/yarn:**
+
 - ✅ Faster installation
 - ✅ Efficient disk space usage
 - ✅ Strict dependency resolution
@@ -135,6 +149,7 @@ interface RTOCode {
 ### Deployment: **Vercel or GitHub Pages**
 
 **Vercel (Recommended):**
+
 - ✅ Zero-config deployment for Next.js
 - ✅ Automatic HTTPS
 - ✅ Edge network CDN
@@ -142,6 +157,7 @@ interface RTOCode {
 - ✅ Free tier for open source
 
 **GitHub Pages:**
+
 - ✅ Free for public repos
 - ✅ Static site hosting
 - ✅ Custom domain support
@@ -195,51 +211,60 @@ rtocodes/
 
 ## Implementation Roadmap
 
-### Phase 1: Foundation (Week 1)
+### Phase 1: Foundation (Week 1) ✅
+
 - [x] Analyze requirements and plan approach
-- [ ] Initialize Next.js project with TypeScript
-- [ ] Set up Tailwind CSS
-- [ ] Create TypeScript types for RTO data
-- [ ] Set up project structure
+- [x] Initialize Next.js project with TypeScript
+- [x] Set up Tailwind CSS
+- [x] Create TypeScript types for RTO data
+- [x] Set up project structure
 
-### Phase 2: Data Collection (Week 1-2)
-- [ ] Research and collect Karnataka RTO codes
-- [ ] Create JSON files for each RTO code
-- [ ] Source Creative Commons images
-- [ ] Optimize and attribute images
-- [ ] Write descriptions for major RTOs
+### Phase 2: Data Collection (Week 1-2) ✅
 
-### Phase 3: Core Features (Week 2-3)
-- [ ] Build home page with search
-- [ ] Create individual RTO detail pages
-- [ ] Implement search functionality (Fuse.js)
-- [ ] Add filtering by district
-- [ ] Responsive design for mobile
+- [x] Research and collect Karnataka RTO codes
+- [x] Create JSON files for each RTO code
+- [x] Source Creative Commons images
+- [x] Optimize and attribute images
+- [x] Write descriptions for major RTOs
 
-### Phase 4: Content Pages (Week 3)
-- [ ] About page
-- [ ] Contribute page with guidelines
-- [ ] 404 page
-- [ ] Loading states
+### Phase 3: Core Features (Week 2-3) ✅
 
-### Phase 5: Polish (Week 4)
-- [ ] SEO optimization (meta tags, sitemap)
-- [ ] Performance optimization
-- [ ] Accessibility audit (WCAG compliance)
-- [ ] Dark mode support
-- [ ] Testing on multiple devices
+- [x] Build home page with search
+- [x] Create individual RTO detail pages
+- [x] Implement search functionality (Fuse.js)
+- [x] Add filtering by district
+- [x] Responsive design for mobile
 
-### Phase 6: Deployment (Week 4)
-- [ ] Configure for Vercel deployment
-- [ ] Set up custom domain (if available)
-- [ ] Configure analytics (optional)
-- [ ] Create contribution workflow
-- [ ] Document deployment process
+### Phase 4: Content Pages (Week 3) ✅
 
-### Future Phases
-- [ ] Add more states (Tamil Nadu, Maharashtra, etc.)
-- [ ] Add map visualization
-- [ ] Add state-wise statistics
+- [x] About page
+- [x] Contribute page with guidelines
+- [x] 404 page
+- [x] Loading states
+
+### Phase 5: Polish (Week 4) ✅
+
+- [x] SEO optimization (meta tags, sitemap)
+- [x] Performance optimization
+- [x] Accessibility audit (WCAG compliance)
+- [x] Dark mode support
+- [x] Testing on multiple devices
+
+### Phase 6: Deployment (Week 4) ✅
+
+- [x] Configure for Vercel deployment
+- [x] Set up custom domain (rto-codes.in)
+- [x] Configure analytics (optional)
+- [x] Create contribution workflow
+- [x] Document deployment process
+
+### Phase 7: Expansion (Ongoing) 🔄
+
+- [x] Scaffold all 28 states and 8 UTs
+- [x] Add Goa RTO data (complete)
+- [ ] Add more state data via community contributions
+- [x] Add map visualization (Karnataka, Goa)
+- [ ] Add state-wise statistics dashboard
 - [ ] Implement advanced search with Algolia
 - [ ] Add vehicle registration number decoder
 - [ ] API for developers
@@ -248,33 +273,33 @@ rtocodes/
 
 Karnataka has approximately 70+ RTO codes. Here are some examples:
 
-| Code | Region | District |
-|------|--------|----------|
-| KA-01 | Bangalore (Central) | Bangalore Urban |
-| KA-02 | Bangalore (North) | Bangalore Urban |
-| KA-03 | Bangalore (South) | Bangalore Urban |
-| KA-04 | Bangalore (East) | Bangalore Urban |
-| KA-05 | Bangalore (West) | Bangalore Urban |
-| KA-09 | Ramanagara | Ramanagara |
-| KA-19 | Mysore | Mysore |
-| KA-32 | Mangalore | Dakshina Kannada |
-| KA-51 | Hubli | Dharwad |
+| Code  | Region              | District         |
+| ----- | ------------------- | ---------------- |
+| KA-01 | Bangalore (Central) | Bangalore Urban  |
+| KA-02 | Bangalore (North)   | Bangalore Urban  |
+| KA-03 | Bangalore (South)   | Bangalore Urban  |
+| KA-04 | Bangalore (East)    | Bangalore Urban  |
+| KA-05 | Bangalore (West)    | Bangalore Urban  |
+| KA-09 | Ramanagara          | Ramanagara       |
+| KA-19 | Mysore              | Mysore           |
+| KA-32 | Mangalore           | Dakshina Kannada |
+| KA-51 | Hubli               | Dharwad          |
 
 ## Comparison: Airport-Codes vs RTO-Codes
 
-| Aspect | Airport-Codes | RTO-Codes (Proposed) |
-|--------|---------------|----------------------|
-| Framework | Custom Node.js server | Next.js (SSG) |
-| Templating | Pug | React/TSX |
-| Styling | Stylus | Tailwind CSS |
-| Language | JavaScript | TypeScript |
-| Build | Bash scripts | Next.js built-in |
-| Search | Basic string match | Fuse.js fuzzy search |
-| Deployment | Custom | Vercel/GitHub Pages |
-| Performance | Server-rendered | Static pre-rendered |
-| Developer DX | Moderate | Excellent |
-| Maintenance | Higher effort | Lower effort |
-| Type Safety | No | Yes |
+| Aspect       | Airport-Codes         | RTO-Codes (Proposed) |
+| ------------ | --------------------- | -------------------- |
+| Framework    | Custom Node.js server | Next.js (SSG)        |
+| Templating   | Pug                   | React/TSX            |
+| Styling      | Stylus                | Tailwind CSS         |
+| Language     | JavaScript            | TypeScript           |
+| Build        | Bash scripts          | Next.js built-in     |
+| Search       | Basic string match    | Fuse.js fuzzy search |
+| Deployment   | Custom                | Vercel/GitHub Pages  |
+| Performance  | Server-rendered       | Static pre-rendered  |
+| Developer DX | Moderate              | Excellent            |
+| Maintenance  | Higher effort         | Lower effort         |
+| Type Safety  | No                    | Yes                  |
 
 ## Key Improvements Over Airport-Codes
 
@@ -292,12 +317,14 @@ Karnataka has approximately 70+ RTO codes. Here are some examples:
 ## Design Considerations
 
 ### Homepage
+
 - **Hero Section**: Search bar prominently displayed
 - **Featured RTOs**: Highlight major city RTOs (Bangalore, Mysore, Mangalore)
 - **Browse by District**: Visual grid or list
 - **Statistics**: Total codes, coverage map
 
 ### RTO Detail Page
+
 - **Hero Image**: Representative image of the region
 - **Code & Name**: Large, prominent display
 - **Quick Facts**: District, established date, coverage area
@@ -306,6 +333,7 @@ Karnataka has approximately 70+ RTO codes. Here are some examples:
 - **Contribution CTA**: Encourage improvements
 
 ### Search & Filter
+
 - **Instant Search**: As-you-type results
 - **Multi-field**: Search by code, city, district, region
 - **Filters**: By district, alphabetically

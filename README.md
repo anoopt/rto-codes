@@ -2,7 +2,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes)
 
-A comprehensive, searchable database of RTO (Regional Transport Office) codes in India (currently covering Karnataka and Goa) with detailed information and interactive maps. Plans to expand to all Indian states and union territories.
+A comprehensive, searchable database of RTO (Regional Transport Office) codes in India with detailed information and interactive maps. Currently has complete data for Karnataka and Goa, with all 28 states and 8 Union Territories scaffolded and ready for community contributions.
 
 💡 Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
 
@@ -14,17 +14,26 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 ### 📊 Summary
 
-![States](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.states.length&label=States&suffix=%20%2F%2028&color=brightgreen)
-![Union Territories](https://img.shields.io/badge/Union%20Territories-0%20%2F%208-orange)
+![States Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedStates&suffix=%2F28%20States&label=✅&color=brightgreen)
+![UTs Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedUTs&suffix=%2F8%20UTs&label=✅&color=orange)
 ![Total RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalRTOs&label=Total%20RTOs&color=blue)
 ![Verified RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalVerified&label=Verified&color=success)
 
-### 🗺 State-wise Breakdown
+### 🗺️ State-wise Breakdown
 
-| State              | Status                                                          | RTOs                                                                                                                                                                                                     | Map Asset    |
-| ------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| **Karnataka (KA)** | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![KA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fkarnataka%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue) | ✅ Available |
-| **Goa (GA)**       | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![GA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fgoa%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue)       | ✅ Available |
+| State              | Status                                                          | RTOs                                                                                                                                                                                                     | Map Asset                                                         |
+| ------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Karnataka (KA)** | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![KA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fkarnataka%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue) | ![Available](https://img.shields.io/badge/-Available-brightgreen) |
+| **Goa (GA)**       | ![Complete](https://img.shields.io/badge/-Complete-brightgreen) | ![GA RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Fgoa%2Fconfig.json&query=%24.totalRTOs&label=RTOs&color=blue)       | ![Available](https://img.shields.io/badge/-Available-brightgreen) |
+| Other States (26)  | ![Scaffolded](https://img.shields.io/badge/-Scaffolded-yellow)  | Ready for contributions                                                                                                                                                                                  | ![Needed](https://img.shields.io/badge/-Needed-red)               |
+
+### 🏛️ Union Territory Breakdown
+
+| Union Territory | Status                                                         | RTOs                    | Map Asset                                           |
+| --------------- | -------------------------------------------------------------- | ----------------------- | --------------------------------------------------- |
+| All (8)         | ![Scaffolded](https://img.shields.io/badge/-Scaffolded-yellow) | Ready for contributions | ![Needed](https://img.shields.io/badge/-Needed-red) |
+
+#### 📊 Detailed stats and coverage info can be [found here](./DATA-STATUS.md)
 
 ## 🛠 Tech Specs
 
@@ -66,10 +75,13 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 ## 📊 Coverage
 
-✅ **Karnataka** - All 70 RTO codes complete  
+✅ **Karnataka** - All 71 RTO codes complete  
 ✅ **Goa** - All 12 RTO codes complete
 
-🔄 **Coming Soon**: Additional Indian states and union territories
+🏗️ **Scaffolded & Ready for Contributions**:  
+All 28 states and 8 Union Territories have folder structures in place with configuration files and contribution guides. Contributors can immediately start adding RTO data!
+
+📝 **How to Contribute**: See our [CONTRIBUTING.md](./CONTRIBUTING.md) guide to add RTO data for any scaffolded state.
 
 ### Quick Links
 

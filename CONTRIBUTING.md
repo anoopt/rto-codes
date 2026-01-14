@@ -124,7 +124,9 @@ If the state folder doesn't exist, create it and also add a `config.json` (see [
 
 ### State Configuration
 
-If you're adding data for a new state, create a `config.json` in the state folder:
+All 28 states and 8 Union Territories are already scaffolded with `config.json` files. You can start adding RTO data immediately!
+
+If you need to update a state's configuration (e.g., after adding all RTOs), here's the structure:
 
 ```json
 {
@@ -133,14 +135,19 @@ If you're adding data for a new state, create a `config.json` in the state folde
   "displayName": "State Name",
   "capital": "Capital City",
   "totalRTOs": 50,
-  "mapFile": "map.svg",
-  "districtMapping": {
-    "District Name": "SVG_District_ID",
-    "Another District": "Another_SVG_ID"
-  },
-  "svgDistrictIds": ["SVG_District_ID", "Another_SVG_ID"]
+  "districtMapping": {},
+  "svgDistrictIds": [],
+  "isComplete": false,
+  "type": "state"
 }
 ```
+
+**Key Fields:**
+
+- `isComplete`: Set to `true` when all RTOs for the state/UT have been added
+- `type`: Either `"state"` or `"union-territory"`
+- `mapFile`: Optional - add when an SVG map is available
+- `districtMapping` / `svgDistrictIds`: Required only when adding an SVG map
 
 ## Contributing SVG Maps
 

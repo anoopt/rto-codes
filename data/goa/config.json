@@ -1,16 +1,18 @@
 {
-    "stateCode": "GA",
-    "name": "Goa",
-    "displayName": "Goa",
-    "capital": "Panaji",
-    "totalRTOs": 12,
-    "mapFile": "map.svg",
-    "districtMapping": {
-        "North Goa": "North_Goa",
-        "South Goa": "South_Goa"
-    },
-    "svgDistrictIds": [
-        "North_Goa",
-        "South_Goa"
-    ]
+  "stateCode": "GA",
+  "name": "Goa",
+  "displayName": "Goa",
+  "capital": "Panaji",
+  "totalRTOs": 12,
+  "mapFile": "map.svg",
+  "districtMapping": {
+    "North Goa": "North_Goa",
+    "South Goa": "South_Goa"
+  },
+  "svgDistrictIds": [
+    "North_Goa",
+    "South_Goa"
+  ],
+  "isComplete": true,
+  "type": "state"
 }

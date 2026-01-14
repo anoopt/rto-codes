@@ -11,7 +11,11 @@ export interface StateConfig {
   displayName: string;
   capital: string;
   totalRTOs: number;
-  mapFile: string;
+  mapFile?: string;
   districtMapping: Record<string, string>;
   svgDistrictIds: string[];
+  /** Whether all RTOs have been added for this state/UT */
+  isComplete: boolean;
+  /** Whether this is a state or union territory */
+  type: "state" | "union-territory";
 }

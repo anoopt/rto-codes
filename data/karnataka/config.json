@@ -71,5 +71,7 @@
     "Uttara Kannada",
     "Vijayapura",
     "Yadgir"
-  ]
+  ],
+  "isComplete": true,
+  "type": "state"
 }

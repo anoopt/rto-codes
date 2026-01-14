@@ -4,7 +4,7 @@ This document provides guidance for AI agents (GitHub Copilot, Claude, GPT, etc.
 
 ## Project Overview
 
-**RTO Codes India** is a Next.js 16+ web application that serves as a comprehensive, searchable database of RTO (Regional Transport Office) codes in India. The project currently covers Karnataka and Goa, with plans to expand to other Indian states.
+**RTO Codes India** is a Next.js 16+ web application that serves as a comprehensive, searchable database of RTO (Regional Transport Office) codes in India. The project has complete data for Karnataka and Goa, with all 28 states and 8 Union Territories scaffolded and ready for community contributions.
 
 - **Live Site**: [https://rto-codes.in](https://rto-codes.in)
 - **Framework**: Next.js 16+ with React 19 and TypeScript
@@ -49,13 +49,17 @@ rtocodes/
 ├── data/                   # RTO JSON data files
 │   ├── index.json          # Auto-generated master index
 │   ├── rto-images.json     # Auto-generated image mappings
-│   ├── karnataka/          # Karnataka RTO data
+│   ├── karnataka/          # Karnataka RTO data (complete)
 │   │   ├── config.json     # State configuration
 │   │   ├── index.json      # State index (auto-generated)
 │   │   ├── map.svg         # State district map
 │   │   └── ka-*.json       # Individual RTO files
-│   └── goa/                # Goa RTO data
-│       └── ga-*.json       # Individual RTO files
+│   ├── goa/                # Goa RTO data (complete)
+│   │   └── ga-*.json       # Individual RTO files
+│   └── [other-states]/     # 34 states/UTs scaffolded
+│       ├── config.json     # State configuration
+│       ├── index.json      # State index (auto-generated)
+│       └── README.md       # Contribution guide
 ├── lib/                    # Utility functions
 ├── types/                  # TypeScript type definitions
 ├── scripts/                # Build and data scripts
@@ -136,13 +140,15 @@ State configuration is in `data/<state>/config.json`:
 ```typescript
 interface StateConfig {
   stateCode: string; // "KA"
-  name: string; // "karnataka"
+  name: string; // "Karnataka"
   displayName: string; // "Karnataka"
   capital: string; // "Bengaluru"
   totalRTOs: number; // Expected total RTOs
-  mapFile: string; // "map.svg"
+  mapFile?: string; // "map.svg" (optional)
   districtMapping: Record<string, string>; // District to SVG ID mapping
   svgDistrictIds: string[]; // List of SVG district IDs
+  isComplete: boolean; // Whether all RTOs are added
+  type: "state" | "union-territory"; // State or UT
 }
 ```
 
@@ -246,14 +252,24 @@ NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
 
 **Note**: The Cloudinary cloud name is a public identifier for fetching images and is safe to share. Without it, the app still compiles and runs - images simply won't display. Cloudinary API credentials and AI-related environment variables are only needed by maintainers. Image generation is handled exclusively by maintainers via GitHub Actions workflows.
 
-## Adding New States
+## Adding RTOs to Scaffolded States
 
-1. Create state folder: `data/<state-name>/`
-2. Add `config.json` with state configuration
+All 28 states and 8 Union Territories are already scaffolded with `config.json` files. To add RTOs:
+
+1. Navigate to the state folder: `data/<state-name>/`
+2. Check the README.md in that folder for state-specific guidance
 3. Add individual RTO files: `xx-01.json`, `xx-02.json`, etc.
-4. Optionally add `map.svg` for district visualization
-5. Run `bun scripts/generate-index.ts` to update indexes
-6. Update `lib/state-config.ts` if needed
+4. Run `bun scripts/validate-rto-data.ts <state>` to validate
+5. The index will be regenerated on build
+6. Once all RTOs are added, update `config.json` with `"isComplete": true`
+
+### Adding Map Assets
+
+To add an SVG map for district visualization:
+
+1. Add `map.svg` to the state folder
+2. Update `config.json` with `mapFile`, `districtMapping`, and `svgDistrictIds`
+3. Test locally with `NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true`
 
 ## Common Tasks
 

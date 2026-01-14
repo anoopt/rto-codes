@@ -1,0 +1,11 @@
+{
+  "stateCode": "LA",
+  "name": "Ladakh",
+  "displayName": "Ladakh",
+  "capital": "Leh",
+  "totalRTOs": 0,
+  "districtMapping": {},
+  "svgDistrictIds": [],
+  "isComplete": false,
+  "type": "union-territory"
+}
