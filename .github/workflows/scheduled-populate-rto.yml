@@ -23,6 +23,11 @@ on:
         type: boolean
         default: false
 
+# Prevent concurrent runs to avoid conflicts
+concurrency:
+  group: rto-population
+  cancel-in-progress: false
+
 jobs:
   populate-rtos:
     name: Generate RTO Data

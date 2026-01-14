@@ -93,7 +93,7 @@ const STATE_CONFIG: Record<string, StateInfo> = {
     'tn': {
         name: 'Tamil Nadu',
         code: 'TN',
-        folder: 'tamilnadu',
+        folder: 'tamil-nadu',
         capital: 'Chennai',
         wikipediaTitle: 'List of Regional Transport Office districts in India',
         totalRTOs: 143,
@@ -127,7 +127,7 @@ const STATE_CONFIG: Record<string, StateInfo> = {
     'ap': {
         name: 'Andhra Pradesh',
         code: 'AP',
-        folder: 'andhrapradesh',
+        folder: 'andhra-pradesh',
         capital: 'Amaravati',
         wikipediaTitle: 'List of Regional Transport Office districts in India',
         totalRTOs: 40,
@@ -192,6 +192,32 @@ const STATE_CONFIG: Record<string, StateInfo> = {
         ]
     }
 };
+
+// Mapping from folder names to state codes for lookup
+const FOLDER_TO_STATE_CODE: Record<string, string> = {};
+for (const [stateCode, info] of Object.entries(STATE_CONFIG)) {
+    FOLDER_TO_STATE_CODE[info.folder] = stateCode;
+}
+
+/**
+ * Resolves a state identifier (code or folder name) to the actual state code.
+ * Accepts: 'ka', 'karnataka', 'kl', 'kerala', etc.
+ */
+function resolveStateCode(input: string): string | null {
+    const normalized = input.toLowerCase().trim();
+
+    // First, check if it's a direct state code
+    if (STATE_CONFIG[normalized]) {
+        return normalized;
+    }
+
+    // Then, check if it's a folder name
+    if (FOLDER_TO_STATE_CODE[normalized]) {
+        return FOLDER_TO_STATE_CODE[normalized];
+    }
+
+    return null;
+}
 
 // ============================================================================
 // Types
@@ -654,11 +680,30 @@ function parseArgs(): CLIOptions {
     }
 
     if (positionalArgs.length >= 2) {
-        options.start = parseInt(positionalArgs[1], 10) || 1;
+        const secondArg = positionalArgs[1];
+
+        // Check if it's an RTO code format (e.g., "GA-07", "KA-55")
+        const rtoCodeMatch = secondArg.match(/^([A-Za-z]{2})-(\d{1,3})$/i);
+        if (rtoCodeMatch) {
+            // Extract the numeric part from the RTO code
+            options.start = parseInt(rtoCodeMatch[2], 10);
+            options.end = options.start;
+        } else {
+            // It's a plain number
+            options.start = parseInt(secondArg, 10) || 1;
+        }
     }
 
     if (positionalArgs.length >= 3) {
-        options.end = parseInt(positionalArgs[2], 10) || options.start;
+        const thirdArg = positionalArgs[2];
+
+        // Check if it's an RTO code format
+        const rtoCodeMatch = thirdArg.match(/^([A-Za-z]{2})-(\d{1,3})$/i);
+        if (rtoCodeMatch) {
+            options.end = parseInt(rtoCodeMatch[2], 10);
+        } else {
+            options.end = parseInt(thirdArg, 10) || options.start;
+        }
     } else if (positionalArgs.length === 2) {
         // Single RTO specified
         options.end = options.start;
@@ -675,10 +720,10 @@ Fetches RTO data from Wikipedia and enriches it with Gemini AI to create
 complete, accurate JSON files.
 
 Usage:
-  bun scripts/populate-rto-data.ts <state-code> [start] [end] [options]
+  bun scripts/populate-rto-data.ts <state> [start] [end] [options]
 
 Arguments:
-  state-code    Two-letter state code (e.g., ka, ga, tn, mh)
+  state         State code OR folder name (e.g., ka, karnataka, kl, kerala)
   start         Starting RTO number (default: 1)
   end           Ending RTO number (default: all RTOs for the state)
 
@@ -691,13 +736,16 @@ Options:
 
 Examples:
   bun scripts/populate-rto-data.ts ga                    # All Goa RTOs (GA-01 to GA-12)
-  bun scripts/populate-rto-data.ts ka 1 10               # Karnataka RTOs 1-10
+  bun scripts/populate-rto-data.ts kerala 1 10           # Kerala RTOs 1-10 (using folder name)
+  bun scripts/populate-rto-data.ts kl 1 10               # Kerala RTOs 1-10 (using state code)
+  bun scripts/populate-rto-data.ts ga GA-07              # Single RTO GA-07 (using RTO code)
+  bun scripts/populate-rto-data.ts ga 7                  # Single RTO GA-07 (using number)
   bun scripts/populate-rto-data.ts ga --dry-run          # Preview without saving
   bun scripts/populate-rto-data.ts ka 55                 # Single RTO KA-55
-  bun scripts/populate-rto-data.ts tn --skip-existing    # Only new RTOs
+  bun scripts/populate-rto-data.ts tamil-nadu --skip-existing    # Only new RTOs
 
 Supported States:
-${Object.entries(STATE_CONFIG).map(([code, info]) => `  ${code.toUpperCase()} - ${info.name} (${info.totalRTOs} RTOs)`).join('\n')}
+${Object.entries(STATE_CONFIG).map(([code, info]) => `  ${code.toUpperCase().padEnd(4)} | ${info.folder.padEnd(20)} - ${info.name} (${info.totalRTOs} RTOs)`).join('\n')}
 
 Environment Variables:
   GEMINI_API_KEY   Your Google Gemini API key (required)
@@ -725,12 +773,19 @@ async function main(): Promise<void> {
         process.exit(1);
     }
 
-    const stateInfo = STATE_CONFIG[options.stateCode];
-    if (!stateInfo) {
+    // Resolve state code (accepts both state codes like 'kl' and folder names like 'kerala')
+    const resolvedStateCode = resolveStateCode(options.stateCode);
+    if (!resolvedStateCode) {
         console.error(`❌ Unknown state code: ${options.stateCode}`);
-        console.error(`   Supported: ${Object.keys(STATE_CONFIG).join(', ')}`);
+        console.error(`   Supported state codes: ${Object.keys(STATE_CONFIG).join(', ')}`);
+        console.error(`   Supported folder names: ${Object.values(STATE_CONFIG).map(s => s.folder).join(', ')}`);
         process.exit(1);
     }
+
+    const stateInfo = STATE_CONFIG[resolvedStateCode];
+
+    // Update options with resolved state code for use elsewhere
+    options.stateCode = resolvedStateCode;
 
     // Determine range
     if (options.end === 0) {
