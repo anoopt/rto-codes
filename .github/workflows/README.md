@@ -4,7 +4,7 @@ This directory contains GitHub Actions workflows for automating RTO data populat
 
 ## Overview
 
-The automation system consists of 4 main workflows that work together:
+The automation system consists of 3 main workflows that work together:
 
 ```
 ┌──────────────────────────────────────────────────────────┐
