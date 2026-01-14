@@ -14,8 +14,8 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 ### 📊 Summary
 
-![States Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedStates&suffix=%2F28%20States&label=✅&color=brightgreen)
-![UTs Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedUTs&suffix=%2F8%20UTs&label=✅&color=orange)
+![States Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedStates&suffix=%2F28%20States&label=🚧&color=orange)
+![UTs Complete](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.completedUTs&suffix=%2F8%20UTs&label=🚧&color=orange)
 ![Total RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalRTOs&label=Total%20RTOs&color=blue)
 ![Verified RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalVerified&label=Verified&color=success)
 
