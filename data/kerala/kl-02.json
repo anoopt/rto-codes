@@ -1,0 +1,27 @@
+{
+    "code": "KL-02",
+    "region": "Kollam",
+    "city": "Kollam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "South Zone",
+    "description": "The KL-02 RTO serves the Kollam region and is the primary vehicle registration authority for the district headquarters. It oversees the issuance of driving licenses, vehicle fitness certificates, and the enforcement of motor vehicle regulations across the Kollam taluk and surrounding urban areas.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Tangasseri, Kollam, Kerala",
+    "pinCode": "691013",
+    "phone": "0474-2743813",
+    "email": "kl02@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kollam Taluk",
+        "Kollam Municipal Corporation",
+        "Chathannoor",
+        "Eravipuram",
+        "Mayyanad",
+        "Paravur",
+        "Kottiyam",
+        "Kundaara",
+        "Chathannur"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "KL-01",
+    "region": "Thiruvananthapuram",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram Division",
+    "description": "KL-01 is the primary Regional Transport Office for Thiruvananthapuram city, the capital of Kerala. It serves as a key administrative hub for the Kerala Motor Vehicles Department, handling vehicle registration, licensing, and road safety enforcement for the capital region.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, 2nd Floor, Transport Bhavan, East Fort, Thiruvananthapuram, Kerala",
+    "pinCode": "695023",
+    "phone": "0471-2469229",
+    "email": "kl01@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Thiruvananthapuram City",
+        "Thiruvananthapuram Taluk",
+        "Vattiyoorkavu",
+        "Nemom",
+        "Kazhakkoottam",
+        "Thiruvananthapuram Corporation"
+    ]
+}
