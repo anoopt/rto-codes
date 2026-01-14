@@ -82,25 +82,19 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
         run: |
-          # Only commit if secrets were available (images were generated)
-          if [ -z "$GEMINI_API_KEY" ] || [ -z "$CLOUDINARY_CLOUD_NAME" ]; then
-            echo "Skipping commit - no images were generated"
-            exit 0
-          fi
-
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Only add rto-images.json (index.json and sitemap are generated during build)
-          git add data/rto-images.json 2>/dev/null || true
+          # Add index files and rto-images.json
+          git add data/index.json data/*/index.json data/rto-images.json 2>/dev/null || true
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
-            echo "No new images generated"
+            echo "No changes to commit"
           else
-            git commit -m "chore: update RTO images tracking"
+            git commit -m "chore: update index files and RTO images tracking"
             git push
-            echo "✅ rto-images.json updated"
+            echo "✅ Index files and rto-images.json updated"
           fi
 
       - name: Summary

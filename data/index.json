@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-01-14T15:39:24.713Z",
-  "totalRTOs": 83,
-  "totalVerified": 83,
+  "generatedAt": "2026-01-14T17:00:30.786Z",
+  "totalRTOs": 87,
+  "totalVerified": 87,
   "totalStates": 28,
   "completedStates": 2,
   "totalUTs": 8,
@@ -221,9 +221,14 @@
     {
       "stateCode": "KL",
       "stateName": "Kerala",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "rtoCount": 4,
+      "verifiedCount": 4,
+      "rtoCodes": [
+        "kl-01",
+        "kl-02",
+        "kl-03",
+        "kl-04"
+      ],
       "isComplete": false,
       "type": "state"
     },
