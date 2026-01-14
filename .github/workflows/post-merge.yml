@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Regenerate index files
+        run: |
+          echo "Regenerating index files before image generation..."
+          bun scripts/generate-index.ts
+          echo "✅ Index files regenerated"
+
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v46.0.1
