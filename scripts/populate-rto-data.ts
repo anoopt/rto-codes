@@ -776,10 +776,10 @@ ${'='.repeat(60)}
     if (fs.existsSync(configPath)) {
         try {
             const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
-            if (config.validCodes && Array.isArray(config.validCodes)) {
+            if (config.validCodes && Array.isArray(config.validCodes) && config.validCodes.length > 0) {
                 validCodes = config.validCodes;
-                console.log(`📋 Using valid codes list from config (${validCodes.length} codes)`);
-                console.log(`   Sample codes: ${validCodes.slice(0, 5).join(', ')}...\n`);
+                console.log(`📋 Using valid codes list from config (${config.validCodes.length} codes)`);
+                console.log(`   Sample codes: ${config.validCodes.slice(0, 5).join(', ')}...\n`);
             }
         } catch (error) {
             console.log(`   ⚠️  Could not load valid codes from config: ${error instanceof Error ? error.message : 'Unknown error'}`);
