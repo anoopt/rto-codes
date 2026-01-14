@@ -4,24 +4,17 @@ This directory contains GitHub Actions workflows for automating RTO data populat
 
 ## Overview
 
-The automation system consists of 5 workflows that work together:
+The automation system consists of 4 main workflows that work together:
 
 ```
 ┌──────────────────────────────────────────────────────────┐
 │  scheduled-populate-rto.yml (Daily 2 AM UTC / Manual)   │
 │  - Generates 50 RTOs/day for next incomplete state       │
-│  - Creates PR with "automated" + "enrich" labels          │
+│  - Commits directly to main branch (fully automated)     │
 └─────────────────────┬────────────────────────────────────┘
                       ↓
 ┌──────────────────────────────────────────────────────────┐
-│  enrich-pr.yml (Triggered by "enrich" label)             │
-│  - Enriches RTO data with Gemini AI                      │
-│  - Validates confidence scores                           │
-│  - Auto-merges if all RTOs ≥90% confidence               │
-└─────────────────────┬────────────────────────────────────┘
-                      ↓
-┌──────────────────────────────────────────────────────────┐
-│  post-merge.yml (On merge to main)                       │
+│  post-merge.yml (On push to main)                        │
 │  - Generates RTO images with Gemini + Cloudinary         │
 │  - Updates rto-images.json tracking file                 │
 └─────────────────────┬────────────────────────────────────┘
@@ -33,12 +26,7 @@ The automation system consists of 5 workflows that work together:
 │  - Creates celebration issue with metrics                │
 └──────────────────────────────────────────────────────────┘
 
-┌──────────────────────────────────────────────────────────┐
-│  validate-pr.yml (On PR submission)                      │
-│  - Validates JSON syntax and structure                   │
-│  - Checks file naming conventions                        │
-│  - Verifies required fields                              │
-└──────────────────────────────────────────────────────────┘
+**Note**: The `enrich-pr.yml` workflow still exists for manual PR enrichment but is no longer part of the automated pipeline since the scheduled workflow now commits directly to main.
 ```
 
 ## Workflows
@@ -56,8 +44,8 @@ The automation system consists of 5 workflows that work together:
 
 1. Determines next state to process using rotation cache
 2. Generates 50 RTO JSON files using `populate-rto-data.ts`
-3. Creates a PR with generated RTOs
-4. Auto-applies "enrich" label to trigger AI enrichment
+3. Commits directly to main branch (fully automated)
+4. Post-merge workflow triggers automatically for image generation
 5. Retries up to 3 times on failure
 6. Creates issue notification if workflow fails
 
@@ -90,10 +78,15 @@ force: false # Process even if complete (default: false)
 - Skips states with `totalRTOs: 0` (not researched yet)
 - Caches last processed state in GitHub Actions cache
 
-**Example PR Title**:
+**Example Commit Message**:
 
 ```
 chore: Add 50 RTOs for Maharashtra (50/300)
+
+Automated RTO data population
+- Generated: 50 new RTOs
+- Progress: 50/300 (16%)
+- State: Maharashtra
 ```
 
 ---

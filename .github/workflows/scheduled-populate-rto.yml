@@ -256,9 +256,9 @@ jobs:
           echo "generated=$GENERATED" >> $GITHUB_OUTPUT
           echo "new_total=$NEW_COUNT" >> $GITHUB_OUTPUT
 
-      - name: Create Pull Request
+      - name: Commit to main
         if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true' && steps.generate.outputs.success == 'true'
-        id: create-pr
+        id: commit
         run: |
           STATE="${{ steps.determine-state.outputs.state }}"
           GENERATED="${{ steps.generate.outputs.generated }}"
@@ -268,10 +268,6 @@ jobs:
           # Configure git
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-
-          # Create branch
-          BRANCH="automated/populate-$STATE-$(date +%Y%m%d-%H%M%S)"
-          git checkout -b "$BRANCH"
 
           # Stage new RTO files
           git add "data/$STATE/*.json"
@@ -283,47 +279,10 @@ jobs:
                      -m "- Progress: $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" \
                      -m "- State: $STATE"
 
-          # Push
-          git push origin "$BRANCH"
+          # Push directly to main
+          git push origin main
 
-          # Create PR using GitHub CLI
-          PR_TITLE="chore: Add $GENERATED RTOs for $STATE ($NEW_TOTAL/$TOTAL)"
-
-          # Create PR body using printf to avoid YAML escaping issues
-          printf '%s\n' "## Automated RTO Data Population" "" > /tmp/pr-body.txt
-          printf '%s\n' "**State:** $STATE" >> /tmp/pr-body.txt
-          printf '%s\n' "**Generated:** $GENERATED new RTOs" >> /tmp/pr-body.txt
-          printf '%s\n' "**Progress:** $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" "" >> /tmp/pr-body.txt
-          printf '%s\n' "### What's included" >> /tmp/pr-body.txt
-          printf '%s\n' "- $GENERATED new RTO JSON files with basic data structure" >> /tmp/pr-body.txt
-          printf '%s\n' "- Ready for AI enrichment (will auto-trigger on merge)" >> /tmp/pr-body.txt
-          printf '%s\n' "- Images will be generated after merge" "" >> /tmp/pr-body.txt
-          printf '%s\n' "### Next steps" >> /tmp/pr-body.txt
-          printf '%s\n' "1. This PR will be automatically enriched with detailed data using Gemini AI" >> /tmp/pr-body.txt
-          printf '%s\n' "2. If validation confidence ≥90%, it will auto-merge" >> /tmp/pr-body.txt
-          printf '%s\n' "3. Images will be generated automatically after merge" "" >> /tmp/pr-body.txt
-          printf '%s\n' "### Review checklist" >> /tmp/pr-body.txt
-          printf '%s\n' "- [ ] RTO codes follow naming convention" >> /tmp/pr-body.txt
-          printf '%s\n' "- [ ] Required fields are present" >> /tmp/pr-body.txt
-          printf '%s\n' "- [ ] Data looks reasonable" "" >> /tmp/pr-body.txt
-          printf '%s\n' "---" >> /tmp/pr-body.txt
-          printf '%s\n' "Automatically created by the scheduled RTO population workflow." >> /tmp/pr-body.txt
-          printf '%s\n' "Triggered by: ${{ github.event_name }}" >> /tmp/pr-body.txt
-
-          gh pr create \
-            --title "$PR_TITLE" \
-            --body-file /tmp/pr-body.txt \
-            --label "automated,data,rto,enrich" \
-            --head "$BRANCH" \
-            --base main
-
-          # Get PR number
-          PR_NUMBER=$(gh pr view "$BRANCH" --json number -q .number)
-          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
-
-          echo "✅ Created PR #$PR_NUMBER"
-        env:
-          GH_TOKEN: ${{ github.token }}
+          echo "✅ Committed and pushed $GENERATED RTOs to main"
 
       - name: Update state rotation cache
         if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true'
@@ -333,10 +292,9 @@ jobs:
           mkdir -p .github-cache
 
           # Update rotation data using printf
-          printf '{\n  "lastProcessedState": "%s",\n  "lastRunTime": "%s",\n  "lastPR": "%s"\n}\n' \
+          printf '{\n  "lastProcessedState": "%s",\n  "lastRunTime": "%s"\n}\n' \
             "$STATE" \
             "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            "${{ steps.create-pr.outputs.pr_number }}" \
             > .github-cache/state-rotation.json
 
       - name: Save state rotation cache
@@ -389,10 +347,10 @@ jobs:
           echo ""
           echo "State: ${{ steps.determine-state.outputs.state }}"
           echo "Generated: ${{ steps.generate.outputs.generated || 0 }} RTOs"
-          echo "PR: #${{ steps.create-pr.outputs.pr_number || 'N/A' }}"
+          echo "Status: Committed directly to main"
           echo ""
-          echo "Next steps:"
-          echo "1. AI enrichment will run automatically"
-          echo "2. PR will auto-merge if confidence ≥90%"
-          echo "3. Images will generate after merge"
+          echo "Next steps (automated):"
+          echo "1. Post-merge workflow will trigger automatically"
+          echo "2. Index files will be regenerated"
+          echo "3. Images will generate automatically"
           echo "=========================================="
