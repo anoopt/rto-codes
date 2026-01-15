@@ -1,0 +1,28 @@
+{
+    "code": "KL-52",
+    "region": "Koduvally",
+    "city": "Koduvally",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "KL-52 is the Sub Regional Transport Office (SRTO) located in Koduvally, Kerala. It functions under the jurisdiction of the Regional Transport Office, Kozhikode, and handles vehicle registrations, driving licenses, and transport-related permits for the Koduvally taluk region.",
+    "status": "active",
+    "established": "2011",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Koduvally, Kozhikode, Kerala",
+    "pinCode": "673572",
+    "phone": "0495-2213500",
+    "email": "kl52.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Koduvally",
+        "Thamarassery",
+        "Omassery",
+        "Madavoor",
+        "Narikkuni",
+        "Kizhakkoth",
+        "Puthuppadi",
+        "Kattippara",
+        "Kodanchery",
+        "Nanmanda"
+    ]
+}

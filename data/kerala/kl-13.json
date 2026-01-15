@@ -1,0 +1,26 @@
+{
+    "code": "KL-13",
+    "region": "Kannur",
+    "city": "Kannur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kannur",
+    "division": "North Kerala",
+    "description": "KL-13 is the Regional Transport Office for Kannur, serving as a primary hub for vehicle registration and licensing in North Kerala. It oversees transport administration for the Kannur taluk and is one of the major revenue-generating RTOs in the state.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, 2nd Floor, Civil Station, Kannur, Kerala",
+    "pinCode": "670002",
+    "phone": "0497-2700566",
+    "email": "kl13@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kannur Taluk",
+        "Kannur Municipal Corporation",
+        "Valapattanam",
+        "Pappinisseri",
+        "Azhikode",
+        "Edakkad",
+        "Chirakkal",
+        "Pallikkunnu"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "code": "KL-40",
+    "region": "Perumbavoor",
+    "city": "Perumbavoor",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Central Zone",
+    "description": "KL-40 is the Sub Regional Transport Office (SRTO) serving the Perumbavoor region in the Ernakulam district of Kerala. It facilitates vehicle registration, driving license issuance, and taxation services for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Perumbavoor, Ernakulam, Kerala",
+    "pinCode": "683542",
+    "phone": "0484-2522030",
+    "email": "srtopbr.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Perumbavoor Municipality",
+        "Kunnathunad Taluk",
+        "Vengola",
+        "Rayamangalam",
+        "Asamannoor",
+        "Mazhuvannoor",
+        "Koovappady",
+        "Okkal",
+        "Mudakkuzha",
+        "Vengoor"
+    ]
+}

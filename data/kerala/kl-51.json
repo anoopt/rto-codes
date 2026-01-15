@@ -1,0 +1,25 @@
+{
+    "code": "KL-51",
+    "region": "Sasthamcotta",
+    "city": "Sasthamcotta",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam Division",
+    "description": "KL-51 is the Sub Regional Transport Office (SRTO) serving the Sasthamcotta region in Kerala. It operates under the Kollam Regional Transport Office and manages vehicle registrations, driving licenses, and various transport-related permits for the Kunnathur Taluk.",
+    "status": "active",
+    "established": "2011",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Sasthamcotta, Kollam, Kerala",
+    "pinCode": "690521",
+    "phone": "0476-2831515",
+    "email": "kl51@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kunnathur Taluk",
+        "Sasthamcotta",
+        "Sooranad North",
+        "Sooranad South",
+        "West Kallada",
+        "Poruvazhy",
+        "Mynagappally"
+    ]
+}

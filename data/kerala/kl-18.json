@@ -1,0 +1,32 @@
+{
+    "code": "KL-18",
+    "region": "Vadakara",
+    "city": "Vadakara",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Northern Region",
+    "description": "KL-18 is the Regional Transport Office (RTO) serving the Vadakara region in Kozhikode district. It handles vehicle registrations, driving licenses, and transport permits for the Vadakara taluk and surrounding coastal areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, 1st Floor, Civil Station, Vadakara, Kozhikode, Kerala",
+    "pinCode": "673101",
+    "phone": "0496-2526683",
+    "email": "kl18@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Vadakara Municipality",
+        "Vadakara Taluk",
+        "Onchiyam",
+        "Chorode",
+        "Eramala",
+        "Azhiyur",
+        "Edachery",
+        "Tuneri",
+        "Purameri",
+        "Ayancheri",
+        "Villiappally",
+        "Thiruvallur",
+        "Maniyur",
+        "Payyoli"
+    ]
+}

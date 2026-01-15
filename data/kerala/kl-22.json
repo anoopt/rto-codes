@@ -1,0 +1,27 @@
+{
+    "code": "KL-22",
+    "region": "Kazhakkuttam",
+    "city": "Kazhakkuttam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram Division",
+    "description": "KL-22 is the Sub Regional Transport Office (SRTO) located in Kazhakkuttam, serving the northern suburbs of the state capital. This office plays a vital role in managing transport services for the Technopark IT corridor and surrounding residential hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Regional Transport Office, Near Technopark, Kazhakkuttam, Thiruvananthapuram, Kerala",
+    "pinCode": "695582",
+    "phone": "0471-2415122",
+    "email": "kl22@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kazhakkuttam",
+        "Sreekaryam",
+        "Pangappara",
+        "Andoorkonam",
+        "Pothencode",
+        "Mangalapuram",
+        "Kadinamkulam",
+        "Pallippuram",
+        "Menamkulam"
+    ]
+}

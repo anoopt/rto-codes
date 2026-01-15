@@ -1,0 +1,29 @@
+{
+    "code": "KL-53",
+    "region": "Perinthalmanna",
+    "city": "Perinthalmanna",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "North Zone",
+    "description": "KL-53 is the Sub-Regional Transport Office (SRTO) serving the Perinthalmanna region in the Malappuram district. It is responsible for vehicle registration, driving license issuance, and ensuring road safety compliance within its designated taluk jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Perinthalmanna, Malappuram, Kerala",
+    "pinCode": "679322",
+    "phone": "+91 4933 224411",
+    "email": "kl53.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Perinthalmanna",
+        "Angadipuram",
+        "Mankada",
+        "Pulamanthole",
+        "Melattur",
+        "Keezhattur",
+        "Vettathur",
+        "Thazhekode",
+        "Aliparamba",
+        "Elamkulam",
+        "Puzhakkattiri"
+    ]
+}

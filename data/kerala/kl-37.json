@@ -1,0 +1,28 @@
+{
+    "code": "KL-37",
+    "region": "Adoor",
+    "city": "Adoor",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "South Kerala",
+    "description": "KL-37 serves the Adoor region as a Sub Regional Transport Office (SRTO) under the Pathanamthitta district. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations within the Adoor taluk.",
+    "status": "active",
+    "established": "2002",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Adoor, Pathanamthitta, Kerala",
+    "pinCode": "691523",
+    "phone": "04734-224400",
+    "email": "kl37@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Adoor Taluk",
+        "Pandalam",
+        "Enadimangalam",
+        "Ezhamkulam",
+        "Kadampanad",
+        "Kalanjoor",
+        "Kodumon",
+        "Pallickal",
+        "Peringanad",
+        "Kurampala"
+    ]
+}

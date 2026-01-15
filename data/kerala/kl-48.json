@@ -1,0 +1,29 @@
+{
+    "code": "KL-48",
+    "region": "Adoor",
+    "city": "Adoor",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "Thiruvananthapuram (South) Division",
+    "description": "KL-48 serves the Adoor Sub Regional Transport Office (Joint RTO) in Pathanamthitta district. It is responsible for vehicle registration, driving licenses, and enforcing transport regulations within the Adoor Taluk region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Joint Regional Transport Office, Mini Civil Station, Adoor, Pathanamthitta District, Kerala",
+    "pinCode": "691523",
+    "phone": "04734-224440",
+    "email": "kl48@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Adoor",
+        "Pandalam",
+        "Parakode",
+        "Enadimangalam",
+        "Erathu",
+        "Ezhamkulam",
+        "Kadampanad",
+        "Kalanjoor",
+        "Kodumon",
+        "Kurampala",
+        "Peringanad"
+    ]
+}

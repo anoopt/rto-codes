@@ -1,0 +1,28 @@
+{
+    "code": "KL-38",
+    "region": "Thodupuzha",
+    "city": "Thodupuzha",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Idukki",
+    "division": "Central Zone",
+    "description": "KL-38 is the Regional Transport Office (RTO) serving Thodupuzha in the Idukki district of Kerala. It handles vehicle registration, licensing, and enforcement of transport laws for the Thodupuzha taluk and surrounding regions, serving as a vital transport hub in the high ranges.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Mini Civil Station, Thodupuzha, Idukki District, Kerala",
+    "pinCode": "685584",
+    "phone": "04862-222626",
+    "email": "kl38@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Thodupuzha Taluk",
+        "Karimannoor",
+        "Udumbannoor",
+        "Kodikulam",
+        "Velliyamattom",
+        "Alakode",
+        "Muttom",
+        "Vannappuram",
+        "Kumaramangalam",
+        "Purapuzha"
+    ]
+}

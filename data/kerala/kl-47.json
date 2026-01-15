@@ -1,0 +1,26 @@
+{
+    "code": "KL-47",
+    "region": "Kodungallur",
+    "city": "Kodungallur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Central Kerala Division",
+    "description": "KL-47 is the Sub Regional Transport Office (SRTO) for Kodungallur, located in the Thrissur district of Kerala. It is responsible for vehicle registration, driving licenses, and enforcing motor vehicle regulations in the historic port town and its coastal neighborhood.",
+    "status": "active",
+    "established": "2005",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Kodungallur, Thrissur, Kerala",
+    "pinCode": "680664",
+    "phone": "0480-2804366",
+    "email": "kl47@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kodungallur Taluk",
+        "Methala",
+        "Eriyad",
+        "Edavilangu",
+        "Srinagar",
+        "Perinjanam",
+        "Pappinivattom",
+        "Panangad"
+    ]
+}
