@@ -92,8 +92,11 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update index files and RTO images tracking"
-            git push
+            # Pull latest changes first to avoid non-fast-forward errors
+            git pull --rebase origin main || true
+            
+            git commit -m "chore: update index files and RTO images tracking" || true
+            git push origin main
             echo "✅ Index files and rto-images.json updated"
           fi
 
