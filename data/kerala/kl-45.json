@@ -1,0 +1,28 @@
+{
+    "code": "KL-45",
+    "region": "Irinjalakuda",
+    "city": "Irinjalakuda",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur Division",
+    "description": "The KL-45 Sub-Regional Transport Office serves the Irinjalakuda region in the Thrissur district of Kerala. It is responsible for vehicle registration, driving licenses, and enforcing transport regulations within the Mukundapuram taluk area.",
+    "status": "active",
+    "established": "2002",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Irinjalakuda, Thrissur, Kerala",
+    "pinCode": "680121",
+    "phone": "0480-2823100",
+    "email": "kl45@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Mukundapuram Taluk",
+        "Irinjalakuda Municipality",
+        "Vellangallur",
+        "Padiyur",
+        "Poomangalam",
+        "Kattur",
+        "Karalam",
+        "Muriyad",
+        "Parappukkara",
+        "Aloor"
+    ]
+}

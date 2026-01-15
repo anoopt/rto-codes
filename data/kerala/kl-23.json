@@ -1,0 +1,28 @@
+{
+    "code": "KL-23",
+    "region": "Karunagappally",
+    "city": "Karunagappally",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "South Zone",
+    "description": "KL-23 is the Sub Regional Transport Office (SRTO) for Karunagappally, functioning under the Kollam Regional Transport Office. It provides essential services such as vehicle registration, driving license issuance, and fitness certification for the northern parts of Kollam district.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Karunagappally, Kollam, Kerala",
+    "pinCode": "690518",
+    "phone": "0476-2621414",
+    "email": "kl23@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Karunagappally Taluk",
+        "Chavara",
+        "Oachira",
+        "Clappana",
+        "Kulasekharapuram",
+        "Thevalakkara",
+        "Panmana",
+        "Alappad",
+        "Mynagappally",
+        "Thazhava"
+    ]
+}

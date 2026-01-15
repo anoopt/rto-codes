@@ -1,0 +1,27 @@
+{
+    "code": "KL-42",
+    "region": "North Paravur",
+    "city": "North Paravur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Central Zone",
+    "description": "The KL-42 Sub Regional Transport Office (SRTO) serves the North Paravur taluk in Ernakulam district. It handles vehicle registration, driving licenses, and transport permits for the northern suburban regions of Kochi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Regional Transport Office, Mini Civil Station, North Paravur, Ernakulam, Kerala",
+    "pinCode": "683513",
+    "phone": "0484-2445500",
+    "email": "kl42@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "North Paravur Taluk",
+        "Alangad",
+        "Chittatukara",
+        "Chendamangalam",
+        "Ezhikkara",
+        "Kottuvally",
+        "Vadakkekara",
+        "Varapuzha",
+        "Karumalloor"
+    ]
+}

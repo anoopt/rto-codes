@@ -1,0 +1,28 @@
+{
+    "code": "KL-56",
+    "region": "Koyilandy",
+    "city": "Koyilandy",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode Division",
+    "description": "The KL-56 Sub Regional Transport Office (SRTO) serves the Koyilandy taluk in the Kozhikode district. It is responsible for motor vehicle registration, issuance of driving licenses, and enforcing transport regulations in the coastal and inland regions of northern Kozhikode.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Koyilandy, Kozhikode, Kerala",
+    "pinCode": "673305",
+    "phone": "0496-2622711",
+    "email": "kl56@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Koyilandy Taluk",
+        "Payyoli",
+        "Meppayur",
+        "Chemancheri",
+        "Chengottukave",
+        "Moodadi",
+        "Arikkulam",
+        "Thikkodi",
+        "Nochad",
+        "Chakkittapara"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "KL-34",
+    "region": "Mallappally",
+    "city": "Mallappally",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "South Zone",
+    "description": "KL-34 is the Sub-Regional Transport Office (SRTO) for Mallappally, serving the Pathanamthitta district. This office handles vehicle registration, issuance of driving licenses, and other transport-related services for the Mallappally taluk and neighboring areas.",
+    "status": "active",
+    "established": "2002",
+    "address": "Sub Regional Transport Office, Mallappally West P.O., Pathanamthitta, Kerala",
+    "pinCode": "689585",
+    "phone": "0469-2680100",
+    "email": "kl34@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Mallappally Taluk",
+        "Anicadu",
+        "Kallooppara",
+        "Kottangal",
+        "Mallappally",
+        "Puramattom",
+        "Kunnamthanam",
+        "Ezhumatoor"
+    ]
+}

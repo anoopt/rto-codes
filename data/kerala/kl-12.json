@@ -1,0 +1,27 @@
+{
+    "code": "KL-12",
+    "region": "Kalpetta",
+    "city": "Kalpetta",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Wayanad",
+    "division": "North Zone",
+    "description": "KL-12 is the Regional Transport Office for Kalpetta, serving as the primary administrative body for vehicle registration and licensing in the Wayanad district. It plays a crucial role in managing transport regulations in the high-altitude Western Ghats region of Kerala.",
+    "status": "active",
+    "established": "1980",
+    "address": "Regional Transport Office, 2nd Floor, Civil Station, Kalpetta, Wayanad, Kerala",
+    "pinCode": "673121",
+    "phone": "+91 4936 202607",
+    "email": "kl12@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kalpetta",
+        "Vythiri",
+        "Meppadi",
+        "Pozhuthana",
+        "Thariyode",
+        "Vengappally",
+        "Muppainad",
+        "Kottathara",
+        "Padinharethara"
+    ]
+}

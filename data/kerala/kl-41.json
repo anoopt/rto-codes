@@ -1,0 +1,27 @@
+{
+    "code": "KL-41",
+    "region": "Aluva",
+    "city": "Aluva",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Central Zone",
+    "description": "KL-41 is the Sub Regional Transport Office (SRTO) located in Aluva under the Ernakulam district. It is responsible for vehicle registration, licensing, and enforcing motor vehicle regulations in the Aluva taluk and surrounding industrial areas.",
+    "status": "active",
+    "established": "2002",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Aluva, Ernakulam, Kerala",
+    "pinCode": "683101",
+    "phone": "0484-2630541",
+    "email": "kl41@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Aluva Municipality",
+        "Chengamanad",
+        "Choornikkara",
+        "Edathala",
+        "Kizhmad",
+        "Sreemoolanagaram",
+        "Kanjoor",
+        "Nedumbassery",
+        "Keezhumadu"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "KL-11",
+    "region": "Kozhikode",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Northern Region",
+    "description": "The KL-11 Regional Transport Office serves the Kozhikode city and its surrounding urban areas. It is one of the major RTOs in Kerala, responsible for vehicle registration, driving licenses, and enforcing transport regulations in the heart of the Malabar region.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, 2nd Floor, Civil Station, Kozhikode, Kerala",
+    "pinCode": "673020",
+    "phone": "0495-2371700",
+    "email": "kl11@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kozhikode Municipal Corporation",
+        "Kozhikode Taluk",
+        "Beypore",
+        "Cheruvannur",
+        "Elathur",
+        "Olavanna",
+        "Kadaliundi",
+        "Kunnamangalam"
+    ]
+}

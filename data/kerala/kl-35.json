@@ -1,0 +1,31 @@
+{
+    "code": "KL-35",
+    "region": "Pala",
+    "city": "Pala",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Kottayam Division",
+    "description": "KL-35 is the Sub Regional Transport Office (Sub RTO) situated in Pala, serving the Meenachil Taluk in Kottayam district. It is responsible for vehicle registration, driving licenses, and ensuring road safety compliance within its jurisdiction.",
+    "status": "active",
+    "established": "2002",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Pala, Kottayam, Kerala",
+    "pinCode": "686575",
+    "phone": "04822-216010",
+    "email": "kl35@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Meenachil Taluk",
+        "Pala Municipality",
+        "Bharananganam",
+        "Kadanad",
+        "Karoor",
+        "Kozhuvanal",
+        "Meenachil",
+        "Melukavu",
+        "Moonnilavu",
+        "Mutholy",
+        "Poovarany",
+        "Ramapuram",
+        "Thalappalam"
+    ]
+}

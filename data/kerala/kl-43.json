@@ -1,0 +1,25 @@
+{
+    "code": "KL-43",
+    "region": "Mattancherry",
+    "city": "Mattancherry",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam Division",
+    "description": "The KL-43 Sub Regional Transport Office (SRTO) serves the historic western regions of Kochi, including Mattancherry and Fort Kochi. It handles vehicle registration, licensing, and traffic regulation enforcement for the coastal and urban pockets of West Kochi.",
+    "status": "active",
+    "established": "2002",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Mattancherry, Kochi, Kerala",
+    "pinCode": "682001",
+    "phone": "0484-2226100",
+    "email": "kl43.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Mattancherry",
+        "Fort Kochi",
+        "Palluruthy",
+        "Kumbalangi",
+        "Chellanam",
+        "Maradu",
+        "Willingdon Island"
+    ]
+}

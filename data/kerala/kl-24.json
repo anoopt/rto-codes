@@ -1,0 +1,30 @@
+{
+    "code": "KL-24",
+    "region": "Kottarakkara",
+    "city": "Kottarakkara",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "South Zone",
+    "description": "KL-24 serves the Kottarakkara region in Kollam district, Kerala. It is a Sub Regional Transport Office (SRTO) responsible for vehicle registrations, driving license issuance, and road tax collection for the inland areas of the district.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Kottarakkara, Kollam, Kerala",
+    "pinCode": "691506",
+    "phone": "0474-2454100",
+    "email": "kl24@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kottarakkara Taluk",
+        "Neduvathoor",
+        "Mylom",
+        "Kulakkada",
+        "Pavithreswaram",
+        "Ezhukone",
+        "Kareepra",
+        "Veliyam",
+        "Pooyappally",
+        "Ummannoor",
+        "Vettikkavala",
+        "Melila"
+    ]
+}
