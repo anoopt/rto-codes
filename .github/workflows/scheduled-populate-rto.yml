@@ -72,14 +72,11 @@ jobs:
 
           # Load state rotation data
           if [ -f .github-cache/state-rotation.json ]; then
-            LAST_STATE=$(jq -r '.lastProcessedState' .github-cache/state-rotation.json)
-            PROCESSED_STATES=$(jq -r '.processedStates | join(",")' .github-cache/state-rotation.json)
+            LAST_STATE=$(jq -r '.lastProcessedState // ""' .github-cache/state-rotation.json)
             echo "Last processed: $LAST_STATE"
-            echo "Processed states: $PROCESSED_STATES"
           else
             mkdir -p .github-cache
             LAST_STATE=""
-            PROCESSED_STATES=""
           fi
 
           # Get all incomplete states
