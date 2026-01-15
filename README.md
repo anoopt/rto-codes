@@ -59,6 +59,7 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 ### Quick Links
 
+- **[STRUCTURE.md](./STRUCTURE.md)** - Guide to folders, data files, and scripts
 - **[DATA.md](./DATA.md)** - Complete state-by-state coverage breakdown
 - **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to add RTO data
 - **[PLANNING.md](./PLANNING.md)** - Roadmap and future plans
