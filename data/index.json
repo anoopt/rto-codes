@@ -1,33 +1,15 @@
 {
-  "generatedAt": "2026-01-14T17:05:35.460Z",
-  "totalRTOs": 89,
-  "totalVerified": 89,
+  "generatedAt": "2026-01-15T23:02:12.355Z",
+  "totalRTOs": 139,
+  "totalVerified": 139,
   "totalStates": 28,
   "completedStates": 2,
   "totalUTs": 8,
   "completedUTs": 0,
   "states": [
     {
-      "stateCode": "PY",
-      "stateName": "Puducherry",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "union-territory"
-    },
-    {
-      "stateCode": "AN",
-      "stateName": "Andaman and Nicobar Islands",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "union-territory"
-    },
-    {
-      "stateCode": "MN",
-      "stateName": "Manipur",
+      "stateCode": "NL",
+      "stateName": "Nagaland",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -35,8 +17,8 @@
       "type": "state"
     },
     {
-      "stateCode": "TR",
-      "stateName": "Tripura",
+      "stateCode": "MH",
+      "stateName": "Maharashtra",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -44,26 +26,8 @@
       "type": "state"
     },
     {
-      "stateCode": "GJ",
-      "stateName": "Gujarat",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "HP",
-      "stateName": "Himachal Pradesh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "CH",
-      "stateName": "Chandigarh",
+      "stateCode": "JK",
+      "stateName": "Jammu and Kashmir",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -80,17 +44,8 @@
       "type": "state"
     },
     {
-      "stateCode": "AP",
-      "stateName": "Andhra Pradesh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "LA",
-      "stateName": "Ladakh",
+      "stateCode": "PY",
+      "stateName": "Puducherry",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -98,8 +53,8 @@
       "type": "union-territory"
     },
     {
-      "stateCode": "RJ",
-      "stateName": "Rajasthan",
+      "stateCode": "MN",
+      "stateName": "Manipur",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -107,35 +62,8 @@
       "type": "state"
     },
     {
-      "stateCode": "TS",
-      "stateName": "Telangana",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "CG",
-      "stateName": "Chhattisgarh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "OD",
-      "stateName": "Odisha",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "WB",
-      "stateName": "West Bengal",
+      "stateCode": "SK",
+      "stateName": "Sikkim",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -150,15 +78,6 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state"
-    },
-    {
-      "stateCode": "JK",
-      "stateName": "Jammu and Kashmir",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "union-territory"
     },
     {
       "stateCode": "KA",
@@ -242,71 +161,8 @@
       "type": "state"
     },
     {
-      "stateCode": "SK",
-      "stateName": "Sikkim",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "UP",
-      "stateName": "Uttar Pradesh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "MH",
-      "stateName": "Maharashtra",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "NL",
-      "stateName": "Nagaland",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "ML",
-      "stateName": "Meghalaya",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "MZ",
-      "stateName": "Mizoram",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "AS",
-      "stateName": "Assam",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "PB",
-      "stateName": "Punjab",
+      "stateCode": "BR",
+      "stateName": "Bihar",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -336,17 +192,8 @@
       "type": "state"
     },
     {
-      "stateCode": "AR",
-      "stateName": "Arunachal Pradesh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "MP",
-      "stateName": "Madhya Pradesh",
+      "stateCode": "HP",
+      "stateName": "Himachal Pradesh",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -363,6 +210,81 @@
       "type": "union-territory"
     },
     {
+      "stateCode": "TR",
+      "stateName": "Tripura",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "KL",
+      "stateName": "Kerala",
+      "rtoCount": 56,
+      "verifiedCount": 56,
+      "rtoCodes": [
+        "kl-01",
+        "kl-02",
+        "kl-03",
+        "kl-04",
+        "kl-05",
+        "kl-06",
+        "kl-07",
+        "kl-08",
+        "kl-09",
+        "kl-10",
+        "kl-11",
+        "kl-12",
+        "kl-13",
+        "kl-14",
+        "kl-15",
+        "kl-16",
+        "kl-17",
+        "kl-18",
+        "kl-19",
+        "kl-20",
+        "kl-21",
+        "kl-22",
+        "kl-23",
+        "kl-24",
+        "kl-25",
+        "kl-26",
+        "kl-27",
+        "kl-28",
+        "kl-29",
+        "kl-30",
+        "kl-31",
+        "kl-32",
+        "kl-33",
+        "kl-34",
+        "kl-35",
+        "kl-36",
+        "kl-37",
+        "kl-38",
+        "kl-39",
+        "kl-40",
+        "kl-41",
+        "kl-42",
+        "kl-43",
+        "kl-44",
+        "kl-45",
+        "kl-46",
+        "kl-47",
+        "kl-48",
+        "kl-49",
+        "kl-50",
+        "kl-51",
+        "kl-52",
+        "kl-53",
+        "kl-54",
+        "kl-55",
+        "kl-56"
+      ],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
       "stateCode": "JH",
       "stateName": "Jharkhand",
       "rtoCount": 0,
@@ -372,17 +294,8 @@
       "type": "state"
     },
     {
-      "stateCode": "BR",
-      "stateName": "Bihar",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
-      "type": "state"
-    },
-    {
-      "stateCode": "DL",
-      "stateName": "Delhi",
+      "stateCode": "LA",
+      "stateName": "Ladakh",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
@@ -399,24 +312,161 @@
       "type": "union-territory"
     },
     {
-      "stateCode": "KL",
-      "stateName": "Kerala",
-      "rtoCount": 6,
-      "verifiedCount": 6,
-      "rtoCodes": [
-        "kl-01",
-        "kl-02",
-        "kl-03",
-        "kl-04",
-        "kl-05",
-        "kl-06"
-      ],
+      "stateCode": "WB",
+      "stateName": "West Bengal",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "CG",
+      "stateName": "Chhattisgarh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "MP",
+      "stateName": "Madhya Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "AN",
+      "stateName": "Andaman and Nicobar Islands",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory"
+    },
+    {
+      "stateCode": "DL",
+      "stateName": "Delhi",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory"
+    },
+    {
+      "stateCode": "PB",
+      "stateName": "Punjab",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
       "isComplete": false,
       "type": "state"
     },
     {
       "stateCode": "UK",
       "stateName": "Uttarakhand",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "OD",
+      "stateName": "Odisha",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "MZ",
+      "stateName": "Mizoram",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "ML",
+      "stateName": "Meghalaya",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "RJ",
+      "stateName": "Rajasthan",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "AR",
+      "stateName": "Arunachal Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "AP",
+      "stateName": "Andhra Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "UP",
+      "stateName": "Uttar Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "CH",
+      "stateName": "Chandigarh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory"
+    },
+    {
+      "stateCode": "TS",
+      "stateName": "Telangana",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state"
+    },
+    {
+      "stateCode": "AS",
+      "stateName": "Assam",
       "rtoCount": 0,
       "verifiedCount": 0,
       "rtoCodes": [],
