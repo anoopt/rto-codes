@@ -8,6 +8,12 @@ on:
       - "data/**/*.json"
       - "!data/**/index.json"
       - "!data/rto-images.json"
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "State folder name (e.g., kerala, karnataka) - leave empty to process all pending"
+        required: false
+        type: string
 
 jobs:
   generate-images:
@@ -38,6 +44,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
+        if: github.event_name == 'push'
         uses: tj-actions/changed-files@v46.0.1
         with:
           files: |
@@ -46,8 +53,56 @@ jobs:
             data/**/index.json
             data/rto-images.json
 
+      - name: Determine states to process
+        id: states
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            # Manual trigger
+            if [ -n "${{ inputs.state }}" ]; then
+              echo "states=${{ inputs.state }}" >> $GITHUB_OUTPUT
+              echo "should_run=true" >> $GITHUB_OUTPUT
+              echo "📍 Manual trigger for state: ${{ inputs.state }}"
+            else
+              # Find states with RTOs but missing images
+              echo "🔍 Finding states with missing images..."
+              states=$(bun -e "
+                const fs = require('fs');
+                const images = JSON.parse(fs.readFileSync('data/rto-images.json', 'utf8'));
+                const index = JSON.parse(fs.readFileSync('data/index.json', 'utf8'));
+                const statesWithMissingImages = new Set();
+                for (const rto of index.rtos || []) {
+                  if (!images[rto.code]) {
+                    const folder = rto.state.toLowerCase().replace(/\s+/g, '-');
+                    statesWithMissingImages.add(folder);
+                  }
+                }
+                console.log([...statesWithMissingImages].join(' '));
+              ")
+              if [ -n "$states" ]; then
+                echo "states=$states" >> $GITHUB_OUTPUT
+                echo "should_run=true" >> $GITHUB_OUTPUT
+                echo "📍 States with missing images: $states"
+              else
+                echo "should_run=false" >> $GITHUB_OUTPUT
+                echo "✅ All RTOs have images"
+              fi
+            fi
+          else
+            # Push trigger - use changed files
+            if [ "${{ steps.changed-files.outputs.any_changed }}" == "true" ]; then
+              states=$(echo "${{ steps.changed-files.outputs.all_changed_files }}" | \
+                grep -oP 'data/\K[^/]+' | sort -u | tr '\n' ' ')
+              echo "states=$states" >> $GITHUB_OUTPUT
+              echo "should_run=true" >> $GITHUB_OUTPUT
+              echo "📍 States from changed files: $states"
+            else
+              echo "should_run=false" >> $GITHUB_OUTPUT
+              echo "ℹ️  No RTO data files changed"
+            fi
+          fi
+
       - name: Generate RTO images
-        if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.states.outputs.should_run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
@@ -65,11 +120,8 @@ jobs:
             exit 0
           fi
 
-          # Extract states from changed files
-          states=$(echo "${{ steps.changed-files.outputs.all_changed_files }}" | \
-            grep -oP 'data/\K[^/]+' | sort -u)
-
-          for state in $states; do
+          # Process states
+          for state in ${{ steps.states.outputs.states }}; do
             if [ -d "data/$state" ] && [ "$state" != "rto-images.json" ]; then
               echo "Generating images for state: $state"
               bun scripts/generate-rto-images.ts --state="$state" || echo "⚠️  Failed to generate images for $state"
@@ -77,7 +129,7 @@ jobs:
           done
 
       - name: Commit rto-images.json
-        if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.states.outputs.should_run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
@@ -101,7 +153,7 @@ jobs:
           fi
 
       - name: Summary
-        if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.states.outputs.should_run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
