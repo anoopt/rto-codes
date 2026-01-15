@@ -17,15 +17,6 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 ![Total RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalRTOs&label=Total%20RTOs&color=blue)
 ![Verified RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalVerified&label=Verified&color=success)
 
-**Current Status:**
-
-| State/UT              | Status                                                             | RTOs                                                                             | Map                                                                  |
-| --------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Karnataka**         | ![Complete](https://img.shields.io/badge/-Complete-brightgreen)    | ![71 RTOs](https://img.shields.io/badge/RTOs-71-blue)                            | ![Available](https://img.shields.io/badge/Map-Available-brightgreen) |
-| **Goa**               | ![Complete](https://img.shields.io/badge/-Complete-brightgreen)    | ![12 RTOs](https://img.shields.io/badge/RTOs-12-blue)                            | ![Available](https://img.shields.io/badge/Map-Available-brightgreen) |
-| **Kerala**            | ![In Progress](https://img.shields.io/badge/-In%20Progress-orange) | ![6/93 RTOs](https://img.shields.io/badge/RTOs-6%2F93-orange)                    | ![Needed](https://img.shields.io/badge/Map-Needed-red)               |
-| **26 States + 8 UTs** | ![Scaffolded](https://img.shields.io/badge/-Scaffolded-yellow)     | ![Ready](https://img.shields.io/badge/Status-Ready%20for%20Contributions-yellow) | ![Needed](https://img.shields.io/badge/Maps-Needed-red)              |
-
 **[→ View detailed state-by-state breakdown in DATA.md](./DATA.md)**
 
 ## 🛠 Tech Specs
