@@ -152,6 +152,17 @@ jobs:
             echo "✅ Index files and rto-images.json updated"
           fi
 
+      - name: Trigger Auto-Complete State Check
+        if: success() && github.event_name == 'workflow_dispatch' && steps.states.outputs.should_run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "🚀 Triggering auto-complete-state for states: ${{ steps.states.outputs.states }}"
+          STATES="${{ steps.states.outputs.states }}"
+          if [ -n "$STATES" ]; then
+            gh workflow run auto-complete-state.yml -f state="$STATES" || echo "⚠️ Failed to trigger auto-complete workflow"
+          fi
+
       - name: Summary
         if: steps.states.outputs.should_run == 'true'
         env:
