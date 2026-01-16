@@ -1,1 +1,104 @@
-[]
+[
+  {
+    "code": "AP-02",
+    "region": "Anantapur",
+    "city": "Anantapur",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Anantapur",
+    "division": "Anantapur Division",
+    "description": "The AP-02 Regional Transport Office serves the Anantapuramu district in Andhra Pradesh. Although the state transitioned to a unified AP-39 registration series in 2019, this office continues to manage legacy registrations and regional transport services for the Anantapur area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bhairava Nagar, Near JNTU Engineering College, Anantapur, Andhra Pradesh",
+    "pinCode": "515002",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Anantapur",
+      "Gooty",
+      "Tadipatri",
+      "Dharmavaram",
+      "Kalyandurg",
+      "Rayadurg",
+      "Uravakonda"
+    ]
+  },
+  {
+    "code": "AP-03",
+    "region": "Chittoor",
+    "city": "Chittoor",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Chittoor",
+    "division": "Rayalaseema",
+    "description": "The AP-03 RTO serves the Chittoor district in Andhra Pradesh, managing vehicle registration, driving licenses, and transport permits for the region. While the state transitioned to a unified AP-39 registration series for new vehicles in 2019, AP-03 remains the active legacy code and administrative identifier for the Chittoor RTO office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 1 & 2, Industrial Estate, Puttur Road, Chittoor, Andhra Pradesh",
+    "pinCode": "517001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chittoor",
+      "Tirupati",
+      "Madanapalle",
+      "Palamaner",
+      "Punganur",
+      "Nagari",
+      "Srikalahasti",
+      "Chandragiri"
+    ]
+  },
+  {
+    "code": "AP-04",
+    "region": "Kadapa",
+    "city": "Kadapa",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "YSR Kadapa",
+    "division": "Kadapa",
+    "description": "AP-04 is the Regional Transport Office for the YSR Kadapa district in Andhra Pradesh. Although the state shifted to a unified AP-39 code for all new registrations in 2019, this office remains the primary administrative hub for legacy vehicle records and licensing services in the Kadapa region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Uttukur, Chintha Komma Dinne Mandal, Kadapa, Andhra Pradesh",
+    "pinCode": "516003",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kadapa",
+      "Proddutur",
+      "Pulivendula",
+      "Rayachoti",
+      "Rajampet",
+      "Badvel",
+      "Mydukur",
+      "Jammalamadugu"
+    ]
+  },
+  {
+    "code": "AP-05",
+    "region": "Kakinada",
+    "city": "Kakinada",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "East Godavari",
+    "division": "Kakinada",
+    "description": "AP-05 is the Regional Transport Office for Kakinada, serving as a key administrative hub for vehicle registration and licensing in the East Godavari district. Although Andhra Pradesh introduced a uniform registration series (AP-39) in 2019, AP-05 remains active as a legacy code for identifying vehicles originally registered in the Kakinada jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office Kakinada, Kakinada Rd, Kachiripeta, Kakinada, Andhra Pradesh",
+    "pinCode": "533001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kakinada",
+      "Kakinada Rural",
+      "Samalkot",
+      "Pithapuram",
+      "Gollaprolu",
+      "Karapa",
+      "Peddapuram"
+    ]
+  }
+]
