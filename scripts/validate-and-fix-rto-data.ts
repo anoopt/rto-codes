@@ -202,6 +202,12 @@ async function validateAndFixWithGemini(
 
 Please validate the following RTO data for accuracy, provide corrections if needed, AND fill in any missing information.
 
+## CRITICAL VALIDATION STEP:
+**First, verify if the RTO Code (${rto.code}) actually belongs to the city/region "${rto.region}".**
+- If ${rto.code} belongs to a DIFFERENT city, you MUST report isValid: false and provide the correct city in suggestions.
+- Do not be misled by the other details in the JSON (like address or email). If they describe the wrong city, they are part of the error.
+- The RTO Code is the primary truth. The data must match the code.
+
 ## Validation Checks:
 1. Is the city/region name correct for this RTO code?
 2. Is the district assignment correct for the given state?

@@ -1,10 +1,6 @@
 name: Scheduled RTO Population
 
 on:
-  # Run daily at 2 AM UTC
-  schedule:
-    - cron: "0 2 * * *"
-
   # Allow manual trigger with optional parameters
   workflow_dispatch:
     inputs:
