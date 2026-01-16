@@ -2,7 +2,7 @@
 /**
  * RTO Data Validation & Fix Script
  * 
- * Uses Google Gemini to validate RTO JSON data and automatically fix issues.
+ * Uses Google Gemini with structured output to validate RTO JSON data and automatically fix issues.
  * Can update JSON files based on AI suggestions with human review.
  * 
  * Usage: 
@@ -33,9 +33,18 @@
  *   GEMINI_API_KEY     Your Google Gemini API key
  */
 
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
+import { z, toJSONSchema } from 'zod';
 import * as fs from 'fs';
 import * as path from 'path';
+
+// Helper to convert Zod schema to Gemini-compatible JSON schema
+// Removes $schema and additionalProperties fields that Gemini API doesn't accept
+function toGeminiSchema(schema: z.ZodType): object {
+    const jsonSchema = toJSONSchema(schema) as Record<string, unknown>;
+    const { $schema, additionalProperties, ...rest } = jsonSchema;
+    return rest;
+}
 
 // ============================================================================
 // Configuration
@@ -43,34 +52,59 @@ import * as path from 'path';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const MODEL_NAME = 'gemini-3-flash-preview';
-const API_DELAY_MS = 1500; // Delay between API calls to avoid rate limiting
+const API_DELAY_MS = 1500;
 
 // ============================================================================
-// Types
+// Zod Schemas
 // ============================================================================
 
-interface RTOData {
-    code: string;
-    region: string;
-    city: string;
-    state: string;
-    stateCode: string;
-    district?: string;
-    division?: string;
-    description?: string;
-    coverage?: string;
-    status?: 'not-in-use' | 'active';
-    established?: string;
-    address?: string;
-    pinCode?: string;
-    phone?: string;
-    email?: string;
-    jurisdictionAreas?: string[];
-    additionalInfo?: string;
-    note?: string;
-    imageCredit?: string;
-    imageCreditLink?: string;
-}
+const RTODataSchema = z.object({
+    code: z.string().describe('RTO code like KA-01, KL-49'),
+    region: z.string().describe('Region/area name this RTO serves'),
+    city: z.string().describe('City name'),
+    state: z.string().describe('Full state name'),
+    stateCode: z.string().describe('2-letter state code'),
+    district: z.string().optional().describe('District name'),
+    division: z.string().optional().describe('Transport division name'),
+    description: z.string().optional().describe('Description of the RTO'),
+    coverage: z.string().optional().describe('Coverage area'),
+    status: z.enum(['active', 'not-in-use']).optional().describe('Status'),
+    established: z.string().optional().describe('Year established or N/A'),
+    address: z.string().optional().describe('Physical address'),
+    pinCode: z.string().optional().describe('6-digit PIN code'),
+    phone: z.string().optional().describe('Contact phone number'),
+    email: z.string().optional().describe('Contact email'),
+    jurisdictionAreas: z.array(z.string()).optional().describe('Areas under jurisdiction'),
+    additionalInfo: z.string().optional().describe('Additional information'),
+    note: z.string().optional().describe('Additional notes'),
+    imageCredit: z.string().optional().describe('Image credit'),
+    imageCreditLink: z.string().optional().describe('Image credit link'),
+});
+
+const CorrectedDataSchema = z.object({
+    region: z.string().optional().describe('Corrected region name'),
+    city: z.string().optional().describe('Corrected city name'),
+    district: z.string().optional().describe('Corrected district name'),
+    division: z.string().optional().describe('Corrected division name'),
+    description: z.string().optional().describe('Improved description'),
+    address: z.string().optional().describe('Corrected address'),
+    pinCode: z.string().optional().describe('Corrected PIN code'),
+    phone: z.string().optional().describe('Corrected phone number'),
+    email: z.string().optional().describe('Corrected email'),
+    jurisdictionAreas: z.array(z.string()).optional().describe('Corrected jurisdiction areas'),
+}).describe('Fields that need correction - only include fields that need to be changed');
+
+const ValidationResultSchema = z.object({
+    isValid: z.boolean().describe('Whether the RTO data is valid and accurate'),
+    confidence: z.number().min(0).max(100).describe('Confidence percentage 0-100'),
+    issues: z.array(z.string()).describe('List of specific issues found'),
+    suggestions: z.array(z.string()).describe('List of specific improvements'),
+    summary: z.string().describe('Brief overall assessment'),
+    correctedData: CorrectedDataSchema.optional().describe('Corrected field values - only include fields that need fixing'),
+});
+
+type RTOData = z.infer<typeof RTODataSchema>;
+type ValidationResult = { code: string } & z.infer<typeof ValidationResultSchema>;
 
 interface StateConfig {
     stateCode: string;
@@ -78,16 +112,6 @@ interface StateConfig {
     capital: string;
     totalRTOs: number;
     districtMapping: Record<string, string>;
-}
-
-interface ValidationResult {
-    code: string;
-    isValid: boolean;
-    confidence: number;
-    issues: string[];
-    suggestions: string[];
-    summary: string;
-    correctedData?: Partial<RTOData>;
 }
 
 interface FixResult {
@@ -120,7 +144,7 @@ if (!GEMINI_API_KEY) {
     process.exit(1);
 }
 
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 // ============================================================================
 // Utility Functions
@@ -190,7 +214,7 @@ function saveRTOData(state: string, code: string, data: RTOData): void {
 }
 
 // ============================================================================
-// Gemini Validation & Fixing
+// Gemini Validation & Fixing with Structured Output
 // ============================================================================
 
 async function validateAndFixWithGemini(
@@ -200,17 +224,6 @@ async function validateAndFixWithGemini(
     useSearch: boolean = false
 ): Promise<ValidationResult> {
     try {
-        // Configure model with or without Google Search grounding
-        const modelConfig: { model: string; tools?: Array<{ googleSearch: Record<string, never> }> } = {
-            model: MODEL_NAME,
-        };
-
-        if (useSearch) {
-            modelConfig.tools = [{ googleSearch: {} }];
-        }
-
-        const model = genAI.getGenerativeModel(modelConfig);
-
         const searchInstruction = useSearch
             ? `\n\n## IMPORTANT: Use Google Search
 You have access to Google Search. Before validating, SEARCH for "${rto.code} RTO" to find the correct city/location for this RTO code.
@@ -252,9 +265,7 @@ Look for fields that have "N/A", empty strings "", or placeholder values and pro
 - established: Year the RTO was established if known
 
 ## RTO Data to Validate:
-\`\`\`json
 ${JSON.stringify(rto, null, 2)}
-\`\`\`
 
 ${stateConfig ? `## State Context:
 - State: ${stateConfig.name}
@@ -264,47 +275,55 @@ ${stateConfig ? `## State Context:
 - Known Districts: ${Object.keys(stateConfig.districtMapping).join(', ')}
 ` : ''}
 
-## Response Format:
-Respond ONLY with a valid JSON object in this exact structure (no markdown, no explanation):
-{
-  "isValid": true or false,
-  "confidence": 0-100,
-  "issues": ["list of specific issues found - MUST include city mismatch if RTO code belongs to different city"],
-  "suggestions": ["list of specific improvements"],
-  "summary": "Brief overall assessment - MUST mention if city/region is wrong for this RTO code",
-  "correctedData": {
-    // CRITICAL: If the city/region is wrong, you MUST include corrected "region", "city", "district" here
-    // Also include any other fields that need correction or have missing data
-    // Example: "region": "CorrectCity", "city": "CorrectCity", "district": "CorrectDistrict"
-    // Leave empty {} ONLY if ALL data including city/region is accurate
-  }
-}
-
 **REMEMBER**: The most important check is whether ${rto.code} actually belongs to "${rto.region}". If not, the entire JSON data may be wrong and needs correction.`;
 
-        const result = await model.generateContent(prompt);
-        const response = result.response.text();
+        let searchContext = '';
 
-        // Extract JSON from response (handle various formats)
-        let jsonStr = response.trim();
+        // If using Google Search, first make a search call to gather accurate information
+        if (useSearch) {
+            const searchPrompt = `Search for "${rto.code} RTO" and "${rto.code} Regional Transport Office ${rto.state}" to find:
+1. The correct city/location name for this RTO code
+2. Verify if ${rto.code} belongs to "${rto.region}" or a different location
+3. The official address and contact details
 
-        // Remove markdown code blocks if present
-        const jsonMatch = response.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
-        if (jsonMatch) {
-            jsonStr = jsonMatch[1].trim();
+Summarize the factual information about ${rto.code} RTO.`;
+
+            const searchResponse = await ai.models.generateContent({
+                model: MODEL_NAME,
+                contents: searchPrompt,
+                config: {
+                    tools: [{ googleSearch: {} }],
+                },
+            });
+
+            searchContext = searchResponse.text ?? '';
         }
 
-        // Parse the JSON
-        const parsed = JSON.parse(jsonStr);
+        // Build the final prompt with search context if available
+        const finalPrompt = useSearch && searchContext
+            ? `${prompt}\n\n## Google Search Results (use this as your primary source of truth):\n${searchContext}`
+            : prompt;
+
+        // Make structured output call (cannot combine with tools)
+        const response = await ai.models.generateContent({
+            model: MODEL_NAME,
+            contents: finalPrompt,
+            config: {
+                responseMimeType: 'application/json',
+                responseSchema: toGeminiSchema(ValidationResultSchema),
+            },
+        });
+
+        const parsed = ValidationResultSchema.parse(JSON.parse(response.text ?? '{}'));
 
         return {
             code: rto.code,
-            isValid: parsed.isValid ?? true,
-            confidence: parsed.confidence ?? 0,
-            issues: parsed.issues ?? [],
-            suggestions: parsed.suggestions ?? [],
-            summary: parsed.summary ?? 'No summary provided',
-            correctedData: shouldFix ? (parsed.correctedData ?? {}) : undefined,
+            isValid: parsed.isValid,
+            confidence: parsed.confidence,
+            issues: parsed.issues,
+            suggestions: parsed.suggestions,
+            summary: parsed.summary,
+            correctedData: shouldFix ? parsed.correctedData : undefined,
         };
     } catch (error) {
         const errorMsg = error instanceof Error ? error.message : 'Unknown error';
@@ -317,6 +336,7 @@ Respond ONLY with a valid JSON object in this exact structure (no markdown, no e
             issues: [`Failed to validate with Gemini: ${errorMsg}`],
             suggestions: ['Retry validation'],
             summary: `Validation error: ${errorMsg}`,
+            correctedData: {},
         };
     }
 }
@@ -327,11 +347,11 @@ Respond ONLY with a valid JSON object in this exact structure (no markdown, no e
 
 function applyFixes(
     originalData: RTOData,
-    corrections: Partial<RTOData>,
+    corrections: Record<string, unknown>,
     verbose: boolean
 ): FixResult | null {
     const fieldsToFix = Object.keys(corrections).filter(
-        key => corrections[key as keyof RTOData] !== undefined
+        key => corrections[key] !== undefined && corrections[key] !== null && corrections[key] !== ''
     );
 
     if (fieldsToFix.length === 0) {
@@ -355,8 +375,7 @@ function applyFixes(
     };
 }
 
-function mergeRTOData(original: RTOData, corrections: Partial<RTOData>): RTOData {
-    // Create a clean merge, preserving original field order
+function mergeRTOData(original: RTOData, corrections: Record<string, unknown>): RTOData {
     const merged: RTOData = { ...original };
 
     for (const [key, value] of Object.entries(corrections)) {
@@ -400,7 +419,9 @@ function printValidationResult(result: ValidationResult, verbose: boolean): void
     if (result.correctedData && Object.keys(result.correctedData).length > 0) {
         console.log(`   Corrections available:`);
         for (const [field, value] of Object.entries(result.correctedData)) {
-            console.log(`     🔧 ${field}: ${JSON.stringify(value)}`);
+            if (value !== undefined && value !== null && value !== '') {
+                console.log(`     🔧 ${field}: ${JSON.stringify(value)}`);
+            }
         }
     }
 }
@@ -491,7 +512,6 @@ function parseArgs(): CLIOptions {
 
     // Process positional arguments
     if (positionalArgs.length >= 1 && !options.state) {
-        // First positional arg could be state
         const availableStates = getAvailableStates();
         if (availableStates.includes(positionalArgs[0].toLowerCase())) {
             options.state = positionalArgs[0].toLowerCase();
@@ -499,14 +519,15 @@ function parseArgs(): CLIOptions {
                 options.specificCode = positionalArgs[1].toUpperCase();
             }
         } else {
-            // Might be an RTO code like ka-01
             const codeMatch = positionalArgs[0].match(/^([a-z]{2})-(\d+)$/i);
             if (codeMatch) {
                 const stateCode = codeMatch[1].toLowerCase();
-                // Find state folder by code
                 const stateCodeToFolder: Record<string, string> = {
                     'ka': 'karnataka',
                     'ga': 'goa',
+                    'kl': 'kerala',
+                    'tn': 'tamil-nadu',
+                    'mh': 'maharashtra',
                 };
                 options.state = stateCodeToFolder[stateCode];
                 options.specificCode = positionalArgs[0].toUpperCase();
@@ -519,7 +540,7 @@ function parseArgs(): CLIOptions {
 
 function printHelp(): void {
     console.log(`
-🔍 RTO Data Validation & Fix Script
+🔍 RTO Data Validation & Fix Script (using @google/genai + Zod)
 
 Usage:
   bun scripts/validate-and-fix-rto-data.ts [options] [state] [code]
@@ -558,7 +579,7 @@ Available States:
 // ============================================================================
 
 async function main(): Promise<void> {
-    console.log('🔍 RTO Data Validation & Fix Script');
+    console.log('🔍 RTO Data Validation & Fix Script (using @google/genai + Zod)');
     console.log('='.repeat(60));
 
     const options = parseArgs();
@@ -568,7 +589,6 @@ async function main(): Promise<void> {
         process.exit(0);
     }
 
-    // Determine which states to validate
     const states = options.validateAll
         ? getAvailableStates()
         : options.state
@@ -596,7 +616,6 @@ async function main(): Promise<void> {
     }
     console.log('='.repeat(60));
 
-    // Track overall statistics
     let totalValidated = 0;
     let totalValid = 0;
     let totalInvalid = 0;
@@ -612,7 +631,6 @@ async function main(): Promise<void> {
             continue;
         }
 
-        // Load RTOs
         let rtosToValidate: RTOData[];
 
         if (options.specificCode) {
@@ -626,7 +644,6 @@ async function main(): Promise<void> {
             rtosToValidate = loadRTOData(state);
         }
 
-        // Apply filters
         if (options.skipNotInUse) {
             rtosToValidate = rtosToValidate.filter(rto => rto.status !== 'not-in-use');
         }
@@ -648,7 +665,6 @@ async function main(): Promise<void> {
 
             printValidationResult(result, options.verbose);
 
-            // Apply fixes if requested
             if (options.fix && result.correctedData && Object.keys(result.correctedData).length > 0) {
                 const fixResult = applyFixes(rto, result.correctedData, options.verbose);
 
@@ -659,7 +675,6 @@ async function main(): Promise<void> {
                         console.log(`\n   🔍 [DRY RUN] Would apply these fixes:`);
                         printFixResult(fixResult);
                     } else {
-                        // Actually apply and save the fixes
                         const mergedData = mergeRTOData(rto, result.correctedData);
                         saveRTOData(state, rto.code, mergedData);
 
@@ -670,7 +685,6 @@ async function main(): Promise<void> {
                 }
             }
 
-            // Update statistics
             if (result.isValid) {
                 totalValid++;
             } else {
@@ -678,16 +692,13 @@ async function main(): Promise<void> {
             }
             totalValidated++;
 
-            // Rate limiting
             await sleep(API_DELAY_MS);
         }
 
-        // Save results if requested
         if (options.saveResults && results.length > 0) {
             saveValidationResults(results, state);
         }
 
-        // Print state summary
         if (fixes.length > 0) {
             console.log(`\n  📊 ${state.toUpperCase()} Fix Summary:`);
             console.log(`     RTOs fixed: ${fixes.length}`);
@@ -695,7 +706,6 @@ async function main(): Promise<void> {
         }
     }
 
-    // Print overall summary
     console.log('\n' + '='.repeat(60));
     console.log('📊 OVERALL SUMMARY');
     console.log('='.repeat(60));
@@ -707,14 +717,12 @@ async function main(): Promise<void> {
     }
     console.log('='.repeat(60));
 
-    // Reminder to regenerate index
     if (totalFixed > 0 && !options.dryRun) {
         console.log(`\n💡 Don't forget to regenerate the index files:`);
         console.log(`   bun scripts/generate-index.ts`);
     }
 }
 
-// Run
 main().catch(error => {
     console.error('❌ Fatal error:', error);
     process.exit(1);

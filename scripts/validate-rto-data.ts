@@ -2,7 +2,7 @@
 /**
  * RTO Data Validation Script
  * 
- * Uses Google Gemini to validate RTO JSON data for accuracy.
+ * Uses Google Gemini with structured output to validate RTO JSON data for accuracy.
  * Checks city names, district mappings, jurisdiction areas, and general correctness.
  * 
  * Usage: 
@@ -16,12 +16,25 @@
  * - GEMINI_API_KEY
  */
 
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
+import { z, toJSONSchema } from 'zod';
 import * as fs from 'fs';
 import * as path from 'path';
 
-// Load environment variables
+// Helper to convert Zod schema to Gemini-compatible JSON schema
+// Removes $schema and additionalProperties fields that Gemini API doesn't accept
+function toGeminiSchema(schema: z.ZodType): object {
+    const jsonSchema = toJSONSchema(schema) as Record<string, unknown>;
+    const { $schema, additionalProperties, ...rest } = jsonSchema;
+    return rest;
+}
+
+// ============================================================================
+// Configuration
+// ============================================================================
+
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const MODEL_NAME = 'gemini-3-flash-preview';
 
 // Validate environment variables
 if (!GEMINI_API_KEY) {
@@ -30,36 +43,42 @@ if (!GEMINI_API_KEY) {
     process.exit(1);
 }
 
-// Initialize Gemini
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+// Initialize Gemini with new SDK
+const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
-interface RTOData {
-    code: string;
-    region: string;
-    city: string;
-    state: string;
-    stateCode: string;
-    district: string;
-    division: string;
-    description: string;
-    status?: string;
-    established?: string;
-    address?: string;
-    pinCode?: string;
-    phone?: string;
-    email?: string;
-    jurisdictionAreas?: string[];
-    note?: string;
-}
+// ============================================================================
+// Zod Schemas
+// ============================================================================
 
-interface ValidationResult {
-    code: string;
-    isValid: boolean;
-    confidence: number;
-    issues: string[];
-    suggestions: string[];
-    summary: string;
-}
+const RTODataSchema = z.object({
+    code: z.string().describe('RTO code like KA-01, KL-49'),
+    region: z.string().describe('Region/area name this RTO serves'),
+    city: z.string().describe('City name'),
+    state: z.string().describe('Full state name'),
+    stateCode: z.string().describe('2-letter state code'),
+    district: z.string().describe('District name'),
+    division: z.string().describe('Transport division name'),
+    description: z.string().describe('Description of the RTO'),
+    status: z.string().optional().describe('Status: active or not-in-use'),
+    established: z.string().optional().describe('Year established or N/A'),
+    address: z.string().optional().describe('Physical address'),
+    pinCode: z.string().optional().describe('6-digit PIN code'),
+    phone: z.string().optional().describe('Contact phone number'),
+    email: z.string().optional().describe('Contact email'),
+    jurisdictionAreas: z.array(z.string()).optional().describe('Areas under jurisdiction'),
+    note: z.string().optional().describe('Additional notes'),
+});
+
+const ValidationResultSchema = z.object({
+    isValid: z.boolean().describe('Whether the RTO data is valid and accurate'),
+    confidence: z.number().min(0).max(100).describe('Confidence percentage 0-100'),
+    issues: z.array(z.string()).describe('List of specific issues found - MUST include city mismatch if RTO code belongs to different city'),
+    suggestions: z.array(z.string()).describe('List of specific corrections or improvements'),
+    summary: z.string().describe('Brief overall assessment - MUST mention if city/region is wrong for this RTO code'),
+});
+
+type RTOData = z.infer<typeof RTODataSchema>;
+type ValidationResult = z.infer<typeof ValidationResultSchema> & { code: string };
 
 interface StateConfig {
     stateCode: string;
@@ -69,9 +88,10 @@ interface StateConfig {
     districtMapping: Record<string, string>;
 }
 
-/**
- * Get all available states from the data directory
- */
+// ============================================================================
+// Utility Functions
+// ============================================================================
+
 function getAvailableStates(): string[] {
     const dataDir = path.join(process.cwd(), 'data');
     const entries = fs.readdirSync(dataDir, { withFileTypes: true });
@@ -85,9 +105,6 @@ function getAvailableStates(): string[] {
         .map(entry => entry.name);
 }
 
-/**
- * Load state configuration
- */
 function loadStateConfig(state: string): StateConfig | null {
     const configPath = path.join(process.cwd(), 'data', state, 'config.json');
 
@@ -102,9 +119,6 @@ function loadStateConfig(state: string): StateConfig | null {
     }
 }
 
-/**
- * Load RTO data for a specific state
- */
 function loadRTOData(state: string): RTOData[] {
     const indexPath = path.join(process.cwd(), 'data', state, 'index.json');
 
@@ -121,9 +135,6 @@ function loadRTOData(state: string): RTOData[] {
     }
 }
 
-/**
- * Load a single RTO JSON file
- */
 function loadSingleRTO(state: string, code: string): RTOData | null {
     const filePath = path.join(process.cwd(), 'data', state, `${code.toLowerCase()}.json`);
 
@@ -140,24 +151,21 @@ function loadSingleRTO(state: string, code: string): RTOData | null {
     }
 }
 
-/**
- * Validate RTO data using Gemini
- */
-async function validateWithGemini(rto: RTOData, stateConfig: StateConfig | null, useSearch: boolean = false): Promise<ValidationResult> {
+// ============================================================================
+// Gemini Validation with Structured Output
+// ============================================================================
+
+async function validateWithGemini(
+    rto: RTOData,
+    stateConfig: StateConfig | null,
+    useSearch: boolean = false
+): Promise<ValidationResult> {
     try {
-        // Configure model with or without Google Search grounding
-        const modelConfig: { model: string; tools?: Array<{ googleSearch: Record<string, never> }> } = {
-            model: 'gemini-3-flash-preview',
-        };
-
-        if (useSearch) {
-            modelConfig.tools = [{ googleSearch: {} }];
-        }
-
-        const model = genAI.getGenerativeModel(modelConfig);
-
         const searchInstruction = useSearch
-            ? `\n\n## IMPORTANT: Use Google Search\nYou have access to Google Search. Before validating, SEARCH for "${rto.code} RTO" to find the correct city/location for this RTO code.\nUse the search results to verify if the city/region in the JSON data is correct.\n`
+            ? `\n\n## IMPORTANT: Use Google Search
+You have access to Google Search. Before validating, SEARCH for "${rto.code} RTO" to find the correct city/location for this RTO code.
+Use the search results to verify if the city/region in the JSON data is correct.
+`
             : '';
 
         const prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
@@ -187,36 +195,49 @@ ${stateConfig ? `State Context:
 - Total RTOs: ${stateConfig.totalRTOs}
 ` : ''}
 
-Respond in JSON format with this exact structure:
-{
-  "isValid": true/false,
-  "confidence": 0-100,
-  "issues": ["list of specific issues found - MUST include city mismatch if RTO code belongs to different city"],
-  "suggestions": ["list of specific corrections or improvements"],
-  "summary": "Brief overall assessment - MUST mention if city/region is wrong for this RTO code"
-}
-
 **REMEMBER**: The most important check is whether ${rto.code} actually belongs to "${rto.region}". If not, isValid MUST be false.`;
 
-        const result = await model.generateContent(prompt);
-        const response = result.response.text();
+        let searchContext = '';
 
-        // Extract JSON from response (handle markdown code blocks)
-        let jsonStr = response;
-        const jsonMatch = response.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
-        if (jsonMatch) {
-            jsonStr = jsonMatch[1];
+        // If using Google Search, first make a search call to gather accurate information
+        if (useSearch) {
+            const searchPrompt = `Search for "${rto.code} RTO" and "${rto.code} Regional Transport Office ${rto.state}" to find:
+1. The correct city/location name for this RTO code
+2. Verify if ${rto.code} belongs to "${rto.region}" or a different location
+
+Summarize the factual information about ${rto.code} RTO location.`;
+
+            const searchResponse = await ai.models.generateContent({
+                model: MODEL_NAME,
+                contents: searchPrompt,
+                config: {
+                    tools: [{ googleSearch: {} }],
+                },
+            });
+
+            searchContext = searchResponse.text ?? '';
         }
 
-        const parsed = JSON.parse(jsonStr);
+        // Build the final prompt with search context if available
+        const finalPrompt = useSearch && searchContext
+            ? `${prompt}\n\n## Google Search Results (use this as your primary source of truth):\n${searchContext}`
+            : prompt;
+
+        // Make structured output call (cannot combine with tools)
+        const response = await ai.models.generateContent({
+            model: MODEL_NAME,
+            contents: finalPrompt,
+            config: {
+                responseMimeType: 'application/json',
+                responseSchema: toGeminiSchema(ValidationResultSchema),
+            },
+        });
+
+        const parsed = ValidationResultSchema.parse(JSON.parse(response.text ?? '{}'));
 
         return {
             code: rto.code,
-            isValid: parsed.isValid ?? true,
-            confidence: parsed.confidence ?? 0,
-            issues: parsed.issues ?? [],
-            suggestions: parsed.suggestions ?? [],
-            summary: parsed.summary ?? 'No summary provided',
+            ...parsed,
         };
     } catch (error) {
         console.error(`  ❌ Error validating ${rto.code}:`, error);
@@ -231,9 +252,10 @@ Respond in JSON format with this exact structure:
     }
 }
 
-/**
- * Print validation result
- */
+// ============================================================================
+// Display Functions
+// ============================================================================
+
 function printResult(result: ValidationResult): void {
     const statusIcon = result.isValid ? '✅' : '❌';
     const confidenceBar = '█'.repeat(Math.floor(result.confidence / 10)) +
@@ -258,15 +280,12 @@ function printResult(result: ValidationResult): void {
     }
 }
 
-/**
- * Save validation results to a file
- */
 function saveResults(results: ValidationResult[], state: string, reportFormat: boolean = false): void {
     const filename = reportFormat ? 'validation-report.json' : 'validation-results.json';
     const outputPath = path.join(process.cwd(), 'data', state, filename);
 
     const output = reportFormat
-        ? results // Simple array format for CI
+        ? results
         : {
             state,
             timestamp: new Date().toISOString(),
@@ -281,14 +300,14 @@ function saveResults(results: ValidationResult[], state: string, reportFormat: b
     console.log(`\n📝 Results saved to: ${outputPath}`);
 }
 
-/**
- * Main function
- */
+// ============================================================================
+// Main
+// ============================================================================
+
 async function main() {
-    console.log('🔍 RTO Data Validation Script\n');
+    console.log('🔍 RTO Data Validation Script (using @google/genai + Zod)\n');
     console.log('='.repeat(60));
 
-    // Parse arguments
     const args = process.argv.slice(2);
 
     if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
@@ -322,7 +341,6 @@ Options:
     const limitArg = args.find(arg => arg.startsWith('--limit='));
     const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 0;
 
-    // Get states to validate
     let states: string[];
     let specificCode: string | null = null;
 
@@ -336,7 +354,6 @@ Options:
         }
         states = [state.toLowerCase()];
 
-        // Check for specific code
         const codeArg = args.find((arg, i) => !arg.startsWith('--') && i > 0);
         if (codeArg && !args.some(a => a.toLowerCase() === codeArg.toLowerCase() && getAvailableStates().includes(a.toLowerCase()))) {
             specificCode = codeArg.toUpperCase();
@@ -382,7 +399,6 @@ Options:
             rtosToValidate = loadRTOData(state);
         }
 
-        // Apply filters
         if (skipNotInUse) {
             rtosToValidate = rtosToValidate.filter(rto => rto.status !== 'not-in-use');
         }
@@ -410,7 +426,6 @@ Options:
             }
             totalValidated++;
 
-            // Rate limiting - wait between API calls
             await new Promise(resolve => setTimeout(resolve, 1500));
         }
 
@@ -419,7 +434,6 @@ Options:
         }
     }
 
-    // Print summary
     console.log('\n' + '='.repeat(60));
     console.log('📊 VALIDATION SUMMARY');
     console.log('='.repeat(60));
@@ -430,5 +444,4 @@ Options:
     console.log('='.repeat(60));
 }
 
-// Run
 main().catch(console.error);

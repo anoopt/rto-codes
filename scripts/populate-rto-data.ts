@@ -2,15 +2,15 @@
 /**
  * RTO Data Population Script
  * 
- * Fetches RTO data from Wikipedia and uses Gemini to enrich, validate, and create
- * complete JSON files for RTOs. This combines data fetching + validation + fixing
- * in a single workflow.
+ * Fetches RTO data from Wikipedia and uses Gemini with structured output to enrich, 
+ * validate, and create complete JSON files for RTOs. This combines data fetching + 
+ * validation + fixing in a single workflow.
  * 
  * Data Flow:
  *   1. Fetch state RTO table from Wikipedia
  *   2. Parse the table for basic code/location data
  *   3. Use Gemini to enrich with district, jurisdiction, description, etc.
- *   4. Validate the enriched data
+ *   4. Validate the enriched data with Zod
  *   5. Save complete JSON files
  * 
  * Usage:
@@ -37,9 +37,18 @@
  *   GEMINI_API_KEY     Your Google Gemini API key (required)
  */
 
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
+import { z, toJSONSchema } from 'zod';
 import * as fs from 'fs';
 import * as path from 'path';
+
+// Helper to convert Zod schema to Gemini-compatible JSON schema
+// Removes $schema and additionalProperties fields that Gemini API doesn't accept
+function toGeminiSchema(schema: z.ZodType): object {
+    const jsonSchema = toJSONSchema(schema) as Record<string, unknown>;
+    const { $schema, additionalProperties, ...rest } = jsonSchema;
+    return rest;
+}
 
 // ============================================================================
 // Configuration
@@ -47,10 +56,33 @@ import * as path from 'path';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const MODEL_NAME = 'gemini-3-flash-preview';
-const API_DELAY_MS = 1500; // Delay between API calls to avoid rate limiting
+const API_DELAY_MS = 1500;
 
-// Wikipedia API endpoint
 const WIKIPEDIA_API = 'https://en.wikipedia.org/w/api.php';
+
+// ============================================================================
+// Zod Schemas
+// ============================================================================
+
+const RTODataSchema = z.object({
+    code: z.string().describe('RTO code like KA-01, KL-49'),
+    region: z.string().describe('Region/area name this RTO serves'),
+    city: z.string().describe('City name'),
+    state: z.string().describe('Full state name'),
+    stateCode: z.string().describe('2-letter state code'),
+    district: z.string().describe('District name'),
+    division: z.string().describe('Transport division name'),
+    description: z.string().describe('2-3 sentence description of this RTO, its coverage area, and significance'),
+    status: z.enum(['active', 'not-in-use']).default('active').describe('Status: active or not-in-use'),
+    established: z.string().describe('Year established or N/A'),
+    address: z.string().describe('Full address of the RTO office'),
+    pinCode: z.string().describe('6-digit PIN code or empty string if unknown'),
+    phone: z.string().describe('Phone number or N/A'),
+    email: z.string().describe('Email or N/A'),
+    jurisdictionAreas: z.array(z.string()).describe('Array of talukas, mandals, or areas under this RTO jurisdiction'),
+});
+
+type RTOData = z.infer<typeof RTODataSchema>;
 
 // ============================================================================
 // State Configurations
@@ -195,53 +227,21 @@ const STATE_CONFIG: Record<string, StateInfo> = {
     }
 };
 
-// Mapping from folder names to state codes for lookup
 const FOLDER_TO_STATE_CODE: Record<string, string> = {};
 for (const [stateCode, info] of Object.entries(STATE_CONFIG)) {
     FOLDER_TO_STATE_CODE[info.folder] = stateCode;
 }
 
-/**
- * Resolves a state identifier (code or folder name) to the actual state code.
- * Accepts: 'ka', 'karnataka', 'kl', 'kerala', etc.
- */
 function resolveStateCode(input: string): string | null {
     const normalized = input.toLowerCase().trim();
-
-    // First, check if it's a direct state code
-    if (STATE_CONFIG[normalized]) {
-        return normalized;
-    }
-
-    // Then, check if it's a folder name
-    if (FOLDER_TO_STATE_CODE[normalized]) {
-        return FOLDER_TO_STATE_CODE[normalized];
-    }
-
+    if (STATE_CONFIG[normalized]) return normalized;
+    if (FOLDER_TO_STATE_CODE[normalized]) return FOLDER_TO_STATE_CODE[normalized];
     return null;
 }
 
 // ============================================================================
 // Types
 // ============================================================================
-
-interface RTOData {
-    code: string;
-    region: string;
-    city: string;
-    state: string;
-    stateCode: string;
-    district: string;
-    division: string;
-    description: string;
-    status?: 'not-in-use' | 'active';
-    established: string;
-    address: string;
-    pinCode: string;
-    phone: string;
-    email: string;
-    jurisdictionAreas: string[];
-}
 
 interface WikipediaRTO {
     code: string;
@@ -278,7 +278,7 @@ if (!GEMINI_API_KEY) {
     process.exit(1);
 }
 
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 // ============================================================================
 // Utility Functions
@@ -299,9 +299,7 @@ function rtoFileExists(stateFolder: string, code: string): boolean {
 
 function readExistingRTOData(stateFolder: string, code: string): RTOData | null {
     const filePath = path.join(process.cwd(), 'data', stateFolder, `${code.toLowerCase()}.json`);
-    if (!fs.existsSync(filePath)) {
-        return null;
-    }
+    if (!fs.existsSync(filePath)) return null;
     try {
         const content = fs.readFileSync(filePath, 'utf-8');
         return JSON.parse(content) as RTOData;
@@ -327,7 +325,6 @@ function saveRTOFile(stateFolder: string, data: RTOData): void {
 // ============================================================================
 
 async function fetchWikipediaRTOSection(stateCode: string): Promise<string> {
-    // Try the main RTO list page first
     const mainPage = 'List of Regional Transport Office districts in India';
 
     const params = new URLSearchParams({
@@ -355,19 +352,9 @@ async function fetchWikipediaRTOSection(stateCode: string): Promise<string> {
 function parseRTOTableFromWikipedia(html: string, stateCode: string, stateName: string): WikipediaRTO[] {
     const rtos: WikipediaRTO[] = [];
     const codeUpper = stateCode.toUpperCase();
-
-    // Multiple pattern approaches to capture RTO codes from Wikipedia HTML tables
-    const patterns = [
-        // Pattern 1: Simple table cell with GA-01 format
-        new RegExp(`${codeUpper}[\\s\\-]*(\\d{1,2})`, 'gi'),
-    ];
-
-    // Also try to extract from text content directly
-    // Look for patterns like "GA-01 | Panaji" or "|GA-07|Panaji|"
     const lines = html.split(/[\n\r]+/);
 
     for (const line of lines) {
-        // Match RTO code pattern anywhere in the line
         const codeMatch = line.match(new RegExp(`${codeUpper}[\\s\\-]*(\\d{1,2})`, 'i'));
         if (!codeMatch) continue;
 
@@ -375,51 +362,38 @@ function parseRTOTableFromWikipedia(html: string, stateCode: string, stateName: 
         if (isNaN(num) || num < 1 || num > 200) continue;
 
         const code = formatCode(stateCode, num);
-
-        // Skip if we already have this code
         if (rtos.find(r => r.code === code)) continue;
 
-        // Try to extract location from the same line
-        // Remove HTML tags and the code itself, then take the first meaningful text
         let cleanedLine = line
-            .replace(/<[^>]+>/g, ' ')  // Remove HTML tags
+            .replace(/<[^>]+>/g, ' ')
             .replace(/&nbsp;/g, ' ')
             .replace(/&#160;/g, ' ')
             .replace(/\|/g, ' ')
-            .replace(/\[[^\]]*\]/g, '') // Remove citation brackets
+            .replace(/\[[^\]]*\]/g, '')
             .replace(new RegExp(`${codeUpper}[\\s\\-]*\\d{1,2}`, 'gi'), '')
             .trim();
 
-        // Split by common delimiters and find a reasonable location name
         const parts = cleanedLine.split(/\s{2,}/).filter(p => p.trim().length > 2);
         let location = parts.length > 0 ? parts[0].trim() : '';
 
-        // Clean up location
         location = location
-            .replace(/^\d+\s*/, '') // Remove leading numbers
+            .replace(/^\d+\s*/, '')
             .replace(/\s+/g, ' ')
             .trim();
 
-        // Skip if location looks like a number or is too short
         if (!location || location.match(/^\d+$/) || location.length < 2) {
             location = '';
         }
 
-        rtos.push({
-            code,
-            location,
-            rawText: line
-        });
+        rtos.push({ code, location, rawText: line });
     }
 
-    // Sort by code number
     rtos.sort((a, b) => {
         const numA = parseInt(a.code.split('-')[1], 10);
         const numB = parseInt(b.code.split('-')[1], 10);
         return numA - numB;
     });
 
-    // Remove duplicates, keeping the one with a location
     const uniqueRTOs = new Map<string, WikipediaRTO>();
     for (const rto of rtos) {
         const existing = uniqueRTOs.get(rto.code);
@@ -432,7 +406,7 @@ function parseRTOTableFromWikipedia(html: string, stateCode: string, stateName: 
 }
 
 // ============================================================================
-// Gemini Enrichment
+// Gemini Enrichment with Structured Output
 // ============================================================================
 
 async function enrichRTOWithGemini(
@@ -442,26 +416,19 @@ async function enrichRTOWithGemini(
     existingData?: RTOData | null,
     useSearch: boolean = false
 ): Promise<RTOData> {
-    // Configure model with or without Google Search grounding
-    const modelConfig: { model: string; tools?: Array<{ googleSearch: Record<string, never> }> } = {
-        model: MODEL_NAME,
-    };
-
-    if (useSearch) {
-        modelConfig.tools = [{ googleSearch: {} }];
-    }
-
-    const model = genAI.getGenerativeModel(modelConfig);
-
     const searchInstruction = useSearch
-        ? `\n\n## IMPORTANT: Use Google Search\nYou have access to Google Search. SEARCH for "${code} RTO" to find:\n1. The correct city/location for this RTO code\n2. The official address and contact details\n3. The jurisdiction areas\nUse the search results to provide accurate data.\n`
+        ? `\n\n## IMPORTANT: Use Google Search
+You have access to Google Search. SEARCH for "${code} RTO" to find:
+1. The correct city/location for this RTO code
+2. The official address and contact details
+3. The jurisdiction areas
+Use the search results to provide accurate data.
+`
         : '';
 
-    // Build the prompt based on whether we have existing data
     let prompt: string;
 
     if (existingData) {
-        // We have existing data - ask Gemini to validate and enhance only
         prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
 ${searchInstruction}
 I have EXISTING DATA for the RTO ${code} that has been previously validated. Your task is to:
@@ -494,29 +461,8 @@ ${JSON.stringify(existingData, null, 2)}
 3. Improve the description if it's too generic or placeholder-like
 4. Validate the district is one of the available districts for this state
 
-## Response Format:
-Respond ONLY with a valid JSON object (no markdown, no explanation).
-The JSON must include ALL fields with the corrected/enhanced values:
-
-{
-    "code": "${code}",
-    "region": "...",
-    "city": "...",
-    "state": "${stateInfo.name}",
-    "stateCode": "${stateInfo.code}",
-    "district": "...",
-    "division": "...",
-    "description": "...",
-    "status": "active",
-    "established": "...",
-    "address": "...",
-    "pinCode": "...",
-    "phone": "...",
-    "email": "...",
-    "jurisdictionAreas": ["area1", "area2", "..."]
-}`;
+Return the complete RTO data with all fields filled.`;
     } else {
-        // No existing data - generate from scratch with Wikipedia hint
         prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
 ${searchInstruction}
 Generate complete and accurate data for the following RTO:
@@ -529,27 +475,10 @@ Generate complete and accurate data for the following RTO:
 - Available Districts: ${stateInfo.districts.join(', ')}
 
 ## Task:
-Create a complete JSON object for this RTO with accurate information${useSearch ? ' based on Google Search results' : ' based on your knowledge of Indian RTOs, geography, and the ' + stateInfo.name + ' state administrative divisions'}.
+Create a complete data object for this RTO with accurate information${useSearch ? ' based on Google Search results' : ' based on your knowledge of Indian RTOs, geography, and the ' + stateInfo.name + ' state administrative divisions'}.
 
 ## IMPORTANT:
 ${useSearch ? '- SEARCH for "' + code + ' RTO" first to find the correct city/location\n- Use search results as the primary source of truth\n- The Wikipedia location may be wrong - verify with search' : '- The Wikipedia location "' + locationHint + '" is the most reliable source - use it as the primary city/region name\n- If Wikipedia says "' + locationHint + '", that should be the city name'}
-
-## Required Fields:
-1. code: The RTO code (e.g., "${code}")
-2. region: The region/city name this RTO serves (from Wikipedia: "${locationHint}")
-3. city: The main city name (from Wikipedia: "${locationHint}")
-4. state: Full state name (e.g., "${stateInfo.name}")
-5. stateCode: State code (e.g., "${stateInfo.code}")
-6. district: The district this RTO belongs to (must be one of the available districts)
-7. division: The transport division (e.g., "North Goa Division", "Bengaluru Urban Division")
-8. description: A 2-3 sentence description of this RTO, its coverage area, and significance
-9. status: "active" or "not-in-use" (if the code is reserved but not operational)
-10. established: Year established if known, otherwise "N/A"
-11. address: Full address of the RTO office (best known address)
-12. pinCode: PIN code of the RTO location (6 digits, or empty string if unknown)
-13. phone: Phone number if known, otherwise "N/A"
-14. email: Email if known, otherwise "N/A"
-15. jurisdictionAreas: Array of talukas, mandals, or areas under this RTO's jurisdiction
 
 ## Important Guidelines:
 - Be factually accurate based on your knowledge
@@ -558,71 +487,57 @@ ${useSearch ? '- SEARCH for "' + code + ' RTO" first to find the correct city/lo
 - If unsure about specific details, use reasonable defaults but mark status as needed
 - For jurisdiction areas, list the actual talukas/mandals/areas covered
 - The description should mention the RTO type (RTO/ARTO) and what it handles
-- If the code appears to be not in use or reserved, set status to "not-in-use"
-
-## Response Format:
-Respond ONLY with a valid JSON object (no markdown, no explanation):
-{
-    "code": "${code}",
-    "region": "...",
-    "city": "...",
-    "state": "${stateInfo.name}",
-    "stateCode": "${stateInfo.code}",
-    "district": "...",
-    "division": "...",
-    "description": "...",
-    "status": "active",
-    "established": "...",
-    "address": "...",
-    "pinCode": "...",
-    "phone": "...",
-    "email": "...",
-    "jurisdictionAreas": ["area1", "area2", "..."]
-}`;
+- If the code appears to be not in use or reserved, set status to "not-in-use"`;
     }
 
     try {
-        const result = await model.generateContent(prompt);
-        const response = result.response.text();
+        let searchContext = '';
 
-        // Extract JSON from response
-        let jsonStr = response.trim();
+        // If using Google Search, first make a search call to gather accurate information
+        if (useSearch) {
+            const searchPrompt = `Search for "${code} RTO" and "${code} Regional Transport Office ${stateInfo.name}" to find:
+1. The correct city/location name for this RTO code
+2. The official address and contact details
+3. The jurisdiction areas (talukas/mandals covered)
+4. When it was established
 
-        // Remove markdown code blocks if present
-        const jsonMatch = response.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
-        if (jsonMatch) {
-            jsonStr = jsonMatch[1].trim();
+Summarize all the factual information you find about ${code} RTO.`;
+
+            const searchResponse = await ai.models.generateContent({
+                model: MODEL_NAME,
+                contents: searchPrompt,
+                config: {
+                    tools: [{ googleSearch: {} }],
+                },
+            });
+
+            searchContext = searchResponse.text ?? '';
         }
 
-        const parsed = JSON.parse(jsonStr) as RTOData;
+        // Build the final prompt with search context if available
+        const finalPrompt = useSearch && searchContext
+            ? `${prompt}\n\n## Google Search Results (use this as your primary source):\n${searchContext}`
+            : prompt;
 
-        // Validate required fields
-        if (!parsed.code || !parsed.region || !parsed.state) {
-            throw new Error('Missing required fields in Gemini response');
-        }
+        // Now make structured output call (cannot combine with tools)
+        const response = await ai.models.generateContent({
+            model: MODEL_NAME,
+            contents: finalPrompt,
+            config: {
+                responseMimeType: 'application/json',
+                responseSchema: toGeminiSchema(RTODataSchema),
+            },
+        });
 
-        // Ensure code matches
-        parsed.code = code;
-        parsed.state = stateInfo.name;
-        parsed.stateCode = stateInfo.code;
+        const responseText = response.text ?? '{}';
+        const parsed = RTODataSchema.parse(JSON.parse(responseText));
 
-        // Clean up and validate
+        // Ensure code matches and state info is correct
         return {
-            code: parsed.code,
-            region: parsed.region || locationHint || 'Unknown',
-            city: parsed.city || parsed.region || locationHint || 'Unknown',
+            ...parsed,
+            code: code,
             state: stateInfo.name,
             stateCode: stateInfo.code,
-            district: parsed.district || '',
-            division: parsed.division || '',
-            description: parsed.description || `The ${code} Regional Transport Office handles vehicle registrations and transport services for this region in ${stateInfo.name}.`,
-            status: parsed.status,
-            established: parsed.established || 'N/A',
-            address: parsed.address || `RTO Office, ${parsed.city || locationHint}, ${stateInfo.name}`,
-            pinCode: (parsed.pinCode && /^\d{6}$/.test(parsed.pinCode)) ? parsed.pinCode : '',
-            phone: parsed.phone || 'N/A',
-            email: parsed.email || 'N/A',
-            jurisdictionAreas: Array.isArray(parsed.jurisdictionAreas) ? parsed.jurisdictionAreas : [],
         };
     } catch (error) {
         const errorMsg = error instanceof Error ? error.message : 'Unknown error';
@@ -641,26 +556,22 @@ async function populateRTO(
     options: CLIOptions
 ): Promise<PopulateResult> {
     try {
-        // Check for existing data
         const existingData = readExistingRTOData(stateInfo.folder, code);
 
-        // If file exists and we're not forcing, maybe skip
         if (existingData && !options.force) {
             if (options.skipExisting) {
                 return { code, success: true, source: 'cached', error: 'Skipped (already exists)' };
             }
         }
 
-        // Enrich with Gemini (passing existing data if available, and useSearch option)
         const data = await enrichRTOWithGemini(code, locationHint, stateInfo, existingData, options.useSearch);
 
-        // Save if not dry run
         if (!options.dryRun) {
             ensureDirectoryExists(stateInfo.folder);
             saveRTOFile(stateInfo.folder, data);
         }
 
-        return { code, success: true, data, source: existingData ? 'gemini' : 'gemini' };
+        return { code, success: true, data, source: 'gemini' };
     } catch (error) {
         return {
             code,
@@ -689,7 +600,6 @@ function parseArgs(): CLIOptions {
         end: 0,
     };
 
-    // Filter out flags
     const positionalArgs = args.filter(arg => !arg.startsWith('-'));
 
     if (positionalArgs.length >= 1) {
@@ -698,23 +608,17 @@ function parseArgs(): CLIOptions {
 
     if (positionalArgs.length >= 2) {
         const secondArg = positionalArgs[1];
-
-        // Check if it's an RTO code format (e.g., "GA-07", "KA-55")
         const rtoCodeMatch = secondArg.match(/^([A-Za-z]{2})-(\d{1,3})$/i);
         if (rtoCodeMatch) {
-            // Extract the numeric part from the RTO code
             options.start = parseInt(rtoCodeMatch[2], 10);
             options.end = options.start;
         } else {
-            // It's a plain number
             options.start = parseInt(secondArg, 10) || 1;
         }
     }
 
     if (positionalArgs.length >= 3) {
         const thirdArg = positionalArgs[2];
-
-        // Check if it's an RTO code format
         const rtoCodeMatch = thirdArg.match(/^([A-Za-z]{2})-(\d{1,3})$/i);
         if (rtoCodeMatch) {
             options.end = parseInt(rtoCodeMatch[2], 10);
@@ -722,7 +626,6 @@ function parseArgs(): CLIOptions {
             options.end = parseInt(thirdArg, 10) || options.start;
         }
     } else if (positionalArgs.length === 2) {
-        // Single RTO specified
         options.end = options.start;
     }
 
@@ -731,10 +634,10 @@ function parseArgs(): CLIOptions {
 
 function printHelp(): void {
     console.log(`
-📦 RTO Data Population Script
+📦 RTO Data Population Script (using @google/genai + Zod)
 
-Fetches RTO data from Wikipedia and enriches it with Gemini AI to create
-complete, accurate JSON files.
+Fetches RTO data from Wikipedia and enriches it with Gemini AI using structured
+output to create complete, accurate JSON files.
 
 Usage:
   bun scripts/populate-rto-data.ts <state> [start] [end] [options]
@@ -792,7 +695,6 @@ async function main(): Promise<void> {
         process.exit(1);
     }
 
-    // Resolve state code (accepts both state codes like 'kl' and folder names like 'kerala')
     const resolvedStateCode = resolveStateCode(options.stateCode);
     if (!resolvedStateCode) {
         console.error(`❌ Unknown state code: ${options.stateCode}`);
@@ -802,11 +704,8 @@ async function main(): Promise<void> {
     }
 
     const stateInfo = STATE_CONFIG[resolvedStateCode];
-
-    // Update options with resolved state code for use elsewhere
     options.stateCode = resolvedStateCode;
 
-    // Determine range
     if (options.end === 0) {
         options.end = stateInfo.totalRTOs;
     }
@@ -814,7 +713,7 @@ async function main(): Promise<void> {
     const total = options.end - options.start + 1;
 
     console.log(`
-📦 RTO Data Population Script
+📦 RTO Data Population Script (using @google/genai + Zod)
 ${'='.repeat(60)}
 State:        ${stateInfo.name} (${stateInfo.code})
 Range:        ${formatCode(options.stateCode, options.start)} to ${formatCode(options.stateCode, options.end)}
@@ -825,7 +724,6 @@ Skip Existing: ${options.skipExisting ? 'Yes' : 'No'}
 ${'='.repeat(60)}
 `);
 
-    // Try to fetch Wikipedia data for location hints
     console.log('📖 Fetching Wikipedia data for location hints...');
     let wikipediaRTOs: WikipediaRTO[] = [];
 
@@ -838,13 +736,11 @@ ${'='.repeat(60)}
         console.log('   Continuing with Gemini-only enrichment...\n');
     }
 
-    // Create a lookup map for Wikipedia data
     const wikiLookup = new Map<string, string>();
     for (const rto of wikipediaRTOs) {
         wikiLookup.set(rto.code, rto.location);
     }
 
-    // Load valid codes from config if available (for non-sequential RTOs)
     const configPath = path.join(process.cwd(), 'data', stateInfo.folder, 'config.json');
     let validCodes: string[] | null = null;
 
@@ -861,13 +757,11 @@ ${'='.repeat(60)}
         }
     }
 
-    // Determine which codes to process
     let codesToProcess: string[];
 
     if (validCodes && validCodes.length > 0) {
-        // Use valid codes list (handles non-sequential)
-        const startIdx = options.start - 1; // Convert to 0-based index
-        const endIdx = options.end; // End is inclusive, but slice is exclusive
+        const startIdx = options.start - 1;
+        const endIdx = options.end;
         codesToProcess = validCodes.slice(startIdx, endIdx);
 
         if (codesToProcess.length === 0) {
@@ -876,7 +770,6 @@ ${'='.repeat(60)}
             process.exit(1);
         }
     } else {
-        // Fallback to sequential generation (legacy behavior)
         console.log(`⚠️  No valid codes list found - using sequential generation`);
         console.log(`   This may create invalid codes if RTO numbering is non-sequential!\n`);
         codesToProcess = [];
@@ -887,8 +780,6 @@ ${'='.repeat(60)}
 
     console.log(`📝 Processing ${codesToProcess.length} RTO code(s): ${codesToProcess[0]}${codesToProcess.length > 1 ? ` to ${codesToProcess[codesToProcess.length - 1]}` : ''}\n`);
 
-
-    // Process RTOs
     const results: PopulateResult[] = [];
     let successCount = 0;
     let skipCount = 0;
@@ -929,14 +820,12 @@ ${'='.repeat(60)}
             failCount++;
         }
 
-        // Rate limiting
         const isLastCode = code === codesToProcess[codesToProcess.length - 1];
         if (!isLastCode) {
             await sleep(API_DELAY_MS);
         }
     }
 
-    // Summary
     console.log(`
 ${'='.repeat(60)}
 📊 Summary
@@ -958,7 +847,6 @@ ${'='.repeat(60)}`);
 `);
     }
 
-    // List failures
     if (failCount > 0) {
         console.log('\nFailed RTOs:');
         for (const result of results) {
@@ -969,7 +857,6 @@ ${'='.repeat(60)}`);
     }
 }
 
-// Run
 main().catch(error => {
     console.error('❌ Fatal error:', error);
     process.exit(1);
