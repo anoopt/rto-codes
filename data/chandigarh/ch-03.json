@@ -1,0 +1,26 @@
+{
+    "code": "CH-03",
+    "region": "Sector 17, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-03 is a vehicle registration series managed by the Registering and Licensing Authority (RLA) in Chandigarh. It was introduced as a sequential series after the initial CH-01 series reached its limit and covers all vehicle registrations within the Union Territory.",
+    "status": "active",
+    "established": "1999",
+    "address": "Registering and Licensing Authority Office, Sector 17, Near Hotel Shivalik View, Chandigarh",
+    "pinCode": "160017",
+    "phone": "0172-2700341",
+    "email": "rla-chd@nic.in",
+    "jurisdictionAreas": [
+        "Chandigarh Union Territory",
+        "Sector 1 to 60",
+        "Manimajra",
+        "Burail",
+        "Kajheri",
+        "Dadumajra",
+        "Hallomajra",
+        "Behlana"
+    ]
+}

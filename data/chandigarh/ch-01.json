@@ -1,0 +1,28 @@
+{
+    "code": "CH-01",
+    "region": "Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-01 is the primary vehicle registration code for the Union Territory of Chandigarh, managed by the Registering and Licensing Authority (RLA). It serves as the main hub for issuing driving licenses, vehicle registrations, and fitness certificates for the entire capital city area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Registering & Licensing Authority (RLA) Office, Sector 17-C, near the Bridge/Treasury Office, Chandigarh",
+    "pinCode": "160017",
+    "phone": "+91-172-2700341",
+    "email": "rla-chd@nic.in",
+    "jurisdictionAreas": [
+        "Chandigarh City",
+        "Sector 17",
+        "Sector 42",
+        "Industrial Area Phase I",
+        "Mani Majra",
+        "Hallomajra",
+        "Dhanas",
+        "Burail",
+        "Maloya",
+        "Khuda Jassu"
+    ]
+}

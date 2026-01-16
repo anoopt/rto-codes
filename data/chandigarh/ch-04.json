@@ -1,0 +1,24 @@
+{
+    "code": "CH-04",
+    "region": "Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-04 is a legacy registration series for the Union Territory of Chandigarh managed by the Registering and Licensing Authority (RLA). It was primarily used for private vehicle registrations between 2007 and 2011 to accommodate the high volume of vehicle growth in the city.",
+    "status": "active",
+    "established": "2007",
+    "address": "Registering and Licensing Authority, Sector 17, Near Hotel Shivalik View, Chandigarh",
+    "pinCode": "160017",
+    "phone": "0172-2700341",
+    "email": "rla-chd@nic.in",
+    "jurisdictionAreas": [
+        "Chandigarh Union Territory",
+        "Manimajra",
+        "Industrial Area Phase 1",
+        "Burail",
+        "Kajheri",
+        "Behlana"
+    ]
+}

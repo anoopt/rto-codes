@@ -1,0 +1,23 @@
+{
+    "code": "CH-02",
+    "region": "Chandigarh (Industrial Area)",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-02 represents the State Transport Authority (STA) of Chandigarh, located in the Industrial Area. This office specifically manages the registration of commercial vehicles, issuance of various transport permits, and oversees the regulatory aspects of public and freight transport in the Union Territory.",
+    "status": "active",
+    "established": "N/A",
+    "address": "State Transport Authority, Plot No. 80, Industrial Area Phase 1, Chandigarh",
+    "pinCode": "160002",
+    "phone": "0172-2700159",
+    "email": "sta-chd@nic.in",
+    "jurisdictionAreas": [
+        "Industrial Area Phase 1",
+        "Industrial Area Phase 2",
+        "Chandigarh Union Territory",
+        "Commercial Transport Zones",
+        "Southern Sectors"
+    ]
+}

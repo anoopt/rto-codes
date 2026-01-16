@@ -6,6 +6,6 @@
     "totalRTOs": 4,
     "districtMapping": {},
     "svgDistrictIds": [],
-    "isComplete": false,
+    "isComplete": true,
     "type": "union-territory"
 }
