@@ -1,0 +1,113 @@
+name: Regenerate RTO Images
+
+on:
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "Specific state to regenerate images for (e.g., 'goa')"
+        required: false
+        type: string
+      code:
+        description: "Specific RTO code (e.g., 'KA-01')"
+        required: false
+        type: string
+      limit:
+        description: "Limit number of images to generate"
+        required: false
+        type: string
+      force:
+        description: "Force regeneration even if image exists"
+        required: false
+        type: boolean
+        default: false
+      include_notinuse:
+        description: "Include RTOs marked as 'not-in-use'"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: rto-image-generation
+  cancel-in-progress: false
+
+jobs:
+  regenerate-images:
+    name: Regenerate RTO Images
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Regenerate Index Files
+        run: |
+          # Ensure we have the latest data indexed before generating images
+          # The image generation script relies on index.json files to find RTOs
+          bun scripts/generate-index.ts
+
+      - name: Regenerate Images
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: |
+          # Construct arguments
+          ARGS=""
+
+          if [ -n "${{ inputs.state }}" ]; then
+            ARGS="$ARGS --state=${{ inputs.state }}"
+          fi
+
+          if [ -n "${{ inputs.code }}" ]; then
+            ARGS="$ARGS --code=${{ inputs.code }}"
+          fi
+
+          if [ -n "${{ inputs.limit }}" ]; then
+            ARGS="$ARGS --limit=${{ inputs.limit }}"
+          fi
+
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+
+          if [ "${{ inputs.include_notinuse }}" = "true" ]; then
+            ARGS="$ARGS --include-notinuse"
+          fi
+
+          echo "Running with args: $ARGS"
+
+          # Run the script
+          bun scripts/generate-rto-images.ts $ARGS
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Stage potentially changed files (images tracking and indexes)
+          git add data/rto-images.json data/index.json data/*/index.json
+
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            # Pull latest changes first to avoid non-fast-forward errors (similar to post-merge.yml)
+            git pull --rebase origin main || true
+            
+            git commit -m "chore: Update generated RTO images tracking"                        -m "Workflow run: ${{ github.run_id }}"
+                       
+            git push origin main
+            echo "✅ Pushed updates to main"
+          fi
