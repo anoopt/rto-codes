@@ -224,6 +224,365 @@ const STATE_CONFIG: Record<string, StateInfo> = {
             'Patan', 'Porbandar', 'Rajkot', 'Sabarkantha', 'Surat', 'Surendranagar',
             'Tapi', 'Vadodara', 'Valsad'
         ]
+    },
+    'an': {
+        name: 'Andaman and Nicobar Islands',
+        code: 'AN',
+        folder: 'andaman-nicobar',
+        capital: 'Port Blair',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 3,
+        districts: ['South Andaman', 'North and Middle Andaman', 'Nicobar']
+    },
+    'ar': {
+        name: 'Arunachal Pradesh',
+        code: 'AR',
+        folder: 'arunachal-pradesh',
+        capital: 'Itanagar',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 22,
+        districts: [
+            'Papum Pare', 'Tawang', 'West Kameng', 'East Kameng', 'Lower Subansiri',
+            'Upper Subansiri', 'West Siang', 'East Siang', 'Dibang Valley', 'Lohit',
+            'Changlang', 'Tirap', 'Kurung Kumey', 'Anjaw', 'Lower Dibang Valley',
+            'Longding', 'Namsai', 'Kra Daadi', 'Siang', 'Lower Siang'
+        ]
+    },
+    'as': {
+        name: 'Assam',
+        code: 'AS',
+        folder: 'assam',
+        capital: 'Dispur',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 34,
+        districts: [
+            'Kamrup Metropolitan', 'Nagaon', 'Jorhat', 'Sivasagar', 'Golaghat',
+            'Dibrugarh', 'Lakhimpur', 'Dima Hasao', 'Karbi Anglong', 'Karimganj',
+            'Cachar', 'Sonitpur', 'Darrang', 'Nalbari', 'Barpeta', 'Kokrajhar',
+            'Dhubri', 'Goalpara', 'Bongaigaon', 'Morigaon', 'Dhemaji', 'Tinsukia',
+            'Hailakandi', 'Kamrup', 'Chirang', 'Udalguri', 'Majuli', 'Hojai',
+            'Biswanath', 'Charaideo', 'South Salmara-Mankachar'
+        ]
+    },
+    'br': {
+        name: 'Bihar',
+        code: 'BR',
+        folder: 'bihar',
+        capital: 'Patna',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 56,
+        districts: [
+            'Patna', 'Gaya', 'Bhojpur', 'Saran', 'East Champaran', 'Muzaffarpur',
+            'Darbhanga', 'Munger', 'Begusarai', 'Bhagalpur', 'Purnia', 'Saharsa',
+            'Nalanda', 'West Champaran', 'Rohtas', 'Jehanabad', 'Aurangabad',
+            'Nawada', 'Gopalganj', 'Siwan', 'Sitamarhi', 'Vaishali', 'Madhubani',
+            'Samastipur', 'Khagaria', 'Kishanganj', 'Araria', 'Katihar', 'Madhepura',
+            'Buxar', 'Kaimur', 'Jamui', 'Supaul', 'Banka', 'Sheikhpura',
+            'Lakhisarai', 'Sheohar', 'Arwal'
+        ]
+    },
+    'ch': {
+        name: 'Chandigarh',
+        code: 'CH',
+        folder: 'chandigarh',
+        capital: 'Chandigarh',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 4,
+        districts: ['Chandigarh']
+    },
+    'cg': {
+        name: 'Chhattisgarh',
+        code: 'CG',
+        folder: 'chhattisgarh',
+        capital: 'Raipur',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 30,
+        districts: [
+            'Raipur', 'Dhamtari', 'Mahasamund', 'Durg', 'Rajnandgaon', 'Kabirdham',
+            'Bilaspur', 'Janjgir-Champa', 'Korba', 'Raigarh', 'Jashpur', 'Surguja',
+            'Koriya', 'Bastar', 'Dantewada', 'Kanker', 'Bijapur', 'Narayanpur',
+            'Baloda Bazar', 'Gariaband', 'Balod', 'Bemetara', 'Sukma', 'Kondagaon',
+            'Mungeli', 'Surajpur', 'Balrampur', 'Gaurela-Pendra-Marwahi'
+        ]
+    },
+    'dd': {
+        name: 'Dadra and Nagar Haveli and Daman and Diu',
+        code: 'DD',
+        folder: 'dadra-nagar-haveli-daman-diu',
+        capital: 'Daman',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 3,
+        districts: ['Dadra and Nagar Haveli', 'Daman', 'Diu']
+    },
+    'hr': {
+        name: 'Haryana',
+        code: 'HR',
+        folder: 'haryana',
+        capital: 'Chandigarh',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 99,
+        districts: [
+            'Ambala', 'Yamunanagar', 'Panchkula', 'Karnal', 'Panipat', 'Kurukshetra',
+            'Kaithal', 'Sonipat', 'Rohtak', 'Jhajjar', 'Bhiwani', 'Charkhi Dadri',
+            'Hisar', 'Fatehabad', 'Sirsa', 'Gurugram', 'Nuh', 'Faridabad', 'Palwal',
+            'Jind', 'Mahendragarh', 'Rewari'
+        ]
+    },
+    'hp': {
+        name: 'Himachal Pradesh',
+        code: 'HP',
+        folder: 'himachal-pradesh',
+        capital: 'Shimla',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 99,
+        districts: [
+            'Shimla', 'Kangra', 'Mandi', 'Solan', 'Sirmaur', 'Una', 'Hamirpur',
+            'Bilaspur', 'Kullu', 'Chamba', 'Kinnaur', 'Lahaul and Spiti'
+        ]
+    },
+    'jk': {
+        name: 'Jammu and Kashmir',
+        code: 'JK',
+        folder: 'jammu-kashmir',
+        capital: 'Srinagar',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 22,
+        districts: [
+            'Srinagar', 'Jammu', 'Anantnag', 'Budgam', 'Baramulla', 'Doda',
+            'Kathua', 'Kupwara', 'Rajouri', 'Poonch', 'Pulwama', 'Udhampur',
+            'Bandipora', 'Ganderbal', 'Kishtwar', 'Kulgam', 'Ramban', 'Reasi',
+            'Samba', 'Shopian'
+        ]
+    },
+    'jh': {
+        name: 'Jharkhand',
+        code: 'JH',
+        folder: 'jharkhand',
+        capital: 'Ranchi',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 24,
+        districts: [
+            'Ranchi', 'Hazaribagh', 'Palamu', 'Dumka', 'East Singhbhum',
+            'West Singhbhum', 'Gumla', 'Lohardaga', 'Bokaro', 'Dhanbad', 'Giridih',
+            'Koderma', 'Chatra', 'Garhwa', 'Deoghar', 'Pakur', 'Godda', 'Sahebganj',
+            'Latehar', 'Simdega', 'Jamtara', 'Seraikela Kharsawan', 'Khunti', 'Ramgarh'
+        ]
+    },
+    'la': {
+        name: 'Ladakh',
+        code: 'LA',
+        folder: 'ladakh',
+        capital: 'Leh',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 2,
+        districts: ['Kargil', 'Leh']
+    },
+    'ld': {
+        name: 'Lakshadweep',
+        code: 'LD',
+        folder: 'lakshadweep',
+        capital: 'Kavaratti',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 9,
+        districts: ['Kavaratti', 'Agatti', 'Amini', 'Androth', 'Kadmat', 'Kiltan', 'Kalpeni', 'Minicoy']
+    },
+    'mp': {
+        name: 'Madhya Pradesh',
+        code: 'MP',
+        folder: 'madhya-pradesh',
+        capital: 'Bhopal',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 74,
+        districts: [
+            'Bhopal', 'Hoshangabad', 'Morena', 'Gwalior', 'Guna', 'Indore',
+            'Khargone', 'Dhar', 'Khandwa', 'Ujjain', 'Mandsaur', 'Sagar', 'Chhatarpur',
+            'Rewa', 'Shahdol', 'Satna', 'Jabalpur', 'Katni', 'Seoni', 'Chhindwara',
+            'Bhind', 'Sheopur', 'Datia', 'Shivpuri', 'Damoh', 'Panna', 'Tikamgarh',
+            'Sehore', 'Raisen', 'Rajgarh', 'Vidisha', 'Dewas', 'Shajapur', 'Ratlam',
+            'Neemuch', 'Jhabua', 'Barwani', 'Harda', 'Betul', 'Narsinghpur',
+            'Balaghat', 'Mandla', 'Dindori', 'Sidhi', 'Umaria', 'Anuppur', 'Singrauli',
+            'Ashoknagar', 'Burhanpur', 'Alirajpur', 'Agar Malwa', 'Niwari', 'Mauganj',
+            'Maihar', 'Pandhurna'
+        ]
+    },
+    'mn': {
+        name: 'Manipur',
+        code: 'MN',
+        folder: 'manipur',
+        capital: 'Imphal',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 8,
+        districts: [
+            'Imphal West', 'Churachandpur', 'Kangpokpi', 'Thoubal', 'Bishnupur',
+            'Senapati', 'Ukhrul', 'Chandel', 'Tamenglong', 'Jiribam', 'Kakching',
+            'Kamjong', 'Noney', 'Pherzawl', 'Tengnoupal'
+        ]
+    },
+    'ml': {
+        name: 'Meghalaya',
+        code: 'ML',
+        folder: 'meghalaya',
+        capital: 'Shillong',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 10,
+        districts: [
+            'East Jaintia Hills', 'West Jaintia Hills', 'East Khasi Hills',
+            'West Khasi Hills', 'South West Khasi Hills', 'Ri-Bhoi',
+            'North Garo Hills', 'East Garo Hills', 'West Garo Hills',
+            'South West Garo Hills', 'South Garo Hills'
+        ]
+    },
+    'mz': {
+        name: 'Mizoram',
+        code: 'MZ',
+        folder: 'mizoram',
+        capital: 'Aizawl',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 8,
+        districts: [
+            'Aizawl', 'Lunglei', 'Saiha', 'Champhai', 'Kolasib', 'Serchhip',
+            'Lawngtlai', 'Mamit'
+        ]
+    },
+    'nl': {
+        name: 'Nagaland',
+        code: 'NL',
+        folder: 'nagaland',
+        capital: 'Kohima',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 10,
+        districts: [
+            'Kohima', 'Mokokchung', 'Tuensang', 'Mon', 'Wokha', 'Zunheboto',
+            'Dimapur', 'Phek', 'Peren', 'Kiphire', 'Longleng'
+        ]
+    },
+    'od': {
+        name: 'Odisha',
+        code: 'OD',
+        folder: 'odisha',
+        capital: 'Bhubaneswar',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 35,
+        districts: [
+            'Balasore', 'Khurda', 'Bolangir', 'Jajpur', 'Cuttack', 'Dhenkanal',
+            'Ganjam', 'Kalahandi', 'Keonjhar', 'Koraput', 'Mayurbhanj', 'Khandhamal',
+            'Puri', 'Sundargarh', 'Sambalpur', 'Bargarh', 'Rayagada', 'Angul',
+            'Gajapati', 'Jagatsinghpur', 'Bhadrak', 'Jharsuguda', 'Nabarangpur',
+            'Nayagarh', 'Nuapada', 'Boudh', 'Debagarh', 'Kendrapara', 'Malkangiri',
+            'Subarnapur'
+        ]
+    },
+    'py': {
+        name: 'Puducherry',
+        code: 'PY',
+        folder: 'puducherry',
+        capital: 'Puducherry',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 5,
+        districts: ['Puducherry', 'Karaikal', 'Mahe', 'Yanam']
+    },
+    'pb': {
+        name: 'Punjab',
+        code: 'PB',
+        folder: 'punjab',
+        capital: 'Chandigarh',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 99,
+        districts: [
+            'Amritsar', 'Bathinda', 'Faridkot', 'Ferozpur', 'Gurdaspur', 'Hoshiarpur',
+            'Jalandhar', 'Kapurthala', 'Ludhiana', 'Patiala', 'Rupnagar', 'Sangrur',
+            'Fazilka', 'Fatehgarh Sahib', 'Moga', 'Muktsar', 'Mansa', 'Nawanshahar',
+            'Pathankot', 'Tarn Taran', 'Mohali', 'Barnala', 'Malerkotla'
+        ]
+    },
+    'rj': {
+        name: 'Rajasthan',
+        code: 'RJ',
+        folder: 'rajasthan',
+        capital: 'Jaipur',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 60,
+        districts: [
+            'Ajmer', 'Alwar', 'Banswara', 'Barmer', 'Bharatpur', 'Bhilwara',
+            'Bikaner', 'Bundi', 'Chittorgarh', 'Churu', 'Dholpur', 'Dungarpur',
+            'Sri Ganganagar', 'Jaipur', 'Jaisalmer', 'Jalore', 'Jhalawar', 'Jhunjhunu',
+            'Jodhpur', 'Kota', 'Nagaur', 'Pali', 'Sikar', 'Sirohi', 'Sawai Madhopur',
+            'Tonk', 'Udaipur', 'Baran', 'Dausa', 'Rajsamand', 'Hanumangarh',
+            'Kotputli-Behror', 'Karauli', 'Pratapgarh', 'Didwana-Kuchaman', 'Balotra',
+            'Khairthal-Tijara', 'Phalodi', 'Salumbar', 'Kekri', 'Gangapur'
+        ]
+    },
+    'sk': {
+        name: 'Sikkim',
+        code: 'SK',
+        folder: 'sikkim',
+        capital: 'Gangtok',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 8,
+        districts: ['Gangtok', 'Gyalshing', 'pakyong', 'Namchi', 'Soreng', 'Mangan']
+    },
+    'tr': {
+        name: 'Tripura',
+        code: 'TR',
+        folder: 'tripura',
+        capital: 'Agartala',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 8,
+        districts: [
+            'West Tripura', 'Unakoti', 'Gomati', 'Dhalai', 'North Tripura', 'Khowai',
+            'Sipahijala', 'South Tripura'
+        ]
+    },
+    'up': {
+        name: 'Uttar Pradesh',
+        code: 'UP',
+        folder: 'uttar-pradesh',
+        capital: 'Lucknow',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 96,
+        districts: [
+            'Saharanpur', 'Muzaffarnagar', 'Bulandshahr', 'Ghaziabad', 'Meerut',
+            'Gautam Buddha Nagar', 'Bagpat', 'Shamli', 'Bijnor', 'Moradabad',
+            'Rampur', 'Amroha', 'Badaun', 'Bareilly', 'Pilibhit', 'Shahjahanpur',
+            'Hardoi', 'Lakhimpur Kheri', 'Lucknow', 'Raebareli', 'Sitapur', 'Unnao',
+            'Amethi', 'Hapur', 'Sambhal', 'Bahraich', 'Barabanki', 'Ayodhya', 'Gonda',
+            'Sultanpur', 'Ambedkar Nagar', 'Shravasti', 'Balrampur', 'Azamgarh',
+            'Basti', 'Deoria', 'Gorakhpur', 'Mau', 'Siddharth Nagar', 'Maharajganj',
+            'Kushinagar', 'Sant Kabir Nagar', 'Ballia', 'Ghazipur', 'Jaunpur', 'Mirzapur',
+            'Sonbhadra', 'Varanasi', 'Bhadohi', 'Chandauli', 'Prayagraj', 'Fatehpur',
+            'Pratapgarh', 'Kaushambi', 'Kannauj', 'Etawah', 'Farrukhabad', 'Kanpur Dehat',
+            'Kanpur Nagar', 'Auraiya', 'Agra', 'Aligarh', 'Etah', 'Firozabad', 'Mainpuri',
+            'Mathura', 'Hathras', 'Kasganj', 'Banda', 'Hamirpur', 'Jalaun', 'Jhansi',
+            'Lalitpur', 'Mahoba', 'Chitrakoot'
+        ]
+    },
+    'uk': {
+        name: 'Uttarakhand',
+        code: 'UK',
+        folder: 'uttarakhand',
+        capital: 'Dehradun',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 20,
+        districts: [
+            'Almora', 'Bageshwar', 'Champawat', 'Nainital', 'Pithoragarh',
+            'Udham Singh Nagar', 'Dehradun', 'Haridwar', 'Tehri Garhwal', 'Uttarkashi',
+            'Chamoli', 'Pauri Garhwal', 'Rudraprayag'
+        ]
+    },
+    'wb': {
+        name: 'West Bengal',
+        code: 'WB',
+        folder: 'west-bengal',
+        capital: 'Kolkata',
+        wikipediaTitle: 'List of Regional Transport Office districts in India',
+        totalRTOs: 97,
+        districts: [
+            'Kolkata', 'Howrah', 'Hooghly', 'South 24 Parganas', 'North 24 Parganas',
+            'Purba Medinipur', 'Paschim Medinipur', 'Paschim Bardhaman',
+            'Purba Bardhaman', 'Murshidabad', 'Uttar Dinajpur', 'Dakshin Dinajpur',
+            'Cooch Behar', 'Malda', 'Bankura', 'Alipurduar', 'Jalpaiguri', 'Darjeeling',
+            'Kalimpong', 'Purulia', 'Nadia', 'Jhargram', 'Birbhum'
+        ]
     }
 };
 
