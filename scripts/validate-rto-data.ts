@@ -170,17 +170,31 @@ Use the search results to verify if the city/region in the JSON data is correct.
 
         const prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
 ${searchInstruction}
-## CRITICAL VALIDATION STEP - DO THIS FIRST:
-**You MUST independently determine which city/region RTO Code ${rto.code} actually belongs to${useSearch ? ', using Google Search results' : ' based on your knowledge'}.**
+## CRITICAL VALIDATION RULES - READ CAREFULLY:
 
-Step 1: ${useSearch ? 'Search for "' + rto.code + ' RTO" and find ' : 'Determine '} what city RTO code ${rto.code} serves.
-Step 2: Compare your answer to the city/region in the JSON data: "${rto.region}" / "${rto.city}"
-Step 3: If they DO NOT match, this is a MAJOR ERROR. Set isValid: false immediately.
+1. **EXISTENCE CHECK (Most Important)**: Does RTO Code ${rto.code} *actually exist*?
+   - Many RTO lists online are incomplete or contain future planned codes.
+   - If this RTO code does not exist (e.g., AN-03 for Andaman & Nicobar which stops at AN-02), you MUST set isValid: false.
+   - Do NOT assume a code exists just because it follows a sequence.
+   - If it is not in the official Ministry of Road Transport & Highways (Parivahan) database or standard RTO lists, valid is FALSE.
 
-**DO NOT trust the JSON data blindly.** The JSON may contain completely wrong city/region/district information.
+2. **LOCATION MATCH**: Does ${rto.code} belong to "${rto.region}" / "${rto.city}"?
+   - Step 1: ${useSearch ? 'Search for "' + rto.code + ' RTO" and find ' : 'Determine '} what city RTO code ${rto.code} serves.
+   - Step 2: Compare your answer to the city/region in the JSON data.
+   - Step 3: If they DO NOT match, this is a MAJOR ERROR. Set isValid: false.
+
+3. **HIERARCHY OF VALIDATION (Avoid Cascading Errors)**:
+   - If Step 2 failed (City is wrong), DO NOT validate Pin Code, Phone, or Address against the *wrong* city listed in the JSON.
+   - Instead, validate them against the **TRUE** city you found in Step 1.
+   - If the Pin/Phone/Address match the TRUE city, report them as "Confirming Evidence" that the City name is the only error, NOT as "mismatches".
+   - Example: "Pin Code 670645 correctly belongs to Mananthavady (True City), confirming that the City 'Alleppey' is incorrect."
+
+4. **HALLUCINATION TRAP**: 
+   - DO NOT hallucinate a location for a non-existent code.
+   - Use "confidence": 0 if you are unsure or if the code likely does not exist.
 
 ## Additional Validation Checks:
-1. Is the district assignment correct for the given city/region in that state?
+1. Is the district assignment correct for the **TRUE** city/region?
 2. Are the jurisdiction areas reasonable and correctly spelled?
 3. Is the description accurate?
 4. Are there any obvious errors or inconsistencies?
@@ -195,7 +209,7 @@ ${stateConfig ? `State Context:
 - Total RTOs: ${stateConfig.totalRTOs}
 ` : ''}
 
-**REMEMBER**: The most important check is whether ${rto.code} actually belongs to "${rto.region}". If not, isValid MUST be false.`;
+**REMEMBER**: The most important check is existence. ${rto.code} might not exist at all. If it doesn't, isValid MUST be false.`;
 
         let searchContext = '';
 

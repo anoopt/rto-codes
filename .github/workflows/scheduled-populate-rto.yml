@@ -206,6 +206,8 @@ jobs:
         run: |
           STATE="${{ steps.determine-state.outputs.state }}"
           LIMIT="${{ inputs.limit || 5 }}"
+          # Clean up limit (remove decimals caused by some mobile inputs)
+          LIMIT=${LIMIT%.*}
           EXISTING="${{ steps.check-state.outputs.existing }}"
           TOTAL="${{ steps.check-state.outputs.total }}"
 
@@ -263,6 +265,12 @@ jobs:
           GENERATED="${{ steps.generate.outputs.generated }}"
           NEW_TOTAL="${{ steps.generate.outputs.new_total }}"
           TOTAL="${{ steps.check-state.outputs.total }}"
+
+          if [ "$GENERATED" -eq "0" ]; then
+            echo "⚠️ No new RTO files were generated (all found to be non-existent or kept as is)."
+            echo "   Skipping commit."
+            exit 0
+          fi
 
           # Configure git
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

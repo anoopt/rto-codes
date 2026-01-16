@@ -235,28 +235,41 @@ Use the search results to verify if the city/region in the JSON data is correct.
 
 Your task is to validate the following RTO data for accuracy, provide corrections if needed, AND fill in any missing information.
 ${searchInstruction}
-## CRITICAL VALIDATION STEP - DO THIS FIRST:
-**You MUST independently determine which city/region RTO Code ${rto.code} actually belongs to, based on your knowledge${useSearch ? ' and Google Search results' : ''}.**
+## CRITICAL VALIDATION RULES - READ CAREFULLY:
 
-Step 1: ${useSearch ? 'Search for "' + rto.code + ' RTO" and find ' : 'Ask yourself - '}"What city does RTO code ${rto.code} serve according to official Indian transport records?"
-Step 2: Compare your answer to the city/region in the JSON data: "${rto.region}" / "${rto.city}"
-Step 3: If they DO NOT match, this is a MAJOR ERROR. Set isValid: false immediately.
+1. **EXISTENCE CHECK (Most Important)**: Does RTO Code ${rto.code} *actually exist*?
+   - Many RTO lists online are incomplete or contain future planned codes.
+   - If this RTO code does not exist (e.g., AN-03 for Andaman & Nicobar which stops at AN-02), you MUST set isValid: false.
+   - Do NOT assume a code exists just because it follows a sequence.
+   - If it is not in the official Ministry of Road Transport & Highways (Parivahan) database or standard RTO lists, valid is FALSE.
+   - **Fix Action**: If the code does not exist, check the "status". If it's invalid, mark isValid=false. If it's "not-in-use", verify that.
 
-Example: If the JSON says the RTO is for "CityA" but ${useSearch ? 'search results show' : 'you know'} it is actually for "CityB", then:
-- isValid MUST be false
-- issues MUST include "RTO code [code] belongs to [correct city], not [wrong city]"
-- correctedData MUST include "region", "city", "district", and any other affected fields with correct values
+2. **LOCATION MATCH**: Does ${rto.code} belong to "${rto.region}" / "${rto.city}"?
+   - Step 1: ${useSearch ? 'Search for "' + rto.code + ' RTO" and find ' : 'Ask yourself - '}"What city does RTO code ${rto.code} serve according to official Indian transport records?"
+   - Step 2: Compare your answer to the city/region in the JSON data.
+   - Step 3: If they DO NOT match, this is a MAJOR ERROR. Set isValid: false immediately.
 
-**DO NOT trust the JSON data blindly.** The JSON may contain completely wrong city/region/district information. Your job is to verify it independently.
+3. **HIERARCHY OF VALIDATION (Avoid Cascading Errors)**:
+   - If Step 2 failed (City is wrong), DO NOT validate Pin Code, Phone, or Address against the *wrong* city listed in the JSON.
+   - Instead, validate them against the **TRUE** city you found in Step 1.
+   - If the Pin/Phone/Address match the TRUE city, report them as "Confirming Evidence" that the City name is the only error, NOT as "mismatches".
+   - Example: "Pin Code 670645 correctly belongs to Mananthavady (True City), confirming that the City 'Alleppey' is incorrect."
 
-## Additional Validation Checks:
-1. Is the district assignment correct for the given city/region in that state?
-2. Are the jurisdiction areas (talukas/mandals) correctly spelled and accurate for that RTO?
-3. Is the description accurate and grammatically correct?
-4. Is the division name correct for that RTO?
-5. Are there any factual errors about the location or coverage?
+4. **HALLUCINATION TRAP**: 
+   - DO NOT hallucinate a location for a non-existent code.
+   - Use "confidence": 0 if you are unsure or if the code likely does not exist.
 
-## Missing Data to Fill:
+## Fix Instructions:
+- **Scenario A: Code Exists, but Data is Wrong** (e.g., Code is KL-72, but City says "Alleppey"):
+  - Set isValid: false
+  - **CRITICAL**: You MUST provide 'correctedData' with the correct city, region, district, state, etc.
+  - Do NOT leave 'correctedData' empty. Fix the location mismatch.
+
+- **Scenario B: Code Does NOT Exist** (e.g., AN-03):
+  - Set isValid: false
+  - Do NOT provide 'correctedData'.
+
+## Missing Data to Fill (only for EXISTING RTOs):
 Look for fields that have "N/A", empty strings "", or placeholder values and provide actual data if you know it:
 - phone: Provide the actual RTO phone number if known (format: STD code + number, e.g., "0832-2262241")
 - email: Provide the actual RTO email if known (usually format like rto-xxx.state@nic.in or similar)
@@ -275,7 +288,7 @@ ${stateConfig ? `## State Context:
 - Known Districts: ${Object.keys(stateConfig.districtMapping).join(', ')}
 ` : ''}
 
-**REMEMBER**: The most important check is whether ${rto.code} actually belongs to "${rto.region}". If not, the entire JSON data may be wrong and needs correction.`;
+**REMEMBER**: The most important check is existence. If ${rto.code} doesn't exist, mark it invalid.`;
 
         let searchContext = '';
 

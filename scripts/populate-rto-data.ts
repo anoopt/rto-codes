@@ -614,6 +614,7 @@ interface PopulateResult {
     data?: RTOData;
     error?: string;
     source: 'wikipedia' | 'gemini' | 'cached';
+    saved?: boolean;
 }
 
 interface CLIOptions {
@@ -834,10 +835,16 @@ Generate complete and accurate data for the following RTO:
 - Available Districts: ${stateInfo.districts.join(', ')}
 
 ## Task:
-Create a complete data object for this RTO with accurate information${useSearch ? ' based on Google Search results' : ' based on your knowledge of Indian RTOs, geography, and the ' + stateInfo.name + ' state administrative divisions'}.
+Determine if this RTO code exists and is currently in use.
+If it exists, create a complete data object.
+If it currently DOES NOT EXIST or is NOT IN USE, set "status" to "not-in-use".
 
-## IMPORTANT:
-${useSearch ? '- SEARCH for "' + code + ' RTO" first to find the correct city/location\n- Use search results as the primary source of truth\n- The Wikipedia location may be wrong - verify with search' : '- The Wikipedia location "' + locationHint + '" is the most reliable source - use it as the primary city/region name\n- If Wikipedia says "' + locationHint + '", that should be the city name'}
+## CRITICAL VALIDATION RULES:
+1. **EXISTENCE CHECK**: Do not assume sequential numbering. Many states skip numbers.
+2. **SEARCH VERIFICATION**: If you cannot find CLEAR evidence of "${code}" being a valid RTO code in search results or official lists, set status to "not-in-use".
+3. **DO NOT GUESS**: Do not create a fake RTO just because a district exists. For example, if a district has an RTO but it uses a different code, do not assign it to "${code}".
+4. **SIMILAR CODES**: Be careful of codes from other states (e.g. AN-03 vs AP-03). Ensure the State matches ${stateInfo.name}.
+5. **STATUS "not-in-use"**: If the code is not found, return "status": "not-in-use" and meaningless/empty values for other fields.
 
 ## Important Guidelines:
 - Be factually accurate based on your knowledge
@@ -854,13 +861,16 @@ ${useSearch ? '- SEARCH for "' + code + ' RTO" first to find the correct city/lo
 
         // If using Google Search, first make a search call to gather accurate information
         if (useSearch) {
-            const searchPrompt = `Search for "${code} RTO" and "${code} Regional Transport Office ${stateInfo.name}" to find:
-1. The correct city/location name for this RTO code
-2. The official address and contact details
-3. The jurisdiction areas (talukas/mandals covered)
-4. When it was established
+            const searchPrompt = `Search for "${code} RTO" and "${code} Regional Transport Office ${stateInfo.name}".
+OBJECTIVE: Verify if the RTO code "${code}" actually exists in ${stateInfo.name}.
 
-Summarize all the factual information you find about ${code} RTO.`;
+Check for:
+1. Does "${code}" appear in official ${stateInfo.name} transport department lists?
+2. Is there a specific RTO office assigned to "${code}"?
+3. If it exists, find the city/location, address, and jurisdiction.
+4. Watch out for confusion with similar codes from other states (e.g. AP vs AN vs AR).
+
+Summarize the factual findings. If no clear evidence is found, explicitly state that the code likely does not exist.`;
 
             const searchResponse = await ai.models.generateContent({
                 model: MODEL_NAME,
@@ -919,24 +929,30 @@ async function populateRTO(
 
         if (existingData && !options.force) {
             if (options.skipExisting) {
-                return { code, success: true, source: 'cached', error: 'Skipped (already exists)' };
+                return { code, success: true, source: 'cached', error: 'Skipped (already exists)', saved: false };
             }
         }
 
         const data = await enrichRTOWithGemini(code, locationHint, stateInfo, existingData, options.useSearch);
+
+        // Don't save if status is not-in-use (implies invalid or non-existent RTO)
+        if (data.status === 'not-in-use' && !options.force) {
+            return { code, success: true, data, source: 'gemini', saved: false };
+        }
 
         if (!options.dryRun) {
             ensureDirectoryExists(stateInfo.folder);
             saveRTOFile(stateInfo.folder, data);
         }
 
-        return { code, success: true, data, source: 'gemini' };
+        return { code, success: true, data, source: 'gemini', saved: true };
     } catch (error) {
         return {
             code,
             success: false,
             error: error instanceof Error ? error.message : 'Unknown error',
-            source: 'gemini'
+            source: 'gemini',
+            saved: false
         };
     }
 }
@@ -1156,6 +1172,10 @@ ${'='.repeat(60)}
             if (result.source === 'cached') {
                 console.log('⏭️  Skipped (exists)');
                 skipCount++;
+            } else if (result.saved === false) {
+                console.log(`⚠️  Status: 'not-in-use' (skipped creation)`);
+                // Still counting as success since we successfully determined it doesn't exist
+                successCount++;
             } else {
                 const statusInfo = result.data?.status === 'not-in-use' ? ' [not-in-use]' : '';
                 console.log(`✅ ${result.data?.region || 'Unknown'}${statusInfo}`);
