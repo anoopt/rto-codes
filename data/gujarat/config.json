@@ -1,11 +1,11 @@
 {
-  "stateCode": "GJ",
-  "name": "Gujarat",
-  "displayName": "Gujarat",
-  "capital": "Gandhinagar",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "GJ",
+    "name": "Gujarat",
+    "displayName": "Gujarat",
+    "capital": "Gandhinagar",
+    "totalRTOs": 37,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

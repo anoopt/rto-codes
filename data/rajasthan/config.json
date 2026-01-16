@@ -1,11 +1,11 @@
 {
-  "stateCode": "RJ",
-  "name": "Rajasthan",
-  "displayName": "Rajasthan",
-  "capital": "Jaipur",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "RJ",
+    "name": "Rajasthan",
+    "displayName": "Rajasthan",
+    "capital": "Jaipur",
+    "totalRTOs": 60,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

@@ -1,11 +1,11 @@
 {
-  "stateCode": "CH",
-  "name": "Chandigarh",
-  "displayName": "Chandigarh",
-  "capital": "Chandigarh",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "union-territory"
+    "stateCode": "CH",
+    "name": "Chandigarh",
+    "displayName": "Chandigarh",
+    "capital": "Chandigarh",
+    "totalRTOs": 4,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "union-territory"
 }

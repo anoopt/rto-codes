@@ -1,11 +1,11 @@
 {
-  "stateCode": "TS",
-  "name": "Telangana",
-  "displayName": "Telangana",
-  "capital": "Hyderabad",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "TS",
+    "name": "Telangana",
+    "displayName": "Telangana",
+    "capital": "Hyderabad",
+    "totalRTOs": 38,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

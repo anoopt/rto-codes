@@ -1,11 +1,11 @@
 {
-  "stateCode": "OD",
-  "name": "Odisha",
-  "displayName": "Odisha",
-  "capital": "Bhubaneswar",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "OD",
+    "name": "Odisha",
+    "displayName": "Odisha",
+    "capital": "Bhubaneswar",
+    "totalRTOs": 35,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

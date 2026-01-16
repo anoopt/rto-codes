@@ -1,11 +1,11 @@
 {
-  "stateCode": "AP",
-  "name": "Andhra Pradesh",
-  "displayName": "Andhra Pradesh",
-  "capital": "Amaravati",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "AP",
+    "name": "Andhra Pradesh",
+    "displayName": "Andhra Pradesh",
+    "capital": "Amaravati",
+    "totalRTOs": 40,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

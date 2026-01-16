@@ -1,11 +1,11 @@
 {
-  "stateCode": "NL",
-  "name": "Nagaland",
-  "displayName": "Nagaland",
-  "capital": "Kohima",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "NL",
+    "name": "Nagaland",
+    "displayName": "Nagaland",
+    "capital": "Kohima",
+    "totalRTOs": 10,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

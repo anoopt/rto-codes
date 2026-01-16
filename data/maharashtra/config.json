@@ -1,11 +1,11 @@
 {
-  "stateCode": "MH",
-  "name": "Maharashtra",
-  "displayName": "Maharashtra",
-  "capital": "Mumbai",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "MH",
+    "name": "Maharashtra",
+    "displayName": "Maharashtra",
+    "capital": "Mumbai",
+    "totalRTOs": 53,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

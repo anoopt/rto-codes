@@ -1,11 +1,11 @@
 {
-  "stateCode": "SK",
-  "name": "Sikkim",
-  "displayName": "Sikkim",
-  "capital": "Gangtok",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "SK",
+    "name": "Sikkim",
+    "displayName": "Sikkim",
+    "capital": "Gangtok",
+    "totalRTOs": 8,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

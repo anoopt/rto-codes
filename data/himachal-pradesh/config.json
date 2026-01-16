@@ -1,11 +1,11 @@
 {
-  "stateCode": "HP",
-  "name": "Himachal Pradesh",
-  "displayName": "Himachal Pradesh",
-  "capital": "Shimla",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "HP",
+    "name": "Himachal Pradesh",
+    "displayName": "Himachal Pradesh",
+    "capital": "Shimla",
+    "totalRTOs": 99,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

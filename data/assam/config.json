@@ -1,11 +1,11 @@
 {
-  "stateCode": "AS",
-  "name": "Assam",
-  "displayName": "Assam",
-  "capital": "Dispur",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "AS",
+    "name": "Assam",
+    "displayName": "Assam",
+    "capital": "Dispur",
+    "totalRTOs": 34,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

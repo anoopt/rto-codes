@@ -1,11 +1,11 @@
 {
-  "stateCode": "PB",
-  "name": "Punjab",
-  "displayName": "Punjab",
-  "capital": "Chandigarh",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "PB",
+    "name": "Punjab",
+    "displayName": "Punjab",
+    "capital": "Chandigarh",
+    "totalRTOs": 99,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

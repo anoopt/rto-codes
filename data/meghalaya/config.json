@@ -1,11 +1,11 @@
 {
-  "stateCode": "ML",
-  "name": "Meghalaya",
-  "displayName": "Meghalaya",
-  "capital": "Shillong",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "ML",
+    "name": "Meghalaya",
+    "displayName": "Meghalaya",
+    "capital": "Shillong",
+    "totalRTOs": 10,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "state"
 }

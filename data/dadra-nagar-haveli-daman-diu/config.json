@@ -1,11 +1,11 @@
 {
-  "stateCode": "DD",
-  "name": "Dadra and Nagar Haveli and Daman and Diu",
-  "displayName": "Dadra and Nagar Haveli and Daman and Diu",
-  "capital": "Daman",
-  "totalRTOs": 0,
-  "districtMapping": {},
-  "svgDistrictIds": [],
-  "isComplete": false,
-  "type": "union-territory"
+    "stateCode": "DD",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "displayName": "Dadra and Nagar Haveli and Daman and Diu",
+    "capital": "Daman",
+    "totalRTOs": 3,
+    "districtMapping": {},
+    "svgDistrictIds": [],
+    "isComplete": false,
+    "type": "union-territory"
 }
