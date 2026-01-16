@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-16T14:52:55.794Z",
+  "generatedAt": "2026-01-16T15:07:50.153Z",
   "totalRTOs": 86,
   "totalVerified": 86,
   "totalStates": 28,
@@ -15,7 +15,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "MH",
@@ -25,7 +25,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "JK",
@@ -35,7 +35,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "HR",
@@ -45,7 +45,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "PY",
@@ -55,7 +55,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "MN",
@@ -65,7 +65,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "SK",
@@ -75,7 +75,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "TN",
@@ -85,7 +85,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "KA",
@@ -177,7 +177,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "GA",
@@ -210,7 +210,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "DD",
@@ -220,7 +220,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "TR",
@@ -230,7 +230,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "KL",
@@ -240,7 +240,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "JH",
@@ -250,7 +250,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "LA",
@@ -273,7 +273,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "WB",
@@ -283,7 +283,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "CG",
@@ -293,7 +293,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "MP",
@@ -303,7 +303,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "AN",
@@ -325,7 +325,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "PB",
@@ -335,7 +335,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "UK",
@@ -345,7 +345,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "OD",
@@ -355,7 +355,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "MZ",
@@ -365,7 +365,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "GJ",
@@ -375,7 +375,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "ML",
@@ -385,7 +385,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "RJ",
@@ -395,7 +395,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "AR",
@@ -405,7 +405,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "AP",
@@ -415,7 +415,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "UP",
@@ -425,7 +425,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "CH",
@@ -435,7 +435,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "TS",
@@ -445,7 +445,7 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     },
     {
       "stateCode": "AS",
@@ -455,7 +455,459 @@
       "rtoCodes": [],
       "isComplete": false,
       "type": "state",
-      "status": "Scaffolded"
+      "status": "Not Started"
     }
-  ]
+  ],
+  "stateMap": {
+    "NL": {
+      "stateCode": "NL",
+      "stateName": "Nagaland",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "MH": {
+      "stateCode": "MH",
+      "stateName": "Maharashtra",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "JK": {
+      "stateCode": "JK",
+      "stateName": "Jammu and Kashmir",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "Not Started"
+    },
+    "HR": {
+      "stateCode": "HR",
+      "stateName": "Haryana",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "PY": {
+      "stateCode": "PY",
+      "stateName": "Puducherry",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "Not Started"
+    },
+    "MN": {
+      "stateCode": "MN",
+      "stateName": "Manipur",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "SK": {
+      "stateCode": "SK",
+      "stateName": "Sikkim",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "TN": {
+      "stateCode": "TN",
+      "stateName": "Tamil Nadu",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "KA": {
+      "stateCode": "KA",
+      "stateName": "Karnataka",
+      "rtoCount": 71,
+      "verifiedCount": 71,
+      "rtoCodes": [
+        "ka-01",
+        "ka-02",
+        "ka-03",
+        "ka-04",
+        "ka-05",
+        "ka-06",
+        "ka-07",
+        "ka-08",
+        "ka-09",
+        "ka-10",
+        "ka-11",
+        "ka-12",
+        "ka-13",
+        "ka-14",
+        "ka-15",
+        "ka-16",
+        "ka-17",
+        "ka-18",
+        "ka-19",
+        "ka-20",
+        "ka-21",
+        "ka-22",
+        "ka-23",
+        "ka-24",
+        "ka-25",
+        "ka-26",
+        "ka-27",
+        "ka-28",
+        "ka-29",
+        "ka-30",
+        "ka-31",
+        "ka-32",
+        "ka-33",
+        "ka-34",
+        "ka-35",
+        "ka-36",
+        "ka-37",
+        "ka-38",
+        "ka-39",
+        "ka-40",
+        "ka-41",
+        "ka-42",
+        "ka-43",
+        "ka-44",
+        "ka-45",
+        "ka-46",
+        "ka-47",
+        "ka-48",
+        "ka-49",
+        "ka-50",
+        "ka-51",
+        "ka-52",
+        "ka-53",
+        "ka-54",
+        "ka-55",
+        "ka-56",
+        "ka-57",
+        "ka-58",
+        "ka-59",
+        "ka-60",
+        "ka-61",
+        "ka-62",
+        "ka-63",
+        "ka-64",
+        "ka-65",
+        "ka-66",
+        "ka-67",
+        "ka-68",
+        "ka-69",
+        "ka-70",
+        "ka-71"
+      ],
+      "isComplete": true,
+      "type": "state",
+      "status": "Complete"
+    },
+    "BR": {
+      "stateCode": "BR",
+      "stateName": "Bihar",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "GA": {
+      "stateCode": "GA",
+      "stateName": "Goa",
+      "rtoCount": 12,
+      "verifiedCount": 12,
+      "rtoCodes": [
+        "ga-01",
+        "ga-02",
+        "ga-03",
+        "ga-04",
+        "ga-05",
+        "ga-06",
+        "ga-07",
+        "ga-08",
+        "ga-09",
+        "ga-10",
+        "ga-11",
+        "ga-12"
+      ],
+      "isComplete": true,
+      "type": "state",
+      "status": "Complete"
+    },
+    "HP": {
+      "stateCode": "HP",
+      "stateName": "Himachal Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "DD": {
+      "stateCode": "DD",
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "Not Started"
+    },
+    "TR": {
+      "stateCode": "TR",
+      "stateName": "Tripura",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "KL": {
+      "stateCode": "KL",
+      "stateName": "Kerala",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "JH": {
+      "stateCode": "JH",
+      "stateName": "Jharkhand",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "LA": {
+      "stateCode": "LA",
+      "stateName": "Ladakh",
+      "rtoCount": 2,
+      "verifiedCount": 2,
+      "rtoCodes": [
+        "la-01",
+        "la-02"
+      ],
+      "isComplete": true,
+      "type": "union-territory",
+      "status": "Complete"
+    },
+    "LD": {
+      "stateCode": "LD",
+      "stateName": "Lakshadweep",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "Not Started"
+    },
+    "WB": {
+      "stateCode": "WB",
+      "stateName": "West Bengal",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "CG": {
+      "stateCode": "CG",
+      "stateName": "Chhattisgarh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "MP": {
+      "stateCode": "MP",
+      "stateName": "Madhya Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "AN": {
+      "stateCode": "AN",
+      "stateName": "Andaman and Nicobar Islands",
+      "rtoCount": 1,
+      "verifiedCount": 1,
+      "rtoCodes": [
+        "an-01"
+      ],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "In Progress"
+    },
+    "DL": {
+      "stateCode": "DL",
+      "stateName": "Delhi",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "Not Started"
+    },
+    "PB": {
+      "stateCode": "PB",
+      "stateName": "Punjab",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "UK": {
+      "stateCode": "UK",
+      "stateName": "Uttarakhand",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "OD": {
+      "stateCode": "OD",
+      "stateName": "Odisha",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "MZ": {
+      "stateCode": "MZ",
+      "stateName": "Mizoram",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "GJ": {
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "ML": {
+      "stateCode": "ML",
+      "stateName": "Meghalaya",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "RJ": {
+      "stateCode": "RJ",
+      "stateName": "Rajasthan",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "AR": {
+      "stateCode": "AR",
+      "stateName": "Arunachal Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "AP": {
+      "stateCode": "AP",
+      "stateName": "Andhra Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "UP": {
+      "stateCode": "UP",
+      "stateName": "Uttar Pradesh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "CH": {
+      "stateCode": "CH",
+      "stateName": "Chandigarh",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "union-territory",
+      "status": "Not Started"
+    },
+    "TS": {
+      "stateCode": "TS",
+      "stateName": "Telangana",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    },
+    "AS": {
+      "stateCode": "AS",
+      "stateName": "Assam",
+      "rtoCount": 0,
+      "verifiedCount": 0,
+      "rtoCodes": [],
+      "isComplete": false,
+      "type": "state",
+      "status": "Not Started"
+    }
+  }
 }

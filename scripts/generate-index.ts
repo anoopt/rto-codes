@@ -33,6 +33,7 @@ interface MasterIndex {
     totalUTs: number;
     completedUTs: number;
     states: StateIndex[];
+    stateMap: Record<string, StateIndex>;
 }
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -89,9 +90,16 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
 
     // Try to get state info from config.json first, then fall back to first RTO
     const config = loadStateConfig(stateDir);
+    
+    // Determine status based on RTO count and configuration
+    // 1. Complete: Explicitly marked complete OR RTO count matches/exceeds total (and total is known)
+    // 2. In Progress: Has some RTOs but not all
+    // 3. Not Started: No RTOs (previously Scaffolded)
+    const totalRTOs = config?.totalRTOs || 0;
+    const isActuallyComplete = config?.isComplete || (totalRTOs > 0 && rtos.length >= totalRTOs);
 
-    let status = "Scaffolded";
-    if (config?.isComplete) {
+    let status = "Not Started";
+    if (isActuallyComplete) {
         status = "Complete";
     } else if (rtos.length > 0) {
         status = "In Progress";
@@ -124,6 +132,7 @@ function main() {
         totalUTs: 0,
         completedUTs: 0,
         states: [],
+        stateMap: {},
     };
 
     for (const stateDir of stateDirectories) {
@@ -138,6 +147,7 @@ function main() {
 
         // Add to master index
         masterIndex.states.push(stateIndex);
+        masterIndex.stateMap[stateIndex.stateCode] = stateIndex;
         masterIndex.totalRTOs += stateIndex.rtoCount;
         masterIndex.totalVerified += stateIndex.verifiedCount;
 
