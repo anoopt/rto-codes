@@ -21,5 +21,29 @@
       "South Andaman",
       "North and Middle Andaman"
     ]
+  },
+  {
+    "code": "AN-02",
+    "region": "Car Nicobar",
+    "city": "Car Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "stateCode": "AN",
+    "district": "Nicobar",
+    "division": "Andaman and Nicobar Islands",
+    "description": "The AN-02 RTO serves the Nicobar District of the Andaman and Nicobar Islands, based in Car Nicobar. It is responsible for vehicle registration, issuance of driving licenses, and transport permit management for the Nicobar group of islands. The office operates under the Directorate of Transport of the Union Territory administration.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Assistant Engineer, STS Unit, Car Nicobar, Nicobar District, Andaman and Nicobar Islands",
+    "pinCode": "744301",
+    "phone": "03192-265366",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Car Nicobar",
+      "Campbell Bay",
+      "Great Nicobar",
+      "Nancowry",
+      "Teressa",
+      "Katchal"
+    ]
   }
 ]
