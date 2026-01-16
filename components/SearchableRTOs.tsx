@@ -123,13 +123,13 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                     {rto.city}
                   </span>
                   {needsRegion && (
-                    <span className={`text-[10px] sm:text-xs font-normal uppercase tracking-wide drop-shadow-md truncate max-w-full text-center ${hasImage
+                    <span className={`text-[9px] sm:text-[10px] font-medium uppercase tracking-wider mt-0.5 truncate max-w-full text-center [text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)] ${hasImage
                       ? isNotInUse
-                        ? 'text-slate-500/50 dark:text-white/50'
-                        : 'text-slate-700/80 dark:text-white/70'
+                        ? 'text-white/60'
+                        : 'text-white/90'
                       : isNotInUse
-                        ? 'text-[var(--muted-foreground)]/50 group-hover:text-amber-600/60 dark:group-hover:text-amber-400/60'
-                        : 'text-[var(--muted-foreground)]/70 group-hover:text-[var(--background)]/60'
+                        ? 'text-[var(--muted-foreground)]/50 group-hover:text-amber-600/60 dark:group-hover:text-amber-400/60 [text-shadow:none]'
+                        : 'text-[var(--muted-foreground)]/70 group-hover:text-[var(--background)]/60 [text-shadow:none]'
                       }`}>
                       {rto.region}
                     </span>

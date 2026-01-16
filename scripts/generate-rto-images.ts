@@ -62,52 +62,22 @@ cloudinary.config({
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
-// Theme colors for Karnataka districts/regions
-const THEME_COLORS: Record<string, string> = {
-  // Karnataka
-  'Bengaluru': '#E91E63', // Pink/Magenta for tech city
-  'Mysuru': '#9C27B0',    // Purple for heritage city
-  'Mangaluru': '#00BCD4', // Cyan for coastal city
-  'Hubli': '#FF9800',     // Orange for industrial hub
-  'Dharwad': '#795548',   // Brown for cultural city
-  'Belagavi': '#4CAF50',  // Green for border city
-  'Kalaburagi': '#F44336', // Red for northern region
-  'Shivamogga': '#2196F3', // Blue for Malnad region
-  'Tumakuru': '#8BC34A',    // Light green
-  'Udupi': '#009688',     // Teal for temple town
-  // Goa
-  'Panaji': '#FF5722',    // Deep orange for capital
-  'Margao': '#3F51B5',    // Indigo for commercial hub
-  'Mapusa': '#FFEB3B',    // Yellow for market town
-  'Vasco da Gama': '#03A9F4', // Light blue for port city
-  'Ponda': '#8BC34A',     // Light green for temple region
-  'Bicholim': '#795548',  // Brown for mining region
-  'Canacona': '#00BCD4',  // Cyan for beaches
-  'Pernem': '#E91E63',    // Pink for beach region
-  'Quepem': '#4CAF50',    // Green for forest region
-  'Dharbandora': '#2196F3', // Blue for wildlife region
-  // Default
-  'default': '#607D8B',   // Blue grey default
-};
+// VIBGYOR theme colors for variety
+const VIBGYOR_COLORS = [
+  { name: 'violet', hex: '#8B5CF6' },
+  { name: 'indigo', hex: '#4F46E5' },
+  { name: 'blue', hex: '#2563EB' },
+  { name: 'green', hex: '#059669' },
+  { name: 'yellow', hex: '#CA8A04' },
+  { name: 'orange', hex: '#EA580C' },
+  { name: 'red', hex: '#DC2626' },
+];
 
 /**
- * Get theme color for a city
+ * Get a random VIBGYOR color
  */
-function getThemeColor(city: string): string {
-  // Check for exact match first
-  if (THEME_COLORS[city]) {
-    return THEME_COLORS[city];
-  }
-
-  // Check if city contains any known city name
-  for (const [knownCity, color] of Object.entries(THEME_COLORS)) {
-    if (city.toLowerCase().includes(knownCity.toLowerCase()) ||
-      knownCity.toLowerCase().includes(city.toLowerCase())) {
-      return color;
-    }
-  }
-
-  return THEME_COLORS['default'];
+function getRandomColor(): { name: string; hex: string } {
+  return VIBGYOR_COLORS[Math.floor(Math.random() * VIBGYOR_COLORS.length)];
 }
 
 /**
@@ -202,7 +172,7 @@ async function imageExists(publicId: string): Promise<boolean> {
 /**
  * Generate an image using Gemini and return base64 data
  */
-async function generateImage(city: string, state: string, themeColor: string): Promise<string | null> {
+async function generateImage(city: string, region: string, state: string): Promise<string | null> {
   try {
     // Use Gemini 2.5 Flash stable model with image-only output
     const model = genAI.getGenerativeModel({
@@ -213,7 +183,16 @@ async function generateImage(city: string, state: string, themeColor: string): P
       },
     });
 
-    const prompt = `Generate an image: A minimalist architectural sketch of a famous landmark in ${city}, ${state}, India. Style: Soft watercolor washes, clean white background, professional travel guide aesthetic, theme color: ${themeColor}. The image should be elegant, simple, and suitable as a background for a website card. IMPORTANT: Do NOT include any text, labels, words, letters, or writing in the image - only the architectural illustration.`;
+    // Build location context - use region if different from city for more variety
+    const locationContext = region && region.toLowerCase() !== city.toLowerCase()
+      ? `${region} area of ${city}`
+      : city;
+
+    // Pick a random VIBGYOR color for variety
+    const themeColor = getRandomColor();
+    console.log(`  🎨 Theme color: ${themeColor.name} (${themeColor.hex})`);
+
+    const prompt = `Generate an image: A minimalist architectural sketch of a landmark, monument, or notable building in ${locationContext}, ${state}, India. Style: Soft watercolor washes, clean white background, professional travel guide aesthetic, theme color: ${themeColor.name}. Use ${themeColor.name} tones. The image should be elegant, simple, and suitable as a background for a website card. IMPORTANT: Do NOT include any text, labels, words, letters, or writing in the image - only the architectural illustration.`;
 
     console.log(`  📝 Prompt: ${prompt.substring(0, 100)}...`);
 
@@ -284,13 +263,9 @@ async function processRTO(rto: RTOCode, skipExisting: boolean = true): Promise<b
     }
   }
 
-  // Get theme color
-  const themeColor = getThemeColor(rto.city);
-  console.log(`  🎨 Theme color: ${themeColor}`);
-
   // Generate image
   console.log(`  🖼️ Generating image...`);
-  const imageData = await generateImage(rto.city, rto.state, themeColor);
+  const imageData = await generateImage(rto.city, rto.region, rto.state);
 
   if (!imageData) {
     console.log(`  ⚠️ Failed to generate image`);
