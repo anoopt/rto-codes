@@ -71,10 +71,13 @@ jobs:
                 const images = JSON.parse(fs.readFileSync('data/rto-images.json', 'utf8'));
                 const index = JSON.parse(fs.readFileSync('data/index.json', 'utf8'));
                 const statesWithMissingImages = new Set();
-                for (const rto of index.rtos || []) {
-                  if (!images[rto.code]) {
-                    const folder = rto.state.toLowerCase().replace(/\s+/g, '-');
-                    statesWithMissingImages.add(folder);
+                for (const state of index.states || []) {
+                  for (const rtoCode of state.rtoCodes || []) {
+                    const code = rtoCode.toUpperCase().replace('-', '-');
+                    if (!images[code]) {
+                      const folder = state.stateName.toLowerCase().replace(/\s+/g, '-');
+                      statesWithMissingImages.add(folder);
+                    }
                   }
                 }
                 console.log([...statesWithMissingImages].join(' '));
