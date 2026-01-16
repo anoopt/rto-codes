@@ -682,6 +682,111 @@ function saveRTOFile(stateFolder: string, data: RTOData): void {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 4) + '\n', 'utf-8');
 }
 
+interface StateConfigFile {
+    stateCode: string;
+    name: string;
+    displayName: string;
+    capital: string;
+    totalRTOs: number;
+    districtMapping: Record<string, string>;
+    svgDistrictIds: string[];
+    isComplete: boolean;
+    type: 'state' | 'union-territory';
+    validCodes?: string[];
+}
+
+function loadStateConfigFile(stateFolder: string): StateConfigFile | null {
+    try {
+        const configPath = path.join(process.cwd(), 'data', stateFolder, 'config.json');
+        if (!fs.existsSync(configPath)) return null;
+        return JSON.parse(fs.readFileSync(configPath, 'utf-8')) as StateConfigFile;
+    } catch {
+        return null;
+    }
+}
+
+function saveStateConfigFile(stateFolder: string, config: StateConfigFile): void {
+    const configPath = path.join(process.cwd(), 'data', stateFolder, 'config.json');
+    fs.writeFileSync(configPath, JSON.stringify(config, null, 4) + '\n', 'utf-8');
+}
+
+function countActualRTOFiles(stateFolder: string): number {
+    const statePath = path.join(process.cwd(), 'data', stateFolder);
+    if (!fs.existsSync(statePath)) return 0;
+    
+    const files = fs.readdirSync(statePath).filter(file =>
+        file.endsWith('.json') &&
+        !file.includes('index') &&
+        !file.includes('config') &&
+        !file.includes('raw-') &&
+        !file.includes('validation-report') &&
+        /^[a-z]{2}-\d+\.json$/i.test(file)
+    );
+    return files.length;
+}
+
+/**
+ * Updates the state config.json with accurate totalRTOs and isComplete flags.
+ * Called after population to ensure config reflects reality.
+ */
+function updateStateConfigAfterPopulation(
+    stateFolder: string,
+    processedRange: { start: number; end: number },
+    totalExpected: number,
+    results: PopulateResult[]
+): void {
+    const config = loadStateConfigFile(stateFolder);
+    if (!config) {
+        console.log(`   ⚠️  No config.json found for ${stateFolder}, skipping config update`);
+        return;
+    }
+
+    // Count actual RTO files on disk
+    const actualRTOCount = countActualRTOFiles(stateFolder);
+
+    // Check if we've processed the full range (start=1 and end >= totalExpected)
+    const processedFullRange = processedRange.start === 1 && processedRange.end >= totalExpected;
+
+    // Count how many codes in this run were determined to not exist
+    const notInUseCount = results.filter(r => 
+        r.success && r.saved === false && r.data?.status === 'not-in-use'
+    ).length;
+
+    let configChanged = false;
+
+    // If we processed the full range, we can confidently update totalRTOs
+    if (processedFullRange) {
+        const newTotalRTOs = actualRTOCount;
+        
+        if (config.totalRTOs !== newTotalRTOs) {
+            console.log(`\n📝 Updating config.json: totalRTOs ${config.totalRTOs} → ${newTotalRTOs}`);
+            console.log(`   (${notInUseCount} codes found to be not-in-use)`);
+            config.totalRTOs = newTotalRTOs;
+            configChanged = true;
+        }
+
+        // Since we processed all, mark as complete if we have RTOs
+        if (!config.isComplete && newTotalRTOs > 0) {
+            console.log(`   Setting isComplete = true`);
+            config.isComplete = true;
+            configChanged = true;
+        }
+    } else {
+        // Partial range - check if actual count meets or exceeds expected
+        // and all codes have been tried (no gaps)
+        if (!config.isComplete && actualRTOCount >= config.totalRTOs && config.totalRTOs > 0) {
+            console.log(`\n📝 Updating config.json: isComplete = true (${actualRTOCount}/${config.totalRTOs} RTOs)`);
+            config.isComplete = true;
+            configChanged = true;
+        }
+    }
+
+    if (configChanged) {
+        saveStateConfigFile(stateFolder, config);
+        console.log(`   ✅ config.json updated`);
+    }
+}
+
 // ============================================================================
 // Wikipedia Fetching
 // ============================================================================
@@ -1218,6 +1323,16 @@ ${'='.repeat(60)}
 ❌ Failed:     ${failCount}
 📁 Total:      ${total}
 ${'='.repeat(60)}`);
+
+    // Update config.json with accurate totalRTOs and isComplete flags
+    if (!options.dryRun) {
+        updateStateConfigAfterPopulation(
+            stateInfo.folder,
+            { start: options.start, end: options.end },
+            stateInfo.totalRTOs,
+            results
+        );
+    }
 
     if (!options.dryRun && successCount > 0) {
         console.log(`

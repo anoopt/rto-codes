@@ -7,19 +7,21 @@
     "stateCode": "AN",
     "district": "South Andaman",
     "division": "Andaman and Nicobar Islands Transport Department",
-    "description": "AN-01 is the primary Regional Transport Office for the Andaman and Nicobar Islands, headquartered in the capital city of Sri Vijaya Puram (formerly Port Blair). It is the central authority for vehicle registration, driving license issuance, and enforcement of the Motor Vehicles Act across the South and Middle Andaman regions.",
+    "description": "AN-01 is the primary Regional Transport Office for the Andaman and Nicobar Islands, located in the capital city of Sri Vijaya Puram (formerly Port Blair). It serves as the central administrative hub for vehicle registration, driving licenses, and permit issuance for the South Andaman district and surrounding regions.",
     "status": "active",
     "established": "1988",
-    "address": "Directorate of Transport, A&N Administration, Tagore Road, Sri Vijaya Puram, Andaman & Nicobar Islands",
+    "address": "Directorate of Transport, Andaman and Nicobar Administration, Tagore Road, Sri Vijaya Puram, Andaman and Nicobar Islands",
     "pinCode": "744101",
-    "phone": "+91-3192-230225",
+    "phone": "03192-230225",
     "email": "rtoani@and.nic.in",
     "jurisdictionAreas": [
+      "Sri Vijaya Puram",
       "Port Blair",
       "Ferrargunj",
-      "Rangat",
       "South Andaman",
-      "North and Middle Andaman"
+      "Little Andaman",
+      "Swaraj Dweep",
+      "Shaheed Dweep"
     ]
   },
   {
@@ -30,7 +32,7 @@
     "stateCode": "AN",
     "district": "Nicobar",
     "division": "Andaman and Nicobar Islands",
-    "description": "The AN-02 RTO serves the Nicobar District of the Andaman and Nicobar Islands, based in Car Nicobar. It is responsible for vehicle registration, issuance of driving licenses, and transport permit management for the Nicobar group of islands. The office operates under the Directorate of Transport of the Union Territory administration.",
+    "description": "The AN-02 RTO serves the Nicobar District, the southernmost district of the Andaman and Nicobar Islands. Headquartered in Car Nicobar, it manages vehicle registrations, driving license issuances, and transport permits for the entire Nicobar group of islands. The office operates under the State Transport Services (STS) unit of the Union Territory administration.",
     "status": "active",
     "established": "N/A",
     "address": "Office of the Assistant Engineer, STS Unit, Car Nicobar, Nicobar District, Andaman and Nicobar Islands",

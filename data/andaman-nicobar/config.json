@@ -3,9 +3,9 @@
     "name": "Andaman and Nicobar Islands",
     "displayName": "Andaman and Nicobar Islands",
     "capital": "Port Blair",
-    "totalRTOs": 3,
+    "totalRTOs": 2,
     "districtMapping": {},
     "svgDistrictIds": [],
-    "isComplete": false,
+    "isComplete": true,
     "type": "union-territory"
 }
