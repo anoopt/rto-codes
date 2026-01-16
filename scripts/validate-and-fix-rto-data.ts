@@ -15,6 +15,7 @@
  *   bun scripts/validate-and-fix-rto-data.ts goa --fix              # Validate and auto-fix issues
  *   bun scripts/validate-and-fix-rto-data.ts goa --fix --dry-run    # Preview fixes without saving
  *   bun scripts/validate-and-fix-rto-data.ts --state=goa --fix      # Alternative state syntax
+ *   bun scripts/validate-and-fix-rto-data.ts kerala kl-49 --search  # Use Google Search grounding
  * 
  * Options:
  *   --all              Validate all available states
@@ -24,6 +25,7 @@
  *   --dry-run          Preview changes without saving (use with --fix)
  *   --save             Save validation results to JSON file
  *   --skip-notinuse    Skip 'not-in-use' RTO codes
+ *   --search           Use Google Search grounding for better accuracy
  *   --verbose          Show detailed output
  *   --help, -h         Show this help message
  * 
@@ -101,6 +103,7 @@ interface CLIOptions {
     dryRun: boolean;
     saveResults: boolean;
     skipNotInUse: boolean;
+    useSearch: boolean;
     verbose: boolean;
     limit: number;
     state?: string;
@@ -193,28 +196,52 @@ function saveRTOData(state: string, code: string, data: RTOData): void {
 async function validateAndFixWithGemini(
     rto: RTOData,
     stateConfig: StateConfig | null,
-    shouldFix: boolean
+    shouldFix: boolean,
+    useSearch: boolean = false
 ): Promise<ValidationResult> {
     try {
-        const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+        // Configure model with or without Google Search grounding
+        const modelConfig: { model: string; tools?: Array<{ googleSearch: Record<string, never> }> } = {
+            model: MODEL_NAME,
+        };
+
+        if (useSearch) {
+            modelConfig.tools = [{ googleSearch: {} }];
+        }
+
+        const model = genAI.getGenerativeModel(modelConfig);
+
+        const searchInstruction = useSearch
+            ? `\n\n## IMPORTANT: Use Google Search
+You have access to Google Search. Before validating, SEARCH for "${rto.code} RTO" to find the correct city/location for this RTO code.
+Use the search results to verify if the city/region in the JSON data is correct.
+`
+            : '';
 
         const prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
 
-Please validate the following RTO data for accuracy, provide corrections if needed, AND fill in any missing information.
+Your task is to validate the following RTO data for accuracy, provide corrections if needed, AND fill in any missing information.
+${searchInstruction}
+## CRITICAL VALIDATION STEP - DO THIS FIRST:
+**You MUST independently determine which city/region RTO Code ${rto.code} actually belongs to, based on your knowledge${useSearch ? ' and Google Search results' : ''}.**
 
-## CRITICAL VALIDATION STEP:
-**First, verify if the RTO Code (${rto.code}) actually belongs to the city/region "${rto.region}".**
-- If ${rto.code} belongs to a DIFFERENT city, you MUST report isValid: false and provide the correct city in suggestions.
-- Do not be misled by the other details in the JSON (like address or email). If they describe the wrong city, they are part of the error.
-- The RTO Code is the primary truth. The data must match the code.
+Step 1: ${useSearch ? 'Search for "' + rto.code + ' RTO" and find ' : 'Ask yourself - '}"What city does RTO code ${rto.code} serve according to official Indian transport records?"
+Step 2: Compare your answer to the city/region in the JSON data: "${rto.region}" / "${rto.city}"
+Step 3: If they DO NOT match, this is a MAJOR ERROR. Set isValid: false immediately.
 
-## Validation Checks:
-1. Is the city/region name correct for this RTO code?
-2. Is the district assignment correct for the given state?
-3. Are the jurisdiction areas (talukas/mandals) correctly spelled and accurate?
-4. Is the description accurate and grammatically correct?
-5. Is the division name correct?
-6. Are there any factual errors about the location or coverage?
+Example: If the JSON says the RTO is for "CityA" but ${useSearch ? 'search results show' : 'you know'} it is actually for "CityB", then:
+- isValid MUST be false
+- issues MUST include "RTO code [code] belongs to [correct city], not [wrong city]"
+- correctedData MUST include "region", "city", "district", and any other affected fields with correct values
+
+**DO NOT trust the JSON data blindly.** The JSON may contain completely wrong city/region/district information. Your job is to verify it independently.
+
+## Additional Validation Checks:
+1. Is the district assignment correct for the given city/region in that state?
+2. Are the jurisdiction areas (talukas/mandals) correctly spelled and accurate for that RTO?
+3. Is the description accurate and grammatically correct?
+4. Is the division name correct for that RTO?
+5. Are there any factual errors about the location or coverage?
 
 ## Missing Data to Fill:
 Look for fields that have "N/A", empty strings "", or placeholder values and provide actual data if you know it:
@@ -242,18 +269,18 @@ Respond ONLY with a valid JSON object in this exact structure (no markdown, no e
 {
   "isValid": true or false,
   "confidence": 0-100,
-  "issues": ["list of specific issues found"],
+  "issues": ["list of specific issues found - MUST include city mismatch if RTO code belongs to different city"],
   "suggestions": ["list of specific improvements"],
-  "summary": "Brief overall assessment in one sentence",
+  "summary": "Brief overall assessment - MUST mention if city/region is wrong for this RTO code",
   "correctedData": {
-    // Include fields that need correction OR have missing data you can fill
-    // For example: "phone": "0832-2262241"
-    // For example: "email": "rto-mapusa.goa@nic.in"
-    // Leave empty {} if no corrections or additions needed
+    // CRITICAL: If the city/region is wrong, you MUST include corrected "region", "city", "district" here
+    // Also include any other fields that need correction or have missing data
+    // Example: "region": "CorrectCity", "city": "CorrectCity", "district": "CorrectDistrict"
+    // Leave empty {} ONLY if ALL data including city/region is accurate
   }
 }
 
-IMPORTANT: If you know the actual phone number, email, or other missing data for this RTO, include it in correctedData. Only provide data you are confident is accurate.`;
+**REMEMBER**: The most important check is whether ${rto.code} actually belongs to "${rto.region}". If not, the entire JSON data may be wrong and needs correction.`;
 
         const result = await model.generateContent(prompt);
         const response = result.response.text();
@@ -426,6 +453,7 @@ function parseArgs(): CLIOptions {
         dryRun: false,
         saveResults: false,
         skipNotInUse: false,
+        useSearch: false,
         verbose: false,
         limit: 0,
         state: undefined,
@@ -445,6 +473,8 @@ function parseArgs(): CLIOptions {
             options.saveResults = true;
         } else if (arg === '--skip-notinuse') {
             options.skipNotInUse = true;
+        } else if (arg === '--search') {
+            options.useSearch = true;
         } else if (arg === '--verbose' || arg === '-v') {
             options.verbose = true;
         } else if (arg.startsWith('--state=')) {
@@ -501,6 +531,7 @@ Examples:
   bun scripts/validate-and-fix-rto-data.ts goa --fix              # Validate and auto-fix issues
   bun scripts/validate-and-fix-rto-data.ts goa --fix --dry-run    # Preview fixes without saving
   bun scripts/validate-and-fix-rto-data.ts --state=goa --fix      # Alternative state syntax
+  bun scripts/validate-and-fix-rto-data.ts kerala kl-49 --search  # Use Google Search for verification
 
 Options:
   --all              Validate all available states
@@ -510,6 +541,7 @@ Options:
   --dry-run          Preview changes without saving (use with --fix)
   --save             Save validation results to JSON file
   --skip-notinuse    Skip 'not-in-use' RTO codes
+  --search           Use Google Search grounding for better accuracy (recommended)
   --verbose, -v      Show detailed output including suggestions
   --help, -h         Show this help message
 
@@ -555,6 +587,9 @@ async function main(): Promise<void> {
     }
     if (options.limit > 0) {
         console.log(`Limit: ${options.limit} RTOs per state`);
+    }
+    if (options.useSearch) {
+        console.log(`Search: 🔍 Google Search grounding enabled`);
     }
     if (options.fix) {
         console.log(`Mode: ${options.dryRun ? '🔍 FIX PREVIEW (dry-run)' : '🔧 FIX & SAVE'}`);
@@ -608,7 +643,7 @@ async function main(): Promise<void> {
         for (const rto of rtosToValidate) {
             console.log(`\n  🔄 Validating ${rto.code}...`);
 
-            const result = await validateAndFixWithGemini(rto, stateConfig, options.fix);
+            const result = await validateAndFixWithGemini(rto, stateConfig, options.fix, options.useSearch);
             results.push(result);
 
             printValidationResult(result, options.verbose);

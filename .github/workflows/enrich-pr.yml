@@ -272,8 +272,8 @@ jobs:
               echo ""
               echo "Validating state: $state"
               
-              # Run validation and capture output
-              validation_output=$(bun scripts/validate-rto-data.ts "$state" --save-report 2>&1 || true)
+              # Run validation with Google Search grounding for accurate RTO code verification
+              validation_output=$(bun scripts/validate-rto-data.ts "$state" --search --save-report 2>&1 || true)
               
               # Parse validation report if it exists
               report_file="data/$state/validation-report.json"

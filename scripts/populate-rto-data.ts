@@ -23,10 +23,12 @@
  *   bun scripts/populate-rto-data.ts ga --dry-run          # Preview without saving
  *   bun scripts/populate-rto-data.ts ka 55 --verbose       # Single RTO with details
  *   bun scripts/populate-rto-data.ts tn --skip-existing    # Skip already populated files
+ *   bun scripts/populate-rto-data.ts kl 49 --search        # Use Google Search for accuracy
  * 
  * Options:
  *   --dry-run          Preview without writing files
  *   --skip-existing    Skip RTOs that already have JSON files
+ *   --search           Use Google Search grounding for better accuracy (recommended)
  *   --verbose, -v      Show detailed output
  *   --force            Overwrite existing files
  *   --help, -h         Show help
@@ -258,6 +260,7 @@ interface PopulateResult {
 interface CLIOptions {
     dryRun: boolean;
     skipExisting: boolean;
+    useSearch: boolean;
     verbose: boolean;
     force: boolean;
     stateCode: string;
@@ -436,9 +439,23 @@ async function enrichRTOWithGemini(
     code: string,
     locationHint: string,
     stateInfo: StateInfo,
-    existingData?: RTOData | null
+    existingData?: RTOData | null,
+    useSearch: boolean = false
 ): Promise<RTOData> {
-    const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+    // Configure model with or without Google Search grounding
+    const modelConfig: { model: string; tools?: Array<{ googleSearch: Record<string, never> }> } = {
+        model: MODEL_NAME,
+    };
+
+    if (useSearch) {
+        modelConfig.tools = [{ googleSearch: {} }];
+    }
+
+    const model = genAI.getGenerativeModel(modelConfig);
+
+    const searchInstruction = useSearch
+        ? `\n\n## IMPORTANT: Use Google Search\nYou have access to Google Search. SEARCH for "${code} RTO" to find:\n1. The correct city/location for this RTO code\n2. The official address and contact details\n3. The jurisdiction areas\nUse the search results to provide accurate data.\n`
+        : '';
 
     // Build the prompt based on whether we have existing data
     let prompt: string;
@@ -446,14 +463,14 @@ async function enrichRTOWithGemini(
     if (existingData) {
         // We have existing data - ask Gemini to validate and enhance only
         prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
-
+${searchInstruction}
 I have EXISTING DATA for the RTO ${code} that has been previously validated. Your task is to:
-1. KEEP all the accurate information from the existing data (especially region, city, district, jurisdictionAreas)
-2. ONLY correct obvious errors if you find any
+1. ${useSearch ? 'FIRST, search for "' + code + ' RTO" to verify the city/region is correct' : 'KEEP all the accurate information from the existing data (especially region, city, district, jurisdictionAreas)'}
+2. ${useSearch ? 'If search results show a DIFFERENT city than the existing data, UPDATE the city/region/district accordingly' : 'ONLY correct obvious errors if you find any'}
 3. **FILL IN any missing or placeholder fields** - look for "N/A", empty strings "", or generic values
 4. Enhance the description if it's too generic
 
-## IMPORTANT: Trust the existing data as ground truth unless it's clearly wrong!
+## IMPORTANT: ${useSearch ? 'Google Search results are the source of truth. If the existing data has the WRONG city, correct it!' : 'Trust the existing data as ground truth unless it\'s clearly wrong!'}
 
 ## Existing Data (treat as ground truth):
 ${JSON.stringify(existingData, null, 2)}
@@ -501,7 +518,7 @@ The JSON must include ALL fields with the corrected/enhanced values:
     } else {
         // No existing data - generate from scratch with Wikipedia hint
         prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
-
+${searchInstruction}
 Generate complete and accurate data for the following RTO:
 
 ## RTO Information:
@@ -512,11 +529,10 @@ Generate complete and accurate data for the following RTO:
 - Available Districts: ${stateInfo.districts.join(', ')}
 
 ## Task:
-Create a complete JSON object for this RTO with accurate information based on your knowledge of Indian RTOs, geography, and the ${stateInfo.name} state administrative divisions.
+Create a complete JSON object for this RTO with accurate information${useSearch ? ' based on Google Search results' : ' based on your knowledge of Indian RTOs, geography, and the ' + stateInfo.name + ' state administrative divisions'}.
 
 ## IMPORTANT:
-- The Wikipedia location "${locationHint}" is the most reliable source - use it as the primary city/region name
-- If Wikipedia says "${locationHint}", that should be the city name
+${useSearch ? '- SEARCH for "' + code + ' RTO" first to find the correct city/location\n- Use search results as the primary source of truth\n- The Wikipedia location may be wrong - verify with search' : '- The Wikipedia location "' + locationHint + '" is the most reliable source - use it as the primary city/region name\n- If Wikipedia says "' + locationHint + '", that should be the city name'}
 
 ## Required Fields:
 1. code: The RTO code (e.g., "${code}")
@@ -635,8 +651,8 @@ async function populateRTO(
             }
         }
 
-        // Enrich with Gemini (passing existing data if available)
-        const data = await enrichRTOWithGemini(code, locationHint, stateInfo, existingData);
+        // Enrich with Gemini (passing existing data if available, and useSearch option)
+        const data = await enrichRTOWithGemini(code, locationHint, stateInfo, existingData, options.useSearch);
 
         // Save if not dry run
         if (!options.dryRun) {
@@ -665,6 +681,7 @@ function parseArgs(): CLIOptions {
     const options: CLIOptions = {
         dryRun: args.includes('--dry-run'),
         skipExisting: args.includes('--skip-existing'),
+        useSearch: args.includes('--search'),
         verbose: args.includes('--verbose') || args.includes('-v'),
         force: args.includes('--force'),
         stateCode: '',
@@ -730,6 +747,7 @@ Arguments:
 Options:
   --dry-run        Preview without writing files
   --skip-existing  Skip RTOs that already have JSON files
+  --search         Use Google Search grounding for better accuracy (recommended)
   --force          Overwrite existing files
   --verbose, -v    Show detailed output
   --help, -h       Show this help message
@@ -738,6 +756,7 @@ Examples:
   bun scripts/populate-rto-data.ts ga                    # All Goa RTOs (GA-01 to GA-12)
   bun scripts/populate-rto-data.ts kerala 1 10           # Kerala RTOs 1-10 (using folder name)
   bun scripts/populate-rto-data.ts kl 1 10               # Kerala RTOs 1-10 (using state code)
+  bun scripts/populate-rto-data.ts kl 49 --search        # Single RTO with Google Search verification
   bun scripts/populate-rto-data.ts ga GA-07              # Single RTO GA-07 (using RTO code)
   bun scripts/populate-rto-data.ts ga 7                  # Single RTO GA-07 (using number)
   bun scripts/populate-rto-data.ts ga --dry-run          # Preview without saving
@@ -801,6 +820,7 @@ State:        ${stateInfo.name} (${stateInfo.code})
 Range:        ${formatCode(options.stateCode, options.start)} to ${formatCode(options.stateCode, options.end)}
 Total:        ${total} RTO(s)
 Mode:         ${options.dryRun ? '🔍 DRY RUN (no files will be written)' : '💾 WRITE MODE'}
+Search:       ${options.useSearch ? '🔍 Google Search grounding enabled' : 'Disabled (use --search for better accuracy)'}
 Skip Existing: ${options.skipExisting ? 'Yes' : 'No'}
 ${'='.repeat(60)}
 `);

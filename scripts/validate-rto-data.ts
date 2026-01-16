@@ -10,6 +10,7 @@
  *   bun run scripts/validate-rto-data.ts karnataka
  *   bun run scripts/validate-rto-data.ts goa ga-07
  *   bun run scripts/validate-rto-data.ts --all
+ *   bun run scripts/validate-rto-data.ts kerala kl-49 --search  # Use Google Search for verification
  * 
  * Environment variables required:
  * - GEMINI_API_KEY
@@ -142,20 +143,39 @@ function loadSingleRTO(state: string, code: string): RTOData | null {
 /**
  * Validate RTO data using Gemini
  */
-async function validateWithGemini(rto: RTOData, stateConfig: StateConfig | null): Promise<ValidationResult> {
+async function validateWithGemini(rto: RTOData, stateConfig: StateConfig | null, useSearch: boolean = false): Promise<ValidationResult> {
     try {
-        const model = genAI.getGenerativeModel({
+        // Configure model with or without Google Search grounding
+        const modelConfig: { model: string; tools?: Array<{ googleSearch: Record<string, never> }> } = {
             model: 'gemini-3-flash-preview',
-        });
+        };
 
-        const prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems. 
-    
-Please validate the following RTO data for accuracy and completeness. Check:
-1. Is the city/region name correct for this RTO code?
-2. Is the district assignment correct?
-3. Are the jurisdiction areas reasonable and correctly spelled?
-4. Is the description accurate?
-5. Are there any obvious errors or inconsistencies?
+        if (useSearch) {
+            modelConfig.tools = [{ googleSearch: {} }];
+        }
+
+        const model = genAI.getGenerativeModel(modelConfig);
+
+        const searchInstruction = useSearch
+            ? `\n\n## IMPORTANT: Use Google Search\nYou have access to Google Search. Before validating, SEARCH for "${rto.code} RTO" to find the correct city/location for this RTO code.\nUse the search results to verify if the city/region in the JSON data is correct.\n`
+            : '';
+
+        const prompt = `You are an expert on Indian Regional Transport Offices (RTOs) and vehicle registration systems.
+${searchInstruction}
+## CRITICAL VALIDATION STEP - DO THIS FIRST:
+**You MUST independently determine which city/region RTO Code ${rto.code} actually belongs to${useSearch ? ', using Google Search results' : ' based on your knowledge'}.**
+
+Step 1: ${useSearch ? 'Search for "' + rto.code + ' RTO" and find ' : 'Determine '} what city RTO code ${rto.code} serves.
+Step 2: Compare your answer to the city/region in the JSON data: "${rto.region}" / "${rto.city}"
+Step 3: If they DO NOT match, this is a MAJOR ERROR. Set isValid: false immediately.
+
+**DO NOT trust the JSON data blindly.** The JSON may contain completely wrong city/region/district information.
+
+## Additional Validation Checks:
+1. Is the district assignment correct for the given city/region in that state?
+2. Are the jurisdiction areas reasonable and correctly spelled?
+3. Is the description accurate?
+4. Are there any obvious errors or inconsistencies?
 
 RTO Data to validate:
 ${JSON.stringify(rto, null, 2)}
@@ -171,12 +191,12 @@ Respond in JSON format with this exact structure:
 {
   "isValid": true/false,
   "confidence": 0-100,
-  "issues": ["list of specific issues found"],
+  "issues": ["list of specific issues found - MUST include city mismatch if RTO code belongs to different city"],
   "suggestions": ["list of specific corrections or improvements"],
-  "summary": "Brief overall assessment"
+  "summary": "Brief overall assessment - MUST mention if city/region is wrong for this RTO code"
 }
 
-Be specific and factual. Only flag actual errors based on your knowledge of Indian geography and RTO systems.`;
+**REMEMBER**: The most important check is whether ${rto.code} actually belongs to "${rto.region}". If not, isValid MUST be false.`;
 
         const result = await model.generateContent(prompt);
         const response = result.response.text();
@@ -281,6 +301,7 @@ Examples:
   bun run scripts/validate-rto-data.ts karnataka          # Validate all Karnataka RTOs
   bun run scripts/validate-rto-data.ts goa ga-07          # Validate specific RTO
   bun run scripts/validate-rto-data.ts --all              # Validate all states
+  bun run scripts/validate-rto-data.ts kerala kl-49 --search  # Use Google Search for verification
   
 Options:
   --all           Validate all available states
@@ -288,6 +309,7 @@ Options:
   --save          Save detailed results to JSON file
   --save-report   Save simple report format for CI (validation-report.json)
   --skip-notinuse Skip 'not-in-use' RTO codes
+  --search        Use Google Search grounding for better accuracy (recommended)
 `);
         process.exit(0);
     }
@@ -296,6 +318,7 @@ Options:
     const saveToFile = args.includes('--save');
     const saveReport = args.includes('--save-report');
     const skipNotInUse = args.includes('--skip-notinuse');
+    const useSearch = args.includes('--search');
     const limitArg = args.find(arg => arg.startsWith('--limit='));
     const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 0;
 
@@ -326,6 +349,9 @@ Options:
     }
     if (limit > 0) {
         console.log(`Limit: ${limit} RTOs per state`);
+    }
+    if (useSearch) {
+        console.log(`Search: 🔍 Google Search grounding enabled`);
     }
     console.log('='.repeat(60));
 
@@ -372,7 +398,7 @@ Options:
         for (const rto of rtosToValidate) {
             console.log(`\n  🔄 Validating ${rto.code}...`);
 
-            const result = await validateWithGemini(rto, stateConfig);
+            const result = await validateWithGemini(rto, stateConfig, useSearch);
             results.push(result);
 
             printResult(result);
