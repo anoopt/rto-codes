@@ -197,10 +197,13 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                   {/* Close Button */}
                   <Link
                     href={`/#${rto.code.toLowerCase()}`}
-                    className="w-10 h-10 flex items-center justify-center hover:bg-[var(--card-bg)] transition-all"
+                    className="w-10 h-10 flex items-center justify-center hover:bg-slate-200 dark:hover:bg-[var(--card-bg)] transition-all group relative cursor-pointer"
                     aria-label="Close and return to homepage"
                   >
                     <CloseIcon />
+                    <span className="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2.5 py-1.5 bg-[var(--tooltip-bg)] text-[var(--tooltip-text)] text-xs font-medium rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap shadow-md z-50 after:content-[''] after:absolute after:bottom-full after:left-1/2 after:-ml-[5px] after:border-[5px] after:border-solid after:border-b-[var(--tooltip-bg)] after:border-x-transparent after:border-t-transparent">
+                      Close
+                    </span>
                   </Link>
                 </div>
               </div>

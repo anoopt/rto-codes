@@ -120,3 +120,33 @@ body {
 .animate-search-expand {
   animation: search-expand 0.2s ease-out forwards;
 }
+
+/* Tile highlight animation */
+@keyframes highlight-pulse {
+  0% {
+    box-shadow: 0 0 0 0px var(--accent);
+    border-color: var(--accent);
+    transform: scale(1);
+    z-index: 20;
+  }
+  20% {
+    transform: scale(1.05);
+    z-index: 20;
+  }
+  50% {
+    box-shadow: 0 0 0 6px transparent;
+    border-color: var(--accent);
+    transform: scale(1.05);
+    z-index: 20;
+  }
+  100% {
+    box-shadow: 0 0 0 0px transparent;
+    border-color: var(--card-border);
+    transform: scale(1);
+    z-index: auto;
+  }
+}
+
+.animate-highlight-tile {
+  animation: highlight-pulse 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}

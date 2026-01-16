@@ -34,6 +34,15 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
                     if (tileLink) {
                         // Scroll the tile into view instantly (no animation to avoid long scrolling delays)
                         tileLink.scrollIntoView({ behavior: 'instant', block: 'center' });
+
+                        // Add highlight animation class
+                        tileLink.classList.add('animate-highlight-tile');
+
+                        // Remove the class after animation completes
+                        setTimeout(() => {
+                            tileLink.classList.remove('animate-highlight-tile');
+                        }, 2000);
+
                         // Clear the hash from URL without reloading the page
                         window.history.replaceState(null, '', window.location.pathname);
                         return true;

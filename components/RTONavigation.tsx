@@ -94,16 +94,20 @@ export default function RTONavigation({ currentCode, allCodes, className = '' }:
         disabled={!prevCode || isNavigating}
         className={`
           w-10 h-10 flex items-center justify-center 
-          transition-all duration-200 ease-out
+          transition-all duration-200 ease-out group relative
           ${prevCode && !isNavigating
-            ? 'hover:bg-[var(--card-bg)] hover:scale-110 active:scale-95 opacity-100'
+            ? 'hover:bg-slate-200 dark:hover:bg-[var(--card-bg)] opacity-100 cursor-pointer'
             : 'opacity-30 cursor-not-allowed'
           }
         `}
         aria-label="Previous RTO"
-        title={prevCode ? `Previous: ${prevCode.toUpperCase()}` : 'No previous RTO'}
       >
         <ChevronLeftIcon className={`transition-transform ${!isNavigating && prevCode ? 'group-hover:-translate-x-0.5' : ''}`} />
+        {prevCode && (
+          <span className="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2.5 py-1.5 bg-[var(--tooltip-bg)] text-[var(--tooltip-text)] text-xs font-medium rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap shadow-md z-50 after:content-[''] after:absolute after:bottom-full after:left-1/2 after:-ml-[5px] after:border-[5px] after:border-solid after:border-b-[var(--tooltip-bg)] after:border-x-transparent after:border-t-transparent">
+            Previous
+          </span>
+        )}
       </button>
 
       {/* Navigation Hint (desktop only) */}
@@ -119,16 +123,20 @@ export default function RTONavigation({ currentCode, allCodes, className = '' }:
         disabled={!nextCode || isNavigating}
         className={`
           w-10 h-10 flex items-center justify-center 
-          transition-all duration-200 ease-out
+          transition-all duration-200 ease-out group relative
           ${nextCode && !isNavigating
-            ? 'hover:bg-[var(--card-bg)] hover:scale-110 active:scale-95 opacity-100'
+            ? 'hover:bg-slate-200 dark:hover:bg-[var(--card-bg)] opacity-100 cursor-pointer'
             : 'opacity-30 cursor-not-allowed'
           }
         `}
         aria-label="Next RTO"
-        title={nextCode ? `Next: ${nextCode.toUpperCase()}` : 'No next RTO'}
       >
         <ChevronRightIcon className={`transition-transform ${!isNavigating && nextCode ? 'group-hover:translate-x-0.5' : ''}`} />
+        {nextCode && (
+          <span className="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2.5 py-1.5 bg-[var(--tooltip-bg)] text-[var(--tooltip-text)] text-xs font-medium rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap shadow-md z-50 after:content-[''] after:absolute after:bottom-full after:left-1/2 after:-ml-[5px] after:border-[5px] after:border-solid after:border-b-[var(--tooltip-bg)] after:border-x-transparent after:border-t-transparent">
+            Next
+          </span>
+        )}
       </button>
     </div>
   );

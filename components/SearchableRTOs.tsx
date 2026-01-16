@@ -92,11 +92,11 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                 {/* Background Image from Cloudinary - only rendered if available */}
                 <RTOImage rtoCode={rto.code} city={rto.city} variant="tile" hasImage={hasImage} isInactive={isNotInUse} />
 
-                {/* Dark overlay for text readability (only shows when image exists) */}
+                {/* Overlay for text readability (only shows when image exists) */}
                 {hasImage && (
                   <div className={`absolute inset-0 transition-colors duration-200 pointer-events-none ${isNotInUse
-                      ? 'bg-neutral-900/50 group-hover:bg-neutral-900/60 dark:bg-neutral-800/50 dark:group-hover:bg-neutral-800/60'
-                      : 'bg-black/40 group-hover:bg-black/50'
+                      ? 'bg-white/80 group-hover:bg-white/90 dark:bg-neutral-950/50 dark:group-hover:bg-neutral-950/60'
+                      : 'bg-white/60 group-hover:bg-white/70 dark:bg-black/40 dark:group-hover:bg-black/50'
                     }`} />
                 )}
 
@@ -104,8 +104,8 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                 <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-2">
                   <span className={`text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight uppercase drop-shadow-lg transition-colors duration-200 ${hasImage
                     ? isNotInUse
-                      ? 'text-white/70 line-through decoration-2 decoration-white/40'
-                      : 'text-white'
+                      ? 'text-slate-500/70 dark:text-white/70 line-through decoration-2 decoration-slate-500/40 dark:decoration-white/40'
+                      : 'text-slate-900 dark:text-white'
                     : isNotInUse
                       ? 'text-[var(--muted-foreground)] opacity-60 group-hover:opacity-100 group-hover:text-amber-600 dark:group-hover:text-amber-400 line-through decoration-2 decoration-amber-500/50'
                       : 'text-[var(--foreground)] group-hover:text-[var(--background)]'
@@ -114,8 +114,8 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                   </span>
                   <span className={`text-xs sm:text-sm font-medium uppercase tracking-wider drop-shadow-md mt-1 truncate max-w-full text-center ${hasImage
                     ? isNotInUse
-                      ? 'text-white/60'
-                      : 'text-white'
+                      ? 'text-slate-500/60 dark:text-white/60'
+                      : 'text-slate-800 dark:text-white'
                     : isNotInUse
                       ? 'text-[var(--muted-foreground)] opacity-60 group-hover:opacity-100 group-hover:text-amber-600/80 dark:group-hover:text-amber-400/80'
                       : 'text-[var(--muted-foreground)] group-hover:text-[var(--background)]/80'
@@ -125,8 +125,8 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                   {needsRegion && (
                     <span className={`text-[10px] sm:text-xs font-normal uppercase tracking-wide drop-shadow-md truncate max-w-full text-center ${hasImage
                       ? isNotInUse
-                        ? 'text-white/50'
-                        : 'text-white/70'
+                        ? 'text-slate-500/50 dark:text-white/50'
+                        : 'text-slate-700/80 dark:text-white/70'
                       : isNotInUse
                         ? 'text-[var(--muted-foreground)]/50 group-hover:text-amber-600/60 dark:group-hover:text-amber-400/60'
                         : 'text-[var(--muted-foreground)]/70 group-hover:text-[var(--background)]/60'
