@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-01-16T17:02:33.738Z",
-  "totalRTOs": 91,
-  "totalVerified": 91,
+  "generatedAt": "2026-01-16T17:22:24.804Z",
+  "totalRTOs": 95,
+  "totalVerified": 95,
   "totalStates": 28,
   "completedStates": 2,
   "totalUTs": 8,
-  "completedUTs": 2,
+  "completedUTs": 3,
   "states": [
     {
       "stateCode": "NL",
@@ -436,12 +436,17 @@
     {
       "stateCode": "CH",
       "stateName": "Chandigarh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
+      "rtoCount": 4,
+      "verifiedCount": 4,
+      "rtoCodes": [
+        "ch-01",
+        "ch-02",
+        "ch-03",
+        "ch-04"
+      ],
+      "isComplete": true,
       "type": "union-territory",
-      "status": "Not Started"
+      "status": "Complete"
     },
     {
       "stateCode": "TS",
@@ -894,12 +899,17 @@
     "CH": {
       "stateCode": "CH",
       "stateName": "Chandigarh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
+      "rtoCount": 4,
+      "verifiedCount": 4,
+      "rtoCodes": [
+        "ch-01",
+        "ch-02",
+        "ch-03",
+        "ch-04"
+      ],
+      "isComplete": true,
       "type": "union-territory",
-      "status": "Not Started"
+      "status": "Complete"
     },
     "TS": {
       "stateCode": "TS",

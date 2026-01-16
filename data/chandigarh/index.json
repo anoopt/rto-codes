@@ -1,1 +1,103 @@
-[]
+[
+  {
+    "code": "CH-01",
+    "region": "Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-01 is the primary vehicle registration code for the Union Territory of Chandigarh, managed by the Registering and Licensing Authority (RLA). It serves as the main hub for issuing driving licenses, vehicle registrations, and fitness certificates for the entire capital city area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Registering & Licensing Authority (RLA) Office, Sector 17-C, near the Bridge/Treasury Office, Chandigarh",
+    "pinCode": "160017",
+    "phone": "+91-172-2700341",
+    "email": "rla-chd@nic.in",
+    "jurisdictionAreas": [
+      "Chandigarh City",
+      "Sector 17",
+      "Sector 42",
+      "Industrial Area Phase I",
+      "Mani Majra",
+      "Hallomajra",
+      "Dhanas",
+      "Burail",
+      "Maloya",
+      "Khuda Jassu"
+    ]
+  },
+  {
+    "code": "CH-02",
+    "region": "Chandigarh (Industrial Area)",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-02 represents the State Transport Authority (STA) of Chandigarh, located in the Industrial Area. This office specifically manages the registration of commercial vehicles, issuance of various transport permits, and oversees the regulatory aspects of public and freight transport in the Union Territory.",
+    "status": "active",
+    "established": "N/A",
+    "address": "State Transport Authority, Plot No. 80, Industrial Area Phase 1, Chandigarh",
+    "pinCode": "160002",
+    "phone": "0172-2700159",
+    "email": "sta-chd@nic.in",
+    "jurisdictionAreas": [
+      "Industrial Area Phase 1",
+      "Industrial Area Phase 2",
+      "Chandigarh Union Territory",
+      "Commercial Transport Zones",
+      "Southern Sectors"
+    ]
+  },
+  {
+    "code": "CH-03",
+    "region": "Sector 17, Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-03 is a vehicle registration series managed by the Registering and Licensing Authority (RLA) in Chandigarh. It was introduced as a sequential series after the initial CH-01 series reached its limit and covers all vehicle registrations within the Union Territory.",
+    "status": "active",
+    "established": "1999",
+    "address": "Registering and Licensing Authority Office, Sector 17, Near Hotel Shivalik View, Chandigarh",
+    "pinCode": "160017",
+    "phone": "0172-2700341",
+    "email": "rla-chd@nic.in",
+    "jurisdictionAreas": [
+      "Chandigarh Union Territory",
+      "Sector 1 to 60",
+      "Manimajra",
+      "Burail",
+      "Kajheri",
+      "Dadumajra",
+      "Hallomajra",
+      "Behlana"
+    ]
+  },
+  {
+    "code": "CH-04",
+    "region": "Chandigarh",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stateCode": "CH",
+    "district": "Chandigarh",
+    "division": "Chandigarh",
+    "description": "CH-04 is a legacy registration series for the Union Territory of Chandigarh managed by the Registering and Licensing Authority (RLA). It was primarily used for private vehicle registrations between 2007 and 2011 to accommodate the high volume of vehicle growth in the city.",
+    "status": "active",
+    "established": "2007",
+    "address": "Registering and Licensing Authority, Sector 17, Near Hotel Shivalik View, Chandigarh",
+    "pinCode": "160017",
+    "phone": "0172-2700341",
+    "email": "rla-chd@nic.in",
+    "jurisdictionAreas": [
+      "Chandigarh Union Territory",
+      "Manimajra",
+      "Industrial Area Phase 1",
+      "Burail",
+      "Kajheri",
+      "Behlana"
+    ]
+  }
+]
