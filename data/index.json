@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-01-16T03:18:30.859Z",
-  "totalRTOs": 85,
-  "totalVerified": 85,
+  "generatedAt": "2026-01-16T07:35:29.804Z",
+  "totalRTOs": 86,
+  "totalVerified": 86,
   "totalStates": 28,
   "completedStates": 2,
   "totalUTs": 8,
-  "completedUTs": 0,
+  "completedUTs": 1,
   "states": [
     {
       "stateCode": "PY",
@@ -19,9 +19,11 @@
     {
       "stateCode": "AN",
       "stateName": "Andaman and Nicobar Islands",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "rtoCount": 1,
+      "verifiedCount": 1,
+      "rtoCodes": [
+        "an-01"
+      ],
       "isComplete": false,
       "type": "union-territory"
     },
@@ -97,7 +99,7 @@
         "la-01",
         "la-02"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory"
     },
     {

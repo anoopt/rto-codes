@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "code": "AN-01",
+    "region": "Sri Vijaya Puram",
+    "city": "Sri Vijaya Puram",
+    "state": "Andaman and Nicobar Islands",
+    "stateCode": "AN",
+    "district": "South Andaman",
+    "division": "Andaman and Nicobar Islands Transport Department",
+    "description": "AN-01 is the primary Regional Transport Office for the Andaman and Nicobar Islands, headquartered in the capital city of Sri Vijaya Puram (formerly Port Blair). It is the central authority for vehicle registration, driving license issuance, and enforcement of the Motor Vehicles Act across the South and Middle Andaman regions.",
+    "status": "active",
+    "established": "1988",
+    "address": "Directorate of Transport, A&N Administration, Tagore Road, Sri Vijaya Puram, Andaman & Nicobar Islands",
+    "pinCode": "744101",
+    "phone": "+91-3192-230225",
+    "email": "rtoani@and.nic.in",
+    "jurisdictionAreas": [
+      "Port Blair",
+      "Ferrargunj",
+      "Rangat",
+      "South Andaman",
+      "North and Middle Andaman"
+    ]
+  }
+]
