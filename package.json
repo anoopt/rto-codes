@@ -8,7 +8,7 @@
     "prebuild": "bun scripts/generate-index.ts && bun scripts/generate-sitemap.ts",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "generate:icons": "bun scripts/generate-icons.ts",
     "generate:sitemap": "bun scripts/generate-sitemap.ts",
     "generate:index": "bun scripts/generate-index.ts",

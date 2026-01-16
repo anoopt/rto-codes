@@ -30,7 +30,7 @@ interface RTOData {
 }
 
 // Extract region name from the RTO name
-function extractRegion(name: string, code: string): string {
+function extractRegion(name: string): string {
     // Remove RTO/ARTO suffix and get the location name
     const regionName = name
         .replace(/\s*(RTO|ARTO)$/i, '')
@@ -77,7 +77,7 @@ async function fixRTOFiles() {
         // Fix missing fields
         const name = data.name || '';
         const district = data.district || '';
-        const region = data.region || extractRegion(name, data.code);
+        const region = data.region || extractRegion(name);
         const city = data.city || extractCity(region, district);
 
         const fixedData: RTOData = {
@@ -101,7 +101,7 @@ async function fixRTOFiles() {
 
         // Remove undefined fields
         const cleanData = Object.fromEntries(
-            Object.entries(fixedData).filter(([_, v]) => v !== undefined)
+            Object.entries(fixedData).filter(([, v]) => v !== undefined)
         );
 
         fs.writeFileSync(filePath, JSON.stringify(cleanData, null, 2) + '\n');

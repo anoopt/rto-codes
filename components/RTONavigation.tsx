@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@/components/icons';
 
 interface RTONavigationProps {
@@ -41,7 +41,7 @@ export default function RTONavigation({ currentCode, allCodes, className = '' }:
     }
   }, [router, prevCode, nextCode]);
 
-  const navigateTo = (code: string | null) => {
+  const navigateTo = useCallback((code: string | null) => {
     if (!code || isNavigating) return;
 
     setIsNavigating(true);
@@ -49,7 +49,7 @@ export default function RTONavigation({ currentCode, allCodes, className = '' }:
 
     // Reset navigation state after a short delay
     setTimeout(() => setIsNavigating(false), 300);
-  };
+  }, [isNavigating, router]);
 
   const handlePrevious = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -84,7 +84,7 @@ export default function RTONavigation({ currentCode, allCodes, className = '' }:
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [prevCode, nextCode, isNavigating]);
+  }, [prevCode, nextCode, isNavigating, navigateTo]);
 
   return (
     <div className={`flex items-center gap-2 ${className}`}>

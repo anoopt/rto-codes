@@ -25,6 +25,7 @@ import * as path from 'path';
 // Removes $schema and additionalProperties fields that Gemini API doesn't accept
 function toGeminiSchema(schema: z.ZodType): object {
     const jsonSchema = toJSONSchema(schema) as Record<string, unknown>;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { $schema, additionalProperties, ...rest } = jsonSchema;
     return rest;
 }
@@ -50,6 +51,7 @@ const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 // Zod Schemas
 // ============================================================================
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const RTODataSchema = z.object({
     code: z.string().describe('RTO code like KA-01, KL-49'),
     region: z.string().describe('Region/area name this RTO serves'),

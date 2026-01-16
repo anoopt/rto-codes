@@ -16,12 +16,19 @@ export default function SwipeHint() {
         // Check if hint was already dismissed (must be exactly 'true')
         const dismissed = localStorage.getItem(STORAGE_KEY) === 'true';
         if (!dismissed) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setIsDismissed(false);
             // Small delay before showing for smoother UX
             const timer = setTimeout(() => setIsVisible(true), 800);
             return () => clearTimeout(timer);
         }
     }, []);
+
+    const dismiss = () => {
+        setIsVisible(false);
+        localStorage.setItem(STORAGE_KEY, 'true');
+        setTimeout(() => setIsDismissed(true), 300); // Wait for fade out
+    };
 
     // Auto-dismiss after 5 seconds
     useEffect(() => {
@@ -32,12 +39,6 @@ export default function SwipeHint() {
             return () => clearTimeout(timer);
         }
     }, [isVisible]);
-
-    const dismiss = () => {
-        setIsVisible(false);
-        localStorage.setItem(STORAGE_KEY, 'true');
-        setTimeout(() => setIsDismissed(true), 300); // Wait for fade out
-    };
 
     if (isDismissed) return null;
 

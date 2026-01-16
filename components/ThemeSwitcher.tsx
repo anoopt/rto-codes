@@ -1,16 +1,9 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
 
 export function ThemeSwitcher() {
-    const [mounted, setMounted] = useState(false);
     const { setTheme, resolvedTheme } = useTheme();
-
-    // Avoid hydration mismatch by only rendering after mount
-    useEffect(() => {
-        setMounted(true);
-    }, []);
 
     const toggleTheme = () => {
         setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');

@@ -437,7 +437,7 @@ async function createPage(browser: Browser): Promise<Page> {
     Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
 
     // Add chrome object
-    // @ts-ignore
+    // @ts-expect-error - chrome property doesn't exist on window type
     window.chrome = {
       runtime: {},
       loadTimes: function () { },
@@ -447,10 +447,10 @@ async function createPage(browser: Browser): Promise<Page> {
 
     // Override permissions
     const originalQuery = window.navigator.permissions.query;
-    // @ts-ignore
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     window.navigator.permissions.query = (parameters: any) => (
       parameters.name === 'notifications' ?
-        Promise.resolve({ state: Notification.permission }) :
+        Promise.resolve({ state: Notification.permission } as PermissionStatus) :
         originalQuery(parameters)
     );
 
@@ -675,7 +675,7 @@ async function main(): Promise<void> {
     await page.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
     await page.waitForTimeout(2000);
     console.log('✅ Homepage loaded successfully\n');
-  } catch (e) {
+  } catch {
     console.log('⚠️  Homepage warm-up failed, continuing anyway...\n');
   }
 

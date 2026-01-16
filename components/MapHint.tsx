@@ -21,12 +21,19 @@ export default function MapHint({ onMapInteraction }: MapHintProps) {
         // Check if hint was already dismissed (must be exactly 'true')
         const dismissed = localStorage.getItem(STORAGE_KEY) === 'true';
         if (!dismissed) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setIsDismissed(false);
             // Small delay before showing for smoother UX
             const timer = setTimeout(() => setIsVisible(true), 500);
             return () => clearTimeout(timer);
         }
     }, []);
+
+    const dismiss = () => {
+        setIsVisible(false);
+        localStorage.setItem(STORAGE_KEY, 'true');
+        setTimeout(() => setIsDismissed(true), 300); // Wait for fade out
+    };
 
     // Auto-dismiss after 10 seconds
     useEffect(() => {
@@ -37,12 +44,6 @@ export default function MapHint({ onMapInteraction }: MapHintProps) {
             return () => clearTimeout(timer);
         }
     }, [isVisible]);
-
-    const dismiss = () => {
-        setIsVisible(false);
-        localStorage.setItem(STORAGE_KEY, 'true');
-        setTimeout(() => setIsDismissed(true), 300); // Wait for fade out
-    };
 
     // Expose dismiss function for parent to call on map interaction
     useEffect(() => {
@@ -97,6 +98,7 @@ export function useMapHint() {
 
     useEffect(() => {
         const dismissed = localStorage.getItem(STORAGE_KEY) === 'true';
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setShouldShow(!dismissed);
     }, []);
 

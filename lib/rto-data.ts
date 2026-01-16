@@ -137,7 +137,7 @@ export function getRTOByCode(code: string, state?: string): RTOCode | null {
     // Last resort: search all states
     const allRTOs = getAllRTOs();
     return allRTOs.find(r => r.code.toLowerCase() === code.toLowerCase()) || null;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -166,16 +166,16 @@ export function getVerifiedRTOs(state?: string): RTOCode[] {
  */
 export function getVerifiedRTOCodes(state?: string): string[] {
   const isInactive = (rto: RTOCode) => rto.status === 'not-in-use' || rto.status === 'discontinued';
-  
+
   return getVerifiedRTOs(state)
     .sort((a, b) => {
       // Sort: active RTOs first, then inactive ones
       const aInactive = isInactive(a);
       const bInactive = isInactive(b);
-      
+
       if (aInactive && !bInactive) return 1;
       if (!aInactive && bInactive) return -1;
-      
+
       // If both are same status, maintain alphabetical order by code
       return a.code.localeCompare(b.code);
     })

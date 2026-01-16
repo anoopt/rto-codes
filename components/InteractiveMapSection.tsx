@@ -51,12 +51,19 @@ export default function InteractiveMapSection({
         // Check if hint was already dismissed (must be exactly 'true')
         const dismissed = localStorage.getItem(STORAGE_KEY) === 'true';
         if (!dismissed) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setShowHint(true);
             // Small delay before showing for smoother UX
             const timer = setTimeout(() => setHintVisible(true), 500);
             return () => clearTimeout(timer);
         }
     }, [hasValidSvg]);
+
+    const dismissHint = () => {
+        setHintVisible(false);
+        localStorage.setItem(STORAGE_KEY, 'true');
+        setTimeout(() => setShowHint(false), 300);
+    };
 
     // Auto-dismiss after 8 seconds
     useEffect(() => {
@@ -65,12 +72,6 @@ export default function InteractiveMapSection({
             return () => clearTimeout(timer);
         }
     }, [hintVisible]);
-
-    const dismissHint = () => {
-        setHintVisible(false);
-        localStorage.setItem(STORAGE_KEY, 'true');
-        setTimeout(() => setShowHint(false), 300);
-    };
 
     // Don't render anything if there's no valid SVG content
     if (!hasValidSvg) {

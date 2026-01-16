@@ -46,6 +46,7 @@ import * as path from 'path';
 // Removes $schema and additionalProperties fields that Gemini API doesn't accept
 function toGeminiSchema(schema: z.ZodType): object {
     const jsonSchema = toJSONSchema(schema) as Record<string, unknown>;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { $schema, additionalProperties, ...rest } = jsonSchema;
     return rest;
 }
@@ -652,6 +653,7 @@ function formatCode(stateCode: string, num: number): string {
     return `${stateCode.toUpperCase()}-${num.toString().padStart(2, '0')}`;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function rtoFileExists(stateFolder: string, code: string): boolean {
     const filePath = path.join(process.cwd(), 'data', stateFolder, `${code.toLowerCase()}.json`);
     return fs.existsSync(filePath);
@@ -684,6 +686,7 @@ function saveRTOFile(stateFolder: string, data: RTOData): void {
 // Wikipedia Fetching
 // ============================================================================
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function fetchWikipediaRTOSection(stateCode: string): Promise<string> {
     const mainPage = 'List of Regional Transport Office districts in India';
 
@@ -709,6 +712,7 @@ async function fetchWikipediaRTOSection(stateCode: string): Promise<string> {
     return data.parse?.text?.['*'] || '';
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function parseRTOTableFromWikipedia(html: string, stateCode: string, stateName: string): WikipediaRTO[] {
     const rtos: WikipediaRTO[] = [];
     const codeUpper = stateCode.toUpperCase();
@@ -724,7 +728,7 @@ function parseRTOTableFromWikipedia(html: string, stateCode: string, stateName: 
         const code = formatCode(stateCode, num);
         if (rtos.find(r => r.code === code)) continue;
 
-        let cleanedLine = line
+        const cleanedLine = line
             .replace(/<[^>]+>/g, ' ')
             .replace(/&nbsp;/g, ' ')
             .replace(/&#160;/g, ' ')

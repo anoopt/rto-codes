@@ -7,12 +7,6 @@ import { useState, useEffect } from 'react';
  */
 const isCloudinaryConfigured = !!process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
 
-// Debug log at module level
-if (typeof window !== 'undefined') {
-    console.log('[DevWarningBanner] isCloudinaryConfigured:', isCloudinaryConfigured);
-    console.log('[DevWarningBanner] NODE_ENV:', process.env.NODE_ENV);
-}
-
 /**
  * Development-only banner that warns when Cloudinary is not configured
  * Only shows in development mode and can be dismissed
@@ -22,11 +16,10 @@ export default function DevWarningBanner() {
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
-        console.log('[DevWarningBanner] Component mounted');
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setIsMounted(true);
         // Check sessionStorage to see if user already dismissed
         const wasDismissed = sessionStorage.getItem('devWarningDismissed') === 'true';
-        console.log('[DevWarningBanner] wasDismissed:', wasDismissed);
         if (wasDismissed) {
             setIsDismissed(true);
         }
@@ -39,13 +32,10 @@ export default function DevWarningBanner() {
 
     // Don't render on server or in production or if Cloudinary is configured
     const shouldHide = !isMounted || process.env.NODE_ENV !== 'development' || isCloudinaryConfigured || isDismissed;
-    console.log('[DevWarningBanner] shouldHide:', shouldHide, { isMounted, isDismissed });
 
     if (shouldHide) {
         return null;
     }
-
-    console.log('[DevWarningBanner] Rendering banner!');
 
     return (
         <>

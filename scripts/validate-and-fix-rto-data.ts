@@ -42,6 +42,7 @@ import * as path from 'path';
 // Removes $schema and additionalProperties fields that Gemini API doesn't accept
 function toGeminiSchema(schema: z.ZodType): object {
     const jsonSchema = toJSONSchema(schema) as Record<string, unknown>;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { $schema, additionalProperties, ...rest } = jsonSchema;
     return rest;
 }
@@ -58,6 +59,7 @@ const API_DELAY_MS = 1500;
 // Zod Schemas
 // ============================================================================
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const RTODataSchema = z.object({
     code: z.string().describe('RTO code like KA-01, KL-49'),
     region: z.string().describe('Region/area name this RTO serves'),
@@ -360,8 +362,7 @@ Summarize the factual information about ${rto.code} RTO.`;
 
 function applyFixes(
     originalData: RTOData,
-    corrections: Record<string, unknown>,
-    verbose: boolean
+    corrections: Record<string, unknown>
 ): FixResult | null {
     const fieldsToFix = Object.keys(corrections).filter(
         key => corrections[key] !== undefined && corrections[key] !== null && corrections[key] !== ''
@@ -679,7 +680,7 @@ async function main(): Promise<void> {
             printValidationResult(result, options.verbose);
 
             if (options.fix && result.correctedData && Object.keys(result.correctedData).length > 0) {
-                const fixResult = applyFixes(rto, result.correctedData, options.verbose);
+                const fixResult = applyFixes(rto, result.correctedData);
 
                 if (fixResult) {
                     fixes.push(fixResult);

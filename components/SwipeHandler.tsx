@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 
 const SWIPE_HINT_STORAGE_KEY = 'rto-swipe-hint-dismissed';
 
