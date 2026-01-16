@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-16T14:27:50.851Z",
+  "generatedAt": "2026-01-16T14:52:55.794Z",
   "totalRTOs": 86,
   "totalVerified": 86,
   "totalStates": 28,
@@ -14,7 +14,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "MH",
@@ -23,7 +24,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "JK",
@@ -32,7 +34,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "HR",
@@ -41,7 +44,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "PY",
@@ -50,7 +54,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "MN",
@@ -59,7 +64,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "SK",
@@ -68,7 +74,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "TN",
@@ -77,7 +84,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "KA",
@@ -158,7 +166,8 @@
         "ka-71"
       ],
       "isComplete": true,
-      "type": "state"
+      "type": "state",
+      "status": "Complete"
     },
     {
       "stateCode": "BR",
@@ -167,7 +176,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "GA",
@@ -189,7 +199,8 @@
         "ga-12"
       ],
       "isComplete": true,
-      "type": "state"
+      "type": "state",
+      "status": "Complete"
     },
     {
       "stateCode": "HP",
@@ -198,7 +209,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "DD",
@@ -207,7 +219,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "TR",
@@ -216,7 +229,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "KL",
@@ -225,7 +239,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "JH",
@@ -234,7 +249,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "LA",
@@ -246,7 +262,8 @@
         "la-02"
       ],
       "isComplete": true,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Complete"
     },
     {
       "stateCode": "LD",
@@ -255,7 +272,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "WB",
@@ -264,7 +282,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "CG",
@@ -273,7 +292,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "MP",
@@ -282,7 +302,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "AN",
@@ -293,7 +314,8 @@
         "an-01"
       ],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "In Progress"
     },
     {
       "stateCode": "DL",
@@ -302,7 +324,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "PB",
@@ -311,7 +334,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "UK",
@@ -320,7 +344,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "OD",
@@ -329,7 +354,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "MZ",
@@ -338,7 +364,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "GJ",
@@ -347,7 +374,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "ML",
@@ -356,7 +384,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "RJ",
@@ -365,7 +394,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "AR",
@@ -374,7 +404,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "AP",
@@ -383,7 +414,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "UP",
@@ -392,7 +424,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "CH",
@@ -401,7 +434,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "union-territory"
+      "type": "union-territory",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "TS",
@@ -410,7 +444,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     },
     {
       "stateCode": "AS",
@@ -419,7 +454,8 @@
       "verifiedCount": 0,
       "rtoCodes": [],
       "isComplete": false,
-      "type": "state"
+      "type": "state",
+      "status": "Scaffolded"
     }
   ]
 }

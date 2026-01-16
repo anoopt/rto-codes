@@ -21,6 +21,7 @@ interface StateIndex {
     rtoCodes: string[]; // Just the codes for quick lookup
     isComplete: boolean;
     type: "state" | "union-territory";
+    status: string;
 }
 
 interface MasterIndex {
@@ -89,6 +90,13 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
     // Try to get state info from config.json first, then fall back to first RTO
     const config = loadStateConfig(stateDir);
 
+    let status = "Scaffolded";
+    if (config?.isComplete) {
+        status = "Complete";
+    } else if (rtos.length > 0) {
+        status = "In Progress";
+    }
+
     const stateIndex: StateIndex = {
         stateCode: config?.stateCode || rtos[0]?.stateCode || stateDir.toUpperCase(),
         stateName: config?.name || rtos[0]?.state || stateDir,
@@ -97,6 +105,7 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
         rtoCodes: rtos.map(rto => rto.code.toLowerCase()),
         isComplete: config?.isComplete ?? false,
         type: config?.type ?? "state",
+        status: status,
     };
 
     return { stateIndex, rtos };
