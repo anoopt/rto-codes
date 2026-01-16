@@ -36,6 +36,7 @@ jobs:
       contents: write
       pull-requests: write
       issues: write
+      actions: write
 
     steps:
       - name: Checkout code
@@ -281,6 +282,15 @@ jobs:
           git push origin main
 
           echo "✅ Committed $GENERATED RTOs to main"
+
+      - name: Trigger Post-Merge Processing
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true' && steps.generate.outputs.success == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+          echo "🚀 Triggering post-merge processing for $STATE"
+          gh workflow run post-merge.yml -f state="$STATE" || echo "⚠️ Failed to trigger post-merge workflow"
 
       - name: Update state rotation cache
         if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true'
