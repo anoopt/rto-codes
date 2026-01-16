@@ -95,8 +95,8 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                 {/* Overlay for text readability (only shows when image exists) */}
                 {hasImage && (
                   <div className={`absolute inset-0 transition-colors duration-200 pointer-events-none ${isNotInUse
-                      ? 'bg-white/80 group-hover:bg-white/90 dark:bg-neutral-950/50 dark:group-hover:bg-neutral-950/60'
-                      : 'bg-white/60 group-hover:bg-white/70 dark:bg-black/40 dark:group-hover:bg-black/50'
+                    ? 'bg-white/80 group-hover:bg-white/90 dark:bg-neutral-950/50 dark:group-hover:bg-neutral-950/60'
+                    : 'bg-white/60 group-hover:bg-white/70 dark:bg-black/40 dark:group-hover:bg-black/50'
                     }`} />
                 )}
 
