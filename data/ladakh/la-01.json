@@ -1,0 +1,25 @@
+{
+    "code": "LA-01",
+    "region": "Kargil District",
+    "city": "Kargil",
+    "state": "Ladakh",
+    "stateCode": "LA",
+    "district": "Kargil",
+    "division": "Ladakh Transport Department",
+    "description": "LA-01 is the Assistant Regional Transport Office (ARTO) serving the Kargil district of the Union Territory of Ladakh. Established in late 2019 following the reorganization of the region, it handles all vehicle registration and licensing for the district including high-altitude areas like Zanskar.",
+    "status": "active",
+    "established": "2019",
+    "address": "Assistant Regional Transport Office (ARTO), Bemathang, Baroo, Kargil, Ladakh",
+    "pinCode": "194103",
+    "phone": "9906985758",
+    "email": "rtoladakh@gmail.com",
+    "jurisdictionAreas": [
+        "Kargil",
+        "Drass",
+        "Sankoo",
+        "Shargole",
+        "Shakar-Chiktan",
+        "Taisuru",
+        "Zanskar"
+    ]
+}

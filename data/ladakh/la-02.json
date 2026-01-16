@@ -1,0 +1,27 @@
+{
+    "code": "LA-02",
+    "region": "Leh",
+    "city": "Leh",
+    "state": "Ladakh",
+    "stateCode": "LA",
+    "district": "Leh",
+    "division": "Ladakh",
+    "description": "The LA-02 RTO serves the Leh district of the Union Territory of Ladakh. Established in 2019 following the reorganization of Jammu and Kashmir, it manages vehicle registrations, driving licenses, and transport permits for the high-altitude Himalayan region including the Nubra and Changthang valleys.",
+    "status": "active",
+    "established": "2019",
+    "address": "Assistant Regional Transport Office (ARTO), DC Office Complex, Leh, Ladakh",
+    "pinCode": "194101",
+    "phone": "01982-252106",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Leh",
+        "Nubra",
+        "Diskit",
+        "Khalsi",
+        "Nyoma",
+        "Durbuk",
+        "Saspol",
+        "Kharu",
+        "Changthang"
+    ]
+}
