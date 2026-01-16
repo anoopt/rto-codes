@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-01-16T03:05:50.132Z",
-  "totalRTOs": 83,
-  "totalVerified": 83,
+  "generatedAt": "2026-01-16T03:18:30.859Z",
+  "totalRTOs": 85,
+  "totalVerified": 85,
   "totalStates": 28,
   "completedStates": 2,
   "totalUTs": 8,
@@ -91,9 +91,12 @@
     {
       "stateCode": "LA",
       "stateName": "Ladakh",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "rtoCount": 2,
+      "verifiedCount": 2,
+      "rtoCodes": [
+        "la-01",
+        "la-02"
+      ],
       "isComplete": false,
       "type": "union-territory"
     },
