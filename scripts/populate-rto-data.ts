@@ -713,7 +713,7 @@ function saveStateConfigFile(stateFolder: string, config: StateConfigFile): void
 function countActualRTOFiles(stateFolder: string): number {
     const statePath = path.join(process.cwd(), 'data', stateFolder);
     if (!fs.existsSync(statePath)) return 0;
-    
+
     const files = fs.readdirSync(statePath).filter(file =>
         file.endsWith('.json') &&
         !file.includes('index') &&
@@ -748,7 +748,7 @@ function updateStateConfigAfterPopulation(
     const processedFullRange = processedRange.start === 1 && processedRange.end >= totalExpected;
 
     // Count how many codes in this run were determined to not exist
-    const notInUseCount = results.filter(r => 
+    const notInUseCount = results.filter(r =>
         r.success && r.saved === false && r.data?.status === 'not-in-use'
     ).length;
 
@@ -757,7 +757,7 @@ function updateStateConfigAfterPopulation(
     // If we processed the full range, we can confidently update totalRTOs
     if (processedFullRange) {
         const newTotalRTOs = actualRTOCount;
-        
+
         if (config.totalRTOs !== newTotalRTOs) {
             console.log(`\n📝 Updating config.json: totalRTOs ${config.totalRTOs} → ${newTotalRTOs}`);
             console.log(`   (${notInUseCount} codes found to be not-in-use)`);
