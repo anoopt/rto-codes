@@ -195,11 +195,11 @@ function updateDataMdAttributes(masterIndex: MasterIndex) {
     for (const stateCode in masterIndex.stateMap) {
         const state = masterIndex.stateMap[stateCode];
         const color = getStatusColor(state.status);
-        
+
         // Match the specific badge for this state
         // Looks for: ![Status](...query=$.stateMap.XX.status...)
         const regex = new RegExp(`(!\\[Status\\]\\(https:\\/\\/img\\.shields\\.io\\/badge\\/dynamic\\/json\\?url=[^&]+&query=%24\\.stateMap\\.${stateCode}\\.status)(?:&[^)]*)?\\)`, 'g');
-        
+
         if (regex.test(content)) {
             // Replace with new parameters: color and empty label (to remove "Status" text)
             content = content.replace(regex, `$1&color=${color}&label=)`);
