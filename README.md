@@ -17,7 +17,7 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 ![Total RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalRTOs&label=Total%20RTOs&color=blue)
 ![Verified RTOs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanoopt%2Frto-codes%2Fmain%2Fdata%2Findex.json&query=%24.totalVerified&label=Verified&color=success)
 
-**[→ View detailed state-by-state breakdown in DATA.md](./DATA.md)**
+**[→ View detailed state-by-state breakdown in DATA.md](./docs/DATA.md)**
 
 ## 🛠 Tech Specs
 
@@ -59,10 +59,10 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 ### Quick Links
 
-- **[STRUCTURE.md](./STRUCTURE.md)** - Guide to folders, data files, and scripts
-- **[DATA.md](./DATA.md)** - Complete state-by-state coverage breakdown
-- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to add RTO data
-- **[PLANNING.md](./PLANNING.md)** - Roadmap and future plans
+- **[STRUCTURE.md](./docs/STRUCTURE.md)** - Guide to folders, data files, and scripts
+- **[DATA.md](./docs/DATA.md)** - Complete state-by-state coverage breakdown
+- **[CONTRIBUTING.md](./docs/CONTRIBUTING.md)** - How to add RTO data
+- **[PLANNING.md](./docs/PLANNING.md)** - Roadmap and future plans
 
 ## 🛠 Technology Stack
 
@@ -85,14 +85,14 @@ We welcome contributions! Whether you're adding RTO data, contributing SVG maps,
 
 **For Developers:**
 
-- Read our comprehensive [**CONTRIBUTING.md**](./CONTRIBUTING.md) guide
-- Follow our [data standards](./CONTRIBUTING.md#data-standards) for RTO information
-- Check out [development setup](./CONTRIBUTING.md#development-setup) instructions
+- Read our comprehensive [**CONTRIBUTING.md**](./docs/CONTRIBUTING.md) guide
+- Follow our [data standards](./docs/CONTRIBUTING.md#data-standards) for RTO information
+- Check out [development setup](./docs/CONTRIBUTING.md#development-setup) instructions
 
 ### Ways to Contribute
 
-1. 📝 **Add/Fix RTO Data** - Contribute JSON files for RTOs (see [CONTRIBUTING.md](./CONTRIBUTING.md#contributing-rto-data))
-2. 🗺️ **Create SVG Maps** - Design state maps for visualization (see [CONTRIBUTING.md](./CONTRIBUTING.md#contributing-svg-maps))
+1. 📝 **Add/Fix RTO Data** - Contribute JSON files for RTOs (see [CONTRIBUTING.md](./docs/CONTRIBUTING.md#contributing-rto-data))
+2. 🗺️ **Create SVG Maps** - Design state maps for visualization (see [CONTRIBUTING.md](./docs/CONTRIBUTING.md#contributing-svg-maps))
 3. 🐛 **Report Bugs** - Use our [Bug Report](../../issues/new?template=bug-report.md) template
 4. ✨ **Suggest Features** - Use our [Feature Request](../../issues/new?template=feature-request.md) template
 5. 📚 **Improve Documentation** - Help make our docs better
@@ -104,7 +104,7 @@ We welcome contributions! Whether you're adding RTO data, contributing SVG maps,
 - **[Bug Report](../../issues/new?template=bug-report.md)** - Report website issues
 - **[Feature Request](../../issues/new?template=feature-request.md)** - Suggest improvements
 
-For detailed contribution guidelines, please see [**CONTRIBUTING.md**](./CONTRIBUTING.md).
+For detailed contribution guidelines, please see [**CONTRIBUTING.md**](./docs/CONTRIBUTING.md).
 
 ## 🚀 Development
 
@@ -153,7 +153,7 @@ NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
 
 ### Using GitHub Codespaces
 
-See **[QUICKSTART.md](./QUICKSTART.md)** for zero-setup cloud development with Codespaces.
+See **[QUICKSTART.md](./docs/QUICKSTART.md)** for zero-setup cloud development with Codespaces.
 
 ## 🚀 Deployment
 

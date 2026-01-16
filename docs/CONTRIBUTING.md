@@ -112,7 +112,7 @@ If the state folder doesn't exist, create it and also add a `config.json` (see [
 3. Add your JSON file(s)
 4. Commit: `git commit -m "Add RTO XX-YY data" -m "Source: [link to official source]"`
 5. Push: `git push origin add-rto-xx-yy`
-6. Create a Pull Request using our [PR template](.github/PULL_REQUEST_TEMPLATE.md)
+6. Create a Pull Request using our [PR template](../.github/PULL_REQUEST_TEMPLATE.md)
 
 **Important Notes:**
 

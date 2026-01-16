@@ -169,7 +169,7 @@ bun run build
 1. ✅ **Got it running?** Explore the site at http://localhost:3000
 2. 📖 **Read the roadmap**: [PLANNING.md](./PLANNING.md)
 3. 🔧 **Make changes**: Edit files in `app/` or `data/karnataka/`
-4. 🚀 **Submit a PR**: See [Contributing](./README.md#-contributing)
+4. 🚀 **Submit a PR**: See [Contributing](../README.md#-contributing)
 
 ## Resources
 
