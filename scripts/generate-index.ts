@@ -90,7 +90,7 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
 
     // Try to get state info from config.json first, then fall back to first RTO
     const config = loadStateConfig(stateDir);
-    
+
     // Determine status based on RTO count and configuration
     // 1. Complete: Explicitly marked complete OR RTO count matches/exceeds total (and total is known)
     // 2. In Progress: Has some RTOs but not all
