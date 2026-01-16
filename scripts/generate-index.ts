@@ -170,7 +170,47 @@ function main() {
     console.log(`   UTs: ${masterIndex.completedUTs}/${masterIndex.totalUTs} complete`);
     console.log(`   Verified: ${masterIndex.totalVerified} RTOs with complete data`);
 
+    // Update DATA.md with dynamic colors
+    updateDataMdAttributes(masterIndex);
+
     console.log('\n✨ Index generation complete!');
+}
+
+function getStatusColor(status: string): string {
+    switch (status) {
+        case "Complete": return "brightgreen";
+        case "In Progress": return "orange";
+        case "Not Started": return "lightgrey";
+        default: return "blue";
+    }
+}
+
+function updateDataMdAttributes(masterIndex: MasterIndex) {
+    const docPath = path.join(process.cwd(), 'docs', 'DATA.md');
+    if (!fs.existsSync(docPath)) return;
+
+    let content = fs.readFileSync(docPath, 'utf8');
+    let updatedCount = 0;
+
+    for (const stateCode in masterIndex.stateMap) {
+        const state = masterIndex.stateMap[stateCode];
+        const color = getStatusColor(state.status);
+        
+        // Match the specific badge for this state
+        // Looks for: ![Status](...query=$.stateMap.XX.status...)
+        const regex = new RegExp(`(!\\[Status\\]\\(https:\\/\\/img\\.shields\\.io\\/badge\\/dynamic\\/json\\?url=[^&]+&query=%24\\.stateMap\\.${stateCode}\\.status)(?:&[^)]*)?\\)`, 'g');
+        
+        if (regex.test(content)) {
+            // Replace with new parameters: color and empty label (to remove "Status" text)
+            content = content.replace(regex, `$1&color=${color}&label=)`);
+            updatedCount++;
+        }
+    }
+
+    if (updatedCount > 0) {
+        fs.writeFileSync(docPath, content);
+        console.log(`\n📝 Updated ${updatedCount} badges in docs/DATA.md`);
+    }
 }
 
 main();
