@@ -13,10 +13,10 @@ on:
         required: false
         type: string
       limit:
-        description: "Number of RTOs to generate (default: 50, use 2-5 for testing)"
+        description: "Number of RTOs to generate (default: 5, use 2-5 for testing)"
         required: false
         type: number
-        default: 50
+        default: 5
       force:
         description: "Force processing even if already complete"
         required: false
@@ -204,7 +204,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           STATE="${{ steps.determine-state.outputs.state }}"
-          LIMIT="${{ inputs.limit || 50 }}"
+          LIMIT="${{ inputs.limit || 5 }}"
           EXISTING="${{ steps.check-state.outputs.existing }}"
           TOTAL="${{ steps.check-state.outputs.total }}"
 
