@@ -1,0 +1,26 @@
+{
+    "code": "AP-04",
+    "region": "Kadapa",
+    "city": "Kadapa",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "YSR Kadapa",
+    "division": "Kadapa",
+    "description": "AP-04 is the Regional Transport Office for the YSR Kadapa district in Andhra Pradesh. Although the state shifted to a unified AP-39 code for all new registrations in 2019, this office remains the primary administrative hub for legacy vehicle records and licensing services in the Kadapa region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Uttukur, Chintha Komma Dinne Mandal, Kadapa, Andhra Pradesh",
+    "pinCode": "516003",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kadapa",
+        "Proddutur",
+        "Pulivendula",
+        "Rayachoti",
+        "Rajampet",
+        "Badvel",
+        "Mydukur",
+        "Jammalamadugu"
+    ]
+}

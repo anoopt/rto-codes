@@ -1,0 +1,25 @@
+{
+    "code": "AP-02",
+    "region": "Anantapur",
+    "city": "Anantapur",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Anantapur",
+    "division": "Anantapur Division",
+    "description": "The AP-02 Regional Transport Office serves the Anantapuramu district in Andhra Pradesh. Although the state transitioned to a unified AP-39 registration series in 2019, this office continues to manage legacy registrations and regional transport services for the Anantapur area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bhairava Nagar, Near JNTU Engineering College, Anantapur, Andhra Pradesh",
+    "pinCode": "515002",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Anantapur",
+        "Gooty",
+        "Tadipatri",
+        "Dharmavaram",
+        "Kalyandurg",
+        "Rayadurg",
+        "Uravakonda"
+    ]
+}
