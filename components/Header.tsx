@@ -26,7 +26,7 @@ export default function Header({
     const searchInputRef = useRef<HTMLInputElement>(null);
     const searchContainerRef = useRef<HTMLDivElement>(null);
     const pathname = usePathname();
-    
+
     // State for hover indicator
     const [hoverIndicator, setHoverIndicator] = useState<{ left: number; width: number } | null>(null);
     const [activeIndicator, setActiveIndicator] = useState<{ left: number; width: number } | null>(null);
@@ -36,7 +36,7 @@ export default function Header({
     // Calculate active indicator position immediately on mount (no animation)
     useEffect(() => {
         if (!navRef.current) return;
-        
+
         const activeLink = navRef.current.querySelector('[data-active="true"]') as HTMLElement;
         if (activeLink) {
             const navRect = navRef.current.getBoundingClientRect();
@@ -199,7 +199,7 @@ export default function Header({
             <header className="fixed top-0 left-0 right-0 z-50 h-12 bg-[var(--header-bg)] backdrop-blur-sm border-b border-[var(--header-border)] transition-colors duration-300">
                 <nav className="h-full flex items-center justify-between px-4 relative">
                     {/* Normal header content */}
-                    <div 
+                    <div
                         ref={navRef}
                         className={`flex items-center gap-6 relative transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
                         onMouseLeave={handleNavLeave}
@@ -214,7 +214,7 @@ export default function Header({
                                 transition: hoverIndicator ? 'left 0.3s ease-out, width 0.3s ease-out' : 'none',
                             }}
                         />
-                        
+
                         <Link
                             href="/"
                             data-active={pathname === '/'}

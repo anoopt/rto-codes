@@ -16,14 +16,14 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
 
     // Constant for retry delay when scrolling to tile
     const TILE_SCROLL_RETRY_DELAY = 100;
-    
+
     // Listen for search changes from PersistentHeader
     useEffect(() => {
         const handleSearchChange = (e: Event) => {
             const customEvent = e as CustomEvent<string>;
             setSearchQuery(customEvent.detail);
         };
-        
+
         window.addEventListener('headerSearchChange', handleSearchChange);
         return () => window.removeEventListener('headerSearchChange', handleSearchChange);
     }, []);

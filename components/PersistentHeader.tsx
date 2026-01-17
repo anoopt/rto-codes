@@ -7,20 +7,20 @@ import Header from './Header';
 export default function PersistentHeader() {
     const pathname = usePathname();
     const [searchQuery, setSearchQuery] = useState('');
-    
+
     // Show full navigation on all pages
     const variant = 'full';
-    
+
     // Show search only on homepage
     const showSearch = pathname === '/';
-    
+
     // Broadcast search changes to HomePage via custom event
     useEffect(() => {
         if (pathname === '/' && typeof window !== 'undefined') {
             window.dispatchEvent(new CustomEvent('headerSearchChange', { detail: searchQuery }));
         }
     }, [searchQuery, pathname]);
-    
+
     // Handle search value changes - clear when not on homepage
     const handleSearchChange = (value: string) => {
         // Only allow search on homepage
@@ -28,7 +28,7 @@ export default function PersistentHeader() {
             setSearchQuery(value);
         }
     };
-    
+
     // Clear search when pathname changes and we're not on homepage
     useEffect(() => {
         // When pathname changes, reset if we're not on homepage
@@ -40,10 +40,10 @@ export default function PersistentHeader() {
             return () => clearTimeout(timer);
         }
     }, [pathname, searchQuery]);
-    
+
     return (
-        <Header 
-            variant={variant} 
+        <Header
+            variant={variant}
             showSearch={showSearch}
             searchValue={pathname === '/' ? searchQuery : ''}
             onSearchChange={handleSearchChange}
