@@ -1,0 +1,26 @@
+{
+    "code": "AP-06",
+    "region": "Amalapuram",
+    "city": "Amalapuram",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "division": "Kakinada",
+    "description": "The AP-06 RTO is located in Amalapuram and serves the Konaseema region of Andhra Pradesh. Although the state transitioned to a centralized registration system (AP-39/AP-40) in 2019, the AP-06 code remains valid for existing registrations and historical records handled by the Amalapuram office.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Amalapuram, Dr. B.R. Ambedkar Konaseema District, Andhra Pradesh",
+    "pinCode": "533201",
+    "phone": "N/A",
+    "email": "rto_amalapuram@aptransport.org",
+    "jurisdictionAreas": [
+        "Amalapuram",
+        "Mummidivaram",
+        "Razole",
+        "P.Gannavaram",
+        "Ambajipeta",
+        "Ainavilli",
+        "Allavaram",
+        "Uppalaguptam"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "AP-08",
+    "region": "Guntur",
+    "city": "Guntur",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Guntur",
+    "division": "Guntur Division",
+    "description": "AP-08 is a legacy registration code for the Guntur Regional Transport Office in Andhra Pradesh. While the state moved to a unified AP-39 series for all new registrations in 2019, this office remains active for administrative duties, licensing, and management of existing vehicles registered under this series.",
+    "status": "active",
+    "established": "1989",
+    "address": "JKC College Road, Swarnabharathi Nagar, Guntur, Andhra Pradesh",
+    "pinCode": "522006",
+    "phone": "0863-2355194",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Guntur",
+        "Amaravati",
+        "Mangalagiri",
+        "Tenali",
+        "Ponnur",
+        "Tadepalle"
+    ]
+}

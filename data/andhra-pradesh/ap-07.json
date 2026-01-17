@@ -1,0 +1,26 @@
+{
+    "code": "AP-07",
+    "region": "Guntur",
+    "city": "Guntur",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Guntur",
+    "division": "Guntur",
+    "description": "The AP-07 RTO serves the Guntur district in Andhra Pradesh, handling vehicle registration, licensing, and transport permits. Although the state transitioned to a centralized AP-39 code in 2019 for new registrations, this RTO remains active for the maintenance of existing AP-07 records and regional transport administration.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, J.K.C College Road, Swarnabharathi Nagar, Guntur, Andhra Pradesh",
+    "pinCode": "522006",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Guntur City",
+        "Narasaraopet",
+        "Piduguralla",
+        "Repalle",
+        "Tenali",
+        "Bapatla",
+        "Sattenapalle",
+        "Vinukonda"
+    ]
+}
