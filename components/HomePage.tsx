@@ -2,7 +2,6 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import SearchableRTOs from '@/components/SearchableRTOs';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import type { RTOCode } from '@/types/rto';
 
@@ -17,6 +16,17 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
 
     // Constant for retry delay when scrolling to tile
     const TILE_SCROLL_RETRY_DELAY = 100;
+    
+    // Listen for search changes from PersistentHeader
+    useEffect(() => {
+        const handleSearchChange = (e: Event) => {
+            const customEvent = e as CustomEvent<string>;
+            setSearchQuery(customEvent.detail);
+        };
+        
+        window.addEventListener('headerSearchChange', handleSearchChange);
+        return () => window.removeEventListener('headerSearchChange', handleSearchChange);
+    }, []);
 
     // Scroll to specific RTO tile when returning from detail page
     useEffect(() => {
@@ -95,14 +105,6 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
 
     return (
         <div className="min-h-screen flex flex-col bg-[var(--background)] transition-colors duration-300">
-            {/* Header */}
-            <Header
-                variant="full"
-                showSearch={true}
-                searchValue={searchQuery}
-                onSearchChange={setSearchQuery}
-            />
-
             {/* Explainer Section - Below Header */}
             <section className="pt-12 bg-[var(--background)] border-b border-[var(--header-border)] transition-colors duration-300">
                 <div className="max-w-4xl mx-auto px-4 py-8 text-center">

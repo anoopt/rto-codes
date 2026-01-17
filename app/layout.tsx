@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Josefin_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import DevWarningBanner from "@/components/DevWarningBanner";
+import PersistentHeader from "@/components/PersistentHeader";
 import "./globals.css";
 
 const josefinSans = Josefin_Sans({
@@ -103,6 +104,8 @@ export default function RootLayout({
           >
             Skip to main content
           </a>
+          {/* Persistent header across all pages */}
+          <PersistentHeader />
           {children}
         </ThemeProvider>
       </body>

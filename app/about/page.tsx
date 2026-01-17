@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Header from '@/components/Header';
 
 export const metadata = {
   title: 'About | RTO Codes Karnataka',
@@ -11,9 +10,6 @@ export default function AboutPage() {
     <div className="min-h-screen bg-[var(--background)] relative transition-colors duration-300">
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-linear-to-br from-[var(--background)] via-[var(--card-bg)] to-[var(--background)] opacity-95" />
-
-      {/* Home Link - Top Left */}
-      <Header variant="minimal" />
 
       {/* Main Content */}
       <main id="main-content" className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-20">

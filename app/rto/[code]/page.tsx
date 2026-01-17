@@ -8,7 +8,6 @@ import RTONavigation from '@/components/RTONavigation';
 import SwipeHandler from '@/components/SwipeHandler';
 import SwipeHint from '@/components/SwipeHint';
 import InteractiveMapSection from '@/components/InteractiveMapSection';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RTOHeroImage from '@/components/RTOHeroImage';
 import { CloseIcon, WarningIcon, MapIcon, LocationIcon, PhoneIcon, EmailIcon } from '@/components/icons';
@@ -166,9 +165,6 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
 
       {/* Background with subtle gradient overlay - reduced opacity to show image */}
       <div className="absolute inset-0 bg-linear-to-br from-[var(--background)] via-[var(--card-bg)] to-[var(--background)] opacity-70 z-[1]" />
-
-      {/* Home Link - Top Left */}
-      <Header variant="minimal" />
 
       {/* Main Content - Centered with Swipe Support */}
       <SwipeHandler currentCode={code} allCodes={allRTOCodes}>

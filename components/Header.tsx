@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { ThemeSwitcher } from './ThemeSwitcher';
 
 interface HeaderProps {
@@ -24,6 +25,31 @@ export default function Header({
     const [isSearchExpanded, setIsSearchExpanded] = useState(false);
     const searchInputRef = useRef<HTMLInputElement>(null);
     const searchContainerRef = useRef<HTMLDivElement>(null);
+    const pathname = usePathname();
+    
+    // State for hover indicator
+    const [hoverIndicator, setHoverIndicator] = useState<{ left: number; width: number } | null>(null);
+    const [activeIndicator, setActiveIndicator] = useState<{ left: number; width: number } | null>(null);
+    const navRef = useRef<HTMLDivElement>(null);
+    const hasCalculatedRef = useRef(false);
+
+    // Calculate active indicator position immediately on mount (no animation)
+    useEffect(() => {
+        if (!navRef.current) return;
+        
+        const activeLink = navRef.current.querySelector('[data-active="true"]') as HTMLElement;
+        if (activeLink) {
+            const navRect = navRef.current.getBoundingClientRect();
+            const linkRect = activeLink.getBoundingClientRect();
+            setActiveIndicator({
+                left: linkRect.left - navRect.left,
+                width: linkRect.width
+            });
+            hasCalculatedRef.current = true;
+        } else {
+            setActiveIndicator(null);
+        }
+    }, [pathname]);
 
     // Focus input when expanded
     useEffect(() => {
@@ -64,6 +90,21 @@ export default function Header({
         if (onSearchChange) {
             onSearchChange('');
         }
+    };
+
+    const handleNavHover = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        if (!navRef.current) return;
+        const target = e.currentTarget;
+        const navRect = navRef.current.getBoundingClientRect();
+        const linkRect = target.getBoundingClientRect();
+        setHoverIndicator({
+            left: linkRect.left - navRect.left,
+            width: linkRect.width
+        });
+    };
+
+    const handleNavLeave = () => {
+        setHoverIndicator(null);
     };
 
     const searchButton = (
@@ -158,21 +199,48 @@ export default function Header({
             <header className="fixed top-0 left-0 right-0 z-50 h-12 bg-[var(--header-bg)] backdrop-blur-sm border-b border-[var(--header-border)] transition-colors duration-300">
                 <nav className="h-full flex items-center justify-between px-4 relative">
                     {/* Normal header content */}
-                    <div className={`flex items-center gap-6 transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+                    <div 
+                        ref={navRef}
+                        className={`flex items-center gap-6 relative transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+                        onMouseLeave={handleNavLeave}
+                    >
+                        {/* Hover indicator */}
+                        <div
+                            className="absolute bottom-0 h-0.5 bg-[var(--accent)] pointer-events-none"
+                            style={{
+                                left: hoverIndicator ? `${hoverIndicator.left}px` : activeIndicator ? `${activeIndicator.left}px` : '0px',
+                                width: hoverIndicator ? `${hoverIndicator.width}px` : activeIndicator ? `${activeIndicator.width}px` : '0px',
+                                opacity: hoverIndicator || activeIndicator ? 1 : 0,
+                                transition: hoverIndicator ? 'left 0.3s ease-out, width 0.3s ease-out' : 'none',
+                            }}
+                        />
+                        
                         <Link
                             href="/"
-                            className="text-[var(--accent)] hover:text-[var(--accent-hover)] font-bold tracking-wider text-sm uppercase transition-colors"
+                            data-active={pathname === '/'}
+                            onMouseEnter={handleNavHover}
+                            className="text-[var(--accent)] hover:text-[var(--accent-hover)] font-bold tracking-wider text-xs sm:text-sm uppercase transition-colors relative py-1"
                         >
                             RTO Codes
                         </Link>
                         <Link
                             href="/about"
-                            className="text-[var(--muted)] hover:text-[var(--foreground)] text-sm uppercase tracking-wide transition-colors"
+                            data-active={pathname === '/about'}
+                            onMouseEnter={handleNavHover}
+                            className="text-[var(--muted)] hover:text-[var(--foreground)] text-xs sm:text-sm uppercase tracking-wide transition-colors relative py-1"
                         >
                             About
                         </Link>
+                        <Link
+                            href="/contribute"
+                            data-active={pathname === '/contribute'}
+                            onMouseEnter={handleNavHover}
+                            className="text-[var(--muted)] hover:text-[var(--foreground)] text-xs sm:text-sm uppercase tracking-wide transition-colors relative py-1"
+                        >
+                            Contribute
+                        </Link>
                     </div>
-                    <div className={`flex items-center gap-2 transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+                    <div className={`flex items-center gap-2 -mt-0.5 transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
                         {showSearch && searchButton}
                         <ThemeSwitcher />
                     </div>
@@ -190,11 +258,11 @@ export default function Header({
             <nav className="h-full flex items-center justify-between px-4 relative">
                 <Link
                     href="/"
-                    className={`text-[var(--accent)] hover:text-[var(--accent-hover)] font-bold tracking-wider text-sm uppercase transition-all duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+                    className={`text-[var(--accent)] hover:text-[var(--accent-hover)] font-bold tracking-wider text-xs sm:text-sm uppercase transition-all duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
                 >
                     RTO Codes
                 </Link>
-                <div className={`flex items-center gap-2 transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+                <div className={`flex items-center gap-2 -mt-0.5 transition-opacity duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
                     {showSearch && searchButton}
                     <ThemeSwitcher />
                 </div>
