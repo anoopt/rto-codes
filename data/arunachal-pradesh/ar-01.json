@@ -1,0 +1,23 @@
+{
+    "code": "AR-01",
+    "region": "Itanagar",
+    "city": "Itanagar",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Papum Pare",
+    "division": "Itanagar Capital Complex",
+    "description": "AR-01 is the primary Regional Transport Office for Itanagar, the capital city of Arunachal Pradesh. It manages all transport-related services including vehicle registration, driving licenses, and permit issuance for the capital region. The office serves as a critical hub for the state's administrative and transport infrastructure.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Capital Complex, Itanagar (Naharlagun), Papum Pare District, Arunachal Pradesh",
+    "pinCode": "791111",
+    "phone": "0360-2245028",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Itanagar",
+        "Naharlagun",
+        "Nirjuli",
+        "Banderdewa",
+        "Capital Complex"
+    ]
+}

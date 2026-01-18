@@ -1,0 +1,28 @@
+{
+    "code": "AR-05",
+    "region": "Seppa",
+    "city": "Seppa",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "East Kameng",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-05 is the District Transport Office serving Seppa and the East Kameng district in Arunachal Pradesh. It is responsible for motor vehicle registration, driving license issuance, and the enforcement of the Motor Vehicles Act within this mountainous region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Office of the Deputy Commissioner, Seppa, East Kameng District, Arunachal Pradesh",
+    "pinCode": "790102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Seppa",
+        "Chayang Tajo",
+        "Sawa",
+        "Khenewa",
+        "Bameng",
+        "Lada",
+        "Pipu",
+        "Gyawe Purang",
+        "Pakke-Kessang",
+        "Seijosa"
+    ]
+}

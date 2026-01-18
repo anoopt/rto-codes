@@ -1,0 +1,26 @@
+{
+    "code": "AR-03",
+    "region": "Tawang",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Tawang",
+    "division": "Arunachal Pradesh",
+    "description": "AR-03 is the Regional Transport Office serving the Tawang district in Arunachal Pradesh. It is responsible for vehicle registration, driving licenses, and permit issuance for the high-altitude border region. The office plays a crucial role in managing transport activities in this strategically significant Himalayan district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Tawang, Arunachal Pradesh",
+    "pinCode": "790104",
+    "phone": "03794-222221",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tawang",
+        "Lumla",
+        "Jang",
+        "Mukto",
+        "Zemithang",
+        "Thingbu",
+        "Bongkhar",
+        "Dudunghar"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "code": "AR-04",
+    "region": "Bomdila",
+    "city": "Bomdila",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "West Kameng",
+    "division": "Arunachal Pradesh",
+    "description": "The AR-04 RTO is the District Transport Office (DTO) located in Bomdila, serving the West Kameng district. It oversees vehicle registration, driving permit issuance, and the implementation of the Motor Vehicles Act in this strategically important mountainous region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Bomdila, West Kameng District, Arunachal Pradesh",
+    "pinCode": "790001",
+    "phone": "03782-222075",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bomdila",
+        "Dirang",
+        "Kalaktang",
+        "Bhalukpong",
+        "Rupa",
+        "Thrizino",
+        "Nafra",
+        "Thembang",
+        "Shergaon",
+        "Singchung"
+    ]
+}

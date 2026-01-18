@@ -1,0 +1,28 @@
+{
+    "code": "AR-02",
+    "region": "Yupia",
+    "city": "Yupia",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Papum Pare",
+    "division": "Arunachal Pradesh",
+    "description": "AR-02 is the District Transport Office (DTO) located in Yupia, serving the Papum Pare district of Arunachal Pradesh. It is responsible for vehicle registration, driving licenses, and transport permit issuance for regions outside the Itanagar Capital Region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Yupia, Papum Pare District, Arunachal Pradesh",
+    "pinCode": "791110",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Yupia",
+        "Doimukh",
+        "Sagalee",
+        "Leporiang",
+        "Mengio",
+        "Toru",
+        "Kimini",
+        "Balijan",
+        "Sangdupota",
+        "Tarasso"
+    ]
+}
