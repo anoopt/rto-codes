@@ -1,0 +1,23 @@
+{
+    "code": "AS-04",
+    "region": "Sivasagar",
+    "city": "Sivasagar",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Sivasagar",
+    "division": "Upper Assam",
+    "description": "AS-04 is the District Transport Office (DTO) for the Sivasagar district in Assam. It handles vehicle registration, road tax collection, and the issuance of driving licenses for the historic region known for its Ahom dynasty landmarks.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Dorika Par Namtial Pathar, Sivasagar, Assam",
+    "pinCode": "785640",
+    "phone": "03772-222137",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sivasagar",
+        "Nazira",
+        "Amguri",
+        "Demow",
+        "Thowra"
+    ]
+}

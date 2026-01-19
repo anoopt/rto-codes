@@ -1,0 +1,26 @@
+{
+    "code": "AS-01",
+    "region": "Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Kamrup Metropolitan",
+    "division": "Lower Assam Division",
+    "description": "AS-01 serves as the primary District Transport Office (DTO) for the Kamrup Metropolitan district and the state capital region. It is responsible for vehicle registration, licensing, and enforcement of transport regulations in Guwahati, one of the most populous cities in Northeast India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, NH-37, Betkuchi, Near Honda Showroom, Guwahati, Assam",
+    "pinCode": "781035",
+    "phone": "0361-2540149",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Guwahati",
+        "Dispur",
+        "Kamrup Metropolitan District",
+        "Maligaon",
+        "Khanapara",
+        "Beltola",
+        "Paltan Bazar",
+        "Betkuchi"
+    ]
+}

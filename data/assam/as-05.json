@@ -1,0 +1,26 @@
+{
+    "code": "AS-05",
+    "region": "Golaghat",
+    "city": "Golaghat",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Golaghat",
+    "division": "Upper Assam Division",
+    "description": "The AS-05 RTO functions as the District Transport Office (DTO) for Golaghat, Assam. It is responsible for motor vehicle registration, issuance of driving licenses, and the implementation of the Motor Vehicles Act across the district, including areas near Kaziranga National Park.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Arengapara, Near Dhansiri Bridge, G.D. Road, Golaghat, Assam",
+    "pinCode": "785621",
+    "phone": "03774-280222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Golaghat",
+        "Bokakhat",
+        "Sarupathar",
+        "Dhansiri",
+        "Dergaon",
+        "Khumtai",
+        "Morangi",
+        "Gomariguri"
+    ]
+}

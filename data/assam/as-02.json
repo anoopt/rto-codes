@@ -1,0 +1,25 @@
+{
+    "code": "AS-02",
+    "region": "Nagaon",
+    "city": "Nagaon",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Nagaon",
+    "division": "Central Assam",
+    "description": "The AS-02 District Transport Office serves the Nagaon district in Assam. It is responsible for vehicle registration, driving license issuance, and ensuring compliance with motor vehicle regulations in one of the state's most populous and centrally located districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Near ASTC Campus, Nagaon, Assam",
+    "pinCode": "782001",
+    "phone": "03672-233185",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nagaon",
+        "Koliabor",
+        "Samaguri",
+        "Raha",
+        "Dhing",
+        "Rupohihat",
+        "Puranigudam"
+    ]
+}

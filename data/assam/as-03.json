@@ -1,0 +1,24 @@
+{
+    "code": "AS-03",
+    "region": "Jorhat",
+    "city": "Jorhat",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Jorhat",
+    "division": "Upper Assam Division",
+    "description": "AS-03 is the designated RTO code for the Jorhat District Transport Office in Assam. It is responsible for motor vehicle registration, issuance of driving licenses, and transport permit management for the Jorhat region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Rajabari, Jorhat, Assam",
+    "pinCode": "785014",
+    "phone": "0376-230020",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jorhat",
+        "Titabor",
+        "Mariani",
+        "Teok",
+        "Jorhat East",
+        "Jorhat West"
+    ]
+}
