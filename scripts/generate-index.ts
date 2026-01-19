@@ -196,20 +196,23 @@ function updateDataMdAttributes(masterIndex: MasterIndex) {
         const state = masterIndex.stateMap[stateCode];
         const color = getStatusColor(state.status);
 
-        // Match the specific badge for this state
-        // Looks for: ![Status](...query=$.stateMap.XX.status...)
-        const regex = new RegExp(`(!\\[Status\\]\\(https:\\/\\/img\\.shields\\.io\\/badge\\/dynamic\\/json\\?url=[^&]+&query=%24\\.stateMap\\.${stateCode}\\.status)(?:&[^)]*)?\\)`, 'g');
+        // Match the specific badge for this state and replace the color parameter
+        // Pattern matches: ...query=$.stateMap.XX.status&color=ANYCOLOR&label=)
+        const regex = new RegExp(
+            `(\\!\\[Status\\]\\(https:\\/\\/img\\.shields\\.io\\/badge\\/dynamic\\/json\\?url=[^&]+&query=%24\\.stateMap\\.${stateCode}\\.status&color=)[a-z]+(&label=\\))`,
+            'g'
+        );
 
-        if (regex.test(content)) {
-            // Replace with new parameters: color and empty label (to remove "Status" text)
-            content = content.replace(regex, `$1&color=${color}&label=)`);
+        const newContent = content.replace(regex, `$1${color}$2`);
+        if (newContent !== content) {
+            content = newContent;
             updatedCount++;
         }
     }
 
     if (updatedCount > 0) {
         fs.writeFileSync(docPath, content);
-        console.log(`\n📝 Updated ${updatedCount} badges in docs/DATA.md`);
+        console.log(`\n📝 Updated ${updatedCount} badge colors in docs/DATA.md`);
     }
 }
 
