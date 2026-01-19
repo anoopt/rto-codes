@@ -131,5 +131,126 @@
       "Pakke-Kessang",
       "Seijosa"
     ]
+  },
+  {
+    "code": "AR-06",
+    "region": "Ziro",
+    "city": "Ziro",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Lower Subansiri",
+    "division": "Arunachal Pradesh",
+    "description": "The AR-06 RTO is the District Transport Office serving Ziro and the surrounding Lower Subansiri district. It is responsible for motor vehicle registration, issuance of driving licenses, and tax collection within the Ziro plateau region, which is famous for its cultural heritage and scenic landscapes.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Deputy Commissioner's Office Complex, Ziro, Lower Subansiri District, Arunachal Pradesh",
+    "pinCode": "791120",
+    "phone": "+91-3788-224255",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ziro",
+      "Hapoli",
+      "Yachuli",
+      "Pistana",
+      "Raga",
+      "Kamporijo",
+      "Dollungmukh"
+    ]
+  },
+  {
+    "code": "AR-07",
+    "region": "Daporijo",
+    "city": "Daporijo",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Upper Subansiri",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-07 is the official District Transport Office (DTO) for Daporijo, serving the Upper Subansiri district of Arunachal Pradesh. The office handles all vehicular administrative tasks including registration, licensing, and taxation for the central-western region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Deputy Commissioner Complex, Daporijo, Upper Subansiri District, Arunachal Pradesh",
+    "pinCode": "791122",
+    "phone": "03792-223214",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Daporijo",
+      "Dumporijo",
+      "Taliha",
+      "Nacho",
+      "Siyum",
+      "Upper Subansiri District"
+    ]
+  },
+  {
+    "code": "AR-08",
+    "region": "Along",
+    "city": "Along",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "West Siang",
+    "division": "West Siang Transport Division",
+    "description": "The AR-08 RTO serves the town of Along (also known as Aalo), the administrative headquarters of the West Siang district in Arunachal Pradesh. It manages vehicle registrations, driving licenses, and transport permits for the mountainous region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Along, West Siang District, Arunachal Pradesh",
+    "pinCode": "791001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Along",
+      "Aalo",
+      "Liromoba",
+      "Yomcha",
+      "Kaying",
+      "Payum",
+      "Kamba",
+      "Darak"
+    ]
+  },
+  {
+    "code": "AR-09",
+    "region": "Pasighat",
+    "city": "Pasighat",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "East Siang",
+    "division": "Pasighat",
+    "description": "The AR-09 Regional Transport Office (RTO) serves the city of Pasighat and the surrounding East Siang district in Arunachal Pradesh. It is a key administrative hub for vehicle registration, driving licensing, and transport permit issuance in the state's oldest town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Office of the Deputy Commissioner, Pasighat, East Siang District, Arunachal Pradesh",
+    "pinCode": "791102",
+    "phone": "0368-2222340",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pasighat",
+      "Mebo",
+      "Ruksin",
+      "East Siang District"
+    ]
+  },
+  {
+    "code": "AR-10",
+    "region": "Anini",
+    "city": "Anini",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Dibang Valley",
+    "division": "Arunachal Pradesh",
+    "description": "AR-10 is the District Transport Office (DTO) for Anini, the headquarters of the Dibang Valley district in Arunachal Pradesh. It manages vehicle registrations, driving licenses, and transport law enforcement for one of the most remote and sparsely populated regions in India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Anini, Dibang Valley District, Arunachal Pradesh",
+    "pinCode": "792101",
+    "phone": "03801-222222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Anini",
+      "Etalin",
+      "Anelih",
+      "Mipi",
+      "Dambeun",
+      "Arzoo"
+    ]
   }
 ]
