@@ -1,0 +1,22 @@
+{
+    "code": "AR-09",
+    "region": "Pasighat",
+    "city": "Pasighat",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "East Siang",
+    "division": "Pasighat",
+    "description": "The AR-09 Regional Transport Office (RTO) serves the city of Pasighat and the surrounding East Siang district in Arunachal Pradesh. It is a key administrative hub for vehicle registration, driving licensing, and transport permit issuance in the state's oldest town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Office of the Deputy Commissioner, Pasighat, East Siang District, Arunachal Pradesh",
+    "pinCode": "791102",
+    "phone": "0368-2222340",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pasighat",
+        "Mebo",
+        "Ruksin",
+        "East Siang District"
+    ]
+}

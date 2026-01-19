@@ -1,0 +1,24 @@
+{
+    "code": "AR-07",
+    "region": "Daporijo",
+    "city": "Daporijo",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Upper Subansiri",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-07 is the official District Transport Office (DTO) for Daporijo, serving the Upper Subansiri district of Arunachal Pradesh. The office handles all vehicular administrative tasks including registration, licensing, and taxation for the central-western region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Deputy Commissioner Complex, Daporijo, Upper Subansiri District, Arunachal Pradesh",
+    "pinCode": "791122",
+    "phone": "03792-223214",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Daporijo",
+        "Dumporijo",
+        "Taliha",
+        "Nacho",
+        "Siyum",
+        "Upper Subansiri District"
+    ]
+}

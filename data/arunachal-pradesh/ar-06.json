@@ -1,0 +1,25 @@
+{
+    "code": "AR-06",
+    "region": "Ziro",
+    "city": "Ziro",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Lower Subansiri",
+    "division": "Arunachal Pradesh",
+    "description": "The AR-06 RTO is the District Transport Office serving Ziro and the surrounding Lower Subansiri district. It is responsible for motor vehicle registration, issuance of driving licenses, and tax collection within the Ziro plateau region, which is famous for its cultural heritage and scenic landscapes.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Deputy Commissioner's Office Complex, Ziro, Lower Subansiri District, Arunachal Pradesh",
+    "pinCode": "791120",
+    "phone": "+91-3788-224255",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ziro",
+        "Hapoli",
+        "Yachuli",
+        "Pistana",
+        "Raga",
+        "Kamporijo",
+        "Dollungmukh"
+    ]
+}

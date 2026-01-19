@@ -1,0 +1,24 @@
+{
+    "code": "AR-10",
+    "region": "Anini",
+    "city": "Anini",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Dibang Valley",
+    "division": "Arunachal Pradesh",
+    "description": "AR-10 is the District Transport Office (DTO) for Anini, the headquarters of the Dibang Valley district in Arunachal Pradesh. It manages vehicle registrations, driving licenses, and transport law enforcement for one of the most remote and sparsely populated regions in India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Anini, Dibang Valley District, Arunachal Pradesh",
+    "pinCode": "792101",
+    "phone": "03801-222222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Anini",
+        "Etalin",
+        "Anelih",
+        "Mipi",
+        "Dambeun",
+        "Arzoo"
+    ]
+}

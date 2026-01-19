@@ -1,0 +1,26 @@
+{
+    "code": "AR-08",
+    "region": "Along",
+    "city": "Along",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "West Siang",
+    "division": "West Siang Transport Division",
+    "description": "The AR-08 RTO serves the town of Along (also known as Aalo), the administrative headquarters of the West Siang district in Arunachal Pradesh. It manages vehicle registrations, driving licenses, and transport permits for the mountainous region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Along, West Siang District, Arunachal Pradesh",
+    "pinCode": "791001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Along",
+        "Aalo",
+        "Liromoba",
+        "Yomcha",
+        "Kaying",
+        "Payum",
+        "Kamba",
+        "Darak"
+    ]
+}
