@@ -99,21 +99,34 @@ jobs:
             exit 0
           fi
 
-          # Find next state to process
-          FOUND_NEXT=false
+          # First, check if last processed state is still incomplete - continue with it
+          if [ -n "$LAST_STATE" ]; then
+            for state in $STATES; do
+              if [ "$state" = "$LAST_STATE" ]; then
+                echo "state=$LAST_STATE" >> $GITHUB_OUTPUT
+                echo "🔄 Continuing with incomplete state: $LAST_STATE"
+                exit 0
+              fi
+            done
+            # Last state is no longer in incomplete list - it's now complete!
+            echo "✅ $LAST_STATE is now complete, moving to next state"
+          fi
+
+          # Find next state after the completed one, or start from beginning
+          FOUND_COMPLETED=false
           for state in $STATES; do
-            if [ "$FOUND_NEXT" = "true" ]; then
+            if [ "$FOUND_COMPLETED" = "true" ]; then
               echo "state=$state" >> $GITHUB_OUTPUT
               echo "🔄 Next in rotation: $state"
               exit 0
             fi
             
             if [ "$state" = "$LAST_STATE" ]; then
-              FOUND_NEXT=true
+              FOUND_COMPLETED=true
             fi
           done
 
-          # If we're here, start from beginning
+          # If we're here, start from beginning (either no last state or wrapped around)
           FIRST_STATE=$(echo "$STATES" | head -n1)
           echo "state=$FIRST_STATE" >> $GITHUB_OUTPUT
           echo "🔄 Starting new rotation cycle: $FIRST_STATE"
