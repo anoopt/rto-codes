@@ -1,0 +1,22 @@
+{
+    "code": "AR-11",
+    "region": "Tezu",
+    "city": "Tezu",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Lohit",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-11 is the Regional Transport Office for the Lohit district in Arunachal Pradesh, headquartered in Tezu. The office is responsible for vehicle registration, driver licensing, and enforcement of road safety regulations in the eastern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Tezu, Lohit District, Arunachal Pradesh",
+    "pinCode": "792001",
+    "phone": "03804-223119",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tezu",
+        "Sunpura",
+        "Wakro",
+        "Lohit District"
+    ]
+}

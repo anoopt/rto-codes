@@ -1,0 +1,25 @@
+{
+    "code": "AR-13",
+    "region": "Khonsa",
+    "city": "Khonsa",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Tirap",
+    "division": "Tirap",
+    "description": "The AR-13 RTO serves as the District Transport Office (DTO) for the Tirap district in Arunachal Pradesh, with its headquarters in Khonsa. It is responsible for the administration of vehicle registrations, driving license issuance, and transport tax collection in the eastern part of the state. The office plays a vital role in regulating transport services across the district's mountainous terrain.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Khonsa, Tirap District, Arunachal Pradesh",
+    "pinCode": "792130",
+    "phone": "9436836204",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khonsa",
+        "Lazu",
+        "Soha",
+        "Dadam",
+        "Deomali",
+        "Bari-Basip",
+        "Kapu"
+    ]
+}

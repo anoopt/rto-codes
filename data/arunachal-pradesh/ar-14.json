@@ -1,0 +1,27 @@
+{
+    "code": "AR-14",
+    "region": "Yingkiong",
+    "city": "Yingkiong",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Upper Siang",
+    "division": "Arunachal Pradesh",
+    "description": "The AR-14 RTO serves the Yingkiong region, which is the administrative headquarters of the Upper Siang district in Arunachal Pradesh. As a District Transport Office (DTO), it is responsible for vehicle registration, driving license issuance, and local transport governance in this mountainous region near the Siang River.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Yingkiong, Upper Siang District, Arunachal Pradesh",
+    "pinCode": "791002",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Yingkiong",
+        "Tuting",
+        "Mariyang",
+        "Geku",
+        "Jengging",
+        "Katan",
+        "Singa",
+        "Migging",
+        "Palling"
+    ]
+}

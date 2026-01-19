@@ -1,0 +1,25 @@
+{
+    "code": "AR-15",
+    "region": "Kurung Kumey",
+    "city": "Koloriang",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Kurung Kumey",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-15 is the District Transport Office (DTO) for the Kurung Kumey district in Arunachal Pradesh, headquartered in Koloriang. The office is responsible for vehicle registration, driving licenses, and road safety enforcement in this mountainous region near the Indo-China border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Office of the Deputy Commissioner, Koloriang, Kurung Kumey District, Arunachal Pradesh",
+    "pinCode": "791118",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Koloriang",
+        "Sarli",
+        "Damin",
+        "Parsi-Parlo",
+        "Nyapin",
+        "Phassang",
+        "Sangram"
+    ]
+}

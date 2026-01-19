@@ -1,0 +1,26 @@
+{
+    "code": "AR-12",
+    "region": "Changlang",
+    "city": "Changlang",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Changlang",
+    "division": "Arunachal Pradesh State Transport",
+    "description": "AR-12 is the District Transport Office (DTO) for Changlang district in Arunachal Pradesh. It manages vehicle registrations, driving licenses, and transport permit services for the eastern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, O/o Deputy Commissioner, Changlang, Arunachal Pradesh",
+    "pinCode": "792122",
+    "phone": "03808-222221",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Changlang",
+        "Miao",
+        "Jairampur",
+        "Bordumsa",
+        "Diyun",
+        "Kharsang",
+        "Namtok",
+        "Manmao"
+    ]
+}
