@@ -1,0 +1,23 @@
+{
+    "code": "AP-27",
+    "region": "Ongole",
+    "city": "Ongole",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Prakasam",
+    "division": "Prakasam",
+    "description": "AP-27 is the legacy RTO code for Prakasam district in Andhra Pradesh. Since February 2019, the state implemented the 'one state-one code' policy where all new vehicles are registered with AP-39/AP-40 series. This office continues to manage legacy AP-27 registrations.",
+    "status": "not-in-use",
+    "redirectTo": "AP-39",
+    "established": "N/A",
+    "address": "Regional Transport Office, Ongole, Prakasam District, Andhra Pradesh",
+    "pinCode": "523001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ongole",
+        "Markapur",
+        "Chirala",
+        "Kandukur"
+    ]
+}

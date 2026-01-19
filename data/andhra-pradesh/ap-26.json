@@ -1,0 +1,23 @@
+{
+    "code": "AP-26",
+    "region": "Nellore",
+    "city": "Nellore",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Sri Potti Sriramulu Nellore",
+    "division": "Nellore",
+    "description": "AP-26 is the legacy RTO code for Nellore district (now Sri Potti Sriramulu Nellore) in Andhra Pradesh. Since February 2019, the state implemented the 'one state-one code' policy where all new vehicles are registered with AP-39/AP-40 series. This office continues to manage legacy AP-26 registrations.",
+    "status": "not-in-use",
+    "redirectTo": "AP-39",
+    "established": "N/A",
+    "address": "Regional Transport Office, Nellore, Andhra Pradesh",
+    "pinCode": "524001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nellore",
+        "Kavali",
+        "Gudur",
+        "Atmakur"
+    ]
+}

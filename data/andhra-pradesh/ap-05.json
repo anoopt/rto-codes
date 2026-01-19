@@ -6,8 +6,9 @@
     "stateCode": "AP",
     "district": "East Godavari",
     "division": "Kakinada",
-    "description": "AP-05 is the legacy Regional Transport Office code for Kakinada in the East Godavari district of Andhra Pradesh. While the state transitioned to a centralized registration system (AP-39) in 2019 to streamline administration, this code remains active for servicing vehicles registered before the change. Its jurisdiction covers the port city of Kakinada and surrounding agricultural and industrial hubs like Amalapuram and Pithapuram.",
-    "status": "active",
+    "description": "AP-05 is the legacy RTO code for East Godavari district (headquarters in Kakinada) in Andhra Pradesh. Since February 2019, the state implemented the 'one state-one code' policy where all new vehicles are registered with AP-39/AP-40 series. This office continues to manage legacy AP-05 registrations.",
+    "status": "not-in-use",
+    "redirectTo": "AP-39",
     "established": "1989",
     "address": "RTO Office, Kakinada-Pithapuram Road, Near Collectorate, Kakinada, East Godavari, Andhra Pradesh",
     "pinCode": "533001",
@@ -20,8 +21,6 @@
         "Pithapuram",
         "Gollaprolu",
         "Karapa",
-        "Peddapuram",
-        "Amalapuram",
-        "Mummidivaram"
+        "Peddapuram"
     ]
 }

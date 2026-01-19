@@ -1,0 +1,23 @@
+{
+    "code": "AP-21",
+    "region": "Kurnool",
+    "city": "Kurnool",
+    "state": "Andhra Pradesh",
+    "stateCode": "AP",
+    "district": "Kurnool",
+    "division": "Kurnool",
+    "description": "AP-21 is the legacy RTO code for Kurnool district in Andhra Pradesh. Since February 2019, the state implemented the 'one state-one code' policy where all new vehicles are registered with AP-39/AP-40 series. This office continues to manage legacy AP-21 registrations.",
+    "status": "not-in-use",
+    "redirectTo": "AP-39",
+    "established": "N/A",
+    "address": "Regional Transport Office, Kurnool, Andhra Pradesh",
+    "pinCode": "518001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kurnool",
+        "Nandyal",
+        "Adoni",
+        "Yemmiganur"
+    ]
+}
