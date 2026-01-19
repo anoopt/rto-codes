@@ -1,1 +1,126 @@
-[]
+[
+  {
+    "code": "AS-01",
+    "region": "Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Kamrup Metropolitan",
+    "division": "Lower Assam Division",
+    "description": "AS-01 serves as the primary District Transport Office (DTO) for the Kamrup Metropolitan district and the state capital region. It is responsible for vehicle registration, licensing, and enforcement of transport regulations in Guwahati, one of the most populous cities in Northeast India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, NH-37, Betkuchi, Near Honda Showroom, Guwahati, Assam",
+    "pinCode": "781035",
+    "phone": "0361-2540149",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Guwahati",
+      "Dispur",
+      "Kamrup Metropolitan District",
+      "Maligaon",
+      "Khanapara",
+      "Beltola",
+      "Paltan Bazar",
+      "Betkuchi"
+    ]
+  },
+  {
+    "code": "AS-02",
+    "region": "Nagaon",
+    "city": "Nagaon",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Nagaon",
+    "division": "Central Assam",
+    "description": "The AS-02 District Transport Office serves the Nagaon district in Assam. It is responsible for vehicle registration, driving license issuance, and ensuring compliance with motor vehicle regulations in one of the state's most populous and centrally located districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Near ASTC Campus, Nagaon, Assam",
+    "pinCode": "782001",
+    "phone": "03672-233185",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nagaon",
+      "Koliabor",
+      "Samaguri",
+      "Raha",
+      "Dhing",
+      "Rupohihat",
+      "Puranigudam"
+    ]
+  },
+  {
+    "code": "AS-03",
+    "region": "Jorhat",
+    "city": "Jorhat",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Jorhat",
+    "division": "Upper Assam Division",
+    "description": "AS-03 is the designated RTO code for the Jorhat District Transport Office in Assam. It is responsible for motor vehicle registration, issuance of driving licenses, and transport permit management for the Jorhat region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Rajabari, Jorhat, Assam",
+    "pinCode": "785014",
+    "phone": "0376-230020",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jorhat",
+      "Titabor",
+      "Mariani",
+      "Teok",
+      "Jorhat East",
+      "Jorhat West"
+    ]
+  },
+  {
+    "code": "AS-04",
+    "region": "Sivasagar",
+    "city": "Sivasagar",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Sivasagar",
+    "division": "Upper Assam",
+    "description": "AS-04 is the District Transport Office (DTO) for the Sivasagar district in Assam. It handles vehicle registration, road tax collection, and the issuance of driving licenses for the historic region known for its Ahom dynasty landmarks.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Dorika Par Namtial Pathar, Sivasagar, Assam",
+    "pinCode": "785640",
+    "phone": "03772-222137",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sivasagar",
+      "Nazira",
+      "Amguri",
+      "Demow",
+      "Thowra"
+    ]
+  },
+  {
+    "code": "AS-05",
+    "region": "Golaghat",
+    "city": "Golaghat",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Golaghat",
+    "division": "Upper Assam Division",
+    "description": "The AS-05 RTO functions as the District Transport Office (DTO) for Golaghat, Assam. It is responsible for motor vehicle registration, issuance of driving licenses, and the implementation of the Motor Vehicles Act across the district, including areas near Kaziranga National Park.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Arengapara, Near Dhansiri Bridge, G.D. Road, Golaghat, Assam",
+    "pinCode": "785621",
+    "phone": "03774-280222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Golaghat",
+      "Bokakhat",
+      "Sarupathar",
+      "Dhansiri",
+      "Dergaon",
+      "Khumtai",
+      "Morangi",
+      "Gomariguri"
+    ]
+  }
+]
