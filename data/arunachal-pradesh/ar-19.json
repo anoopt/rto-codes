@@ -1,0 +1,24 @@
+{
+    "code": "AR-19",
+    "region": "Palin",
+    "city": "Palin",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Kra Daadi",
+    "division": "Arunachal Pradesh",
+    "description": "AR-19 is the Regional Transport Office for Palin, serving the Kra Daadi district in Arunachal Pradesh. It was established after the district's bifurcation from Kurung Kumey in 2015 and handles all statutory transport functions including vehicle registration and licensing via the Vahan and Sarathi portals.",
+    "status": "active",
+    "established": "2015",
+    "address": "District Transport Office, Palin, Kra Daadi District, Arunachal Pradesh",
+    "pinCode": "791118",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Palin",
+        "Chambang",
+        "Gangte",
+        "Tarak Lengdi",
+        "Pipsorang",
+        "Yangte"
+    ]
+}

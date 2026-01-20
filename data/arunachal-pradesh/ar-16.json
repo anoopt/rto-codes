@@ -1,0 +1,23 @@
+{
+    "code": "AR-16",
+    "region": "Roing",
+    "city": "Roing",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Lower Dibang Valley",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-16 is the District Transport Office (DTO) for Roing, which serves as the administrative center for the Lower Dibang Valley district in Arunachal Pradesh. This office is responsible for vehicle registration, driving license issuance, and enforcement of motor vehicle laws in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, O/o Deputy Commissioner, Roing, Lower Dibang Valley, Arunachal Pradesh",
+    "pinCode": "792110",
+    "phone": "03803-222223",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Roing",
+        "Dambuk",
+        "Hunli",
+        "Desali",
+        "Lower Dibang Valley District"
+    ]
+}

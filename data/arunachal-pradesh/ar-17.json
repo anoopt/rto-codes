@@ -1,0 +1,25 @@
+{
+    "code": "AR-17",
+    "region": "Anjaw",
+    "city": "Hawai",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Anjaw",
+    "division": "Arunachal Pradesh",
+    "description": "AR-17 is the District Transport Office (DTO) for the Anjaw district in Arunachal Pradesh, based in Hawai. It serves the easternmost part of India, managing vehicle registration, driving licenses, and road safety regulations for the region.",
+    "status": "active",
+    "established": "2004",
+    "address": "District Transport Office, O/o The Deputy Commissioner, Hawai, Anjaw District, Arunachal Pradesh",
+    "pinCode": "792104",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hawai",
+        "Hayuliang",
+        "Manchal",
+        "Goiliang",
+        "Chaglogam",
+        "Walong",
+        "Kibithu"
+    ]
+}

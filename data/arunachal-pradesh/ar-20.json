@@ -1,0 +1,22 @@
+{
+    "code": "AR-20",
+    "region": "Namsai",
+    "city": "Namsai",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Namsai",
+    "division": "Namsai",
+    "description": "The AR-20 RTO serves the Namsai district in Arunachal Pradesh, handling vehicle registration, driving license issuance, and transport permit management. It was established following the creation of the Namsai district to provide localized transport administration for the region.",
+    "status": "active",
+    "established": "2014",
+    "address": "Office of the District Transport Officer, Namsai, Arunachal Pradesh",
+    "pinCode": "792103",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Namsai",
+        "Chowkham",
+        "Lekang",
+        "Mahadevpur"
+    ]
+}
