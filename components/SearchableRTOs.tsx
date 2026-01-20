@@ -125,8 +125,8 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
                   {needsRegion && (
                     <span className={`text-[9px] sm:text-[10px] font-medium uppercase tracking-wider mt-0.5 truncate max-w-full text-center [text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)] ${hasImage
                       ? isNotInUse
-                        ? 'text-white/60'
-                        : 'text-white/90'
+                        ? 'text-slate-500/60 dark:text-white/60 [text-shadow:none] dark:[text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)]'
+                        : 'text-slate-700 dark:text-white/90 [text-shadow:none] dark:[text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)]'
                       : isNotInUse
                         ? 'text-[var(--muted-foreground)]/50 group-hover:text-amber-600/60 dark:group-hover:text-amber-400/60 [text-shadow:none]'
                         : 'text-[var(--muted-foreground)]/70 group-hover:text-[var(--background)]/60 [text-shadow:none]'

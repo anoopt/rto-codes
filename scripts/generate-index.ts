@@ -39,10 +39,12 @@ interface MasterIndex {
 const DATA_DIR = path.join(process.cwd(), 'data');
 
 function getStateDirectories(): string[] {
-    return fs.readdirSync(DATA_DIR).filter(item => {
-        const itemPath = path.join(DATA_DIR, item);
-        return fs.statSync(itemPath).isDirectory();
-    });
+    return fs.readdirSync(DATA_DIR)
+        .filter(item => {
+            const itemPath = path.join(DATA_DIR, item);
+            return fs.statSync(itemPath).isDirectory();
+        })
+        .sort((a, b) => a.localeCompare(b)); // Sort alphabetically for consistent output
 }
 
 function loadRTOsFromState(stateDir: string): RTOCode[] {
