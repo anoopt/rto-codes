@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import {
     getAvailableStates,
     getStateConfig,
@@ -9,6 +9,16 @@ import {
     getSvgDistrictIds,
     getStateMapSvg
 } from '@/lib/state-config';
+
+// Mock console.error to suppress expected error messages in tests
+const originalConsoleError = console.error;
+beforeEach(() => {
+    console.error = vi.fn();
+});
+
+afterEach(() => {
+    console.error = originalConsoleError;
+});
 
 describe('State Configuration Functions', () => {
     describe('getAvailableStates', () => {
