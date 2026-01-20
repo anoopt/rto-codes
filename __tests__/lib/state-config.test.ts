@@ -1,0 +1,273 @@
+import { describe, it, expect } from 'vitest';
+import {
+    getAvailableStates,
+    getStateConfig,
+    getStateConfigByCode,
+    getStateFolderByCode,
+    getSvgDistrictId,
+    getDistrictFromSvgId,
+    getSvgDistrictIds,
+    getStateMapSvg
+} from '@/lib/state-config';
+
+describe('State Configuration Functions', () => {
+    describe('getAvailableStates', () => {
+        it('should return an array of state names', () => {
+            const states = getAvailableStates();
+            expect(states).toBeDefined();
+            expect(Array.isArray(states)).toBe(true);
+            expect(states.length).toBeGreaterThan(0);
+        });
+
+        it('should include karnataka and goa', () => {
+            const states = getAvailableStates();
+            expect(states).toContain('karnataka');
+            expect(states).toContain('goa');
+        });
+
+        it('should only return folders with config.json', () => {
+            const states = getAvailableStates();
+            // Each state should have a valid config
+            states.forEach(state => {
+                const config = getStateConfig(state);
+                expect(config).not.toBeNull();
+            });
+        });
+    });
+
+    describe('getStateConfig', () => {
+        it('should load Karnataka config', () => {
+            const config = getStateConfig('karnataka');
+            expect(config).toBeDefined();
+            expect(config?.stateCode).toBe('KA');
+            expect(config?.name).toBe('Karnataka');
+            expect(config?.capital).toBe('Bengaluru');
+        });
+
+        it('should load Goa config', () => {
+            const config = getStateConfig('goa');
+            expect(config).toBeDefined();
+            expect(config?.stateCode).toBe('GA');
+            expect(config?.name).toBe('Goa');
+        });
+
+        it('should return null for non-existent state', () => {
+            const config = getStateConfig('non-existent-state');
+            expect(config).toBeNull();
+        });
+
+        it('should include districtMapping', () => {
+            const config = getStateConfig('karnataka');
+            expect(config?.districtMapping).toBeDefined();
+            expect(typeof config?.districtMapping).toBe('object');
+            expect(Object.keys(config?.districtMapping || {}).length).toBeGreaterThan(0);
+        });
+
+        it('should include svgDistrictIds', () => {
+            const config = getStateConfig('karnataka');
+            expect(config?.svgDistrictIds).toBeDefined();
+            expect(Array.isArray(config?.svgDistrictIds)).toBe(true);
+            expect(config?.svgDistrictIds.length).toBeGreaterThan(0);
+        });
+
+        it('should cache config on subsequent calls', () => {
+            const config1 = getStateConfig('karnataka');
+            const config2 = getStateConfig('karnataka');
+            // Should return the same object reference (cached)
+            expect(config1).toBe(config2);
+        });
+    });
+
+    describe('getStateConfigByCode', () => {
+        it('should find Karnataka by code KA', () => {
+            const config = getStateConfigByCode('KA');
+            expect(config).toBeDefined();
+            expect(config?.name).toBe('Karnataka');
+        });
+
+        it('should find Goa by code GA', () => {
+            const config = getStateConfigByCode('GA');
+            expect(config).toBeDefined();
+            expect(config?.name).toBe('Goa');
+        });
+
+        it('should be case insensitive', () => {
+            const config1 = getStateConfigByCode('KA');
+            const config2 = getStateConfigByCode('ka');
+            expect(config1?.stateCode).toBe(config2?.stateCode);
+        });
+
+        it('should return null for non-existent code', () => {
+            const config = getStateConfigByCode('XX');
+            expect(config).toBeNull();
+        });
+    });
+
+    describe('getStateFolderByCode', () => {
+        it('should return folder name for KA', () => {
+            const folder = getStateFolderByCode('KA');
+            expect(folder).toBe('karnataka');
+        });
+
+        it('should return folder name for GA', () => {
+            const folder = getStateFolderByCode('GA');
+            expect(folder).toBe('goa');
+        });
+
+        it('should be case insensitive', () => {
+            const folder1 = getStateFolderByCode('KA');
+            const folder2 = getStateFolderByCode('ka');
+            expect(folder1).toBe(folder2);
+        });
+
+        it('should return null for non-existent code', () => {
+            const folder = getStateFolderByCode('XX');
+            expect(folder).toBeNull();
+        });
+    });
+
+    describe('getSvgDistrictId', () => {
+        it('should map modern district name to SVG ID', () => {
+            const svgId = getSvgDistrictId('karnataka', 'Bengaluru Urban');
+            expect(svgId).toBeDefined();
+            expect(typeof svgId).toBe('string');
+        });
+
+        it('should return null for non-existent district', () => {
+            const svgId = getSvgDistrictId('karnataka', 'Non-Existent District');
+            expect(svgId).toBeNull();
+        });
+
+        it('should return null for non-existent state', () => {
+            const svgId = getSvgDistrictId('non-existent-state', 'Some District');
+            expect(svgId).toBeNull();
+        });
+    });
+
+    describe('getDistrictFromSvgId', () => {
+        it('should reverse map SVG ID to modern district name', () => {
+            const config = getStateConfig('karnataka');
+            if (config && config.districtMapping) {
+                // Get a valid SVG ID from the mapping
+                const [modernName, svgId] = Object.entries(config.districtMapping)[0];
+
+                const reversedName = getDistrictFromSvgId('karnataka', svgId);
+                expect(reversedName).toBe(modernName);
+            }
+        });
+
+        it('should return null for non-existent SVG ID', () => {
+            const district = getDistrictFromSvgId('karnataka', 'non-existent-svg-id');
+            expect(district).toBeNull();
+        });
+
+        it('should return null for non-existent state', () => {
+            const district = getDistrictFromSvgId('non-existent-state', 'some-id');
+            expect(district).toBeNull();
+        });
+    });
+
+    describe('getSvgDistrictIds', () => {
+        it('should return array of SVG district IDs', () => {
+            const ids = getSvgDistrictIds('karnataka');
+            expect(Array.isArray(ids)).toBe(true);
+            expect(ids.length).toBeGreaterThan(0);
+        });
+
+        it('should return empty array for non-existent state', () => {
+            const ids = getSvgDistrictIds('non-existent-state');
+            expect(ids).toEqual([]);
+        });
+
+        it('should match svgDistrictIds from config', () => {
+            const config = getStateConfig('karnataka');
+            const ids = getSvgDistrictIds('karnataka');
+            expect(ids).toEqual(config?.svgDistrictIds);
+        });
+    });
+
+    describe('getStateMapSvg', () => {
+        it('should load Karnataka map SVG if it exists', () => {
+            const svg = getStateMapSvg('karnataka');
+
+            if (svg) {
+                expect(typeof svg).toBe('string');
+                expect(svg.length).toBeGreaterThan(0);
+                expect(svg).toContain('<svg');
+                expect(svg).not.toContain('<?xml'); // XML declaration should be removed
+                expect(svg).not.toContain('<!--'); // Comments should be removed
+            }
+        });
+
+        it('should return null for state without map file', () => {
+            // Pick a state that doesn't have a map.svg yet
+            const states = getAvailableStates();
+            const stateWithoutMap = states.find(state => {
+                const config = getStateConfig(state);
+                return config && !config.mapFile;
+            });
+
+            if (stateWithoutMap) {
+                const svg = getStateMapSvg(stateWithoutMap);
+                expect(svg).toBeNull();
+            }
+        });
+
+        it('should return null for non-existent state', () => {
+            const svg = getStateMapSvg('non-existent-state');
+            expect(svg).toBeNull();
+        });
+
+        it('should process SVG content correctly', () => {
+            const svg = getStateMapSvg('karnataka');
+
+            if (svg) {
+                // Should not have XML declaration
+                expect(svg).not.toMatch(/<\?xml/);
+
+                // Should not have comments
+                expect(svg).not.toMatch(/<!--/);
+
+                // Should start with < (no leading whitespace) and end with > (may have trailing newline)
+                expect(svg.trimStart()).toMatch(/^<svg/);
+                expect(svg.trimEnd()).toMatch(/>$/);
+            }
+        });
+    });
+
+    describe('District Mapping Integration', () => {
+        it('should have bidirectional mapping working correctly', () => {
+            const config = getStateConfig('karnataka');
+            if (config) {
+                // Test that forward mapping works (modern name -> SVG ID)
+                Object.entries(config.districtMapping).forEach(([modernName, svgId]) => {
+                    const retrievedSvgId = getSvgDistrictId('karnataka', modernName);
+                    expect(retrievedSvgId).toBe(svgId);
+                });
+
+                // Test that reverse mapping returns a valid modern name
+                // Note: Multiple districts can map to the same SVG ID, so we just verify
+                // that getDistrictFromSvgId returns ONE of the valid modern names
+                Object.entries(config.districtMapping).forEach(([, svgId]) => {
+                    const retrievedModernName = getDistrictFromSvgId('karnataka', svgId);
+                    expect(retrievedModernName).toBeDefined();
+                    // The retrieved name should also map back to the same SVG ID
+                    if (retrievedModernName) {
+                        expect(config.districtMapping[retrievedModernName]).toBe(svgId);
+                    }
+                });
+            }
+        });
+
+        it('should have all svgDistrictIds present in districtMapping values', () => {
+            const config = getStateConfig('karnataka');
+            if (config) {
+                const mappedSvgIds = new Set(Object.values(config.districtMapping));
+
+                config.svgDistrictIds.forEach(svgId => {
+                    expect(mappedSvgIds.has(svgId)).toBe(true);
+                });
+            }
+        });
+    });
+});
