@@ -161,8 +161,8 @@
                 "Typecheck passes"
             ],
             "priority": 10,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Created components/MapSectionWrapper.tsx as a client component that conditionally renders OSM or SVG map based on isOSMEnabled() feature flag. Uses dynamic import with ssr: false for OSMDistrictMap to handle Leaflet's DOM requirements. Updated app/rto/[code]/page.tsx to import MapSectionWrapper, getRTOsByDistrict, and isOSMEnabled. Replaced InteractiveMapSection with MapSectionWrapper, passing rto info, SVG data, districtRTOsMap, and districtRTOs for OSM markers. OSM map renders in the same location with similar styling (max-w-md container, h-64 md:h-72). Added OSM_ENABLED module-level check for optimization. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-011",

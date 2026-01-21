@@ -157,3 +157,25 @@
   - All error states preserve container dimensions (h-64 md:h-80 lg:h-96)
   - Loading indicators positioned at z-[1000] to overlay map
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-010: Integrate OSM map into RTO detail page
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Created**:
+  - components/MapSectionWrapper.tsx - Client component for conditional OSM/SVG map rendering
+- **Files Modified**:
+  - app/rto/[code]/page.tsx - Integrated MapSectionWrapper, added OSM flag check
+- **Implementation Details**:
+  - Created MapSectionWrapper as a client component with dynamic import of OSMDistrictMap
+  - Uses `ssr: false` option for dynamic import since Leaflet requires DOM
+  - Loading state shows spinner while OSMDistrictMap loads
+  - Checks isOSMEnabled() feature flag to determine map type
+  - When OSM enabled: renders OSMDistrictMap with state, stateCode, district, districtRTOsMap, districtRTOs
+  - When OSM disabled: renders InteractiveMapSection (existing SVG behavior)
+  - OSM map appears in same location as SVG map with similar styling (max-w-md container)
+  - Updated RTO page to import getRTOsByDistrict and isOSMEnabled
+  - Added OSM_ENABLED module-level variable for optimization
+  - Modified map section to use MapSectionWrapper instead of InteractiveMapSection
+  - Passes both ENABLE_DISTRICT_MAP and OSM_ENABLED to condition check
+  - Gets districtRTOs via getRTOsByDistrict() for OSM marker display
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

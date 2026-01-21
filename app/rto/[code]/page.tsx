@@ -1,19 +1,22 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getRTOByCode, getAllRTOs, getVerifiedRTOCodes, getDistrictToRTOsMap } from '@/lib/rto-data';
+import { getRTOByCode, getAllRTOs, getVerifiedRTOCodes, getDistrictToRTOsMap, getRTOsByDistrict } from '@/lib/rto-data';
 import { getStateMapSvg, getStateFolderByCode, getStateConfig, getAvailableStates } from '@/lib/state-config';
 import { hasRTOImage } from '@/lib/cloudinary';
+import { isOSMEnabled } from '@/lib/feature-flags';
 import ShuffleButton from '@/components/ShuffleButton';
 import RTONavigation from '@/components/RTONavigation';
 import SwipeHandler from '@/components/SwipeHandler';
 import SwipeHint from '@/components/SwipeHint';
-import InteractiveMapSection from '@/components/InteractiveMapSection';
+import MapSectionWrapper from '@/components/MapSectionWrapper';
 import Footer from '@/components/Footer';
 import RTOHeroImage from '@/components/RTOHeroImage';
 import { CloseIcon, WarningIcon, MapIcon, LocationIcon, PhoneIcon, EmailIcon } from '@/components/icons';
 
 // Feature flag for district map
 const ENABLE_DISTRICT_MAP = process.env.NEXT_PUBLIC_ENABLE_DISTRICT_MAP === 'true';
+// Check if OSM is enabled at module level for pre-loading optimization
+const OSM_ENABLED = isOSMEnabled();
 
 // Pre-load map content and config by state
 const stateData: Record<string, {
@@ -299,23 +302,23 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                   )}
 
                   {/* District Map - Feature flagged with interactive navigation */}
-                  {/* Only renders if ENABLE_DISTRICT_MAP is true, RTO has a district, 
-                    state data exists, and crucially - svgContent is not null.
-                    This ensures maps are only shown when they actually exist. */}
-                  {ENABLE_DISTRICT_MAP && rto.district && (() => {
+                  {/* Renders OSM map when NEXT_PUBLIC_OSM_ENABLED is true, otherwise SVG map.
+                      Only renders if ENABLE_DISTRICT_MAP or OSM_ENABLED is true and RTO has a district. */}
+                  {(ENABLE_DISTRICT_MAP || OSM_ENABLED) && rto.district && (() => {
                     const stateFolderName = getStateFolderByCode(rto.stateCode);
                     const stateInfo = stateFolderName ? stateData[stateFolderName] : null;
-                    // Type-safe check: only render if svgContent exists (not null)
-                    // This handles cases where state data exists but map file doesn't
-                    return stateInfo?.svgContent && stateFolderName ? (
-                      <InteractiveMapSection
-                        district={rto.district}
-                        svgContent={stateInfo.svgContent}
-                        districtMapping={stateInfo.districtMapping}
-                        svgDistrictIds={stateInfo.svgDistrictIds}
+                    // Get RTOs in this district for OSM markers
+                    const districtRTOs = getRTOsByDistrict(rto.district, rto.state);
+                    return (
+                      <MapSectionWrapper
+                        rto={{ state: rto.state, stateCode: rto.stateCode, district: rto.district }}
+                        svgContent={stateInfo?.svgContent}
+                        districtMapping={stateInfo?.districtMapping || {}}
+                        svgDistrictIds={stateInfo?.svgDistrictIds || []}
                         districtRTOsMap={clientDistrictRTOsMap || undefined}
+                        districtRTOs={districtRTOs}
                       />
-                    ) : null;
+                    );
                   })()}
 
                   {/* Coverage Area */}
