@@ -55,3 +55,21 @@
   - dragging={true} - Click-and-drag panning
   - touchZoom={true} - Mobile pinch-to-zoom gestures
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-005: Fetch and display district boundaries
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Created**:
+  - lib/osm-boundaries.ts - Nominatim API integration with localStorage caching
+- **Files Modified**:
+  - components/OSMDistrictMap.tsx - Added GeoJSON layer, hover highlighting, tooltip
+- **Implementation Details**:
+  - fetchDistrictBoundary() fetches boundaries from Nominatim API
+  - getBoundaryCenter() calculates center from GeoJSON feature
+  - localStorage caching with 7-day TTL to minimize API calls
+  - GeoJSON layer displays district polygon with blue fill
+  - Hover highlighting changes fill opacity and border weight
+  - Tooltip shows district name and state on hover
+  - Error state displayed for failed API calls
+  - Fallback to hardcoded coordinates if boundary not found
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓
