@@ -151,6 +151,36 @@ describe('RTO Data Functions', () => {
             const rtos = getRTOsByDistrict('Non-Existent District', 'karnataka');
             expect(rtos).toEqual([]);
         });
+
+        it('should handle case-insensitive district name matching', () => {
+            const rtosLower = getRTOsByDistrict('bengaluru urban', 'karnataka');
+            const rtosUpper = getRTOsByDistrict('BENGALURU URBAN', 'karnataka');
+            const rtosMixed = getRTOsByDistrict('Bengaluru Urban', 'karnataka');
+
+            expect(rtosLower.length).toBeGreaterThan(0);
+            expect(rtosLower.length).toBe(rtosUpper.length);
+            expect(rtosLower.length).toBe(rtosMixed.length);
+
+            // Verify all return the same RTOs
+            const codesLower = rtosLower.map(rto => rto.code).sort();
+            const codesUpper = rtosUpper.map(rto => rto.code).sort();
+            const codesMixed = rtosMixed.map(rto => rto.code).sort();
+            expect(codesLower).toEqual(codesUpper);
+            expect(codesLower).toEqual(codesMixed);
+        });
+
+        it('should handle district names with extra whitespace', () => {
+            const rtosNormal = getRTOsByDistrict('Bengaluru Urban', 'karnataka');
+            const rtosSpaces = getRTOsByDistrict('  Bengaluru Urban  ', 'karnataka');
+
+            expect(rtosSpaces.length).toBe(rtosNormal.length);
+        });
+
+        it('should work without state parameter', () => {
+            const rtos = getRTOsByDistrict('Bengaluru Urban');
+            expect(rtos.length).toBeGreaterThan(0);
+            expect(rtos.every(rto => rto.district?.toLowerCase() === 'bengaluru urban')).toBe(true);
+        });
     });
 
     describe('getDistrictToRTOsMap', () => {

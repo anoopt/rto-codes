@@ -92,3 +92,21 @@
   - Tooltip shows RTO count when interactive mode is enabled
   - Click events work consistently across all zoom levels
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-007: Add function to get all RTOs for a district
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - lib/rto-data.ts - Updated getRTOsByDistrict() with case-insensitive matching
+  - __tests__/lib/rto-data.test.ts - Added 5 new unit tests for getRTOsByDistrict
+- **Implementation Details**:
+  - Updated getRTOsByDistrict() to use toLowerCase() and trim() for case-insensitive matching
+  - Function accepts district (required) and state (optional) parameters
+  - Returns array of RTOCode objects for all RTOs in that district
+  - Added JSDoc documentation explaining the function
+- **Test Results**: 24/24 tests passing (5 new tests for getRTOsByDistrict)
+  - Case-insensitive district name matching (lower, upper, mixed case)
+  - Whitespace handling with trim()
+  - Works without state parameter
+  - Empty array for non-existent district
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

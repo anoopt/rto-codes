@@ -206,9 +206,17 @@ export function searchRTOs(query: string, state?: string): RTOCode[] {
 
 /**
  * Get all RTOs belonging to a specific district
+ * Supports case-insensitive district name matching
+ * 
+ * @param district - The district name to search for (case-insensitive)
+ * @param state - Optional state name to filter by (e.g., 'karnataka')
+ * @returns Array of RTOCode objects for all RTOs in that district
  */
 export function getRTOsByDistrict(district: string, state?: string): RTOCode[] {
-  return getAllRTOs(state).filter(rto => rto.district === district);
+  const normalizedDistrict = district.toLowerCase().trim();
+  return getAllRTOs(state).filter(rto => 
+    rto.district && rto.district.toLowerCase().trim() === normalizedDistrict
+  );
 }
 
 /**

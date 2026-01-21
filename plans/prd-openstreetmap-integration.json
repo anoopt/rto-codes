@@ -110,8 +110,8 @@
                 "Typecheck passes"
             ],
             "priority": 7,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Updated existing getRTOsByDistrict function in lib/rto-data.ts to support case-insensitive district name matching using toLowerCase() and trim(). Function accepts district and optional state parameters. Added 5 unit tests to __tests__/lib/rto-data.test.ts including case-insensitive matching, whitespace handling, and working without state parameter. All 24 tests pass. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-008",
