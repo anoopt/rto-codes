@@ -311,7 +311,7 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                     const districtRTOs = getRTOsByDistrict(rto.district, rto.state);
                     return (
                       <MapSectionWrapper
-                        rto={{ state: rto.state, stateCode: rto.stateCode, district: rto.district }}
+                        rto={{ code: rto.code, state: rto.state, stateCode: rto.stateCode, district: rto.district }}
                         svgContent={stateInfo?.svgContent}
                         districtMapping={stateInfo?.districtMapping || {}}
                         svgDistrictIds={stateInfo?.svgDistrictIds || []}

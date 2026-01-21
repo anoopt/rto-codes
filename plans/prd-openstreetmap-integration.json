@@ -231,8 +231,8 @@
                 "Typecheck passes"
             ],
             "priority": 14,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Updated MapSectionWrapper.tsx to dynamically import OSMStateMap instead of OSMDistrictMap. Added code prop to rto interface for currentRTOCode. Get districts list from districtMapping keys. Convert RTOCode[] to RTOData[] for markers. Pass state, stateCode, districts, districtRTOsMap, currentDistrict, districtRTOs, and currentRTOCode to OSMStateMap. Updated app/rto/[code]/page.tsx to pass rto.code to MapSectionWrapper. State-level view displays all districts with current district highlighted (purple). RTO markers shown in current district with current RTO emphasized (red, larger, pulsing). Same layout with max-w-md container and h-64 md:h-72 sizing. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-015",

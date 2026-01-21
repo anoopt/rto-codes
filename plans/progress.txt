@@ -243,3 +243,32 @@
   - Imported L from leaflet for DivIcon creation
   - Imported geocodeCity from @/lib/osm-geocoding
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-014: Replace OSMDistrictMap with OSMStateMap in RTO detail page
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - components/MapSectionWrapper.tsx - Switched from OSMDistrictMap to OSMStateMap
+  - app/rto/[code]/page.tsx - Added rto.code to MapSectionWrapper props
+- **Implementation Details**:
+  - Updated dynamic import from OSMDistrictMap to OSMStateMap with same loading UI
+  - Added code prop to rto interface in MapSectionWrapperProps for currentRTOCode
+  - Added RTOData interface for marker data conversion
+  - Get districts list from Object.keys(districtMapping) for state map
+  - Convert RTOCode[] (districtRTOs) to RTOData[] with code, city, region, status, isDistrictHeadquarter
+  - Pass all required props to OSMStateMap:
+    - state: rto.state (e.g., "Karnataka")
+    - stateCode: rto.stateCode (e.g., "KA")
+    - districts: extracted from districtMapping keys
+    - districtRTOsMap: passed through for click navigation
+    - currentDistrict: rto.district (e.g., "Bengaluru Urban")
+    - districtRTOs: converted RTOData[] for markers
+    - currentRTOCode: rto.code (e.g., "KA-01")
+  - Updated page.tsx to pass rto.code in MapSectionWrapper props
+  - State-level view displays all districts with current district highlighted in purple
+  - RTO markers displayed within current district
+  - Current RTO marker emphasized with red color, larger size (32px), pulsing animation
+  - Other district RTOs shown with blue (active) or gray (inactive) markers
+  - Same layout styling preserved (max-w-md container, h-64 md:h-72 height)
+  - Helper text "Click on any district to explore its RTOs" displayed below map
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

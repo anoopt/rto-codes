@@ -5,8 +5,8 @@ import { isOSMEnabled } from '@/lib/feature-flags';
 import InteractiveMapSection from '@/components/InteractiveMapSection';
 import type { RTOCode } from '@/types/rto';
 
-// Dynamically import OSMDistrictMap with SSR disabled (Leaflet requires DOM)
-const OSMDistrictMap = dynamic(() => import('@/components/OSMDistrictMap'), {
+// Dynamically import OSMStateMap with SSR disabled (Leaflet requires DOM)
+const OSMStateMap = dynamic(() => import('@/components/OSMStateMap'), {
   ssr: false,
   loading: () => (
     <div className="h-64 md:h-80 lg:h-96 bg-gray-200 dark:bg-gray-800 rounded-lg flex flex-col items-center justify-center gap-3">
@@ -23,16 +23,26 @@ interface RTOInfo {
   isDistrictHeadquarter?: boolean;
 }
 
+/** RTO data for OSM markers - simplified version with required fields */
+interface RTOData {
+  code: string;
+  city: string;
+  region: string;
+  status?: 'active' | 'not-in-use' | 'discontinued';
+  isDistrictHeadquarter?: boolean;
+}
+
 interface MapSectionWrapperProps {
   /** The current RTO data */
   rto: {
+    code: string;
     state: string;
     stateCode: string;
     district?: string;
   };
   /** SVG map content for the SVG map mode */
   svgContent?: string | null;
-  /** District mapping for SVG map mode */
+  /** District mapping for SVG map mode - keys are also used as district list for OSM */
   districtMapping?: Record<string, string>;
   /** SVG district IDs for SVG map mode */
   svgDistrictIds?: string[];
@@ -45,7 +55,7 @@ interface MapSectionWrapperProps {
 /**
  * MapSectionWrapper - Conditionally renders OSM or SVG district map based on feature flag.
  * 
- * When NEXT_PUBLIC_OSM_ENABLED is true, renders the OSMDistrictMap component.
+ * When NEXT_PUBLIC_OSM_ENABLED is true, renders the OSMStateMap component with state-level view.
  * Otherwise, renders the existing InteractiveMapSection with SVG maps.
  * 
  * Both maps appear in the same location with similar styling.
@@ -67,17 +77,30 @@ export default function MapSectionWrapper({
   const useOSM = isOSMEnabled();
 
   if (useOSM) {
-    // Render OSM map
+    // Get district names from the districtMapping keys
+    const districts = Object.keys(districtMapping);
+    
+    // Convert RTOCode[] to RTOData[] for OSMStateMap markers
+    const rtoDataList: RTOData[] = districtRTOs.map(rtoItem => ({
+      code: rtoItem.code,
+      city: rtoItem.city,
+      region: rtoItem.region,
+      status: rtoItem.status,
+      isDistrictHeadquarter: rtoItem.isDistrictHeadquarter,
+    }));
+    
+    // Render OSM state map with current district highlighted
     return (
       <div className="mt-8 flex flex-col items-center gap-3 relative">
         <div className="w-full max-w-md">
-          <OSMDistrictMap
+          <OSMStateMap
             state={rto.state}
             stateCode={rto.stateCode}
-            district={rto.district}
-            interactive={true}
+            districts={districts}
             districtRTOsMap={districtRTOsMap}
-            districtRTOs={districtRTOs}
+            currentDistrict={rto.district}
+            districtRTOs={rtoDataList}
+            currentRTOCode={rto.code}
             className="w-full h-64 md:h-72"
           />
         </div>
