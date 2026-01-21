@@ -24,7 +24,7 @@ copilot -p "@$PRD_FILE @$PROGRESS_FILE \
 4. After implementation: Run 'bun run typecheck', then 'bun run lint', then 'bun run build'. \
 5. Update the user story in $PRD_FILE to set \"passes\": true and add notes about what was done. \
 6. Append completion details to $PROGRESS_FILE. \
-7. Commit your changes with message 'feat: [US-XXX] [story title]'. \
+7. Commit your changes with message 'feat: [US-XXX] [story title]', then push to remote. \
 ONLY DO ONE TASK AT A TIME." \
 --allow-tool 'write' \
 --allow-tool 'shell(bun)' \
