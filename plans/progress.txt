@@ -217,3 +217,29 @@
   - Added tooltip label "Current district" for hovered current district
   - Updated GeoJSON key to include currentDistrict for re-render on changes
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-013: Add RTO markers to state map with current RTO emphasis
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - components/OSMStateMap.tsx - Added marker display for RTOs in current district
+- **Implementation Details**:
+  - Added districtRTOs (RTOData[]) and currentRTOCode (string) props to OSMStateMapProps
+  - Created RTOData and MarkerData interfaces for marker typing
+  - Added markerPositions and loadingMarkers state for marker management
+  - Implemented useEffect for geocoding RTO city locations via geocodeCity()
+  - Caches city coordinates to avoid duplicate geocoding requests
+  - Offsets overlapping markers (same city) by 0.005 degrees (~500m)
+  - Created createMarkerIcon() function with L.divIcon for custom markers:
+    - Current RTO: 32px red marker with CSS pulse animation
+    - Active RTOs: 24px blue markers
+    - Inactive RTOs: 24px gray markers
+    - Shows RTO number (e.g., "01") in marker center
+  - Tooltip displays RTO code, city, region, and "Currently viewing" for current
+  - Popup shows RTO details with "View Details" button for non-current RTOs
+  - handleMarkerClick() navigates to RTO page (skips for current RTO)
+  - Loading indicator overlay shown while geocoding markers
+  - Imported Marker and Popup from react-leaflet
+  - Imported L from leaflet for DivIcon creation
+  - Imported geocodeCity from @/lib/osm-geocoding
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

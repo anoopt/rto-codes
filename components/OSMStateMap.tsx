@@ -3,11 +3,12 @@
 import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { MapContainer, TileLayer, GeoJSON, Tooltip } from 'react-leaflet';
-import { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type LatLngBoundsExpression } from 'leaflet';
+import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, Popup } from 'react-leaflet';
+import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type LatLngBoundsExpression } from 'leaflet';
 import type { GeoJsonObject, Feature, FeatureCollection } from 'geojson';
 import 'leaflet/dist/leaflet.css';
 import { fetchDistrictBoundary, type GeoJSONFeature } from '@/lib/osm-boundaries';
+import { geocodeCity } from '@/lib/osm-geocoding';
 
 /**
  * Loading spinner component for map loading states.
@@ -35,6 +36,21 @@ interface RTOInfo {
   isDistrictHeadquarter?: boolean;
 }
 
+/** RTO data for marker display - includes city info for geocoding */
+interface RTOData {
+  code: string;
+  city: string;
+  region: string;
+  status?: 'active' | 'not-in-use' | 'discontinued';
+  isDistrictHeadquarter?: boolean;
+}
+
+/** Marker position with RTO data */
+interface MarkerData {
+  rto: RTOData;
+  coords: LatLngTuple;
+}
+
 interface OSMStateMapProps {
   /** The state name (e.g., "Karnataka") */
   state: string;
@@ -48,6 +64,10 @@ interface OSMStateMapProps {
   districtRTOsMap?: Record<string, RTOInfo[]>;
   /** The current district to highlight (e.g., district of the RTO being viewed) */
   currentDistrict?: string;
+  /** RTOs within the current district for marker display */
+  districtRTOs?: RTOData[];
+  /** The code of the current RTO being viewed (for emphasis) */
+  currentRTOCode?: string;
 }
 
 // Styles for district polygon
@@ -136,6 +156,8 @@ export default function OSMStateMap({
   className = '',
   districtRTOsMap,
   currentDistrict,
+  districtRTOs,
+  currentRTOCode,
 }: OSMStateMapProps) {
   const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
@@ -146,6 +168,10 @@ export default function OSMStateMap({
   const [hoveredDistrict, setHoveredDistrict] = useState<string | null>(null);
   const [clickedDistrict, setClickedDistrict] = useState<string | null>(null);
   const clickTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  
+  // Marker state for RTOs in the current district
+  const [markerPositions, setMarkerPositions] = useState<MarkerData[]>([]);
+  const [loadingMarkers, setLoadingMarkers] = useState(false);
 
   const stateConfig = getStateConfig(state);
 
@@ -215,6 +241,64 @@ export default function OSMStateMap({
     };
   }, [isMounted, state, districts]);
 
+  // Geocode RTO city locations for markers in current district
+  useEffect(() => {
+    if (!isMounted || !districtRTOs || districtRTOs.length === 0 || !currentDistrict) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Clearing state when conditions aren't met
+      setMarkerPositions([]);
+      return;
+    }
+
+    let cancelled = false;
+    setLoadingMarkers(true);
+
+    const geocodeRTOs = async () => {
+      const positions: MarkerData[] = [];
+      const cityCoords = new Map<string, LatLngTuple>();
+
+      for (const rto of districtRTOs) {
+        if (cancelled) break;
+
+        // Check if we already have coords for this city
+        let coords = cityCoords.get(rto.city.toLowerCase());
+
+        if (!coords) {
+          const geocoded = await geocodeCity(rto.city, currentDistrict, state);
+          if (geocoded) {
+            coords = geocoded;
+            cityCoords.set(rto.city.toLowerCase(), coords);
+          }
+        }
+
+        if (coords) {
+          // Offset overlapping markers (same city)
+          const existingAtCity = positions.filter(
+            p => p.rto.city.toLowerCase() === rto.city.toLowerCase()
+          );
+          
+          if (existingAtCity.length > 0) {
+            // Offset by small amount for visibility (~500m)
+            const offset = existingAtCity.length * 0.005;
+            coords = [coords[0] + offset, coords[1] + offset];
+          }
+
+          positions.push({ rto, coords });
+        }
+      }
+
+      if (!cancelled) {
+        setMarkerPositions(positions);
+        setLoadingMarkers(false);
+      }
+    };
+
+    geocodeRTOs();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [isMounted, districtRTOs, currentDistrict, state]);
+
   // Combine all boundaries into a FeatureCollection for rendering
   const featureCollection = useMemo((): FeatureCollection | null => {
     if (boundaries.length === 0) return null;
@@ -232,6 +316,66 @@ export default function OSMStateMap({
       })),
     };
   }, [boundaries]);
+
+  /**
+   * Create a Leaflet DivIcon for RTO markers.
+   * Current RTO: larger, red/orange with pulsing animation
+   * Other RTOs: smaller, blue secondary style
+   */
+  const createMarkerIcon = useCallback((rtoCode: string, isCurrentRTO: boolean, isInactive: boolean) => {
+    const size = isCurrentRTO ? 32 : 24;
+    const bgColor = isCurrentRTO 
+      ? '#ef4444' // Red for current
+      : isInactive 
+        ? '#9ca3af' // Gray for inactive
+        : '#3b82f6'; // Blue for active
+    const borderColor = isCurrentRTO ? '#dc2626' : isInactive ? '#6b7280' : '#2563eb';
+    const pulseAnimation = isCurrentRTO 
+      ? 'animation: pulse 2s infinite;' 
+      : '';
+    
+    return L.divIcon({
+      className: 'custom-rto-marker',
+      html: `
+        <style>
+          @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+          }
+        </style>
+        <div style="
+          width: ${size}px;
+          height: ${size}px;
+          background-color: ${bgColor};
+          border: 2px solid ${borderColor};
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          font-weight: bold;
+          font-size: ${isCurrentRTO ? '10px' : '8px'};
+          box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+          ${pulseAnimation}
+        ">
+          ${rtoCode.split('-')[1] || ''}
+        </div>
+      `,
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+      popupAnchor: [0, -size / 2],
+    });
+  }, []);
+
+  /**
+   * Handle click on RTO marker.
+   * Only navigates for non-current RTOs.
+   */
+  const handleMarkerClick = useCallback((rtoCode: string) => {
+    if (rtoCode === currentRTOCode) return;
+    router.push(`/rto/${rtoCode.toLowerCase()}`);
+  }, [currentRTOCode, router]);
 
   /**
    * Get the primary RTO for a district.
@@ -474,6 +618,66 @@ export default function OSMStateMap({
               )}
             </Tooltip>
           </GeoJSON>
+        )}
+        
+        {/* RTO markers within the current district */}
+        {markerPositions.map(({ rto, coords }) => {
+          const isCurrentRTO = rto.code === currentRTOCode;
+          const isInactive = rto.status === 'not-in-use' || rto.status === 'discontinued';
+          
+          return (
+            <Marker
+              key={rto.code}
+              position={coords}
+              icon={createMarkerIcon(rto.code, isCurrentRTO, isInactive)}
+              eventHandlers={{
+                click: () => handleMarkerClick(rto.code),
+              }}
+            >
+              <Tooltip direction="top" offset={[0, -12]}>
+                <div>
+                  <span className="font-bold">{rto.code}</span>
+                  <span className="text-gray-500 ml-1">• {rto.city}</span>
+                  {rto.region && rto.region !== rto.city && (
+                    <span className="block text-xs text-gray-400">{rto.region}</span>
+                  )}
+                  {isCurrentRTO && (
+                    <span className="block text-xs text-red-500 font-medium mt-1">
+                      Currently viewing
+                    </span>
+                  )}
+                </div>
+              </Tooltip>
+              <Popup>
+                <div className="text-center p-1">
+                  <p className="font-bold text-lg">{rto.code}</p>
+                  <p className="text-sm text-gray-600">{rto.city}</p>
+                  {rto.region && rto.region !== rto.city && (
+                    <p className="text-xs text-gray-500">{rto.region}</p>
+                  )}
+                  {isCurrentRTO ? (
+                    <p className="text-xs text-red-500 mt-2 font-medium">Currently viewing</p>
+                  ) : (
+                    <button
+                      onClick={() => handleMarkerClick(rto.code)}
+                      className="mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600 transition-colors"
+                    >
+                      View Details
+                    </button>
+                  )}
+                </div>
+              </Popup>
+            </Marker>
+          );
+        })}
+        
+        {/* Loading indicator for markers */}
+        {loadingMarkers && (
+          <div className="leaflet-top leaflet-right">
+            <div className="leaflet-control bg-white dark:bg-gray-800 px-2 py-1 rounded shadow-md text-xs text-gray-600 dark:text-gray-300">
+              Loading markers...
+            </div>
+          </div>
         )}
       </MapContainer>
     </div>

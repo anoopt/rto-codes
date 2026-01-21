@@ -213,8 +213,8 @@
                 "Typecheck passes"
             ],
             "priority": 13,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Added districtRTOs (RTOData[]) and currentRTOCode (string) props to OSMStateMap. Implemented geocoding via geocodeCity() for marker positions. Created createMarkerIcon() with DivIcon: current RTO uses larger (32px) red marker with CSS pulse animation, other RTOs use smaller (24px) blue/gray markers. Tooltip shows RTO code, city, region, and 'Currently viewing' for current RTO. Popup shows details with 'View Details' button for non-current RTOs. handleMarkerClick() skips navigation for current RTO. Overlapping markers offset by 0.005 degrees. Loading indicator shown during geocoding. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-014",
