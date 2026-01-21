@@ -95,8 +95,8 @@
                 "Typecheck passes"
             ],
             "priority": 6,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Updated OSMDistrictMap.tsx with click-to-navigate functionality. Added interactive and districtRTOsMap props. Implemented getPrimaryRTO() to find the primary RTO (prioritizing active RTOs and district headquarters). Added handleDistrictClick() with green highlight visual feedback (200ms delay before navigation). Click events work consistently across all zoom levels. Tooltip shows RTO count when interactive. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-007",

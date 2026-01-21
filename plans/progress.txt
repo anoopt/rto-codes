@@ -73,3 +73,22 @@
   - Error state displayed for failed API calls
   - Fallback to hardcoded coordinates if boundary not found
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-006: Add click-to-navigate for district polygons
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - components/OSMDistrictMap.tsx - Added click navigation, visual feedback, and interactive props
+- **Implementation Details**:
+  - Added `interactive` and `districtRTOsMap` props matching DistrictMap pattern
+  - Added useRouter from next/navigation for client-side navigation
+  - Created `getPrimaryRTO()` function to find the best RTO for a district
+    - Prioritizes: 1) Active RTOs, 2) District headquarters, 3) First by code
+  - Created `handleDistrictClick()` with visual feedback
+    - Shows green highlight on click (clickStyle)
+    - 200ms delay before navigation for visual feedback
+  - Updated `onEachFeature` to handle click events
+  - Added `isClicked` state and `clickTimeoutRef` for animation management
+  - Tooltip shows RTO count when interactive mode is enabled
+  - Click events work consistently across all zoom levels
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

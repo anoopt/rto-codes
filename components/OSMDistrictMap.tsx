@@ -1,11 +1,19 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { MapContainer, TileLayer, GeoJSON, Tooltip } from 'react-leaflet';
 import type { LatLngTuple, Layer, LeafletMouseEvent, PathOptions } from 'leaflet';
 import type { GeoJsonObject, Feature } from 'geojson';
 import 'leaflet/dist/leaflet.css';
 import { fetchDistrictBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
+
+interface RTOInfo {
+  code: string;
+  region: string;
+  isInactive?: boolean;
+  isDistrictHeadquarter?: boolean;
+}
 
 interface OSMDistrictMapProps {
   /** The state name (e.g., "Karnataka") */
@@ -14,6 +22,10 @@ interface OSMDistrictMapProps {
   district: string;
   /** Additional CSS classes */
   className?: string;
+  /** Whether to enable click-to-navigate functionality */
+  interactive?: boolean;
+  /** Map of district names to their RTOs (required for interactive mode) */
+  districtRTOsMap?: Record<string, RTOInfo[]>;
 }
 
 // Styles for district polygon
@@ -29,6 +41,13 @@ const hoverStyle: PathOptions = {
   fillOpacity: 0.4,
   color: '#1d4ed8',
   weight: 3,
+};
+
+const clickStyle: PathOptions = {
+  fillColor: '#16a34a',
+  fillOpacity: 0.5,
+  color: '#15803d',
+  weight: 4,
 };
 
 // Default coordinates for Indian states (approximate center points)
@@ -106,23 +125,36 @@ function getDistrictCoordinates(state: string, district: string): LatLngTuple {
  * 
  * Displays an OSM map centered on the specified district with zoom/pan controls.
  * Fetches and displays district boundaries from Nominatim API with hover highlighting.
+ * When interactive is true, clicking on a district navigates to the primary RTO.
  * Uses free OSM tile servers and includes required attribution.
  */
 export default function OSMDistrictMap({
   state,
   district,
   className = '',
+  interactive = false,
+  districtRTOsMap,
 }: OSMDistrictMapProps) {
+  const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
   const [boundary, setBoundary] = useState<GeoJSONFeature | null>(null);
   const [boundaryError, setBoundaryError] = useState<string | null>(null);
   const [isLoadingBoundary, setIsLoadingBoundary] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
+  const clickTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Ensure component only renders on client (Leaflet requires DOM)
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsMounted(true);
+    
+    // Cleanup click timeout on unmount
+    return () => {
+      if (clickTimeoutRef.current) {
+        clearTimeout(clickTimeoutRef.current);
+      }
+    };
   }, []);
 
   // Fetch district boundary
@@ -163,22 +195,83 @@ export default function OSMDistrictMap({
     ? getBoundaryCenter(boundary) 
     : getDistrictCoordinates(state, district);
 
+  /**
+   * Get the primary RTO for a district.
+   * Prioritizes: 1) Active RTOs, 2) District headquarters, 3) First by code
+   */
+  const getPrimaryRTO = useCallback((districtName: string): RTOInfo | null => {
+    if (!districtRTOsMap) return null;
+    
+    const rtos = districtRTOsMap[districtName];
+    if (!rtos || rtos.length === 0) return null;
+
+    // Sort RTOs to find the primary one
+    const sortedRTOs = [...rtos].sort((a, b) => {
+      // 1. Prioritize active RTOs
+      if (!a.isInactive && b.isInactive) return -1;
+      if (a.isInactive && !b.isInactive) return 1;
+
+      // 2. Prioritize district headquarters
+      if (a.isDistrictHeadquarter && !b.isDistrictHeadquarter) return -1;
+      if (!a.isDistrictHeadquarter && b.isDistrictHeadquarter) return 1;
+
+      // 3. Sort by code
+      return a.code.localeCompare(b.code);
+    });
+
+    return sortedRTOs[0];
+  }, [districtRTOsMap]);
+
+  /**
+   * Handle click on district polygon.
+   * Shows visual feedback and navigates to the primary RTO.
+   */
+  const handleDistrictClick = useCallback((layer: Layer & { setStyle: (s: PathOptions) => void }) => {
+    if (!interactive) return;
+
+    const primaryRTO = getPrimaryRTO(district);
+    if (!primaryRTO) return;
+
+    // Show click visual feedback
+    setIsClicked(true);
+    layer.setStyle(clickStyle);
+
+    // Clear any existing timeout
+    if (clickTimeoutRef.current) {
+      clearTimeout(clickTimeoutRef.current);
+    }
+
+    // Navigate after brief visual feedback (200ms)
+    clickTimeoutRef.current = setTimeout(() => {
+      router.push(`/rto/${primaryRTO.code.toLowerCase()}`);
+    }, 200);
+  }, [interactive, district, getPrimaryRTO, router]);
+
   // GeoJSON event handlers
   const onEachFeature = useCallback((feature: Feature, layer: Layer) => {
+    const styledLayer = layer as Layer & { setStyle: (s: PathOptions) => void };
+    
     // Add hover events
     layer.on({
       mouseover: (e: LeafletMouseEvent) => {
         const target = e.target as Layer & { setStyle: (s: PathOptions) => void };
-        target.setStyle(hoverStyle);
+        if (!isClicked) {
+          target.setStyle(hoverStyle);
+        }
         setIsHovered(true);
       },
       mouseout: (e: LeafletMouseEvent) => {
         const target = e.target as Layer & { setStyle: (s: PathOptions) => void };
-        target.setStyle(defaultStyle);
+        if (!isClicked) {
+          target.setStyle(defaultStyle);
+        }
         setIsHovered(false);
       },
+      click: () => {
+        handleDistrictClick(styledLayer);
+      },
     });
-  }, []);
+  }, [isClicked, handleDistrictClick]);
 
   // Don't render on server side
   if (!isMounted) {
@@ -227,14 +320,19 @@ export default function OSMDistrictMap({
         {/* District boundary GeoJSON layer */}
         {boundary && (
           <GeoJSON
-            key={`${state}-${district}`}
+            key={`${state}-${district}-${isClicked}`}
             data={boundary as unknown as GeoJsonObject}
-            style={isHovered ? hoverStyle : defaultStyle}
+            style={isClicked ? clickStyle : (isHovered ? hoverStyle : defaultStyle)}
             onEachFeature={onEachFeature}
           >
             <Tooltip sticky>
               <span className="font-medium">{district}</span>
               <span className="text-gray-500 ml-1">({state})</span>
+              {interactive && districtRTOsMap && districtRTOsMap[district] && (
+                <span className="block text-xs text-gray-400 mt-1">
+                  Click to explore {districtRTOsMap[district].length} RTO{districtRTOsMap[district].length !== 1 ? 's' : ''}
+                </span>
+              )}
             </Tooltip>
           </GeoJSON>
         )}
