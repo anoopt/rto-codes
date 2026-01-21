@@ -1,0 +1,13 @@
+# OpenStreetMap Integration Progress
+
+## US-001: Add app-level OSM feature flag
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Created**:
+  - lib/feature-flags.ts - Feature flag utility with isOSMEnabled() and isDistrictMapEnabled()
+  - __tests__/lib/feature-flags.test.ts - Unit tests (8 tests)
+- **Files Modified**:
+  - .env.example - Added NEXT_PUBLIC_OSM_ENABLED with documentation
+- **Test Results**: 8/8 tests passing
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+- **Notes**: Git commit blocked by permissions, but implementation is complete

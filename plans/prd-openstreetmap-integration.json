@@ -1,0 +1,185 @@
+{
+    "project": "RTO Codes India",
+    "branchName": "ralph-osm",
+    "description": "OpenStreetMap Integration - Add OSM as an alternative to SVG district maps with interactive features including zoom, pan, hover highlighting, and city/town markers for multi-RTO districts",
+    "userStories": [
+        {
+            "id": "US-001",
+            "title": "Add app-level OSM feature flag",
+            "description": "As a developer, I need an environment variable to enable/disable OSM maps globally so I can test and roll out the feature safely.",
+            "acceptanceCriteria": [
+                "Add NEXT_PUBLIC_OSM_ENABLED environment variable (true/false)",
+                "Create utility function in lib/feature-flags.ts to check if OSM is enabled",
+                "Default to 'false' (use SVG maps) when not set",
+                "Document in .env.example with description",
+                "Add unit test for feature flag utility function",
+                "Typecheck passes"
+            ],
+            "priority": 1,
+            "passes": true,
+            "notes": "Implemented lib/feature-flags.ts with isOSMEnabled() and isDistrictMapEnabled() functions. Added NEXT_PUBLIC_OSM_ENABLED to .env.example with documentation. Created comprehensive unit tests in __tests__/lib/feature-flags.test.ts (8 tests passing). All typecheck, lint, and build pass."
+        },
+        {
+            "id": "US-002",
+            "title": "Install Leaflet dependencies",
+            "description": "As a developer, I need the required mapping libraries installed so I can build the OSM map component.",
+            "acceptanceCriteria": [
+                "Install leaflet and react-leaflet packages using bun",
+                "Install @types/leaflet as dev dependency",
+                "Verify packages appear in package.json",
+                "Typecheck passes"
+            ],
+            "priority": 2,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-003",
+            "title": "Create basic OSMDistrictMap component",
+            "description": "As a user viewing an RTO page, I want to see an interactive OpenStreetMap showing the district so I can explore the region geographically.",
+            "acceptanceCriteria": [
+                "Create components/OSMDistrictMap.tsx component that accepts state and district props",
+                "Component renders Leaflet/React-Leaflet map centered on the district",
+                "Uses free OSM tile servers (https://tile.openstreetmap.org)",
+                "Map shows appropriate zoom level for district view (zoom 8-10)",
+                "Include OSM attribution as required by usage policy",
+                "Component is a Client Component with 'use client' directive",
+                "Typecheck passes"
+            ],
+            "priority": 3,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-004",
+            "title": "Add zoom and pan controls",
+            "description": "As a user, I want to zoom in/out and pan around the map to explore different areas in detail.",
+            "acceptanceCriteria": [
+                "Default Leaflet zoom controls visible (+/- buttons)",
+                "Mouse wheel zoom enabled",
+                "Click-and-drag panning enabled",
+                "Double-click zoom enabled",
+                "Mobile touch gestures work (pinch-to-zoom, swipe-to-pan)",
+                "Typecheck passes"
+            ],
+            "priority": 4,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-005",
+            "title": "Fetch and display district boundaries",
+            "description": "As a user hovering over districts on the map, I want to see them highlighted so I know which district I'm about to click.",
+            "acceptanceCriteria": [
+                "Create function to fetch district boundaries using Nominatim or Overpass API",
+                "Display district polygons on the map using GeoJSON layer",
+                "Highlight district on hover with distinct color/border",
+                "Show district name in tooltip on hover",
+                "Cache boundary data in localStorage to minimize API calls",
+                "Handle API errors gracefully with fallback message",
+                "Typecheck passes"
+            ],
+            "priority": 5,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-006",
+            "title": "Add click-to-navigate for district polygons",
+            "description": "As a user, I want to click on a district to navigate to that district's RTO page, just like the current SVG maps.",
+            "acceptanceCriteria": [
+                "Clicking a district polygon navigates to the appropriate RTO code page",
+                "For districts with multiple RTOs, navigate to the first/primary RTO",
+                "Visual feedback on click (brief highlight/animation)",
+                "Works consistently across different zoom levels",
+                "Typecheck passes"
+            ],
+            "priority": 6,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-007",
+            "title": "Add function to get all RTOs for a district",
+            "description": "As a developer, I need to retrieve all RTOs within a district so I can display markers for each city/town.",
+            "acceptanceCriteria": [
+                "Add getRTOsByDistrict function to lib/rto-data.ts",
+                "Function accepts state and district parameters",
+                "Returns array of RTOCode objects for all RTOs in that district",
+                "Handles case-insensitive district name matching",
+                "Typecheck passes"
+            ],
+            "priority": 7,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-008",
+            "title": "Display city/town markers for multi-RTO districts",
+            "description": "As a user viewing a district with multiple RTOs in different cities/towns, I want to see markers for each city/town so I can navigate to the specific RTO I need.",
+            "acceptanceCriteria": [
+                "Display markers for each city/town that has an RTO within the district",
+                "Use Nominatim API to geocode city/town names to coordinates",
+                "Cache geocoded coordinates in localStorage with TTL",
+                "Markers show city/town name and RTO code on hover",
+                "Clicking a marker navigates to that RTO's detail page",
+                "Markers use consistent icon styling (numbered or color-coded)",
+                "Handle overlapping markers gracefully (offset or cluster if needed)",
+                "Typecheck passes"
+            ],
+            "priority": 8,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-009",
+            "title": "Add loading and error states",
+            "description": "As a user, I want to see appropriate feedback when the map is loading or if it fails to load.",
+            "acceptanceCriteria": [
+                "Show loading spinner while map tiles and boundaries load",
+                "Display error message if map fails to load",
+                "Provide fallback message with link to state page if boundaries unavailable",
+                "Error states don't break page layout",
+                "Loading state uses existing spinner/skeleton pattern from project",
+                "Typecheck passes"
+            ],
+            "priority": 9,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-010",
+            "title": "Integrate OSM map into RTO detail page",
+            "description": "As a user viewing an RTO detail page, I want to see the OSM map when enabled (instead of SVG) so I have consistent access to district navigation.",
+            "acceptanceCriteria": [
+                "Update app/rto/[code]/page.tsx to check NEXT_PUBLIC_OSM_ENABLED feature flag",
+                "Conditionally render OSMDistrictMap or existing SVG map based on flag",
+                "OSM map appears in the same location as SVG map",
+                "Map section has similar styling/layout to SVG version",
+                "Use dynamic import with ssr: false for OSMDistrictMap",
+                "No console errors or warnings",
+                "Typecheck passes"
+            ],
+            "priority": 10,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-011",
+            "title": "Document OSM map usage and configuration",
+            "description": "As a maintainer, I need documentation explaining how to enable OSM maps so I can roll out this feature systematically.",
+            "acceptanceCriteria": [
+                "Add OSM section to STRUCTURE.md explaining feature flag configuration",
+                "Document NEXT_PUBLIC_OSM_ENABLED in .env.example with clear description",
+                "Include example of enabling OSM globally in local development",
+                "Explain OSM API usage and rate limits (Nominatim, Overpass)",
+                "Document city/town marker behavior for multi-RTO districts",
+                "Add troubleshooting section for common OSM issues (rate limits, missing boundaries)",
+                "Typecheck passes"
+            ],
+            "priority": 11,
+            "passes": false,
+            "notes": ""
+        }
+    ]
+}
