@@ -120,7 +120,14 @@ export default function OSMDistrictMap({
       <MapContainer
         center={center}
         zoom={9}
+        // Zoom controls
+        zoomControl={true}
         scrollWheelZoom={true}
+        doubleClickZoom={true}
+        // Pan controls
+        dragging={true}
+        // Mobile touch gestures
+        touchZoom={true}
         className="h-full w-full"
         style={{ height: '100%', width: '100%' }}
       >

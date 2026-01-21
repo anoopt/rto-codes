@@ -42,3 +42,16 @@
   - Loading state shown while map initializes
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
 - **Commit**: 9ac8c59 - feat: [US-003] Create basic OSMDistrictMap component
+
+## US-004: Add zoom and pan controls
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - components/OSMDistrictMap.tsx - Added explicit zoom/pan control props
+- **Implementation Details**:
+  - zoomControl={true} - Shows +/- buttons
+  - scrollWheelZoom={true} - Mouse wheel zoom
+  - doubleClickZoom={true} - Double-click to zoom
+  - dragging={true} - Click-and-drag panning
+  - touchZoom={true} - Mobile pinch-to-zoom gestures
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓
