@@ -128,8 +128,8 @@
                 "Typecheck passes"
             ],
             "priority": 8,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Created lib/osm-geocoding.ts with Nominatim API integration and localStorage caching (30-day TTL). Rate limiting prevents abuse. Updated OSMDistrictMap.tsx with districtRTOs prop for marker display. Markers only shown for multi-RTO districts (2+). Used Leaflet DivIcon for numbered markers (blue for active, gray for inactive). Popup shows RTO code, city, region with 'View Details' button. Tooltip shows code and city on hover. Overlapping markers handled with 0.005 degree offset (~500m). Loading indicator shown while geocoding. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-009",

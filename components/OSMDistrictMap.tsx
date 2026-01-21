@@ -1,18 +1,25 @@
 'use client';
 
-import { useEffect, useState, useCallback, useRef } from 'react';
+import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { MapContainer, TileLayer, GeoJSON, Tooltip } from 'react-leaflet';
-import type { LatLngTuple, Layer, LeafletMouseEvent, PathOptions } from 'leaflet';
+import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, Popup } from 'react-leaflet';
+import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type Icon, type DivIcon } from 'leaflet';
 import type { GeoJsonObject, Feature } from 'geojson';
 import 'leaflet/dist/leaflet.css';
 import { fetchDistrictBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
+import { geocodeCity } from '@/lib/osm-geocoding';
+import type { RTOCode } from '@/types/rto';
 
 interface RTOInfo {
   code: string;
   region: string;
   isInactive?: boolean;
   isDistrictHeadquarter?: boolean;
+}
+
+interface RTOMarkerData {
+  rto: RTOCode;
+  position: LatLngTuple;
 }
 
 interface OSMDistrictMapProps {
@@ -26,6 +33,8 @@ interface OSMDistrictMapProps {
   interactive?: boolean;
   /** Map of district names to their RTOs (required for interactive mode) */
   districtRTOsMap?: Record<string, RTOInfo[]>;
+  /** Array of all RTOs in the current district for marker display */
+  districtRTOs?: RTOCode[];
 }
 
 // Styles for district polygon
@@ -121,11 +130,59 @@ function getDistrictCoordinates(state: string, district: string): LatLngTuple {
 }
 
 /**
+ * Create a numbered marker icon using Leaflet's DivIcon
+ * This avoids issues with default marker images not loading in Next.js
+ */
+function createNumberedIcon(number: number, isActive: boolean = true): DivIcon {
+  const bgColor = isActive ? '#3b82f6' : '#9ca3af'; // Blue for active, gray for inactive
+  const borderColor = isActive ? '#1d4ed8' : '#6b7280';
+  
+  return L.divIcon({
+    className: 'custom-rto-marker',
+    html: `
+      <div style="
+        background-color: ${bgColor};
+        border: 2px solid ${borderColor};
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      ">${number}</div>
+    `,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -14],
+  });
+}
+
+/**
+ * Create the default Leaflet icon (fixes missing marker images in Next.js)
+ */
+function createDefaultIcon(): Icon {
+  return L.icon({
+    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+}
+
+/**
  * OSMDistrictMap - An interactive OpenStreetMap component for district visualization.
  * 
  * Displays an OSM map centered on the specified district with zoom/pan controls.
  * Fetches and displays district boundaries from Nominatim API with hover highlighting.
  * When interactive is true, clicking on a district navigates to the primary RTO.
+ * Displays city/town markers for multi-RTO districts.
  * Uses free OSM tile servers and includes required attribution.
  */
 export default function OSMDistrictMap({
@@ -134,6 +191,7 @@ export default function OSMDistrictMap({
   className = '',
   interactive = false,
   districtRTOsMap,
+  districtRTOs = [],
 }: OSMDistrictMapProps) {
   const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
@@ -142,6 +200,8 @@ export default function OSMDistrictMap({
   const [isLoadingBoundary, setIsLoadingBoundary] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
+  const [markers, setMarkers] = useState<RTOMarkerData[]>([]);
+  const [isLoadingMarkers, setIsLoadingMarkers] = useState(false);
   const clickTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Ensure component only renders on client (Leaflet requires DOM)
@@ -189,6 +249,83 @@ export default function OSMDistrictMap({
       cancelled = true;
     };
   }, [isMounted, state, district]);
+
+  // Geocode and create markers for multi-RTO districts
+  useEffect(() => {
+    if (!isMounted || districtRTOs.length <= 1) {
+      // Only show markers for districts with multiple RTOs
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Clearing markers when condition not met
+      setMarkers([]);
+      return;
+    }
+
+    let cancelled = false;
+    setIsLoadingMarkers(true);
+
+    const geocodeRTOs = async () => {
+      const newMarkers: RTOMarkerData[] = [];
+      
+      // Sort RTOs by code to assign consistent numbers
+      const sortedRTOs = [...districtRTOs].sort((a, b) => a.code.localeCompare(b.code));
+      
+      for (const rto of sortedRTOs) {
+        if (cancelled) break;
+        
+        // Skip RTOs without city or that are discontinued
+        if (!rto.city || rto.status === 'discontinued') continue;
+        
+        try {
+          const coords = await geocodeCity(rto.city, district, state);
+          if (coords && !cancelled) {
+            // Add small offset for overlapping markers (same city)
+            const existingInSameCity = newMarkers.filter(m => m.rto.city === rto.city);
+            let position = coords;
+            
+            if (existingInSameCity.length > 0) {
+              // Offset by a small amount for each marker in the same city
+              const offset = 0.005 * existingInSameCity.length; // ~500m offset
+              position = [coords[0] + offset, coords[1] + offset];
+            }
+            
+            newMarkers.push({ rto, position });
+          }
+        } catch {
+          // Continue with other RTOs if one fails
+        }
+      }
+      
+      if (!cancelled) {
+        setMarkers(newMarkers);
+        setIsLoadingMarkers(false);
+      }
+    };
+
+    geocodeRTOs();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [isMounted, districtRTOs, district, state]);
+
+  // Memoize marker icons to prevent re-creation on each render
+  const markerIcons = useMemo(() => {
+    const icons: Map<string, DivIcon> = new Map();
+    
+    // Sort RTOs by code to assign consistent numbers
+    const sortedRTOs = [...districtRTOs].sort((a, b) => a.code.localeCompare(b.code));
+    
+    sortedRTOs.forEach((rto, index) => {
+      const isActive = rto.status !== 'not-in-use' && rto.status !== 'discontinued';
+      icons.set(rto.code, createNumberedIcon(index + 1, isActive));
+    });
+    
+    return icons;
+  }, [districtRTOs]);
+
+  // Handle marker click - navigate to RTO page
+  const handleMarkerClick = useCallback((rtoCode: string) => {
+    router.push(`/rto/${rtoCode.toLowerCase()}`);
+  }, [router]);
 
   // Get coordinates - prefer boundary center, fall back to hardcoded
   const center = boundary 
@@ -291,6 +428,13 @@ export default function OSMDistrictMap({
         </div>
       )}
       
+      {/* Loading indicator for markers */}
+      {isLoadingMarkers && districtRTOs.length > 1 && (
+        <div className="absolute top-2 right-2 z-[1000] bg-white dark:bg-gray-800 px-2 py-1 rounded text-sm text-gray-600 dark:text-gray-300 shadow">
+          Loading markers...
+        </div>
+      )}
+      
       {/* Error message for boundary */}
       {boundaryError && !isLoadingBoundary && (
         <div className="absolute top-2 left-2 z-[1000] bg-amber-100 dark:bg-amber-900 px-2 py-1 rounded text-sm text-amber-700 dark:text-amber-300 shadow max-w-[200px]">
@@ -336,6 +480,46 @@ export default function OSMDistrictMap({
             </Tooltip>
           </GeoJSON>
         )}
+        
+        {/* City/Town markers for multi-RTO districts */}
+        {markers.map((markerData) => {
+          const icon = markerIcons.get(markerData.rto.code) || createDefaultIcon();
+          const isActive = markerData.rto.status !== 'not-in-use' && markerData.rto.status !== 'discontinued';
+          
+          return (
+            <Marker
+              key={markerData.rto.code}
+              position={markerData.position}
+              icon={icon}
+              eventHandlers={{
+                click: () => handleMarkerClick(markerData.rto.code),
+              }}
+            >
+              <Popup>
+                <div className="text-center">
+                  <div className="font-bold text-blue-600">{markerData.rto.code}</div>
+                  <div className="text-sm font-medium">{markerData.rto.city}</div>
+                  <div className="text-xs text-gray-500">{markerData.rto.region}</div>
+                  {!isActive && (
+                    <div className="text-xs text-amber-600 mt-1">
+                      {markerData.rto.status === 'not-in-use' ? 'Not in use' : 'Discontinued'}
+                    </div>
+                  )}
+                  <button
+                    onClick={() => handleMarkerClick(markerData.rto.code)}
+                    className="mt-2 px-3 py-1 bg-blue-500 text-white text-xs rounded hover:bg-blue-600 transition-colors"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </Popup>
+              <Tooltip>
+                <span className="font-medium">{markerData.rto.code}</span>
+                <span className="text-gray-500 ml-1">- {markerData.rto.city}</span>
+              </Tooltip>
+            </Marker>
+          );
+        })}
       </MapContainer>
     </div>
   );

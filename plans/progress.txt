@@ -110,3 +110,25 @@
   - Works without state parameter
   - Empty array for non-existent district
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-008: Display city/town markers for multi-RTO districts
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Created**:
+  - lib/osm-geocoding.ts - Nominatim API geocoding with localStorage caching
+- **Files Modified**:
+  - components/OSMDistrictMap.tsx - Added marker display for multi-RTO districts
+- **Implementation Details**:
+  - geocodeCity() function fetches coordinates from Nominatim API
+  - geocodeCities() batch geocodes multiple cities with rate limiting (1.1s between requests)
+  - localStorage caching with 30-day TTL to minimize API calls
+  - Added districtRTOs prop to OSMDistrictMap for marker data
+  - Markers only displayed for districts with 2+ RTOs
+  - Used Leaflet DivIcon for numbered markers (1, 2, 3, etc.)
+  - Blue markers for active RTOs, gray for inactive/discontinued
+  - Popup shows RTO code, city, region, and "View Details" button
+  - Tooltip shows code and city name on hover
+  - Overlapping markers offset by 0.005 degrees (~500m) for each duplicate city
+  - Loading indicator shown while geocoding markers
+  - Markers are sorted by RTO code for consistent numbering
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓
