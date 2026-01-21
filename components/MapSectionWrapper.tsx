@@ -79,7 +79,7 @@ export default function MapSectionWrapper({
   if (useOSM) {
     // Get district names from the districtMapping keys
     const districts = Object.keys(districtMapping);
-    
+
     // Convert RTOCode[] to RTOData[] for OSMStateMap markers
     const rtoDataList: RTOData[] = districtRTOs.map(rtoItem => ({
       code: rtoItem.code,
@@ -88,7 +88,7 @@ export default function MapSectionWrapper({
       status: rtoItem.status,
       isDistrictHeadquarter: rtoItem.isDistrictHeadquarter,
     }));
-    
+
     // Render OSM state map with current district highlighted
     return (
       <div className="mt-8 flex flex-col items-center gap-3 relative">

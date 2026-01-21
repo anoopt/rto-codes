@@ -25,7 +25,8 @@ const stateData: Record<string, {
   svgDistrictIds: string[];
 }> = {};
 
-if (ENABLE_DISTRICT_MAP) {
+// Load state data when either SVG district map or OSM map is enabled
+if (ENABLE_DISTRICT_MAP || OSM_ENABLED) {
   // Dynamically load all available state maps
   const availableStates = getAvailableStates();
 
@@ -45,7 +46,7 @@ if (ENABLE_DISTRICT_MAP) {
 }
 
 // Pre-compute district to RTOs map for interactive map navigation
-const districtRTOsMap = ENABLE_DISTRICT_MAP ? getDistrictToRTOsMap() : null;
+const districtRTOsMap = (ENABLE_DISTRICT_MAP || OSM_ENABLED) ? getDistrictToRTOsMap() : null;
 
 // Convert to simplified format for client component
 const clientDistrictRTOsMap = districtRTOsMap

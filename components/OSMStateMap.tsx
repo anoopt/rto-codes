@@ -304,7 +304,7 @@ export default function OSMStateMap({
     if (boundaries.length === 0) return null;
     
     return {
-      type: 'FeatureCollection',
+      type: 'FeatureCollection' as const,
       features: boundaries.map(b => ({
         type: 'Feature' as const,
         properties: {
@@ -594,7 +594,7 @@ export default function OSMStateMap({
         {/* District boundaries GeoJSON layer */}
         {featureCollection && (
           <GeoJSON
-            key={`${state}-${boundaries.length}-${clickedDistrict}-${hoveredDistrict}-${currentDistrict}`}
+            key={`${state}-${boundaries.length}-${currentDistrict}`}
             data={featureCollection as GeoJsonObject}
             style={styleFunction}
             onEachFeature={onEachFeature}
