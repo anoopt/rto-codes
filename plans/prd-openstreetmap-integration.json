@@ -47,8 +47,8 @@
                 "Typecheck passes"
             ],
             "priority": 3,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Created components/OSMDistrictMap.tsx with state and district props. Uses MapContainer and TileLayer from react-leaflet. Centered on district using hardcoded coordinates for Karnataka and Goa districts. Uses OSM tile server (tile.openstreetmap.org) with zoom level 9. Includes OSM attribution. Client component with 'use client' directive. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-004",

@@ -22,9 +22,9 @@ copilot -p "@$PRD_FILE @$PROGRESS_FILE \
 2. Find the next incomplete user story (where \"passes\": false) and implement it completely. \
 3. Follow the acceptance criteria exactly. \
 4. After implementation: Run 'bun run typecheck', then 'bun run lint', then 'bun run build'. \
-5. Commit your changes with message 'feat: [US-XXX] [story title]'. \
-6. Update the user story in $PRD_FILE to set \"passes\": true and add notes about what was done. \
-7. Append completion details to $PROGRESS_FILE. \
+5. Update the user story in $PRD_FILE to set \"passes\": true and add notes about what was done. \
+6. Append completion details to $PROGRESS_FILE. \
+7. Commit your changes with message 'feat: [US-XXX] [story title]'. \
 ONLY DO ONE TASK AT A TIME." \
 --allow-tool 'write' \
 --allow-tool 'shell(bun)' \

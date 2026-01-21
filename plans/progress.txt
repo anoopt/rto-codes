@@ -24,3 +24,21 @@
   - bun.lock - Updated lockfile
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
 - **Commit**: 85833d6 - feat: [US-002] Install Leaflet dependencies
+
+## US-003: Create basic OSMDistrictMap component
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Created**:
+  - components/OSMDistrictMap.tsx - Leaflet/React-Leaflet map component
+- **Implementation Details**:
+  - Accepts state and district props
+  - Uses MapContainer and TileLayer from react-leaflet
+  - Imports leaflet CSS for proper styling
+  - Hardcoded coordinates for Karnataka (31 districts) and Goa (2 districts)
+  - Falls back to state center or India center if district not found
+  - Zoom level 9 (appropriate for district view)
+  - OSM attribution included as required by usage policy
+  - Client component with 'use client' directive
+  - Loading state shown while map initializes
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+- **Commit**: 9ac8c59 - feat: [US-003] Create basic OSMDistrictMap component
