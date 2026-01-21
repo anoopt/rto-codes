@@ -46,6 +46,8 @@ interface OSMStateMapProps {
   className?: string;
   /** Map of district names to their RTOs (for click navigation) */
   districtRTOsMap?: Record<string, RTOInfo[]>;
+  /** The current district to highlight (e.g., district of the RTO being viewed) */
+  currentDistrict?: string;
 }
 
 // Styles for district polygon
@@ -68,6 +70,22 @@ const clickStyle: PathOptions = {
   fillOpacity: 0.5,
   color: '#15803d',
   weight: 4,
+};
+
+// Style for the current/highlighted district (persists regardless of hover)
+const currentDistrictStyle: PathOptions = {
+  fillColor: '#7c3aed', // Purple fill for emphasis
+  fillOpacity: 0.5,
+  color: '#6d28d9', // Darker purple border
+  weight: 4,
+};
+
+// Style for current district on hover (slightly darker)
+const currentDistrictHoverStyle: PathOptions = {
+  fillColor: '#6d28d9',
+  fillOpacity: 0.6,
+  color: '#5b21b6',
+  weight: 5,
 };
 
 // State center coordinates and zoom levels
@@ -117,6 +135,7 @@ export default function OSMStateMap({
   districts,
   className = '',
   districtRTOsMap,
+  currentDistrict,
 }: OSMStateMapProps) {
   const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
@@ -265,17 +284,31 @@ export default function OSMStateMap({
   }, [getPrimaryRTO, router]);
 
   /**
-   * Get style for a district based on hover/click state
+   * Get style for a district based on current/hover/click state.
+   * Current district always gets distinct styling regardless of hover.
    */
   const getDistrictStyle = useCallback((districtName: string): PathOptions => {
+    // Normalize for case-insensitive comparison
+    const isCurrentDistrict = currentDistrict && 
+      districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim();
+    
     if (clickedDistrict === districtName) {
       return clickStyle;
     }
+    
+    // Current district gets distinct persistent styling
+    if (isCurrentDistrict) {
+      if (hoveredDistrict === districtName) {
+        return currentDistrictHoverStyle;
+      }
+      return currentDistrictStyle;
+    }
+    
     if (hoveredDistrict === districtName) {
       return hoverStyle;
     }
     return defaultStyle;
-  }, [clickedDistrict, hoveredDistrict]);
+  }, [clickedDistrict, hoveredDistrict, currentDistrict]);
 
   // GeoJSON event handlers
   const onEachFeature = useCallback((feature: Feature, layer: Layer) => {
@@ -284,19 +317,24 @@ export default function OSMStateMap({
 
     const styledLayer = layer as Layer & { setStyle: (s: PathOptions) => void };
     
+    // Check if this is the current district (case-insensitive)
+    const isCurrentDistrict = currentDistrict && 
+      districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim();
+    
     // Add hover and click events
     layer.on({
       mouseover: (e: LeafletMouseEvent) => {
         const target = e.target as Layer & { setStyle: (s: PathOptions) => void };
         if (clickedDistrict !== districtName) {
-          target.setStyle(hoverStyle);
+          target.setStyle(isCurrentDistrict ? currentDistrictHoverStyle : hoverStyle);
         }
         setHoveredDistrict(districtName);
       },
       mouseout: (e: LeafletMouseEvent) => {
         const target = e.target as Layer & { setStyle: (s: PathOptions) => void };
         if (clickedDistrict !== districtName) {
-          target.setStyle(defaultStyle);
+          // Revert to appropriate style based on whether it's the current district
+          target.setStyle(isCurrentDistrict ? currentDistrictStyle : defaultStyle);
         }
         setHoveredDistrict(null);
       },
@@ -304,7 +342,7 @@ export default function OSMStateMap({
         handleDistrictClick(districtName, styledLayer);
       },
     });
-  }, [clickedDistrict, handleDistrictClick]);
+  }, [clickedDistrict, handleDistrictClick, currentDistrict]);
 
   // Style function for GeoJSON
   const styleFunction = useCallback((feature: Feature | undefined): PathOptions => {
@@ -412,7 +450,7 @@ export default function OSMStateMap({
         {/* District boundaries GeoJSON layer */}
         {featureCollection && (
           <GeoJSON
-            key={`${state}-${boundaries.length}-${clickedDistrict}-${hoveredDistrict}`}
+            key={`${state}-${boundaries.length}-${clickedDistrict}-${hoveredDistrict}-${currentDistrict}`}
             data={featureCollection as GeoJsonObject}
             style={styleFunction}
             onEachFeature={onEachFeature}
@@ -422,6 +460,11 @@ export default function OSMStateMap({
               {hoveredDistrict && (
                 <div>
                   <span className="font-medium">{hoveredDistrict}</span>
+                  {currentDistrict && hoveredDistrict.toLowerCase().trim() === currentDistrict.toLowerCase().trim() && (
+                    <span className="block text-xs text-purple-500 font-medium mt-1">
+                      Current district
+                    </span>
+                  )}
                   {districtRTOsMap && districtRTOsMap[hoveredDistrict] && (
                     <span className="block text-xs text-gray-400 mt-1">
                       Click to explore {districtRTOsMap[hoveredDistrict].length} RTO{districtRTOsMap[hoveredDistrict].length !== 1 ? 's' : ''}

@@ -201,3 +201,19 @@
   - Loading spinner component reused from OSMDistrictMap pattern
   - Map load error state with fallback link to state page
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-012: Add current district highlighting to state map
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - components/OSMStateMap.tsx - Added currentDistrict prop and highlighting styles
+- **Implementation Details**:
+  - Added currentDistrict optional prop to OSMStateMapProps interface
+  - Created currentDistrictStyle with purple fill (opacity 0.5), darker purple border, weight 4
+  - Created currentDistrictHoverStyle with slightly darker purple fill (opacity 0.6), weight 5
+  - Updated getDistrictStyle() to check for current district with case-insensitive comparison
+  - Returns currentDistrictStyle or currentDistrictHoverStyle based on hover state
+  - Updated onEachFeature() mouseout handler to apply correct style based on current district
+  - Added tooltip label "Current district" for hovered current district
+  - Updated GeoJSON key to include currentDistrict for re-render on changes
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓
