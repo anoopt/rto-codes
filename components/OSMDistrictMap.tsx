@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, Popup } from 'react-leaflet';
 import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type Icon, type DivIcon } from 'leaflet';
 import type { GeoJsonObject, Feature } from 'geojson';
@@ -9,6 +10,26 @@ import 'leaflet/dist/leaflet.css';
 import { fetchDistrictBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
 import { geocodeCity } from '@/lib/osm-geocoding';
 import type { RTOCode } from '@/types/rto';
+
+/**
+ * Loading spinner component for map loading states.
+ * Uses a circular spinner with animate-spin for smooth animation.
+ */
+function LoadingSpinner({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
+  const sizeClasses = {
+    sm: 'w-4 h-4 border-2',
+    md: 'w-8 h-8 border-3',
+    lg: 'w-12 h-12 border-4',
+  };
+  
+  return (
+    <div 
+      className={`${sizeClasses[size]} border-blue-200 border-t-blue-600 rounded-full animate-spin`}
+      role="status"
+      aria-label="Loading"
+    />
+  );
+}
 
 interface RTOInfo {
   code: string;
@@ -25,6 +46,8 @@ interface RTOMarkerData {
 interface OSMDistrictMapProps {
   /** The state name (e.g., "Karnataka") */
   state: string;
+  /** The state code (e.g., "KA") - used for fallback link to state page */
+  stateCode?: string;
   /** The district name to center the map on */
   district: string;
   /** Additional CSS classes */
@@ -187,6 +210,7 @@ function createDefaultIcon(): Icon {
  */
 export default function OSMDistrictMap({
   state,
+  stateCode,
   district,
   className = '',
   interactive = false,
@@ -198,6 +222,7 @@ export default function OSMDistrictMap({
   const [boundary, setBoundary] = useState<GeoJSONFeature | null>(null);
   const [boundaryError, setBoundaryError] = useState<string | null>(null);
   const [isLoadingBoundary, setIsLoadingBoundary] = useState(false);
+  const [mapLoadError, setMapLoadError] = useState<string | null>(null);
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
   const [markers, setMarkers] = useState<RTOMarkerData[]>([]);
@@ -410,35 +435,86 @@ export default function OSMDistrictMap({
     });
   }, [isClicked, handleDistrictClick]);
 
-  // Don't render on server side
+  // Don't render on server side - show loading skeleton
   if (!isMounted) {
     return (
-      <div className={`h-64 md:h-80 lg:h-96 bg-gray-200 dark:bg-gray-800 rounded-lg flex items-center justify-center ${className}`}>
-        <div className="text-gray-500 dark:text-gray-400">Loading map...</div>
+      <div className={`h-64 md:h-80 lg:h-96 bg-gray-200 dark:bg-gray-800 rounded-lg flex flex-col items-center justify-center gap-3 ${className}`}>
+        <LoadingSpinner size="lg" />
+        <div className="text-gray-500 dark:text-gray-400 text-sm">Loading map...</div>
+      </div>
+    );
+  }
+
+  // Show error state if map completely fails to load (preserves layout)
+  if (mapLoadError) {
+    return (
+      <div className={`h-64 md:h-80 lg:h-96 bg-gray-100 dark:bg-gray-800 rounded-lg flex flex-col items-center justify-center gap-3 p-4 ${className}`}>
+        <div className="text-red-500 dark:text-red-400">
+          <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+          </svg>
+        </div>
+        <div className="text-center">
+          <p className="text-gray-600 dark:text-gray-300 font-medium">Unable to load map</p>
+          <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">{mapLoadError}</p>
+        </div>
+        {stateCode && (
+          <Link 
+            href={`/state/${stateCode.toLowerCase()}`}
+            className="mt-2 px-4 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition-colors"
+          >
+            Browse all {state} RTOs
+          </Link>
+        )}
       </div>
     );
   }
 
   return (
     <div className={`h-64 md:h-80 lg:h-96 rounded-lg overflow-hidden relative ${className}`}>
-      {/* Loading indicator for boundary */}
-      {isLoadingBoundary && (
-        <div className="absolute top-2 left-2 z-[1000] bg-white dark:bg-gray-800 px-2 py-1 rounded text-sm text-gray-600 dark:text-gray-300 shadow">
-          Loading boundary...
+      {/* Loading overlay with spinner for initial boundary load */}
+      {isLoadingBoundary && !boundary && (
+        <div className="absolute inset-0 z-[1000] bg-white/80 dark:bg-gray-900/80 flex flex-col items-center justify-center gap-2">
+          <LoadingSpinner size="md" />
+          <span className="text-sm text-gray-600 dark:text-gray-300">Loading district boundary...</span>
+        </div>
+      )}
+      
+      {/* Loading indicator for boundary (after initial load) */}
+      {isLoadingBoundary && boundary && (
+        <div className="absolute top-2 left-2 z-[1000] bg-white dark:bg-gray-800 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 shadow-md flex items-center gap-2">
+          <LoadingSpinner size="sm" />
+          <span>Updating...</span>
         </div>
       )}
       
       {/* Loading indicator for markers */}
       {isLoadingMarkers && districtRTOs.length > 1 && (
-        <div className="absolute top-2 right-2 z-[1000] bg-white dark:bg-gray-800 px-2 py-1 rounded text-sm text-gray-600 dark:text-gray-300 shadow">
-          Loading markers...
+        <div className="absolute top-2 right-2 z-[1000] bg-white dark:bg-gray-800 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 shadow-md flex items-center gap-2">
+          <LoadingSpinner size="sm" />
+          <span>Loading markers...</span>
         </div>
       )}
       
-      {/* Error message for boundary */}
+      {/* Error message for boundary with fallback link */}
       {boundaryError && !isLoadingBoundary && (
-        <div className="absolute top-2 left-2 z-[1000] bg-amber-100 dark:bg-amber-900 px-2 py-1 rounded text-sm text-amber-700 dark:text-amber-300 shadow max-w-[200px]">
-          {boundaryError}
+        <div className="absolute top-2 left-2 right-2 z-[1000] bg-amber-50 dark:bg-amber-900/50 border border-amber-200 dark:border-amber-700 px-3 py-2 rounded-lg shadow-md">
+          <div className="flex items-start gap-2">
+            <svg className="w-5 h-5 text-amber-500 dark:text-amber-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm text-amber-700 dark:text-amber-300">{boundaryError}</p>
+              {stateCode && (
+                <Link 
+                  href={`/state/${stateCode.toLowerCase()}`}
+                  className="text-xs text-blue-600 dark:text-blue-400 hover:underline mt-1 inline-block"
+                >
+                  View all {state} RTOs →
+                </Link>
+              )}
+            </div>
+          </div>
         </div>
       )}
 
@@ -459,6 +535,13 @@ export default function OSMDistrictMap({
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          eventHandlers={{
+            tileerror: () => {
+              // Set error only if we haven't already loaded any tiles
+              // This prevents showing error for individual tile failures
+              setMapLoadError('Map tiles failed to load. Please check your internet connection.');
+            },
+          }}
         />
         
         {/* District boundary GeoJSON layer */}

@@ -132,3 +132,28 @@
   - Loading indicator shown while geocoding markers
   - Markers are sorted by RTO code for consistent numbering
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-009: Add loading and error states
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Modified**:
+  - components/OSMDistrictMap.tsx - Enhanced loading and error states
+- **Implementation Details**:
+  - Created LoadingSpinner component with animate-spin animation (sm/md/lg sizes)
+  - Enhanced initial loading skeleton with centered spinner and "Loading map..." text
+  - Added mapLoadError state for complete map failure with:
+    - Warning icon (red)
+    - Error message display
+    - Link to state page ("Browse all {state} RTOs")
+  - Updated boundary loading overlay:
+    - Full overlay with spinner during initial load
+    - Inline indicator with spinner during updates
+  - Improved boundary error message:
+    - Warning icon (amber)
+    - Error text
+    - Fallback link to state page ("View all {state} RTOs →")
+  - Added TileLayer error handling (tileerror event)
+  - Added stateCode prop to enable state page links in fallbacks
+  - All error states preserve container dimensions (h-64 md:h-80 lg:h-96)
+  - Loading indicators positioned at z-[1000] to overlay map
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

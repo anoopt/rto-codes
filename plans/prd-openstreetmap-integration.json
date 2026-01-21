@@ -144,8 +144,8 @@
                 "Typecheck passes"
             ],
             "priority": 9,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Added LoadingSpinner component with animate-spin for consistent loading states. Enhanced initial loading skeleton with spinner and text. Added mapLoadError state with full-page error display including warning icon, error message, and link to state page. Updated boundary loading to show overlay spinner during initial load and inline indicator during updates. Improved error message for boundaries with warning icon and fallback link to state page. Added TileLayer error handling to detect tile loading failures. Added stateCode prop to enable state page links. All layouts preserved - error states use same container sizing. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-010",
