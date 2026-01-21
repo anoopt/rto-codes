@@ -179,3 +179,25 @@
   - Passes both ENABLE_DISTRICT_MAP and OSM_ENABLED to condition check
   - Gets districtRTOs via getRTOsByDistrict() for OSM marker display
 - **Build Status**: Typecheck ✓, Lint ✓, Build ✓
+
+## US-011: Create state-level OSM map component
+- **Status**: COMPLETED
+- **Date**: 2026-01-21
+- **Files Created**:
+  - components/OSMStateMap.tsx - State-level OSM map component
+- **Implementation Details**:
+  - Created OSMStateMap.tsx accepting state, stateCode, districts, districtRTOsMap props
+  - Uses MapContainer centered on state with appropriate zoom level (7 for Karnataka, 9 for Goa)
+  - STATE_CONFIG object stores center coordinates, zoom levels, and bounds per state
+  - Fetches boundaries for all districts sequentially via fetchDistrictBoundary()
+  - 100ms delay between requests to respect Nominatim rate limits
+  - Loading progress shown (X/Y districts loaded)
+  - Combines all boundaries into GeoJSON FeatureCollection for rendering
+  - Districts are clickable polygons with hover (blue) and click (green) styling
+  - Clicking district navigates to primary RTO via getPrimaryRTO() logic
+  - Error handling shows warning for failed district boundaries
+  - OSM tile server (tile.openstreetmap.org) with proper attribution
+  - Client component with 'use client' directive
+  - Loading spinner component reused from OSMDistrictMap pattern
+  - Map load error state with fallback link to state page
+- **Build Status**: Typecheck ✓, Lint ✓, Build ✓

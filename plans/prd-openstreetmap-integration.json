@@ -166,6 +166,76 @@
         },
         {
             "id": "US-011",
+            "title": "Create state-level OSM map component",
+            "description": "As a user viewing an RTO detail page, I want to see a state-level map with all districts (like the SVG version) so I can understand the geographic context.",
+            "acceptanceCriteria": [
+                "Create OSMStateMap.tsx component that accepts state prop",
+                "Component renders state-level view showing all districts",
+                "Uses appropriate zoom level to show entire state (zoom 6-7)",
+                "Fetches and displays boundaries for all districts in the state",
+                "Districts are clickable polygons",
+                "Uses same OSM tile server and attribution",
+                "Component is a Client Component with 'use client' directive",
+                "Typecheck passes"
+            ],
+            "priority": 11,
+            "passes": true,
+            "notes": "Created components/OSMStateMap.tsx accepting state, stateCode, districts, and districtRTOsMap props. Renders MapContainer at zoom level 7 for Karnataka, 9 for Goa (smaller state). Fetches boundaries for all districts sequentially with rate limiting (100ms delay). Shows loading progress (X/Y districts). Displays all district polygons as clickable with hover/click styling. Click navigates to primary RTO. Error handling for failed boundaries. Uses OSM tile server (tile.openstreetmap.org) with attribution. Client component with 'use client' directive. Typecheck, lint, and build all pass."
+        },
+        {
+            "id": "US-012",
+            "title": "Add current district highlighting to state map",
+            "description": "As a user viewing an RTO detail page, I want to see which district the RTO belongs to highlighted on the state map.",
+            "acceptanceCriteria": [
+                "Accept currentDistrict prop in OSMStateMap component",
+                "Highlight the current district with distinct color/styling (e.g., darker fill, thicker border)",
+                "Other districts use standard styling",
+                "Highlighted district stands out clearly from other districts",
+                "Highlighting persists (not just on hover)",
+                "Typecheck passes"
+            ],
+            "priority": 12,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-013",
+            "title": "Add RTO markers to state map with current RTO emphasis",
+            "description": "As a user viewing an RTO in a district with multiple RTOs, I want to see markers for all RTOs in that district, with the current RTO emphasized.",
+            "acceptanceCriteria": [
+                "Accept districtRTOs and currentRTOCode props in OSMStateMap",
+                "Display markers only for RTOs in the current district",
+                "Use distinct marker style for current RTO (e.g., larger, different color, pulsing animation)",
+                "Other RTOs in district shown with secondary marker style",
+                "Markers show RTO code and city on hover",
+                "Clicking non-current RTO markers navigates to that RTO's page",
+                "Current RTO marker is not clickable (already on that page)",
+                "Typecheck passes"
+            ],
+            "priority": 13,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-014",
+            "title": "Replace OSMDistrictMap with OSMStateMap in RTO detail page",
+            "description": "As a user, I want to see the state-level map on RTO detail pages when OSM is enabled, replacing the previous district-only view.",
+            "acceptanceCriteria": [
+                "Update MapSectionWrapper.tsx to use OSMStateMap instead of OSMDistrictMap",
+                "Pass state, currentDistrict, districtRTOs, and currentRTOCode props",
+                "Map displays state-level view with current district highlighted",
+                "RTO markers displayed within highlighted district",
+                "Current RTO marker emphasized visually",
+                "Maintains same layout and styling as before",
+                "No console errors or warnings",
+                "Typecheck passes"
+            ],
+            "priority": 14,
+            "passes": false,
+            "notes": ""
+        },
+        {
+            "id": "US-015",
             "title": "Document OSM map usage and configuration",
             "description": "As a maintainer, I need documentation explaining how to enable OSM maps so I can roll out this feature systematically.",
             "acceptanceCriteria": [
@@ -177,7 +247,7 @@
                 "Add troubleshooting section for common OSM issues (rate limits, missing boundaries)",
                 "Typecheck passes"
             ],
-            "priority": 11,
+            "priority": 15,
             "passes": false,
             "notes": ""
         }

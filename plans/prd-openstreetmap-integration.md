@@ -1,21 +1,24 @@
-# PRD: OpenStreetMap Integration for District Maps
+# PRD: OpenStreetMap Integration for State and District Maps
 
 ## Introduction
 
-Add OpenStreetMap (OSM) as an alternative mapping solution to the existing SVG district maps. This provides an easier-to-maintain option for displaying interactive district maps without the manual effort of creating custom SVG files for each state. Users can click on districts to navigate to their respective RTOs, with enhanced interactivity including zoom, pan, hover highlighting, and city/town markers for districts with multiple RTOs.
+Add OpenStreetMap (OSM) as an alternative mapping solution to the existing SVG state maps. This provides an easier-to-maintain option for displaying interactive state maps without the manual effort of creating custom SVG files for each state. On RTO detail pages, users see a state-level map with all districts displayed, the current district highlighted, and markers for all RTOs within that district (with the current RTO emphasized). Users can click on districts to navigate to their respective RTOs, with enhanced interactivity including zoom, pan, and hover highlighting.
 
 The feature will use an app-level feature flag (`NEXT_PUBLIC_OSM_ENABLED`) to enable OSM maps globally, allowing for testing and gradual rollout before making it the default.
 
 ## Goals
 
 - Provide an alternative to SVG maps that requires no manual map creation
+- Display state-level map showing all districts (like current SVG behavior)
 - Enable district click-to-navigate functionality using OpenStreetMap
+- Highlight the current district when viewing an RTO detail page
+- Display RTO markers within the current district on RTO detail pages
+- Emphasize the current RTO marker while showing other RTOs in the district as secondary markers
 - Add zoom, pan, and hover highlighting capabilities for enhanced user experience
-- Display city/town markers for districts with multiple RTOs (e.g., Bengaluru with KA-01, KA-02, KA-03)
 - Use free OSM tile servers to keep infrastructure costs at zero
 - Create a scalable solution that works for all states without custom map files
 - Use app-level feature flag for easy testing and gradual rollout
-- Maintain backward compatibility with existing SVG maps
+- Replace SVG maps when feature flag is enabled
 - Implement as MVP with one state (Karnataka) before expanding
 
 ## User Stories
