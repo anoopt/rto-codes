@@ -29,4 +29,5 @@ ONLY DO ONE TASK AT A TIME." \
 --allow-tool 'write' \
 --allow-tool 'shell(bun)' \
 --allow-tool 'shell(git add)' \
---allow-tool 'shell(git commit)'
+--allow-tool 'shell(git commit)' \
+--allow-tool 'shell(git push)'

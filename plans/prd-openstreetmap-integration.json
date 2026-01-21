@@ -30,8 +30,8 @@
                 "Typecheck passes"
             ],
             "priority": 2,
-            "passes": false,
-            "notes": ""
+            "passes": true,
+            "notes": "Installed leaflet@1.9.4, react-leaflet@5.0.0, and @types/leaflet@1.9.21. All packages verified in package.json. Typecheck, lint, and build all pass."
         },
         {
             "id": "US-003",
