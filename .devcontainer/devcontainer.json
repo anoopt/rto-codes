@@ -44,7 +44,7 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && ~/.bun/bin/bun install && echo 'NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae\nNEXT_PUBLIC_ENABLE_DISTRICT_MAP=true' > .env.local",
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && ~/.bun/bin/bun install && echo 'NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae\nNEXT_PUBLIC_OSM_ENABLED=true' > .env.local",
   "postStartCommand": "echo '✅ Environment configured! Run: bun run dev'",
   "remoteUser": "node"
 }

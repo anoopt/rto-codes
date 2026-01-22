@@ -1,11 +1,10 @@
 {
-    "stateCode": "MZ",
-    "name": "Mizoram",
-    "displayName": "Mizoram",
-    "capital": "Aizawl",
-    "totalRTOs": 8,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "MZ",
+  "name": "Mizoram",
+  "displayName": "Mizoram",
+  "capital": "Aizawl",
+  "totalRTOs": 8,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

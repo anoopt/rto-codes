@@ -1,8 +1,13 @@
 /**
- * OpenStreetMap Boundary Fetching Utilities
+ * OpenStreetMap Boundary Utilities
  * 
- * This module provides functions to fetch district boundaries from Nominatim API
- * and cache them in localStorage to minimize API calls.
+ * This module provides functions to load district boundaries from pre-generated
+ * static JSON files at /data/{state}/boundaries.json.
+ * 
+ * Data Sources (in priority order):
+ * 1. In-memory cache (for current session)
+ * 2. localStorage cache (7 days TTL)
+ * 3. Static JSON files (public/data/{state}/boundaries.json)
  */
 
 import type { LatLngTuple } from 'leaflet';
@@ -15,6 +20,7 @@ export interface GeoJSONFeature {
     display_name?: string;
     osm_id?: number;
     osm_type?: string;
+    districtName?: string;
     [key: string]: unknown;
   };
   geometry: {
@@ -29,13 +35,31 @@ export interface BoundaryData {
   timestamp: number;
 }
 
+// Type for static boundaries file
+interface StaticBoundaries {
+  type: 'FeatureCollection';
+  generatedAt: string;
+  state: string;
+  districtCount: number;
+  successCount: number;
+  failedDistricts: string[];
+  features: GeoJSONFeature[];
+}
+
 // Cache settings
 const CACHE_PREFIX = 'osm_boundary_';
-const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
 
-// Nominatim API settings
-const NOMINATIM_BASE_URL = 'https://nominatim.openstreetmap.org';
-const USER_AGENT = 'RTOCodesIndia/1.0 (https://rto-codes.in)';
+// In-memory caches
+const memoryCache = new Map<string, GeoJSONFeature>();
+const staticBoundariesCache = new Map<string, StaticBoundaries | null>();
+
+/**
+ * Convert state name to folder name
+ */
+function stateToFolderName(state: string): string {
+  return state.toLowerCase().replace(/\s+/g, '-');
+}
 
 /**
  * Generate a cache key for a district boundary
@@ -47,26 +71,30 @@ function getCacheKey(state: string, district: string): string {
 }
 
 /**
- * Get boundary data from localStorage cache
+ * Get boundary from localStorage cache
  */
-function getFromCache(state: string, district: string): GeoJSONFeature | null {
+function getFromLocalStorage(state: string, district: string): GeoJSONFeature | null {
   if (typeof window === 'undefined') return null;
-  
+
   try {
     const key = getCacheKey(state, district);
     const cached = localStorage.getItem(key);
-    
     if (!cached) return null;
-    
+
     const data: BoundaryData = JSON.parse(cached);
-    const now = Date.now();
-    
-    // Check if cache is still valid
-    if (now - data.timestamp > CACHE_TTL) {
+
+    // Check TTL
+    if (Date.now() - data.timestamp > CACHE_TTL) {
       localStorage.removeItem(key);
       return null;
     }
-    
+
+    // Validate geometry type
+    if (data.feature.geometry?.type !== 'Polygon' && data.feature.geometry?.type !== 'MultiPolygon') {
+      localStorage.removeItem(key);
+      return null;
+    }
+
     return data.feature;
   } catch {
     return null;
@@ -74,93 +102,93 @@ function getFromCache(state: string, district: string): GeoJSONFeature | null {
 }
 
 /**
- * Save boundary data to localStorage cache
+ * Save boundary to localStorage
  */
-function saveToCache(state: string, district: string, feature: GeoJSONFeature): void {
+function saveToLocalStorage(state: string, district: string, feature: GeoJSONFeature): void {
   if (typeof window === 'undefined') return;
-  
+
   try {
     const key = getCacheKey(state, district);
-    const data: BoundaryData = {
-      feature,
-      timestamp: Date.now(),
-    };
+    const data: BoundaryData = { feature, timestamp: Date.now() };
     localStorage.setItem(key, JSON.stringify(data));
   } catch {
-    // localStorage might be full or disabled - fail silently
+    // localStorage might be full or disabled
   }
 }
 
 /**
- * Fetch district boundary from Nominatim API
+ * Load static boundaries file for a state
  */
-async function fetchBoundaryFromNominatim(
-  state: string,
-  district: string
-): Promise<GeoJSONFeature | null> {
+async function loadStaticBoundaries(state: string): Promise<StaticBoundaries | null> {
+  const folder = stateToFolderName(state);
+
+  // Check cache first
+  if (staticBoundariesCache.has(folder)) {
+    return staticBoundariesCache.get(folder) || null;
+  }
+
   try {
-    // Build search query: "District Name, State, India"
-    const query = `${district} district, ${state}, India`;
-    const params = new URLSearchParams({
-      q: query,
-      format: 'geojson',
-      polygon_geojson: '1',
-      limit: '1',
-      featuretype: 'settlement',
-    });
-
-    const response = await fetch(`${NOMINATIM_BASE_URL}/search?${params}`, {
-      headers: {
-        'User-Agent': USER_AGENT,
-      },
-    });
-
+    const response = await fetch(`/data/${folder}/boundaries.json`);
     if (!response.ok) {
-      throw new Error(`Nominatim API error: ${response.status}`);
+      staticBoundariesCache.set(folder, null);
+      return null;
     }
 
-    const data = await response.json();
-
-    // Check if we got results
-    if (!data.features || data.features.length === 0) {
-      // Try alternative search without "district" suffix
-      const altParams = new URLSearchParams({
-        q: `${district}, ${state}, India`,
-        format: 'geojson',
-        polygon_geojson: '1',
-        limit: '1',
-      });
-
-      const altResponse = await fetch(`${NOMINATIM_BASE_URL}/search?${altParams}`, {
-        headers: {
-          'User-Agent': USER_AGENT,
-        },
-      });
-
-      if (!altResponse.ok) {
-        return null;
-      }
-
-      const altData = await altResponse.json();
-      
-      if (!altData.features || altData.features.length === 0) {
-        return null;
-      }
-
-      return altData.features[0] as GeoJSONFeature;
-    }
-
-    return data.features[0] as GeoJSONFeature;
+    const data: StaticBoundaries = await response.json();
+    staticBoundariesCache.set(folder, data);
+    return data;
   } catch {
+    staticBoundariesCache.set(folder, null);
     return null;
   }
 }
 
 /**
- * Fetch district boundary with caching
+ * Find district in static boundaries
+ */
+function findInStaticBoundaries(
+  boundaries: StaticBoundaries,
+  district: string
+): GeoJSONFeature | null {
+  const lowerDistrict = district.toLowerCase().trim();
+
+  for (const feature of boundaries.features) {
+    const featureName = (feature.properties?.districtName || feature.properties?.name || '').toLowerCase().trim();
+    if (featureName === lowerDistrict) {
+      return feature;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Check if a boundary is available in cache (sync, no async calls)
+ */
+export function getCachedBoundary(state: string, district: string): GeoJSONFeature | null {
+  const cacheKey = getCacheKey(state, district);
+
+  // Check in-memory cache
+  const inMemory = memoryCache.get(cacheKey);
+  if (inMemory) return inMemory;
+
+  // Check localStorage
+  const cached = getFromLocalStorage(state, district);
+  if (cached) {
+    memoryCache.set(cacheKey, cached);
+    return cached;
+  }
+
+  return null;
+}
+
+/**
+ * Fetch district boundary with cascading fallbacks
  * 
- * First checks localStorage cache, then fetches from Nominatim if needed.
- * Results are cached for 7 days to minimize API calls.
+ * Priority:
+ * 1. In-memory cache
+ * 2. localStorage cache  
+ * 3. Static JSON file (public/data/{state}/boundaries.json)
  * 
  * @param state - The state name (e.g., "Karnataka")
  * @param district - The district name (e.g., "Bengaluru Urban")
@@ -170,21 +198,52 @@ export async function fetchDistrictBoundary(
   state: string,
   district: string
 ): Promise<GeoJSONFeature | null> {
-  // Check cache first
-  const cached = getFromCache(state, district);
+  const cacheKey = getCacheKey(state, district);
+
+  // 1. Check in-memory cache
+  const inMemory = memoryCache.get(cacheKey);
+  if (inMemory) return inMemory;
+
+  // 2. Check localStorage cache
+  const cached = getFromLocalStorage(state, district);
   if (cached) {
+    memoryCache.set(cacheKey, cached);
     return cached;
   }
 
-  // Fetch from API
-  const feature = await fetchBoundaryFromNominatim(state, district);
-  
-  if (feature) {
-    // Cache the result
-    saveToCache(state, district, feature);
+  // 3. Try static boundaries file
+  const staticBoundaries = await loadStaticBoundaries(state);
+  if (staticBoundaries) {
+    const feature = findInStaticBoundaries(staticBoundaries, district);
+    if (feature) {
+      memoryCache.set(cacheKey, feature);
+      saveToLocalStorage(state, district, feature);
+      return feature;
+    }
   }
 
-  return feature;
+  return null;
+}
+
+/**
+ * Load all boundaries for a state at once (efficient batch load)
+ */
+export async function loadAllBoundariesForState(state: string): Promise<Map<string, GeoJSONFeature>> {
+  const result = new Map<string, GeoJSONFeature>();
+
+  const staticBoundaries = await loadStaticBoundaries(state);
+  if (!staticBoundaries) return result;
+
+  for (const feature of staticBoundaries.features) {
+    const districtName = feature.properties?.districtName || feature.properties?.name;
+    if (districtName) {
+      const cacheKey = getCacheKey(state, districtName);
+      memoryCache.set(cacheKey, feature);
+      result.set(districtName, feature);
+    }
+  }
+
+  return result;
 }
 
 /**
@@ -192,17 +251,14 @@ export async function fetchDistrictBoundary(
  */
 export function getBoundaryCenter(feature: GeoJSONFeature): LatLngTuple {
   if (feature.bbox) {
-    // Use bbox center if available
     const [minLon, minLat, maxLon, maxLat] = feature.bbox;
     return [(minLat + maxLat) / 2, (minLon + maxLon) / 2];
   }
 
-  // Calculate from geometry (simplified - just use first coordinate)
   const coords = feature.geometry.coordinates;
   if (feature.geometry.type === 'Polygon' && coords[0]) {
     const ring = coords[0] as number[][];
     if (ring.length > 0) {
-      // Average first few points
       let sumLat = 0, sumLon = 0;
       const count = Math.min(ring.length, 10);
       for (let i = 0; i < count; i++) {
@@ -213,16 +269,18 @@ export function getBoundaryCenter(feature: GeoJSONFeature): LatLngTuple {
     }
   }
 
-  // Fallback
-  return [20.5937, 78.9629]; // Center of India
+  return [20.5937, 78.9629]; // Center of India fallback
 }
 
 /**
- * Clear all cached boundaries (useful for debugging)
+ * Clear all cached boundaries
  */
 export function clearBoundaryCache(): void {
+  memoryCache.clear();
+  staticBoundariesCache.clear();
+
   if (typeof window === 'undefined') return;
-  
+
   const keys = Object.keys(localStorage);
   for (const key of keys) {
     if (key.startsWith(CACHE_PREFIX)) {

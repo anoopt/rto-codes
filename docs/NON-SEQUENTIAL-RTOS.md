@@ -59,11 +59,10 @@ After running verification, your `config.json` will look like:
     "AP-202",
     "AP-203"
   ],
-  "mapFile": "map.svg",
   "districtMapping": {},
-  "svgDistrictIds": [],
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "osmEnabled": false
 }
 ```
 

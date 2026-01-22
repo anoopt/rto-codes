@@ -1,11 +1,10 @@
 {
-    "stateCode": "KL",
-    "name": "Kerala",
-    "displayName": "Kerala",
-    "capital": "Thiruvananthapuram",
-    "totalRTOs": 87,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "KL",
+  "name": "Kerala",
+  "displayName": "Kerala",
+  "capital": "Thiruvananthapuram",
+  "totalRTOs": 87,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

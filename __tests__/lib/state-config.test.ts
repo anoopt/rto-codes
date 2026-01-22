@@ -6,8 +6,6 @@ import {
     getStateFolderByCode,
     getSvgDistrictId,
     getDistrictFromSvgId,
-    getSvgDistrictIds,
-    getStateMapSvg
 } from '@/lib/state-config';
 
 // Mock console.error to suppress expected error messages in tests
@@ -71,13 +69,6 @@ describe('State Configuration Functions', () => {
             expect(config?.districtMapping).toBeDefined();
             expect(typeof config?.districtMapping).toBe('object');
             expect(Object.keys(config?.districtMapping || {}).length).toBeGreaterThan(0);
-        });
-
-        it('should include svgDistrictIds', () => {
-            const config = getStateConfig('karnataka');
-            expect(config?.svgDistrictIds).toBeDefined();
-            expect(Array.isArray(config?.svgDistrictIds)).toBe(true);
-            expect(config?.svgDistrictIds.length).toBeGreaterThan(0);
         });
 
         it('should cache config on subsequent calls', () => {
@@ -177,74 +168,6 @@ describe('State Configuration Functions', () => {
         });
     });
 
-    describe('getSvgDistrictIds', () => {
-        it('should return array of SVG district IDs', () => {
-            const ids = getSvgDistrictIds('karnataka');
-            expect(Array.isArray(ids)).toBe(true);
-            expect(ids.length).toBeGreaterThan(0);
-        });
-
-        it('should return empty array for non-existent state', () => {
-            const ids = getSvgDistrictIds('non-existent-state');
-            expect(ids).toEqual([]);
-        });
-
-        it('should match svgDistrictIds from config', () => {
-            const config = getStateConfig('karnataka');
-            const ids = getSvgDistrictIds('karnataka');
-            expect(ids).toEqual(config?.svgDistrictIds);
-        });
-    });
-
-    describe('getStateMapSvg', () => {
-        it('should load Karnataka map SVG if it exists', () => {
-            const svg = getStateMapSvg('karnataka');
-
-            if (svg) {
-                expect(typeof svg).toBe('string');
-                expect(svg.length).toBeGreaterThan(0);
-                expect(svg).toContain('<svg');
-                expect(svg).not.toContain('<?xml'); // XML declaration should be removed
-                expect(svg).not.toContain('<!--'); // Comments should be removed
-            }
-        });
-
-        it('should return null for state without map file', () => {
-            // Pick a state that doesn't have a map.svg yet
-            const states = getAvailableStates();
-            const stateWithoutMap = states.find(state => {
-                const config = getStateConfig(state);
-                return config && !config.mapFile;
-            });
-
-            if (stateWithoutMap) {
-                const svg = getStateMapSvg(stateWithoutMap);
-                expect(svg).toBeNull();
-            }
-        });
-
-        it('should return null for non-existent state', () => {
-            const svg = getStateMapSvg('non-existent-state');
-            expect(svg).toBeNull();
-        });
-
-        it('should process SVG content correctly', () => {
-            const svg = getStateMapSvg('karnataka');
-
-            if (svg) {
-                // Should not have XML declaration
-                expect(svg).not.toMatch(/<\?xml/);
-
-                // Should not have comments
-                expect(svg).not.toMatch(/<!--/);
-
-                // Should start with < (no leading whitespace) and end with > (may have trailing newline)
-                expect(svg.trimStart()).toMatch(/^<svg/);
-                expect(svg.trimEnd()).toMatch(/>$/);
-            }
-        });
-    });
-
     describe('District Mapping Integration', () => {
         it('should have bidirectional mapping working correctly', () => {
             const config = getStateConfig('karnataka');
@@ -265,17 +188,6 @@ describe('State Configuration Functions', () => {
                     if (retrievedModernName) {
                         expect(config.districtMapping[retrievedModernName]).toBe(svgId);
                     }
-                });
-            }
-        });
-
-        it('should have all svgDistrictIds present in districtMapping values', () => {
-            const config = getStateConfig('karnataka');
-            if (config) {
-                const mappedSvgIds = new Set(Object.values(config.districtMapping));
-
-                config.svgDistrictIds.forEach(svgId => {
-                    expect(mappedSvgIds.has(svgId)).toBe(true);
                 });
             }
         });

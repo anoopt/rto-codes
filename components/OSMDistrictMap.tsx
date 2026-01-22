@@ -3,13 +3,84 @@
 import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, Popup } from 'react-leaflet';
-import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type Icon, type DivIcon } from 'leaflet';
+import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, Popup, useMap } from 'react-leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster';
+import L, { type LatLngTuple, type LatLngBounds, type Layer, type LeafletMouseEvent, type PathOptions, type Icon, type DivIcon } from 'leaflet';
 import type { GeoJsonObject, Feature } from 'geojson';
 import 'leaflet/dist/leaflet.css';
 import { fetchDistrictBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
-import { geocodeCity } from '@/lib/osm-geocoding';
+import { getRTOCoordinates } from '@/lib/osm-geocoding';
 import type { RTOCode } from '@/types/rto';
+
+/**
+ * Component to fit the map view to the district boundary and keep zoom focused on district.
+ * Uses useMap hook to access the map instance.
+ */
+function MapBoundsController({ boundary, center }: { boundary: GeoJSONFeature | null; center: LatLngTuple }) {
+  const map = useMap();
+  const hasInitialized = useRef(false);
+  const isUserPanning = useRef(false);
+
+  // Fit to boundary on first load
+  useEffect(() => {
+    if (boundary && boundary.bbox && !hasInitialized.current) {
+      // bbox format: [minLon, minLat, maxLon, maxLat]
+      const [minLon, minLat, maxLon, maxLat] = boundary.bbox;
+      const bounds: LatLngBounds = L.latLngBounds(
+        [minLat, minLon], // Southwest corner
+        [maxLat, maxLon]  // Northeast corner
+      );
+
+      // Fit the map to the boundary with some padding
+      map.fitBounds(bounds, {
+        padding: [20, 20],
+        maxZoom: 11,
+        animate: true,
+      });
+
+      hasInitialized.current = true;
+    }
+  }, [map, boundary]);
+
+  // Track when user is panning vs zooming
+  useEffect(() => {
+    const handleDragStart = () => {
+      isUserPanning.current = true;
+    };
+
+    const handleDragEnd = () => {
+      // Reset after a short delay
+      setTimeout(() => {
+        isUserPanning.current = false;
+      }, 100);
+    };
+
+    // After zoom ends, recenter on district if user wasn't panning
+    const handleZoomEnd = () => {
+      if (!isUserPanning.current && hasInitialized.current) {
+        const districtCenter = L.latLng(center[0], center[1]);
+        const currentCenter = map.getCenter();
+
+        // Only recenter if we're not already close to district center
+        if (currentCenter.distanceTo(districtCenter) > 1000) {
+          map.panTo(districtCenter, { animate: true, duration: 0.25 });
+        }
+      }
+    };
+
+    map.on('dragstart', handleDragStart);
+    map.on('dragend', handleDragEnd);
+    map.on('zoomend', handleZoomEnd);
+
+    return () => {
+      map.off('dragstart', handleDragStart);
+      map.off('dragend', handleDragEnd);
+      map.off('zoomend', handleZoomEnd);
+    };
+  }, [map, center]);
+
+  return null;
+}
 
 /**
  * Loading spinner component for map loading states.
@@ -21,9 +92,9 @@ function LoadingSpinner({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
     md: 'w-8 h-8 border-3',
     lg: 'w-12 h-12 border-4',
   };
-  
+
   return (
-    <div 
+    <div
       className={`${sizeClasses[size]} border-blue-200 border-t-blue-600 rounded-full animate-spin`}
       role="status"
       aria-label="Loading"
@@ -159,7 +230,7 @@ function getDistrictCoordinates(state: string, district: string): LatLngTuple {
 function createNumberedIcon(number: number, isActive: boolean = true): DivIcon {
   const bgColor = isActive ? '#3b82f6' : '#9ca3af'; // Blue for active, gray for inactive
   const borderColor = isActive ? '#1d4ed8' : '#6b7280';
-  
+
   return L.divIcon({
     className: 'custom-rto-marker',
     html: `
@@ -200,6 +271,50 @@ function createDefaultIcon(): Icon {
 }
 
 /**
+ * Create a custom cluster icon showing the count of RTOs in the cluster
+ */
+function createClusterCustomIcon(cluster: { getChildCount: () => number }): DivIcon {
+  const count = cluster.getChildCount();
+
+  // Size and color based on cluster size
+  let size = 36;
+  let bgColor = '#3b82f6'; // blue-500
+  let borderColor = '#1d4ed8'; // blue-700
+
+  if (count >= 10) {
+    size = 44;
+    bgColor = '#8b5cf6'; // violet-500
+    borderColor = '#6d28d9'; // violet-700
+  } else if (count >= 5) {
+    size = 40;
+    bgColor = '#06b6d4'; // cyan-500
+    borderColor = '#0891b2'; // cyan-600
+  }
+
+  return L.divIcon({
+    html: `
+      <div style="
+        background-color: ${bgColor};
+        border: 3px solid ${borderColor};
+        border-radius: 50%;
+        width: ${size}px;
+        height: ${size}px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        font-size: ${count >= 10 ? 14 : 13}px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+      ">${count}</div>
+    `,
+    className: 'custom-cluster-icon',
+    iconSize: L.point(size, size),
+    iconAnchor: L.point(size / 2, size / 2),
+  });
+}
+
+/**
  * OSMDistrictMap - An interactive OpenStreetMap component for district visualization.
  * 
  * Displays an OSM map centered on the specified district with zoom/pan controls.
@@ -233,7 +348,7 @@ export default function OSMDistrictMap({
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsMounted(true);
-    
+
     // Cleanup click timeout on unmount
     return () => {
       if (clickTimeoutRef.current) {
@@ -289,36 +404,37 @@ export default function OSMDistrictMap({
 
     const geocodeRTOs = async () => {
       const newMarkers: RTOMarkerData[] = [];
-      
+
       // Sort RTOs by code to assign consistent numbers
       const sortedRTOs = [...districtRTOs].sort((a, b) => a.code.localeCompare(b.code));
-      
+
       for (const rto of sortedRTOs) {
         if (cancelled) break;
-        
+
         // Skip RTOs without city or that are discontinued
         if (!rto.city || rto.status === 'discontinued') continue;
-        
+
         try {
-          const coords = await geocodeCity(rto.city, district, state);
+          // Use RTO code for lookup - more reliable than city name matching
+          const coords = await getRTOCoordinates(rto.code, state);
           if (coords && !cancelled) {
             // Add small offset for overlapping markers (same city)
             const existingInSameCity = newMarkers.filter(m => m.rto.city === rto.city);
             let position = coords;
-            
+
             if (existingInSameCity.length > 0) {
               // Offset by a small amount for each marker in the same city
               const offset = 0.005 * existingInSameCity.length; // ~500m offset
               position = [coords[0] + offset, coords[1] + offset];
             }
-            
+
             newMarkers.push({ rto, position });
           }
         } catch {
           // Continue with other RTOs if one fails
         }
       }
-      
+
       if (!cancelled) {
         setMarkers(newMarkers);
         setIsLoadingMarkers(false);
@@ -335,15 +451,15 @@ export default function OSMDistrictMap({
   // Memoize marker icons to prevent re-creation on each render
   const markerIcons = useMemo(() => {
     const icons: Map<string, DivIcon> = new Map();
-    
+
     // Sort RTOs by code to assign consistent numbers
     const sortedRTOs = [...districtRTOs].sort((a, b) => a.code.localeCompare(b.code));
-    
+
     sortedRTOs.forEach((rto, index) => {
       const isActive = rto.status !== 'not-in-use' && rto.status !== 'discontinued';
       icons.set(rto.code, createNumberedIcon(index + 1, isActive));
     });
-    
+
     return icons;
   }, [districtRTOs]);
 
@@ -353,8 +469,8 @@ export default function OSMDistrictMap({
   }, [router]);
 
   // Get coordinates - prefer boundary center, fall back to hardcoded
-  const center = boundary 
-    ? getBoundaryCenter(boundary) 
+  const center = boundary
+    ? getBoundaryCenter(boundary)
     : getDistrictCoordinates(state, district);
 
   /**
@@ -363,7 +479,7 @@ export default function OSMDistrictMap({
    */
   const getPrimaryRTO = useCallback((districtName: string): RTOInfo | null => {
     if (!districtRTOsMap) return null;
-    
+
     const rtos = districtRTOsMap[districtName];
     if (!rtos || rtos.length === 0) return null;
 
@@ -412,7 +528,7 @@ export default function OSMDistrictMap({
   // GeoJSON event handlers
   const onEachFeature = useCallback((feature: Feature, layer: Layer) => {
     const styledLayer = layer as Layer & { setStyle: (s: PathOptions) => void };
-    
+
     // Add hover events
     layer.on({
       mouseover: (e: LeafletMouseEvent) => {
@@ -459,7 +575,7 @@ export default function OSMDistrictMap({
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">{mapLoadError}</p>
         </div>
         {stateCode && (
-          <Link 
+          <Link
             href={`/state/${stateCode.toLowerCase()}`}
             className="mt-2 px-4 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition-colors"
           >
@@ -479,7 +595,7 @@ export default function OSMDistrictMap({
           <span className="text-sm text-gray-600 dark:text-gray-300">Loading district boundary...</span>
         </div>
       )}
-      
+
       {/* Loading indicator for boundary (after initial load) */}
       {isLoadingBoundary && boundary && (
         <div className="absolute top-2 left-2 z-[1000] bg-white dark:bg-gray-800 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 shadow-md flex items-center gap-2">
@@ -487,7 +603,7 @@ export default function OSMDistrictMap({
           <span>Updating...</span>
         </div>
       )}
-      
+
       {/* Loading indicator for markers */}
       {isLoadingMarkers && districtRTOs.length > 1 && (
         <div className="absolute top-2 right-2 z-[1000] bg-white dark:bg-gray-800 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 shadow-md flex items-center gap-2">
@@ -495,7 +611,7 @@ export default function OSMDistrictMap({
           <span>Loading markers...</span>
         </div>
       )}
-      
+
       {/* Error message for boundary with fallback link */}
       {boundaryError && !isLoadingBoundary && (
         <div className="absolute top-2 left-2 right-2 z-[1000] bg-amber-50 dark:bg-amber-900/50 border border-amber-200 dark:border-amber-700 px-3 py-2 rounded-lg shadow-md">
@@ -506,7 +622,7 @@ export default function OSMDistrictMap({
             <div className="flex-1 min-w-0">
               <p className="text-sm text-amber-700 dark:text-amber-300">{boundaryError}</p>
               {stateCode && (
-                <Link 
+                <Link
                   href={`/state/${stateCode.toLowerCase()}`}
                   className="text-xs text-blue-600 dark:text-blue-400 hover:underline mt-1 inline-block"
                 >
@@ -543,7 +659,10 @@ export default function OSMDistrictMap({
             },
           }}
         />
-        
+
+        {/* Controller to fit map to district boundary */}
+        <MapBoundsController boundary={boundary} center={center} />
+
         {/* District boundary GeoJSON layer */}
         {boundary && (
           <GeoJSON
@@ -563,46 +682,58 @@ export default function OSMDistrictMap({
             </Tooltip>
           </GeoJSON>
         )}
-        
-        {/* City/Town markers for multi-RTO districts */}
-        {markers.map((markerData) => {
-          const icon = markerIcons.get(markerData.rto.code) || createDefaultIcon();
-          const isActive = markerData.rto.status !== 'not-in-use' && markerData.rto.status !== 'discontinued';
-          
-          return (
-            <Marker
-              key={markerData.rto.code}
-              position={markerData.position}
-              icon={icon}
-              eventHandlers={{
-                click: () => handleMarkerClick(markerData.rto.code),
-              }}
-            >
-              <Popup>
-                <div className="text-center">
-                  <div className="font-bold text-blue-600">{markerData.rto.code}</div>
-                  <div className="text-sm font-medium">{markerData.rto.city}</div>
-                  <div className="text-xs text-gray-500">{markerData.rto.region}</div>
-                  {!isActive && (
-                    <div className="text-xs text-amber-600 mt-1">
-                      {markerData.rto.status === 'not-in-use' ? 'Not in use' : 'Discontinued'}
+
+        {/* City/Town markers for multi-RTO districts with clustering */}
+        {markers.length > 0 && (
+          <MarkerClusterGroup
+            chunkedLoading
+            iconCreateFunction={createClusterCustomIcon}
+            maxClusterRadius={50}
+            spiderfyOnMaxZoom={true}
+            showCoverageOnHover={false}
+            zoomToBoundsOnClick={true}
+            disableClusteringAtZoom={13}
+          >
+            {markers.map((markerData) => {
+              const icon = markerIcons.get(markerData.rto.code) || createDefaultIcon();
+              const isActive = markerData.rto.status !== 'not-in-use' && markerData.rto.status !== 'discontinued';
+
+              return (
+                <Marker
+                  key={markerData.rto.code}
+                  position={markerData.position}
+                  icon={icon}
+                  eventHandlers={{
+                    click: () => handleMarkerClick(markerData.rto.code),
+                  }}
+                >
+                  <Popup>
+                    <div className="text-center">
+                      <div className="font-bold text-blue-600">{markerData.rto.code}</div>
+                      <div className="text-sm font-medium">{markerData.rto.city}</div>
+                      <div className="text-xs text-gray-500">{markerData.rto.region}</div>
+                      {!isActive && (
+                        <div className="text-xs text-amber-600 mt-1">
+                          {markerData.rto.status === 'not-in-use' ? 'Not in use' : 'Discontinued'}
+                        </div>
+                      )}
+                      <button
+                        onClick={() => handleMarkerClick(markerData.rto.code)}
+                        className="mt-2 px-3 py-1 bg-blue-500 text-white text-xs rounded hover:bg-blue-600 transition-colors"
+                      >
+                        View Details
+                      </button>
                     </div>
-                  )}
-                  <button
-                    onClick={() => handleMarkerClick(markerData.rto.code)}
-                    className="mt-2 px-3 py-1 bg-blue-500 text-white text-xs rounded hover:bg-blue-600 transition-colors"
-                  >
-                    View Details
-                  </button>
-                </div>
-              </Popup>
-              <Tooltip>
-                <span className="font-medium">{markerData.rto.code}</span>
-                <span className="text-gray-500 ml-1">- {markerData.rto.city}</span>
-              </Tooltip>
-            </Marker>
-          );
-        })}
+                  </Popup>
+                  <Tooltip>
+                    <span className="font-medium">{markerData.rto.code}</span>
+                    <span className="text-gray-500 ml-1">- {markerData.rto.city}</span>
+                  </Tooltip>
+                </Marker>
+              );
+            })}
+          </MarkerClusterGroup>
+        )}
       </MapContainer>
     </div>
   );

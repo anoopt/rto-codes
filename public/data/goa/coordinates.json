@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-01-22T18:03:54.419Z",
+  "state": "Goa",
+  "rtoCount": 12,
+  "successCount": 12,
+  "failedRTOs": [],
+  "coordinates": {
+    "GA-01": {
+      "lat": 15.4989946,
+      "lon": 73.8282141,
+      "displayName": "Panaji, Tiswadi, North Goa, Goa, 403001, India"
+    },
+    "GA-02": {
+      "lat": 15.272923,
+      "lon": 73.9583159,
+      "displayName": "Margao, Salcete, South Goa, Goa, 403600, India"
+    },
+    "GA-03": {
+      "lat": 15.590853,
+      "lon": 73.8102146,
+      "displayName": "Mapusa, Bardez, North Goa, Goa, 403507, India"
+    },
+    "GA-04": {
+      "lat": 15.5557695,
+      "lon": 73.977291,
+      "displayName": "Bicholim, North Goa, Goa, India"
+    },
+    "GA-05": {
+      "lat": 15.4035516,
+      "lon": 74.0101676,
+      "displayName": "Ponda, South Goa, Goa, India"
+    },
+    "GA-06": {
+      "lat": 15.3984159,
+      "lon": 73.8128829,
+      "displayName": "Vasco, Mormugao, South Goa, Goa, 403802, India"
+    },
+    "GA-07": {
+      "lat": 15.4989946,
+      "lon": 73.8282141,
+      "displayName": "Panaji, Tiswadi, North Goa, Goa, 403001, India"
+    },
+    "GA-08": {
+      "lat": 15.272923,
+      "lon": 73.9583159,
+      "displayName": "Margao, Salcete, South Goa, Goa, 403600, India"
+    },
+    "GA-09": {
+      "lat": 15.2142541,
+      "lon": 74.0707793,
+      "displayName": "Quepem, South Goa, Goa, 403705, India"
+    },
+    "GA-10": {
+      "lat": 15.0069072,
+      "lon": 74.0570639,
+      "displayName": "Canacona, South Goa, Goa, 403702, India"
+    },
+    "GA-11": {
+      "lat": 15.7089964,
+      "lon": 73.8167602,
+      "displayName": "Pernem, NH66, Malpe, Pernem, North Goa, Goa, India"
+    },
+    "GA-12": {
+      "lat": 15.3883514,
+      "lon": 74.1837204,
+      "displayName": "Dharbandora, South Goa, Goa, 403410, India"
+    }
+  }
+}

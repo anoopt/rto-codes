@@ -1,8 +1,8 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { isOSMEnabled } from '@/lib/feature-flags';
-import InteractiveMapSection from '@/components/InteractiveMapSection';
+import Link from 'next/link';
+import { isOSMEnabledForState } from '@/lib/feature-flags';
 import type { RTOCode } from '@/types/rto';
 
 // Dynamically import OSMStateMap with SSR disabled (Leaflet requires DOM)
@@ -40,90 +40,115 @@ interface MapSectionWrapperProps {
     stateCode: string;
     district?: string;
   };
-  /** SVG map content for the SVG map mode */
-  svgContent?: string | null;
-  /** District mapping for SVG map mode - keys are also used as district list for OSM */
+  /** District mapping - keys are district names used for OSM */
   districtMapping?: Record<string, string>;
-  /** SVG district IDs for SVG map mode */
-  svgDistrictIds?: string[];
-  /** Map of district names to their RTOs (for both map modes) */
+  /** Map of district names to their RTOs */
   districtRTOsMap?: Record<string, RTOInfo[]>;
   /** Array of all RTOs in the current district (for OSM map markers) */
   districtRTOs?: RTOCode[];
+  /** Whether OSM is enabled for this state (from state config) */
+  osmEnabled?: boolean;
 }
 
 /**
- * MapSectionWrapper - Conditionally renders OSM or SVG district map based on feature flag.
+ * MapSectionWrapper - Renders OSM district map when enabled for the state.
  * 
- * When NEXT_PUBLIC_OSM_ENABLED is true, renders the OSMStateMap component with state-level view.
- * Otherwise, renders the existing InteractiveMapSection with SVG maps.
- * 
- * Both maps appear in the same location with similar styling.
+ * Shows the map only when:
+ * - NEXT_PUBLIC_OSM_ENABLED is true (global flag)
+ * - State config has osmEnabled: true
  */
 export default function MapSectionWrapper({
   rto,
-  svgContent,
   districtMapping = {},
-  svgDistrictIds = [],
   districtRTOsMap,
   districtRTOs = [],
+  osmEnabled,
 }: MapSectionWrapperProps) {
   // Don't render if no district is available
   if (!rto.district) {
     return null;
   }
 
-  // Check if OSM is enabled
-  const useOSM = isOSMEnabled();
-
-  if (useOSM) {
-    // Get district names from the districtMapping keys
-    const districts = Object.keys(districtMapping);
-
-    // Convert RTOCode[] to RTOData[] for OSMStateMap markers
-    const rtoDataList: RTOData[] = districtRTOs.map(rtoItem => ({
-      code: rtoItem.code,
-      city: rtoItem.city,
-      region: rtoItem.region,
-      status: rtoItem.status,
-      isDistrictHeadquarter: rtoItem.isDistrictHeadquarter,
-    }));
-
-    // Render OSM state map with current district highlighted
-    return (
-      <div className="mt-8 flex flex-col items-center gap-3 relative">
-        <div className="w-full max-w-md">
-          <OSMStateMap
-            state={rto.state}
-            stateCode={rto.stateCode}
-            districts={districts}
-            districtRTOsMap={districtRTOsMap}
-            currentDistrict={rto.district}
-            districtRTOs={rtoDataList}
-            currentRTOCode={rto.code}
-            className="w-full h-64 md:h-72"
-          />
-        </div>
-        <p className="text-xs text-[var(--muted-foreground)] opacity-70">
-          Click on any district to explore its RTOs
-        </p>
-      </div>
-    );
-  }
-
-  // Render SVG map (existing behavior)
-  // Only render if SVG content exists
-  if (!svgContent) {
+  // Check if OSM is enabled globally AND for this state
+  if (!isOSMEnabledForState(osmEnabled)) {
     return null;
   }
 
+  // Get all district names from the districtMapping keys
+  const districts = Object.keys(districtMapping);
+
+  // Convert RTOCode[] to RTOData[] for OSMStateMap markers
+  const rtoDataList: RTOData[] = districtRTOs.map(rtoItem => ({
+    code: rtoItem.code,
+    city: rtoItem.city,
+    region: rtoItem.region,
+    status: rtoItem.status,
+    isDistrictHeadquarter: rtoItem.isDistrictHeadquarter,
+  }));
+
+  // Sort district RTOs by code number for the legend grid
+  const sortedDistrictRTOs = [...districtRTOs].sort((a, b) => {
+    const numA = parseInt(a.code.split('-')[1], 10);
+    const numB = parseInt(b.code.split('-')[1], 10);
+    return numA - numB;
+  });
+
   return (
-    <InteractiveMapSection
-      district={rto.district}
-      svgContent={svgContent}
-      districtMapping={districtMapping}
-      svgDistrictIds={svgDistrictIds}
-      districtRTOsMap={districtRTOsMap}
-    />
+    <div className="mt-8 flex flex-col items-center gap-3 relative">
+      <div className="w-full max-w-md">
+        <OSMStateMap
+          state={rto.state}
+          stateCode={rto.stateCode}
+          districts={districts}
+          districtRTOsMap={districtRTOsMap}
+          districtMapping={districtMapping}
+          currentDistrict={rto.district}
+          districtRTOs={rtoDataList}
+          currentRTOCode={rto.code}
+          className="w-full h-64 md:h-72"
+        />
+      </div>
+
+      {/* District RTOs Legend Grid */}
+      {sortedDistrictRTOs.length > 1 && (
+        <div className="w-full max-w-md mt-2">
+          <p className="text-xs text-[var(--muted-foreground)] mb-2 text-center">
+            RTOs in {rto.district}
+          </p>
+          <div className="flex flex-wrap justify-center gap-1.5">
+            {sortedDistrictRTOs.map((rtoItem) => {
+              const rtoNumber = rtoItem.code.split('-')[1];
+              const isCurrent = rtoItem.code === rto.code;
+              const isInactive = rtoItem.status === 'not-in-use' || rtoItem.status === 'discontinued';
+
+              return (
+                <Link
+                  key={rtoItem.code}
+                  href={`/rto/${rtoItem.code.toLowerCase()}`}
+                  className={`
+                    inline-flex items-center justify-center
+                    min-w-[2.5rem] px-2 py-1 rounded-md text-sm font-medium
+                    transition-all duration-200
+                    ${isCurrent
+                      ? 'bg-blue-600 text-white shadow-md ring-2 ring-blue-400 ring-offset-1 ring-offset-[var(--card)]'
+                      : isInactive
+                        ? 'bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-600'
+                        : 'bg-[var(--card)] text-[var(--foreground)] border border-[var(--border)] hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-400'
+                    }
+                  `}
+                  title={`${rtoItem.code} - ${rtoItem.region}`}
+                >
+                  {rtoNumber}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      <p className="text-xs text-[var(--muted-foreground)] opacity-70">
+        Click on any district to explore its RTOs
+      </p>
+    </div>
   );
 }

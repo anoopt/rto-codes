@@ -1,11 +1,10 @@
 {
-    "stateCode": "CG",
-    "name": "Chhattisgarh",
-    "displayName": "Chhattisgarh",
-    "capital": "Raipur",
-    "totalRTOs": 30,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "CG",
+  "name": "Chhattisgarh",
+  "displayName": "Chhattisgarh",
+  "capital": "Raipur",
+  "totalRTOs": 30,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

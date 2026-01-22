@@ -2,7 +2,7 @@
  * State Configuration System (Server-side only)
  * 
  * This module provides functions to load state-specific configuration
- * including district mappings, map files, and metadata.
+ * including district mappings and metadata.
  * 
  * IMPORTANT: This file uses Node.js 'fs' module and can only be imported
  * in Server Components or API routes, NOT in Client Components.
@@ -10,9 +10,9 @@
  * To add a new state:
  * 1. Create a folder: data/[state-name]/
  * 2. Add config.json with state metadata and district mappings
- * 3. Add map.svg for the state map
- * 4. Add individual RTO JSON files (e.g., xx-01.json, xx-02.json)
- * 5. Add index.json with the list of RTOs
+ * 3. Add individual RTO JSON files (e.g., xx-01.json, xx-02.json)
+ * 4. Add index.json with the list of RTOs
+ * 5. Generate OSM data: bun run generate:osm-data --state=[state-name]
  */
 
 import fs from 'fs';
@@ -126,41 +126,9 @@ export function getDistrictFromSvgId(stateName: string, svgId: string): string |
 }
 
 /**
- * Get all SVG district IDs for a state
+ * Get all district names from state config
  */
-export function getSvgDistrictIds(stateName: string): string[] {
+export function getDistrictNames(stateName: string): string[] {
   const config = getStateConfig(stateName);
-  return config?.svgDistrictIds || [];
-}
-
-/**
- * Read and process a state's map SVG
- */
-export function getStateMapSvg(stateName: string): string | null {
-  try {
-    const config = getStateConfig(stateName);
-    if (!config || !config.mapFile) return null;
-
-    // Only look in data/[state]/ folder - no fallback to public/
-    // Each state should have its own map file in its data folder
-    const svgPath = path.join(process.cwd(), 'data', stateName, config.mapFile);
-
-    if (!fs.existsSync(svgPath)) {
-      // Map file doesn't exist for this state - this is fine, not an error
-      return null;
-    }
-
-    let svgContent = fs.readFileSync(svgPath, 'utf-8');
-
-    // Remove XML declaration
-    svgContent = svgContent.replace(/<\?xml[^?]*\?>/g, '').trim();
-
-    // Remove comments
-    svgContent = svgContent.replace(/<!--[\s\S]*?-->/g, '');
-
-    return svgContent;
-  } catch (error) {
-    console.error(`Failed to read map SVG for state: ${stateName}`, error);
-    return null;
-  }
+  return config ? Object.keys(config.districtMapping) : [];
 }

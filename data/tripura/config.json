@@ -1,11 +1,10 @@
 {
-    "stateCode": "TR",
-    "name": "Tripura",
-    "displayName": "Tripura",
-    "capital": "Agartala",
-    "totalRTOs": 8,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "TR",
+  "name": "Tripura",
+  "displayName": "Tripura",
+  "capital": "Agartala",
+  "totalRTOs": 8,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

@@ -3,12 +3,23 @@
 import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, Popup } from 'react-leaflet';
-import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type LatLngBoundsExpression } from 'leaflet';
+import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, useMap } from 'react-leaflet';
+import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type LatLngBoundsExpression, type LatLngBounds } from 'leaflet';
 import type { GeoJsonObject, Feature, FeatureCollection } from 'geojson';
 import 'leaflet/dist/leaflet.css';
-import { fetchDistrictBoundary, type GeoJSONFeature } from '@/lib/osm-boundaries';
-import { geocodeCity } from '@/lib/osm-geocoding';
+import { fetchDistrictBoundary, getCachedBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
+import { getRTOCoordinates } from '@/lib/osm-geocoding';
+
+// Fix for default Leaflet marker icons not loading in webpack/bundler environments
+// We use custom DivIcon markers, so we provide a transparent 1x1 pixel to prevent errors
+const TRANSPARENT_PIXEL = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
+// @ts-expect-error - Leaflet internal property
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconUrl: TRANSPARENT_PIXEL,
+  iconRetinaUrl: TRANSPARENT_PIXEL,
+  shadowUrl: TRANSPARENT_PIXEL,
+});
 
 /**
  * Loading spinner component for map loading states.
@@ -19,14 +30,96 @@ function LoadingSpinner({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
     md: 'w-8 h-8 border-3',
     lg: 'w-12 h-12 border-4',
   };
-  
+
   return (
-    <div 
+    <div
       className={`${sizeClasses[size]} border-blue-200 border-t-blue-600 rounded-full animate-spin`}
       role="status"
       aria-label="Loading"
     />
   );
+}
+
+/**
+ * Component to control zoom behavior - zooms toward the current district instead of map center.
+ * Fits to district bounds on initial load.
+ */
+function ZoomToDistrictController({
+  currentDistrictBoundary
+}: {
+  currentDistrictBoundary: GeoJSONFeature | null;
+}) {
+  const map = useMap();
+  const isUserPanning = useRef(false);
+  const hasInitialFit = useRef(false);
+
+  // Get the center of the current district boundary
+  const districtCenter = useMemo(() => {
+    if (currentDistrictBoundary) {
+      return getBoundaryCenter(currentDistrictBoundary);
+    }
+    return null;
+  }, [currentDistrictBoundary]);
+
+  // Fit to district on first load
+  useEffect(() => {
+    if (currentDistrictBoundary && currentDistrictBoundary.bbox && !hasInitialFit.current) {
+      const [minLon, minLat, maxLon, maxLat] = currentDistrictBoundary.bbox;
+      const bounds: LatLngBounds = L.latLngBounds(
+        [minLat, minLon],
+        [maxLat, maxLon]
+      );
+
+      // Fit with padding, not too zoomed in
+      map.fitBounds(bounds, {
+        padding: [30, 30],
+        maxZoom: 10,
+        animate: true,
+      });
+
+      hasInitialFit.current = true;
+    }
+  }, [map, currentDistrictBoundary]);
+
+  // Track panning vs zooming
+  useEffect(() => {
+    if (!districtCenter) return;
+
+    const handleDragStart = () => {
+      isUserPanning.current = true;
+    };
+
+    const handleDragEnd = () => {
+      setTimeout(() => {
+        isUserPanning.current = false;
+      }, 100);
+    };
+
+    // After zoom ends, recenter on district if user wasn't panning
+    const handleZoomEnd = () => {
+      if (!isUserPanning.current && districtCenter) {
+        const targetCenter = L.latLng(districtCenter[0], districtCenter[1]);
+        const currentCenter = map.getCenter();
+
+        // Only recenter if we're more than 5km away from district center
+        if (currentCenter.distanceTo(targetCenter) > 5000) {
+          map.panTo(targetCenter, { animate: true, duration: 0.3 });
+        }
+      }
+    };
+
+    map.on('dragstart', handleDragStart);
+    map.on('dragend', handleDragEnd);
+    map.on('zoomend', handleZoomEnd);
+
+    return () => {
+      map.off('dragstart', handleDragStart);
+      map.off('dragend', handleDragEnd);
+      map.off('zoomend', handleZoomEnd);
+    };
+  }, [map, districtCenter]);
+
+  return null;
 }
 
 interface RTOInfo {
@@ -62,6 +155,8 @@ interface OSMStateMapProps {
   className?: string;
   /** Map of district names to their RTOs (for click navigation) */
   districtRTOsMap?: Record<string, RTOInfo[]>;
+  /** Mapping of OSM district names to normalized names used in RTO data */
+  districtMapping?: Record<string, string>;
   /** The current district to highlight (e.g., district of the RTO being viewed) */
   currentDistrict?: string;
   /** RTOs within the current district for marker display */
@@ -72,9 +167,9 @@ interface OSMStateMapProps {
 
 // Styles for district polygon
 const defaultStyle: PathOptions = {
-  fillColor: '#3b82f6',
-  fillOpacity: 0.2,
-  color: '#2563eb',
+  fillColor: '#60a5fa', // Lighter blue for better visibility
+  fillOpacity: 0.25,
+  color: '#3b82f6', // Blue border
   weight: 2,
 };
 
@@ -112,7 +207,7 @@ const currentDistrictHoverStyle: PathOptions = {
 const STATE_CONFIG: Record<string, { center: LatLngTuple; zoom: number; bounds?: LatLngBoundsExpression }> = {
   'Karnataka': {
     center: [15.3173, 75.7139],
-    zoom: 7,
+    zoom: 6,
     bounds: [[11.5, 74.0], [18.5, 78.5]],
   },
   'Goa': {
@@ -155,12 +250,13 @@ export default function OSMStateMap({
   districts,
   className = '',
   districtRTOsMap,
+  districtMapping,
   currentDistrict,
   districtRTOs,
   currentRTOCode,
 }: OSMStateMapProps) {
   const router = useRouter();
-  const [isMounted, setIsMounted] = useState(false);
+  const [isMounted, setIsMounted] = useState(() => typeof window !== 'undefined');
   const [boundaries, setBoundaries] = useState<DistrictBoundaryData[]>([]);
   const [loadingProgress, setLoadingProgress] = useState({ loaded: 0, total: 0 });
   const [boundaryErrors, setBoundaryErrors] = useState<string[]>([]);
@@ -168,121 +264,175 @@ export default function OSMStateMap({
   const [hoveredDistrict, setHoveredDistrict] = useState<string | null>(null);
   const [clickedDistrict, setClickedDistrict] = useState<string | null>(null);
   const clickTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  
+
   // Marker state for RTOs in the current district
   const [markerPositions, setMarkerPositions] = useState<MarkerData[]>([]);
   const [loadingMarkers, setLoadingMarkers] = useState(false);
 
   const stateConfig = getStateConfig(state);
 
+  /**
+   * Normalize a district name using the districtMapping.
+   * OSM might return "Bagalkote" but our RTO data uses "Bagalkot".
+   */
+  const normalizeDistrictName = useCallback((districtName: string): string => {
+    if (!districtMapping) return districtName;
+    // Check if there's a mapping for this exact name
+    if (districtMapping[districtName]) {
+      return districtMapping[districtName];
+    }
+    // Also try case-insensitive lookup
+    const lowerName = districtName.toLowerCase();
+    for (const [key, value] of Object.entries(districtMapping)) {
+      if (key.toLowerCase() === lowerName) {
+        return value;
+      }
+    }
+    return districtName;
+  }, [districtMapping]);
+
+  // Stabilize districts array - only use the string representation for dependency tracking
+  const districtsKey = useMemo(() => districts.join(','), [districts]);
+
   // Ensure component only renders on client (Leaflet requires DOM)
+  // Also cleanup click timeout on unmount
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- Required for client-side mounting
-    setIsMounted(true);
-    
+    // For SSR hydration: if not already mounted (server render), schedule mount
+    if (!isMounted) {
+      const timer = setTimeout(() => setIsMounted(true), 0);
+      return () => clearTimeout(timer);
+    }
+
     // Cleanup click timeout on unmount
     return () => {
       if (clickTimeoutRef.current) {
         clearTimeout(clickTimeoutRef.current);
       }
     };
-  }, []);
+  }, [isMounted]);
 
-  // Fetch all district boundaries
+  // Fetch all district boundaries - only when state changes, not on every render
   useEffect(() => {
-    if (!isMounted || districts.length === 0) return;
+    if (!isMounted || !districtsKey) return;
+
+    const districtList = districtsKey.split(',');
+    if (districtList.length === 0 || districtList[0] === '') return;
+
+
+    // First, instantly load all cached boundaries (no async/delays)
+    const cachedBoundaries: DistrictBoundaryData[] = [];
+    const uncachedDistricts: string[] = [];
+
+    for (const districtName of districtList) {
+      const cached = getCachedBoundary(state, districtName);
+      if (cached) {
+        cachedBoundaries.push({ districtName, feature: cached });
+      } else {
+        uncachedDistricts.push(districtName);
+      }
+    }
+
+
+    // If all districts are cached, we're done instantly
+    if (uncachedDistricts.length === 0) {
+      queueMicrotask(() => {
+        setBoundaries(cachedBoundaries);
+        setLoadingProgress({ loaded: districtList.length, total: districtList.length });
+        setBoundaryErrors([]);
+      });
+      return;
+    }
+
+    // Set initial state with cached boundaries
+    queueMicrotask(() => {
+      setBoundaries(cachedBoundaries);
+      setLoadingProgress({ loaded: cachedBoundaries.length, total: districtList.length });
+      setBoundaryErrors([]);
+    });
 
     let cancelled = false;
-    const loadedBoundaries: DistrictBoundaryData[] = [];
+    const loadedBoundaries = [...cachedBoundaries];
     const errors: string[] = [];
-    
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- Setting initial loading state before async fetch
-    setLoadingProgress({ loaded: 0, total: districts.length });
-    setBoundaryErrors([]);
 
-    const fetchAllBoundaries = async () => {
-      for (let i = 0; i < districts.length; i++) {
+    const fetchUncachedBoundaries = async () => {
+      for (let i = 0; i < uncachedDistricts.length; i++) {
         if (cancelled) break;
-        
-        const districtName = districts[i];
-        
+
+        const districtName = uncachedDistricts[i];
+
         try {
           const feature = await fetchDistrictBoundary(state, districtName);
-          
+
           if (feature && !cancelled) {
             loadedBoundaries.push({ districtName, feature });
             setBoundaries([...loadedBoundaries]);
           } else if (!feature) {
             errors.push(districtName);
           }
-        } catch {
+        } catch (err) {
+          console.error(`[OSM] Error fetching ${districtName}:`, err);
           errors.push(districtName);
         }
-        
+
         if (!cancelled) {
-          setLoadingProgress({ loaded: i + 1, total: districts.length });
+          setLoadingProgress({
+            loaded: cachedBoundaries.length + i + 1,
+            total: districtList.length
+          });
         }
-        
-        // Small delay between requests to respect rate limits
-        if (i < districts.length - 1 && !cancelled) {
+
+        // Small delay between API requests to respect rate limits
+        if (i < uncachedDistricts.length - 1 && !cancelled) {
           await new Promise(resolve => setTimeout(resolve, 100));
         }
       }
-      
+
       if (!cancelled) {
         setBoundaryErrors(errors);
       }
     };
 
-    fetchAllBoundaries();
+    fetchUncachedBoundaries();
 
     return () => {
       cancelled = true;
     };
-  }, [isMounted, state, districts]);
+
+  }, [isMounted, state, districtsKey]);
 
   // Geocode RTO city locations for markers in current district
   useEffect(() => {
     if (!isMounted || !districtRTOs || districtRTOs.length === 0 || !currentDistrict) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- Clearing state when conditions aren't met
-      setMarkerPositions([]);
+      queueMicrotask(() => setMarkerPositions([]));
       return;
     }
 
     let cancelled = false;
-    setLoadingMarkers(true);
+    queueMicrotask(() => setLoadingMarkers(true));
 
     const geocodeRTOs = async () => {
       const positions: MarkerData[] = [];
-      const cityCoords = new Map<string, LatLngTuple>();
 
       for (const rto of districtRTOs) {
         if (cancelled) break;
 
-        // Check if we already have coords for this city
-        let coords = cityCoords.get(rto.city.toLowerCase());
-
-        if (!coords) {
-          const geocoded = await geocodeCity(rto.city, currentDistrict, state);
-          if (geocoded) {
-            coords = geocoded;
-            cityCoords.set(rto.city.toLowerCase(), coords);
-          }
-        }
+        // Get coordinates by RTO code from static data
+        const coords = await getRTOCoordinates(rto.code, state);
 
         if (coords) {
           // Offset overlapping markers (same city)
           const existingAtCity = positions.filter(
             p => p.rto.city.toLowerCase() === rto.city.toLowerCase()
           );
-          
+
+          let finalCoords = coords;
           if (existingAtCity.length > 0) {
             // Offset by small amount for visibility (~500m)
             const offset = existingAtCity.length * 0.005;
-            coords = [coords[0] + offset, coords[1] + offset];
+            finalCoords = [coords[0] + offset, coords[1] + offset];
           }
 
-          positions.push({ rto, coords });
+          positions.push({ rto, coords: finalCoords });
         }
       }
 
@@ -302,7 +452,8 @@ export default function OSMStateMap({
   // Combine all boundaries into a FeatureCollection for rendering
   const featureCollection = useMemo((): FeatureCollection | null => {
     if (boundaries.length === 0) return null;
-    
+
+
     return {
       type: 'FeatureCollection' as const,
       features: boundaries.map(b => ({
@@ -317,6 +468,22 @@ export default function OSMStateMap({
     };
   }, [boundaries]);
 
+  // Generate a stable key for GeoJSON based on actual content
+  const geoJsonKey = useMemo(() => {
+    return `${state}-${boundaries.map(b => b.districtName).sort().join(',')}`;
+  }, [state, boundaries]);
+
+  // Get the current district's boundary for zoom control
+  const currentDistrictBoundary = useMemo((): GeoJSONFeature | null => {
+    if (!currentDistrict || boundaries.length === 0) return null;
+
+    const found = boundaries.find(b =>
+      b.districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim()
+    );
+
+    return found?.feature || null;
+  }, [boundaries, currentDistrict]);
+
   /**
    * Create a Leaflet DivIcon for RTO markers.
    * Current RTO: larger, red/orange with pulsing animation
@@ -324,16 +491,16 @@ export default function OSMStateMap({
    */
   const createMarkerIcon = useCallback((rtoCode: string, isCurrentRTO: boolean, isInactive: boolean) => {
     const size = isCurrentRTO ? 32 : 24;
-    const bgColor = isCurrentRTO 
+    const bgColor = isCurrentRTO
       ? '#ef4444' // Red for current
-      : isInactive 
+      : isInactive
         ? '#9ca3af' // Gray for inactive
         : '#3b82f6'; // Blue for active
     const borderColor = isCurrentRTO ? '#dc2626' : isInactive ? '#6b7280' : '#2563eb';
-    const pulseAnimation = isCurrentRTO 
-      ? 'animation: pulse 2s infinite;' 
+    const pulseAnimation = isCurrentRTO
+      ? 'animation: pulse 2s infinite;'
       : '';
-    
+
     return L.divIcon({
       className: 'custom-rto-marker',
       html: `
@@ -380,11 +547,32 @@ export default function OSMStateMap({
   /**
    * Get the primary RTO for a district.
    * Prioritizes: 1) Active RTOs, 2) District headquarters, 3) First by code
+   * Uses districtMapping to normalize OSM district names to RTO data names.
    */
   const getPrimaryRTO = useCallback((districtName: string): RTOInfo | null => {
     if (!districtRTOsMap) return null;
-    
-    const rtos = districtRTOsMap[districtName];
+
+    // For OSM, try the exact district name first (matches RTO data)
+    // Only fall back to normalized name if exact match fails
+    let rtos = districtRTOsMap[districtName];
+
+    if (!rtos || rtos.length === 0) {
+      // Try case-insensitive match
+      const lowerName = districtName.toLowerCase();
+      for (const [key, value] of Object.entries(districtRTOsMap)) {
+        if (key.toLowerCase() === lowerName) {
+          rtos = value;
+          break;
+        }
+      }
+    }
+
+    if (!rtos || rtos.length === 0) {
+      // Try normalized name as last resort (for SVG ID mapping)
+      const normalizedName = normalizeDistrictName(districtName);
+      rtos = districtRTOsMap[normalizedName];
+    }
+
     if (!rtos || rtos.length === 0) return null;
 
     // Sort RTOs to find the primary one
@@ -402,7 +590,35 @@ export default function OSMStateMap({
     });
 
     return sortedRTOs[0];
-  }, [districtRTOsMap]);
+  }, [districtRTOsMap, normalizeDistrictName]);
+
+  /**
+   * Get RTOs for a district, using direct name lookup first (for OSM compatibility).
+   */
+  const getDistrictRTOs = useCallback((districtName: string): RTOInfo[] => {
+    if (!districtRTOsMap) return [];
+
+    // Try exact match first
+    let rtos = districtRTOsMap[districtName];
+
+    if (!rtos || rtos.length === 0) {
+      // Try case-insensitive match
+      const lowerName = districtName.toLowerCase();
+      for (const [key, value] of Object.entries(districtRTOsMap)) {
+        if (key.toLowerCase() === lowerName) {
+          return value;
+        }
+      }
+    }
+
+    if (!rtos || rtos.length === 0) {
+      // Try normalized name as last resort
+      const normalizedName = normalizeDistrictName(districtName);
+      rtos = districtRTOsMap[normalizedName];
+    }
+
+    return rtos || [];
+  }, [districtRTOsMap, normalizeDistrictName]);
 
   /**
    * Handle click on district polygon.
@@ -433,13 +649,13 @@ export default function OSMStateMap({
    */
   const getDistrictStyle = useCallback((districtName: string): PathOptions => {
     // Normalize for case-insensitive comparison
-    const isCurrentDistrict = currentDistrict && 
+    const isCurrentDistrict = currentDistrict &&
       districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim();
-    
+
     if (clickedDistrict === districtName) {
       return clickStyle;
     }
-    
+
     // Current district gets distinct persistent styling
     if (isCurrentDistrict) {
       if (hoveredDistrict === districtName) {
@@ -447,7 +663,7 @@ export default function OSMStateMap({
       }
       return currentDistrictStyle;
     }
-    
+
     if (hoveredDistrict === districtName) {
       return hoverStyle;
     }
@@ -460,25 +676,32 @@ export default function OSMStateMap({
     if (!districtName) return;
 
     const styledLayer = layer as Layer & { setStyle: (s: PathOptions) => void };
-    
+
     // Check if this is the current district (case-insensitive)
-    const isCurrentDistrict = currentDistrict && 
+    const isCurrentDistrict = currentDistrict &&
       districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim();
-    
+
+    // Helper to safely apply style to a layer
+    const safeSetStyle = (target: Layer, style: PathOptions) => {
+      if (target && typeof (target as L.Path).setStyle === 'function') {
+        (target as L.Path).setStyle(style);
+      }
+    };
+
     // Add hover and click events
     layer.on({
       mouseover: (e: LeafletMouseEvent) => {
-        const target = e.target as Layer & { setStyle: (s: PathOptions) => void };
+        const target = e.target as Layer;
         if (clickedDistrict !== districtName) {
-          target.setStyle(isCurrentDistrict ? currentDistrictHoverStyle : hoverStyle);
+          safeSetStyle(target, isCurrentDistrict ? currentDistrictHoverStyle : hoverStyle);
         }
         setHoveredDistrict(districtName);
       },
       mouseout: (e: LeafletMouseEvent) => {
-        const target = e.target as Layer & { setStyle: (s: PathOptions) => void };
+        const target = e.target as Layer;
         if (clickedDistrict !== districtName) {
           // Revert to appropriate style based on whether it's the current district
-          target.setStyle(isCurrentDistrict ? currentDistrictStyle : defaultStyle);
+          safeSetStyle(target, isCurrentDistrict ? currentDistrictStyle : defaultStyle);
         }
         setHoveredDistrict(null);
       },
@@ -492,7 +715,8 @@ export default function OSMStateMap({
   const styleFunction = useCallback((feature: Feature | undefined): PathOptions => {
     if (!feature || !feature.properties) return defaultStyle;
     const districtName = feature.properties.districtName as string;
-    return getDistrictStyle(districtName);
+    const style = getDistrictStyle(districtName);
+    return style;
   }, [getDistrictStyle]);
 
   // Don't render on server side - show loading skeleton
@@ -518,7 +742,7 @@ export default function OSMStateMap({
           <p className="text-gray-600 dark:text-gray-300 font-medium">Unable to load map</p>
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">{mapLoadError}</p>
         </div>
-        <Link 
+        <Link
           href={`/state/${stateCode.toLowerCase()}`}
           className="mt-2 px-4 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition-colors"
         >
@@ -541,7 +765,7 @@ export default function OSMStateMap({
           </span>
         </div>
       )}
-      
+
       {/* Loading progress indicator (after initial load) */}
       {isLoading && boundaries.length > 0 && (
         <div className="absolute top-2 left-2 z-[1000] bg-white dark:bg-gray-800 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 shadow-md flex items-center gap-2">
@@ -549,7 +773,7 @@ export default function OSMStateMap({
           <span>Loading districts ({loadingProgress.loaded}/{loadingProgress.total})</span>
         </div>
       )}
-      
+
       {/* Warning for failed boundaries */}
       {!isLoading && boundaryErrors.length > 0 && (
         <div className="absolute top-2 left-2 right-2 z-[1000] bg-amber-50 dark:bg-amber-900/50 border border-amber-200 dark:border-amber-700 px-3 py-2 rounded-lg shadow-md">
@@ -590,11 +814,14 @@ export default function OSMStateMap({
             },
           }}
         />
-        
+
+        {/* Controller to zoom toward current district */}
+        <ZoomToDistrictController currentDistrictBoundary={currentDistrictBoundary} />
+
         {/* District boundaries GeoJSON layer */}
         {featureCollection && (
           <GeoJSON
-            key={`${state}-${boundaries.length}-${currentDistrict}`}
+            key={geoJsonKey}
             data={featureCollection as GeoJsonObject}
             style={styleFunction}
             onEachFeature={onEachFeature}
@@ -609,27 +836,31 @@ export default function OSMStateMap({
                       Current district
                     </span>
                   )}
-                  {districtRTOsMap && districtRTOsMap[hoveredDistrict] && (
-                    <span className="block text-xs text-gray-400 mt-1">
-                      Click to explore {districtRTOsMap[hoveredDistrict].length} RTO{districtRTOsMap[hoveredDistrict].length !== 1 ? 's' : ''}
-                    </span>
-                  )}
+                  {(() => {
+                    const rtos = getDistrictRTOs(hoveredDistrict);
+                    return rtos.length > 0 && (
+                      <span className="block text-xs text-gray-400 mt-1">
+                        Click to explore {rtos.length} RTO{rtos.length !== 1 ? 's' : ''}
+                      </span>
+                    );
+                  })()}
                 </div>
               )}
             </Tooltip>
           </GeoJSON>
         )}
-        
+
         {/* RTO markers within the current district */}
         {markerPositions.map(({ rto, coords }) => {
           const isCurrentRTO = rto.code === currentRTOCode;
           const isInactive = rto.status === 'not-in-use' || rto.status === 'discontinued';
-          
+
           return (
             <Marker
               key={rto.code}
               position={coords}
               icon={createMarkerIcon(rto.code, isCurrentRTO, isInactive)}
+              zIndexOffset={isCurrentRTO ? 1000 : 0}
               eventHandlers={{
                 click: () => handleMarkerClick(rto.code),
               }}
@@ -641,36 +872,21 @@ export default function OSMStateMap({
                   {rto.region && rto.region !== rto.city && (
                     <span className="block text-xs text-gray-400">{rto.region}</span>
                   )}
-                  {isCurrentRTO && (
+                  {isCurrentRTO ? (
                     <span className="block text-xs text-red-500 font-medium mt-1">
                       Currently viewing
+                    </span>
+                  ) : (
+                    <span className="block text-xs text-blue-500 mt-1">
+                      Click to view
                     </span>
                   )}
                 </div>
               </Tooltip>
-              <Popup>
-                <div className="text-center p-1">
-                  <p className="font-bold text-lg">{rto.code}</p>
-                  <p className="text-sm text-gray-600">{rto.city}</p>
-                  {rto.region && rto.region !== rto.city && (
-                    <p className="text-xs text-gray-500">{rto.region}</p>
-                  )}
-                  {isCurrentRTO ? (
-                    <p className="text-xs text-red-500 mt-2 font-medium">Currently viewing</p>
-                  ) : (
-                    <button
-                      onClick={() => handleMarkerClick(rto.code)}
-                      className="mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600 transition-colors"
-                    >
-                      View Details
-                    </button>
-                  )}
-                </div>
-              </Popup>
             </Marker>
           );
         })}
-        
+
         {/* Loading indicator for markers */}
         {loadingMarkers && (
           <div className="leaflet-top leaflet-right">
@@ -680,6 +896,27 @@ export default function OSMStateMap({
           </div>
         )}
       </MapContainer>
+
+      {/* RTOs for hovered district (shown below the map) */}
+      {hoveredDistrict && (() => {
+        const rtos = getDistrictRTOs(hoveredDistrict);
+        return rtos.length > 0 && (
+          <div className="mt-2 flex flex-wrap justify-center gap-2">
+            {rtos.map((rto) => (
+              <Link
+                key={rto.code}
+                href={`/rto/${rto.code.toLowerCase()}`}
+                className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${rto.isInactive
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400'
+                  : 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 hover:bg-green-200 dark:hover:bg-green-800/40'
+                  }`}
+              >
+                {rto.region}
+              </Link>
+            ))}
+          </div>
+        );
+      })()}
     </div>
   );
 }

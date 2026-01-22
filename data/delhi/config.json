@@ -1,11 +1,10 @@
 {
-    "stateCode": "DL",
-    "name": "Delhi",
-    "displayName": "Delhi",
-    "capital": "New Delhi",
-    "totalRTOs": 16,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "union-territory"
+  "stateCode": "DL",
+  "name": "Delhi",
+  "displayName": "Delhi",
+  "capital": "New Delhi",
+  "totalRTOs": 16,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "union-territory"
 }

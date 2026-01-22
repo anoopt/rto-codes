@@ -4,7 +4,6 @@
   "displayName": "Karnataka",
   "capital": "Bengaluru",
   "totalRTOs": 71,
-  "mapFile": "map.svg",
   "districtMapping": {
     "Bagalkote": "Bagalkot",
     "Bagalkot": "Bagalkot",
@@ -40,38 +39,7 @@
     "Vijayapura": "Vijayapura",
     "Yadgir": "Yadgir"
   },
-  "svgDistrictIds": [
-    "Bagalkot",
-    "Ballari",
-    "Belagavi",
-    "Bengaluru Rural",
-    "Bengaluru Urban",
-    "Bidar",
-    "Chamarajanagar",
-    "Chikkaballapur",
-    "Chikkamagaluru",
-    "Chitradurga",
-    "Dakshina Kannada",
-    "Davanagere",
-    "Dharwad",
-    "Gadag",
-    "Hassan",
-    "Haveri",
-    "Kalaburagi",
-    "Kodagu",
-    "Kolar",
-    "Koppal",
-    "Mandya",
-    "Mysuru",
-    "Raichur",
-    "Ramanagara",
-    "Shivamogga",
-    "Tumakuru",
-    "Udupi",
-    "Uttara Kannada",
-    "Vijayapura",
-    "Yadgir"
-  ],
   "isComplete": true,
-  "type": "state"
+  "type": "state",
+  "osmEnabled": true
 }

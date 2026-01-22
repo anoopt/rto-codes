@@ -1,11 +1,10 @@
 {
-    "stateCode": "PY",
-    "name": "Puducherry",
-    "displayName": "Puducherry",
-    "capital": "Puducherry",
-    "totalRTOs": 5,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "union-territory"
+  "stateCode": "PY",
+  "name": "Puducherry",
+  "displayName": "Puducherry",
+  "capital": "Puducherry",
+  "totalRTOs": 5,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "union-territory"
 }

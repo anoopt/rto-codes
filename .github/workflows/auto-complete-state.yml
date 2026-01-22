@@ -157,6 +157,45 @@ jobs:
             echo "ℹ️  No config changes to commit"
           fi
 
+      - name: Generate OSM map data for completed states
+        if: steps.check.outputs.has_updates == 'true'
+        run: |
+          echo "🗺️ Generating OSM map data for completed states..."
+
+          for state_dir in ${{ steps.check.outputs.completed_states }}; do
+            if [ -d "data/$state_dir" ]; then
+              echo ""
+              echo "📍 Processing: $state_dir"
+              
+              # Generate boundaries (district polygons)
+              echo "  Generating boundaries..."
+              bun scripts/generate-boundaries.ts --state="$state_dir" || echo "  ⚠️ Boundaries failed for $state_dir"
+              
+              # Generate coordinates (RTO markers)
+              echo "  Generating coordinates..."
+              bun scripts/generate-coordinates.ts --state="$state_dir" || echo "  ⚠️ Coordinates failed for $state_dir"
+            fi
+          done
+
+          echo ""
+          echo "✅ OSM data generation complete"
+
+      - name: Commit OSM data
+        if: steps.check.outputs.has_updates == 'true'
+        run: |
+          # Stage OSM data files
+          git add public/data/*/boundaries.json public/data/*/coordinates.json 2>/dev/null || true
+
+          # Check if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: generate OSM map data for completed states" \
+              -m "Generated boundaries and coordinates for: ${{ steps.check.outputs.completed_states }}"
+            git push
+            echo "✅ Pushed OSM map data"
+          else
+            echo "ℹ️  No OSM data changes to commit"
+          fi
+
       - name: Generate completion report
         if: steps.check.outputs.has_updates == 'true'
         id: report

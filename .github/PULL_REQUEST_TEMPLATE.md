@@ -5,8 +5,7 @@
 ## Type of Change
 
 - [ ] 📝 **Data**: Adding or updating RTO information
-- [ ] 🗺️ **Map**: Contributing SVG state map
-- [ ] 🐛 **Bug fix**: Non-breaking change that fixes an issue
+- [ ] � **Bug fix**: Non-breaking change that fixes an issue
 - [ ] ✨ **New feature**: Non-breaking change that adds functionality
 - [ ] 💥 **Breaking change**: Fix or feature that would cause existing functionality to change
 - [ ] 📚 **Documentation**: Updates to README or other docs
@@ -19,17 +18,9 @@
 | -------- | ------------- | ----------------- |
 | XX-YY(Y) | Added/Updated | Brief description |
 
-## SVG Map Contribution (if applicable)
-
-- [ ] Map file is optimized and clean
-- [ ] Each district has a unique ID
-- [ ] `config.json` updated with district mappings
-- [ ] Map is my original work OR is Creative Commons licensed
-- [ ] Attribution/license information provided
-
 ## Checklist
 
-- [ ] I have tested my changes locally (for code/map changes)
+- [ ] I have tested my changes locally (for code changes)
 - [ ] My code/data follows the project's standards (see [CONTRIBUTING.md](../CONTRIBUTING.md))
 - [ ] For data changes: I have verified the information from official sources
 - [ ] For code changes: I have updated documentation if needed
@@ -42,7 +33,7 @@
 
 ## Screenshots (if applicable)
 
-<!-- Add screenshots to show visual changes (required for map contributions) -->
+<!-- Add screenshots to show visual changes -->
 
 ## Additional Notes
 
@@ -53,7 +44,6 @@
 ### What Happens Next?
 
 1. **Automated Validation**: GitHub Actions will validate your JSON files for:
-
    - Valid JSON syntax
    - Correct file naming (xx-yy.json or xx-yyy.json)
    - Required fields present

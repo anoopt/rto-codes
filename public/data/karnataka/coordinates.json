@@ -1,0 +1,364 @@
+{
+  "generatedAt": "2026-01-22T12:49:55.445Z",
+  "state": "Karnataka",
+  "rtoCount": 71,
+  "successCount": 71,
+  "failedRTOs": [],
+  "coordinates": {
+    "KA-01": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-02": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-03": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-04": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-05": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-06": {
+      "lat": 13.3400771,
+      "lon": 77.1006208,
+      "displayName": "Tumakuru, Tumkur taluk, Tumakuru, Karnataka, 572101, India"
+    },
+    "KA-07": {
+      "lat": 13.123993,
+      "lon": 78.1329276,
+      "displayName": "Kolar, S.N.R Hospital Road, Harohalli, Kolar, Kolar taluk, Kolar, Karnataka, 563101, India"
+    },
+    "KA-08": {
+      "lat": 12.9545994,
+      "lon": 78.2731252,
+      "displayName": "Kolar Gold Fields, Kolar Gold Field taluk, Kolar, Karnataka, 563115, India"
+    },
+    "KA-09": {
+      "lat": 12.3051828,
+      "lon": 76.6553609,
+      "displayName": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India"
+    },
+    "KA-10": {
+      "lat": 11.9346006,
+      "lon": 76.9328209,
+      "displayName": "Chamarajanagar, Nanjangudu-Chamarajanagar Road, Chamarajanagara, Chamarajanagara taluk, Chamarajanagar, Karnataka, 571313, India"
+    },
+    "KA-11": {
+      "lat": 12.5238888,
+      "lon": 76.8961961,
+      "displayName": "Mandya, Mandya taluk, Mandya, Karnataka, 571401, India"
+    },
+    "KA-12": {
+      "lat": 12.42149,
+      "lon": 75.7387543,
+      "displayName": "Madikeri, Madikeri taluku, Kodagu, Karnataka, 571201, India"
+    },
+    "KA-13": {
+      "lat": 13.0070817,
+      "lon": 76.0992703,
+      "displayName": "Hassan, Hasana taluk, Hassan, Karnataka, 573201, India"
+    },
+    "KA-14": {
+      "lat": 13.9326093,
+      "lon": 75.574978,
+      "displayName": "Shivamogga, Shivamogga taluk, Shimoga, Karnataka, 577200, India"
+    },
+    "KA-15": {
+      "lat": 13.9350895,
+      "lon": 75.5617328,
+      "displayName": "Sagar Road, Kiadb Auto Complex, Shivamogga, Shivamogga taluk, Shimoga, Karnataka, 577200, India"
+    },
+    "KA-16": {
+      "lat": 14.2266443,
+      "lon": 76.4005122,
+      "displayName": "Chitradurga, Chitradurga taluku, Chitradurga, Karnataka, 577500, India"
+    },
+    "KA-17": {
+      "lat": 14.4661266,
+      "lon": 75.9206361,
+      "displayName": "Davanagere, Davanagere Taluku, Davanagere, Karnataka, 577000, India"
+    },
+    "KA-18": {
+      "lat": 13.318014,
+      "lon": 75.7738743,
+      "displayName": "Chikkamagaluru, Chikkamagaluru taluku, Chikkamagaluru, Karnataka, 577101, India"
+    },
+    "KA-19": {
+      "lat": 12.8698101,
+      "lon": 74.8430082,
+      "displayName": "Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India"
+    },
+    "KA-20": {
+      "lat": 13.3419169,
+      "lon": 74.7473232,
+      "displayName": "Udupi, Udupi taluku, Udupi, Karnataka, 576101, India"
+    },
+    "KA-21": {
+      "lat": 12.7632858,
+      "lon": 75.2018421,
+      "displayName": "Puttur, Putturu taluk, Dakshina Kannada, Karnataka, 574200, India"
+    },
+    "KA-22": {
+      "lat": 15.8572666,
+      "lon": 74.5069343,
+      "displayName": "Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India"
+    },
+    "KA-23": {
+      "lat": 16.4265276,
+      "lon": 74.5861323,
+      "displayName": "Chikkodi, Chikodi taluk, Belagavi, Karnataka, 591200, India"
+    },
+    "KA-24": {
+      "lat": 15.816422,
+      "lon": 74.8568692,
+      "displayName": "Bailahongala, Bailahongala taluku, Belagavi, Karnataka, 591102, India"
+    },
+    "KA-25": {
+      "lat": 15.4540505,
+      "lon": 75.0066516,
+      "displayName": "Dharwad, Dharawada taluku, Dharwad, Karnataka, 580001, India"
+    },
+    "KA-26": {
+      "lat": 15.4221812,
+      "lon": 75.6376639,
+      "displayName": "Gadag-Betageri, Gadag taluk, Gadag, Karnataka, 582101, India"
+    },
+    "KA-27": {
+      "lat": 14.7947529,
+      "lon": 75.4111439,
+      "displayName": "Haveri, Haveri-Sirsi Road, Haveri, Haveri taluku, Haveri, Karnataka, 581110, India"
+    },
+    "KA-28": {
+      "lat": 16.8269911,
+      "lon": 75.7175387,
+      "displayName": "Vijayapura, Bijapur Taluk, Vijayapura, Karnataka, 586101, India"
+    },
+    "KA-29": {
+      "lat": 16.165288,
+      "lon": 75.6603433,
+      "displayName": "District Hospital Blood Bank, Bagalkot, Bahanpur - Gadankeri Highway, Vidyagiri, Bagalkote, Bagalakote taluk, Bagalkote, Karnataka, 587101, India"
+    },
+    "KA-30": {
+      "lat": 14.8120931,
+      "lon": 74.1319229,
+      "displayName": "Karwar, Karwar taluk, Uttara Kannada, Karnataka, 581300, India"
+    },
+    "KA-31": {
+      "lat": 14.6192362,
+      "lon": 74.8388611,
+      "displayName": "Sirsi, Shirasi Taluk, Uttara Kannada, Karnataka, 581401, India"
+    },
+    "KA-32": {
+      "lat": 17.3310003,
+      "lon": 76.8334228,
+      "displayName": "Kalaburagi, Kalaburagi taluku, Kalaburagi, Karnataka, 585101, India"
+    },
+    "KA-33": {
+      "lat": 16.7446491,
+      "lon": 77.1297018,
+      "displayName": "Yadgir, Railway Platform Bridge, Yadgiri, Yadagiri taluku, Yadgir, Karnataka, 585200, India"
+    },
+    "KA-34": {
+      "lat": 15.1430224,
+      "lon": 76.9173277,
+      "displayName": "Ballari, Bellary taluk, Ballari, Karnataka, 583101, India"
+    },
+    "KA-35": {
+      "lat": 15.266493,
+      "lon": 76.3872297,
+      "displayName": "Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India"
+    },
+    "KA-36": {
+      "lat": 16.1983225,
+      "lon": 77.3527444,
+      "displayName": "Raichur, Rayachuru taluku, Raichur, Karnataka, 584100, India"
+    },
+    "KA-37": {
+      "lat": 15.3484144,
+      "lon": 76.1547421,
+      "displayName": "Koppala, Koppala taluku, Koppal, Karnataka, 583231, India"
+    },
+    "KA-38": {
+      "lat": 17.9149369,
+      "lon": 77.4880494,
+      "displayName": "Bidar, Bidar taluku, Bidar, Karnataka, 585400, India"
+    },
+    "KA-39": {
+      "lat": 18.000067,
+      "lon": 77.202733,
+      "displayName": "Bhalki, Bhalki taluku, Bidar, Karnataka, India"
+    },
+    "KA-40": {
+      "lat": 13.4358702,
+      "lon": 77.7312434,
+      "displayName": "Chikkaballapura, Chikkaballapura taluk, Chikkaballapura, Karnataka, 562101, India"
+    },
+    "KA-41": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-42": {
+      "lat": 12.7252766,
+      "lon": 77.2804797,
+      "displayName": "Ramanagara, Ramanagara taluk, Bengaluru South, Karnataka, 571511, India"
+    },
+    "KA-43": {
+      "lat": 13.1976048,
+      "lon": 77.7074856,
+      "displayName": "Kempegowda International Airport, KIAL T2 Exit Road, Bengaluru, Devanahalli taluku, Bengaluru North, Karnataka, 560300, India"
+    },
+    "KA-44": {
+      "lat": 13.258575,
+      "lon": 76.4737675,
+      "displayName": "Tiptur, Tipaturu taluk, Tumakuru, Karnataka, 572200, India"
+    },
+    "KA-45": {
+      "lat": 12.3035086,
+      "lon": 76.2928095,
+      "displayName": "Hunsur, Hunasuru taluk, Mysuru District, Karnataka, 571105, India"
+    },
+    "KA-46": {
+      "lat": 12.9453765,
+      "lon": 75.7789505,
+      "displayName": "Sakleshpur, Mahatma Gandhi Road, Sakaleshpura, Sakaleshapura taluk, Hassan, Karnataka, 573134, India"
+    },
+    "KA-47": {
+      "lat": 14.3159009,
+      "lon": 74.432402,
+      "displayName": "Honnavar, NH66, Ramatirtha, Honnavar taluku, Uttara Kannada, Karnataka, 581334, India"
+    },
+    "KA-48": {
+      "lat": 16.5064643,
+      "lon": 75.2932185,
+      "displayName": "Government Hospital, Jamkhandi, SH34, Jamakhandi, Jamakhandi taluku, Bagalkote, Karnataka, 587300, India"
+    },
+    "KA-49": {
+      "lat": 16.1693033,
+      "lon": 74.8224338,
+      "displayName": "Gokak, Gokak taluku, Belagavi, Karnataka, 591307, India"
+    },
+    "KA-50": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-51": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-52": {
+      "lat": 13.1976048,
+      "lon": 77.7074856,
+      "displayName": "Kempegowda International Airport, KIAL T2 Exit Road, Bengaluru, Devanahalli taluku, Bengaluru North, Karnataka, 560300, India"
+    },
+    "KA-53": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-54": {
+      "lat": 12.8196077,
+      "lon": 76.7542189,
+      "displayName": "Nagamangala, Nagamangala taluk, Mandya, Karnataka, 571432, India"
+    },
+    "KA-55": {
+      "lat": 12.3051828,
+      "lon": 76.6553609,
+      "displayName": "Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India"
+    },
+    "KA-56": {
+      "lat": 17.8694654,
+      "lon": 76.9518062,
+      "displayName": "Basavakalyan, Basavakalyana taluku, Bidar, Karnataka, 585327, India"
+    },
+    "KA-57": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-58": {
+      "lat": 15.8572666,
+      "lon": 74.5069343,
+      "displayName": "Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India"
+    },
+    "KA-59": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "displayName": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+    },
+    "KA-60": {
+      "lat": 14.9634438,
+      "lon": 74.7120788,
+      "displayName": "Yellapura, Yallapura taluk, Uttara Kannada, Karnataka, 581359, India"
+    },
+    "KA-61": {
+      "lat": 13.2145414,
+      "lon": 74.9951861,
+      "displayName": "Karkala, Karkala taluk, Udupi, Karnataka, 574104, India"
+    },
+    "KA-62": {
+      "lat": 12.5576644,
+      "lon": 75.3907575,
+      "displayName": "Sulya, Sulya taluk, Dakshina Kannada, Karnataka, 574239, India"
+    },
+    "KA-63": {
+      "lat": 15.3518378,
+      "lon": 75.1379848,
+      "displayName": "Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India"
+    },
+    "KA-64": {
+      "lat": 13.6601789,
+      "lon": 77.2140882,
+      "displayName": "Madhugiri, Madhugiri taluk, Tumakuru, Karnataka, 572132, India"
+    },
+    "KA-65": {
+      "lat": 15.2490284,
+      "lon": 74.6236037,
+      "displayName": "Dandeli, Dandeli taluku, Uttara Kannada, Karnataka, 581325, India"
+    },
+    "KA-66": {
+      "lat": 13.7062309,
+      "lon": 75.8183561,
+      "displayName": "Tarikere, Tarikere taluku, Chikkamagaluru, Karnataka, 577228, India"
+    },
+    "KA-67": {
+      "lat": 13.3986587,
+      "lon": 78.0533058,
+      "displayName": "Chintamani, Chintamani taluk, Chikkaballapura, Karnataka, 563125, India"
+    },
+    "KA-68": {
+      "lat": 14.6165795,
+      "lon": 75.6341529,
+      "displayName": "Ranebennur, Ranebennuru taluk, Haveri, Karnataka, 581115, India"
+    },
+    "KA-69": {
+      "lat": 15.9449549,
+      "lon": 75.2967797,
+      "displayName": "Ramadurga, Ramadurga taluku, Belagavi, Karnataka, India"
+    },
+    "KA-70": {
+      "lat": 12.8953789,
+      "lon": 75.0408618,
+      "displayName": "Bantwal, Bantwal taluk, Dakshina Kannada, Karnataka, 574211, India"
+    },
+    "KA-71": {
+      "lat": 16.7270022,
+      "lon": 75.0631428,
+      "displayName": "Athani, Athani taluku, Belagavi, Karnataka, 591304, India"
+    }
+  }
+}

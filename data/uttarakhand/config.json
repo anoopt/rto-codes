@@ -1,11 +1,10 @@
 {
-    "stateCode": "UK",
-    "name": "Uttarakhand",
-    "displayName": "Uttarakhand",
-    "capital": "Dehradun",
-    "totalRTOs": 20,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "UK",
+  "name": "Uttarakhand",
+  "displayName": "Uttarakhand",
+  "capital": "Dehradun",
+  "totalRTOs": 20,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

@@ -1,11 +1,10 @@
 {
-    "stateCode": "AN",
-    "name": "Andaman and Nicobar Islands",
-    "displayName": "Andaman and Nicobar Islands",
-    "capital": "Port Blair",
-    "totalRTOs": 2,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": true,
-    "type": "union-territory"
+  "stateCode": "AN",
+  "name": "Andaman and Nicobar Islands",
+  "displayName": "Andaman and Nicobar Islands",
+  "capital": "Port Blair",
+  "totalRTOs": 2,
+  "districtMapping": {},
+  "isComplete": true,
+  "type": "union-territory"
 }

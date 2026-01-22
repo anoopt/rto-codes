@@ -1,11 +1,10 @@
 {
-    "stateCode": "JK",
-    "name": "Jammu and Kashmir",
-    "displayName": "Jammu and Kashmir",
-    "capital": "Srinagar",
-    "totalRTOs": 22,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "union-territory"
+  "stateCode": "JK",
+  "name": "Jammu and Kashmir",
+  "displayName": "Jammu and Kashmir",
+  "capital": "Srinagar",
+  "totalRTOs": 22,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "union-territory"
 }

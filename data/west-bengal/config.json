@@ -1,11 +1,10 @@
 {
-    "stateCode": "WB",
-    "name": "West Bengal",
-    "displayName": "West Bengal",
-    "capital": "Kolkata",
-    "totalRTOs": 97,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "WB",
+  "name": "West Bengal",
+  "displayName": "West Bengal",
+  "capital": "Kolkata",
+  "totalRTOs": 97,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

@@ -1,11 +1,10 @@
 {
-    "stateCode": "UP",
-    "name": "Uttar Pradesh",
-    "displayName": "Uttar Pradesh",
-    "capital": "Lucknow",
-    "totalRTOs": 96,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "UP",
+  "name": "Uttar Pradesh",
+  "displayName": "Uttar Pradesh",
+  "capital": "Lucknow",
+  "totalRTOs": 96,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

@@ -13,11 +13,12 @@ export interface StateConfig {
   totalRTOs: number;
   /** Optional: List of valid RTO codes (for non-sequential numbering) */
   validCodes?: string[];
-  mapFile?: string;
+  /** Maps district names to normalized identifiers used by OSM */
   districtMapping: Record<string, string>;
-  svgDistrictIds: string[];
   /** Whether all RTOs have been added for this state/UT */
   isComplete: boolean;
   /** Whether this is a state or union territory */
   type: "state" | "union-territory";
+  /** Whether OSM map is enabled for this state (requires boundaries.json and coordinates.json) */
+  osmEnabled?: boolean;
 }

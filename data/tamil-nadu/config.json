@@ -1,11 +1,10 @@
 {
-    "stateCode": "TN",
-    "name": "Tamil Nadu",
-    "displayName": "Tamil Nadu",
-    "capital": "Chennai",
-    "totalRTOs": 143,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "TN",
+  "name": "Tamil Nadu",
+  "displayName": "Tamil Nadu",
+  "capital": "Chennai",
+  "totalRTOs": 143,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

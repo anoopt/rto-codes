@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getRTOByCode, getAllRTOs, getVerifiedRTOCodes, getDistrictToRTOsMap, getRTOsByDistrict } from '@/lib/rto-data';
-import { getStateMapSvg, getStateFolderByCode, getStateConfig, getAvailableStates } from '@/lib/state-config';
+import { getStateFolderByCode, getStateConfig, getAvailableStates } from '@/lib/state-config';
 import { hasRTOImage } from '@/lib/cloudinary';
 import { isOSMEnabled } from '@/lib/feature-flags';
 import ShuffleButton from '@/components/ShuffleButton';
@@ -13,40 +13,33 @@ import Footer from '@/components/Footer';
 import RTOHeroImage from '@/components/RTOHeroImage';
 import { CloseIcon, WarningIcon, MapIcon, LocationIcon, PhoneIcon, EmailIcon } from '@/components/icons';
 
-// Feature flag for district map
-const ENABLE_DISTRICT_MAP = process.env.NEXT_PUBLIC_ENABLE_DISTRICT_MAP === 'true';
-// Check if OSM is enabled at module level for pre-loading optimization
+// Global OSM flag - per-state control via config.json osmEnabled
 const OSM_ENABLED = isOSMEnabled();
 
-// Pre-load map content and config by state
+// Pre-load map config by state
 const stateData: Record<string, {
-  svgContent: string | null;
   districtMapping: Record<string, string>;
-  svgDistrictIds: string[];
+  osmEnabled?: boolean;
 }> = {};
 
-// Load state data when either SVG district map or OSM map is enabled
-if (ENABLE_DISTRICT_MAP || OSM_ENABLED) {
-  // Dynamically load all available state maps
+// Load state data when OSM is enabled
+if (OSM_ENABLED) {
   const availableStates = getAvailableStates();
 
   for (const stateName of availableStates) {
     const stateConfig = getStateConfig(stateName);
-    // Only load the map if it exists (getStateMapSvg returns null if not found)
-    const svgContent = getStateMapSvg(stateName);
 
     if (stateConfig) {
       stateData[stateName] = {
-        svgContent,  // May be null if map doesn't exist
         districtMapping: stateConfig.districtMapping || {},
-        svgDistrictIds: stateConfig.svgDistrictIds || []
+        osmEnabled: stateConfig.osmEnabled,
       };
     }
   }
 }
 
 // Pre-compute district to RTOs map for interactive map navigation
-const districtRTOsMap = (ENABLE_DISTRICT_MAP || OSM_ENABLED) ? getDistrictToRTOsMap() : null;
+const districtRTOsMap = OSM_ENABLED ? getDistrictToRTOsMap() : null;
 
 // Convert to simplified format for client component
 const clientDistrictRTOsMap = districtRTOsMap
@@ -302,22 +295,20 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                     </p>
                   )}
 
-                  {/* District Map - Feature flagged with interactive navigation */}
-                  {/* Renders OSM map when NEXT_PUBLIC_OSM_ENABLED is true, otherwise SVG map.
-                      Only renders if ENABLE_DISTRICT_MAP or OSM_ENABLED is true and RTO has a district. */}
-                  {(ENABLE_DISTRICT_MAP || OSM_ENABLED) && rto.district && (() => {
+                  {/* District Map - OSM map when enabled for this state */}
+                  {/* Renders OSM map when global OSM flag is true AND state osmEnabled is true. */}
+                  {OSM_ENABLED && rto.district && (() => {
                     const stateFolderName = getStateFolderByCode(rto.stateCode);
                     const stateInfo = stateFolderName ? stateData[stateFolderName] : null;
-                    // Get RTOs in this district for OSM markers
-                    const districtRTOs = getRTOsByDistrict(rto.district, rto.state);
+                    // Get RTOs in this district for OSM markers (use folder name, not display name)
+                    const districtRTOs = getRTOsByDistrict(rto.district, stateFolderName || undefined);
                     return (
                       <MapSectionWrapper
                         rto={{ code: rto.code, state: rto.state, stateCode: rto.stateCode, district: rto.district }}
-                        svgContent={stateInfo?.svgContent}
                         districtMapping={stateInfo?.districtMapping || {}}
-                        svgDistrictIds={stateInfo?.svgDistrictIds || []}
                         districtRTOsMap={clientDistrictRTOsMap || undefined}
                         districtRTOs={districtRTOs}
+                        osmEnabled={stateInfo?.osmEnabled}
                       />
                     );
                   })()}

@@ -99,34 +99,21 @@ jobs:
             exit 0
           fi
 
-          # First, check if last processed state is still incomplete - continue with it
-          if [ -n "$LAST_STATE" ]; then
-            for state in $STATES; do
-              if [ "$state" = "$LAST_STATE" ]; then
-                echo "state=$LAST_STATE" >> $GITHUB_OUTPUT
-                echo "🔄 Continuing with incomplete state: $LAST_STATE"
-                exit 0
-              fi
-            done
-            # Last state is no longer in incomplete list - it's now complete!
-            echo "✅ $LAST_STATE is now complete, moving to next state"
-          fi
-
-          # Find next state after the completed one, or start from beginning
-          FOUND_COMPLETED=false
+          # Find next state to process
+          FOUND_NEXT=false
           for state in $STATES; do
-            if [ "$FOUND_COMPLETED" = "true" ]; then
+            if [ "$FOUND_NEXT" = "true" ]; then
               echo "state=$state" >> $GITHUB_OUTPUT
               echo "🔄 Next in rotation: $state"
               exit 0
             fi
             
             if [ "$state" = "$LAST_STATE" ]; then
-              FOUND_COMPLETED=true
+              FOUND_NEXT=true
             fi
           done
 
-          # If we're here, start from beginning (either no last state or wrapped around)
+          # If we're here, start from beginning
           FIRST_STATE=$(echo "$STATES" | head -n1)
           echo "state=$FIRST_STATE" >> $GITHUB_OUTPUT
           echo "🔄 Starting new rotation cycle: $FIRST_STATE"
@@ -219,8 +206,6 @@ jobs:
         run: |
           STATE="${{ steps.determine-state.outputs.state }}"
           LIMIT="${{ inputs.limit || 5 }}"
-          # Clean up limit (remove decimals caused by some mobile inputs)
-          LIMIT=${LIMIT%.*}
           EXISTING="${{ steps.check-state.outputs.existing }}"
           TOTAL="${{ steps.check-state.outputs.total }}"
 
@@ -278,12 +263,6 @@ jobs:
           GENERATED="${{ steps.generate.outputs.generated }}"
           NEW_TOTAL="${{ steps.generate.outputs.new_total }}"
           TOTAL="${{ steps.check-state.outputs.total }}"
-
-          if [ "$GENERATED" -eq "0" ]; then
-            echo "⚠️ No new RTO files were generated (all found to be non-existent or kept as is)."
-            echo "   Skipping commit."
-            exit 0
-          fi
 
           # Configure git
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

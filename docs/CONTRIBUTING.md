@@ -7,7 +7,6 @@ Thank you for your interest in contributing to RTO Codes India! This document pr
 - [Code of Conduct](#code-of-conduct)
 - [Ways to Contribute](#ways-to-contribute)
 - [Contributing RTO Data](#contributing-rto-data)
-- [Contributing SVG Maps](#contributing-svg-maps)
 - [Contributing Code](#contributing-code)
 - [Development Setup](#development-setup)
 - [Pull Request Process](#pull-request-process)
@@ -23,10 +22,9 @@ There are several ways you can contribute to this project:
 
 1. **Add new RTO data** - Contribute JSON files for RTOs not yet in the database
 2. **Fix existing RTO data** - Correct or update inaccurate information
-3. **Contribute SVG maps** - Create state district maps for visualization
-4. **Report bugs** - Help us identify and fix issues
-5. **Suggest features** - Share ideas for improving the project
-6. **Improve documentation** - Enhance README, guides, or code comments
+3. **Report bugs** - Help us identify and fix issues
+4. **Suggest features** - Share ideas for improving the project
+5. **Improve documentation** - Enhance README, guides, or code comments
 
 ## Contributing RTO Data
 
@@ -136,9 +134,9 @@ If you need to update a state's configuration (e.g., after adding all RTOs), her
   "capital": "Capital City",
   "totalRTOs": 50,
   "districtMapping": {},
-  "svgDistrictIds": [],
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "osmEnabled": false
 }
 ```
 
@@ -146,59 +144,8 @@ If you need to update a state's configuration (e.g., after adding all RTOs), her
 
 - `isComplete`: Set to `true` when all RTOs for the state/UT have been added
 - `type`: Either `"state"` or `"union-territory"`
-- `mapFile`: Optional - add when an SVG map is available
-- `districtMapping` / `svgDistrictIds`: Required only when adding an SVG map
-
-## Contributing SVG Maps
-
-State district maps enable interactive visualization on RTO detail pages. If you have design or cartography skills, you can contribute SVG maps.
-
-### Where to Find SVG Maps
-
-**Wikimedia Commons** is an excellent source for state district maps:
-
-- Search for "[State name] district map" on [Wikimedia Commons](https://commons.wikimedia.org/)
-- Look for SVG format maps with clear district boundaries
-- Most maps are licensed under **CC BY-SA** (Creative Commons Attribution-ShareAlike)
-- Example: [Karnataka districts map](https://commons.wikimedia.org/wiki/File:Karnataka_locator_map.svg)
-
-**Important**: Always check the license and provide proper attribution!
-
-### Requirements for SVG Maps
-
-1. **Format**: Clean, optimized SVG format
-2. **Districts**: Each district should be a separate `<path>` or `<g>` element with a unique `id`
-3. **IDs**: Use clear, consistent district IDs (e.g., `Bangalore_Urban`, `Mysore`, `Dakshina_Kannada`)
-4. **Style**: Minimal inline styles; use classes where possible
-5. **Size**: Optimize file size (remove unnecessary metadata, comments, etc.)
-6. **License**: Must be Creative Commons licensed (e.g., from Wikimedia Commons) or your original work
-
-### SVG Structure Example
-
-```xml
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
-  <g id="District_1">
-    <path d="M..." />
-  </g>
-  <g id="District_2">
-    <path d="M..." />
-  </g>
-  <!-- More districts -->
-</svg>
-```
-
-### Submitting SVG Maps
-
-1. Create your SVG map file
-2. Name it `map.svg`
-3. Place it in the appropriate state folder: `data/[state-name]/map.svg`
-4. Update the state's `config.json` with district mappings
-5. Test locally with the district map feature enabled
-6. Submit a PR with:
-   - The SVG file
-   - Updated `config.json` with district mappings
-   - A screenshot showing the map working
-   - License/attribution information
+- `districtMapping`: Maps district names to boundary IDs for map display
+- `osmEnabled`: Set to `true` after OSM map data is generated and verified
 
 ## Contributing Code
 

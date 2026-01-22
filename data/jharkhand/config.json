@@ -1,11 +1,10 @@
 {
-    "stateCode": "JH",
-    "name": "Jharkhand",
-    "displayName": "Jharkhand",
-    "capital": "Ranchi",
-    "totalRTOs": 24,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "JH",
+  "name": "Jharkhand",
+  "displayName": "Jharkhand",
+  "capital": "Ranchi",
+  "totalRTOs": 24,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

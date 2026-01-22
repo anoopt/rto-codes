@@ -1,11 +1,10 @@
 {
-    "stateCode": "HR",
-    "name": "Haryana",
-    "displayName": "Haryana",
-    "capital": "Chandigarh",
-    "totalRTOs": 99,
-    "districtMapping": {},
-    "svgDistrictIds": [],
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "HR",
+  "name": "Haryana",
+  "displayName": "Haryana",
+  "capital": "Chandigarh",
+  "totalRTOs": 99,
+  "districtMapping": {},
+  "isComplete": false,
+  "type": "state"
 }

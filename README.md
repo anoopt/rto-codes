@@ -52,7 +52,7 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 - 🔍 **Instant Search** - Search by code, region, city, or district
 - 📱 **Fully Responsive** - Optimized for all devices
-- 🗺️ **Interactive Maps** - District map highlighting for supported states
+- 🗺️ **Interactive Maps** - OpenStreetMap-based district maps for supported states
 - ⚡ **Fast Loading** - Static site generation with Next.js
 - 🎨 **Dark Theme** - Beautiful dark UI with theme switching
 - 🚀 **Performance** - Built with Bun for maximum speed
@@ -75,7 +75,7 @@ A comprehensive, searchable database of RTO (Regional Transport Office) codes in
 
 ## 🤝 Contributing
 
-We welcome contributions! Whether you're adding RTO data, contributing SVG maps, or improving code, your help is appreciated.
+We welcome contributions! Whether you're adding RTO data or improving code, your help is appreciated.
 
 ### Quick Start
 
@@ -92,10 +92,9 @@ We welcome contributions! Whether you're adding RTO data, contributing SVG maps,
 ### Ways to Contribute
 
 1. 📝 **Add/Fix RTO Data** - Contribute JSON files for RTOs (see [CONTRIBUTING.md](./docs/CONTRIBUTING.md#contributing-rto-data))
-2. 🗺️ **Create SVG Maps** - Design state maps for visualization (see [CONTRIBUTING.md](./docs/CONTRIBUTING.md#contributing-svg-maps))
-3. 🐛 **Report Bugs** - Use our [Bug Report](../../issues/new?template=bug-report.md) template
-4. ✨ **Suggest Features** - Use our [Feature Request](../../issues/new?template=feature-request.md) template
-5. 📚 **Improve Documentation** - Help make our docs better
+2. **Report Bugs** - Use our [Bug Report](../../issues/new?template=bug-report.md) template
+3. ✨ **Suggest Features** - Use our [Feature Request](../../issues/new?template=feature-request.md) template
+4. 📚 **Improve Documentation** - Help make our docs better
 
 ### Issue Templates
 
@@ -145,8 +144,8 @@ Create a `.env.local` file (optional but recommended):
 # Without this, the app works but images won't display
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae
 
-# Optional: Enable district map highlighting on RTO detail pages
-NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
+# Enable OSM maps on RTO detail pages (per-state control via config.json)
+NEXT_PUBLIC_OSM_ENABLED=true
 ```
 
 > **Note**: The Cloudinary cloud name is a public identifier for fetching images. It's safe to use for development.
@@ -163,10 +162,10 @@ This site is deployed on **Vercel** with automatic deployments from the `main` b
 
 1. Fork this repository
 2. Import to [Vercel](https://vercel.com/new)
-3. Add environment variable: `NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true`
+3. Add environment variable: `NEXT_PUBLIC_OSM_ENABLED=true`
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes&env=NEXT_PUBLIC_ENABLE_DISTRICT_MAP&envDescription=Enable%20district%20map%20feature&envLink=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes%23environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes&env=NEXT_PUBLIC_OSM_ENABLED&envDescription=Enable%20OSM%20maps%20feature&envLink=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes%23environment-variables)
 
 ## 📝 License
 

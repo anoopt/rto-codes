@@ -78,8 +78,8 @@ Create a `.env.local` file (optional but recommended):
 # Without this, the app works but images won't display
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dfqx29jae
 
-# Optional: Enable district map highlighting on RTO detail pages
-NEXT_PUBLIC_ENABLE_DISTRICT_MAP=true
+# Optional: Enable OpenStreetMap-based maps on RTO detail pages
+NEXT_PUBLIC_OSM_ENABLED=true
 ```
 
 > **Note**: The Cloudinary cloud name above is the project's public cloud name for fetching images. It's safe to use for development - you cannot upload or modify images without API credentials.

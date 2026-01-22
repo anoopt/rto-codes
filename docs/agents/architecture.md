@@ -16,3 +16,19 @@
 
 - Prioritize Static Site Generation (SSG).
 - Images are handled via Cloudinary.
+
+## Maps
+
+Maps are rendered using OpenStreetMap with React-Leaflet:
+
+| Component        | Data Source                 | Use Case                               |
+| :--------------- | :-------------------------- | :------------------------------------- |
+| `OSMStateMap`    | Static JSON + OpenStreetMap | State map with all district boundaries |
+| `OSMDistrictMap` | Static JSON + OpenStreetMap | Single district view with RTO markers  |
+
+### OSM Map Architecture
+
+- **Boundaries**: `lib/osm-boundaries.ts` loads from `public/data/{state}/boundaries.json`
+- **Coordinates**: `lib/osm-geocoding.ts` loads from `public/data/{state}/coordinates.json`
+- **Caching**: In-memory → Static JSON → localStorage fallback
+- **Rendering**: React-Leaflet with GeoJSON for district polygons
