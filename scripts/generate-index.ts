@@ -23,6 +23,7 @@ interface StateIndex {
     type: "state" | "union-territory";
     status: string;
     osmStatus: string; // "Enabled" or "Pending" - string for shields.io compatibility
+    osmColor: string; // Badge color: "brightgreen" for enabled, "yellow" for pending
 }
 
 interface MasterIndex {
@@ -118,6 +119,7 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
         type: config?.type ?? "state",
         status: status,
         osmStatus: config?.osmEnabled ? "Enabled" : "Pending",
+        osmColor: config?.osmEnabled ? "brightgreen" : "yellow",
     };
 
     return { stateIndex, rtos };

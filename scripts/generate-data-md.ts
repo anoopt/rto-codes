@@ -115,20 +115,21 @@ function generateRTOsBadge(stateCode: string): string {
     return `![${stateCode} RTOs](https://img.shields.io/badge/dynamic/json?url=${encodeURIComponent(BASE_URL + '/' + folder + '/index.json')}&query=${encodeURIComponent('$.length')}&label=RTOs&color=blue)`;
 }
 
-function generateOSMBadge(stateCode: string): string {
-    // Dynamic badge that reads osmStatus from index.json stateMap (string for shields.io compatibility)
-    return `![OSM](https://img.shields.io/badge/dynamic/json?url=${encodeURIComponent(BASE_URL + '/index.json')}&query=${encodeURIComponent(`$.stateMap.${stateCode}.osmStatus`)}&label=OSM)`;
+function generateOSMBadge(stateCode: string, osmEnabled: boolean): string {
+    // Use static badge with color based on local data, but value from dynamic JSON for consistency
+    const color = osmEnabled ? 'brightgreen' : 'yellow';
+    return `![OSM](https://img.shields.io/badge/dynamic/json?url=${encodeURIComponent(BASE_URL + '/index.json')}&query=${encodeURIComponent(`$.stateMap.${stateCode}.osmStatus`)}&label=OSM&color=${color})`;
 }
 
-function generateStateRow(stateCode: string, isComplete: boolean = false): string {
+function generateStateRow(stateCode: string, isComplete: boolean = false, osmEnabled: boolean = false): string {
     const displayName = displayNames[stateCode];
     const nameColumn = isComplete ? `**${displayName} (${stateCode})**` : `${displayName} (${stateCode})`;
 
-    return `| ${nameColumn} | ${generateStatusBadge(stateCode)} | ${generateRTOsBadge(stateCode)} | ${generateOSMBadge(stateCode)} |`;
+    return `| ${nameColumn} | ${generateStatusBadge(stateCode)} | ${generateRTOsBadge(stateCode)} | ${generateOSMBadge(stateCode, osmEnabled)} |`;
 }
 
 function generateMarkdown(): string {
-    // Read index.json to determine which states are complete
+    // Read index.json to determine which states are complete and have OSM enabled
     const indexPath = join(process.cwd(), 'data', 'index.json');
     const indexData = JSON.parse(readFileSync(indexPath, 'utf-8'));
     const stateMap = indexData.stateMap || {};
@@ -145,12 +146,29 @@ function generateMarkdown(): string {
             .map(([code]) => code)
     );
 
+    // Track OSM enabled states (read from config files)
+    const osmEnabledStates = new Set<string>();
+    for (const [code, info] of Object.entries(stateMap) as [string, any][]) {
+        const folder = stateCodeToFolder[code];
+        if (folder) {
+            try {
+                const configPath = join(process.cwd(), 'data', folder, 'config.json');
+                const config = JSON.parse(readFileSync(configPath, 'utf-8'));
+                if (config.osmEnabled) {
+                    osmEnabledStates.add(code);
+                }
+            } catch {
+                // Config doesn't exist or osmEnabled not set
+            }
+        }
+    }
+
     const stateRows = states
-        .map(code => generateStateRow(code, completeStates.has(code)))
+        .map(code => generateStateRow(code, completeStates.has(code), osmEnabledStates.has(code)))
         .join('\n');
 
     const utRows = unionTerritories
-        .map(code => generateStateRow(code, completeUTs.has(code)))
+        .map(code => generateStateRow(code, completeUTs.has(code), osmEnabledStates.has(code)))
         .join('\n');
 
     return `# Data & Coverage Status
