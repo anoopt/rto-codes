@@ -22,7 +22,7 @@ interface StateIndex {
     isComplete: boolean;
     type: "state" | "union-territory";
     status: string;
-    osmEnabled: boolean;
+    osmStatus: string; // "Enabled" or "Pending" - string for shields.io compatibility
 }
 
 interface MasterIndex {
@@ -117,7 +117,7 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
         isComplete: config?.isComplete ?? false,
         type: config?.type ?? "state",
         status: status,
-        osmEnabled: config?.osmEnabled ?? false,
+        osmStatus: config?.osmEnabled ? "Enabled" : "Pending",
     };
 
     return { stateIndex, rtos };
