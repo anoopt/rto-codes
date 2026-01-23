@@ -4,18 +4,10 @@
  * All badges read data from JSON files via GitHub raw URLs
  */
 
-import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 const BASE_URL = 'https://raw.githubusercontent.com/anoopt/rto-codes/main/data';
-
-interface StateInfo {
-    stateCode: string;
-    stateName: string;
-    folderName: string;
-    displayName: string;
-    type: 'state' | 'union-territory';
-}
 
 // Map state codes to folder names
 const stateCodeToFolder: Record<string, string> = {
@@ -146,12 +138,12 @@ function generateMarkdown(): string {
 
     // Track OSM enabled states (read from config files)
     const osmEnabledStates = new Set<string>();
-    for (const [code] of Object.entries(stateMap) as [string, any][]) {
+    for (const [code] of Object.entries(stateMap)) {
         const folder = stateCodeToFolder[code];
         if (folder) {
             try {
                 const configPath = join(process.cwd(), 'data', folder, 'config.json');
-                const config = JSON.parse(readFileSync(configPath, 'utf-8'));
+                const config = JSON.parse(readFileSync(configPath, 'utf-8')) as { osmEnabled?: boolean };
                 if (config.osmEnabled) {
                     osmEnabledStates.add(code);
                 }
