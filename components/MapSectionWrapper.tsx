@@ -93,8 +93,19 @@ export default function MapSectionWrapper({
     return numA - numB;
   });
 
+  // Prevent touch events from bubbling up to SwipeHandler
+  // This allows map panning without triggering page navigation
+  const handleTouchEvent = (e: React.TouchEvent) => {
+    e.stopPropagation();
+  };
+
   return (
-    <div className="mt-8 flex flex-col items-center gap-3 relative">
+    <div
+      className="mt-8 flex flex-col items-center gap-3 relative"
+      onTouchStart={handleTouchEvent}
+      onTouchMove={handleTouchEvent}
+      onTouchEnd={handleTouchEvent}
+    >
       <div className="w-full max-w-md">
         <OSMStateMap
           state={rto.state}

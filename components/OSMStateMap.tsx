@@ -41,49 +41,77 @@ function LoadingSpinner({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
 }
 
 /**
- * Component to control zoom behavior - zooms toward the current district instead of map center.
- * Fits to district bounds on initial load.
+ * Component to control zoom behavior - positions map to show the current district.
+ * Uses instant positioning on initial load (no animation since map just mounted).
+ * Zooms toward the current RTO marker instead of district center.
  */
 function ZoomToDistrictController({
-  currentDistrictBoundary
+  currentDistrictBoundary,
+  currentRTOPosition,
 }: {
   currentDistrictBoundary: GeoJSONFeature | null;
+  currentRTOPosition: LatLngTuple | null;
 }) {
   const map = useMap();
   const isUserPanning = useRef(false);
-  const hasInitialFit = useRef(false);
+  const lastBoundaryId = useRef<string | null>(null);
+  const hasInitialPositioned = useRef(false);
 
-  // Get the center of the current district boundary
-  const districtCenter = useMemo(() => {
+  // Use RTO position as zoom center, fall back to district center
+  const zoomCenter = useMemo(() => {
+    if (currentRTOPosition) {
+      return currentRTOPosition;
+    }
     if (currentDistrictBoundary) {
       return getBoundaryCenter(currentDistrictBoundary);
     }
     return null;
+  }, [currentRTOPosition, currentDistrictBoundary]);
+
+  // Generate a unique ID for the boundary to detect changes
+  const boundaryId = useMemo(() => {
+    if (!currentDistrictBoundary?.bbox) return null;
+    return currentDistrictBoundary.bbox.join(',');
   }, [currentDistrictBoundary]);
 
-  // Fit to district on first load
+  // Position map to district bounds
   useEffect(() => {
-    if (currentDistrictBoundary && currentDistrictBoundary.bbox && !hasInitialFit.current) {
-      const [minLon, minLat, maxLon, maxLat] = currentDistrictBoundary.bbox;
-      const bounds: LatLngBounds = L.latLngBounds(
-        [minLat, minLon],
-        [maxLat, maxLon]
-      );
+    if (!currentDistrictBoundary?.bbox) return;
 
-      // Fit with padding, not too zoomed in
+    // Skip if this is the same boundary we already positioned to
+    if (boundaryId === lastBoundaryId.current) return;
+
+    const [minLon, minLat, maxLon, maxLat] = currentDistrictBoundary.bbox;
+    const bounds: LatLngBounds = L.latLngBounds(
+      [minLat, minLon],
+      [maxLat, maxLon]
+    );
+
+    // On initial mount, use instant positioning (no animation)
+    // The map just appeared, so animating from default position looks jarring
+    if (!hasInitialPositioned.current) {
       map.fitBounds(bounds, {
         padding: [30, 30],
         maxZoom: 10,
-        animate: true,
+        animate: false,
       });
-
-      hasInitialFit.current = true;
+      hasInitialPositioned.current = true;
+    } else {
+      // For subsequent changes (e.g., clicking districts), use smooth animation
+      map.flyToBounds(bounds, {
+        padding: [30, 30],
+        maxZoom: 10,
+        duration: 0.8,
+      });
     }
-  }, [map, currentDistrictBoundary]);
 
-  // Track panning vs zooming
+    lastBoundaryId.current = boundaryId;
+  }, [map, currentDistrictBoundary, boundaryId]);
+
+  // Handle zoom controls - zoom toward current RTO instead of map center
+  // We override the default zoom control behavior by intercepting clicks
   useEffect(() => {
-    if (!districtCenter) return;
+    if (!zoomCenter) return;
 
     const handleDragStart = () => {
       isUserPanning.current = true;
@@ -95,29 +123,37 @@ function ZoomToDistrictController({
       }, 100);
     };
 
-    // After zoom ends, recenter on district if user wasn't panning
-    const handleZoomEnd = () => {
-      if (!isUserPanning.current && districtCenter) {
-        const targetCenter = L.latLng(districtCenter[0], districtCenter[1]);
-        const currentCenter = map.getCenter();
+    // Override zoom control button clicks to zoom around RTO position
+    const zoomInBtn = map.getContainer().querySelector('.leaflet-control-zoom-in');
+    const zoomOutBtn = map.getContainer().querySelector('.leaflet-control-zoom-out');
 
-        // Only recenter if we're more than 5km away from district center
-        if (currentCenter.distanceTo(targetCenter) > 5000) {
-          map.panTo(targetCenter, { animate: true, duration: 0.3 });
-        }
-      }
+    const handleZoomIn = (e: Event) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const targetLatLng = L.latLng(zoomCenter[0], zoomCenter[1]);
+      map.setZoomAround(targetLatLng, map.getZoom() + 1, { animate: true });
     };
+
+    const handleZoomOut = (e: Event) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const targetLatLng = L.latLng(zoomCenter[0], zoomCenter[1]);
+      map.setZoomAround(targetLatLng, map.getZoom() - 1, { animate: true });
+    };
+
+    zoomInBtn?.addEventListener('click', handleZoomIn, { capture: true });
+    zoomOutBtn?.addEventListener('click', handleZoomOut, { capture: true });
 
     map.on('dragstart', handleDragStart);
     map.on('dragend', handleDragEnd);
-    map.on('zoomend', handleZoomEnd);
 
     return () => {
+      zoomInBtn?.removeEventListener('click', handleZoomIn, { capture: true });
+      zoomOutBtn?.removeEventListener('click', handleZoomOut, { capture: true });
       map.off('dragstart', handleDragStart);
       map.off('dragend', handleDragEnd);
-      map.off('zoomend', handleZoomEnd);
     };
-  }, [map, districtCenter]);
+  }, [map, zoomCenter]);
 
   return null;
 }
@@ -484,6 +520,14 @@ export default function OSMStateMap({
     return found?.feature || null;
   }, [boundaries, currentDistrict]);
 
+  // Get the current RTO's position for zoom centering
+  const currentRTOPosition = useMemo((): LatLngTuple | null => {
+    if (!currentRTOCode || markerPositions.length === 0) return null;
+
+    const currentMarker = markerPositions.find(m => m.rto.code === currentRTOCode);
+    return currentMarker?.coords || null;
+  }, [currentRTOCode, markerPositions]);
+
   /**
    * Create a Leaflet DivIcon for RTO markers.
    * Current RTO: larger, red/orange with pulsing animation
@@ -815,8 +859,11 @@ export default function OSMStateMap({
           }}
         />
 
-        {/* Controller to zoom toward current district */}
-        <ZoomToDistrictController currentDistrictBoundary={currentDistrictBoundary} />
+        {/* Controller to zoom toward current RTO */}
+        <ZoomToDistrictController
+          currentDistrictBoundary={currentDistrictBoundary}
+          currentRTOPosition={currentRTOPosition}
+        />
 
         {/* District boundaries GeoJSON layer */}
         {featureCollection && (

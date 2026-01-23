@@ -22,6 +22,7 @@ interface StateIndex {
     isComplete: boolean;
     type: "state" | "union-territory";
     status: string;
+    osmEnabled: boolean;
 }
 
 interface MasterIndex {
@@ -116,6 +117,7 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
         isComplete: config?.isComplete ?? false,
         type: config?.type ?? "state",
         status: status,
+        osmEnabled: config?.osmEnabled ?? false,
     };
 
     return { stateIndex, rtos };
