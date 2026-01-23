@@ -7,8 +7,7 @@
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 
-// TODO: Change back to 'main' after merging ralph-osm branch
-const BASE_URL = 'https://raw.githubusercontent.com/anoopt/rto-codes/ralph-osm/data';
+const BASE_URL = 'https://raw.githubusercontent.com/anoopt/rto-codes/main/data';
 
 interface StateInfo {
     stateCode: string;
