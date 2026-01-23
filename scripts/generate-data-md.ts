@@ -103,9 +103,19 @@ const states = ['AP', 'AR', 'AS', 'BR', 'CG', 'GA', 'GJ', 'HR', 'HP', 'JH', 'KA'
 // Union Territories (8 UTs)
 const unionTerritories = ['AN', 'CH', 'DD', 'DL', 'JK', 'LA', 'LD', 'PY'];
 
-function generateStatusBadge(stateCode: string): string {
-    // Dynamic badge that reads status from index.json stateMap
-    return `![Status](https://img.shields.io/badge/dynamic/json?url=${encodeURIComponent(BASE_URL + '/index.json')}&query=${encodeURIComponent(`$.stateMap.${stateCode}.status`)}&label=)`;
+function getStatusColor(status: string): string {
+    switch (status) {
+        case 'Complete': return 'brightgreen';
+        case 'In Progress': return 'orange';
+        case 'Not Started': return 'lightgrey';
+        default: return 'lightgrey';
+    }
+}
+
+function generateStatusBadge(stateCode: string, status: string): string {
+    // Dynamic badge that reads status from index.json stateMap with color based on status
+    const color = getStatusColor(status);
+    return `![Status](https://img.shields.io/badge/dynamic/json?url=${encodeURIComponent(BASE_URL + '/index.json')}&query=${encodeURIComponent(`$.stateMap.${stateCode}.status`)}&label=&color=${color})`;
 }
 
 function generateRTOsBadge(stateCode: string): string {
@@ -120,34 +130,23 @@ function generateOSMBadge(stateCode: string, osmEnabled: boolean): string {
     return `![OSM](https://img.shields.io/badge/dynamic/json?url=${encodeURIComponent(BASE_URL + '/index.json')}&query=${encodeURIComponent(`$.stateMap.${stateCode}.osmStatus`)}&label=OSM&color=${color})`;
 }
 
-function generateStateRow(stateCode: string, isComplete: boolean = false, osmEnabled: boolean = false): string {
+function generateStateRow(stateCode: string, status: string, osmEnabled: boolean = false): string {
     const displayName = displayNames[stateCode];
+    const isComplete = status === 'Complete';
     const nameColumn = isComplete ? `**${displayName} (${stateCode})**` : `${displayName} (${stateCode})`;
 
-    return `| ${nameColumn} | ${generateStatusBadge(stateCode)} | ${generateRTOsBadge(stateCode)} | ${generateOSMBadge(stateCode, osmEnabled)} |`;
+    return `| ${nameColumn} | ${generateStatusBadge(stateCode, status)} | ${generateRTOsBadge(stateCode)} | ${generateOSMBadge(stateCode, osmEnabled)} |`;
 }
 
 function generateMarkdown(): string {
-    // Read index.json to determine which states are complete and have OSM enabled
+    // Read index.json to determine state status and OSM enabled states
     const indexPath = join(process.cwd(), 'data', 'index.json');
     const indexData = JSON.parse(readFileSync(indexPath, 'utf-8'));
     const stateMap = indexData.stateMap || {};
 
-    const completeStates = new Set(
-        Object.entries(stateMap)
-            .filter(([_, info]: [string, any]) => info.isComplete && info.type === 'state')
-            .map(([code]) => code)
-    );
-
-    const completeUTs = new Set(
-        Object.entries(stateMap)
-            .filter(([_, info]: [string, any]) => info.isComplete && info.type === 'union-territory')
-            .map(([code]) => code)
-    );
-
     // Track OSM enabled states (read from config files)
     const osmEnabledStates = new Set<string>();
-    for (const [code, info] of Object.entries(stateMap) as [string, any][]) {
+    for (const [code] of Object.entries(stateMap) as [string, any][]) {
         const folder = stateCodeToFolder[code];
         if (folder) {
             try {
@@ -163,11 +162,11 @@ function generateMarkdown(): string {
     }
 
     const stateRows = states
-        .map(code => generateStateRow(code, completeStates.has(code), osmEnabledStates.has(code)))
+        .map(code => generateStateRow(code, stateMap[code]?.status || 'Not Started', osmEnabledStates.has(code)))
         .join('\n');
 
     const utRows = unionTerritories
-        .map(code => generateStateRow(code, completeUTs.has(code), osmEnabledStates.has(code)))
+        .map(code => generateStateRow(code, stateMap[code]?.status || 'Not Started', osmEnabledStates.has(code)))
         .join('\n');
 
     return `# Data & Coverage Status
