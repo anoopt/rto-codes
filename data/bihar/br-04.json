@@ -1,0 +1,29 @@
+{
+    "code": "BR-04",
+    "region": "Saran",
+    "city": "Chapra",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Saran",
+    "division": "Saran Division",
+    "description": "The BR-04 RTO serves the Saran district with its headquarters located in Chapra, Bihar. It is a key administrative hub for vehicle registration, driving license issuance, and transport tax collection within the Saran division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Chapra, Saran, Bihar",
+    "pinCode": "841301",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chapra",
+        "Marhaura",
+        "Sonepur",
+        "Revelganj",
+        "Mashrakh",
+        "Dighwara",
+        "Garkha",
+        "Baniapur",
+        "Taraiya",
+        "Parsa",
+        "Jalalpur"
+    ]
+}

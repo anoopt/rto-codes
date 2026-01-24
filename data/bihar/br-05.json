@@ -1,0 +1,28 @@
+{
+    "code": "BR-05",
+    "region": "Motihari",
+    "city": "Motihari",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "East Champaran",
+    "division": "Tirhut",
+    "description": "The BR-05 RTO serves the East Champaran district, headquartered in the historic city of Motihari. This office manages all transport-related activities including vehicle registration, permit issuance, and licensing for the district bordering Nepal.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Motihari, East Champaran, Bihar",
+    "pinCode": "845401",
+    "phone": "06252-232714",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Motihari",
+        "Raxaul",
+        "Areraj",
+        "Chakia",
+        "Dhaka",
+        "Pakridayal",
+        "Sugauli",
+        "Kesaria",
+        "Madhuban",
+        "Mehsi"
+    ]
+}

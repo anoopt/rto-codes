@@ -1,0 +1,30 @@
+{
+    "code": "BR-01",
+    "region": "Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Patna",
+    "division": "Patna Division",
+    "description": "The BR-01 RTO serves the Patna district, the capital city of Bihar. As the primary transport office for the state capital, it manages a high volume of vehicle registrations, driving licenses, and permits for both private and commercial transport. It is one of the most critical and busiest transport offices in the state of Bihar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO Office Patna, Bank Road, West Gandhi Maidan, Raja Ji Salai, Chajju Bagh, Patna, Bihar",
+    "pinCode": "800001",
+    "phone": "0612-2237131",
+    "email": "dto_patna@bih.nic.in",
+    "jurisdictionAreas": [
+        "Patna City",
+        "Phulwari Sharif",
+        "Danapur",
+        "Khagaul",
+        "Fatuha",
+        "Bakhtiyarpur",
+        "Barh",
+        "Mokama",
+        "Maner",
+        "Paliganj",
+        "Masaurhi",
+        "Bikram"
+    ]
+}

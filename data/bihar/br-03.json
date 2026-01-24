@@ -1,0 +1,31 @@
+{
+    "code": "BR-03",
+    "region": "Bhojpur",
+    "city": "Arrah",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Bhojpur",
+    "division": "Patna",
+    "description": "The BR-03 RTO serves the Bhojpur district in Bihar, with its administrative headquarters in Arrah. It is responsible for vehicle registration, issuance of driving licenses, and the enforcement of transport regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectoriate Building, Arrah, Bhojpur, Bihar",
+    "pinCode": "802301",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Arrah",
+        "Jagdishpur",
+        "Piro",
+        "Shahpur",
+        "Sandesh",
+        "Barhara",
+        "Koilwar",
+        "Udawantnagar",
+        "Behea",
+        "Agiaon",
+        "Sahar",
+        "Charpokhari",
+        "Tarari"
+    ]
+}
