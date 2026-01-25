@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "code": "CG-01",
+    "region": "Governor of Chhattisgarh",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur Division",
+    "description": "CG-01 is a reserved registration code specifically allocated for vehicles belonging to the Governor of Chhattisgarh. Unlike standard RTO codes used by the general public, this series is dedicated to the official transport requirements of the Raj Bhavan and is managed through the State Transport Headquarters.",
+    "status": "active",
+    "established": "2000",
+    "address": "Raj Bhavan, Civil Lines, Raipur, Chhattisgarh",
+    "pinCode": "492001",
+    "phone": "0771-2331102",
+    "email": "tc.cg@nic.in",
+    "jurisdictionAreas": [
+      "Governor's Secretariat",
+      "Raj Bhavan Raipur",
+      "State-wide (Official Vehicles)"
+    ]
+  },
+  {
+    "code": "CG-02",
+    "region": "Chhattisgarh State Government",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur Division",
+    "description": "CG-02 is a specialized RTO code reserved exclusively for vehicles owned by the Government of Chhattisgarh. Unlike district-specific codes, this registration series is used for the state's official departmental fleet and is managed from the state capital.",
+    "status": "active",
+    "established": "2000",
+    "address": "Transport Commissioner Office, Block-4, 3rd Floor, Indrawati Bhawan, Nava Raipur Atal Nagar, Chhattisgarh",
+    "pinCode": "492002",
+    "phone": "0771-2510250",
+    "email": "tc.cg@gov.in",
+    "jurisdictionAreas": [
+      "State Government Vehicles",
+      "Chhattisgarh Secretariat",
+      "Government Departmental Fleet",
+      "Official State Assets"
+    ]
+  },
+  {
+    "code": "CG-03",
+    "region": "Chhattisgarh Police Department",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur",
+    "description": "The CG-03 code is a special registration series reserved exclusively for vehicles owned and operated by the Chhattisgarh Police Department. It has statewide jurisdiction and is managed by the State Transport Authority rather than a specific regional office for civilian use.",
+    "status": "active",
+    "established": "2000",
+    "address": "State Transport Authority, Indravati Bhawan, Naya Raipur, Chhattisgarh",
+    "pinCode": "492002",
+    "phone": "0771-2425514",
+    "email": "tc-cg@nic.in",
+    "jurisdictionAreas": [
+      "Statewide (Chhattisgarh Police Department Vehicles)"
+    ]
+  },
+  {
+    "code": "CG-04",
+    "region": "Raipur",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur Division",
+    "description": "The Raipur RTO (CG-04) serves as the primary regional transport authority for the state capital of Chhattisgarh. It manages a wide range of services including vehicle registration, driving license issuance, and tax collection for the Raipur district, which is the state's most significant administrative and commercial center.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Rawabhata, Near Maa Banjari Mandir, Bhanpuri, Raipur, Chhattisgarh",
+    "pinCode": "493221",
+    "phone": "0771-2563155",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Raipur",
+      "Arang",
+      "Abhanpur",
+      "Tilda",
+      "Dharsiwa",
+      "Birgaon"
+    ]
+  },
+  {
+    "code": "CG-05",
+    "region": "Dhamtari",
+    "city": "Dhamtari",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Dhamtari",
+    "division": "Raipur Division",
+    "description": "The CG-05 RTO serves the Dhamtari district in Chhattisgarh, providing essential services such as vehicle registration, driving license issuance, and road tax collection. It is a critical transport office within the Raipur administrative division and ensures traffic safety and legal compliance across the district.",
+    "status": "active",
+    "established": "2000",
+    "address": "Village Bhoyna, Nagri Road, Dhamtari, Chhattisgarh",
+    "pinCode": "493773",
+    "phone": "07722-238006",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dhamtari",
+      "Kurud",
+      "Nagri",
+      "Magarlod"
+    ]
+  }
+]
