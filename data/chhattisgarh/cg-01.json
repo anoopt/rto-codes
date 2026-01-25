@@ -1,0 +1,21 @@
+{
+    "code": "CG-01",
+    "region": "Governor of Chhattisgarh",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur Division",
+    "description": "CG-01 is a reserved registration code specifically allocated for vehicles belonging to the Governor of Chhattisgarh. Unlike standard RTO codes used by the general public, this series is dedicated to the official transport requirements of the Raj Bhavan and is managed through the State Transport Headquarters.",
+    "status": "active",
+    "established": "2000",
+    "address": "Raj Bhavan, Civil Lines, Raipur, Chhattisgarh",
+    "pinCode": "492001",
+    "phone": "0771-2331102",
+    "email": "tc.cg@nic.in",
+    "jurisdictionAreas": [
+        "Governor's Secretariat",
+        "Raj Bhavan Raipur",
+        "State-wide (Official Vehicles)"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "code": "CG-03",
+    "region": "Chhattisgarh Police Department",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur",
+    "description": "The CG-03 code is a special registration series reserved exclusively for vehicles owned and operated by the Chhattisgarh Police Department. It has statewide jurisdiction and is managed by the State Transport Authority rather than a specific regional office for civilian use.",
+    "status": "active",
+    "established": "2000",
+    "address": "State Transport Authority, Indravati Bhawan, Naya Raipur, Chhattisgarh",
+    "pinCode": "492002",
+    "phone": "0771-2425514",
+    "email": "tc-cg@nic.in",
+    "jurisdictionAreas": [
+        "Statewide (Chhattisgarh Police Department Vehicles)"
+    ]
+}

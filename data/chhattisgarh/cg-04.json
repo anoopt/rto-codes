@@ -1,0 +1,24 @@
+{
+    "code": "CG-04",
+    "region": "Raipur",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur Division",
+    "description": "The Raipur RTO (CG-04) serves as the primary regional transport authority for the state capital of Chhattisgarh. It manages a wide range of services including vehicle registration, driving license issuance, and tax collection for the Raipur district, which is the state's most significant administrative and commercial center.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Rawabhata, Near Maa Banjari Mandir, Bhanpuri, Raipur, Chhattisgarh",
+    "pinCode": "493221",
+    "phone": "0771-2563155",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Raipur",
+        "Arang",
+        "Abhanpur",
+        "Tilda",
+        "Dharsiwa",
+        "Birgaon"
+    ]
+}

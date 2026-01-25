@@ -1,0 +1,22 @@
+{
+    "code": "CG-05",
+    "region": "Dhamtari",
+    "city": "Dhamtari",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Dhamtari",
+    "division": "Raipur Division",
+    "description": "The CG-05 RTO serves the Dhamtari district in Chhattisgarh, providing essential services such as vehicle registration, driving license issuance, and road tax collection. It is a critical transport office within the Raipur administrative division and ensures traffic safety and legal compliance across the district.",
+    "status": "active",
+    "established": "2000",
+    "address": "Village Bhoyna, Nagri Road, Dhamtari, Chhattisgarh",
+    "pinCode": "493773",
+    "phone": "07722-238006",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dhamtari",
+        "Kurud",
+        "Nagri",
+        "Magarlod"
+    ]
+}

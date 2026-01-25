@@ -1,0 +1,22 @@
+{
+    "code": "CG-02",
+    "region": "Chhattisgarh State Government",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raipur",
+    "division": "Raipur Division",
+    "description": "CG-02 is a specialized RTO code reserved exclusively for vehicles owned by the Government of Chhattisgarh. Unlike district-specific codes, this registration series is used for the state's official departmental fleet and is managed from the state capital.",
+    "status": "active",
+    "established": "2000",
+    "address": "Transport Commissioner Office, Block-4, 3rd Floor, Indrawati Bhawan, Nava Raipur Atal Nagar, Chhattisgarh",
+    "pinCode": "492002",
+    "phone": "0771-2510250",
+    "email": "tc.cg@gov.in",
+    "jurisdictionAreas": [
+        "State Government Vehicles",
+        "Chhattisgarh Secretariat",
+        "Government Departmental Fleet",
+        "Official State Assets"
+    ]
+}
