@@ -1,0 +1,28 @@
+{
+    "code": "DD-01",
+    "region": "Dadra and Nagar Haveli",
+    "city": "Silvassa",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "stateCode": "DD",
+    "district": "Dadra and Nagar Haveli",
+    "division": "Dadra and Nagar Haveli and Daman and Diu Transport Department",
+    "description": "DD-01 is the primary Regional Transport Office for the Dadra and Nagar Haveli district, headquartered in Silvassa. It was officially designated in 2020 following the merger of the UTs of Daman and Diu and Dadra and Nagar Haveli, replacing the old DN-09 code for new registrations.",
+    "status": "active",
+    "established": "2020",
+    "address": "Transport Bhavan, Athal Junction, Silvassa, Dadra and Nagar Haveli",
+    "pinCode": "396230",
+    "phone": "0260-2642106",
+    "email": "rto-dnh@nic.in",
+    "jurisdictionAreas": [
+        "Silvassa",
+        "Khanvel",
+        "Masat",
+        "Rakholi",
+        "Naroli",
+        "Dadra",
+        "Athal",
+        "Galonda",
+        "Mandoni",
+        "Sindoni"
+    ]
+}

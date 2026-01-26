@@ -1,0 +1,24 @@
+{
+    "code": "DD-03",
+    "region": "Daman",
+    "city": "Nani Daman",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "stateCode": "DD",
+    "district": "Daman",
+    "division": "Daman",
+    "description": "DD-03 is the designated Regional Transport Office for the Daman district within the Union Territory of Dadra and Nagar Haveli and Daman and Diu. Following the 2020 administrative merger, this office manages vehicle registrations, driving licenses, and transport permits for the entire Daman enclave.",
+    "status": "active",
+    "established": "2020",
+    "address": "RTO Complex, Airport Road, Nani Daman, Daman, Dadra and Nagar Haveli and Daman and Diu",
+    "pinCode": "396210",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Daman district",
+        "Nani Daman",
+        "Moti Daman",
+        "Kachigam",
+        "Dunetha",
+        "Varkund"
+    ]
+}

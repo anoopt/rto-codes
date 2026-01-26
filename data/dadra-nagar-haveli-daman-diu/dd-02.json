@@ -1,0 +1,25 @@
+{
+    "code": "DD-02",
+    "region": "Diu",
+    "city": "Diu",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "stateCode": "DD",
+    "district": "Diu",
+    "division": "Diu",
+    "description": "DD-02 is the Regional Transport Office for the Diu district following the 2020 merger of the Union Territories. It is responsible for vehicle registrations, issuing driving licenses, and enforcing motor vehicle regulations within the island district of Diu.",
+    "status": "active",
+    "established": "2020",
+    "address": "Motor Vehicle Section, Collectorate Office, Diu, Dadra and Nagar Haveli and Daman and Diu",
+    "pinCode": "362520",
+    "phone": "02875-252444",
+    "email": "collector-diu-dd@nic.in",
+    "jurisdictionAreas": [
+        "Diu District",
+        "Ghoghla",
+        "Bucharwada",
+        "Vanakbara",
+        "Fudam",
+        "Zampa",
+        "Diu Town"
+    ]
+}
