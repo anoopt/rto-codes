@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-01-26T02:46:10.516Z",
-  "totalRTOs": 144,
-  "totalVerified": 144,
+  "generatedAt": "2026-01-26T18:08:02.299Z",
+  "totalRTOs": 149,
+  "totalVerified": 149,
   "totalStates": 28,
   "completedStates": 3,
   "totalUTs": 8,
@@ -86,14 +86,19 @@
     {
       "stateCode": "AS",
       "stateName": "Assam",
-      "rtoCount": 5,
-      "verifiedCount": 5,
+      "rtoCount": 10,
+      "verifiedCount": 10,
       "rtoCodes": [
         "as-01",
         "as-02",
         "as-03",
         "as-04",
-        "as-05"
+        "as-05",
+        "as-06",
+        "as-07",
+        "as-08",
+        "as-09",
+        "as-10"
       ],
       "isComplete": false,
       "type": "state",
@@ -675,14 +680,19 @@
     "AS": {
       "stateCode": "AS",
       "stateName": "Assam",
-      "rtoCount": 5,
-      "verifiedCount": 5,
+      "rtoCount": 10,
+      "verifiedCount": 10,
       "rtoCodes": [
         "as-01",
         "as-02",
         "as-03",
         "as-04",
-        "as-05"
+        "as-05",
+        "as-06",
+        "as-07",
+        "as-08",
+        "as-09",
+        "as-10"
       ],
       "isComplete": false,
       "type": "state",
