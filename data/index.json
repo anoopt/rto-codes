@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-01-25T02:47:13.874Z",
-  "totalRTOs": 141,
-  "totalVerified": 141,
+  "generatedAt": "2026-01-26T02:46:10.516Z",
+  "totalRTOs": 144,
+  "totalVerified": 144,
   "totalStates": 28,
   "completedStates": 3,
   "totalUTs": 8,
-  "completedUTs": 3,
+  "completedUTs": 4,
   "states": [
     {
       "stateCode": "AN",
@@ -157,12 +157,16 @@
     {
       "stateCode": "DD",
       "stateName": "Dadra and Nagar Haveli and Daman and Diu",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
+      "rtoCount": 3,
+      "verifiedCount": 3,
+      "rtoCodes": [
+        "dd-01",
+        "dd-02",
+        "dd-03"
+      ],
+      "isComplete": true,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -742,12 +746,16 @@
     "DD": {
       "stateCode": "DD",
       "stateName": "Dadra and Nagar Haveli and Daman and Diu",
-      "rtoCount": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
-      "isComplete": false,
+      "rtoCount": 3,
+      "verifiedCount": 3,
+      "rtoCodes": [
+        "dd-01",
+        "dd-02",
+        "dd-03"
+      ],
+      "isComplete": true,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
