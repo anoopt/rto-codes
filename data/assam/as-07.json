@@ -1,0 +1,25 @@
+{
+    "code": "AS-07",
+    "region": "Lakhimpur",
+    "city": "North Lakhimpur",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Lakhimpur",
+    "division": "North Assam Division",
+    "description": "The AS-07 RTO serves the Lakhimpur district in North Assam, headquartered in North Lakhimpur. It manages vehicle registrations, driving licenses, and transport permit issuance for the entire district under the Assam Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Chinatolia, P.O. North Lakhimpur, Dist. Lakhimpur, Assam",
+    "pinCode": "787001",
+    "phone": "N/A",
+    "email": "dtolakhimpur@gmail.com",
+    "jurisdictionAreas": [
+        "North Lakhimpur",
+        "Dhakuakhana",
+        "Bihpuria",
+        "Narayanpur",
+        "Naoboicha",
+        "Kadam",
+        "Lakhimpur"
+    ]
+}

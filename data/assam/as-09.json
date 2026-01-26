@@ -1,0 +1,24 @@
+{
+    "code": "AS-09",
+    "region": "Karbi Anglong",
+    "city": "Diphu",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Karbi Anglong",
+    "division": "Assam",
+    "description": "AS-09 RTO represents the District Transport Office (DTO) of the Karbi Anglong district in Assam. Located in Diphu, this office handles motor vehicle registrations, driving licenses, and transport tax collection for one of the state's largest and most significant hill districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer (DTO), Diphu Town, Near DC Office, P.O. & P.S. Diphu, Karbi Anglong, Assam",
+    "pinCode": "782460",
+    "phone": "0374-272257",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Diphu",
+        "Bokajan",
+        "Howraghat",
+        "Manja",
+        "Dokmoka",
+        "Bakalia"
+    ]
+}

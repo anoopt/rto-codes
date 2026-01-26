@@ -1,0 +1,26 @@
+{
+    "code": "AS-08",
+    "region": "Haflong, Dima Hasao",
+    "city": "Haflong",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Dima Hasao",
+    "division": "Assam Transport Department",
+    "description": "AS-08 RTO is the official registration authority for the Dima Hasao district in Assam, headquartered in the town of Haflong. It handles vehicle registration, issuance of driving licenses, and transport permit management for the entire hill district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "M.V. Branch, Office of the Deputy Commissioner, Dima Hasao, Haflong, Assam",
+    "pinCode": "788819",
+    "phone": "03673-236051",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Haflong",
+        "Maibang",
+        "Harangajao",
+        "Umrangso",
+        "Mahur",
+        "Diyungbra",
+        "New Sangbar",
+        "Dihangi"
+    ]
+}

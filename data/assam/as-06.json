@@ -1,0 +1,25 @@
+{
+    "code": "AS-06",
+    "region": "Dibrugarh",
+    "city": "Dibrugarh",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Dibrugarh",
+    "division": "Upper Assam",
+    "description": "The AS-06 District Transport Office serves the Dibrugarh district, a major tea-producing and industrial hub in Upper Assam. It manages vehicle registrations, commercial permits, and driving licenses for one of the most significant economic zones in the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Near Lakhmi Nath Bezbaruah Park, Dibrugarh, Assam",
+    "pinCode": "786001",
+    "phone": "0373-2326063",
+    "email": "dto-dibrugarh@assam.gov.in",
+    "jurisdictionAreas": [
+        "Dibrugarh",
+        "Chabua",
+        "Naharkatia",
+        "Moran",
+        "Namrup",
+        "Tingkhong",
+        "Duliajan"
+    ]
+}

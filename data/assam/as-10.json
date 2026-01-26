@@ -1,0 +1,24 @@
+{
+    "code": "AS-10",
+    "region": "Karimganj",
+    "city": "Karimganj",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Karimganj",
+    "division": "Cachar Division",
+    "description": "The AS-10 RTO serves the Karimganj district in Assam and functions as the District Transport Office (DTO). It is responsible for vehicle registration, licensing, and enforcing motor vehicle regulations within the Barak Valley region. The office plays a critical role in managing transportation services near the international border with Bangladesh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Settlement Road, Steamer Ghat, Karimganj Town, Assam",
+    "pinCode": "788710",
+    "phone": "03843-262345",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Karimganj",
+        "Badarpur",
+        "Patharkandi",
+        "Ramkrishna Nagar",
+        "Nilambazar",
+        "Dullavcherra"
+    ]
+}
