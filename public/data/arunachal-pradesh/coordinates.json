@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-01-27T03:50:23.746Z",
+  "state": "Arunachal Pradesh",
+  "rtoCount": 22,
+  "successCount": 22,
+  "failedRTOs": [],
+  "coordinates": {
+    "AR-01": {
+      "lat": 27.0979659,
+      "lon": 93.6237291,
+      "displayName": "Itanagar, Itanagar EAC, Papum Pare, Arunachal Pradesh, 791111, India"
+    },
+    "AR-02": {
+      "lat": 27.1462282,
+      "lon": 93.7205996,
+      "displayName": "Yupia, Doimukh SDO, Papum Pare, Arunachal Pradesh, 791109, India"
+    },
+    "AR-03": {
+      "lat": 27.5866091,
+      "lon": 91.8573902,
+      "displayName": "Tawang Monastery, NH13, Tawang, Tawang Circle, Tawang district, Arunachal Pradesh, India"
+    },
+    "AR-04": {
+      "lat": 27.264445,
+      "lon": 92.4206519,
+      "displayName": "Bomdila, Bomdila HQ, West Kameng, Arunachal Pradesh, India"
+    },
+    "AR-05": {
+      "lat": 27.3594183,
+      "lon": 93.0406098,
+      "displayName": "Seppa, Seppa HQ, East Kameng, Arunachal Pradesh, 790102, India"
+    },
+    "AR-06": {
+      "lat": 27.538668,
+      "lon": 93.815355,
+      "displayName": "Ziro, Ziro HQ, Lower Subansiri, Arunachal Pradesh, 791120, India"
+    },
+    "AR-07": {
+      "lat": 27.9843402,
+      "lon": 94.2190544,
+      "displayName": "Daporijo, Daporijo Hq, Upper Subansiri, Arunachal Pradesh, 791122, India"
+    },
+    "AR-08": {
+      "lat": 28.1698002,
+      "lon": 94.79854,
+      "displayName": "Along, Aalo HQ, West Siang, Arunachal Pradesh, India"
+    },
+    "AR-09": {
+      "lat": 28.0589676,
+      "lon": 95.3324944,
+      "displayName": "Pasighat, Pasighat HQ, East Siang, Arunachal Pradesh, India"
+    },
+    "AR-10": {
+      "lat": 28.796932,
+      "lon": 95.9044795,
+      "displayName": "Anini, Anini Circle, Dibang Valley, Arunachal Pradesh, India"
+    },
+    "AR-11": {
+      "lat": 27.9254195,
+      "lon": 96.1647135,
+      "displayName": "Tezu, Tezu HQ, Lohit, Arunachal Pradesh, 792001, India"
+    },
+    "AR-12": {
+      "lat": 27.1398402,
+      "lon": 95.7382485,
+      "displayName": "Changlang, Changlang HQ, Changlang, Arunachal Pradesh, 792120, India"
+    },
+    "AR-13": {
+      "lat": 26.9910099,
+      "lon": 95.5061065,
+      "displayName": "Khonsa, Khonsa HQ, Tirap, Arunachal Pradesh, 792130, India"
+    },
+    "AR-14": {
+      "lat": 28.6410598,
+      "lon": 95.0276607,
+      "displayName": "Yingkiong, Yingkiong Circle, Upper Siang, Arunachal Pradesh, 791002, India"
+    },
+    "AR-15": {
+      "lat": 27.9054828,
+      "lon": 93.3536693,
+      "displayName": "Koloriang, Koloriang HQ, Kurung Kumey, Arunachal Pradesh, India"
+    },
+    "AR-16": {
+      "lat": 28.1368472,
+      "lon": 95.8430824,
+      "displayName": "Roing, Roing HQ, Lower Dibang Valley, Arunachal Pradesh, India"
+    },
+    "AR-17": {
+      "lat": 27.8843894,
+      "lon": 96.8124468,
+      "displayName": "Hawai, Hawai HQ, Anjaw district, Arunachal Pradesh, India"
+    },
+    "AR-18": {
+      "lat": 26.8872823,
+      "lon": 95.320301,
+      "displayName": "Longding, Longding HQ, Longding, Arunachal Pradesh, India"
+    },
+    "AR-19": {
+      "lat": 27.695143,
+      "lon": 93.6301961,
+      "displayName": "Palin, Palin Circle, Kra Daadi, Arunachal Pradesh, India"
+    },
+    "AR-20": {
+      "lat": 27.6658391,
+      "lon": 95.861432,
+      "displayName": "Namsai, Namsai HQ, Namsai, Arunachal Pradesh, 792103, India"
+    },
+    "AR-21": {
+      "lat": 28.3224401,
+      "lon": 94.9542331,
+      "displayName": "Boleng, Boleng ADC, Siang, Arunachal Pradesh, India"
+    },
+    "AR-22": {
+      "lat": 27.6588306,
+      "lon": 94.6977781,
+      "displayName": "Likabali, Likabali SDO, Lower Siang, Arunachal Pradesh, India"
+    }
+  }
+}
