@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-01-27T03:42:10.974Z",
+  "generatedAt": "2026-01-27T03:48:50.349Z",
   "totalRTOs": 156,
   "totalVerified": 156,
   "totalStates": 28,
-  "completedStates": 4,
+  "completedStates": 3,
   "totalUTs": 8,
   "completedUTs": 4,
   "states": [
@@ -79,7 +79,7 @@
         "ar-21",
         "ar-22"
       ],
-      "isComplete": true,
+      "isComplete": false,
       "type": "state",
       "status": "Complete",
       "osmStatus": "Pending",
@@ -680,7 +680,7 @@
         "ar-21",
         "ar-22"
       ],
-      "isComplete": true,
+      "isComplete": false,
       "type": "state",
       "status": "Complete",
       "osmStatus": "Pending",
