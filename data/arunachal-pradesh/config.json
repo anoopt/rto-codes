@@ -1,10 +1,10 @@
 {
-    "stateCode": "AR",
-    "name": "Arunachal Pradesh",
-    "displayName": "Arunachal Pradesh",
-    "capital": "Itanagar",
-    "totalRTOs": 22,
-    "districtMapping": {},
-    "isComplete": false,
-    "type": "state"
+  "stateCode": "AR",
+  "name": "Arunachal Pradesh",
+  "displayName": "Arunachal Pradesh",
+  "capital": "Itanagar",
+  "totalRTOs": 22,
+  "districtMapping": {},
+  "isComplete": true,
+  "type": "state"
 }
