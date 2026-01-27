@@ -1,0 +1,24 @@
+{
+    "code": "AS-11",
+    "region": "Silchar",
+    "city": "Silchar",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Cachar",
+    "division": "Barak Valley",
+    "description": "The District Transport Office (DTO) in Silchar is the administrative body for vehicle registration and transport services in the Cachar district. It serves as a vital transport hub for the Barak Valley region, handling driving licenses, permits, and road safety enforcement.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Silchar, Cachar, Assam",
+    "pinCode": "788001",
+    "phone": "03842-245056",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Silchar",
+        "Sonai",
+        "Lakhipur",
+        "Katigorah",
+        "Borkhola",
+        "Udharbond"
+    ]
+}

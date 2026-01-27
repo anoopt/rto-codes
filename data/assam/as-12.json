@@ -1,0 +1,26 @@
+{
+    "code": "AS-12",
+    "region": "Tezpur",
+    "city": "Tezpur",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Sonitpur",
+    "division": "North Assam Division",
+    "description": "The AS-12 District Transport Office (DTO) is located in Tezpur and serves as the primary regulatory body for vehicle-related services in the Sonitpur district. It facilitates vehicle registrations, license issuances, and monitors the implementation of transport laws in this part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Tezpur, Sonitpur, Assam",
+    "pinCode": "784001",
+    "phone": "03712-220011",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tezpur",
+        "Dhekiajuli",
+        "Rangapara",
+        "Naduar",
+        "Chariduar",
+        "Na-Duar",
+        "Sootea",
+        "Biswanath Chariali"
+    ]
+}

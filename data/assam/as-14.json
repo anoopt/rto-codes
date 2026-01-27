@@ -1,0 +1,26 @@
+{
+    "code": "AS-14",
+    "region": "Nalbari",
+    "city": "Nalbari",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Nalbari",
+    "division": "Lower Assam Division",
+    "description": "AS-14 is the regional transport code for the Nalbari District Transport Office in Assam. It manages vehicle registrations, driving licenses, and road tax collection for the region, serving as a key administrative center for the North-Bank of the Brahmaputra.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Barama Road, Nalbari, Assam",
+    "pinCode": "781335",
+    "phone": "03624-223076",
+    "email": "dto-nalbari@assam.gov.in",
+    "jurisdictionAreas": [
+        "Nalbari",
+        "Tihu",
+        "Barkhetri",
+        "Barbhag",
+        "Ghagrapar",
+        "Pachim Nalbari",
+        "Banekuchi",
+        "Mukalmua"
+    ]
+}

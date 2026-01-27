@@ -1,0 +1,26 @@
+{
+    "code": "AS-15",
+    "region": "Barpeta",
+    "city": "Barpeta",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Barpeta",
+    "division": "Lower Assam Division",
+    "description": "AS-15 is the Regional Transport Office code for the Barpeta district in Assam. It operates under the District Transport Office (DTO) and is responsible for vehicle registration, driving licenses, and enforcement of transport regulations within the district's boundaries.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Kumarhati, P.O. Barpeta, District Barpeta, Assam",
+    "pinCode": "781301",
+    "phone": "03665-252129",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Barpeta",
+        "Howly",
+        "Sarbhog",
+        "Pathsala",
+        "Sarthebari",
+        "Bajali",
+        "Kalgachia",
+        "Chenga"
+    ]
+}

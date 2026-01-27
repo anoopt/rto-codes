@@ -1,0 +1,24 @@
+{
+    "code": "AS-13",
+    "region": "Mangaldoi",
+    "city": "Mangaldoi",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Darrang",
+    "division": "Guwahati",
+    "description": "The AS-13 RTO, officially known as the District Transport Office (DTO) Darrang, is located in the headquarters of Mangaldoi. It is responsible for all vehicle registration, license issuance, and transport-related administrative services within the Darrang district of Assam.",
+    "status": "active",
+    "established": "N/A",
+    "address": "O/O DTO, A.S.T.C. Office Complex, Mangaldoi, Darrang, Assam",
+    "pinCode": "784125",
+    "phone": "03713-222165",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Darrang",
+        "Mangaldoi",
+        "Sipajhar",
+        "Dalgaon",
+        "Kalaigaon",
+        "Patharighat"
+    ]
+}
