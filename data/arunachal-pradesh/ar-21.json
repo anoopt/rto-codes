@@ -1,0 +1,26 @@
+{
+    "code": "AR-21",
+    "region": "Siang District",
+    "city": "Boleng",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Siang",
+    "division": "Arunachal Pradesh",
+    "description": "The AR-21 RTO office serves the Siang district of Arunachal Pradesh, which was officially inaugurated in 2015. Headquartered in Boleng, this office manages vehicle registrations, driving licenses, and transport permits for the newly formed administrative region.",
+    "status": "active",
+    "established": "2015",
+    "address": "Office of the District Transport Officer, Boleng, Siang District, Arunachal Pradesh",
+    "pinCode": "791102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Boleng",
+        "Pangin",
+        "Rumgong",
+        "Kaying",
+        "Rebo-Perging",
+        "Riga",
+        "Komsing",
+        "Jengging"
+    ]
+}
