@@ -521,5 +521,28 @@
       "Komsing",
       "Jengging"
     ]
+  },
+  {
+    "code": "AR-22",
+    "region": "Lower Siang",
+    "city": "Likabali",
+    "state": "Arunachal Pradesh",
+    "stateCode": "AR",
+    "district": "Lower Siang",
+    "division": "Arunachal Pradesh Transport Department",
+    "description": "AR-22 is the Regional Transport Office serving the Lower Siang district of Arunachal Pradesh, headquartered in Likabali. It was established following the district's creation in late 2018 to manage vehicle registration and transport administration for the local population.",
+    "status": "active",
+    "established": "2018",
+    "address": "District Transport Office, Likabali, Lower Siang District, Arunachal Pradesh",
+    "pinCode": "791125",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Likabali",
+      "Nari",
+      "Koyu",
+      "Kangku",
+      "Siji"
+    ]
   }
 ]

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-01-27T03:34:07.688Z",
-  "totalRTOs": 155,
-  "totalVerified": 155,
+  "generatedAt": "2026-01-27T03:42:10.974Z",
+  "totalRTOs": 156,
+  "totalVerified": 156,
   "totalStates": 28,
-  "completedStates": 3,
+  "completedStates": 4,
   "totalUTs": 8,
   "completedUTs": 4,
   "states": [
@@ -53,8 +53,8 @@
     {
       "stateCode": "AR",
       "stateName": "Arunachal Pradesh",
-      "rtoCount": 21,
-      "verifiedCount": 21,
+      "rtoCount": 22,
+      "verifiedCount": 22,
       "rtoCodes": [
         "ar-01",
         "ar-02",
@@ -76,11 +76,12 @@
         "ar-18",
         "ar-19",
         "ar-20",
-        "ar-21"
+        "ar-21",
+        "ar-22"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -653,8 +654,8 @@
     "AR": {
       "stateCode": "AR",
       "stateName": "Arunachal Pradesh",
-      "rtoCount": 21,
-      "verifiedCount": 21,
+      "rtoCount": 22,
+      "verifiedCount": 22,
       "rtoCodes": [
         "ar-01",
         "ar-02",
@@ -676,11 +677,12 @@
         "ar-18",
         "ar-19",
         "ar-20",
-        "ar-21"
+        "ar-21",
+        "ar-22"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
