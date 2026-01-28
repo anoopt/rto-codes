@@ -4,210 +4,210 @@ name: Retry District Boundary
 # Use this when a district boundary failed due to spelling mismatch
 
 on:
-  workflow_dispatch:
-    inputs:
-      state:
-        description: "State folder name (e.g., assam, karnataka)"
-        required: true
-        type: string
-      district:
-        description: "District name as it appears in our data"
-        required: true
-        type: string
-      osm_name:
-        description: "OSM spelling (leave empty to auto-search)"
-        required: false
-        type: string
-      add_alias:
-        description: "Add OSM name as permanent alias in code"
-        required: false
-        type: boolean
-        default: false
+    workflow_dispatch:
+        inputs:
+            state:
+                description: "State folder name (e.g., assam, karnataka)"
+                required: true
+                type: string
+            district:
+                description: "District name as it appears in our data"
+                required: true
+                type: string
+            osm_name:
+                description: "OSM spelling (leave empty to auto-search)"
+                required: false
+                type: string
+            add_alias:
+                description: "Add OSM name as permanent alias in code"
+                required: false
+                type: boolean
+                default: false
 
 jobs:
-  retry-boundary:
-    name: Retry District Boundary
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    retry-boundary:
+        name: Retry District Boundary
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
+            - name: Setup Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: latest
 
-      - name: Install dependencies
-        run: bun install
+            - name: Install dependencies
+              run: bun install
 
-      - name: Validate inputs
-        run: |
-          STATE="${{ inputs.state }}"
-          DISTRICT="${{ inputs.district }}"
+            - name: Validate inputs
+              run: |
+                  STATE="${{ inputs.state }}"
+                  DISTRICT="${{ inputs.district }}"
 
-          if [ ! -d "data/$STATE" ]; then
-            echo "❌ State folder not found: data/$STATE"
-            exit 1
-          fi
+                  if [ ! -d "data/$STATE" ]; then
+                    echo "❌ State folder not found: data/$STATE"
+                    exit 1
+                  fi
 
-          echo "✅ Inputs validated"
-          echo "   State: $STATE"
-          echo "   District: $DISTRICT"
-          echo "   OSM Name: ${{ inputs.osm_name || '(auto-search)' }}"
+                  echo "✅ Inputs validated"
+                  echo "   State: $STATE"
+                  echo "   District: $DISTRICT"
+                  echo "   OSM Name: ${{ inputs.osm_name || '(auto-search)' }}"
 
-      - name: Search Nominatim for district
-        if: inputs.osm_name == ''
-        id: search
-        run: |
-          STATE="${{ inputs.state }}"
-          DISTRICT="${{ inputs.district }}"
+            - name: Search Nominatim for district
+              if: inputs.osm_name == ''
+              id: search
+              run: |
+                  STATE="${{ inputs.state }}"
+                  DISTRICT="${{ inputs.district }}"
 
-          # Get state display name
-          STATE_NAME=$(jq -r '.name // .displayName' "data/$STATE/config.json")
+                  # Get state display name
+                  STATE_NAME=$(jq -r '.name // .displayName' "data/$STATE/config.json")
 
-          echo "🔍 Searching Nominatim for: $DISTRICT, $STATE_NAME"
-          echo ""
+                  echo "🔍 Searching Nominatim for: $DISTRICT, $STATE_NAME"
+                  echo ""
 
-          # Try multiple search queries
-          QUERIES=(
-            "$DISTRICT district, $STATE_NAME, India"
-            "$DISTRICT, $STATE_NAME, India"
-            "$DISTRICT District, $STATE_NAME, India"
-          )
+                  # Try multiple search queries
+                  QUERIES=(
+                    "$DISTRICT district, $STATE_NAME, India"
+                    "$DISTRICT, $STATE_NAME, India"
+                    "$DISTRICT District, $STATE_NAME, India"
+                  )
 
-          echo "## Search Results" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "## Search Results" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
 
-          for query in "${QUERIES[@]}"; do
-            echo "Query: $query"
-            result=$(curl -s "https://nominatim.openstreetmap.org/search?q=$(echo "$query" | jq -sRr @uri)&format=json&polygon_geojson=0&limit=3" \
-              -H "User-Agent: RTOCodesIndia/1.0")
-            
-            echo "$result" | jq -r '.[] | "  - \(.display_name) [\(.type)]"' || echo "  (no results)"
-            echo ""
-            
-            echo "### Query: \`$query\`" >> $GITHUB_STEP_SUMMARY
-            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            echo "$result" | jq -r '.[] | "- \(.display_name) [\(.type)]"' >> $GITHUB_STEP_SUMMARY || echo "(no results)" >> $GITHUB_STEP_SUMMARY
-            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            
-            sleep 1.1
-          done
+                  for query in "${QUERIES[@]}"; do
+                    echo "Query: $query"
+                    result=$(curl -s "https://nominatim.openstreetmap.org/search?q=$(echo "$query" | jq -sRr @uri)&format=json&polygon_geojson=0&limit=3" \
+                      -H "User-Agent: RTOCodesIndia/1.0")
+                    
+                    echo "$result" | jq -r '.[] | "  - \(.display_name) [\(.type)]"' || echo "  (no results)"
+                    echo ""
+                    
+                    echo "### Query: \`$query\`" >> $GITHUB_STEP_SUMMARY
+                    echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+                    echo "$result" | jq -r '.[] | "- \(.display_name) [\(.type)]"' >> $GITHUB_STEP_SUMMARY || echo "(no results)" >> $GITHUB_STEP_SUMMARY
+                    echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+                    echo "" >> $GITHUB_STEP_SUMMARY
+                    
+                    sleep 1.1
+                  done
 
-          echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "💡 **If the district name differs from ours, re-run this workflow with the \`osm_name\` input set to the correct OSM spelling.**" >> $GITHUB_STEP_SUMMARY
+                  echo "---" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "💡 **If the district name differs from ours, re-run this workflow with the \`osm_name\` input set to the correct OSM spelling.**" >> $GITHUB_STEP_SUMMARY
 
-      - name: Retry boundary fetch
-        id: retry
-        run: |
-          STATE="${{ inputs.state }}"
-          DISTRICT="${{ inputs.district }}"
-          OSM_NAME="${{ inputs.osm_name }}"
+            - name: Retry boundary fetch
+              id: retry
+              run: |
+                  STATE="${{ inputs.state }}"
+                  DISTRICT="${{ inputs.district }}"
+                  OSM_NAME="${{ inputs.osm_name }}"
 
-          echo "🗺️ Retrying boundary fetch..."
+                  echo "🗺️ Retrying boundary fetch..."
 
-          if [ -n "$OSM_NAME" ]; then
-            bun scripts/generate-boundaries.ts --state="$STATE" --district="$DISTRICT" --osm-name="$OSM_NAME"
-          else
-            bun scripts/generate-boundaries.ts --state="$STATE" --district="$DISTRICT"
-          fi
+                  if [ -n "$OSM_NAME" ]; then
+                    bun scripts/generate-boundaries.ts --state="$STATE" --district="$DISTRICT" --osm-name="$OSM_NAME"
+                  else
+                    bun scripts/generate-boundaries.ts --state="$STATE" --district="$DISTRICT"
+                  fi
 
-          # Check if successful
-          FAILED=$(jq -r --arg d "$DISTRICT" '.failedDistricts | index($d)' "public/data/$STATE/boundaries.json")
-          if [ "$FAILED" = "null" ]; then
-            echo "success=true" >> $GITHUB_OUTPUT
-            echo "✅ Successfully fetched boundary for $DISTRICT"
-          else
-            echo "success=false" >> $GITHUB_OUTPUT
-            echo "❌ Still failed to fetch boundary for $DISTRICT"
-          fi
+                  # Check if successful
+                  FAILED=$(jq -r --arg d "$DISTRICT" '.failedDistricts | index($d)' "public/data/$STATE/boundaries.json")
+                  if [ "$FAILED" = "null" ]; then
+                    echo "success=true" >> $GITHUB_OUTPUT
+                    echo "✅ Successfully fetched boundary for $DISTRICT"
+                  else
+                    echo "success=false" >> $GITHUB_OUTPUT
+                    echo "❌ Still failed to fetch boundary for $DISTRICT"
+                  fi
 
-      - name: Add alias to code
-        if: steps.retry.outputs.success == 'true' && inputs.osm_name != '' && inputs.add_alias == 'true'
-        run: |
-          STATE="${{ inputs.state }}"
-          DISTRICT="${{ inputs.district }}"
-          OSM_NAME="${{ inputs.osm_name }}"
+            - name: Add alias to code
+              if: steps.retry.outputs.success == 'true' && inputs.osm_name != '' && inputs.add_alias == 'true'
+              run: |
+                  STATE="${{ inputs.state }}"
+                  DISTRICT="${{ inputs.district }}"
+                  OSM_NAME="${{ inputs.osm_name }}"
 
-          # Get state display name for the alias mapping
-          STATE_NAME=$(jq -r '.name // .displayName' "data/$STATE/config.json")
+                  # Get state display name for the alias mapping
+                  STATE_NAME=$(jq -r '.name // .displayName' "data/$STATE/config.json")
 
-          echo "📝 Adding alias to generate-boundaries.ts"
-          echo "   State: $STATE_NAME"
-          echo "   District: $DISTRICT → $OSM_NAME"
+                  echo "📝 Adding alias to generate-boundaries.ts"
+                  echo "   State: $STATE_NAME"
+                  echo "   District: $DISTRICT → $OSM_NAME"
 
-          # Use sed to add the alias (this is a simple approach)
-          # Look for existing state section or add new one
-          
-          if grep -q "'$STATE_NAME':" scripts/generate-boundaries.ts; then
-            # State section exists, add to it
-            sed -i "/'$STATE_NAME': {/a\\    '$DISTRICT': '$OSM_NAME',  // Added via workflow" scripts/generate-boundaries.ts
-          else
-            # Add new state section before the closing brace
-            sed -i "/^const OSM_DISTRICT_ALIASES/,/^};/ {
-              /^};/i\\  '$STATE_NAME': {\\n    '$DISTRICT': '$OSM_NAME',  // Added via workflow\\n  },
-            }" scripts/generate-boundaries.ts
-          fi
+                  # Use sed to add the alias (this is a simple approach)
+                  # Look for existing state section or add new one
 
-          echo "✅ Alias added"
+                  if grep -q "'$STATE_NAME':" scripts/generate-boundaries.ts; then
+                    # State section exists, add to it
+                    sed -i "/'$STATE_NAME': {/a\\    '$DISTRICT': '$OSM_NAME',  // Added via workflow" scripts/generate-boundaries.ts
+                  else
+                    # Add new state section before the closing brace
+                    sed -i "/^const OSM_DISTRICT_ALIASES/,/^};/ {
+                      /^};/i\\  '$STATE_NAME': {\\n    '$DISTRICT': '$OSM_NAME',  // Added via workflow\\n  },
+                    }" scripts/generate-boundaries.ts
+                  fi
 
-      - name: Commit changes
-        if: steps.retry.outputs.success == 'true'
-        run: |
-          STATE="${{ inputs.state }}"
-          DISTRICT="${{ inputs.district }}"
-          OSM_NAME="${{ inputs.osm_name }}"
+                  echo "✅ Alias added"
 
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+            - name: Commit changes
+              if: steps.retry.outputs.success == 'true'
+              run: |
+                  STATE="${{ inputs.state }}"
+                  DISTRICT="${{ inputs.district }}"
+                  OSM_NAME="${{ inputs.osm_name }}"
 
-          # Stage boundary file
-          git add "public/data/$STATE/boundaries.json"
+                  git config --local user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
 
-          # Stage script if alias was added
-          if [ "${{ inputs.add_alias }}" = "true" ] && [ -n "$OSM_NAME" ]; then
-            git add scripts/generate-boundaries.ts
-          fi
+                  # Stage boundary file
+                  git add "public/data/$STATE/boundaries.json"
 
-          # Commit if there are changes
-          if ! git diff --staged --quiet; then
-            if [ -n "$OSM_NAME" ]; then
-              git commit -m "fix: add boundary for $DISTRICT ($STATE)" \
-                -m "OSM name: $OSM_NAME" \
-                -m "Workflow: retry-boundary"
-            else
-              git commit -m "fix: add boundary for $DISTRICT ($STATE)" \
-                -m "Workflow: retry-boundary"
-            fi
-            git push
-            echo "✅ Changes committed and pushed"
-          else
-            echo "ℹ️ No changes to commit"
-          fi
+                  # Stage script if alias was added
+                  if [ "${{ inputs.add_alias }}" = "true" ] && [ -n "$OSM_NAME" ]; then
+                    git add scripts/generate-boundaries.ts
+                  fi
 
-      - name: Summary
-        if: always()
-        run: |
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "## Result" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+                  # Commit if there are changes
+                  if ! git diff --staged --quiet; then
+                    if [ -n "$OSM_NAME" ]; then
+                      git commit -m "fix: add boundary for $DISTRICT ($STATE)" \
+                        -m "OSM name: $OSM_NAME" \
+                        -m "Workflow: retry-boundary"
+                    else
+                      git commit -m "fix: add boundary for $DISTRICT ($STATE)" \
+                        -m "Workflow: retry-boundary"
+                    fi
+                    git push
+                    echo "✅ Changes committed and pushed"
+                  else
+                    echo "ℹ️ No changes to commit"
+                  fi
 
-          if [ "${{ steps.retry.outputs.success }}" = "true" ]; then
-            echo "✅ **Successfully fetched boundary for ${{ inputs.district }}**" >> $GITHUB_STEP_SUMMARY
-            if [ -n "${{ inputs.osm_name }}" ]; then
-              echo "" >> $GITHUB_STEP_SUMMARY
-              echo "OSM name used: \`${{ inputs.osm_name }}\`" >> $GITHUB_STEP_SUMMARY
-            fi
-          else
-            echo "❌ **Failed to fetch boundary for ${{ inputs.district }}**" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
-            echo "1. Check the Nominatim search results above" >> $GITHUB_STEP_SUMMARY
-            echo "2. Find the correct spelling used by OpenStreetMap" >> $GITHUB_STEP_SUMMARY
-            echo "3. Re-run this workflow with the \`osm_name\` input" >> $GITHUB_STEP_SUMMARY
-          fi
+            - name: Summary
+              if: always()
+              run: |
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "## Result" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+
+                  if [ "${{ steps.retry.outputs.success }}" = "true" ]; then
+                    echo "✅ **Successfully fetched boundary for ${{ inputs.district }}**" >> $GITHUB_STEP_SUMMARY
+                    if [ -n "${{ inputs.osm_name }}" ]; then
+                      echo "" >> $GITHUB_STEP_SUMMARY
+                      echo "OSM name used: \`${{ inputs.osm_name }}\`" >> $GITHUB_STEP_SUMMARY
+                    fi
+                  else
+                    echo "❌ **Failed to fetch boundary for ${{ inputs.district }}**" >> $GITHUB_STEP_SUMMARY
+                    echo "" >> $GITHUB_STEP_SUMMARY
+                    echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+                    echo "1. Check the Nominatim search results above" >> $GITHUB_STEP_SUMMARY
+                    echo "2. Find the correct spelling used by OpenStreetMap" >> $GITHUB_STEP_SUMMARY
+                    echo "3. Re-run this workflow with the \`osm_name\` input" >> $GITHUB_STEP_SUMMARY
+                  fi

@@ -204,7 +204,7 @@ jobs:
 
           echo ""
           echo "✅ OSM data generation complete"
-          
+
           # Save failed districts report
           if [ -n "$failed_districts_report" ]; then
             echo "has_failed_districts=true" >> $GITHUB_OUTPUT

@@ -80,7 +80,7 @@ const OSM_DISTRICT_ALIASES: Record<string, Record<string, string>> = {
  */
 function buildSearchQueries(stateName: string, districtName: string, osmNameOverride?: string): string[] {
   const osmDistrictName = osmNameOverride || getOSMDistrictName(stateName, districtName);
-  
+
   return [
     // Standard format
     `${osmDistrictName} district, ${stateName}, India`,
@@ -173,7 +173,7 @@ async function fetchDistrictBoundary(
 
   for (let i = 0; i < queries.length; i++) {
     const query = queries[i];
-    
+
     if (verbose && i > 0) {
       process.stdout.write(`\n    Trying: "${query}"... `);
     }
