@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-28T18:01:02.114Z",
+  "generatedAt": "2026-01-28T19:17:22.229Z",
   "totalRTOs": 175,
   "totalVerified": 175,
   "totalStates": 28,
@@ -44,7 +44,7 @@
         "ap-39",
         "ap-40"
       ],
-      "isComplete": true,
+      "isComplete": false,
       "type": "state",
       "status": "Complete",
       "osmStatus": "Pending",
@@ -126,11 +126,11 @@
         "as-33",
         "as-34"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "BR",
@@ -664,7 +664,7 @@
         "ap-39",
         "ap-40"
       ],
-      "isComplete": true,
+      "isComplete": false,
       "type": "state",
       "status": "Complete",
       "osmStatus": "Pending",
@@ -746,11 +746,11 @@
         "as-33",
         "as-34"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "BR": {
       "stateCode": "BR",
