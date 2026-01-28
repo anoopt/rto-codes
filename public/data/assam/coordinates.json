@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-01-28T18:07:32.170Z",
+  "state": "Assam",
+  "rtoCount": 34,
+  "successCount": 34,
+  "failedRTOs": [],
+  "coordinates": {
+    "AS-01": {
+      "lat": 26.1805978,
+      "lon": 91.753943,
+      "displayName": "Guwahati, Kamrup Metropolitan, Assam, 781015, India"
+    },
+    "AS-02": {
+      "lat": 26.3482238,
+      "lon": 92.6858215,
+      "displayName": "Nagaon, Assam, 782001, India"
+    },
+    "AS-03": {
+      "lat": 26.7577925,
+      "lon": 94.2079645,
+      "displayName": "Jorhat, Jorhat East, Jorhat, Assam, 785001, India"
+    },
+    "AS-04": {
+      "lat": 26.9834936,
+      "lon": 94.6394226,
+      "displayName": "Sivasagar, Sibsagar, Sivasagar, Assam, 785600, India"
+    },
+    "AS-05": {
+      "lat": 26.5108262,
+      "lon": 93.9743686,
+      "displayName": "Golaghat, Assam, 785621, India"
+    },
+    "AS-06": {
+      "lat": 27.4844597,
+      "lon": 94.9019447,
+      "displayName": "Dibrugarh, Dibrugarh East, Dibrugarh, Assam, 786001, India"
+    },
+    "AS-07": {
+      "lat": 27.254431,
+      "lon": 94.1120339,
+      "displayName": "North Lakhimpur, Station Road, North Lakhimpur, Lakhimpur, Assam, 787001, India"
+    },
+    "AS-08": {
+      "lat": 25.1825103,
+      "lon": 92.8984045,
+      "displayName": "Haflong, Dima Hasao, Assam, India"
+    },
+    "AS-09": {
+      "lat": 25.8371941,
+      "lon": 93.4383663,
+      "displayName": "Diphu, NH329, Thesoajur, Diphu, Karbi Anglong, Assam, 782460, India"
+    },
+    "AS-10": {
+      "lat": 24.8483482,
+      "lon": 92.3322129,
+      "displayName": "Karimganj, Assam, India"
+    },
+    "AS-11": {
+      "lat": 24.830302,
+      "lon": 92.7875689,
+      "displayName": "Bhasha Shahid, Tarapur, Silchar, Cachar, Assam, 788014, India"
+    },
+    "AS-12": {
+      "lat": 26.6169571,
+      "lon": 92.7650072,
+      "displayName": "Tezpur, Sonitpur, Assam, India"
+    },
+    "AS-13": {
+      "lat": 26.3939266,
+      "lon": 92.0390088,
+      "displayName": "Mangaldoi (Pt), Darrang, Assam, India"
+    },
+    "AS-14": {
+      "lat": 26.4506915,
+      "lon": 91.4388694,
+      "displayName": "Nalbari, SH9, Nalbari, Assam, 781335, India"
+    },
+    "AS-15": {
+      "lat": 26.3414222,
+      "lon": 91.0167433,
+      "displayName": "Barpeta, Assam, India"
+    },
+    "AS-16": {
+      "lat": 26.4046355,
+      "lon": 90.2725956,
+      "displayName": "Kokrajhar, College Road, Kokrajhar, Assam, 783370, India"
+    },
+    "AS-17": {
+      "lat": 26.0228197,
+      "lon": 89.9779442,
+      "displayName": "Dhubri, NH127B, Dhuburi, Dhubri, Assam, 783300, India"
+    },
+    "AS-18": {
+      "lat": 26.1783623,
+      "lon": 90.6226683,
+      "displayName": "Goalpara, Balijana, Goalpara, Assam, 783362, India"
+    },
+    "AS-19": {
+      "lat": 26.4800126,
+      "lon": 90.5580387,
+      "displayName": "Bongaigaon, Bongaigaon (Pt), Bongaigaon, Assam, 783380, India"
+    },
+    "AS-20": {
+      "lat": 26.1805978,
+      "lon": 91.753943,
+      "displayName": "Guwahati, Kamrup Metropolitan, Assam, 781015, India"
+    },
+    "AS-21": {
+      "lat": 26.2552206,
+      "lon": 92.3285733,
+      "displayName": "St Theresa's School, Morigaon, St Theresa's School, SH15, Marigaon, Assam, 782105, India"
+    },
+    "AS-22": {
+      "lat": 27.4894645,
+      "lon": 94.5425052,
+      "displayName": "Dhemaji, Station Road, Dhemaji, Assam, 787057, India"
+    },
+    "AS-23": {
+      "lat": 27.4879722,
+      "lon": 95.3601855,
+      "displayName": "Tinsukia, Assam, 786100, India"
+    },
+    "AS-24": {
+      "lat": 24.6846916,
+      "lon": 92.5645836,
+      "displayName": "Hailakandi, Hailakandi district, Assam, 788151, India"
+    },
+    "AS-25": {
+      "lat": 26.1861581,
+      "lon": 91.6699507,
+      "displayName": "Amingaon, North Guwahati (Pt), Kamrup Metropolitan, Assam, 781031, India"
+    },
+    "AS-26": {
+      "lat": 26.6464231,
+      "lon": 90.624157,
+      "displayName": "Chirang, Assam, India"
+    },
+    "AS-27": {
+      "lat": 26.7445958,
+      "lon": 92.0971834,
+      "displayName": "Udalguri, SH13, Udalguri, Udalguri tehsil, Udalguri, Assam, 784509, India"
+    },
+    "AS-28": {
+      "lat": 26.6620387,
+      "lon": 91.3410716,
+      "displayName": "Mushalpur, Baska, Baksa, Assam, 781372, India"
+    },
+    "AS-29": {
+      "lat": 26.9465639,
+      "lon": 94.1657745,
+      "displayName": "Kamalabari, Majuli, Assam, 785104, India"
+    },
+    "AS-30": {
+      "lat": 26.1805978,
+      "lon": 91.753943,
+      "displayName": "Guwahati, Kamrup Metropolitan, Assam, 781015, India"
+    },
+    "AS-31": {
+      "lat": 26.0031945,
+      "lon": 92.8522896,
+      "displayName": "Hojai, Assam, 782435, India"
+    },
+    "AS-32": {
+      "lat": 26.72667,
+      "lon": 93.147765,
+      "displayName": "Sub-Divisional Hospital, Biswanath Charali, one way road, Bishwanath Chariali, Biswanath, Sonitpur, Assam, 784176, India"
+    },
+    "AS-33": {
+      "lat": 27.0557101,
+      "lon": 95.120299,
+      "displayName": "Sonari, Charaideo, Assam, India"
+    },
+    "AS-34": {
+      "lat": 25.7250428,
+      "lon": 89.9003208,
+      "displayName": "Sakhi One Stop Centre, Hatsingimari, NH 127B, Singrimari, Selsella, West Garo Hills, Meghalaya, 783135, India"
+    }
+  }
+}
