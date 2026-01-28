@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-01-28T19:20:18.320Z",
+  "state": "Andhra Pradesh",
+  "rtoCount": 15,
+  "successCount": 15,
+  "failedRTOs": [],
+  "coordinates": {
+    "AP-02": {
+      "lat": 14.72422,
+      "lon": 77.4306738,
+      "displayName": "Anantapur, Andhra Pradesh, India"
+    },
+    "AP-03": {
+      "lat": 13.2161224,
+      "lon": 79.0972819,
+      "displayName": "Chittoor, Andhra Pradesh, 517001, India"
+    },
+    "AP-04": {
+      "lat": 14.4752936,
+      "lon": 78.8216861,
+      "displayName": "Kadapa, YSR Kadapa, Andhra Pradesh, 516001, India"
+    },
+    "AP-05": {
+      "lat": 16.9174762,
+      "lon": 82.0280289,
+      "displayName": "Kakinada Canal, Biccavolu, East Godavari, Andhra Pradesh, India"
+    },
+    "AP-07": {
+      "lat": 16.2915189,
+      "lon": 80.4541588,
+      "displayName": "Guntur, Andhra Pradesh, 522001, India"
+    },
+    "AP-16": {
+      "lat": 16.5315766,
+      "lon": 80.8029504,
+      "displayName": "Vijayawada Airport, New Airport Rd, Kesarapalle, Gannavaram, Krishna, Andhra Pradesh, 521101, India"
+    },
+    "AP-21": {
+      "lat": 15.8309251,
+      "lon": 78.0425373,
+      "displayName": "Kurnool, Andhra Pradesh, 518001, India"
+    },
+    "AP-26": {
+      "lat": 14.4337971,
+      "lon": 79.9075608,
+      "displayName": "Nellore, Sri Potti Sriramulu Nellore, Andhra Pradesh, India"
+    },
+    "AP-27": {
+      "lat": 15.5058714,
+      "lon": 80.0499454,
+      "displayName": "Ongole, Prakasam, Andhra Pradesh, 523002, India"
+    },
+    "AP-30": {
+      "lat": 18.2949307,
+      "lon": 83.8938844,
+      "displayName": "Srikakulam, Andhra Pradesh, 532001, India"
+    },
+    "AP-31": {
+      "lat": 17.6935526,
+      "lon": 83.2921297,
+      "displayName": "Visakhapatnam, Visakhapatnam (Urban), Visakhapatnam, Andhra Pradesh, 530001, India"
+    },
+    "AP-35": {
+      "lat": 18.1141255,
+      "lon": 83.4114389,
+      "displayName": "Vizianagaram, Andhra Pradesh, 535001, India"
+    },
+    "AP-37": {
+      "lat": 16.7502863,
+      "lon": 81.1826126,
+      "displayName": "Eluru Kaaluva, Denduluru, Eluru, Andhra Pradesh, India"
+    },
+    "AP-39": {
+      "lat": 16.5115306,
+      "lon": 80.6160469,
+      "displayName": "Vijayawada, Vijayawada (Urban), NTR, Andhra Pradesh, 520001, India"
+    },
+    "AP-40": {
+      "lat": 16.5115306,
+      "lon": 80.6160469,
+      "displayName": "Vijayawada, Vijayawada (Urban), NTR, Andhra Pradesh, 520001, India"
+    }
+  }
+}
