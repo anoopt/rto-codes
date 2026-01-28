@@ -4,8 +4,24 @@
   "displayName": "Andhra Pradesh",
   "capital": "Amaravati",
   "totalRTOs": 15,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Ananthapuramu": "Ananthapuramu",
+    "Chittoor": "Chittoor",
+    "East Godavari": "East Godavari",
+    "Guntur": "Guntur",
+    "Krishna": "Krishna",
+    "Kurnool": "Kurnool",
+    "Prakasam": "Prakasam",
+    "Sri Potti Sriramulu Nellore": "Sri Potti Sriramulu Nellore",
+    "Srikakulam": "Srikakulam",
+    "State-wide": "State-wide",
+    "Visakhapatnam": "Visakhapatnam",
+    "Vizianagaram": "Vizianagaram",
+    "West Godavari": "West Godavari",
+    "YSR Kadapa": "YSR Kadapa"
+  },
+  "isComplete": true,
   "type": "state",
-  "notes": "Andhra Pradesh implemented 'one state-one code' policy in February 2019. All new vehicles are registered with AP-39/AP-40 series. Legacy codes (AP-02 to AP-37) are maintained for existing registrations only."
+  "notes": "Andhra Pradesh implemented 'one state-one code' policy in February 2019. All new vehicles are registered with AP-39/AP-40 series. Legacy codes (AP-02 to AP-37) are maintained for existing registrations only.",
+  "osmEnabled": true
 }
