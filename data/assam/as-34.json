@@ -1,0 +1,24 @@
+{
+    "code": "AS-34",
+    "region": "South Salmara-Mankachar",
+    "city": "Hatsingimari",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "South Salmara-Mankachar",
+    "division": "Lower Assam Division",
+    "description": "The AS-34 RTO serves the South Salmara-Mankachar district in Assam, with its administrative headquarters located in Hatsingimari. This District Transport Office (DTO) was established following the creation of the new district to manage vehicle registrations, driving licenses, and transport enforcement in the riverine border area.",
+    "status": "active",
+    "established": "2016",
+    "address": "District Transport Office, Jatio Vidyalaya Road, Hatsingimari, South Salmara-Mankachar, Assam",
+    "pinCode": "783131",
+    "phone": "N/A",
+    "email": "dtossm34@gmail.com",
+    "jurisdictionAreas": [
+        "Hatsingimari",
+        "Mankachar",
+        "South Salmara",
+        "Sukhchar",
+        "Fakirganj",
+        "Kharuabandha"
+    ]
+}

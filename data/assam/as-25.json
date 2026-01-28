@@ -1,0 +1,28 @@
+{
+    "code": "AS-25",
+    "region": "Kamrup Rural",
+    "city": "Amingaon",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Kamrup",
+    "division": "Lower Assam Division",
+    "description": "AS-25 is the Regional Transport Office serving the Kamrup Rural district of Assam, headquartered in Amingaon. It handles vehicle registration, licensing, and road tax collection for areas surrounding Guwahati that fall outside the Metropolitan jurisdiction. This office is crucial for managing rural transport logistics and ensuring regulatory compliance across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Kamrup Rural, Amingaon, Near SBI Amingaon Branch, North Guwahati, Assam",
+    "pinCode": "781031",
+    "phone": "0361-2234110",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Amingaon",
+        "Rangia",
+        "Hajo",
+        "Boko",
+        "Palasbari",
+        "Chaygaon",
+        "Goroimari",
+        "Chamaria",
+        "Sualkuchi",
+        "Kamalpur"
+    ]
+}

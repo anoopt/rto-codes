@@ -1,0 +1,21 @@
+{
+    "code": "AS-30",
+    "region": "Assam Police",
+    "city": "Guwahati",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Kamrup Metropolitan",
+    "division": "Lower Assam Division",
+    "description": "AS-30 is a specialized RTO code dedicated to the Assam Police department for its state-wide fleet of vehicles. It operates under the administration of the District Transport Office in Guwahati, managing all registration and documentation for police-owned assets.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, East Zone (Kamrup Metro), Hengarabari, Guwahati, Assam",
+    "pinCode": "781036",
+    "phone": "0361-2569380",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Assam Police Vehicles",
+        "Guwahati",
+        "State-wide Police Jurisdiction"
+    ]
+}

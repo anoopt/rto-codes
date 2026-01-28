@@ -1,0 +1,24 @@
+{
+    "code": "AS-22",
+    "region": "Dhemaji",
+    "city": "Dhemaji",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Dhemaji",
+    "division": "Upper Assam",
+    "description": "The AS-22 RTO serves the Dhemaji district in Assam, operating as a District Transport Office (DTO). It is responsible for vehicle registration, licensing, and enforcement of transport regulations within its jurisdiction in the northeastern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Bharali Chowk, Dhemaji, Assam",
+    "pinCode": "787057",
+    "phone": "03253-224208",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dhemaji",
+        "Jonai",
+        "Sissiborgaon",
+        "Bordoloni",
+        "Machkhowa",
+        "Gogamukh"
+    ]
+}

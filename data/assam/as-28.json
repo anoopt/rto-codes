@@ -1,0 +1,24 @@
+{
+    "code": "AS-28",
+    "region": "Baksa",
+    "city": "Mushalpur",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Baksa",
+    "division": "Guwahati",
+    "description": "The AS-28 RTO serves the Baksa district in Assam, with its headquarters located in Mushalpur. It is an active District Transport Office (DTO) responsible for vehicle registrations, licensing, and road safety enforcement within the Bodoland Territorial Region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Musalpur Kadamtal Road, P.O. Musalpur, District: Baksa, Assam",
+    "pinCode": "781377",
+    "phone": "03624-282767",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mushalpur",
+        "Salbari",
+        "Tamulpur",
+        "Goreswar",
+        "Barama",
+        "Jhaluaguti"
+    ]
+}

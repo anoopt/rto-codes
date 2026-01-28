@@ -1,0 +1,24 @@
+{
+    "code": "AS-32",
+    "region": "Biswanath",
+    "city": "Biswanath Chariali",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Biswanath",
+    "division": "North Assam Division",
+    "description": "AS-32 is the District Transport Office (DTO) serving the Biswanath district of Assam. It was established following the district's creation in 2015 and manages all regional vehicle registrations, driving licenses, and transport permit services for the area.",
+    "status": "active",
+    "established": "2015",
+    "address": "District Transport Office, Biswanath Chariali, Biswanath, Assam",
+    "pinCode": "784176",
+    "phone": "03624-282767",
+    "email": "dtobiswanath@gmail.com",
+    "jurisdictionAreas": [
+        "Biswanath Chariali",
+        "Gohpur",
+        "Helem",
+        "Biswanath",
+        "Sakomatha",
+        "Sootea"
+    ]
+}

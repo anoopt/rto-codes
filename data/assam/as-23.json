@@ -1,0 +1,24 @@
+{
+    "code": "AS-23",
+    "region": "Tinsukia",
+    "city": "Tinsukia",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Tinsukia",
+    "division": "Upper Assam",
+    "description": "AS-23 is the District Transport Office serving the Tinsukia district in the northeastern state of Assam. It is a critical hub for vehicle registration and licensing in a region known for its significant tea production and industrial activities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, A.T. Road, Tinsukia, Assam",
+    "pinCode": "786126",
+    "phone": "0374-2331572",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tinsukia",
+        "Doomdooma",
+        "Digboi",
+        "Margherita",
+        "Sadiya",
+        "Makum"
+    ]
+}

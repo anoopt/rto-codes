@@ -1,0 +1,25 @@
+{
+    "code": "AS-27",
+    "region": "Udalguri",
+    "city": "Udalguri",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Udalguri",
+    "division": "Lower Assam Division",
+    "description": "AS-27 is the official District Transport Office (DTO) serving Udalguri district in Assam. It operates under the Bodoland Territorial Region and manages vehicle registration, driving license issuance, and enforcement of transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO Udalguri, Block Road, Ward No-3, Udalguri, Assam",
+    "pinCode": "784509",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Udalguri",
+        "Khoirabari",
+        "Mazbat",
+        "Harisinga",
+        "Rowta",
+        "Kalaigaon",
+        "Dalgaon"
+    ]
+}

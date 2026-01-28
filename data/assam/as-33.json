@@ -1,0 +1,23 @@
+{
+    "code": "AS-33",
+    "region": "Charaideo",
+    "city": "Sonari",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Charaideo",
+    "division": "Upper Assam Division",
+    "description": "AS-33 is the Regional Transport Office serving the Charaideo district of Assam, with its administrative headquarters located in Sonari. It was established following the creation of Charaideo district in 2015 to handle vehicle registration, licensing, and transport law enforcement for the local population.",
+    "status": "active",
+    "established": "2015",
+    "address": "District Transport Office, Sonari, District Charaideo, Assam",
+    "pinCode": "785690",
+    "phone": "03624-282767",
+    "email": "dto-charaideo@assam.gov.in",
+    "jurisdictionAreas": [
+        "Charaideo",
+        "Sonari",
+        "Sapekhati",
+        "Mahmora",
+        "Borhat"
+    ]
+}

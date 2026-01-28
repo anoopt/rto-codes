@@ -1,0 +1,23 @@
+{
+    "code": "AS-26",
+    "region": "Chirang",
+    "city": "Chirang",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Chirang",
+    "division": "Lower Assam Division",
+    "description": "AS-26 is the District Transport Office (DTO) for the Chirang district in Assam, specifically serving the Bodoland Territorial Region. The office facilitates motor vehicle registrations, license issuance, and enforcement of transport regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Dhaligaon Village, Opposite BRPL Main Gate, Chirang, Assam",
+    "pinCode": "783385",
+    "phone": "03664-241103",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chirang district",
+        "Bijni",
+        "Sidli",
+        "Kajalgaon",
+        "Dhaligaon"
+    ]
+}

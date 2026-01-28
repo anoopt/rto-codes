@@ -1,0 +1,23 @@
+{
+    "code": "AS-21",
+    "region": "Morigaon",
+    "city": "Morigaon",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Morigaon",
+    "division": "Assam Transport Division",
+    "description": "AS-21 is the Regional Transport Office for the Morigaon district in Central Assam. It manages vehicle registrations, driving licenses, and the enforcement of motor vehicle acts and rules within the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, Morigaon, Assam",
+    "pinCode": "782105",
+    "phone": "03678-240225",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Morigaon",
+        "Bhuragaon",
+        "Mayong",
+        "Laharighat",
+        "Mikirbheta"
+    ]
+}

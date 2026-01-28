@@ -1,0 +1,22 @@
+{
+    "code": "AS-24",
+    "region": "Hailakandi",
+    "city": "Hailakandi",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Hailakandi",
+    "division": "Silchar Transport Division",
+    "description": "The AS-24 RTO is the District Transport Office (DTO) for Hailakandi in Assam. It manages all local vehicle registrations, driving license examinations, and ensures compliance with the Motor Vehicles Act across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer (DTO), Mission Road, Hailakandi, Assam",
+    "pinCode": "788155",
+    "phone": "03844-222671",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hailakandi",
+        "Lala",
+        "Katlicherra",
+        "Algapur"
+    ]
+}

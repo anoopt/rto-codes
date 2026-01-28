@@ -1,0 +1,26 @@
+{
+    "code": "AS-29",
+    "region": "Majuli",
+    "city": "Kamalabari",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Majuli",
+    "division": "Upper Assam Division",
+    "description": "AS-29 is the District Transport Office (DTO) for Majuli, India's first river island district. Established in 2018 following Majuli's upgrade to a district, it manages vehicle registration, driving licenses, and transport law enforcement for the island's unique geographical terrain.",
+    "status": "active",
+    "established": "2018",
+    "address": "District Transport Office, Kamalabari, Majuli, Assam",
+    "pinCode": "785106",
+    "phone": "N/A",
+    "email": "majulidto91@gmail.com",
+    "jurisdictionAreas": [
+        "Kamalabari",
+        "Garmur",
+        "Jengraimukh",
+        "Auniati",
+        "Borgaya",
+        "Dakshinpat",
+        "Salmora",
+        "Ujani Majuli"
+    ]
+}

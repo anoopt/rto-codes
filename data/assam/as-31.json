@@ -1,0 +1,23 @@
+{
+    "code": "AS-31",
+    "region": "Hojai",
+    "city": "Hojai",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Hojai",
+    "division": "Central Assam",
+    "description": "AS-31 is the Regional Transport Office (RTO) serving the Hojai district in Assam. Established after Hojai was declared a separate district in 2015, this office handles vehicle registration, driving licenses, and transport law enforcement for the local region.",
+    "status": "active",
+    "established": "2015",
+    "address": "District Transport Office, Hojai, Assam",
+    "pinCode": "782435",
+    "phone": "03624-282767",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hojai",
+        "Lumding",
+        "Lanka",
+        "Doboka",
+        "Binakandi"
+    ]
+}
