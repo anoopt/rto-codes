@@ -1,0 +1,26 @@
+{
+    "code": "AS-20",
+    "region": "Assam State Transport Corporation (ASTC)",
+    "city": "Guwahati",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Kamrup Metropolitan",
+    "division": "Guwahati Division",
+    "description": "AS-20 is a specialized RTO code reserved exclusively for vehicles owned and operated by the Assam State Transport Corporation (ASTC). Unlike standard RTOs that serve specific geographical districts for the public, this code is used for state-run buses and official ASTC transit vehicles across the entire state of Assam.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ASTC Headquarters, Paltan Bazar, Guwahati, Assam",
+    "pinCode": "781008",
+    "phone": "0361-2730024",
+    "email": "astc2009@gmail.com",
+    "jurisdictionAreas": [
+        "Entire State of Assam",
+        "ASTC Depots Statewide",
+        "Guwahati",
+        "Jorhat",
+        "Dibrugarh",
+        "Silchar",
+        "Tezpur",
+        "Nagaon"
+    ]
+}

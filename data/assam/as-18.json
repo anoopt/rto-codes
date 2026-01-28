@@ -1,0 +1,25 @@
+{
+    "code": "AS-18",
+    "region": "Goalpara",
+    "city": "Goalpara",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Goalpara",
+    "division": "Lower Assam Division",
+    "description": "The AS-18 RTO serves the Goalpara district in Assam, functioning as the District Transport Office (DTO). It handles essential transport services including vehicle registration, driving license issuance, and road tax collection for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Bhalukdubi, Near District Court, Goalpara, Assam",
+    "pinCode": "783101",
+    "phone": "03663-240030",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Goalpara",
+        "Bhalukdubi",
+        "Balijana",
+        "Dudhnai",
+        "Lakhipur",
+        "Matia",
+        "Rangjuli"
+    ]
+}

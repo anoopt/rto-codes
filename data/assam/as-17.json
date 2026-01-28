@@ -1,0 +1,26 @@
+{
+    "code": "AS-17",
+    "region": "Dhubri",
+    "city": "Dhubri",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Dhubri",
+    "division": "Lower Assam Division",
+    "description": "The AS-17 RTO serves the Dhubri district in Assam, operating as the District Transport Office (DTO). It is responsible for vehicle registration, driving licensing, and monitoring road safety in this border region of Lower Assam.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Guru Teg Bahadur Road, Bidyapara, Dhubri, Assam",
+    "pinCode": "783324",
+    "phone": "03662-230050",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dhubri",
+        "Gauripur",
+        "Golakganj",
+        "Bilasipara",
+        "Salkocha",
+        "Chapar",
+        "Agamoni",
+        "Mankachar"
+    ]
+}

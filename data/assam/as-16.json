@@ -1,0 +1,25 @@
+{
+    "code": "AS-16",
+    "region": "Kokrajhar",
+    "city": "Kokrajhar",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Kokrajhar",
+    "division": "Lower Assam",
+    "description": "The AS-16 District Transport Office (DTO) serves the Kokrajhar district, the administrative headquarters of the Bodoland Territorial Region (BTR) in Assam. It handles all statutory functions under the Motor Vehicles Act, including vehicle registration, permit issuance, and the licensing of drivers within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, P.O. Kokrajhar, District Kokrajhar, Assam",
+    "pinCode": "783370",
+    "phone": "03661-270741",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kokrajhar",
+        "Gossaigaon",
+        "Dotma",
+        "Fakiragram",
+        "Bhowraguri",
+        "Kachugaon",
+        "Tamarhat"
+    ]
+}

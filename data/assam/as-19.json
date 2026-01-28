@@ -1,0 +1,24 @@
+{
+    "code": "AS-19",
+    "region": "Bongaigaon",
+    "city": "Bongaigaon",
+    "state": "Assam",
+    "stateCode": "AS",
+    "district": "Bongaigaon",
+    "division": "Lower Assam Division",
+    "description": "The AS-19 RTO is the District Transport Office (DTO) serving the Bongaigaon district in Assam. It is responsible for vehicle registration, driving licenses, and road tax collection, playing a vital role in the industrial and transport infrastructure of the Lower Assam region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, N Salmara - Bongaigaon Rd, Bongaigaon, Assam",
+    "pinCode": "783390",
+    "phone": "03664-220889",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bongaigaon",
+        "North Salmara",
+        "Boitamari",
+        "Srijangram",
+        "Dangtol",
+        "Manikpur"
+    ]
+}
