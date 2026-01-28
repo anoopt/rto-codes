@@ -5,10 +5,15 @@
  * and saves them as static JSON files for each state.
  * 
  * Output:
- *   data/{state}/boundaries.json - GeoJSON FeatureCollection of all district boundaries
+ *   public/data/{state}/boundaries.json - GeoJSON FeatureCollection of all district boundaries
  * 
- * Run: bun scripts/generate-boundaries.ts
- * Run for specific state: bun scripts/generate-boundaries.ts --state=karnataka
+ * Usage:
+ *   bun scripts/generate-boundaries.ts                          # All states (skip existing)
+ *   bun scripts/generate-boundaries.ts --state=karnataka        # Specific state
+ *   bun scripts/generate-boundaries.ts --state=assam --force    # Regenerate all
+ *   bun scripts/generate-boundaries.ts --state=assam --retry-failed  # Retry only failed districts
+ *   bun scripts/generate-boundaries.ts --state=assam --district=Morigaon  # Retry specific district
+ *   bun scripts/generate-boundaries.ts --state=assam --district=Morigaon --osm-name=Marigaon  # Use specific OSM name
  * 
  * Rate limiting: Nominatim requires max 1 request per second.
  * This script respects that limit with 1.1s delays between requests.
@@ -63,7 +68,32 @@ const OSM_DISTRICT_ALIASES: Record<string, Record<string, string>> = {
     'Bagalkot': 'Bagalkote',
     'Chikkaballapur': 'Chikkaballapura',
   },
+  'Assam': {
+    'Morigaon': 'Marigaon',  // OSM uses local spelling
+  },
 };
+
+/**
+ * Build alternative search queries for a district
+ * Returns an array of queries to try in order
+ * @param osmNameOverride - If provided, uses this name instead of looking up aliases
+ */
+function buildSearchQueries(stateName: string, districtName: string, osmNameOverride?: string): string[] {
+  const osmDistrictName = osmNameOverride || getOSMDistrictName(stateName, districtName);
+  
+  return [
+    // Standard format
+    `${osmDistrictName} district, ${stateName}, India`,
+    // Without "district" suffix
+    `${osmDistrictName}, ${stateName}, India`,
+    // With "District" capitalized
+    `${osmDistrictName} District, ${stateName}, India`,
+    // Administrative boundary format
+    `${osmDistrictName}, ${stateName}`,
+    // Try with dashes replaced by spaces (for names like "Dima Hasao")
+    `${osmDistrictName.replace(/-/g, ' ')} district, ${stateName}, India`,
+  ];
+}
 
 /**
  * Get OSM-compatible district name
@@ -84,16 +114,9 @@ function sleep(ms: number): Promise<void> {
 }
 
 /**
- * Fetch district boundary from Nominatim
+ * Fetch district boundary from Nominatim with a specific query
  */
-async function fetchDistrictBoundary(
-  stateName: string,
-  districtName: string
-): Promise<GeoJSONFeature | null> {
-  const osmDistrictName = getOSMDistrictName(stateName, districtName);
-
-  // Build search query: "District Name district, State, India"
-  const query = `${osmDistrictName} district, ${stateName}, India`;
+async function fetchWithQuery(query: string): Promise<GeoJSONFeature | null> {
   const params = new URLSearchParams({
     q: query,
     format: 'geojson',
@@ -110,67 +133,71 @@ async function fetchDistrictBoundary(
     });
 
     if (!response.ok) {
-      console.error(`  ✗ HTTP error ${response.status} for ${districtName}`);
       return null;
     }
 
     const data = await response.json();
 
     if (!data.features || data.features.length === 0) {
-      // Try without "district" suffix
-      const altParams = new URLSearchParams({
-        q: `${osmDistrictName}, ${stateName}, India`,
-        format: 'geojson',
-        polygon_geojson: '1',
-        limit: '1',
-      });
-
-      const altResponse = await fetch(`${NOMINATIM_BASE_URL}/search?${altParams}`, {
-        headers: {
-          'User-Agent': USER_AGENT,
-          'Accept': 'application/json',
-        },
-      });
-
-      if (altResponse.ok) {
-        const altData = await altResponse.json();
-        if (altData.features && altData.features.length > 0) {
-          const feature = altData.features[0];
-          if (feature.geometry?.type === 'Polygon' || feature.geometry?.type === 'MultiPolygon') {
-            return {
-              ...feature,
-              properties: {
-                ...feature.properties,
-                districtName, // Store our canonical name
-              },
-            };
-          }
-        }
-      }
-
-      console.error(`  ✗ No boundary found for ${districtName}`);
       return null;
     }
 
     const feature = data.features[0];
 
-    // Validate geometry type
+    // Only accept Polygon or MultiPolygon geometries
     if (feature.geometry?.type !== 'Polygon' && feature.geometry?.type !== 'MultiPolygon') {
-      console.error(`  ✗ Got ${feature.geometry?.type} instead of Polygon for ${districtName}`);
       return null;
     }
 
-    return {
-      ...feature,
-      properties: {
-        ...feature.properties,
-        districtName, // Store our canonical name
-      },
-    };
-  } catch (error) {
-    console.error(`  ✗ Error fetching ${districtName}:`, error);
+    return feature;
+  } catch {
     return null;
   }
+}
+
+/**
+ * Fetch district boundary from Nominatim using multiple query strategies
+ * @param osmNameOverride - If provided, uses this name instead of looking up aliases
+ */
+async function fetchDistrictBoundary(
+  stateName: string,
+  districtName: string,
+  verbose: boolean = false,
+  osmNameOverride?: string
+): Promise<GeoJSONFeature | null> {
+  const queries = buildSearchQueries(stateName, districtName, osmNameOverride);
+
+  if (osmNameOverride) {
+    console.log(`  Using OSM name override: "${osmNameOverride}"`);
+  }
+
+  for (let i = 0; i < queries.length; i++) {
+    const query = queries[i];
+    
+    if (verbose && i > 0) {
+      process.stdout.write(`\n    Trying: "${query}"... `);
+    }
+
+    const feature = await fetchWithQuery(query);
+
+    if (feature) {
+      return {
+        ...feature,
+        properties: {
+          ...feature.properties,
+          districtName, // Store our canonical name
+        },
+      };
+    }
+
+    // Wait before trying the next query (rate limiting)
+    if (i < queries.length - 1) {
+      await sleep(REQUEST_DELAY_MS);
+    }
+  }
+
+  console.error(`\n  ✗ No polygon boundary found for ${districtName} after trying ${queries.length} query variations`);
+  return null;
 }
 
 /**
@@ -267,50 +294,96 @@ function extractDistrictsFromRTOFiles(stateFolder: string): string[] {
 
 /**
  * Generate boundaries for a single state
+ * @param stateFolder - The state folder name
+ * @param specificDistricts - Optional array of specific districts to process (for retry)
+ * @param mergeWithExisting - Whether to merge with existing boundaries file
+ * @param osmNameOverride - Optional OSM name to use (only applies when processing single district)
  */
-async function generateBoundariesForState(stateFolder: string): Promise<void> {
+async function generateBoundariesForState(
+  stateFolder: string,
+  specificDistricts?: string[],
+  mergeWithExisting: boolean = false,
+  osmNameOverride?: string
+): Promise<void> {
   const stateName = getStateDisplayName(stateFolder);
-  const districts = getDistrictsForState(stateFolder);
+  const allDistricts = getDistrictsForState(stateFolder);
+  const districtsToProcess = specificDistricts || allDistricts;
 
-  if (districts.length === 0) {
-    console.log(`  Skipping ${stateFolder} - no districts configured`);
+  if (districtsToProcess.length === 0) {
+    console.log(`  Skipping ${stateFolder} - no districts to process`);
     return;
   }
 
-  console.log(`\n📍 Processing ${stateName} (${districts.length} districts)`);
+  console.log(`\n📍 Processing ${stateName} (${districtsToProcess.length} districts)`);
 
-  const features: GeoJSONFeature[] = [];
+  // Load existing boundaries if merging
+  const boundariesPath = path.join(PUBLIC_DATA_DIR, stateFolder, 'boundaries.json');
+  let existingFeatures: GeoJSONFeature[] = [];
+  let existingDistrictNames: Set<string> = new Set();
+
+  if (mergeWithExisting && fs.existsSync(boundariesPath)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(boundariesPath, 'utf-8'));
+      existingFeatures = existing.features || [];
+      existingDistrictNames = new Set(existingFeatures.map(f => f.properties.districtName));
+      console.log(`  ℹ Loaded ${existingFeatures.length} existing boundaries`);
+    } catch {
+      console.log(`  ⚠ Could not load existing boundaries, starting fresh`);
+    }
+  }
+
+  const newFeatures: GeoJSONFeature[] = [];
   const failedDistricts: string[] = [];
 
-  for (let i = 0; i < districts.length; i++) {
-    const district = districts[i];
-    process.stdout.write(`  [${i + 1}/${districts.length}] ${district}... `);
+  for (let i = 0; i < districtsToProcess.length; i++) {
+    const district = districtsToProcess[i];
+    process.stdout.write(`  [${i + 1}/${districtsToProcess.length}] ${district}... `);
 
-    const feature = await fetchDistrictBoundary(stateName, district);
+    // Only use osmNameOverride for single district processing
+    const overrideToUse = districtsToProcess.length === 1 ? osmNameOverride : undefined;
+    const feature = await fetchDistrictBoundary(stateName, district, true, overrideToUse);
 
     if (feature) {
-      features.push(feature);
+      newFeatures.push(feature);
       console.log('✓');
     } else {
       failedDistricts.push(district);
-      console.log('✗');
     }
 
     // Rate limiting - wait before next request
-    if (i < districts.length - 1) {
+    if (i < districtsToProcess.length - 1) {
       await sleep(REQUEST_DELAY_MS);
     }
   }
+
+  // Merge features: replace existing with new, keep non-overlapping
+  const mergedFeatures: GeoJSONFeature[] = [];
+  const newDistrictNames = new Set(newFeatures.map(f => f.properties.districtName));
+
+  // Keep existing features that weren't re-fetched
+  for (const feature of existingFeatures) {
+    if (!newDistrictNames.has(feature.properties.districtName)) {
+      mergedFeatures.push(feature);
+    }
+  }
+
+  // Add all new features
+  mergedFeatures.push(...newFeatures);
+
+  // Calculate total stats
+  const totalDistrictCount = allDistricts.length;
+  const allSuccessfulDistricts = new Set(mergedFeatures.map(f => f.properties.districtName));
+  const allFailedDistricts = allDistricts.filter(d => !allSuccessfulDistricts.has(d));
 
   // Create output
   const output: BoundaryOutput = {
     type: 'FeatureCollection',
     generatedAt: new Date().toISOString(),
     state: stateName,
-    districtCount: districts.length,
-    successCount: features.length,
-    failedDistricts,
-    features,
+    districtCount: totalDistrictCount,
+    successCount: mergedFeatures.length,
+    failedDistricts: allFailedDistricts,
+    features: mergedFeatures,
   };
 
   // Write to file in public/data for static serving
@@ -318,13 +391,12 @@ async function generateBoundariesForState(stateFolder: string): Promise<void> {
   if (!fs.existsSync(statePublicDir)) {
     fs.mkdirSync(statePublicDir, { recursive: true });
   }
-  const outputPath = path.join(statePublicDir, 'boundaries.json');
-  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+  fs.writeFileSync(boundariesPath, JSON.stringify(output, null, 2));
 
-  console.log(`\n  ✅ Saved ${features.length}/${districts.length} boundaries to public/data/${stateFolder}/boundaries.json`);
+  console.log(`\n  ✅ Saved ${mergedFeatures.length}/${totalDistrictCount} boundaries to public/data/${stateFolder}/boundaries.json`);
 
-  if (failedDistricts.length > 0) {
-    console.log(`  ⚠ Failed districts: ${failedDistricts.join(', ')}`);
+  if (allFailedDistricts.length > 0) {
+    console.log(`  ⚠ Failed districts: ${allFailedDistricts.join(', ')}`);
   }
 }
 
@@ -342,6 +414,23 @@ function getStateDirectories(): string[] {
 }
 
 /**
+ * Get failed districts from existing boundaries file
+ */
+function getFailedDistrictsFromFile(stateFolder: string): string[] {
+  const boundariesPath = path.join(PUBLIC_DATA_DIR, stateFolder, 'boundaries.json');
+  if (!fs.existsSync(boundariesPath)) {
+    return [];
+  }
+
+  try {
+    const existing = JSON.parse(fs.readFileSync(boundariesPath, 'utf-8'));
+    return existing.failedDistricts || [];
+  } catch {
+    return [];
+  }
+}
+
+/**
  * Main function
  */
 async function main(): Promise<void> {
@@ -352,10 +441,26 @@ async function main(): Promise<void> {
   // Parse command line arguments
   const args = process.argv.slice(2);
   const stateArg = args.find(arg => arg.startsWith('--state='));
+  const districtArg = args.find(arg => arg.startsWith('--district='));
+  const osmNameArg = args.find(arg => arg.startsWith('--osm-name='));
   const specificState = stateArg?.split('=')[1];
+  const specificDistrict = districtArg?.split('=')[1];
+  const osmNameOverride = osmNameArg?.split('=')[1];
 
-  // Check for --force flag to regenerate existing boundaries
+  // Check for flags
   const forceRegenerate = args.includes('--force');
+  const retryFailed = args.includes('--retry-failed');
+
+  // Validate arguments
+  if ((specificDistrict || retryFailed) && !specificState) {
+    console.error('Error: --district and --retry-failed require --state=<state>');
+    process.exit(1);
+  }
+
+  if (osmNameOverride && !specificDistrict) {
+    console.error('Error: --osm-name requires --district=<district>');
+    process.exit(1);
+  }
 
   let statesToProcess: string[];
 
@@ -369,6 +474,35 @@ async function main(): Promise<void> {
   } else {
     // Process all states with config files
     statesToProcess = getStateDirectories();
+  }
+
+  // Handle specific district or retry-failed mode
+  if (specificDistrict) {
+    console.log(`Retrying specific district: ${specificDistrict}`);
+    console.log(`State: ${specificState}`);
+    if (osmNameOverride) {
+      console.log(`OSM name override: ${osmNameOverride}`);
+    }
+    console.log(`Rate limit: ${REQUEST_DELAY_MS}ms between requests`);
+    console.log('');
+
+    await generateBoundariesForState(specificState!, [specificDistrict], true, osmNameOverride);
+    return;
+  }
+
+  if (retryFailed) {
+    const failedDistricts = getFailedDistrictsFromFile(specificState!);
+    if (failedDistricts.length === 0) {
+      console.log(`✅ No failed districts for ${specificState}`);
+      return;
+    }
+    console.log(`Retrying ${failedDistricts.length} failed districts: ${failedDistricts.join(', ')}`);
+    console.log(`State: ${specificState}`);
+    console.log(`Rate limit: ${REQUEST_DELAY_MS}ms between requests`);
+    console.log('');
+
+    await generateBoundariesForState(specificState!, failedDistricts, true);
+    return;
   }
 
   console.log(`States to process: ${statesToProcess.join(', ')}`);

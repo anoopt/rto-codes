@@ -170,8 +170,11 @@ jobs:
 
       - name: Generate OSM map data for completed states
         if: steps.check.outputs.has_updates == 'true'
+        id: osm
         run: |
           echo "🗺️ Generating OSM map data for completed states..."
+
+          failed_districts_report=""
 
           for state_dir in ${{ steps.check.outputs.completed_states }}; do
             if [ -d "data/$state_dir" ]; then
@@ -185,11 +188,32 @@ jobs:
               # Generate coordinates (RTO markers)
               echo "  Generating coordinates..."
               bun scripts/generate-coordinates.ts --state="$state_dir" || echo "  ⚠️ Coordinates failed for $state_dir"
+              
+              # Check for failed districts
+              boundaries_file="public/data/$state_dir/boundaries.json"
+              if [ -f "$boundaries_file" ]; then
+                failed=$(jq -r '.failedDistricts | if length > 0 then @json else empty end' "$boundaries_file")
+                if [ -n "$failed" ]; then
+                  state_name=$(jq -r '.displayName // .name' "data/$state_dir/config.json")
+                  failed_list=$(jq -r '.failedDistricts | join(", ")' "$boundaries_file")
+                  failed_districts_report="${failed_districts_report}### $state_name\n- Failed districts: $failed_list\n\n"
+                fi
+              fi
             fi
           done
 
           echo ""
           echo "✅ OSM data generation complete"
+          
+          # Save failed districts report
+          if [ -n "$failed_districts_report" ]; then
+            echo "has_failed_districts=true" >> $GITHUB_OUTPUT
+            echo "failed_report<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$failed_districts_report" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "has_failed_districts=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit OSM data
         if: steps.check.outputs.has_updates == 'true'
@@ -206,6 +230,69 @@ jobs:
           else
             echo "ℹ️  No OSM data changes to commit"
           fi
+
+      - name: Create issue for failed district boundaries
+        if: steps.check.outputs.has_updates == 'true' && steps.osm.outputs.has_failed_districts == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const failedReport = `${{ steps.osm.outputs.failed_report }}`;
+            const completedStates = '${{ steps.check.outputs.completed_states }}'.trim().split(/\s+/);
+            const now = new Date().toISOString().split('T')[0];
+
+            const body = `## 🗺️ Failed District Boundaries
+
+            Some district boundaries could not be fetched from OpenStreetMap during the auto-complete workflow.
+            These districts will show a warning banner on their RTO pages.
+
+            ## Failed Districts
+
+            ${failedReport}
+
+            ## How to Fix
+
+            1. **Find the correct OSM spelling** for each district:
+               \`\`\`bash
+               curl -s "https://nominatim.openstreetmap.org/search?q=<DistrictName>+district,+<State>,+India&format=json&limit=5" \\
+                 -H "User-Agent: RTOCodesIndia/1.0" | jq '.[].display_name'
+               \`\`\`
+
+            2. **Add an alias** in \`scripts/generate-boundaries.ts\`:
+               \`\`\`typescript
+               const OSM_DISTRICT_ALIASES: Record<string, Record<string, string>> = {
+                 '<State>': {
+                   '<OurSpelling>': '<OSMSpelling>',
+                 },
+               };
+               \`\`\`
+
+            3. **Retry the failed district**:
+               \`\`\`bash
+               bun scripts/generate-boundaries.ts --state=<state-folder> --district=<DistrictName>
+               \`\`\`
+
+            4. **Or retry all failed districts for a state**:
+               \`\`\`bash
+               bun scripts/generate-boundaries.ts --state=<state-folder> --retry-failed
+               \`\`\`
+
+            ## Common Causes
+
+            - **Spelling mismatch**: OSM uses local/alternate spelling (e.g., "Marigaon" vs "Morigaon")
+            - **New districts**: Recently created districts may not have boundary data in OSM yet
+            - **Rate limiting**: Temporary Nominatim rate limit (try \`--retry-failed\` later)
+
+            ---
+            *Automatically generated on ${now}*
+            *Workflow: [Auto-Complete State](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})*`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🗺️ Fix Failed District Boundaries - ${now}`,
+              body: body,
+              labels: ['automated', 'bug', 'data', 'help wanted']
+            });
 
       - name: Generate completion report
         if: steps.check.outputs.has_updates == 'true'
@@ -316,6 +403,11 @@ jobs:
             echo "  RTOs: ${{ steps.report.outputs.actual_rtos }}/${{ steps.report.outputs.total_rtos }} (${{ steps.report.outputs.overall_progress }}%)"
             echo ""
             echo "🎉 Celebration issue created!"
+            
+            if [ "${{ steps.osm.outputs.has_failed_districts }}" = "true" ]; then
+              echo ""
+              echo "⚠️  Some district boundaries failed - issue created for manual fix"
+            fi
           else
             echo ""
             echo "ℹ️  No states completed in this check"
