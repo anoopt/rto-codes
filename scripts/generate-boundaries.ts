@@ -196,7 +196,7 @@ function getStateDisplayName(folderName: string): string {
 }
 
 /**
- * Get all districts for a state from config
+ * Get all districts for a state from config or RTO files
  */
 function getDistrictsForState(stateFolder: string): string[] {
   const configPath = path.join(DATA_DIR, stateFolder, 'config.json');
@@ -209,17 +209,60 @@ function getDistrictsForState(stateFolder: string): string[] {
   try {
     const config: StateConfig = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
-    if (!config.districtMapping) {
-      console.warn(`  ⚠ No districtMapping in config for ${stateFolder}`);
-      return [];
+    // First try districtMapping from config
+    if (config.districtMapping && Object.keys(config.districtMapping).length > 0) {
+      // Get unique district names (keys are actual district names)
+      return Object.keys(config.districtMapping);
     }
 
-    // Get unique district names (keys are actual district names)
-    return Object.keys(config.districtMapping);
+    // If districtMapping is empty, fall back to extracting districts from RTO files
+    console.log(`  ℹ districtMapping empty, extracting districts from RTO files...`);
+    return extractDistrictsFromRTOFiles(stateFolder);
   } catch (error) {
     console.error(`  ✗ Error reading config for ${stateFolder}:`, error);
     return [];
   }
+}
+
+/**
+ * Extract unique district names from RTO JSON files in a state folder
+ */
+function extractDistrictsFromRTOFiles(stateFolder: string): string[] {
+  const statePath = path.join(DATA_DIR, stateFolder);
+  const districts = new Set<string>();
+
+  if (!fs.existsSync(statePath)) {
+    return [];
+  }
+
+  const files = fs.readdirSync(statePath).filter(file =>
+    file.endsWith('.json') &&
+    !file.includes('index') &&
+    !file.includes('config') &&
+    !file.includes('validation-report') &&
+    /^[a-z]{2}-\d+\.json$/i.test(file)
+  );
+
+  for (const file of files) {
+    try {
+      const filePath = path.join(statePath, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+      const rtoData = JSON.parse(content);
+
+      if (rtoData.district && typeof rtoData.district === 'string') {
+        const district = rtoData.district.trim();
+        if (district && district !== 'N/A' && district !== 'Unknown') {
+          districts.add(district);
+        }
+      }
+    } catch {
+      // Skip files that can't be parsed
+    }
+  }
+
+  const districtArray = Array.from(districts).sort();
+  console.log(`  ℹ Found ${districtArray.length} unique districts from ${files.length} RTO files`);
+  return districtArray;
 }
 
 /**

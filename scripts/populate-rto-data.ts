@@ -726,8 +726,14 @@ function countActualRTOFiles(stateFolder: string): number {
 }
 
 /**
- * Updates the state config.json with accurate totalRTOs and isComplete flags.
+ * Updates the state config.json with accurate totalRTOs count.
  * Called after population to ensure config reflects reality.
+ * 
+ * NOTE: This function intentionally does NOT set isComplete = true.
+ * The auto-complete-state workflow handles marking states complete,
+ * which also triggers OSM map data generation (boundaries + coordinates).
+ * Setting isComplete here would cause auto-complete to skip the state,
+ * resulting in missing map data.
  */
 function updateStateConfigAfterPopulation(
     stateFolder: string,
@@ -765,19 +771,12 @@ function updateStateConfigAfterPopulation(
             configChanged = true;
         }
 
-        // Since we processed all, mark as complete if we have RTOs
-        if (!config.isComplete && newTotalRTOs > 0) {
-            console.log(`   Setting isComplete = true`);
-            config.isComplete = true;
-            configChanged = true;
-        }
-    } else {
-        // Partial range - check if actual count meets or exceeds expected
-        // and all codes have been tried (no gaps)
-        if (!config.isComplete && actualRTOCount >= config.totalRTOs && config.totalRTOs > 0) {
-            console.log(`\n📝 Updating config.json: isComplete = true (${actualRTOCount}/${config.totalRTOs} RTOs)`);
-            config.isComplete = true;
-            configChanged = true;
+        // NOTE: Do NOT set isComplete here! Let auto-complete-state workflow handle it.
+        // This ensures OSM map data (boundaries + coordinates) is generated properly.
+        if (actualRTOCount > 0 && actualRTOCount >= newTotalRTOs) {
+            console.log(`\n📊 State appears complete (${actualRTOCount}/${newTotalRTOs} RTOs)`);
+            console.log(`   ℹ️  isComplete will be set by auto-complete-state workflow`);
+            console.log(`   ℹ️  This ensures OSM map data is generated properly`);
         }
     }
 

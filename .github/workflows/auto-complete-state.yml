@@ -100,8 +100,19 @@ jobs:
               echo "   ✅ COMPLETE!"
               completed_states="$completed_states $state_dir"
               
-              # Update config.json
-              jq '.isComplete = true' "$config_file" > "$config_file.tmp"
+              # Extract unique districts from RTO files to populate districtMapping
+              echo "   📝 Extracting districts from RTO files..."
+              district_mapping=$(find "data/$state_dir" -name "*.json" -type f \
+                ! -name "config.json" \
+                ! -name "index.json" \
+                ! -name "validation-report.json" \
+                -exec jq -r '.district // empty' {} \; | sort -u | \
+                jq -Rs 'split("\n") | map(select(length > 0)) | map({(.): .}) | add // {}')
+              
+              # Update config.json - set isComplete, osmEnabled, and districtMapping
+              jq --argjson districts "$district_mapping" \
+                '.isComplete = true | .osmEnabled = true | .districtMapping = (.districtMapping + $districts)' \
+                "$config_file" > "$config_file.tmp"
               mv "$config_file.tmp" "$config_file"
               
               updated_states="$updated_states\n- $state_name ($state_code): $actual_count/$total_rtos RTOs"
@@ -109,7 +120,7 @@ jobs:
               # Collect data for celebration
               celebration_data="$celebration_data\n| $state_name | $state_code | $actual_count | $total_rtos | 100% |"
               
-              echo "   📝 Updated isComplete flag"
+              echo "   📝 Updated isComplete, osmEnabled, and districtMapping"
             else
               progress=$((actual_count * 100 / total_rtos))
               echo "   📊 Progress: $progress% ($actual_count/$total_rtos)"

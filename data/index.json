@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-28T02:41:03.969Z",
+  "generatedAt": "2026-01-28T16:51:11.473Z",
   "totalRTOs": 161,
   "totalVerified": 161,
   "totalStates": 28,
@@ -82,8 +82,8 @@
       "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "AS",
@@ -688,8 +688,8 @@
       "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "AS": {
       "stateCode": "AS",
