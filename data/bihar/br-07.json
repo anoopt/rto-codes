@@ -1,0 +1,33 @@
+{
+    "code": "BR-07",
+    "region": "Darbhanga",
+    "city": "Darbhanga",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Darbhanga",
+    "division": "Darbhanga Division",
+    "description": "BR-07 is the official District Transport Office for Darbhanga, Bihar, which manages vehicle registration, commercial permits, and driving licenses for one of the oldest cities in North Bihar. It serves as a critical transport administrative hub for the Darbhanga Division, ensuring compliance with state transport laws.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Laheriasarai, Darbhanga, Bihar",
+    "pinCode": "846004",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Darbhanga Sadar",
+        "Benipur",
+        "Biraul",
+        "Baheri",
+        "Jale",
+        "Keoti",
+        "Manigachhi",
+        "Singhwara",
+        "Hayaghat",
+        "Hanuman Nagar",
+        "Tardih",
+        "Ghanshyampur",
+        "Kiratpur",
+        "Gaura Bauram",
+        "Kusheshwar Asthan"
+    ]
+}

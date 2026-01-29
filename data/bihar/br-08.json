@@ -1,0 +1,27 @@
+{
+    "code": "BR-08",
+    "region": "Munger",
+    "city": "Munger",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Munger",
+    "division": "Munger Division",
+    "description": "The BR-08 RTO serves the Munger district in Bihar, historically known as Monghyr. It is an active District Transport Office (DTO) responsible for vehicle registrations, issuing driving licenses, and enforcing motor vehicle regulations within the Munger region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Munger, Bihar",
+    "pinCode": "811201",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Munger",
+        "Jamalpur",
+        "Bariarpur",
+        "Dharhara",
+        "Kharagpur",
+        "Tarapur",
+        "Asarganj",
+        "Sangrampur",
+        "Tetiabambar"
+    ]
+}

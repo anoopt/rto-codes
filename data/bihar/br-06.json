@@ -1,0 +1,32 @@
+{
+    "code": "BR-06",
+    "region": "Muzaffarpur",
+    "city": "Muzaffarpur",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Muzaffarpur",
+    "division": "Tirhut",
+    "description": "BR-06 is the District Transport Office (DTO) for Muzaffarpur, a key administrative and commercial center in North Bihar. The office is responsible for vehicle registration, road tax collection, and the issuance of driving licenses for the entire Muzaffarpur district under the Tirhut division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectoriate Building, Muzaffarpur, Bihar",
+    "pinCode": "842001",
+    "phone": "0621-2244792",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Muzaffarpur City",
+        "Kanti",
+        "Motipur",
+        "Sahebganj",
+        "Paroo",
+        "Sakra",
+        "Kurhani",
+        "Minapur",
+        "Bochahan",
+        "Musahri",
+        "Bandra",
+        "Muraul",
+        "Aurai",
+        "Katra"
+    ]
+}
