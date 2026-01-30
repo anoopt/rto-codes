@@ -317,5 +317,37 @@
       "Rangra Chowk",
       "Ismailpur"
     ]
+  },
+  {
+    "code": "BR-11",
+    "region": "Purnia",
+    "city": "Purnia",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Purnia",
+    "division": "Purnia",
+    "description": "The BR-11 RTO serves the Purnia district in Bihar, managing vehicle registration, driving licenses, and permit issuance. It plays a significant role in the transport infrastructure of the Purnia division and the Seemanchal region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Maranga Road, Mariam Nagar, Purnia, Bihar",
+    "pinCode": "854301",
+    "phone": "6202751162",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Purnia East",
+      "Purnia West",
+      "Kasba",
+      "Jalalgarh",
+      "Krityanand Nagar",
+      "Srinagar",
+      "Banmankhi",
+      "Dhamdaha",
+      "Barhara Kothi",
+      "Bhawanipur",
+      "Rupauli",
+      "Baisi",
+      "Baisa",
+      "Amour"
+    ]
   }
 ]
