@@ -1,0 +1,27 @@
+{
+    "code": "BR-19",
+    "region": "Saharsa",
+    "city": "Saharsa",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Saharsa",
+    "division": "Kosi",
+    "description": "The BR-19 RTO office serves the Saharsa district in the Kosi division of Bihar. It is responsible for motor vehicle registrations, issuance of driving licenses, and collection of road taxes for the entire district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Saharsa, Bihar",
+    "pinCode": "852201",
+    "phone": "N/A",
+    "email": "dto-saharsa-bih@nic.in",
+    "jurisdictionAreas": [
+        "Saharsa",
+        "Simri Bakhtiyarpur",
+        "Sonbarsa Raj",
+        "Mahishi",
+        "Kahra",
+        "Banma Itahari",
+        "Salkhua",
+        "Patarghat",
+        "Sattar Kataiya"
+    ]
+}
