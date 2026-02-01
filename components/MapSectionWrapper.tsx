@@ -51,6 +51,15 @@ interface MapSectionWrapperProps {
 }
 
 /**
+ * Check if a district represents a state-wide RTO (covers the entire state).
+ * State-wide RTOs like AP-39 and AP-40 have "State-wide" as their district.
+ */
+function isStateWideDistrict(district: string | undefined): boolean {
+  if (!district) return false;
+  return district.toLowerCase().trim() === 'state-wide';
+}
+
+/**
  * MapSectionWrapper - Renders OSM district map when enabled for the state.
  * 
  * Shows the map only when:
@@ -74,8 +83,14 @@ export default function MapSectionWrapper({
     return null;
   }
 
+  // Check if this is a state-wide RTO (covers entire state)
+  const isStateWide = isStateWideDistrict(rto.district);
+
   // Get all district names from the districtMapping keys
-  const districts = Object.keys(districtMapping);
+  // Filter out "State-wide" since it's not a real district for OSM
+  const districts = Object.keys(districtMapping).filter(
+    d => !isStateWideDistrict(d)
+  );
 
   // Convert RTOCode[] to RTOData[] for OSMStateMap markers
   const rtoDataList: RTOData[] = districtRTOs.map(rtoItem => ({
@@ -113,15 +128,16 @@ export default function MapSectionWrapper({
           districts={districts}
           districtRTOsMap={districtRTOsMap}
           districtMapping={districtMapping}
-          currentDistrict={rto.district}
-          districtRTOs={rtoDataList}
+          currentDistrict={isStateWide ? undefined : rto.district}
+          districtRTOs={isStateWide ? [] : rtoDataList}
           currentRTOCode={rto.code}
+          isStateWide={isStateWide}
           className="w-full h-64 md:h-72"
         />
       </div>
 
-      {/* District RTOs Legend Grid */}
-      {sortedDistrictRTOs.length > 1 && (
+      {/* District RTOs Legend Grid - only shown for non-state-wide RTOs with multiple RTOs in district */}
+      {!isStateWide && sortedDistrictRTOs.length > 1 && (
         <div className="w-full max-w-md mt-2">
           <p className="text-xs text-[var(--muted-foreground)] mb-2 text-center">
             RTOs in {rto.district}
@@ -158,7 +174,10 @@ export default function MapSectionWrapper({
       )}
 
       <p className="text-xs text-[var(--muted-foreground)] opacity-70">
-        Click on any district to explore its RTOs
+        {isStateWide
+          ? 'This RTO covers the entire state'
+          : 'Click on any district to explore its RTOs'
+        }
       </p>
     </div>
   );

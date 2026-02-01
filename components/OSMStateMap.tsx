@@ -7,7 +7,7 @@ import { MapContainer, TileLayer, GeoJSON, Tooltip, Marker, useMap } from 'react
 import L, { type LatLngTuple, type Layer, type LeafletMouseEvent, type PathOptions, type LatLngBoundsExpression, type LatLngBounds } from 'leaflet';
 import type { GeoJsonObject, Feature, FeatureCollection } from 'geojson';
 import 'leaflet/dist/leaflet.css';
-import { fetchDistrictBoundary, getCachedBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
+import { fetchDistrictBoundary, getCachedBoundary, fetchStateBoundary, type GeoJSONFeature, getBoundaryCenter } from '@/lib/osm-boundaries';
 import { getRTOCoordinates } from '@/lib/osm-geocoding';
 
 // Fix for default Leaflet marker icons not loading in webpack/bundler environments
@@ -199,6 +199,8 @@ interface OSMStateMapProps {
   districtRTOs?: RTOData[];
   /** The code of the current RTO being viewed (for emphasis) */
   currentRTOCode?: string;
+  /** Whether this is a state-wide RTO (covers entire state) - highlights all districts */
+  isStateWide?: boolean;
 }
 
 // Styles for district polygon
@@ -237,6 +239,14 @@ const currentDistrictHoverStyle: PathOptions = {
   fillOpacity: 0.6,
   color: '#5b21b6',
   weight: 5,
+};
+
+// Style for state boundary (state-wide RTOs)
+const stateBoundaryStyle: PathOptions = {
+  fillColor: '#7c3aed', // Purple fill for state coverage
+  fillOpacity: 0.25,
+  color: '#6d28d9', // Darker purple border
+  weight: 4,
 };
 
 // State center coordinates and zoom levels
@@ -290,6 +300,7 @@ export default function OSMStateMap({
   currentDistrict,
   districtRTOs,
   currentRTOCode,
+  isStateWide = false,
 }: OSMStateMapProps) {
   const router = useRouter();
   const [isMounted, setIsMounted] = useState(() => typeof window !== 'undefined');
@@ -304,6 +315,11 @@ export default function OSMStateMap({
   // Marker state for RTOs in the current district
   const [markerPositions, setMarkerPositions] = useState<MarkerData[]>([]);
   const [loadingMarkers, setLoadingMarkers] = useState(false);
+
+  // State boundary for state-wide RTOs
+  const [stateBoundary, setStateBoundary] = useState<GeoJSONFeature | null>(null);
+  const [loadingStateBoundary, setLoadingStateBoundary] = useState(false);
+  const [stateBoundaryError, setStateBoundaryError] = useState<string | null>(null);
 
   const stateConfig = getStateConfig(state);
 
@@ -436,6 +452,47 @@ export default function OSMStateMap({
 
   }, [isMounted, state, districtsKey]);
 
+  // Fetch state boundary when isStateWide is true
+  useEffect(() => {
+    if (!isMounted || !isStateWide) {
+      setStateBoundary(null);
+      setStateBoundaryError(null);
+      return;
+    }
+
+    let cancelled = false;
+    setLoadingStateBoundary(true);
+    setStateBoundaryError(null);
+
+    const loadStateBoundary = async () => {
+      try {
+        const feature = await fetchStateBoundary(state);
+        if (cancelled) return;
+
+        if (feature) {
+          setStateBoundary(feature);
+        } else {
+          setStateBoundaryError(`Could not load state boundary for ${state}`);
+        }
+      } catch (error) {
+        if (!cancelled) {
+          console.error(`[OSM] Error fetching state boundary for ${state}:`, error);
+          setStateBoundaryError('Failed to load state boundary');
+        }
+      } finally {
+        if (!cancelled) {
+          setLoadingStateBoundary(false);
+        }
+      }
+    };
+
+    loadStateBoundary();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [isMounted, isStateWide, state]);
+
   // Geocode RTO city locations for markers in current district
   useEffect(() => {
     if (!isMounted || !districtRTOs || districtRTOs.length === 0 || !currentDistrict) {
@@ -504,13 +561,33 @@ export default function OSMStateMap({
     };
   }, [boundaries]);
 
+  // Create state boundary as a Feature for rendering (for state-wide RTOs)
+  const stateBoundaryFeature = useMemo((): Feature | null => {
+    if (!isStateWide || !stateBoundary) return null;
+
+    return {
+      type: 'Feature' as const,
+      properties: {
+        ...stateBoundary.properties,
+        stateName: state,
+      },
+      geometry: stateBoundary.geometry as Feature['geometry'],
+    };
+  }, [isStateWide, stateBoundary, state]);
+
   // Generate a stable key for GeoJSON based on actual content
   const geoJsonKey = useMemo(() => {
     return `${state}-${boundaries.map(b => b.districtName).sort().join(',')}`;
   }, [state, boundaries]);
 
   // Get the current district's boundary for zoom control
+  // For state-wide RTOs, use the state boundary instead
   const currentDistrictBoundary = useMemo((): GeoJSONFeature | null => {
+    // For state-wide RTOs, use the state boundary for zoom
+    if (isStateWide && stateBoundary) {
+      return stateBoundary;
+    }
+
     if (!currentDistrict || boundaries.length === 0) return null;
 
     const found = boundaries.find(b =>
@@ -518,7 +595,7 @@ export default function OSMStateMap({
     );
 
     return found?.feature || null;
-  }, [boundaries, currentDistrict]);
+  }, [boundaries, currentDistrict, isStateWide, stateBoundary]);
 
   // Get the current RTO's position for zoom centering
   const currentRTOPosition = useMemo((): LatLngTuple | null => {
@@ -690,18 +767,27 @@ export default function OSMStateMap({
   /**
    * Get style for a district based on current/hover/click state.
    * Current district always gets distinct styling regardless of hover.
+   * When isStateWide is true, all districts get the current district style.
    */
   const getDistrictStyle = useCallback((districtName: string): PathOptions => {
     // Normalize for case-insensitive comparison
-    const isCurrentDistrict = currentDistrict &&
+    const isCurrentDistrictMatch = currentDistrict &&
       districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim();
 
     if (clickedDistrict === districtName) {
       return clickStyle;
     }
 
+    // For state-wide RTOs, all districts get the highlighted style
+    if (isStateWide) {
+      if (hoveredDistrict === districtName) {
+        return currentDistrictHoverStyle;
+      }
+      return currentDistrictStyle;
+    }
+
     // Current district gets distinct persistent styling
-    if (isCurrentDistrict) {
+    if (isCurrentDistrictMatch) {
       if (hoveredDistrict === districtName) {
         return currentDistrictHoverStyle;
       }
@@ -712,7 +798,7 @@ export default function OSMStateMap({
       return hoverStyle;
     }
     return defaultStyle;
-  }, [clickedDistrict, hoveredDistrict, currentDistrict]);
+  }, [clickedDistrict, hoveredDistrict, currentDistrict, isStateWide]);
 
   // GeoJSON event handlers
   const onEachFeature = useCallback((feature: Feature, layer: Layer) => {
@@ -722,8 +808,9 @@ export default function OSMStateMap({
     const styledLayer = layer as Layer & { setStyle: (s: PathOptions) => void };
 
     // Check if this is the current district (case-insensitive)
-    const isCurrentDistrict = currentDistrict &&
-      districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim();
+    // or if this is a state-wide RTO (all districts are "current")
+    const isCurrentDistrictMatch = isStateWide || (currentDistrict &&
+      districtName.toLowerCase().trim() === currentDistrict.toLowerCase().trim());
 
     // Helper to safely apply style to a layer
     const safeSetStyle = (target: Layer, style: PathOptions) => {
@@ -737,7 +824,7 @@ export default function OSMStateMap({
       mouseover: (e: LeafletMouseEvent) => {
         const target = e.target as Layer;
         if (clickedDistrict !== districtName) {
-          safeSetStyle(target, isCurrentDistrict ? currentDistrictHoverStyle : hoverStyle);
+          safeSetStyle(target, isCurrentDistrictMatch ? currentDistrictHoverStyle : hoverStyle);
         }
         setHoveredDistrict(districtName);
       },
@@ -745,7 +832,7 @@ export default function OSMStateMap({
         const target = e.target as Layer;
         if (clickedDistrict !== districtName) {
           // Revert to appropriate style based on whether it's the current district
-          safeSetStyle(target, isCurrentDistrict ? currentDistrictStyle : defaultStyle);
+          safeSetStyle(target, isCurrentDistrictMatch ? currentDistrictStyle : defaultStyle);
         }
         setHoveredDistrict(null);
       },
@@ -753,7 +840,7 @@ export default function OSMStateMap({
         handleDistrictClick(districtName, styledLayer);
       },
     });
-  }, [clickedDistrict, handleDistrictClick, currentDistrict]);
+  }, [clickedDistrict, handleDistrictClick, currentDistrict, isStateWide]);
 
   // Style function for GeoJSON
   const styleFunction = useCallback((feature: Feature | undefined): PathOptions => {
@@ -800,8 +887,18 @@ export default function OSMStateMap({
 
   return (
     <div className={`h-64 md:h-80 lg:h-96 rounded-lg overflow-hidden relative ${className}`}>
-      {/* Loading overlay with progress */}
-      {isLoading && boundaries.length === 0 && (
+      {/* Loading overlay for state boundary (state-wide RTOs) */}
+      {isStateWide && loadingStateBoundary && (
+        <div className="absolute inset-0 z-[1000] bg-white/80 dark:bg-gray-900/80 flex flex-col items-center justify-center gap-2">
+          <LoadingSpinner size="md" />
+          <span className="text-sm text-gray-600 dark:text-gray-300">
+            Loading state boundary...
+          </span>
+        </div>
+      )}
+
+      {/* Loading overlay with progress (for district boundaries) */}
+      {!isStateWide && isLoading && boundaries.length === 0 && (
         <div className="absolute inset-0 z-[1000] bg-white/80 dark:bg-gray-900/80 flex flex-col items-center justify-center gap-2">
           <LoadingSpinner size="md" />
           <span className="text-sm text-gray-600 dark:text-gray-300">
@@ -811,15 +908,31 @@ export default function OSMStateMap({
       )}
 
       {/* Loading progress indicator (after initial load) */}
-      {isLoading && boundaries.length > 0 && (
+      {!isStateWide && isLoading && boundaries.length > 0 && (
         <div className="absolute top-2 left-2 z-[1000] bg-white dark:bg-gray-800 px-3 py-2 rounded-lg text-sm text-gray-600 dark:text-gray-300 shadow-md flex items-center gap-2">
           <LoadingSpinner size="sm" />
           <span>Loading districts ({loadingProgress.loaded}/{loadingProgress.total})</span>
         </div>
       )}
 
-      {/* Warning for failed boundaries */}
-      {!isLoading && boundaryErrors.length > 0 && (
+      {/* State boundary error */}
+      {isStateWide && stateBoundaryError && (
+        <div className="absolute top-2 left-2 right-2 z-[1000] bg-amber-50 dark:bg-amber-900/50 border border-amber-200 dark:border-amber-700 px-3 py-2 rounded-lg shadow-md">
+          <div className="flex items-start gap-2">
+            <svg className="w-5 h-5 text-amber-500 dark:text-amber-400 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm text-amber-700 dark:text-amber-300">
+                {stateBoundaryError}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Warning for failed district boundaries */}
+      {!isStateWide && !isLoading && boundaryErrors.length > 0 && (
         <div className="absolute top-2 left-2 right-2 z-[1000] bg-amber-50 dark:bg-amber-900/50 border border-amber-200 dark:border-amber-700 px-3 py-2 rounded-lg shadow-md">
           <div className="flex items-start gap-2">
             <svg className="w-5 h-5 text-amber-500 dark:text-amber-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -865,8 +978,29 @@ export default function OSMStateMap({
           currentRTOPosition={currentRTOPosition}
         />
 
-        {/* District boundaries GeoJSON layer */}
-        {featureCollection && (
+        {/* State boundary GeoJSON layer - shown for state-wide RTOs */}
+        {isStateWide && stateBoundaryFeature && (
+          <GeoJSON
+            key={`state-${state}`}
+            data={stateBoundaryFeature as GeoJsonObject}
+            style={stateBoundaryStyle}
+          >
+            <Tooltip sticky>
+              <div>
+                <span className="font-medium">{state}</span>
+                <span className="block text-xs text-purple-500 font-medium mt-1">
+                  State-wide RTO coverage
+                </span>
+                <span className="block text-xs text-gray-400 mt-1">
+                  Click on any district to explore local RTOs
+                </span>
+              </div>
+            </Tooltip>
+          </GeoJSON>
+        )}
+
+        {/* District boundaries GeoJSON layer - shown for regular RTOs */}
+        {!isStateWide && featureCollection && (
           <GeoJSON
             key={geoJsonKey}
             data={featureCollection as GeoJsonObject}
@@ -878,7 +1012,12 @@ export default function OSMStateMap({
               {hoveredDistrict && (
                 <div>
                   <span className="font-medium">{hoveredDistrict}</span>
-                  {currentDistrict && hoveredDistrict.toLowerCase().trim() === currentDistrict.toLowerCase().trim() && (
+                  {isStateWide && (
+                    <span className="block text-xs text-purple-500 font-medium mt-1">
+                      Part of state-wide coverage
+                    </span>
+                  )}
+                  {!isStateWide && currentDistrict && hoveredDistrict.toLowerCase().trim() === currentDistrict.toLowerCase().trim() && (
                     <span className="block text-xs text-purple-500 font-medium mt-1">
                       Current district
                     </span>
