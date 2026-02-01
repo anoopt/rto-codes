@@ -41,5 +41,6 @@
   },
   "isComplete": true,
   "type": "state",
-  "osmEnabled": true
+  "osmEnabled": true,
+  "activeRTOs": 71
 }

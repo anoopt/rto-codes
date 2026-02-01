@@ -17,6 +17,8 @@ interface StateIndex {
     stateCode: string;
     stateName: string;
     rtoCount: number;
+    totalExpectedRTOs: number; // Expected total RTOs from config
+    activeRTOs: number; // RTOs currently in active use (0 = all documented are active)
     verifiedCount: number;
     rtoCodes: string[]; // Just the codes for quick lookup
     isComplete: boolean;
@@ -32,8 +34,10 @@ interface MasterIndex {
     totalVerified: number;
     totalStates: number;
     completedStates: number;
+    inProgressStates: number;
     totalUTs: number;
     completedUTs: number;
+    inProgressUTs: number;
     states: StateIndex[];
     stateMap: Record<string, StateIndex>;
 }
@@ -113,6 +117,8 @@ function generateStateIndex(stateDir: string): { stateIndex: StateIndex; rtos: R
         stateCode: config?.stateCode || rtos[0]?.stateCode || stateDir.toUpperCase(),
         stateName: config?.name || rtos[0]?.state || stateDir,
         rtoCount: rtos.length,
+        totalExpectedRTOs: config?.totalRTOs || 0,
+        activeRTOs: config?.activeRTOs || 0, // 0 means all documented RTOs are active
         verifiedCount: verifiedRTOs.length,
         rtoCodes: rtos.map(rto => rto.code.toLowerCase()),
         isComplete: config?.isComplete ?? false,
@@ -135,8 +141,10 @@ function main() {
         totalVerified: 0,
         totalStates: 0,
         completedStates: 0,
+        inProgressStates: 0,
         totalUTs: 0,
         completedUTs: 0,
+        inProgressUTs: 0,
         states: [],
         stateMap: {},
     };
@@ -160,10 +168,18 @@ function main() {
         // Count states vs UTs and their completion status
         if (stateIndex.type === "union-territory") {
             masterIndex.totalUTs++;
-            if (stateIndex.isComplete) masterIndex.completedUTs++;
+            if (stateIndex.isComplete) {
+                masterIndex.completedUTs++;
+            } else if (stateIndex.status === "In Progress") {
+                masterIndex.inProgressUTs++;
+            }
         } else {
             masterIndex.totalStates++;
-            if (stateIndex.isComplete) masterIndex.completedStates++;
+            if (stateIndex.isComplete) {
+                masterIndex.completedStates++;
+            } else if (stateIndex.status === "In Progress") {
+                masterIndex.inProgressStates++;
+            }
         }
     }
 
@@ -172,8 +188,8 @@ function main() {
     fs.writeFileSync(masterIndexPath, JSON.stringify(masterIndex, null, 2));
     console.log(`\n📊 Created data/index.json`);
     console.log(`   Total: ${masterIndex.totalRTOs} RTOs across ${masterIndex.states.length} state(s)/UT(s)`);
-    console.log(`   States: ${masterIndex.completedStates}/${masterIndex.totalStates} complete`);
-    console.log(`   UTs: ${masterIndex.completedUTs}/${masterIndex.totalUTs} complete`);
+    console.log(`   States: ${masterIndex.completedStates}/${masterIndex.totalStates} complete, ${masterIndex.inProgressStates} in progress`);
+    console.log(`   UTs: ${masterIndex.completedUTs}/${masterIndex.totalUTs} complete, ${masterIndex.inProgressUTs} in progress`);
     console.log(`   Verified: ${masterIndex.totalVerified} RTOs with complete data`);
 
     // Update DATA.md with dynamic colors

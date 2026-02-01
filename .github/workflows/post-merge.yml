@@ -42,6 +42,9 @@ jobs:
           echo "Regenerating index files before image generation..."
           bun scripts/generate-index.ts
           echo "✅ Index files regenerated"
+          echo "Regenerating DATA.md documentation..."
+          bun scripts/generate-data-md.ts
+          echo "✅ DATA.md regenerated"
 
       - name: Get changed files
         id: changed-files
@@ -141,15 +144,15 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Add index files and rto-images.json
-          git add data/index.json data/*/index.json data/rto-images.json 2>/dev/null || true
+          # Add index files, rto-images.json, and DATA.md
+          git add data/index.json data/*/index.json data/rto-images.json docs/DATA.md 2>/dev/null || true
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             # Commit first, then rebase and push
-            git commit -m "chore: update index files and RTO images tracking"
+            git commit -m "chore: update index files, DATA.md, and RTO images tracking"
             
             # Pull latest changes with rebase to avoid non-fast-forward errors
             git pull --rebase origin main || {
@@ -159,7 +162,7 @@ jobs:
             }
             
             git push origin main
-            echo "✅ Index files and rto-images.json updated"
+            echo "✅ Index files, DATA.md, and rto-images.json updated"
           fi
 
       - name: Trigger Auto-Complete State Check

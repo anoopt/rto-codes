@@ -23,5 +23,6 @@
   "isComplete": true,
   "type": "state",
   "notes": "Andhra Pradesh implemented 'one state-one code' policy in February 2019. All new vehicles are registered with AP-39/AP-40 series. Legacy codes (AP-02 to AP-37) are maintained for existing registrations only.",
-  "osmEnabled": true
+  "osmEnabled": true,
+  "activeRTOs": 2
 }

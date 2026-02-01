@@ -21,4 +21,6 @@ export interface StateConfig {
   type: "state" | "union-territory";
   /** Whether OSM map is enabled for this state (requires boundaries.json and coordinates.json) */
   osmEnabled?: boolean;
+  /** Number of RTOs currently in active use (for states with legacy/retired codes) */
+  activeRTOs?: number;
 }
