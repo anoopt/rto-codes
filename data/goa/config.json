@@ -4,6 +4,7 @@
   "displayName": "Goa",
   "capital": "Panaji",
   "totalRTOs": 12,
+  "activeRTOs": 10,
   "districtMapping": {
     "North Goa": "North_Goa",
     "South Goa": "South_Goa"

@@ -132,7 +132,7 @@ interface StateRowData {
     osmColor: string;
     rtoCount: number;
     totalExpectedRTOs: number;
-    activeRTOs: number; // 0 means all documented are active
+    activeRTOs: number; // 0 means unknown
 }
 
 function generateActiveRTOsBadge(activeRTOs: number, rtoCount: number): string {
@@ -140,11 +140,11 @@ function generateActiveRTOsBadge(activeRTOs: number, rtoCount: number): string {
     if (rtoCount === 0) {
         return `![Active](https://img.shields.io/badge/Active-TBC-lightgrey)`;
     }
-    // If activeRTOs is 0 or not set, we don't know - show unknown
+    // If activeRTOs is not set (0), show N/A - we don't know
     if (!activeRTOs || activeRTOs === 0) {
-        return `![Active](https://img.shields.io/badge/Active--lightgrey)`;
+        return `![Active](https://img.shields.io/badge/Active-N%2FA-lightgrey)`;
     }
-    // If activeRTOs equals rtoCount, all are active
+    // If activeRTOs equals rtoCount, all documented RTOs are active
     if (activeRTOs === rtoCount) {
         return `![Active](https://img.shields.io/badge/Active-All-brightgreen)`;
     }

@@ -21,8 +21,21 @@ interface StateConfig {
   isComplete: boolean; // True when all RTOs added
   type: "state" | "union-territory";
   osmEnabled?: boolean; // Enable OSM maps for this state
+  activeRTOs?: number; // RTOs actively issuing registrations (manual field)
 }
 ```
+
+### `activeRTOs` Field
+
+Tracks how many RTOs are currently issuing new vehicle registrations vs legacy codes:
+
+- **Not set**: Shows "N/A" in DATA.md - active count unknown
+- **Equals total RTOs**: Shows "All" (green) - all documented RTOs are active
+- **Less than total**: Shows "X/Y" (orange) - some RTOs are legacy
+
+Example: Andhra Pradesh has 15 RTOs documented but only 2 are active (AP-39, AP-40) due to the "one state-one code" policy. Set `"activeRTOs": 2`.
+
+**Why manual?** Determining if an RTO is "currently issuing new registrations" vs "legacy" requires policy knowledge (e.g., state reorganization, one-state-one-code policies) that automated workflows cannot reliably detect.
 
 ### `osmEnabled` Flag
 
