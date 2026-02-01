@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-01T14:26:22.851Z",
+  "generatedAt": "2026-02-01T16:59:36.430Z",
   "totalRTOs": 183,
   "totalVerified": 183,
   "totalStates": 28,
@@ -246,7 +246,7 @@
       "stateName": "Goa",
       "rtoCount": 12,
       "totalExpectedRTOs": 12,
-      "activeRTOs": 0,
+      "activeRTOs": 10,
       "verifiedCount": 12,
       "rtoCodes": [
         "ga-01",
@@ -946,7 +946,7 @@
       "stateName": "Goa",
       "rtoCount": 12,
       "totalExpectedRTOs": 12,
-      "activeRTOs": 0,
+      "activeRTOs": 10,
       "verifiedCount": 12,
       "rtoCodes": [
         "ga-01",
