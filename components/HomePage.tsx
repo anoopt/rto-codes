@@ -89,18 +89,9 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
         }
     }, []);
 
-    // Dynamically calculate unique states from the RTO list
-    const stateText = useMemo(() => {
-        const uniqueStates = Array.from(new Set(rtos.map(rto => rto.state))).sort();
-
-        if (uniqueStates.length === 0) return 'supported states';
-        if (uniqueStates.length === 1) return uniqueStates[0];
-
-        // Join with commas and "and" for the last item (e.g., "Goa, Karnataka and Maharashtra")
-        if (uniqueStates.length === 2) return `${uniqueStates[0]} and ${uniqueStates[1]}`;
-
-        const lastState = uniqueStates.pop();
-        return `${uniqueStates.join(', ')} and ${lastState}`;
+    // Dynamically calculate unique states count from the RTO list
+    const stateCount = useMemo(() => {
+        return new Set(rtos.map(rto => rto.state)).size;
     }, [rtos]);
 
     return (
@@ -114,7 +105,7 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
                         The first two letters represent the <span className="text-[var(--foreground)]">state</span> (e.g., KA for Karnataka),{' '}
                         followed by a <span className="text-[var(--foreground)]">two or three-digit code</span> identifying the Regional Transport Office (RTO){' '}
                         where the vehicle was registered.{' '}
-                        This site catalogues all <span className="text-[var(--accent)] font-medium">{rtos.length} RTO codes</span> across {stateText}, with more states coming soon.
+                        This site catalogues all <span className="text-[var(--accent)] font-medium">{rtos.length} RTO codes</span> across <span className="text-[var(--accent)] font-medium">{stateCount} states and union territories</span>, with more coming soon.
                     </p>
                 </div>
             </section>
