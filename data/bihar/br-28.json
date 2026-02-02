@@ -1,0 +1,31 @@
+{
+    "code": "BR-28",
+    "region": "Gopalganj",
+    "city": "Gopalganj",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Gopalganj",
+    "division": "Saran Division",
+    "description": "The BR-28 Regional Transport Office serves the Gopalganj district in Bihar, operating under the Saran Division transport authority. This office is responsible for the registration of private and commercial vehicles, issuance of driving licenses, and enforcement of road safety regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Gopalganj, Bihar",
+    "pinCode": "841428",
+    "phone": "6202751059",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gopalganj",
+        "Hathua",
+        "Bhore",
+        "Manjha",
+        "Kuchaikote",
+        "Kateya",
+        "Panchdeori",
+        "Uchkagaon",
+        "Bijaipur",
+        "Baikunthpur",
+        "Barauli",
+        "Sidhwalia",
+        "Thawe"
+    ]
+}

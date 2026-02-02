@@ -1,0 +1,25 @@
+{
+    "code": "BR-25",
+    "region": "Jehanabad",
+    "city": "Jehanabad",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Jehanabad",
+    "division": "Magadh Division",
+    "description": "BR-25 is the District Transport Office (DTO) for Jehanabad, Bihar. It provides essential services such as vehicle registration, fitness certificates, and driving license management for the Jehanabad district under the Magadh administrative division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Campus, Jehanabad, Bihar",
+    "pinCode": "804408",
+    "phone": "N/A",
+    "email": "dto-jehanabad-bih@nic.in",
+    "jurisdictionAreas": [
+        "Jehanabad",
+        "Kako",
+        "Modanganj",
+        "Ghosi",
+        "Makhdumpur",
+        "Ratni Faridpur",
+        "Hulasganj"
+    ]
+}

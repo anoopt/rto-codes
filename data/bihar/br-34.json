@@ -1,0 +1,25 @@
+{
+    "code": "BR-34",
+    "region": "Khagaria",
+    "city": "Khagaria",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Khagaria",
+    "division": "Munger Division",
+    "description": "The BR-34 Regional Transport Office is the District Transport Office (DTO) for Khagaria, Bihar. It provides essential services including vehicle registration, driving license issuance, and road tax collection for the entire Khagaria district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectoriate Building, Khagaria, Bihar",
+    "pinCode": "851204",
+    "phone": "9431454790",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khagaria",
+        "Alauli",
+        "Beldaur",
+        "Chautham",
+        "Gogri",
+        "Mansi",
+        "Parbatta"
+    ]
+}

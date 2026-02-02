@@ -1,0 +1,29 @@
+{
+    "code": "BR-26",
+    "region": "Aurangabad",
+    "city": "Aurangabad",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Aurangabad",
+    "division": "Magadh Division",
+    "description": "The BR-26 RTO serves the Aurangabad district in Bihar, operating under the Magadh Division. It is responsible for vehicle registration, driving licenses, and transport law enforcement across the district's administrative blocks.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectoriate Campus, Aurangabad, Bihar",
+    "pinCode": "824101",
+    "phone": "N/A",
+    "email": "dto-aurangabad-bih@nic.in",
+    "jurisdictionAreas": [
+        "Aurangabad",
+        "Daudnagar",
+        "Obra",
+        "Goh",
+        "Rafiganj",
+        "Nabinagar",
+        "Barun",
+        "Kutumba",
+        "Madanpur",
+        "Deo",
+        "Haspura"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "code": "BR-39",
+    "region": "Katihar",
+    "city": "Katihar",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Katihar",
+    "division": "Purnia",
+    "description": "The BR-39 Regional Transport Office (DTO) serves the Katihar district in Bihar. It is responsible for the administration of vehicle registration, issuance of driving licenses, and enforcement of transport regulations and road safety standards within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mirchaibari, Katihar, Bihar",
+    "pinCode": "854105",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Katihar",
+        "Barsoi",
+        "Kadwa",
+        "Azamnagar",
+        "Pranpur",
+        "Manihari",
+        "Amdabad",
+        "Mansahi",
+        "Falka",
+        "Korha",
+        "Hasanganj",
+        "Dandkhora",
+        "Sameli",
+        "Kursela",
+        "Balrampur"
+    ]
+}

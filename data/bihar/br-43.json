@@ -1,0 +1,29 @@
+{
+    "code": "BR-43",
+    "region": "Madhepura",
+    "city": "Madhepura",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Madhepura",
+    "division": "Kosi",
+    "description": "BR-43 is the Regional Transport Office (RTO) serving the Madhepura district in Bihar. It operates under the state's transport department to manage vehicle registrations, license issuances, and transport tax collections within the Kosi division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Campus, Madhepura, Bihar",
+    "pinCode": "852113",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Madhepura",
+        "Murliganj",
+        "Bihariganj",
+        "Udakishunganj",
+        "Chausa",
+        "Puraini",
+        "Alamnagar",
+        "Gwalpara",
+        "Kumarkhand",
+        "Shankarpur",
+        "Singheshwar"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "BR-37",
+    "region": "Kishanganj",
+    "city": "Kishanganj",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Kishanganj",
+    "division": "Purnia Division",
+    "description": "The BR-37 Regional Transport Office serves the Kishanganj district in Bihar, located at the state's eastern border. It is responsible for motor vehicle registration, issuance of driving licenses, and enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "1990",
+    "address": "District Transport Office, Collectorate Building, Kishanganj, Bihar",
+    "pinCode": "733208",
+    "phone": "N/A",
+    "email": "dto-kishanganj-bih@nic.in",
+    "jurisdictionAreas": [
+        "Kishanganj",
+        "Thakurganj",
+        "Bahadurganj",
+        "Pothia",
+        "Kochadhaman",
+        "Dighalbank",
+        "Terhagachh"
+    ]
+}

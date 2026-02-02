@@ -1,0 +1,27 @@
+{
+    "code": "BR-38",
+    "region": "Araria",
+    "city": "Araria",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Araria",
+    "division": "Purnia",
+    "description": "BR-38 is the official RTO code for the District Transport Office (DTO) in Araria, Bihar. This office is responsible for vehicle registration, driving license issuance, and the enforcement of transport regulations across the Araria district in the Purnia division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Kharahiya Basti, Araria, Bihar",
+    "pinCode": "854311",
+    "phone": "N/A",
+    "email": "dto-araria-bih@nic.in",
+    "jurisdictionAreas": [
+        "Araria",
+        "Forbesganj",
+        "Narpatganj",
+        "Raniganj",
+        "Palasi",
+        "Sikti",
+        "Kursakanta",
+        "Jokihat",
+        "Bhargama"
+    ]
+}

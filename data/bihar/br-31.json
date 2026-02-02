@@ -1,0 +1,30 @@
+{
+    "code": "BR-31",
+    "region": "Hajipur",
+    "city": "Hajipur",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Vaishali",
+    "division": "Tirhut",
+    "description": "BR-31 is the Regional Transport Office (RTO) for Hajipur, the headquarters of the Vaishali district in Bihar. It manages vehicle registrations, driving licenses, and road safety regulations within the Tirhut division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Yadav Colony Road, Vishunpur Paltu, Hajipur, Bihar",
+    "pinCode": "844101",
+    "phone": "N/A",
+    "email": "dto-vaishali-bih@nic.in",
+    "jurisdictionAreas": [
+        "Hajipur",
+        "Mahua",
+        "Lalganj",
+        "Jandaha",
+        "Raghopur",
+        "Patepur",
+        "Sahdei Buzurg",
+        "Bhagwanpur",
+        "Vaishali",
+        "Chehra Kalan",
+        "Bidupur",
+        "Desri"
+    ]
+}

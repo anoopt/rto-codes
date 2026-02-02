@@ -1,0 +1,30 @@
+{
+    "code": "BR-27",
+    "region": "Nawada",
+    "city": "Nawada",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Nawada",
+    "division": "Magadh",
+    "description": "The BR-27 RTO is the District Transport Office (DTO) for Nawada, Bihar. It is responsible for vehicle registration, driving license issuance, and the enforcement of transport regulations within the Nawada district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Nawada, Bihar",
+    "pinCode": "805110",
+    "phone": "9430278680",
+    "email": "dto-nawada-bih@nic.in",
+    "jurisdictionAreas": [
+        "Nawada",
+        "Hisua",
+        "Rajauli",
+        "Warsaliganj",
+        "Akbarpur",
+        "Kowakol",
+        "Roh",
+        "Kashichak",
+        "Meskaur",
+        "Narhat",
+        "Pakri Barawan",
+        "Sirdala"
+    ]
+}

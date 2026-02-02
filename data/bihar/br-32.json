@@ -1,0 +1,26 @@
+{
+    "code": "BR-32",
+    "region": "Madhubani",
+    "city": "Madhubani",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Madhubani",
+    "division": "Darbhanga",
+    "description": "BR-32 is the designated Regional Transport Office for the Madhubani district in Bihar. It is responsible for critical transport services including vehicle registration, driving license issuance, and road tax collection for the Mithila region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Bhoop Narayan Singh Colony, Madhubani, Bihar",
+    "pinCode": "847211",
+    "phone": "N/A",
+    "email": "dto-madhubani-bih@nic.in",
+    "jurisdictionAreas": [
+        "Madhubani",
+        "Jainagar",
+        "Jhanjharpur",
+        "Benipatti",
+        "Phulparas",
+        "Ghoghardiha",
+        "Khajauli",
+        "Ladania"
+    ]
+}

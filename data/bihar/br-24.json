@@ -1,0 +1,24 @@
+{
+    "code": "BR-24",
+    "region": "Dehri-on-Sone",
+    "city": "Dehri-on-Sone",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Rohtas",
+    "division": "Patna",
+    "description": "The BR-24 RTO serves the Dehri-on-Sone subdivision within the Rohtas district of Bihar. It is responsible for essential transport services including vehicle registration, issuance of driving licenses, and road tax collection for the southern region of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Dehri-on-Sone, Rohtas, Bihar",
+    "pinCode": "821307",
+    "phone": "N/A",
+    "email": "dto-rohtas-bih@nic.in",
+    "jurisdictionAreas": [
+        "Dehri",
+        "Akhorigola",
+        "Nasriganj",
+        "Rajpur",
+        "Tilouthu",
+        "Rohtas"
+    ]
+}
