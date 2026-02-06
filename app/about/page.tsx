@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getVerifiedRTOs } from '@/lib/rto-data';
 
 export const metadata = {
   title: 'About | RTO Codes Karnataka',
@@ -6,6 +7,13 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+  // Fetch actual RTO data
+  const rtos = getVerifiedRTOs();
+  
+  // Calculate statistics dynamically
+  const totalRTOs = rtos.length;
+  const totalDistricts = new Set(rtos.filter(rto => rto.district).map(rto => rto.district)).size;
+  const totalStates = new Set(rtos.map(rto => rto.state)).size;
   return (
     <div className="min-h-screen bg-[var(--background)] relative transition-colors duration-300">
       {/* Dark overlay */}
@@ -84,18 +92,18 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-2 text-[var(--muted)]">
               <p>
-                <span className="text-[var(--accent)] font-bold text-2xl">80+</span>{' '}
+                <span className="text-[var(--accent)] font-bold text-2xl">{totalRTOs}</span>{' '}
                 RTO codes
               </p>
               <p>
                 from{' '}
-                <span className="text-[var(--accent)] font-bold text-2xl">30+</span>{' '}
+                <span className="text-[var(--accent)] font-bold text-2xl">{totalDistricts}</span>{' '}
                 districts
               </p>
               <p>
                 across{' '}
-                <span className="text-[var(--accent)] font-bold text-2xl">2</span>{' '}
-                states (Karnataka &amp; Goa)
+                <span className="text-[var(--accent)] font-bold text-2xl">{totalStates}</span>{' '}
+                states and union territories
               </p>
             </div>
             <p className="text-[var(--muted-foreground)] text-sm mt-4">

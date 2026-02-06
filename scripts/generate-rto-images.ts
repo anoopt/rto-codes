@@ -233,7 +233,7 @@ async function uploadToCloudinary(
         overwrite: true,
         invalidate: true, // Invalidate CDN cache
         transformation: [
-          { width: 800, height: 600, crop: 'fill' },
+          { width: 800, height: 800, crop: 'fill', gravity: 'center' },
           { quality: 'auto:good' },
         ],
       }
