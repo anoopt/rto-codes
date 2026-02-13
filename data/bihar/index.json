@@ -707,7 +707,7 @@
     "established": "1972",
     "address": "District Transport Office, Collectorate Building, Madhubani, Bihar",
     "pinCode": "847211",
-    "phone": "06276-222251",
+    "phone": "06276-222251, 9430215310",
     "email": "dto-madhubani-bih@nic.in",
     "jurisdictionAreas": [
       "Madhubani",
@@ -737,9 +737,9 @@
     "stateCode": "BR",
     "district": "Samastipur",
     "division": "Darbhanga",
-    "description": "The Samastipur District Transport Office (BR-33) is the primary transport authority for the Samastipur district in Bihar, falling under the Darbhanga administrative division. Known as the Heart of North Bihar, this RTO manages one of the state's busiest jurisdictions due to the city's status as a major railway hub and agricultural powerhouse. The office is responsible for vehicle registration, driving license issuance, road tax collection, and the enforcement of motor vehicle laws across 20 administrative blocks.",
+    "description": "The Samastipur District Transport Office (BR-33) is the primary transport authority for the Samastipur district in Bihar, falling under the Darbhanga administrative division. Known as the Heart of North Bihar, this RTO manages one of the state's busiest jurisdictions due to the city's status as a major railway hub and agricultural powerhouse. The office is responsible for vehicle registration, driving license issuance, road tax collection, and the enforcement of motor vehicle laws across its 20 administrative blocks.",
     "status": "active",
-    "established": "N/A",
+    "established": "1972",
     "address": "District Transport Office, Collectorate Building, Uttarayan, Kasipur, Samastipur, Bihar",
     "pinCode": "848101",
     "phone": "06274-222210, 9431416779",
@@ -763,7 +763,8 @@
       "Hasanpur",
       "Bithan",
       "Shivaji Nagar",
-      "Khanpur"
+      "Khanpur",
+      "Pusa"
     ]
   },
   {
@@ -774,7 +775,7 @@
     "stateCode": "BR",
     "district": "Khagaria",
     "division": "Munger Division",
-    "description": "The BR-34 Regional Transport Office serves the Khagaria district in Bihar, located at the confluence of several major rivers including the Ganga and Gandak. This office is responsible for vehicle registration, licensing, and road safety enforcement in an area heavily reliant on agriculture and transport logistics. It facilitates essential services for the seven blocks of the district, playing a vital role in the transport infrastructure of the Munger Division.",
+    "description": "The BR-34 Regional Transport Office serves the Khagaria district in Bihar, situated at the confluence of the Ganga, Gandak, and Burhi Gandak rivers. This office is integral to the Munger transport division, managing vehicle registrations, driving licenses, and transport law enforcement for a region heavily reliant on agriculture and river-based logistics. It oversees seven administrative blocks, ensuring road safety and connectivity across the district's unique riverine geography.",
     "status": "active",
     "established": "1981",
     "address": "District Transport Office, Collectorate Building, DTO Road, Ward No. 15, Khagaria, Bihar",
