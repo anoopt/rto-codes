@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-16T17:57:52.185Z",
-  "totalRTOs": 202,
-  "totalVerified": 202,
+  "generatedAt": "2026-02-16T18:09:28.678Z",
+  "totalRTOs": 205,
+  "totalVerified": 205,
   "totalStates": 28,
   "completedStates": 5,
   "inProgressStates": 2,
@@ -145,10 +145,10 @@
     {
       "stateCode": "BR",
       "stateName": "Bihar",
-      "rtoCount": 32,
+      "rtoCount": 35,
       "totalExpectedRTOs": 56,
       "activeRTOs": 0,
-      "verifiedCount": 32,
+      "verifiedCount": 35,
       "rtoCodes": [
         "br-01",
         "br-02",
@@ -181,7 +181,10 @@
         "br-43",
         "br-44",
         "br-45",
-        "br-46"
+        "br-46",
+        "br-50",
+        "br-51",
+        "br-52"
       ],
       "isComplete": false,
       "type": "state",
@@ -864,10 +867,10 @@
     "BR": {
       "stateCode": "BR",
       "stateName": "Bihar",
-      "rtoCount": 32,
+      "rtoCount": 35,
       "totalExpectedRTOs": 56,
       "activeRTOs": 0,
-      "verifiedCount": 32,
+      "verifiedCount": 35,
       "rtoCodes": [
         "br-01",
         "br-02",
@@ -900,7 +903,10 @@
         "br-43",
         "br-44",
         "br-45",
-        "br-46"
+        "br-46",
+        "br-50",
+        "br-51",
+        "br-52"
       ],
       "isComplete": false,
       "type": "state",
