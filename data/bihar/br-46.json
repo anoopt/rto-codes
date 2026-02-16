@@ -1,0 +1,28 @@
+{
+    "code": "BR-46",
+    "region": "Jamui",
+    "city": "Jamui",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Jamui",
+    "division": "Munger Division",
+    "description": "BR-46 is the Regional Transport Office (RTO) for the Jamui district in Bihar. It is the primary authority for vehicle registration, driving license issuance, and road tax collection for the region.",
+    "status": "active",
+    "established": "1991",
+    "address": "Collectoriate Building, Jamui, Bihar",
+    "pinCode": "811305",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jamui",
+        "Jhajha",
+        "Chakai",
+        "Sono",
+        "Gidhaur",
+        "Laxmipur",
+        "Barhat",
+        "Khaira",
+        "Sikandra",
+        "Islamnagar Aliganj"
+    ]
+}

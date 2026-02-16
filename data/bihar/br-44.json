@@ -1,0 +1,28 @@
+{
+    "code": "BR-44",
+    "region": "Buxar",
+    "city": "Buxar",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Buxar",
+    "division": "Patna",
+    "description": "BR-44 is the District Transport Office (DTO) for Buxar, Bihar. It manages vehicle registrations (RC), driving licenses (DL), and transport permits for the Buxar district near the Uttar Pradesh border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Buxar, Bihar",
+    "pinCode": "802101",
+    "phone": "9470803804",
+    "email": "dto-buxar-bih@nic.in",
+    "jurisdictionAreas": [
+        "Buxar",
+        "Dumraon",
+        "Itarhi",
+        "Chausa",
+        "Rajpur",
+        "Brahmpur",
+        "Simri",
+        "Nawanagar",
+        "Chakki",
+        "Kesath"
+    ]
+}
