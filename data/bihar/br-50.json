@@ -1,0 +1,30 @@
+{
+    "code": "BR-50",
+    "region": "Supaul",
+    "city": "Supaul",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Supaul",
+    "division": "Kosi",
+    "description": "BR-50 is the official RTO code for the Supaul district in Bihar, operating as the District Transport Office (DTO). It handles all vehicle-related services including registration, driving licenses, and permit issuance for the Kosi division region bordering Nepal.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Supaul, Bihar",
+    "pinCode": "852131",
+    "phone": "06202751172",
+    "email": "dto-supaul-bih@nic.in",
+    "jurisdictionAreas": [
+        "Supaul",
+        "Birpur",
+        "Nirmali",
+        "Triveniganj",
+        "Pipra",
+        "Raghopur",
+        "Saraigarh-Bhaptiyahi",
+        "Kishanpur",
+        "Marauna",
+        "Chhatapur",
+        "Basantpur",
+        "Pratapganj"
+    ]
+}

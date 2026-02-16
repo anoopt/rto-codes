@@ -1,0 +1,29 @@
+{
+    "code": "BR-51",
+    "region": "Banka",
+    "city": "Banka",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Banka",
+    "division": "Bhagalpur Division",
+    "description": "BR-51 is the Regional Transport Office for the Banka district in Bihar. The office is responsible for vehicle registration, driving license issuance, and enforcing transport laws under the Bihar Transport Department. It serves a significant rural and urban population in the southeastern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Banka, Bihar",
+    "pinCode": "813101",
+    "phone": "9431014535",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Banka",
+        "Amarpur",
+        "Barahat",
+        "Belhar",
+        "Bounsi",
+        "Chandan",
+        "Dhoraiya",
+        "Fullidumar",
+        "Katoriya",
+        "Rajoun",
+        "Shambhuganj"
+    ]
+}

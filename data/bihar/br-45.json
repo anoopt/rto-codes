@@ -6,13 +6,13 @@
     "stateCode": "BR",
     "district": "Kaimur",
     "division": "Patna",
-    "description": "The BR-45 RTO serves the Bhabua region in the Kaimur district of Bihar. It is a District Transport Office responsible for vehicle registration, issuance of driving licenses, and enforcement of road safety regulations within the Kaimur district.",
+    "description": "The BR-45 RTO functions as the District Transport Office (DTO) for Bhabua, serving the entire Kaimur district in Bihar. It is responsible for the administration of the Motor Vehicles Act, including vehicle registration, issuance of driving licenses, and collection of road taxes for the region.",
     "status": "active",
     "established": "N/A",
-    "address": "District Transport Office, Collectoriate Building, Bhabua, Kaimur, Bihar",
+    "address": "District Transport Office, Collectorate Building, Bhabua, Kaimur, Bihar",
     "pinCode": "821101",
     "phone": "9431471441",
-    "email": "N/A",
+    "email": "dto-kaimur-bih@nic.in",
     "jurisdictionAreas": [
         "Bhabua",
         "Mohania",
@@ -23,6 +23,8 @@
         "Adhaura",
         "Bhagwanpur",
         "Durgawati",
-        "Rampur"
+        "Rampur",
+        "Nuaon",
+        "Kudhni"
     ]
 }

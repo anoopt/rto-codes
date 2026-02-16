@@ -1,0 +1,24 @@
+{
+    "code": "BR-52",
+    "region": "Sheikhpura",
+    "city": "Sheikhpura",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Sheikhpura",
+    "division": "Munger Transport Division",
+    "description": "BR-52 is the official code for the District Transport Office in Sheikhpura, Bihar. It provides essential services such as vehicle registration, driving license issuance, and enforcement of transport regulations within the Sheikhpura district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Sheikhpura, Bihar",
+    "pinCode": "811105",
+    "phone": "N/A",
+    "email": "dto-sheikhpura-bih@nic.in",
+    "jurisdictionAreas": [
+        "Ariari",
+        "Barbigha",
+        "Chewara",
+        "Ghat Kusumbha",
+        "Sheikhpura",
+        "Shekhopur Sarai"
+    ]
+}
