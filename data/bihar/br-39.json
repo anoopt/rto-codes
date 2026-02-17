@@ -6,12 +6,12 @@
     "stateCode": "BR",
     "district": "Katihar",
     "division": "Purnia",
-    "description": "The BR-39 District Transport Office (DTO) serves the Katihar district in eastern Bihar, a strategic transit point near the West Bengal border. Operating from the Collectorate Building in Mirchaibari, this office oversees vehicle registration, driving permits, and transport revenue collection for one of Bihar's major commercial and agricultural hubs.",
+    "description": "The BR-39 District Transport Office (DTO) serves the Katihar district in the Purnia division of eastern Bihar, acting as a vital hub for vehicle registration and licensing near the West Bengal border. Operating from the Collectorate Building in the Mirchaibari area, this office manages transport services for one of the region's most significant railway junctions and commercial centers, ensuring compliance with the Motor Vehicles Act across the district's 16 administrative blocks.",
     "status": "active",
-    "established": "N/A",
+    "established": "1973",
     "address": "District Transport Office, Collectorate Building, Purnea-Katihar Road, Mirchaibari, Katihar, Bihar",
     "pinCode": "854105",
-    "phone": "94318-67714",
+    "phone": "06452-239322, 9431867714",
     "email": "dto-katihar-bih@nic.in",
     "jurisdictionAreas": [
         "Katihar",
@@ -28,6 +28,7 @@
         "Dandkhora",
         "Sameli",
         "Kursela",
-        "Balrampur"
+        "Balrampur",
+        "Barari"
     ]
 }
