@@ -800,12 +800,12 @@
     "stateCode": "BR",
     "district": "Kishanganj",
     "division": "Purnia Division",
-    "description": "The BR-37 Regional Transport Office serves the Kishanganj district in Bihar, situated near the sensitive borders of West Bengal and Nepal. This office manages vehicle registration, driving licenses, and commercial permits, supporting the region's connectivity via the strategic Siliguri Corridor.",
+    "description": "The BR-37 Regional Transport Office serves the Kishanganj district in Bihar, located at the strategic 'Chicken's Neck' corridor bordering West Bengal and Nepal. This office manages vehicle registration, driving licenses, and transport permits for a region that serves as a vital transit link between Mainland India and the North-Eastern states.",
     "status": "active",
     "established": "1990",
     "address": "District Transport Office, Collectorate Building, Kishanganj, Bihar",
     "pinCode": "855107",
-    "phone": "06456-222441, 9431471441",
+    "phone": "06456-222441",
     "email": "dto-kishanganj-bih@nic.in",
     "jurisdictionAreas": [
       "Kishanganj",
@@ -825,12 +825,12 @@
     "stateCode": "BR",
     "district": "Araria",
     "division": "Purnia",
-    "description": "BR-38 is the official RTO code for the District Transport Office in Araria, Bihar, serving the entire Araria district within the Purnia division. The office is responsible for vehicle registration, tax collection, and issuing driving licenses for this key region located near the Indo-Nepal border.",
+    "description": "BR-38 is the official RTO code for the District Transport Office in Araria, Bihar, serving the entire Araria district within the Purnia division. Established in 1990 when Araria became an independent district, it handles vehicle registrations, driving licenses, and road tax collection for this border region near Nepal. The office is a critical transit hub for north-eastern Bihar and manages transportation services for key areas like Forbesganj and Narpatganj.",
     "status": "active",
     "established": "1990",
     "address": "District Transport Office, Collectorate Building, Kharahiya Basti, Araria, Bihar",
     "pinCode": "854311",
-    "phone": "6202751009, 9430582666",
+    "phone": "9430582666, 6202751009",
     "email": "dto-ari-bih@nic.in",
     "jurisdictionAreas": [
       "Araria",
@@ -852,12 +852,12 @@
     "stateCode": "BR",
     "district": "Katihar",
     "division": "Purnia",
-    "description": "The BR-39 District Transport Office (DTO) serves the Katihar district in eastern Bihar, a strategic transit point near the West Bengal border. Operating from the Collectorate Building in Mirchaibari, this office oversees vehicle registration, driving permits, and transport revenue collection for one of Bihar's major commercial and agricultural hubs.",
+    "description": "The BR-39 District Transport Office (DTO) serves the Katihar district in the Purnia division of eastern Bihar, acting as a vital hub for vehicle registration and licensing near the West Bengal border. Operating from the Collectorate Building in the Mirchaibari area, this office manages transport services for one of the region's most significant railway junctions and commercial centers, ensuring compliance with the Motor Vehicles Act across the district's 16 administrative blocks.",
     "status": "active",
-    "established": "N/A",
+    "established": "1973",
     "address": "District Transport Office, Collectorate Building, Purnea-Katihar Road, Mirchaibari, Katihar, Bihar",
     "pinCode": "854105",
-    "phone": "94318-67714",
+    "phone": "06452-239322, 9431867714",
     "email": "dto-katihar-bih@nic.in",
     "jurisdictionAreas": [
       "Katihar",
@@ -874,7 +874,8 @@
       "Dandkhora",
       "Sameli",
       "Kursela",
-      "Balrampur"
+      "Balrampur",
+      "Barari"
     ]
   },
   {
