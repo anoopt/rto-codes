@@ -1,0 +1,23 @@
+{
+    "code": "BR-55",
+    "region": "Sheohar",
+    "city": "Sheohar",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Sheohar",
+    "division": "Tirhut",
+    "description": "The BR-55 RTO serves the Sheohar district in Bihar, providing essential services such as vehicle registration, driving license issuance, and transport permits. It operates under the Tirhut division and caters to one of the smallest districts in the state, ensuring local compliance with the Motor Vehicles Act.",
+    "status": "active",
+    "established": "1994",
+    "address": "District Transport Office, Collectoriate Building, Sheohar, Bihar",
+    "pinCode": "843329",
+    "phone": "N/A",
+    "email": "dto-sheohar-bih@nic.in",
+    "jurisdictionAreas": [
+        "Sheohar",
+        "Tariyani",
+        "Piprahi",
+        "Dumri Katsari",
+        "Puranhiya"
+    ]
+}

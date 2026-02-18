@@ -1,0 +1,24 @@
+{
+    "code": "BR-53",
+    "region": "Lakhisarai",
+    "city": "Lakhisarai",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Lakhisarai",
+    "division": "Munger",
+    "description": "BR-53 is the Regional Transport Office serving the Lakhisarai district of Bihar. It facilitates vehicle registration, driving license issuance, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Building, Lakhisarai, Bihar",
+    "pinCode": "811311",
+    "phone": "6202751087",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Lakhisarai",
+        "Barahiya",
+        "Surajgarha",
+        "Halsi",
+        "Pipariya",
+        "Ramgarh Chowk"
+    ]
+}

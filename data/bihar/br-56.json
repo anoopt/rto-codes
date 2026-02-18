@@ -1,0 +1,23 @@
+{
+    "code": "BR-56",
+    "region": "Arwal",
+    "city": "Arwal",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Arwal",
+    "division": "Magadh Division",
+    "description": "The BR-56 Regional Transport Office serves the Arwal district in Bihar, which was established as a separate district in 2001. This office manages vehicle registrations, driving licenses, and ensures the enforcement of the Motor Vehicles Act across the district.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectorate Building, Arwal, Bihar",
+    "pinCode": "824115",
+    "phone": "06337-228102",
+    "email": "dto-arwal-bih@nic.in",
+    "jurisdictionAreas": [
+        "Arwal",
+        "Kaler",
+        "Karpi",
+        "Kurtha",
+        "Sonbhadra Banshi Suryapur"
+    ]
+}

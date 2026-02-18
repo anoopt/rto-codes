@@ -1,0 +1,25 @@
+{
+    "code": "BR-57",
+    "region": "Sasaram",
+    "city": "Sasaram",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Rohtas",
+    "division": "Patna",
+    "description": "BR-57 is the Regional Transport Office serving the Sasaram region within the Rohtas district of Bihar. It operates as a vital center for vehicle registration, driving permit issuance, and the collection of road taxes, supplementing the existing BR-24 code for the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO), Geeta Ghat Colony, Sasaram, Bihar",
+    "pinCode": "821115",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sasaram",
+        "Chenari",
+        "Sheosagar",
+        "Kargahar",
+        "Kochas",
+        "Nokha",
+        "Rohtas"
+    ]
+}
