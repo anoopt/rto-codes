@@ -754,19 +754,35 @@ function updateStateConfigAfterPopulation(
     const processedFullRange = processedRange.start === 1 && processedRange.end >= totalExpected;
 
     // Count how many codes in this run were determined to not exist
-    const notInUseCount = results.filter(r =>
-        r.success && r.saved === false && r.data?.status === 'not-in-use'
-    ).length;
+    const notInUseCodes = results
+        .filter(r => r.success && r.saved === false && r.data?.status === 'not-in-use')
+        .map(r => r.code);
 
     let configChanged = false;
 
+    // Remove not-in-use codes from validCodes and adjust totalRTOs.
+    // This prevents permanent mismatches where a code is in validCodes
+    // but will never get a file (e.g., BR-18 transferred to Jharkhand).
+    if (notInUseCodes.length > 0 && config.validCodes && config.validCodes.length > 0) {
+        const before = config.validCodes.length;
+        config.validCodes = config.validCodes.filter(c => !notInUseCodes.includes(c));
+        const removed = before - config.validCodes.length;
+        if (removed > 0) {
+            config.totalRTOs = config.validCodes.length;
+            console.log(`\n📝 Removed ${removed} not-in-use code(s) from validCodes: ${notInUseCodes.join(', ')}`);
+            console.log(`   totalRTOs updated: ${before} → ${config.validCodes.length}`);
+            configChanged = true;
+        }
+    }
+
     // If we processed the full range, we can confidently update totalRTOs
     if (processedFullRange) {
-        const newTotalRTOs = actualRTOCount;
+        const newTotalRTOs = config.validCodes && config.validCodes.length > 0
+            ? config.validCodes.length
+            : actualRTOCount;
 
         if (config.totalRTOs !== newTotalRTOs) {
             console.log(`\n📝 Updating config.json: totalRTOs ${config.totalRTOs} → ${newTotalRTOs}`);
-            console.log(`   (${notInUseCount} codes found to be not-in-use)`);
             config.totalRTOs = newTotalRTOs;
             configChanged = true;
         }
