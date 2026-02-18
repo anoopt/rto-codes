@@ -343,6 +343,23 @@ jobs:
           echo "🚀 Triggering post-merge processing for $STATE"
           gh workflow run post-merge.yml -f state="$STATE" || echo "⚠️ Failed to trigger post-merge workflow"
 
+      - name: Trigger Auto-Complete check
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true' && steps.generate.outputs.success == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STATE="${{ steps.determine-state.outputs.state }}"
+          TOTAL="${{ steps.check-state.outputs.total }}"
+          NEW_TOTAL="${{ steps.generate.outputs.new_total }}"
+
+          # Check if state might be complete (actual files >= expected)
+          if [ "$NEW_TOTAL" -ge "$TOTAL" ]; then
+            echo "🎯 State $STATE appears complete ($NEW_TOTAL/$TOTAL) - triggering auto-complete check"
+            gh workflow run auto-complete-state.yml -f state="$STATE" || echo "⚠️ Failed to trigger auto-complete workflow"
+          else
+            echo "📊 State $STATE not yet complete ($NEW_TOTAL/$TOTAL)"
+          fi
+
       - name: Update state rotation cache
         if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true'
         run: |
