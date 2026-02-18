@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-02-18T18:28:38.044Z",
+  "state": "Bihar",
+  "rtoCount": 39,
+  "successCount": 39,
+  "failedRTOs": [],
+  "coordinates": {
+    "BR-01": {
+      "lat": 25.6093239,
+      "lon": 85.1235252,
+      "displayName": "Patna, Patna Rural, Patna, Bihar, 800001, India"
+    },
+    "BR-02": {
+      "lat": 24.7964355,
+      "lon": 85.0079563,
+      "displayName": "Gaya, Gaya Town C.D.Block, Gaya, Bihar, 823001, India"
+    },
+    "BR-03": {
+      "lat": 25.560317,
+      "lon": 84.6632139,
+      "displayName": "Arrah, Bhojpur, Bihar, 802300, India"
+    },
+    "BR-04": {
+      "lat": 25.7733443,
+      "lon": 84.7849772,
+      "displayName": "Chapra, Saran, Bihar, India"
+    },
+    "BR-05": {
+      "lat": 26.6506888,
+      "lon": 84.9114654,
+      "displayName": "Motihari, East Champaran, Bihar, India"
+    },
+    "BR-06": {
+      "lat": 26.1182898,
+      "lon": 85.3857888,
+      "displayName": "Muzaffarpur, Musahri, Muzaffarpur, Bihar, 842001, India"
+    },
+    "BR-07": {
+      "lat": 26.156999,
+      "lon": 85.8995065,
+      "displayName": "Darbhanga, Bihar, 846004, India"
+    },
+    "BR-08": {
+      "lat": 25.3773519,
+      "lon": 86.4731039,
+      "displayName": "Munger, Bihar, India"
+    },
+    "BR-09": {
+      "lat": 25.4139122,
+      "lon": 86.1348804,
+      "displayName": "Begusarai, Bihar, 851101, India"
+    },
+    "BR-10": {
+      "lat": 25.2494829,
+      "lon": 86.9828131,
+      "displayName": "Bhagalpur, Jagdishpur, Bhagalpur, Bihar, 812002, India"
+    },
+    "BR-11": {
+      "lat": 25.7773601,
+      "lon": 87.4731227,
+      "displayName": "Purnia, Purnia East, Purnia, Bihar, 854301, India"
+    },
+    "BR-19": {
+      "lat": 25.8758962,
+      "lon": 86.5926702,
+      "displayName": "Saharsa, Kahara, Saharsa, Bihar, 852200, India"
+    },
+    "BR-21": {
+      "lat": 25.193859,
+      "lon": 85.5208617,
+      "displayName": "Bihar Sharif, Bihar, Nalanda, Bihar, 903101, India"
+    },
+    "BR-22": {
+      "lat": 26.8023,
+      "lon": 84.5074,
+      "displayName": "Bettiah, West Champaran, Bihar, 845438, India"
+    },
+    "BR-24": {
+      "lat": 24.9142734,
+      "lon": 84.1862208,
+      "displayName": "Dehri on Sone, MDR, Subhash Nagar, Dehri, Rohtas, Bihar, 821307, India"
+    },
+    "BR-25": {
+      "lat": 25.2244617,
+      "lon": 84.9899505,
+      "displayName": "Jehanabad, NH22;33, Jehanabad, Bihar, 804417, India"
+    },
+    "BR-26": {
+      "lat": 24.75,
+      "lon": 84.5,
+      "displayName": "Aurangabad, Bihar, 824103, India"
+    },
+    "BR-27": {
+      "lat": 24.9347591,
+      "lon": 85.5488444,
+      "displayName": "Nawada, Bihar, India"
+    },
+    "BR-28": {
+      "lat": 26.5382307,
+      "lon": 84.4588742,
+      "displayName": "Gopalganj, Bihar, 841428, India"
+    },
+    "BR-29": {
+      "lat": 26.2184558,
+      "lon": 84.3585062,
+      "displayName": "Siwan, Bihar, 841226, India"
+    },
+    "BR-30": {
+      "lat": 26.5942841,
+      "lon": 85.500428,
+      "displayName": "Sitamarhi, Dumra, Sitamarhi, Bihar, 843300, India"
+    },
+    "BR-31": {
+      "lat": 25.6905702,
+      "lon": 85.2090351,
+      "displayName": "Hajipur, Vaishali, Bihar, 844101, India"
+    },
+    "BR-32": {
+      "lat": 26.3489218,
+      "lon": 86.0772103,
+      "displayName": "Madhubani, Bihar, 847200, India"
+    },
+    "BR-33": {
+      "lat": 25.8596845,
+      "lon": 85.7839038,
+      "displayName": "Samastipur, Bihar, 848101, India"
+    },
+    "BR-34": {
+      "lat": 25.5206018,
+      "lon": 86.4268497,
+      "displayName": "Khagaria, Bihar, India"
+    },
+    "BR-37": {
+      "lat": 26.1014194,
+      "lon": 87.9507791,
+      "displayName": "Kishanganj, Bihar, 855107, India"
+    },
+    "BR-38": {
+      "lat": 26.1346459,
+      "lon": 87.4654062,
+      "displayName": "Araria, Araria District, Bihar, 854311, India"
+    },
+    "BR-39": {
+      "lat": 25.5433817,
+      "lon": 87.5690417,
+      "displayName": "Katihar, Bihar, 854101, India"
+    },
+    "BR-43": {
+      "lat": 25.9259562,
+      "lon": 86.8204296,
+      "displayName": "Madhepura, Bihar, India"
+    },
+    "BR-44": {
+      "lat": 25.5611885,
+      "lon": 83.9813329,
+      "displayName": "Buxar, MDR, Buxar, Bihar, 802101, India"
+    },
+    "BR-45": {
+      "lat": 25.0763482,
+      "lon": 83.6335978,
+      "displayName": "Bhabua, Kaimur, Bihar, India"
+    },
+    "BR-46": {
+      "lat": 24.9669183,
+      "lon": 86.1740418,
+      "displayName": "Jamui, Bihar, 811307, India"
+    },
+    "BR-50": {
+      "lat": 26.0846095,
+      "lon": 86.5784792,
+      "displayName": "Supaul, Bihar, India"
+    },
+    "BR-51": {
+      "lat": 24.8668529,
+      "lon": 86.912574,
+      "displayName": "Banka, NH333A, Banka, Bihar, India"
+    },
+    "BR-52": {
+      "lat": 25.1493374,
+      "lon": 85.8765541,
+      "displayName": "Sheikhpura, Bihar, India"
+    },
+    "BR-53": {
+      "lat": 25.1677639,
+      "lon": 86.0593915,
+      "displayName": "Lakhisarai, Bihar, India"
+    },
+    "BR-55": {
+      "lat": 26.5157513,
+      "lon": 85.2848953,
+      "displayName": "Sheohar, Bihar, India"
+    },
+    "BR-56": {
+      "lat": 25.2368774,
+      "lon": 84.673849,
+      "displayName": "Arwal, Bihar, India"
+    },
+    "BR-57": {
+      "lat": 24.9509656,
+      "lon": 84.0148733,
+      "displayName": "Sasaram, Rohtas, Bihar, 821115, India"
+    }
+  }
+}
