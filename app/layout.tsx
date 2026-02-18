@@ -22,15 +22,15 @@ export const metadata: Metadata = {
     template: "%s | RTO Codes India",
   },
   description:
-    "A comprehensive, searchable database of RTO (Regional Transport Office) codes in India. Find detailed information about RTO locations and codes across various states including Karnataka and Goa.",
+    "A comprehensive, searchable database of RTO (Regional Transport Office) codes in India. Find detailed information about RTO locations and codes across all states and union territories.",
   keywords: [
     "RTO codes",
     "India RTO",
     "regional transport office",
-    "Karnataka RTO",
-    "Goa RTO",
+    "vehicle registration codes",
     "India RTO list",
     "transport office codes",
+    "RTO codes India",
   ],
   authors: [{ name: "RTO Codes India" }],
   creator: "RTO Codes India",

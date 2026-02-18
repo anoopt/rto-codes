@@ -2,7 +2,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanoopt%2Frto-codes)
 
-A comprehensive, searchable database of RTO (Regional Transport Office) codes in India with detailed information and interactive maps. Currently has complete data for Karnataka and Goa, with all 28 states and 8 Union Territories scaffolded and ready for community contributions.
+A comprehensive, searchable database of RTO (Regional Transport Office) codes in India with detailed information and interactive maps. Covers all 28 states and 8 Union Territories with community-driven data contributions.
 
 💡 Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes).
 
@@ -174,7 +174,7 @@ MIT License - see [LICENSE](./LICENSE) for details.
 ## 🙏 Acknowledgments
 
 - Inspired by [airport-codes](https://github.com/lynnandtonic/airport-codes) by Lynn Fisher
-- RTO data sources: [Karnataka Transport Department](https://etc.karnataka.gov.in/), Wikipedia
+- RTO data sources: [Parivahan (Ministry of Road Transport)](https://vahan.parivahan.gov.in/), Wikipedia
 - Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Bun](https://bun.sh/)
 
 ---

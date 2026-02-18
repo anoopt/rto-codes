@@ -2,14 +2,14 @@ import Link from 'next/link';
 import { getVerifiedRTOs } from '@/lib/rto-data';
 
 export const metadata = {
-  title: 'About | RTO Codes Karnataka',
-  description: 'Learn about the RTO Codes Karnataka project, its technology stack, and data sources.',
+  title: 'About | RTO Codes India',
+  description: 'Learn about the RTO Codes India project, its technology stack, and data sources.',
 };
 
 export default function AboutPage() {
   // Fetch actual RTO data
   const rtos = getVerifiedRTOs();
-  
+
   // Calculate statistics dynamically
   const totalRTOs = rtos.length;
   const totalDistricts = new Set(rtos.filter(rto => rto.district).map(rto => rto.district)).size;

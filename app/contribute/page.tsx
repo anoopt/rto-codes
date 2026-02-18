@@ -21,8 +21,8 @@ export default function ContributePage() {
 
           {/* Intro Text */}
           <p className="text-[var(--muted)] text-lg leading-relaxed mb-6">
-            There are lots of RTO offices across India. We currently have Karnataka and Goa,
-            and we&apos;d love your help to add more states!
+            There are lots of RTO offices across India. We have data for all 28 states and 8 union territories,
+            and we&apos;d love your help to improve and verify the data!
           </p>
 
           <p className="text-[var(--muted)] text-lg leading-relaxed mb-8">

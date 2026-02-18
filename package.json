@@ -1,7 +1,7 @@
 {
   "name": "rtocodes",
   "version": "1.0.0",
-  "description": "A website to make sense of RTO (Regional Transport Office) codes in India, starting with Karnataka.",
+  "description": "A comprehensive, searchable database of RTO (Regional Transport Office) codes across all states and union territories in India.",
   "main": "index.js",
   "scripts": {
     "dev": "next dev --turbopack",

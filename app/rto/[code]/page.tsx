@@ -213,7 +213,7 @@ export default async function RTODetailPage({ params }: { params: Promise<{ code
                   </h2>
 
                   <p className="text-[var(--muted-foreground)] text-sm uppercase tracking-wide">
-                    Karnataka • India
+                    {rto.state} • India
                   </p>
                 </div>
               ) : isNotInUse ? (
