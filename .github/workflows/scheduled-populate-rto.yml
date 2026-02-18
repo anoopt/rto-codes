@@ -318,20 +318,24 @@ jobs:
           # Stage new RTO files
           git add "data/$STATE/*.json"
 
-          # Commit
-          git commit -m "chore: Add $GENERATED RTOs for $STATE ($NEW_TOTAL/$TOTAL)" \
-                     -m "Automated RTO data population" \
-                     -m "- Generated: $GENERATED new RTOs" \
-                     -m "- Progress: $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" \
-                     -m "- State: $STATE"
+          # Check if there are staged changes before committing
+          if git diff --staged --quiet; then
+            echo "ℹ️  No new files to commit (all codes were skipped or not-in-use)"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "chore: Add $GENERATED RTOs for $STATE ($NEW_TOTAL/$TOTAL)" \
+                       -m "Automated RTO data population" \
+                       -m "- Generated: $GENERATED new RTOs" \
+                       -m "- Progress: $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" \
+                       -m "- State: $STATE"
 
-          # Push directly to main
-          git push origin main
-
-          echo "✅ Committed $GENERATED RTOs to main"
+            git push origin main
+            echo "✅ Committed $GENERATED RTOs to main"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Trigger Post-Merge Processing
-        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true' && steps.generate.outputs.success == 'true'
+        if: steps.determine-state.outputs.state != 'NONE' && steps.check-state.outputs.skip != 'true' && steps.generate.outputs.success == 'true' && steps.commit.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
