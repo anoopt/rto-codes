@@ -1308,7 +1308,7 @@ ${'='.repeat(60)}
         }
 
         const isLastCode = code === codesToProcess[codesToProcess.length - 1];
-        if (!isLastCode) {
+        if (!isLastCode && result.source !== 'cached') {
             await sleep(API_DELAY_MS);
         }
     }

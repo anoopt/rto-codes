@@ -224,8 +224,38 @@ jobs:
           EXISTING="${{ steps.check-state.outputs.existing }}"
           TOTAL="${{ steps.check-state.outputs.total }}"
 
-          # Calculate starting point (next RTO after existing ones)
-          START=$((EXISTING + 1))
+          # Find the starting point by locating the first missing code.
+          # Using EXISTING+1 assumes sequential completion which breaks when
+          # there are gaps (e.g., BR-18 missing while BR-19+ exist).
+          HAS_VALID_CODES=$(jq 'has("validCodes") and (.validCodes | length > 0)' "data/$STATE/config.json")
+
+          if [ "$HAS_VALID_CODES" = "true" ]; then
+            # Find 1-based position of first missing code in validCodes
+            START=0
+            POSITION=0
+            while IFS= read -r code; do
+              POSITION=$((POSITION + 1))
+              file="data/$STATE/$(echo "$code" | tr '[:upper:]' '[:lower:]').json"
+              if [ ! -f "$file" ]; then
+                START=$POSITION
+                echo "📍 First missing code: $code (position $POSITION in validCodes)"
+                break
+              fi
+            done < <(jq -r '.validCodes[]' "data/$STATE/config.json")
+
+            # All codes have files - nothing to generate
+            if [ "$START" = "0" ]; then
+              echo "✅ All validCodes have files on disk"
+              echo "success=true" >> $GITHUB_OUTPUT
+              echo "generated=0" >> $GITHUB_OUTPUT
+              echo "new_total=$EXISTING" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+          else
+            # Fallback for states without validCodes (sequential assumption)
+            START=$((EXISTING + 1))
+          fi
+
           END=$((START + LIMIT - 1))
 
           # Don't exceed total
@@ -236,6 +266,7 @@ jobs:
           echo "📝 Generating RTOs $START to $END for $STATE"
 
           # Run populate script with retry logic
+          # --skip-existing ensures codes that already have files in the range are skipped
           MAX_RETRIES=3
           RETRY_COUNT=0
           SUCCESS=false
@@ -247,7 +278,8 @@ jobs:
             fi
             
             # Use --search for Google Search grounding to ensure accurate RTO data
-            if bun scripts/populate-rto-data.ts "$STATE" $START $END --search; then
+            # Use --skip-existing to avoid re-processing codes that already have files
+            if bun scripts/populate-rto-data.ts "$STATE" $START $END --search --skip-existing; then
               SUCCESS=true
               echo "✅ Successfully generated RTOs"
             else
