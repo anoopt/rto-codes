@@ -1060,12 +1060,12 @@
     "stateCode": "BR",
     "district": "Sheikhpura",
     "division": "Munger Transport Division",
-    "description": "BR-52 is the official code for the District Transport Office in Sheikhpura, Bihar. It provides essential services such as vehicle registration, driving license issuance, and enforcement of transport regulations within the Sheikhpura district.",
+    "description": "BR-52 is the official code for the District Transport Office in Sheikhpura, Bihar, operating under the Munger Transport Division. This office provides critical services such as vehicle registration, issuance of driving licenses, and enforcement of transport safety regulations for the entire district.",
     "status": "active",
-    "established": "N/A",
+    "established": "1994",
     "address": "District Transport Office, Collectorate Building, Sheikhpura, Bihar",
     "pinCode": "811105",
-    "phone": "N/A",
+    "phone": "6202751148",
     "email": "dto-sheikhpura-bih@nic.in",
     "jurisdictionAreas": [
       "Ariari",
@@ -1074,6 +1074,101 @@
       "Ghat Kusumbha",
       "Sheikhpura",
       "Shekhopur Sarai"
+    ]
+  },
+  {
+    "code": "BR-53",
+    "region": "Lakhisarai",
+    "city": "Lakhisarai",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Lakhisarai",
+    "division": "Munger",
+    "description": "BR-53 is the Regional Transport Office serving the Lakhisarai district of Bihar. It facilitates vehicle registration, driving license issuance, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Building, Lakhisarai, Bihar",
+    "pinCode": "811311",
+    "phone": "6202751087",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Lakhisarai",
+      "Barahiya",
+      "Surajgarha",
+      "Halsi",
+      "Pipariya",
+      "Ramgarh Chowk"
+    ]
+  },
+  {
+    "code": "BR-55",
+    "region": "Sheohar",
+    "city": "Sheohar",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Sheohar",
+    "division": "Tirhut",
+    "description": "The BR-55 RTO serves the Sheohar district in Bihar, providing essential services such as vehicle registration, driving license issuance, and transport permits. It operates under the Tirhut division and caters to one of the smallest districts in the state, ensuring local compliance with the Motor Vehicles Act.",
+    "status": "active",
+    "established": "1994",
+    "address": "District Transport Office, Collectoriate Building, Sheohar, Bihar",
+    "pinCode": "843329",
+    "phone": "N/A",
+    "email": "dto-sheohar-bih@nic.in",
+    "jurisdictionAreas": [
+      "Sheohar",
+      "Tariyani",
+      "Piprahi",
+      "Dumri Katsari",
+      "Puranhiya"
+    ]
+  },
+  {
+    "code": "BR-56",
+    "region": "Arwal",
+    "city": "Arwal",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Arwal",
+    "division": "Magadh Division",
+    "description": "The BR-56 Regional Transport Office serves the Arwal district in Bihar, which was established as a separate district in 2001. This office manages vehicle registrations, driving licenses, and ensures the enforcement of the Motor Vehicles Act across the district.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectorate Building, Arwal, Bihar",
+    "pinCode": "824115",
+    "phone": "06337-228102",
+    "email": "dto-arwal-bih@nic.in",
+    "jurisdictionAreas": [
+      "Arwal",
+      "Kaler",
+      "Karpi",
+      "Kurtha",
+      "Sonbhadra Banshi Suryapur"
+    ]
+  },
+  {
+    "code": "BR-57",
+    "region": "Sasaram",
+    "city": "Sasaram",
+    "state": "Bihar",
+    "stateCode": "BR",
+    "district": "Rohtas",
+    "division": "Patna",
+    "description": "BR-57 is the Regional Transport Office serving the Sasaram region within the Rohtas district of Bihar. It operates as a vital center for vehicle registration, driving permit issuance, and the collection of road taxes, supplementing the existing BR-24 code for the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO), Geeta Ghat Colony, Sasaram, Bihar",
+    "pinCode": "821115",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sasaram",
+      "Chenari",
+      "Sheosagar",
+      "Kargahar",
+      "Kochas",
+      "Nokha",
+      "Rohtas"
     ]
   }
 ]
