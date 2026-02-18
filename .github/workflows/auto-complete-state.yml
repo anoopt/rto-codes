@@ -162,6 +162,7 @@ jobs:
             git commit -m "chore: mark completed states as isComplete=true" \
               -m "States completed:" \
               -m "${{ steps.check.outputs.updated_states }}"
+            git pull --rebase origin main
             git push
             echo "✅ Pushed config updates"
           else
@@ -225,6 +226,7 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "chore: generate OSM map data for completed states" \
               -m "Generated boundaries and coordinates for: ${{ steps.check.outputs.completed_states }}"
+            git pull --rebase origin main
             git push
             echo "✅ Pushed OSM map data"
           else

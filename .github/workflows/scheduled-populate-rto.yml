@@ -329,6 +329,7 @@ jobs:
                        -m "- Progress: $NEW_TOTAL/$TOTAL ($((NEW_TOTAL * 100 / TOTAL))%)" \
                        -m "- State: $STATE"
 
+            git pull --rebase origin main
             git push origin main
             echo "✅ Committed $GENERATED RTOs to main"
             echo "has_changes=true" >> $GITHUB_OUTPUT
