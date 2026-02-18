@@ -143,11 +143,13 @@ jobs:
             exit 0
           fi
 
-          # Check if totalRTOs is set
+          # Check if totalRTOs is set and validCodes exists
           TOTAL_RTOS=$(jq -r '.totalRTOs' "data/$STATE/config.json")
+          HAS_VALID_CODES=$(jq 'has("validCodes") and (.validCodes | length > 0)' "data/$STATE/config.json")
 
-          if [ "$TOTAL_RTOS" = "0" ]; then
+          if [ "$TOTAL_RTOS" = "0" ] || [ "$HAS_VALID_CODES" = "false" ]; then
             echo "needs_verification=true" >> $GITHUB_OUTPUT
+            echo "🔍 State needs verification (totalRTOs=$TOTAL_RTOS, hasValidCodes=$HAS_VALID_CODES)"
           else
             echo "needs_verification=false" >> $GITHUB_OUTPUT
           fi
