@@ -106,5 +106,124 @@
       "Nagri",
       "Magarlod"
     ]
+  },
+  {
+    "code": "CG-06",
+    "region": "Mahasamund",
+    "city": "Mahasamund",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Mahasamund",
+    "division": "Raipur",
+    "description": "The CG-06 RTO is the designated transport authority for the Mahasamund district in Chhattisgarh. It is responsible for vehicle registration, driving license issuance, and ensuring compliance with the Motor Vehicles Act across its jurisdiction.",
+    "status": "active",
+    "established": "2000",
+    "address": "District Collectorate Office Premises, Mahasamund, Chhattisgarh",
+    "pinCode": "493554",
+    "phone": "07723-224697",
+    "email": "rtomahasamund-cg@gov.in",
+    "jurisdictionAreas": [
+      "Mahasamund",
+      "Bagbahara",
+      "Basna",
+      "Pithora",
+      "Saraipali"
+    ]
+  },
+  {
+    "code": "CG-07",
+    "region": "Durg",
+    "city": "Durg",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Durg",
+    "division": "Durg Division",
+    "description": "The CG-07 RTO serves the Durg district, which includes the significant industrial city of Bhilai. It manages vehicle registrations, driving licenses, and transport safety compliance for one of Chhattisgarh's most populous regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Opposite 5 Building, Jail Road, Durg, Chhattisgarh",
+    "pinCode": "491001",
+    "phone": "0788-2324815",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Durg",
+      "Bhilai",
+      "Patan",
+      "Dhamdha",
+      "Bhilai Charoda",
+      "Kumhari"
+    ]
+  },
+  {
+    "code": "CG-08",
+    "region": "Rajnandgaon",
+    "city": "Rajnandgaon",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Rajnandgaon",
+    "division": "Durg",
+    "description": "CG-08 is the Assistant Regional Transport Office (ARTO) serving the Rajnandgaon district in Chhattisgarh. It is a key administrative hub for vehicle registration, licensing, and road safety enforcement in this significant industrial and agricultural region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Office, Pendri, Near Medical College, Rajnandgaon, Chhattisgarh",
+    "pinCode": "491441",
+    "phone": "07744-223659",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rajnandgaon",
+      "Dongargarh",
+      "Dongargaon",
+      "Khairagarh",
+      "Chhuikhadan",
+      "Gandai",
+      "Ambagarh Chowki",
+      "Mohla",
+      "Manpur"
+    ]
+  },
+  {
+    "code": "CG-09",
+    "region": "Kabirdham",
+    "city": "Kawardha",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Kabirdham",
+    "division": "Durg",
+    "description": "CG-09 is the District Transport Office (DTO) for the Kabirdham district, headquartered in Kawardha. It is responsible for vehicle registration, driving license issuance, and the enforcement of motor vehicle laws within the district. This RTO is a key administrative hub for the region, which is famous for the historical Bhoramdeo Temple.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Chhirpani Colony, Kabirdham, Chhattisgarh",
+    "pinCode": "491336",
+    "phone": "07741-233556",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kawardha",
+      "Pandariya",
+      "Bodla",
+      "Sahaspur Lohara"
+    ]
+  },
+  {
+    "code": "CG-10",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bilaspur",
+    "division": "Bilaspur Division",
+    "description": "The CG-10 Regional Transport Office serves the Bilaspur district, which is the second largest city and a significant judicial hub in Chhattisgarh. This office handles all aspects of vehicle registration, licensing, and road tax collection for the region, having replaced the old MP-26 code after the state's formation.",
+    "status": "active",
+    "established": "2000",
+    "address": "Regional Transport Office, Bus Stand Parisar, Bilaspur, Chhattisgarh",
+    "pinCode": "495001",
+    "phone": "07752-402080",
+    "email": "rto-bil-cg@nic.in",
+    "jurisdictionAreas": [
+      "Bilaspur",
+      "Bilha",
+      "Masturi",
+      "Kota",
+      "Takhatpur"
+    ]
   }
 ]

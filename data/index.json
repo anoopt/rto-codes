@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-18T18:24:54.411Z",
-  "totalRTOs": 209,
-  "totalVerified": 209,
+  "generatedAt": "2026-02-19T02:57:55.824Z",
+  "totalRTOs": 214,
+  "totalVerified": 214,
   "totalStates": 28,
-  "completedStates": 5,
+  "completedStates": 6,
   "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 4,
@@ -190,11 +190,11 @@
         "br-56",
         "br-57"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "CH",
@@ -218,16 +218,21 @@
     {
       "stateCode": "CG",
       "stateName": "Chhattisgarh",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 30,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "cg-01",
         "cg-02",
         "cg-03",
         "cg-04",
-        "cg-05"
+        "cg-05",
+        "cg-06",
+        "cg-07",
+        "cg-08",
+        "cg-09",
+        "cg-10"
       ],
       "isComplete": false,
       "type": "state",
@@ -916,11 +921,11 @@
         "br-56",
         "br-57"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "CH": {
       "stateCode": "CH",
@@ -944,16 +949,21 @@
     "CG": {
       "stateCode": "CG",
       "stateName": "Chhattisgarh",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 30,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "cg-01",
         "cg-02",
         "cg-03",
         "cg-04",
-        "cg-05"
+        "cg-05",
+        "cg-06",
+        "cg-07",
+        "cg-08",
+        "cg-09",
+        "cg-10"
       ],
       "isComplete": false,
       "type": "state",
