@@ -1,0 +1,22 @@
+{
+    "code": "CG-09",
+    "region": "Kabirdham",
+    "city": "Kawardha",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Kabirdham",
+    "division": "Durg",
+    "description": "CG-09 is the District Transport Office (DTO) for the Kabirdham district, headquartered in Kawardha. It is responsible for vehicle registration, driving license issuance, and the enforcement of motor vehicle laws within the district. This RTO is a key administrative hub for the region, which is famous for the historical Bhoramdeo Temple.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Chhirpani Colony, Kabirdham, Chhattisgarh",
+    "pinCode": "491336",
+    "phone": "07741-233556",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kawardha",
+        "Pandariya",
+        "Bodla",
+        "Sahaspur Lohara"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "CG-07",
+    "region": "Durg",
+    "city": "Durg",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Durg",
+    "division": "Durg Division",
+    "description": "The CG-07 RTO serves the Durg district, which includes the significant industrial city of Bhilai. It manages vehicle registrations, driving licenses, and transport safety compliance for one of Chhattisgarh's most populous regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Opposite 5 Building, Jail Road, Durg, Chhattisgarh",
+    "pinCode": "491001",
+    "phone": "0788-2324815",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Durg",
+        "Bhilai",
+        "Patan",
+        "Dhamdha",
+        "Bhilai Charoda",
+        "Kumhari"
+    ]
+}

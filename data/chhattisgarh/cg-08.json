@@ -1,0 +1,27 @@
+{
+    "code": "CG-08",
+    "region": "Rajnandgaon",
+    "city": "Rajnandgaon",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Rajnandgaon",
+    "division": "Durg",
+    "description": "CG-08 is the Assistant Regional Transport Office (ARTO) serving the Rajnandgaon district in Chhattisgarh. It is a key administrative hub for vehicle registration, licensing, and road safety enforcement in this significant industrial and agricultural region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Office, Pendri, Near Medical College, Rajnandgaon, Chhattisgarh",
+    "pinCode": "491441",
+    "phone": "07744-223659",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rajnandgaon",
+        "Dongargarh",
+        "Dongargaon",
+        "Khairagarh",
+        "Chhuikhadan",
+        "Gandai",
+        "Ambagarh Chowki",
+        "Mohla",
+        "Manpur"
+    ]
+}

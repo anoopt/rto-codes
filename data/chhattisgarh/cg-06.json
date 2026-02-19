@@ -1,0 +1,23 @@
+{
+    "code": "CG-06",
+    "region": "Mahasamund",
+    "city": "Mahasamund",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Mahasamund",
+    "division": "Raipur",
+    "description": "The CG-06 RTO is the designated transport authority for the Mahasamund district in Chhattisgarh. It is responsible for vehicle registration, driving license issuance, and ensuring compliance with the Motor Vehicles Act across its jurisdiction.",
+    "status": "active",
+    "established": "2000",
+    "address": "District Collectorate Office Premises, Mahasamund, Chhattisgarh",
+    "pinCode": "493554",
+    "phone": "07723-224697",
+    "email": "rtomahasamund-cg@gov.in",
+    "jurisdictionAreas": [
+        "Mahasamund",
+        "Bagbahara",
+        "Basna",
+        "Pithora",
+        "Saraipali"
+    ]
+}

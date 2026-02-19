@@ -1,0 +1,23 @@
+{
+    "code": "CG-10",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bilaspur",
+    "division": "Bilaspur Division",
+    "description": "The CG-10 Regional Transport Office serves the Bilaspur district, which is the second largest city and a significant judicial hub in Chhattisgarh. This office handles all aspects of vehicle registration, licensing, and road tax collection for the region, having replaced the old MP-26 code after the state's formation.",
+    "status": "active",
+    "established": "2000",
+    "address": "Regional Transport Office, Bus Stand Parisar, Bilaspur, Chhattisgarh",
+    "pinCode": "495001",
+    "phone": "07752-402080",
+    "email": "rto-bil-cg@nic.in",
+    "jurisdictionAreas": [
+        "Bilaspur",
+        "Bilha",
+        "Masturi",
+        "Kota",
+        "Takhatpur"
+    ]
+}
