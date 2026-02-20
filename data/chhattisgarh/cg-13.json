@@ -1,0 +1,25 @@
+{
+    "code": "CG-13",
+    "region": "Raigarh",
+    "city": "Raigarh",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Raigarh",
+    "division": "Bilaspur",
+    "description": "CG-13 is the designated Regional Transport Office for the Raigarh district in Chhattisgarh. This office is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in this key industrial and coal-mining region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Premises, Raigarh, Chhattisgarh",
+    "pinCode": "496001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Raigarh",
+        "Kharsia",
+        "Gharghoda",
+        "Tamnar",
+        "Lailunga",
+        "Dharamjaigarh",
+        "Pusaur"
+    ]
+}

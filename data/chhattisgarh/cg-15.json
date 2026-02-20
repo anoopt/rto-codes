@@ -1,0 +1,26 @@
+{
+    "code": "CG-15",
+    "region": "Ambikapur",
+    "city": "Ambikapur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Surguja",
+    "division": "Surguja Division",
+    "description": "CG-15 is the Regional Transport Office serving Ambikapur in the Surguja district of Chhattisgarh. It handles registration of motor vehicles, issuance of driving licenses, and collection of road taxes for the northern region of the state. The office is a vital hub for transportation services in one of Chhattisgarh's major administrative divisions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Pratappur Road, Sarganva, Ambikapur, Chhattisgarh - 497001",
+    "pinCode": "497001",
+    "phone": "07774-220725",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ambikapur",
+        "Surguja",
+        "Lakhanpur",
+        "Udaipur",
+        "Mainpat",
+        "Lundra",
+        "Sitapur",
+        "Batauli"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "code": "CG-11",
+    "region": "Janjgir-Champa",
+    "city": "Janjgir-Champa",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Janjgir-Champa",
+    "division": "Bilaspur",
+    "description": "The CG-11 RTO serves the Janjgir-Champa district in Chhattisgarh, acting as the primary office for vehicle registration, driving licenses, and transport permit issuance. Located in the Bilaspur division, it is a significant administrative center for the district's road transport and regulatory activities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Janjgir Road, Hasdeo Vihar Colony, Jarve(B), Janjgir-Champa, Chhattisgarh",
+    "pinCode": "495668",
+    "phone": "07807-224055",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Janjgir",
+        "Champa",
+        "Akaltara",
+        "Baloda",
+        "Bamhnidih",
+        "Baradwar",
+        "Dabhra",
+        "Jaijaipur",
+        "Malkharoda",
+        "Nawagarh",
+        "Pamgarh"
+    ]
+}

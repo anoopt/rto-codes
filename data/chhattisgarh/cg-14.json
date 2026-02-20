@@ -1,0 +1,26 @@
+{
+    "code": "CG-14",
+    "region": "Jashpur",
+    "city": "Jashpur Nagar",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Jashpur",
+    "division": "Bilaspur",
+    "description": "CG-14 is the District Transport Office serving the Jashpur district in Chhattisgarh. It is responsible for vehicle registration, issuance of driving licenses, and regulatory oversight for the northern border region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Tehsil Parisar, Jashpur, Chhattisgarh",
+    "pinCode": "496331",
+    "phone": "07763-220916",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jashpur",
+        "Bagicha",
+        "Kansabel",
+        "Kunkuri",
+        "Pathalgaon",
+        "Pharsabahar",
+        "Duldua",
+        "Manora"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "CG-12",
+    "region": "Korba",
+    "city": "Korba",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Korba",
+    "division": "Bilaspur",
+    "description": "CG-12 is the Regional Transport Office serving the Korba district in Chhattisgarh, widely recognized as the power hub of India due to its vast coal reserves and thermal power plants. The office facilitates motor vehicle registrations, driving license issuances, and enforcement of transport safety norms throughout the Korba industrial and residential sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Old Collectorate Office, Korba, Chhattisgarh",
+    "pinCode": "495677",
+    "phone": "07759-226640",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Korba",
+        "Katghora",
+        "Pali",
+        "Kartala",
+        "Poundi-Uproda",
+        "Hardibazar"
+    ]
+}
