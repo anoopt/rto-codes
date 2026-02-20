@@ -14,6 +14,17 @@ export default function PersistentHeader() {
     // Show search only on homepage
     const showSearch = pathname === '/';
 
+    // Handler to clear search when clicking home link
+    const handleHomeClick = () => {
+        setSearchQuery('');
+    };
+
+    // Listen for home link clicks
+    useEffect(() => {
+        window.addEventListener('clearHomeSearch', handleHomeClick);
+        return () => window.removeEventListener('clearHomeSearch', handleHomeClick);
+    }, []);
+
     // Broadcast search changes to HomePage via custom event
     useEffect(() => {
         if (pathname === '/' && typeof window !== 'undefined') {

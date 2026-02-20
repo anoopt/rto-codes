@@ -219,6 +219,12 @@ export default function Header({
                             href="/"
                             data-active={pathname === '/'}
                             onMouseEnter={handleNavHover}
+                            onClick={() => {
+                                // Clear search when clicking home, even if already on homepage
+                                if (pathname === '/') {
+                                    window.dispatchEvent(new CustomEvent('clearHomeSearch'));
+                                }
+                            }}
                             className="text-[var(--accent)] hover:text-[var(--accent-hover)] font-bold tracking-wider text-xs sm:text-sm uppercase transition-colors relative py-1"
                         >
                             RTO Codes
@@ -258,6 +264,12 @@ export default function Header({
             <nav className="h-full flex items-center justify-between px-4 relative">
                 <Link
                     href="/"
+                    onClick={() => {
+                        // Clear search when clicking home, even if already on homepage
+                        if (pathname === '/') {
+                            window.dispatchEvent(new CustomEvent('clearHomeSearch'));
+                        }
+                    }}
                     className={`text-[var(--accent)] hover:text-[var(--accent-hover)] font-bold tracking-wider text-xs sm:text-sm uppercase transition-all duration-200 ${isSearchExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
                 >
                     RTO Codes

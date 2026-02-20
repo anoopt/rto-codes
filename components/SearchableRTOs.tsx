@@ -70,6 +70,34 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
         {searchQuery ? `${filteredRTOs.length} results found for "${searchQuery}"` : `${rtos.length} RTO codes available`}
       </div>
 
+      {/* Search Results Banner - visible when searching */}
+      {searchQuery && (
+        <div className="bg-[var(--card-bg)] border-b border-[var(--card-border)] px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <svg className="w-4 h-4 text-[var(--muted)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <p className="text-sm text-[var(--foreground)]">
+              <span className="text-[var(--muted)]">Search results for</span>{' '}
+              <span className="font-medium">"{searchQuery}"</span>
+              <span className="text-[var(--muted)] ml-2">
+                ({filteredRTOs.length} {filteredRTOs.length === 1 ? 'result' : 'results'})
+              </span>
+            </p>
+          </div>
+          <button
+            onClick={() => window.dispatchEvent(new CustomEvent('clearHomeSearch'))}
+            className="text-xs text-[var(--muted)] hover:text-[var(--foreground)] uppercase tracking-wide transition-colors flex items-center gap-1.5 group"
+            aria-label="Clear search"
+          >
+            <span>Clear</span>
+            <svg className="w-3 h-3 group-hover:rotate-90 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      )}
+
       {/* RTO Grid */}
       <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
         {filteredRTOs.map((rto) => {
