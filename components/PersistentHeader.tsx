@@ -21,6 +21,19 @@ export default function PersistentHeader() {
         }
     }, [searchQuery, pathname]);
 
+    // Listen for WebMCP agent-initiated search events
+    useEffect(() => {
+        const handleAgentSearch = (e: Event) => {
+            const customEvent = e as CustomEvent<string>;
+            if (pathname === '/') {
+                setSearchQuery(customEvent.detail);
+            }
+        };
+
+        window.addEventListener('webmcpSearch', handleAgentSearch);
+        return () => window.removeEventListener('webmcpSearch', handleAgentSearch);
+    }, [pathname]);
+
     // Handle search value changes - clear when not on homepage
     const handleSearchChange = (value: string) => {
         // Only allow search on homepage

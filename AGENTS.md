@@ -24,8 +24,9 @@ Depending on your task, refer to these sub-guides:
 2. [**Architecture & UI**](./docs/agents/architecture.md): Server Components, Tailwind 4, and React patterns.
 3. [**Scripts & Tooling**](./docs/agents/development.md): Auto-generated files, validation scripts, and environment variables.
 4. [**Testing**](./docs/agents/testing.md): Test commands, structure, and patterns.
+5. [**WebMCP**](./docs/agents/webmcp.md): Browser AI tool registration, search utilities, and alternate names.
 
 ## ⚠️ Key Restrictions
 
-- **Do Not Edit**: `data/index.json`, `data/*/index.json`, `data/rto-images.json`, or `public/sitemap.xml`. These are auto-generated.
+- **Do Not Edit**: `data/index.json`, `data/*/index.json`, `data/rto-images.json`, `data/alternate-names.json`, or `public/sitemap.xml`. These are auto-generated.
 - **Maintainer Only**: Image generation and AI data enrichment scripts.

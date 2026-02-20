@@ -20,7 +20,8 @@
     "generate:images": "bun scripts/generate-rto-images.ts",
     "generate:boundaries": "bun scripts/generate-boundaries.ts",
     "generate:coordinates": "bun scripts/generate-coordinates.ts",
-    "generate:osm-data": "bun scripts/generate-boundaries.ts && bun scripts/generate-coordinates.ts"
+    "generate:osm-data": "bun scripts/generate-boundaries.ts && bun scripts/generate-coordinates.ts",
+    "generate:alternate-names": "bun scripts/generate-alternate-names.ts"
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import type { RTOCode } from '@/types/rto';
+import { getSearchTerms, matchesNormalized } from '@/lib/search-utils';
 
 // Re-export RTOCode type for backward compatibility
 export type { RTOCode } from '@/types/rto';
@@ -193,13 +194,15 @@ export function searchRTOs(query: string, state?: string): RTOCode[] {
     return allRTOs;
   }
 
+  const terms = getSearchTerms(lowerQuery);
+
   return allRTOs.filter(rto => {
     return (
-      rto.code.toLowerCase().includes(lowerQuery) ||
-      rto.region.toLowerCase().includes(lowerQuery) ||
-      rto.city.toLowerCase().includes(lowerQuery) ||
-      (rto.district && rto.district.toLowerCase().includes(lowerQuery)) ||
-      (rto.jurisdictionAreas && rto.jurisdictionAreas.some(area => area.toLowerCase().includes(lowerQuery)))
+      matchesNormalized(rto.code, terms) ||
+      matchesNormalized(rto.region, terms) ||
+      matchesNormalized(rto.city, terms) ||
+      (rto.district && matchesNormalized(rto.district, terms)) ||
+      (rto.jurisdictionAreas && rto.jurisdictionAreas.some(area => matchesNormalized(area, terms)))
     );
   });
 }
@@ -214,7 +217,7 @@ export function searchRTOs(query: string, state?: string): RTOCode[] {
  */
 export function getRTOsByDistrict(district: string, state?: string): RTOCode[] {
   const normalizedDistrict = district.toLowerCase().trim();
-  return getAllRTOs(state).filter(rto => 
+  return getAllRTOs(state).filter(rto =>
     rto.district && rto.district.toLowerCase().trim() === normalizedDistrict
   );
 }

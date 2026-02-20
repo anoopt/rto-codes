@@ -1,0 +1,408 @@
+{
+  "Along": [
+    "Aalo"
+  ],
+  "Anantapur": [
+    "Ananthapuramu"
+  ],
+  "Ananthapuramu": [
+    "Anantapur"
+  ],
+  "Andhra Pradesh State": [
+    "AP",
+    "Andhra"
+  ],
+  "Arrah": [
+    "Ara"
+  ],
+  "Assam State Transport Corporation (ASTC)": [
+    "ASTC"
+  ],
+  "Aurangabad": [
+    "Sambhajinagar",
+    "Chhatrapati Sambhajinagar"
+  ],
+  "Bagalkot": [
+    "Bagalkote"
+  ],
+  "Ballari": [
+    "Bellary"
+  ],
+  "Bantwal": [
+    "Buntwal"
+  ],
+  "Basavakalyan": [
+    "Kalyan"
+  ],
+  "Belagavi": [
+    "Belgaum"
+  ],
+  "Belagavi East": [
+    "Belgaum East"
+  ],
+  "Bengaluru": [
+    "Bangalore"
+  ],
+  "Bengaluru Rural": [
+    "Bangalore Rural"
+  ],
+  "Bengaluru Urban": [
+    "Bangalore Urban",
+    "Bangalore City"
+  ],
+  "Bettiah": [
+    "West Champaran"
+  ],
+  "Bhabua": [
+    "Kaimur"
+  ],
+  "Bhojpur": [
+    "Arrah"
+  ],
+  "Bicholim": [
+    "Divchal",
+    "Divaia"
+  ],
+  "Bihar Sharif": [
+    "Biharsharif",
+    "Nalanda"
+  ],
+  "Biswanath": [
+    "Biswanath Chariali"
+  ],
+  "Biswanath Chariali": [
+    "Biswanath"
+  ],
+  "Cachar": [
+    "Silchar"
+  ],
+  "Canacona": [
+    "Kankon"
+  ],
+  "Car Nicobar": [
+    "Pu"
+  ],
+  "Chamarajanagar": [
+    "Chamarajanagara"
+  ],
+  "Chandigarh (Industrial Area)": [
+    "Industrial Area Chandigarh"
+  ],
+  "Chapra": [
+    "Chhapra",
+    "Saran"
+  ],
+  "Charaideo": [
+    "Sonari"
+  ],
+  "Chhattisgarh Police Department": [
+    "CG Police"
+  ],
+  "Chhattisgarh State Government": [
+    "CG Government",
+    "Chhattisgarh Govt"
+  ],
+  "Chikkaballapura": [
+    "Chikkaballapur",
+    "Chickballapur"
+  ],
+  "Chikkamagaluru": [
+    "Chikmagalur"
+  ],
+  "Chikkodi": [
+    "Chickodi"
+  ],
+  "Chikmagalur": [
+    "Chikkamagaluru"
+  ],
+  "Chirang": [
+    "Kajalgaon"
+  ],
+  "Chitradurga": [
+    "Chitaldroog"
+  ],
+  "Chittoor": [
+    "Chittur"
+  ],
+  "Dadra and Nagar Haveli": [
+    "DNH"
+  ],
+  "Dakshina Kannada": [
+    "South Canara",
+    "South Kanara",
+    "Mangalore District"
+  ],
+  "Darrang": [
+    "Mangaldoi"
+  ],
+  "Davanagere": [
+    "Davangere"
+  ],
+  "Dehri-on-Sone": [
+    "Dehri"
+  ],
+  "Dharwad": [
+    "Dharwar"
+  ],
+  "Dima Hasao": [
+    "North Cachar Hills"
+  ],
+  "East Champaran": [
+    "Motihari",
+    "Champaran"
+  ],
+  "East Kameng": [
+    "Seppa"
+  ],
+  "East Siang": [
+    "Pasighat"
+  ],
+  "Electronic City": [
+    "E-City",
+    "ECity"
+  ],
+  "Eluru": [
+    "Ellore"
+  ],
+  "Gadag": [
+    "Gadag-Betageri"
+  ],
+  "Guwahati": [
+    "Gauhati"
+  ],
+  "Honnavar": [
+    "Honnavara"
+  ],
+  "Hospet": [
+    "Hosapete"
+  ],
+  "Hubli": [
+    "Hubballi"
+  ],
+  "Hunsur": [
+    "Hunusuru"
+  ],
+  "Janjgir-Champa": [
+    "Janjgir"
+  ],
+  "Jashpur Nagar": [
+    "Jashpur"
+  ],
+  "Jayanagar": [
+    "Jaya Nagar"
+  ],
+  "Jnanabharathi": [
+    "Jnana Bharathi"
+  ],
+  "Kabirdham": [
+    "Kawardha"
+  ],
+  "Kadapa": [
+    "Cuddapah"
+  ],
+  "Kaimur": [
+    "Bhabua"
+  ],
+  "Kakinada": [
+    "Cocanada"
+  ],
+  "Kalaburagi": [
+    "Gulbarga"
+  ],
+  "Kamrup Metropolitan": [
+    "Kamrup Metro"
+  ],
+  "Kamrup Rural": [
+    "Kamrup"
+  ],
+  "Kasturi Nagar": [
+    "Kasturinagar"
+  ],
+  "Kawardha": [
+    "Kabirdham"
+  ],
+  "KGF": [
+    "Kolar Gold Fields"
+  ],
+  "Kodagu": [
+    "Coorg"
+  ],
+  "KR Puram": [
+    "Krishnarajapuram"
+  ],
+  "Kurnool": [
+    "Kurnoolu"
+  ],
+  "Lakhimpur": [
+    "North Lakhimpur"
+  ],
+  "Madikeri": [
+    "Mercara"
+  ],
+  "Mangaldoi": [
+    "Mangaldai"
+  ],
+  "Mangalore": [
+    "Mangaluru",
+    "Kudla",
+    "Kodial",
+    "Mangalapuram"
+  ],
+  "Mapusa": [
+    "Mapuca",
+    "Mhapsa"
+  ],
+  "Margao": [
+    "Madgaon",
+    "Margaon"
+  ],
+  "Morigaon": [
+    "Marigaon"
+  ],
+  "Munger": [
+    "Monghyr"
+  ],
+  "Mysuru": [
+    "Mysore"
+  ],
+  "Mysuru East": [
+    "Mysore East"
+  ],
+  "Mysuru West": [
+    "Mysore West"
+  ],
+  "Nagaon": [
+    "Nowgong"
+  ],
+  "Nellore": [
+    "Potti Sriramulu Nellore",
+    "Simhapuri"
+  ],
+  "North Lakhimpur": [
+    "Lakhimpur"
+  ],
+  "Panaji": [
+    "Panjim",
+    "Pangim",
+    "Ponnji"
+  ],
+  "Patna": [
+    "Pataliputra",
+    "Azimabad"
+  ],
+  "Pernem": [
+    "Pedne"
+  ],
+  "Ponda": [
+    "Fonda"
+  ],
+  "Purnia": [
+    "Purnea"
+  ],
+  "Quepem": [
+    "Kepem"
+  ],
+  "Ramanagara": [
+    "Ramanagaram",
+    "Ramnagaram"
+  ],
+  "Ramdurg": [
+    "Ramadurga"
+  ],
+  "Ranebennur": [
+    "Ranibennur"
+  ],
+  "Sagar": [
+    "Saugor"
+  ],
+  "Sakleshpur": [
+    "Sakleshpura"
+  ],
+  "Saran": [
+    "Chhapra"
+  ],
+  "Sasaram": [
+    "Sahasram"
+  ],
+  "Shanthinagar": [
+    "Shanti Nagar"
+  ],
+  "Shivamogga": [
+    "Shimoga"
+  ],
+  "Silvassa": [
+    "Shailvasa"
+  ],
+  "Sivasagar": [
+    "Sibsagar"
+  ],
+  "South Salmara-Mankachar": [
+    "South Salmara"
+  ],
+  "Sri Potti Sriramulu Nellore": [
+    "Nellore",
+    "SPSR Nellore"
+  ],
+  "Sri Vijaya Puram": [
+    "Port Blair"
+  ],
+  "Srikakulam": [
+    "Chicacole"
+  ],
+  "Sullia": [
+    "Sulya"
+  ],
+  "Surguja": [
+    "Sirguja"
+  ],
+  "Tumakuru": [
+    "Tumkur"
+  ],
+  "Tumkur": [
+    "Tumakuru"
+  ],
+  "Udupi": [
+    "Udipi"
+  ],
+  "Uttara Kannada": [
+    "North Canara",
+    "North Kanara"
+  ],
+  "Vasco da Gama": [
+    "Vasco"
+  ],
+  "Vijayanagara": [
+    "Vijayanagar"
+  ],
+  "Vijayapura": [
+    "Bijapur"
+  ],
+  "Vijayawada": [
+    "Bezawada",
+    "Bezwada"
+  ],
+  "Visakhapatnam": [
+    "Vizag",
+    "Waltair"
+  ],
+  "Vizianagaram": [
+    "Vizianagram"
+  ],
+  "West Champaran": [
+    "Bettiah"
+  ],
+  "West Godavari": [
+    "Paschima Godavari"
+  ],
+  "Yadgir": [
+    "Yadgiri"
+  ],
+  "Yeshwanthpur": [
+    "Yashwantpur",
+    "Yesvantpur"
+  ],
+  "YSR Kadapa": [
+    "Kadapa",
+    "Cuddapah"
+  ]
+}

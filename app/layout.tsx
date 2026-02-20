@@ -3,6 +3,8 @@ import { Josefin_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import DevWarningBanner from "@/components/DevWarningBanner";
 import PersistentHeader from "@/components/PersistentHeader";
+import WebMCPTools from "@/components/WebMCPTools";
+import { getVerifiedRTOs } from "@/lib/rto-data";
 import "./globals.css";
 
 const josefinSans = Josefin_Sans({
@@ -106,6 +108,8 @@ export default function RootLayout({
           </a>
           {/* Persistent header across all pages */}
           <PersistentHeader />
+          {/* Register WebMCP tools for in-browser AI agents (Chrome 146+) */}
+          <WebMCPTools rtos={getVerifiedRTOs()} />
           {children}
         </ThemeProvider>
       </body>

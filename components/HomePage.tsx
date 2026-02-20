@@ -17,6 +17,18 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
     // Constant for retry delay when scrolling to tile
     const TILE_SCROLL_RETRY_DELAY = 100;
 
+    // Pick up ?search= query param (used when WebMCP agent navigates here from another page)
+    useEffect(() => {
+        const params = new URLSearchParams(window.location.search);
+        const q = params.get('search');
+        if (q) {
+            setSearchQuery(q);
+            window.dispatchEvent(new CustomEvent('webmcpSearch', { detail: q }));
+            // Clean the URL without reloading
+            window.history.replaceState(null, '', '/');
+        }
+    }, []);
+
     // Listen for search changes from PersistentHeader
     useEffect(() => {
         const handleSearchChange = (e: Event) => {

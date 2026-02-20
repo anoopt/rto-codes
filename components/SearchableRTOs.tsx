@@ -3,6 +3,7 @@
 import { useMemo, useCallback } from 'react';
 import Link from 'next/link';
 import RTOImage from '@/components/RTOImage';
+import { getSearchTerms, matchesNormalized } from '@/lib/search-utils';
 import type { RTOCode } from '@/types/rto';
 
 interface SearchableRTOsProps {
@@ -31,13 +32,13 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
     let result = rtos;
 
     if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase();
+      const terms = getSearchTerms(searchQuery);
       result = rtos.filter(rto =>
-        rto.code.toLowerCase().includes(query) ||
-        rto.region.toLowerCase().includes(query) ||
-        rto.city.toLowerCase().includes(query) ||
-        (rto.district && rto.district.toLowerCase().includes(query)) ||
-        (rto.jurisdictionAreas && rto.jurisdictionAreas.some(area => area.toLowerCase().includes(query)))
+        matchesNormalized(rto.code, terms) ||
+        matchesNormalized(rto.region, terms) ||
+        matchesNormalized(rto.city, terms) ||
+        (rto.district && matchesNormalized(rto.district, terms)) ||
+        (rto.jurisdictionAreas && rto.jurisdictionAreas.some(area => matchesNormalized(area, terms)))
       );
     }
 
