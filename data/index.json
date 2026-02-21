@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-20T17:46:52.900Z",
-  "totalRTOs": 219,
-  "totalVerified": 219,
+  "generatedAt": "2026-02-21T02:51:57.981Z",
+  "totalRTOs": 224,
+  "totalVerified": 224,
   "totalStates": 28,
   "completedStates": 6,
   "inProgressStates": 1,
@@ -218,10 +218,10 @@
     {
       "stateCode": "CG",
       "stateName": "Chhattisgarh",
-      "rtoCount": 15,
+      "rtoCount": 20,
       "totalExpectedRTOs": 30,
       "activeRTOs": 0,
-      "verifiedCount": 15,
+      "verifiedCount": 20,
       "rtoCodes": [
         "cg-01",
         "cg-02",
@@ -237,7 +237,12 @@
         "cg-12",
         "cg-13",
         "cg-14",
-        "cg-15"
+        "cg-15",
+        "cg-16",
+        "cg-17",
+        "cg-18",
+        "cg-19",
+        "cg-20"
       ],
       "isComplete": false,
       "type": "state",
@@ -954,10 +959,10 @@
     "CG": {
       "stateCode": "CG",
       "stateName": "Chhattisgarh",
-      "rtoCount": 15,
+      "rtoCount": 20,
       "totalExpectedRTOs": 30,
       "activeRTOs": 0,
-      "verifiedCount": 15,
+      "verifiedCount": 20,
       "rtoCodes": [
         "cg-01",
         "cg-02",
@@ -973,7 +978,12 @@
         "cg-12",
         "cg-13",
         "cg-14",
-        "cg-15"
+        "cg-15",
+        "cg-16",
+        "cg-17",
+        "cg-18",
+        "cg-19",
+        "cg-20"
       ],
       "isComplete": false,
       "type": "state",

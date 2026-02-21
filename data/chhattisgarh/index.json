@@ -355,5 +355,126 @@
       "Sitapur",
       "Batauli"
     ]
+  },
+  {
+    "code": "CG-16",
+    "region": "Baikunthpur",
+    "city": "Baikunthpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Koriya",
+    "division": "Surguja",
+    "description": "The CG-16 RTO office is located in Baikunthpur and serves as the primary transport authority for the Koriya district in northern Chhattisgarh. It manages vehicle registrations, driving license issuances, and transport permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Collectorate Road, Chindand, Baikunthpur, Koriya, Chhattisgarh",
+    "pinCode": "497335",
+    "phone": "07836-296313",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Baikunthpur",
+      "Sonhat",
+      "Manendragarh",
+      "Khadgawan",
+      "Bharatpur",
+      "Chirmiri"
+    ]
+  },
+  {
+    "code": "CG-17",
+    "region": "Jagdalpur",
+    "city": "Jagdalpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bastar",
+    "division": "Bastar",
+    "description": "The CG-17 RTO is located in Jagdalpur and serves as the primary regional transport office for the Bastar district. It handles all transport-related activities including vehicle registration, driving licenses, and permit issuance for the southern Bastar region, which transitioned from the MP-25 code following the state's creation in 2000.",
+    "status": "active",
+    "established": "2000",
+    "address": "Regional Transport Office, Adawal, Kurandi Road, Jagdalpur, Chhattisgarh",
+    "pinCode": "494001",
+    "phone": "07782-222718",
+    "email": "rto-bastar.cg@gov.in",
+    "jurisdictionAreas": [
+      "Jagdalpur",
+      "Bastar",
+      "Bakawand",
+      "Bastanar",
+      "Darbha",
+      "Lohandiguda",
+      "Tokapal"
+    ]
+  },
+  {
+    "code": "CG-18",
+    "region": "Dantewada",
+    "city": "Dantewada",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Dantewada",
+    "division": "Bastar Division",
+    "description": "CG-18 is the District Transport Office (DTO) for Dantewada, also known as South Bastar, in Chhattisgarh. The office is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the southern tribal region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Office Campus, Dantewada, Chhattisgarh",
+    "pinCode": "494449",
+    "phone": "07856-252653",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dantewada",
+      "Gidam",
+      "Kuakonda",
+      "Katekalyan",
+      "Bacheli",
+      "Kirandul",
+      "Barsur"
+    ]
+  },
+  {
+    "code": "CG-19",
+    "region": "Kanker",
+    "city": "Kanker",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Kanker",
+    "division": "Bastar Division",
+    "description": "The CG-19 RTO serves the Kanker district (North Bastar Kanker) in Chhattisgarh, facilitating vehicle registration, driving licenses, and transport permits. It is an essential administrative hub for the transport infrastructure within the tribal-dominated Bastar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Compound, Near Maa Shitla Mandir, Bardebhata, Kanker, Chhattisgarh",
+    "pinCode": "494334",
+    "phone": "07868-241261",
+    "email": "dto-kanker.cg@gov.in",
+    "jurisdictionAreas": [
+      "Kanker",
+      "Antagarh",
+      "Bhanupratappur",
+      "Charama",
+      "Narharpur",
+      "Koyalibeda",
+      "Durkondahal"
+    ]
+  },
+  {
+    "code": "CG-20",
+    "region": "Bijapur",
+    "city": "Bijapur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bijapur",
+    "division": "Bastar",
+    "description": "The CG-20 RTO serves the Bijapur district in the Bastar division of Chhattisgarh. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations within the district, which was established as a separate administrative unit in 2007.",
+    "status": "active",
+    "established": "2007",
+    "address": "District Transport Office, Bijapur, Chhattisgarh",
+    "pinCode": "494444",
+    "phone": "N/A",
+    "email": "dto-bijapur.cg@gov.in",
+    "jurisdictionAreas": [
+      "Bijapur",
+      "Bhopalpatnam",
+      "Bhairamgarh",
+      "Usur"
+    ]
   }
 ]
