@@ -1,0 +1,25 @@
+{
+    "code": "CG-18",
+    "region": "Dantewada",
+    "city": "Dantewada",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Dantewada",
+    "division": "Bastar Division",
+    "description": "CG-18 is the District Transport Office (DTO) for Dantewada, also known as South Bastar, in Chhattisgarh. The office is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the southern tribal region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Office Campus, Dantewada, Chhattisgarh",
+    "pinCode": "494449",
+    "phone": "07856-252653",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dantewada",
+        "Gidam",
+        "Kuakonda",
+        "Katekalyan",
+        "Bacheli",
+        "Kirandul",
+        "Barsur"
+    ]
+}

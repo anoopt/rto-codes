@@ -1,0 +1,22 @@
+{
+    "code": "CG-20",
+    "region": "Bijapur",
+    "city": "Bijapur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bijapur",
+    "division": "Bastar",
+    "description": "The CG-20 RTO serves the Bijapur district in the Bastar division of Chhattisgarh. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations within the district, which was established as a separate administrative unit in 2007.",
+    "status": "active",
+    "established": "2007",
+    "address": "District Transport Office, Bijapur, Chhattisgarh",
+    "pinCode": "494444",
+    "phone": "N/A",
+    "email": "dto-bijapur.cg@gov.in",
+    "jurisdictionAreas": [
+        "Bijapur",
+        "Bhopalpatnam",
+        "Bhairamgarh",
+        "Usur"
+    ]
+}

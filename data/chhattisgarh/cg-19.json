@@ -1,0 +1,25 @@
+{
+    "code": "CG-19",
+    "region": "Kanker",
+    "city": "Kanker",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Kanker",
+    "division": "Bastar Division",
+    "description": "The CG-19 RTO serves the Kanker district (North Bastar Kanker) in Chhattisgarh, facilitating vehicle registration, driving licenses, and transport permits. It is an essential administrative hub for the transport infrastructure within the tribal-dominated Bastar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Compound, Near Maa Shitla Mandir, Bardebhata, Kanker, Chhattisgarh",
+    "pinCode": "494334",
+    "phone": "07868-241261",
+    "email": "dto-kanker.cg@gov.in",
+    "jurisdictionAreas": [
+        "Kanker",
+        "Antagarh",
+        "Bhanupratappur",
+        "Charama",
+        "Narharpur",
+        "Koyalibeda",
+        "Durkondahal"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "CG-16",
+    "region": "Baikunthpur",
+    "city": "Baikunthpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Koriya",
+    "division": "Surguja",
+    "description": "The CG-16 RTO office is located in Baikunthpur and serves as the primary transport authority for the Koriya district in northern Chhattisgarh. It manages vehicle registrations, driving license issuances, and transport permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Collectorate Road, Chindand, Baikunthpur, Koriya, Chhattisgarh",
+    "pinCode": "497335",
+    "phone": "07836-296313",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Baikunthpur",
+        "Sonhat",
+        "Manendragarh",
+        "Khadgawan",
+        "Bharatpur",
+        "Chirmiri"
+    ]
+}

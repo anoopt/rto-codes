@@ -1,0 +1,25 @@
+{
+    "code": "CG-17",
+    "region": "Jagdalpur",
+    "city": "Jagdalpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bastar",
+    "division": "Bastar",
+    "description": "The CG-17 RTO is located in Jagdalpur and serves as the primary regional transport office for the Bastar district. It handles all transport-related activities including vehicle registration, driving licenses, and permit issuance for the southern Bastar region, which transitioned from the MP-25 code following the state's creation in 2000.",
+    "status": "active",
+    "established": "2000",
+    "address": "Regional Transport Office, Adawal, Kurandi Road, Jagdalpur, Chhattisgarh",
+    "pinCode": "494001",
+    "phone": "07782-222718",
+    "email": "rto-bastar.cg@gov.in",
+    "jurisdictionAreas": [
+        "Jagdalpur",
+        "Bastar",
+        "Bakawand",
+        "Bastanar",
+        "Darbha",
+        "Lohandiguda",
+        "Tokapal"
+    ]
+}
