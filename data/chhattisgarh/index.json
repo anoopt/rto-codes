@@ -476,5 +476,122 @@
       "Bhairamgarh",
       "Usur"
     ]
+  },
+  {
+    "code": "CG-21",
+    "region": "Narayanpur",
+    "city": "Narayanpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Narayanpur",
+    "division": "Bastar",
+    "description": "The CG-21 District Transport Office (DTO) serves the Narayanpur district in Chhattisgarh. It is responsible for motor vehicle registration, issuing driving licenses, and collecting road taxes within the Bastar division.",
+    "status": "active",
+    "established": "2007",
+    "address": "Collectorate Office, Narayanpur, Chhattisgarh",
+    "pinCode": "494661",
+    "phone": "N/A",
+    "email": "dto-narayanpur.cg@gov.in",
+    "jurisdictionAreas": [
+      "Narayanpur",
+      "Orchha",
+      "Abujhmar",
+      "Benur",
+      "Kohkameta"
+    ]
+  },
+  {
+    "code": "CG-22",
+    "region": "Baloda Bazar",
+    "city": "Baloda Bazar",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Baloda Bazar-Bhatapara",
+    "division": "Raipur Division",
+    "description": "The CG-22 RTO serves the Baloda Bazar-Bhatapara district in Chhattisgarh, functioning as a District Transport Office (DTO). It was established following the district's formation in 2012 and manages vehicle registrations, driving licenses, and road tax collection for the local population. The office is located in the Composite Building near the new bus stand for public accessibility.",
+    "status": "active",
+    "established": "2012",
+    "address": "Room No. 17, Samanvit Karyalaya (Composite Building), Near New Bus Stand, Main Road, Baloda Bazar, Chhattisgarh",
+    "pinCode": "493332",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Baloda Bazar",
+      "Bhatapara",
+      "Kasdol",
+      "Palari",
+      "Simga",
+      "Bilaigarh"
+    ]
+  },
+  {
+    "code": "CG-23",
+    "region": "Gariaband",
+    "city": "Gariaband",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Gariaband",
+    "division": "Raipur",
+    "description": "The CG-23 Regional Transport Office serves the Gariaband district, which was carved out of Raipur in 2012. It is responsible for vehicle registration, licensing, and enforcing motor vehicle laws across its diverse geography ranging from tribal belts to industrial pockets.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Composite Collectorate Campus, Gariaband, Chhattisgarh",
+    "pinCode": "493889",
+    "phone": "0771-2511085",
+    "email": "dto-gariaband.cg@gov.in",
+    "jurisdictionAreas": [
+      "Gariaband",
+      "Chhura",
+      "Fingeshwar",
+      "Rajim",
+      "Deobhog",
+      "Mainpur"
+    ]
+  },
+  {
+    "code": "CG-24",
+    "region": "Balod",
+    "city": "Balod",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Balod",
+    "division": "Durg",
+    "description": "The CG-24 RTO serves the Balod district in Chhattisgarh, acting as the primary District Transport Office for the region. It is responsible for vehicle registration, driving license issuance, and ensuring compliance with the Motor Vehicles Act within its jurisdiction.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Collectorate Compound, Balod, Chhattisgarh",
+    "pinCode": "491226",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Balod",
+      "Gunderdehi",
+      "Gurur",
+      "Dondi",
+      "Dondilohara"
+    ]
+  },
+  {
+    "code": "CG-25",
+    "region": "Bemetara",
+    "city": "Bemetara",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bemetara",
+    "division": "Durg Division",
+    "description": "The CG-25 RTO serves the Bemetara district in Chhattisgarh, overseeing vehicle registration, licensing, and road tax collection. It was established as a separate office following the creation of Bemetara district from parts of Durg in 2012.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Collectorate Premises, Bemetara, Chhattisgarh",
+    "pinCode": "491335",
+    "phone": "07824-299005",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bemetara",
+      "Berla",
+      "Saja",
+      "Nawagarh",
+      "Thane-Khamariya"
+    ]
   }
 ]
