@@ -1,0 +1,23 @@
+{
+    "code": "CG-25",
+    "region": "Bemetara",
+    "city": "Bemetara",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Bemetara",
+    "division": "Durg Division",
+    "description": "The CG-25 RTO serves the Bemetara district in Chhattisgarh, overseeing vehicle registration, licensing, and road tax collection. It was established as a separate office following the creation of Bemetara district from parts of Durg in 2012.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Collectorate Premises, Bemetara, Chhattisgarh",
+    "pinCode": "491335",
+    "phone": "07824-299005",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bemetara",
+        "Berla",
+        "Saja",
+        "Nawagarh",
+        "Thane-Khamariya"
+    ]
+}

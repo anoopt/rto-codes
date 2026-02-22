@@ -1,0 +1,23 @@
+{
+    "code": "CG-21",
+    "region": "Narayanpur",
+    "city": "Narayanpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Narayanpur",
+    "division": "Bastar",
+    "description": "The CG-21 District Transport Office (DTO) serves the Narayanpur district in Chhattisgarh. It is responsible for motor vehicle registration, issuing driving licenses, and collecting road taxes within the Bastar division.",
+    "status": "active",
+    "established": "2007",
+    "address": "Collectorate Office, Narayanpur, Chhattisgarh",
+    "pinCode": "494661",
+    "phone": "N/A",
+    "email": "dto-narayanpur.cg@gov.in",
+    "jurisdictionAreas": [
+        "Narayanpur",
+        "Orchha",
+        "Abujhmar",
+        "Benur",
+        "Kohkameta"
+    ]
+}

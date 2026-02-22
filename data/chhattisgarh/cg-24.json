@@ -1,0 +1,23 @@
+{
+    "code": "CG-24",
+    "region": "Balod",
+    "city": "Balod",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Balod",
+    "division": "Durg",
+    "description": "The CG-24 RTO serves the Balod district in Chhattisgarh, acting as the primary District Transport Office for the region. It is responsible for vehicle registration, driving license issuance, and ensuring compliance with the Motor Vehicles Act within its jurisdiction.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Collectorate Compound, Balod, Chhattisgarh",
+    "pinCode": "491226",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Balod",
+        "Gunderdehi",
+        "Gurur",
+        "Dondi",
+        "Dondilohara"
+    ]
+}

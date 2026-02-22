@@ -1,0 +1,24 @@
+{
+    "code": "CG-23",
+    "region": "Gariaband",
+    "city": "Gariaband",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Gariaband",
+    "division": "Raipur",
+    "description": "The CG-23 Regional Transport Office serves the Gariaband district, which was carved out of Raipur in 2012. It is responsible for vehicle registration, licensing, and enforcing motor vehicle laws across its diverse geography ranging from tribal belts to industrial pockets.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Composite Collectorate Campus, Gariaband, Chhattisgarh",
+    "pinCode": "493889",
+    "phone": "0771-2511085",
+    "email": "dto-gariaband.cg@gov.in",
+    "jurisdictionAreas": [
+        "Gariaband",
+        "Chhura",
+        "Fingeshwar",
+        "Rajim",
+        "Deobhog",
+        "Mainpur"
+    ]
+}

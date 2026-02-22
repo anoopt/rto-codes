@@ -1,0 +1,24 @@
+{
+    "code": "CG-22",
+    "region": "Baloda Bazar",
+    "city": "Baloda Bazar",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Baloda Bazar-Bhatapara",
+    "division": "Raipur Division",
+    "description": "The CG-22 RTO serves the Baloda Bazar-Bhatapara district in Chhattisgarh, functioning as a District Transport Office (DTO). It was established following the district's formation in 2012 and manages vehicle registrations, driving licenses, and road tax collection for the local population. The office is located in the Composite Building near the new bus stand for public accessibility.",
+    "status": "active",
+    "established": "2012",
+    "address": "Room No. 17, Samanvit Karyalaya (Composite Building), Near New Bus Stand, Main Road, Baloda Bazar, Chhattisgarh",
+    "pinCode": "493332",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Baloda Bazar",
+        "Bhatapara",
+        "Kasdol",
+        "Palari",
+        "Simga",
+        "Bilaigarh"
+    ]
+}
