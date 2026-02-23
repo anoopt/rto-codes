@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-02-23T02:59:51.867Z",
+  "state": "Chhattisgarh",
+  "rtoCount": 25,
+  "successCount": 25,
+  "failedRTOs": [],
+  "coordinates": {
+    "CG-01": {
+      "lat": 21.2380912,
+      "lon": 81.6336993,
+      "displayName": "Raipur, Raipur Tahsil, Raipur, Chhattisgarh, 493332, India"
+    },
+    "CG-02": {
+      "lat": 21.2380912,
+      "lon": 81.6336993,
+      "displayName": "Raipur, Raipur Tahsil, Raipur, Chhattisgarh, 493332, India"
+    },
+    "CG-03": {
+      "lat": 21.2380912,
+      "lon": 81.6336993,
+      "displayName": "Raipur, Raipur Tahsil, Raipur, Chhattisgarh, 493332, India"
+    },
+    "CG-04": {
+      "lat": 21.2380912,
+      "lon": 81.6336993,
+      "displayName": "Raipur, Raipur Tahsil, Raipur, Chhattisgarh, 493332, India"
+    },
+    "CG-05": {
+      "lat": 20.7084545,
+      "lon": 81.5481305,
+      "displayName": "Dhamtari, Mahalaxmi Green colony, Dhamtari, Dhamtari Tahsil, Dhamtari, Chhattisgarh, 493773, India"
+    },
+    "CG-06": {
+      "lat": 21.1132737,
+      "lon": 82.1044155,
+      "displayName": "Mahasamund, Mahasamund Tahsil, Mahasamund, Chhattisgarh, 493445, India"
+    },
+    "CG-07": {
+      "lat": 21.1896499,
+      "lon": 81.2851077,
+      "displayName": "Durg, Durg Tahsil, Durg, Chhattisgarh, 491002, India"
+    },
+    "CG-08": {
+      "lat": 21.0964906,
+      "lon": 81.029154,
+      "displayName": "Rajnandgaon, Rajnandgaon Tahsil, Rajnandgaon, Chhattisgarh, 491441, India"
+    },
+    "CG-09": {
+      "lat": 22.0059254,
+      "lon": 81.2332055,
+      "displayName": "Kawardha, Kawardha Tahsil, Kabirdham, Chhattisgarh, 491995, India"
+    },
+    "CG-10": {
+      "lat": 21.989422,
+      "lon": 82.109917,
+      "displayName": "Bilasa Devi Kevat Bilaspur Airport, Airport Access Road, Bilha Tahsil, Bilaspur, Chhattisgarh, 495220, India"
+    },
+    "CG-11": {
+      "lat": 22.0090841,
+      "lon": 82.578896,
+      "displayName": "Janjgir, Janjgir Tahsil, Janjgir-Champa, Chhattisgarh, 495668, India"
+    },
+    "CG-12": {
+      "lat": 22.3547468,
+      "lon": 82.7110855,
+      "displayName": "Korba, Korba Tahsil, Korba, Chhattisgarh, 495600, India"
+    },
+    "CG-13": {
+      "lat": 21.897618,
+      "lon": 83.3965501,
+      "displayName": "Raigarh, Raigarh Tahsil, Raigarh, Chhattisgarh, 496001, India"
+    },
+    "CG-14": {
+      "lat": 22.8881481,
+      "lon": 84.1391879,
+      "displayName": "Jashpur Nagar, Jashpur Tahsil, Jashpur, Chhattisgarh, 496331, India"
+    },
+    "CG-15": {
+      "lat": 23.1226343,
+      "lon": 83.1981886,
+      "displayName": "امبیکاپور, Ambikapur Tahsil, Surguja, Chhattisgarh, India"
+    },
+    "CG-16": {
+      "lat": 23.2648727,
+      "lon": 82.5599988,
+      "displayName": "Baikunthpur, Baikunthpur Tahsil, Koriya, Chhattisgarh, 497335, India"
+    },
+    "CG-17": {
+      "lat": 19.0870758,
+      "lon": 82.0235715,
+      "displayName": "Jagdalpur, Jagdalpur Tahsil, Bastar, Chhattisgarh, 494001, India"
+    },
+    "CG-18": {
+      "lat": 18.8899125,
+      "lon": 81.3477975,
+      "displayName": "Dantewada, Dantewada Tahsil, Dantewada, Chhattisgarh, 494449, India"
+    },
+    "CG-19": {
+      "lat": 20.2692747,
+      "lon": 81.4932111,
+      "displayName": "Kanker, Kanker Tahsil, Uttar Bastar Kanker, Chhattisgarh, 494334, India"
+    },
+    "CG-20": {
+      "lat": 18.7781038,
+      "lon": 80.8989275,
+      "displayName": "Bijapur Tahsil, Bijapur, Chhattisgarh, 494444, India"
+    },
+    "CG-21": {
+      "lat": 19.7191529,
+      "lon": 81.244411,
+      "displayName": "Narayanpur, Narayanpur Tahsil, Narayanpur, Chhattisgarh, 494661, India"
+    },
+    "CG-22": {
+      "lat": 21.6632098,
+      "lon": 82.1493121,
+      "displayName": "District Hospital Blood Bank Baloda Bazar, SH10, Baloda Bazar Tahsil, Baloda Bazar, Chhattisgarh, 495559, India"
+    },
+    "CG-23": {
+      "lat": 20.633566,
+      "lon": 82.0635429,
+      "displayName": "Gariaband, Bindranavagarh(Gariyaband) Tahsil, Gariaband, Chhattisgarh, 493889, India"
+    },
+    "CG-24": {
+      "lat": 20.7272006,
+      "lon": 81.2054198,
+      "displayName": "Balod, Balod Tahsil, Balod, Chhattisgarh, 491226, India"
+    },
+    "CG-25": {
+      "lat": 21.7140465,
+      "lon": 81.535504,
+      "displayName": "Bemetara, Bemetara Tahsil, Bemetara, Chhattisgarh, 491335, India"
+    }
+  }
+}
