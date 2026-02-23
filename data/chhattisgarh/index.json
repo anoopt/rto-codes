@@ -593,5 +593,119 @@
       "Nawagarh",
       "Thane-Khamariya"
     ]
+  },
+  {
+    "code": "CG-26",
+    "region": "Sukma",
+    "city": "Sukma",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Sukma",
+    "division": "Bastar",
+    "description": "CG-26 is the District Transport Office for Sukma, Chhattisgarh, which was formed in 2012. The office is responsible for vehicle registration, licensing, and enforcing transport regulations across the southernmost district of the state.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Sukma, Chhattisgarh",
+    "pinCode": "494111",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sukma",
+      "Konta",
+      "Chhindgarh"
+    ]
+  },
+  {
+    "code": "CG-27",
+    "region": "Kondagaon",
+    "city": "Kondagaon",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Kondagaon",
+    "division": "Bastar Division",
+    "description": "The CG-27 Regional Transport Office serves the Kondagaon district in Chhattisgarh, overseeing vehicle registration, driving license issuance, and transport law enforcement. Established following the district's formation in 2012, this office is a key administrative hub for the Bastar region's road transport services.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Collectorate Campus, Kondagaon, Chhattisgarh",
+    "pinCode": "494226",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kondagaon",
+      "Makdi",
+      "Pharasgaon",
+      "Keshkal",
+      "Baderajpur"
+    ]
+  },
+  {
+    "code": "CG-28",
+    "region": "Mungeli",
+    "city": "Mungeli",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Mungeli",
+    "division": "Bilaspur",
+    "description": "The CG-28 RTO serves the Mungeli district of Chhattisgarh, which was officially established in 2012 after being carved out of Bilaspur. This District Transport Office (DTO) facilitates vehicle registrations, issuance of driving licenses, and local transport regulation in this administrative region.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Mungeli, Chhattisgarh",
+    "pinCode": "495334",
+    "phone": "07752-402080",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mungeli",
+      "Lormi",
+      "Pathariya"
+    ]
+  },
+  {
+    "code": "CG-29",
+    "region": "Surajpur",
+    "city": "Surajpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Surajpur",
+    "division": "Surguja",
+    "description": "The CG-29 RTO serves the Surajpur district in Chhattisgarh, managing all transport-related activities including vehicle registration and driving licenses. It was established following the district's formation in 2012 to provide localized transport services to the region.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Collectorate Premises, Surajpur, Chhattisgarh",
+    "pinCode": "497229",
+    "phone": "N/A",
+    "email": "dto-surajpur.cg@gov.in",
+    "jurisdictionAreas": [
+      "Surajpur",
+      "Bhaiyathan",
+      "Odagi",
+      "Pratappur",
+      "Ramanujnagar",
+      "Premnagar"
+    ]
+  },
+  {
+    "code": "CG-30",
+    "region": "Balrampur",
+    "city": "Balrampur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Balrampur-Ramanujganj",
+    "division": "Sarguja",
+    "description": "The CG-30 District Transport Office (DTO) serves the Balrampur-Ramanujganj district in the northernmost part of Chhattisgarh. It facilitates essential transport services including vehicle registration (RC), driving license issuance, and road tax collection for the region bordering Jharkhand and Uttar Pradesh.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office Of DTO Balrampur, Balrampur, Chhattisgarh",
+    "pinCode": "497119",
+    "phone": "N/A",
+    "email": "dto-balrampur.cg@gov.in",
+    "jurisdictionAreas": [
+      "Balrampur",
+      "Ramanujganj",
+      "Kusmi",
+      "Rajpur",
+      "Wadrafnagar",
+      "Samri",
+      "Shankargarh"
+    ]
   }
 ]
