@@ -1,0 +1,25 @@
+{
+    "code": "CG-30",
+    "region": "Balrampur",
+    "city": "Balrampur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Balrampur-Ramanujganj",
+    "division": "Sarguja",
+    "description": "The CG-30 District Transport Office (DTO) serves the Balrampur-Ramanujganj district in the northernmost part of Chhattisgarh. It facilitates essential transport services including vehicle registration (RC), driving license issuance, and road tax collection for the region bordering Jharkhand and Uttar Pradesh.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office Of DTO Balrampur, Balrampur, Chhattisgarh",
+    "pinCode": "497119",
+    "phone": "N/A",
+    "email": "dto-balrampur.cg@gov.in",
+    "jurisdictionAreas": [
+        "Balrampur",
+        "Ramanujganj",
+        "Kusmi",
+        "Rajpur",
+        "Wadrafnagar",
+        "Samri",
+        "Shankargarh"
+    ]
+}

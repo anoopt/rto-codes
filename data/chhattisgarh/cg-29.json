@@ -1,0 +1,24 @@
+{
+    "code": "CG-29",
+    "region": "Surajpur",
+    "city": "Surajpur",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Surajpur",
+    "division": "Surguja",
+    "description": "The CG-29 RTO serves the Surajpur district in Chhattisgarh, managing all transport-related activities including vehicle registration and driving licenses. It was established following the district's formation in 2012 to provide localized transport services to the region.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Collectorate Premises, Surajpur, Chhattisgarh",
+    "pinCode": "497229",
+    "phone": "N/A",
+    "email": "dto-surajpur.cg@gov.in",
+    "jurisdictionAreas": [
+        "Surajpur",
+        "Bhaiyathan",
+        "Odagi",
+        "Pratappur",
+        "Ramanujnagar",
+        "Premnagar"
+    ]
+}

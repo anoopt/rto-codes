@@ -1,0 +1,21 @@
+{
+    "code": "CG-26",
+    "region": "Sukma",
+    "city": "Sukma",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Sukma",
+    "division": "Bastar",
+    "description": "CG-26 is the District Transport Office for Sukma, Chhattisgarh, which was formed in 2012. The office is responsible for vehicle registration, licensing, and enforcing transport regulations across the southernmost district of the state.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Sukma, Chhattisgarh",
+    "pinCode": "494111",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sukma",
+        "Konta",
+        "Chhindgarh"
+    ]
+}

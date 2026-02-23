@@ -1,0 +1,21 @@
+{
+    "code": "CG-28",
+    "region": "Mungeli",
+    "city": "Mungeli",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Mungeli",
+    "division": "Bilaspur",
+    "description": "The CG-28 RTO serves the Mungeli district of Chhattisgarh, which was officially established in 2012 after being carved out of Bilaspur. This District Transport Office (DTO) facilitates vehicle registrations, issuance of driving licenses, and local transport regulation in this administrative region.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Mungeli, Chhattisgarh",
+    "pinCode": "495334",
+    "phone": "07752-402080",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mungeli",
+        "Lormi",
+        "Pathariya"
+    ]
+}

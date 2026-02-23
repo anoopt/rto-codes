@@ -1,0 +1,23 @@
+{
+    "code": "CG-27",
+    "region": "Kondagaon",
+    "city": "Kondagaon",
+    "state": "Chhattisgarh",
+    "stateCode": "CG",
+    "district": "Kondagaon",
+    "division": "Bastar Division",
+    "description": "The CG-27 Regional Transport Office serves the Kondagaon district in Chhattisgarh, overseeing vehicle registration, driving license issuance, and transport law enforcement. Established following the district's formation in 2012, this office is a key administrative hub for the Bastar region's road transport services.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the District Transport Officer, Collectorate Campus, Kondagaon, Chhattisgarh",
+    "pinCode": "494226",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kondagaon",
+        "Makdi",
+        "Pharasgaon",
+        "Keshkal",
+        "Baderajpur"
+    ]
+}
