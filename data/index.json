@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-02-23T02:58:15.449Z",
-  "totalRTOs": 234,
-  "totalVerified": 234,
+  "generatedAt": "2026-02-24T02:57:32.354Z",
+  "totalRTOs": 239,
+  "totalVerified": 239,
   "totalStates": 28,
-  "completedStates": 6,
+  "completedStates": 7,
   "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 4,
-  "inProgressUTs": 0,
+  "inProgressUTs": 1,
   "states": [
     {
       "stateCode": "AN",
@@ -254,11 +254,11 @@
         "cg-29",
         "cg-30"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "DD",
@@ -281,14 +281,20 @@
     {
       "stateCode": "DL",
       "stateName": "Delhi",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "dl-01",
+        "dl-02",
+        "dl-03",
+        "dl-04",
+        "dl-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1005,11 +1011,11 @@
         "cg-29",
         "cg-30"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "DD": {
       "stateCode": "DD",
@@ -1032,14 +1038,20 @@
     "DL": {
       "stateCode": "DL",
       "stateName": "Delhi",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "dl-01",
+        "dl-02",
+        "dl-03",
+        "dl-04",
+        "dl-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
