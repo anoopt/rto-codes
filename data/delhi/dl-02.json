@@ -1,0 +1,28 @@
+{
+    "code": "DL-02",
+    "region": "New Delhi (Tilak Marg)",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "New Delhi",
+    "division": "New Delhi",
+    "description": "DL-02 is the Regional Transport Office for the New Delhi zone, headquartered at Tilak Marg. It manages vehicle registrations and driving licenses for the central and VIP areas of the capital, including iconic locations like Connaught Place and India Gate.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Director's Zonal Office 3, Tilak Marg, New Delhi",
+    "pinCode": "110001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Connaught Place",
+        "India Gate",
+        "Janpath",
+        "Tilak Marg",
+        "IP Estate",
+        "Mandi House",
+        "Bengali Market",
+        "Barakhamba Road",
+        "Patel Chowk",
+        "Paharganj"
+    ]
+}

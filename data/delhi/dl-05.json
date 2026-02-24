@@ -1,0 +1,32 @@
+{
+    "code": "DL-05",
+    "region": "North East Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North East Delhi",
+    "division": "North East Delhi",
+    "description": "DL-05 is the Regional Transport Office serving the North East district of Delhi, with its primary office located at Loni Road, Shahdara. It handles vehicle registration, driving licenses, and transport permits for residents in the North East zone of the National Capital Territory.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Loni Road, Near Power House, Shahdara, Delhi - 110032",
+    "pinCode": "110032",
+    "phone": "011-22813475",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shahdara",
+        "Seelampur",
+        "Gamri",
+        "Nand Nagari",
+        "Gokalpuri",
+        "Bhajanpura",
+        "Yamuna Vihar",
+        "Karawal Nagar",
+        "Khazuri Khas",
+        "Sunder Nagar",
+        "Harsh Vihar",
+        "Seemapuri",
+        "G.T.B. Nagar",
+        "Mansarover Park"
+    ]
+}

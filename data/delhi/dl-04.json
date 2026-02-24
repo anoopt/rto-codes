@@ -1,0 +1,25 @@
+{
+    "code": "DL-04",
+    "region": "West Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "West Delhi",
+    "division": "West District-I",
+    "description": "DL-04 is the Zonal Office for West Delhi District-I located in Janakpuri. It is one of Delhi's busiest transport offices, responsible for vehicle registration, driving license issuance, and road tax collection for major residential and commercial areas in West Delhi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Department Office Complex, Ground Floor, Janakpuri District Centre, New Delhi",
+    "pinCode": "110058",
+    "phone": "011-25502424",
+    "email": "mlojp-trans@delhi.gov.in",
+    "jurisdictionAreas": [
+        "Janakpuri",
+        "Vikaspuri",
+        "Uttam Nagar",
+        "Tilak Nagar",
+        "Hari Nagar",
+        "Dabri",
+        "Mayapuri"
+    ]
+}

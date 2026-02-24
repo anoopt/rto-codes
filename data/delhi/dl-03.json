@@ -1,0 +1,28 @@
+{
+    "code": "DL-03",
+    "region": "South Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "South Delhi",
+    "division": "South Delhi Zonal Office",
+    "description": "The DL-03 RTO is the South Delhi Zonal Office situated at Sheikh Sarai. It is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations within the South Delhi district, including prominent areas like Saket and Hauz Khas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DDA Market, Sheikh Sarai Phase-I, Near Press Enclave Road, New Delhi",
+    "pinCode": "110017",
+    "phone": "011-29259800",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sheikh Sarai",
+        "Saket",
+        "Malviya Nagar",
+        "Greater Kailash",
+        "Chirag Delhi",
+        "Hauz Khas",
+        "Nehru Place",
+        "Kalkaji",
+        "Pushp Vihar",
+        "Sainik Farm"
+    ]
+}

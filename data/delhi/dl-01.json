@@ -1,0 +1,26 @@
+{
+    "code": "DL-01",
+    "region": "North Delhi (Mall Road)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North Delhi",
+    "division": "North District",
+    "description": "The DL-01 RTO is the Zonal Office for the North Delhi district, located at Mall Road near Delhi University. It is one of the primary transport offices in the National Capital Territory, handling critical services like vehicle registration, driving licenses, and commercial vehicle permits for major northern residential and institutional areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Director's Zonal Office, Mall Road, Delhi - 110007",
+    "pinCode": "110007",
+    "phone": "011-23819191",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Civil Lines",
+        "Timarpur",
+        "Mukherjee Nagar",
+        "Model Town",
+        "Burari",
+        "Wazirabad",
+        "Majnu Ka Tila",
+        "GTB Nagar"
+    ]
+}
