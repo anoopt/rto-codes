@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-24T02:57:32.354Z",
-  "totalRTOs": 239,
-  "totalVerified": 239,
+  "generatedAt": "2026-02-25T02:58:53.312Z",
+  "totalRTOs": 244,
+  "totalVerified": 244,
   "totalStates": 28,
   "completedStates": 7,
   "inProgressStates": 0,
@@ -281,16 +281,21 @@
     {
       "stateCode": "DL",
       "stateName": "Delhi",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "dl-01",
         "dl-02",
         "dl-03",
         "dl-04",
-        "dl-05"
+        "dl-05",
+        "dl-06",
+        "dl-07",
+        "dl-08",
+        "dl-09",
+        "dl-10"
       ],
       "isComplete": false,
       "type": "union-territory",
@@ -1038,16 +1043,21 @@
     "DL": {
       "stateCode": "DL",
       "stateName": "Delhi",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "dl-01",
         "dl-02",
         "dl-03",
         "dl-04",
-        "dl-05"
+        "dl-05",
+        "dl-06",
+        "dl-07",
+        "dl-08",
+        "dl-09",
+        "dl-10"
       ],
       "isComplete": false,
       "type": "union-territory",
