@@ -1,0 +1,24 @@
+{
+    "code": "DL-10",
+    "region": "Raja Garden",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "West Delhi",
+    "division": "West District-II",
+    "description": "DL-10 is the Regional Transport Office representing the West District-II in Delhi, specifically based in Raja Garden. This office manages vehicle registration, issuance of driving licenses, and other transport-related services for major localities like Punjabi Bagh and Rajouri Garden.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Raja Garden, New Delhi - 110027",
+    "pinCode": "110027",
+    "phone": "011-25163616",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rajouri Garden",
+        "Punjabi Bagh",
+        "Patel Nagar",
+        "Moti Nagar",
+        "Kirti Nagar",
+        "Anand Parbat"
+    ]
+}

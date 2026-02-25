@@ -1,0 +1,29 @@
+{
+    "code": "DL-07",
+    "region": "East Delhi District-I (Mayur Vihar)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "East Delhi",
+    "division": "Transport Department of NCT of Delhi",
+    "description": "The DL-07 RTO is the zonal office for East Delhi District-I located at the Mayur Vihar DTC Depot. It serves as a central hub for transport services including vehicle registration, driving licenses, and permits for the eastern part of the National Capital Territory. This office manages a high volume of transport administrative tasks for the trans-Yamuna region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTC Depot, Mayur Vihar Phase I, Delhi",
+    "pinCode": "110091",
+    "phone": "011-22753800",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mayur Vihar Phase I",
+        "Mayur Vihar Phase II",
+        "Mayur Vihar Phase III",
+        "Patparganj",
+        "Laxmi Nagar",
+        "Preet Vihar",
+        "Kalyanpuri",
+        "Trilokpuri",
+        "Shakarpur",
+        "New Ashok Nagar",
+        "Karkardooma"
+    ]
+}

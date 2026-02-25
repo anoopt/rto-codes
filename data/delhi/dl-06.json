@@ -1,0 +1,25 @@
+{
+    "code": "DL-06",
+    "region": "Sarai Kale Khan",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "South East Delhi",
+    "division": "Delhi Transport Department",
+    "description": "DL-06 is the Regional Transport Office for the Sarai Kale Khan zone in Delhi, serving as a vital hub for vehicle registration and licensing near the ISBT. It caters to prominent areas in South East and Central Delhi including Nizamuddin, Lajpat Nagar, and Ashram. The office is responsible for issuing driving licenses, road tax collection, and various transport-related permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Zonal Office, Transport Department, Sarai Kale Khan, New Delhi",
+    "pinCode": "110013",
+    "phone": "011-24351100",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sarai Kale Khan",
+        "Nizamuddin",
+        "Lajpat Nagar",
+        "Ashram",
+        "Bhogal",
+        "Jangpura",
+        "New Friends Colony"
+    ]
+}

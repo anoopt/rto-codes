@@ -1,0 +1,24 @@
+{
+    "code": "DL-08",
+    "region": "Wazirpur",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North West Delhi",
+    "division": "North West-I",
+    "description": "DL-08 is the North West-I Zonal Office of the Delhi Transport Department located at the DTC Depot in Wazirpur. It is responsible for vehicle registration, driving licenses, and permit issuance for a large portion of North West Delhi, including industrial and residential hubs. This RTO plays a crucial role in managing the heavy transport traffic associated with the Wazirpur Industrial Area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Department, Zonal Office North West-I, DTC Depot, Wazirpur, New Delhi",
+    "pinCode": "110052",
+    "phone": "011-27374000",
+    "email": "mlonw1-trans@delhi.gov.in",
+    "jurisdictionAreas": [
+        "Wazirpur Industrial Area",
+        "Ashok Vihar",
+        "Shalimar Bagh",
+        "Model Town",
+        "Pitampura",
+        "Saraswati Vihar"
+    ]
+}

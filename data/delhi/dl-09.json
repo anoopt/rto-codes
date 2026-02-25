@@ -1,0 +1,23 @@
+{
+    "code": "DL-09",
+    "region": "Dwarka",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "South West Delhi",
+    "division": "South West District-I",
+    "description": "DL-09 is the Zonal Office for South West District-I in Delhi, primarily serving the Dwarka and Palam regions. It provides comprehensive RTO services including vehicle registration and driving licenses, and is notably responsible for specialized series like e-rickshaw registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Department, Zonal Office, Dwarka Sector 16, New Delhi, Delhi 110078",
+    "pinCode": "110078",
+    "phone": "011-25624064",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dwarka",
+        "Palam",
+        "Uttam Nagar",
+        "Dabri",
+        "Janakpuri South"
+    ]
+}
