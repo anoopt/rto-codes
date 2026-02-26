@@ -1,0 +1,25 @@
+{
+    "code": "DL-13",
+    "region": "Surajmal Vihar",
+    "city": "East Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "East Delhi",
+    "division": "Delhi Transport Department",
+    "description": "DL-13 is the Regional Transport Office serving the East District-II in Delhi, located at Surajmal Vihar. This office was established to manage the increasing administrative load of vehicle registrations and driving license services in the eastern suburbs of the capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "CBD Ground, Surajmal Vihar, Delhi",
+    "pinCode": "110092",
+    "phone": "011-22383900",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Surajmal Vihar",
+        "Shahdara",
+        "Vivek Vihar",
+        "Anand Vihar",
+        "Krishna Nagar",
+        "Preet Vihar",
+        "Dilshad Garden"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "code": "DL-15",
+    "region": "Civil Lines",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North Delhi",
+    "division": "Delhi Transport Department",
+    "description": "DL-15 is a specialized RTO code designated exclusively for vehicles owned by the Government of NCT of Delhi (GNCTD). It is located at the Transport Commissioner's Office and does not provide registration or licensing services to the general public.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Commissioner Office, 5, Sham Nath Marg, Civil Lines, Delhi",
+    "pinCode": "110054",
+    "phone": "011-23994435",
+    "email": "tcdelhi@nic.in",
+    "jurisdictionAreas": [
+        "Government of NCT of Delhi Vehicles",
+        "Specialized State Transport Services"
+    ]
+}

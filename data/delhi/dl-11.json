@@ -1,0 +1,24 @@
+{
+    "code": "DL-11",
+    "region": "Rohini",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North West Delhi",
+    "division": "North West District-II Zonal Office",
+    "description": "The DL-11 RTO is the Zonal Office for North West District-II, located at the Rohini DTC Depot. It is responsible for vehicle registration, driving licenses, and other transport regulatory services for several key residential sectors and commercial hubs in North West Delhi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTC Depot, Sector-16, Rohini, New Delhi, Delhi - 110085",
+    "pinCode": "110085",
+    "phone": "011-27563535",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rohini",
+        "Pitampura",
+        "Shalimar Bagh",
+        "Mangolpuri",
+        "Budh Vihar",
+        "Sultanpuri"
+    ]
+}

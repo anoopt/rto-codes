@@ -1,0 +1,28 @@
+{
+    "code": "DL-12",
+    "region": "South West Delhi - II (Vasant Vihar)",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "South West Delhi",
+    "division": "South West District - II",
+    "description": "DL-12 is the Zonal Office for South West District-II located at Vasant Vihar in New Delhi. It handles various transport services including vehicle registration and driving license issuance for several high-profile residential and institutional areas in South West Delhi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTC Depot, Vasant Vihar, New Delhi",
+    "pinCode": "110057",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Vasant Vihar",
+        "Vasant Kunj",
+        "Munirka",
+        "Delhi Cantonment",
+        "Sarojini Nagar",
+        "Nauroji Nagar",
+        "IIT Delhi",
+        "Green Park",
+        "Ghitorni",
+        "Mahipalpur"
+    ]
+}
