@@ -262,5 +262,125 @@
       "Kirti Nagar",
       "Anand Parbat"
     ]
+  },
+  {
+    "code": "DL-11",
+    "region": "Rohini",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North West Delhi",
+    "division": "North West District-II Zonal Office",
+    "description": "The DL-11 RTO is the Zonal Office for North West District-II, located at the Rohini DTC Depot. It is responsible for vehicle registration, driving licenses, and other transport regulatory services for several key residential sectors and commercial hubs in North West Delhi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTC Depot, Sector-16, Rohini, New Delhi, Delhi - 110085",
+    "pinCode": "110085",
+    "phone": "011-27563535",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rohini",
+      "Pitampura",
+      "Shalimar Bagh",
+      "Mangolpuri",
+      "Budh Vihar",
+      "Sultanpuri"
+    ]
+  },
+  {
+    "code": "DL-12",
+    "region": "South West Delhi - II (Vasant Vihar)",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "South West Delhi",
+    "division": "South West District - II",
+    "description": "DL-12 is the Zonal Office for South West District-II located at Vasant Vihar in New Delhi. It handles various transport services including vehicle registration and driving license issuance for several high-profile residential and institutional areas in South West Delhi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTC Depot, Vasant Vihar, New Delhi",
+    "pinCode": "110057",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Vasant Vihar",
+      "Vasant Kunj",
+      "Munirka",
+      "Delhi Cantonment",
+      "Sarojini Nagar",
+      "Nauroji Nagar",
+      "IIT Delhi",
+      "Green Park",
+      "Ghitorni",
+      "Mahipalpur"
+    ]
+  },
+  {
+    "code": "DL-13",
+    "region": "Surajmal Vihar",
+    "city": "East Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "East Delhi",
+    "division": "Delhi Transport Department",
+    "description": "DL-13 is the Regional Transport Office serving the East District-II in Delhi, located at Surajmal Vihar. This office was established to manage the increasing administrative load of vehicle registrations and driving license services in the eastern suburbs of the capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "CBD Ground, Surajmal Vihar, Delhi",
+    "pinCode": "110092",
+    "phone": "011-22383900",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Surajmal Vihar",
+      "Shahdara",
+      "Vivek Vihar",
+      "Anand Vihar",
+      "Krishna Nagar",
+      "Preet Vihar",
+      "Dilshad Garden"
+    ]
+  },
+  {
+    "code": "DL-14",
+    "region": "Surajmal Vihar",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "Shahdara",
+    "division": "Zonal Office, East District-II",
+    "description": "The DL-14 RTO is the Zonal Office for East District-II located at Surajmal Vihar. Notably, this code was assigned to the 13th transport office in Delhi because the number 13 was skipped for vehicle registration prefixes due to common superstition. It provides various transport services including driving licenses and vehicle permits for parts of East Delhi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Zonal Office, East District-II, Surajmal Vihar, Delhi - 110092",
+    "pinCode": "110092",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shahdara",
+      "Anand Vihar",
+      "Vishwas Nagar",
+      "Vivek Vihar",
+      "Surajmal Vihar"
+    ]
+  },
+  {
+    "code": "DL-15",
+    "region": "Civil Lines",
+    "city": "Delhi",
+    "state": "Delhi",
+    "stateCode": "DL",
+    "district": "North Delhi",
+    "division": "Delhi Transport Department",
+    "description": "DL-15 is a specialized RTO code designated exclusively for vehicles owned by the Government of NCT of Delhi (GNCTD). It is located at the Transport Commissioner's Office and does not provide registration or licensing services to the general public.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Commissioner Office, 5, Sham Nath Marg, Civil Lines, Delhi",
+    "pinCode": "110054",
+    "phone": "011-23994435",
+    "email": "tcdelhi@nic.in",
+    "jurisdictionAreas": [
+      "Government of NCT of Delhi Vehicles",
+      "Specialized State Transport Services"
+    ]
   }
 ]
