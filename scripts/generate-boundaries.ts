@@ -71,6 +71,11 @@ const OSM_DISTRICT_ALIASES: Record<string, Record<string, string>> = {
   'Assam': {
     'Morigaon': 'Marigaon',  // OSM uses local spelling
   },
+  'Chhattisgarh': {
+    'Baloda Bazar-Bhatapara': 'Baloda Bazar',  // OSM drops the Bhatapara suffix
+    'Balrampur-Ramanujganj': 'Balrampur',       // OSM drops the Ramanujganj suffix
+    'Kanker': 'Uttar Bastar Kanker',            // OSM uses full official name
+  },
 };
 
 /**
