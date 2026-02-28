@@ -5,6 +5,7 @@
   "capital": "New Delhi",
   "totalRTOs": 15,
   "districtMapping": {
+    "Central Delhi": "Central Delhi",
     "East Delhi": "East Delhi",
     "New Delhi": "New Delhi",
     "North Delhi": "North Delhi",
