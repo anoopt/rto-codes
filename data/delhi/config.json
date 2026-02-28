@@ -4,7 +4,19 @@
   "displayName": "Delhi",
   "capital": "New Delhi",
   "totalRTOs": 15,
-  "districtMapping": {},
-  "isComplete": false,
-  "type": "union-territory"
+  "districtMapping": {
+    "East Delhi": "East Delhi",
+    "New Delhi": "New Delhi",
+    "North Delhi": "North Delhi",
+    "North East Delhi": "North East Delhi",
+    "North West Delhi": "North West Delhi",
+    "Shahdara": "Shahdara",
+    "South Delhi": "South Delhi",
+    "South East Delhi": "South East Delhi",
+    "South West Delhi": "South West Delhi",
+    "West Delhi": "West Delhi"
+  },
+  "isComplete": true,
+  "type": "union-territory",
+  "osmEnabled": true
 }
