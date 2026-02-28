@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-02-28T22:19:52.239Z",
+  "state": "Delhi",
+  "rtoCount": 15,
+  "successCount": 15,
+  "failedRTOs": [],
+  "coordinates": {
+    "DL-01": {
+      "lat": 28.7508153,
+      "lon": 77.1162765,
+      "displayName": "Delhi Technological University, Shahbad Daulatpur Village, Bawana road, Sector 27, Rohini, Alipur Tehsil, North Delhi, Delhi, 110042, India"
+    },
+    "DL-02": {
+      "lat": 28.6419258,
+      "lon": 77.2217499,
+      "displayName": "New Delhi, Foot Over Bridge 3, New Delhi Railway Station, Karol Bagh Tehsil, Central Delhi, Delhi, 110055, India"
+    },
+    "DL-03": {
+      "lat": 28.5450889,
+      "lon": 77.1664285,
+      "displayName": "State Bank of India, JNU Ring Road, Vasant Vihar Tehsil, New Delhi, Delhi, 110067, India"
+    },
+    "DL-04": {
+      "lat": 28.6337877,
+      "lon": 77.1293046,
+      "displayName": "Government of India Press, Mahatma Gandhi Marg, Naraina, New Delhi, Delhi, 110027, India"
+    },
+    "DL-05": {
+      "lat": 28.6720149,
+      "lon": 77.2503479,
+      "displayName": "Delhi Information Technology Park, Seelampur, Seelam Pur Tehsil, North East Delhi, Delhi, India"
+    },
+    "DL-06": {
+      "lat": 28.5387073,
+      "lon": 77.2868961,
+      "displayName": "Ricoh India Limited, 2nd Floor, Salcon Aurum building, Plot No. 4, District Centre, Sarita Vihar Tehsil, South East Delhi, Delhi, 110025, India"
+    },
+    "DL-07": {
+      "lat": 28.6120757,
+      "lon": 77.2860106,
+      "displayName": "Delhi Police Apartments, Mayur Vihar Tehsil, East Delhi, Delhi, India"
+    },
+    "DL-08": {
+      "lat": 28.7194201,
+      "lon": 77.1096302,
+      "displayName": "Gems India, 502, Bhagwan mahavir marg, Sector 10, Rohini, Rohini Tehsil, North West Delhi, Delhi, 110085, India"
+    },
+    "DL-09": {
+      "lat": 28.5860009,
+      "lon": 77.0879638,
+      "displayName": "State Bank of India, Dwarka Flyover, Raj Nagar I, Dwarka, South West Delhi, Delhi, 110045, India"
+    },
+    "DL-10": {
+      "lat": 28.6910723,
+      "lon": 77.0180122,
+      "displayName": "Satlok Ashram, Mundka (Delhi), Mundka, Punjabi Bagh Tehsil, West Delhi, Delhi, 110081, India"
+    },
+    "DL-11": {
+      "lat": 28.7194201,
+      "lon": 77.1096302,
+      "displayName": "Gems India, 502, Bhagwan mahavir marg, Sector 10, Rohini, Rohini Tehsil, North West Delhi, Delhi, 110085, India"
+    },
+    "DL-12": {
+      "lat": 28.5860009,
+      "lon": 77.0879638,
+      "displayName": "State Bank of India, Dwarka Flyover, Raj Nagar I, Dwarka, South West Delhi, Delhi, 110045, India"
+    },
+    "DL-13": {
+      "lat": 28.5953961,
+      "lon": 77.296491,
+      "displayName": "United India Apartments, Mayur Vihar Tehsil, East Delhi, Delhi, India"
+    },
+    "DL-14": {
+      "lat": 28.6734557,
+      "lon": 77.2922087,
+      "displayName": "Delhi Shahdara Junction, Circular Road, Shahdara, Vivek Vihar Tehsil, Shahdara, Delhi, 110032, India"
+    },
+    "DL-15": {
+      "lat": 28.7508153,
+      "lon": 77.1162765,
+      "displayName": "Delhi Technological University, Shahbad Daulatpur Village, Bawana road, Sector 27, Rohini, Alipur Tehsil, North Delhi, Delhi, 110042, India"
+    }
+  }
+}
