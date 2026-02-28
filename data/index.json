@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-02-28T22:18:23.219Z",
+  "generatedAt": "2026-02-28T22:35:11.214Z",
   "totalRTOs": 249,
   "totalVerified": 249,
   "totalStates": 28,
   "completedStates": 7,
   "inProgressStates": 0,
   "totalUTs": 8,
-  "completedUTs": 4,
+  "completedUTs": 5,
   "inProgressUTs": 0,
   "states": [
     {
@@ -302,11 +302,11 @@
         "dl-14",
         "dl-15"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "GA",
@@ -1069,11 +1069,11 @@
         "dl-14",
         "dl-15"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "GA": {
       "stateCode": "GA",
