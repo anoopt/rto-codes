@@ -3,7 +3,7 @@
   "name": "Delhi",
   "displayName": "Delhi",
   "capital": "New Delhi",
-  "totalRTOs": 16,
+  "totalRTOs": 15,
   "districtMapping": {},
   "isComplete": false,
   "type": "union-territory"

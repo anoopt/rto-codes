@@ -773,6 +773,16 @@ function updateStateConfigAfterPopulation(
             console.log(`   totalRTOs updated: ${before} → ${config.validCodes.length}`);
             configChanged = true;
         }
+    } else if (notInUseCodes.length > 0) {
+        // No validCodes list: reduce totalRTOs directly so the state can eventually
+        // be marked complete (e.g., DL-16 is not-in-use but config had totalRTOs=16).
+        const newTotal = config.totalRTOs - notInUseCodes.length;
+        if (newTotal !== config.totalRTOs && newTotal > 0) {
+            console.log(`\n📝 Reduced totalRTOs by ${notInUseCodes.length} not-in-use code(s): ${notInUseCodes.join(', ')}`);
+            console.log(`   totalRTOs updated: ${config.totalRTOs} → ${newTotal}`);
+            config.totalRTOs = newTotal;
+            configChanged = true;
+        }
     }
 
     // If we processed the full range, we can confidently update totalRTOs
