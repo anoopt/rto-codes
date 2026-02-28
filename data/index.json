@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-26T02:56:09.463Z",
+  "generatedAt": "2026-02-28T22:18:23.219Z",
   "totalRTOs": 249,
   "totalVerified": 249,
   "totalStates": 28,
@@ -7,7 +7,7 @@
   "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 4,
-  "inProgressUTs": 1,
+  "inProgressUTs": 0,
   "states": [
     {
       "stateCode": "AN",
@@ -282,7 +282,7 @@
       "stateCode": "DL",
       "stateName": "Delhi",
       "rtoCount": 15,
-      "totalExpectedRTOs": 16,
+      "totalExpectedRTOs": 15,
       "activeRTOs": 0,
       "verifiedCount": 15,
       "rtoCodes": [
@@ -304,7 +304,7 @@
       ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1049,7 +1049,7 @@
       "stateCode": "DL",
       "stateName": "Delhi",
       "rtoCount": 15,
-      "totalExpectedRTOs": 16,
+      "totalExpectedRTOs": 15,
       "activeRTOs": 0,
       "verifiedCount": 15,
       "rtoCodes": [
@@ -1071,7 +1071,7 @@
       ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
