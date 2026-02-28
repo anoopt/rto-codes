@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-23T02:59:51.867Z",
+  "generatedAt": "2026-02-28T23:12:08.573Z",
   "state": "Chhattisgarh",
-  "rtoCount": 25,
-  "successCount": 25,
+  "rtoCount": 30,
+  "successCount": 30,
   "failedRTOs": [],
   "coordinates": {
     "CG-01": {
@@ -129,6 +129,31 @@
       "lat": 21.7140465,
       "lon": 81.535504,
       "displayName": "Bemetara, Bemetara Tahsil, Bemetara, Chhattisgarh, 491335, India"
+    },
+    "CG-26": {
+      "lat": 18.3932222,
+      "lon": 81.6569457,
+      "displayName": "Sukma, Sukma Tahsil, Sukma, Chhattisgarh, 494111, India"
+    },
+    "CG-27": {
+      "lat": 19.5890057,
+      "lon": 81.6616575,
+      "displayName": "Public Hospital Kondagaon, NH30, Chikhal Puti, Kondagaon Tahsil, Kondagaon, Chhattisgarh, 494226, India"
+    },
+    "CG-28": {
+      "lat": 22.0681269,
+      "lon": 81.6912056,
+      "displayName": "agrwal hospital, mungeli, NH130A, Mungeli Tahsil, Mungeli, Chhattisgarh, 495334, India"
+    },
+    "CG-29": {
+      "lat": 23.212528,
+      "lon": 82.8667246,
+      "displayName": "Surajpur, Surajpur Tahsil, Surajpur, Chhattisgarh, 497229, India"
+    },
+    "CG-30": {
+      "lat": 23.616665,
+      "lon": 83.618798,
+      "displayName": "District Hospital, Balrampur, NH343, Bohlā, Ramanujganj, Balrampur Tahsil, Balrampur, Chhattisgarh, 497119, India"
     }
   }
 }
