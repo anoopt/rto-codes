@@ -1,0 +1,28 @@
+{
+    "code": "GJ-03",
+    "region": "Rajkot",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Rajkot",
+    "division": "Rajkot Division",
+    "description": "The GJ-03 RTO serves the Rajkot district in Gujarat, acting as a major hub for vehicle registration and licensing in the Saurashtra region. It is one of the busiest transport offices in the state, handling a high volume of both private and commercial vehicle certifications.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Marketing Yard, Porbandar Highway, Rajkot, Gujarat - 360003",
+    "pinCode": "360003",
+    "phone": "0281-2703366",
+    "email": "rto-raj-gj@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Rajkot",
+        "Gondal",
+        "Jetpur",
+        "Dhoraji",
+        "Kotda Sangani",
+        "Lodhika",
+        "Paddhari",
+        "Upleta",
+        "Jasdan",
+        "Vinchhiya"
+    ]
+}

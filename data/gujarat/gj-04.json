@@ -1,0 +1,27 @@
+{
+    "code": "GJ-04",
+    "region": "Bhavnagar",
+    "city": "Bhavnagar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Bhavnagar",
+    "division": "Bhavnagar",
+    "description": "The GJ-04 RTO is the Regional Transport Office responsible for the Bhavnagar district in Gujarat. It plays a vital role in the Saurashtra region, overseeing vehicle registration, driving license issuance, and road safety enforcement for this major trade and industrial center.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office, Gadhechi Vadala, Bhavnagar, Gujarat",
+    "pinCode": "364003",
+    "phone": "0278-2424004",
+    "email": "rto-trans-bhv@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Bhavnagar",
+        "Mahuva",
+        "Palitana",
+        "Gariadhar",
+        "Sihor",
+        "Talaja",
+        "Vallabhipur",
+        "Umrala",
+        "Jesar"
+    ]
+}

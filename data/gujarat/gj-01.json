@@ -1,0 +1,29 @@
+{
+    "code": "GJ-01",
+    "region": "Ahmedabad (West)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Ahmedabad",
+    "division": "Ahmedabad",
+    "description": "GJ-01 is the primary Regional Transport Office for Ahmedabad city, specifically serving the West and Central zones. Located at Subhash Bridge, it is one of the busiest RTOs in Gujarat, handling vehicle registration, driving licenses, and transport permits for a significant portion of the state's largest city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Subhash Bridge, Sabarmati, Ahmedabad, Gujarat",
+    "pinCode": "380027",
+    "phone": "079-27559696",
+    "email": "rto-ahd@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Sabarmati",
+        "Ranip",
+        "Chandkheda",
+        "Naranpura",
+        "Memnagar",
+        "Navrangpura",
+        "Paldi",
+        "Ellisbridge",
+        "Vasna",
+        "Ghatlodia",
+        "Chandlodia"
+    ]
+}

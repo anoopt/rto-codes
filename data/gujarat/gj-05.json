@@ -1,0 +1,28 @@
+{
+    "code": "GJ-05",
+    "region": "Surat City",
+    "city": "Surat",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Surat",
+    "division": "Surat",
+    "description": "The GJ-05 RTO office serves the metropolitan area of Surat, one of India's largest commercial hubs for textiles and diamonds. It is responsible for vehicle registration, licensing, and enforcing transport regulations within the Surat Municipal Corporation limits. Given the city's high population density and economic activity, this is one of the most active transport offices in Gujarat.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Behind Krushi Mangal Hall, Near Majura Gate, Ring Road, Surat, Gujarat",
+    "pinCode": "395001",
+    "phone": "0261-2464002",
+    "email": "rto-trans-sur@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Surat Municipal Corporation",
+        "Athwa",
+        "Adajan",
+        "Varachha",
+        "Katargam",
+        "Limbayat",
+        "Udhna",
+        "Rander",
+        "Piplod",
+        "Vesu"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "code": "GJ-02",
+    "region": "Mehsana",
+    "city": "Mehsana",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Mehsana",
+    "division": "Mehsana",
+    "description": "The GJ-02 RTO serves the Mehsana district in Gujarat, acting as a primary hub for vehicle registration and licensing in the North Gujarat region. It is a critical office for the district's significant dairy and industrial transport sectors, managing a high volume of commercial and private vehicle documentation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Sardar Dairy, Palavasna, Mehsana, Gujarat",
+    "pinCode": "384002",
+    "phone": "02762-221235",
+    "email": "rto-meh@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Mehsana",
+        "Kadi",
+        "Visnagar",
+        "Kalol",
+        "Vijapur",
+        "Becharaji",
+        "Unjha",
+        "Vadnagar",
+        "Satlasana",
+        "Kheralu"
+    ]
+}
