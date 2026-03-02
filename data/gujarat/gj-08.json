@@ -1,0 +1,31 @@
+{
+    "code": "GJ-08",
+    "region": "Palanpur",
+    "city": "Palanpur",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Banaskantha",
+    "division": "Palanpur",
+    "description": "The GJ-08 RTO office is located in Palanpur and serves as the primary transport authority for the Banaskantha district in Gujarat. It manages vehicle registration, driving license issuance, and road tax collection for the northern border regions of the state. The office handles significant commercial traffic given its proximity to the Rajasthan border and major national highway corridors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Balaram Road, Ahmedabad-Palanpur Highway, Palanpur, Banaskantha, Gujarat - 385001",
+    "pinCode": "385001",
+    "phone": "+91-2742-252370",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Palanpur",
+        "Deesa",
+        "Dhanera",
+        "Danta",
+        "Vadgam",
+        "Amirgadh",
+        "Tharad",
+        "Vav",
+        "Kankrej",
+        "Deodar",
+        "Bhabhar",
+        "Lakhani",
+        "Suigam"
+    ]
+}

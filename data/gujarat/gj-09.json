@@ -1,0 +1,26 @@
+{
+    "code": "GJ-09",
+    "region": "Himmatnagar",
+    "city": "Himmatnagar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Sabarkantha",
+    "division": "North Gujarat",
+    "description": "The GJ-09 Regional Transport Office is located in Himmatnagar and serves the Sabarkantha district. It manages vehicle registrations, driving license issuance, and road safety enforcement across the region's talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Savgadh, Vijapur Road, Himatnagar, District: Sabarkantha, Gujarat",
+    "pinCode": "383001",
+    "phone": "+91 2772 222597",
+    "email": "rto-him-gj@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Himmatnagar",
+        "Idar",
+        "Prantij",
+        "Talod",
+        "Khedbrahma",
+        "Vadali",
+        "Vijaynagar",
+        "Poshina"
+    ]
+}

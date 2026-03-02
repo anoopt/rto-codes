@@ -1,0 +1,24 @@
+{
+    "code": "GJ-10",
+    "region": "Jamnagar",
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Jamnagar",
+    "division": "Jamnagar",
+    "description": "GJ-10 is the Regional Transport Office (RTO) serving the Jamnagar district in Gujarat. It is responsible for vehicle registration, driving licenses, and enforcing transport regulations in this key industrial and coastal region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Lal Bungalow Compound, Jamnagar, Gujarat",
+    "pinCode": "361001",
+    "phone": "0288-2672100",
+    "email": "rto-trans-jmn@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Jamnagar",
+        "Dhrol",
+        "Jodiya",
+        "Kalavad",
+        "Lalpur",
+        "Jamjodhpur"
+    ]
+}

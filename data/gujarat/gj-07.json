@@ -1,0 +1,28 @@
+{
+    "code": "GJ-07",
+    "region": "Nadiad",
+    "city": "Nadiad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Kheda",
+    "division": "Ahmedabad",
+    "description": "The GJ-07 RTO serves the Kheda district of Gujarat with its main office located in Nadiad. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations across several talukas in central Gujarat.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Compound Nadiad, Opposite Government Circuit House, Near Collectorate, Mile Road, Nadiad, Gujarat",
+    "pinCode": "387001",
+    "phone": "0268-2550213",
+    "email": "rto-trans-khe@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Nadiad",
+        "Matar",
+        "Kheda",
+        "Mehmedabad",
+        "Mahudha",
+        "Vaso",
+        "Thasra",
+        "Galteshwar",
+        "Kathlal",
+        "Kapadvanj"
+    ]
+}

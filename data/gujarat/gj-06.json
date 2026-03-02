@@ -1,0 +1,29 @@
+{
+    "code": "GJ-06",
+    "region": "Vadodara City",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Vadodara",
+    "division": "Vadodara",
+    "description": "The GJ-06 RTO is the primary transport office for Vadodara City, Gujarat. It handles a wide range of services including vehicle registration, issuance of driving licenses, and road tax collection for the urban areas of Vadodara. It plays a crucial role in managing the transport infrastructure of the 'Sanskari Nagari' of Gujarat.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Sant Kanwar Colony, Warasiya, Vadodara, Gujarat",
+    "pinCode": "390006",
+    "phone": "+91-265-2561130",
+    "email": "rto-vado@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Vadodara City",
+        "Warasiya",
+        "Sayajigunj",
+        "Karelibaug",
+        "Akota",
+        "Alkapuri",
+        "Manjalpur",
+        "Tarsali",
+        "Gotri",
+        "Vasna",
+        "Fategunj"
+    ]
+}
