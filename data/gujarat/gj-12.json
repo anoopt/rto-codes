@@ -1,0 +1,25 @@
+{
+    "code": "GJ-12",
+    "region": "Bhuj",
+    "city": "Bhuj",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Kutch",
+    "division": "Kutch",
+    "description": "The GJ-12 RTO office is located in Bhuj and serves as the primary transport authority for the Kutch district, India's largest district by area. It manages vehicle registration, driving licenses, and commercial permits for the diverse border region and industrial ports of western Gujarat.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office, Near G.K. General Hospital, RTO Relocation Site, Bhuj, Gujarat",
+    "pinCode": "370001",
+    "phone": "02832-221950",
+    "email": "rto-bhuj-gj@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Bhuj",
+        "Mundra",
+        "Mandvi",
+        "Nakhatrana",
+        "Abdasa",
+        "Lakhpat",
+        "Khavda"
+    ]
+}

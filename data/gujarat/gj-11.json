@@ -1,0 +1,27 @@
+{
+    "code": "GJ-11",
+    "region": "Junagadh",
+    "city": "Junagadh",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Junagadh",
+    "division": "Rajkot",
+    "description": "The GJ-11 RTO serves the Junagadh district in Gujarat, facilitating vehicle registrations, driving licenses, and transport tax collection. It is a vital administrative office for the Saurashtra region, located near the foothills of the historic Mount Girnar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Majevadi Gate, Opposite Girnar Hotel, Junagadh, Gujarat",
+    "pinCode": "362001",
+    "phone": "0285-2650691",
+    "email": "rto-trans-jun@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Junagadh City",
+        "Junagadh Rural",
+        "Keshod",
+        "Mangrol",
+        "Manavadar",
+        "Malia",
+        "Mendarda",
+        "Vanthali",
+        "Visavadar"
+    ]
+}

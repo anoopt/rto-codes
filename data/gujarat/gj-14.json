@@ -1,0 +1,29 @@
+{
+    "code": "GJ-14",
+    "region": "Amreli",
+    "city": "Amreli",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Amreli",
+    "division": "Rajkot",
+    "description": "The GJ-14 RTO is an Assistant Regional Transport Office (ARTO) located in Amreli, serving the Saurashtra region of Gujarat. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of the Motor Vehicles Act within the Amreli district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "2nd Floor, Bahumali Bhavan (M.S. Building), Rajmahal Campus, Amreli, Gujarat",
+    "pinCode": "365601",
+    "phone": "02792-223313",
+    "email": "arto-trans-amr@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Amreli",
+        "Bagasara",
+        "Dhari",
+        "Jafrabad",
+        "Khambha",
+        "Kunkavav Vadia",
+        "Lathi",
+        "Lilia",
+        "Rajula",
+        "Savar Kundla",
+        "Babra"
+    ]
+}

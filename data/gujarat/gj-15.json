@@ -1,0 +1,24 @@
+{
+    "code": "GJ-15",
+    "region": "Valsad",
+    "city": "Valsad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Valsad",
+    "division": "Surat Division",
+    "description": "GJ-15 is the Regional Transport Office for Valsad district in Gujarat, managing a high volume of commercial and private vehicle registrations given its status as an industrial and coastal hub. The office provides essential services such as driving license issuance, vehicle fitness certification, and enforcement of the Motor Vehicles Act across the district's six talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Valsad, Atakpardi, Dharampur Road, Valsad, Gujarat",
+    "pinCode": "396007",
+    "phone": "02632-226622",
+    "email": "rto-val@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Valsad",
+        "Vapi",
+        "Pardi",
+        "Umargam",
+        "Dharampur",
+        "Kaprada"
+    ]
+}

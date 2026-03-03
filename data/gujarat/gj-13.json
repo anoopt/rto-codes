@@ -1,0 +1,28 @@
+{
+    "code": "GJ-13",
+    "region": "Surendranagar",
+    "city": "Surendranagar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Surendranagar",
+    "division": "Ahmedabad",
+    "description": "The GJ-13 RTO serves as the Assistant Regional Transport Office (ARTO) for the Surendranagar district in Gujarat. It manages vehicle registration, driving license issuance, and transport law enforcement within its administrative boundaries.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Multistore Building (M. S. Building), Block-C, Ground Floor, Kherali Road, Surendranagar, Gujarat",
+    "pinCode": "363001",
+    "phone": "02752-285634",
+    "email": "arto-trans-srn@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Wadhwan",
+        "Muli",
+        "Sayla",
+        "Chotila",
+        "Limbdi",
+        "Dasada",
+        "Lakhtar",
+        "Thangadh",
+        "Chuda",
+        "Dhrangadhra"
+    ]
+}
