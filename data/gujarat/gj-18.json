@@ -1,0 +1,22 @@
+{
+    "code": "GJ-18",
+    "region": "Gandhinagar",
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Gandhinagar",
+    "division": "Gandhinagar",
+    "description": "GJ-18 is the Regional Transport Office for Gandhinagar, the administrative capital of Gujarat. It manages vehicle registrations for the district and plays a key role in implementing state-level transport policies given its proximity to the state transport headquarters.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near G-0 Circle, Sector 3A, Gandhinagar, Gujarat",
+    "pinCode": "382006",
+    "phone": "079-23240954",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gandhinagar",
+        "Kalol",
+        "Dahegam",
+        "Mansa"
+    ]
+}

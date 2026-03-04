@@ -1,0 +1,26 @@
+{
+    "code": "GJ-20",
+    "region": "Dahod",
+    "city": "Dahod",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Dahod",
+    "division": "Vadodara",
+    "description": "GJ-20 is the Assistant Regional Transport Office (ARTO) serving the Dahod district in Gujarat. Located on the Indore Highway, it handles essential services including vehicle registration, learner and permanent driving licenses, and road tax collection.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant RTO Office, Near Garbada Chockdi, Indore Highway, Dahod, Gujarat",
+    "pinCode": "389151",
+    "phone": "02673-243200",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dahod",
+        "Garbada",
+        "Devgadh Baria",
+        "Dhanpur",
+        "Jhalod",
+        "Fatepura",
+        "Sanjeli",
+        "Limkheda"
+    ]
+}

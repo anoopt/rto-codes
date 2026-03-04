@@ -1,0 +1,23 @@
+{
+    "code": "GJ-19",
+    "region": "Bardoli",
+    "city": "Bardoli",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Surat",
+    "division": "Surat",
+    "description": "The GJ-19 RTO serves the Bardoli region in the Surat district of Gujarat. As an Assistant Regional Transport Office (ARTO), it handles vehicle registrations, driving license issuances, and transport permits for the eastern talukas of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Near Dhamdod Jakat Naka, Juna Power House, Bardoli, Gujarat - 394601",
+    "pinCode": "394601",
+    "phone": "02622-223457",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bardoli",
+        "Mahuva",
+        "Mandvi",
+        "Mangrol",
+        "Umarpada"
+    ]
+}

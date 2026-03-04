@@ -1,0 +1,25 @@
+{
+    "code": "GJ-17",
+    "region": "Godhra",
+    "city": "Godhra",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Panchmahal",
+    "division": "Vadodara",
+    "description": "The GJ-17 Regional Transport Office is located in Godhra and serves the entire Panchmahal district. It handles vehicle registration, license issuance, and monitors transport safety across the region's industrial and residential zones.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Office, Beside T.V. Station, Civil Line Road, Near Commerce College, Godhra, Panchmahal, Gujarat",
+    "pinCode": "389001",
+    "phone": "02672-242724",
+    "email": "arto-godh-gj@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Godhra",
+        "Halol",
+        "Kalol",
+        "Shahera",
+        "Ghoghamba",
+        "Morwa Hadaf",
+        "Jambughoda"
+    ]
+}

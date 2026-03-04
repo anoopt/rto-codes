@@ -1,0 +1,26 @@
+{
+    "code": "GJ-16",
+    "region": "Bharuch",
+    "city": "Bharuch",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Bharuch",
+    "division": "Vadodara",
+    "description": "The GJ-16 Regional Transport Office (RTO) serves the industrial district of Bharuch in Gujarat. It is responsible for motor vehicle registration, issuance of driving licenses, and road tax collection within its jurisdiction which includes major industrial hubs like Ankleshwar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office, Nandevan Chockdi, National Highway 48, Bharuch, Gujarat",
+    "pinCode": "392001",
+    "phone": "02642-240653",
+    "email": "rto-bhu@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Bharuch",
+        "Ankleshwar",
+        "Hansot",
+        "Jambusar",
+        "Jhagadia",
+        "Vagra",
+        "Valia",
+        "Netrang"
+    ]
+}
