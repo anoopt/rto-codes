@@ -409,5 +409,127 @@
       "Dharampur",
       "Kaprada"
     ]
+  },
+  {
+    "code": "GJ-16",
+    "region": "Bharuch",
+    "city": "Bharuch",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Bharuch",
+    "division": "Vadodara",
+    "description": "The GJ-16 Regional Transport Office (RTO) serves the industrial district of Bharuch in Gujarat. It is responsible for motor vehicle registration, issuance of driving licenses, and road tax collection within its jurisdiction which includes major industrial hubs like Ankleshwar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office, Nandevan Chockdi, National Highway 48, Bharuch, Gujarat",
+    "pinCode": "392001",
+    "phone": "02642-240653",
+    "email": "rto-bhu@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Bharuch",
+      "Ankleshwar",
+      "Hansot",
+      "Jambusar",
+      "Jhagadia",
+      "Vagra",
+      "Valia",
+      "Netrang"
+    ]
+  },
+  {
+    "code": "GJ-17",
+    "region": "Godhra",
+    "city": "Godhra",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Panchmahal",
+    "division": "Vadodara",
+    "description": "The GJ-17 Regional Transport Office is located in Godhra and serves the entire Panchmahal district. It handles vehicle registration, license issuance, and monitors transport safety across the region's industrial and residential zones.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Office, Beside T.V. Station, Civil Line Road, Near Commerce College, Godhra, Panchmahal, Gujarat",
+    "pinCode": "389001",
+    "phone": "02672-242724",
+    "email": "arto-godh-gj@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Godhra",
+      "Halol",
+      "Kalol",
+      "Shahera",
+      "Ghoghamba",
+      "Morwa Hadaf",
+      "Jambughoda"
+    ]
+  },
+  {
+    "code": "GJ-18",
+    "region": "Gandhinagar",
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Gandhinagar",
+    "division": "Gandhinagar",
+    "description": "GJ-18 is the Regional Transport Office for Gandhinagar, the administrative capital of Gujarat. It manages vehicle registrations for the district and plays a key role in implementing state-level transport policies given its proximity to the state transport headquarters.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near G-0 Circle, Sector 3A, Gandhinagar, Gujarat",
+    "pinCode": "382006",
+    "phone": "079-23240954",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Gandhinagar",
+      "Kalol",
+      "Dahegam",
+      "Mansa"
+    ]
+  },
+  {
+    "code": "GJ-19",
+    "region": "Bardoli",
+    "city": "Bardoli",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Surat",
+    "division": "Surat",
+    "description": "The GJ-19 RTO serves the Bardoli region in the Surat district of Gujarat. As an Assistant Regional Transport Office (ARTO), it handles vehicle registrations, driving license issuances, and transport permits for the eastern talukas of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Near Dhamdod Jakat Naka, Juna Power House, Bardoli, Gujarat - 394601",
+    "pinCode": "394601",
+    "phone": "02622-223457",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bardoli",
+      "Mahuva",
+      "Mandvi",
+      "Mangrol",
+      "Umarpada"
+    ]
+  },
+  {
+    "code": "GJ-20",
+    "region": "Dahod",
+    "city": "Dahod",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Dahod",
+    "division": "Vadodara",
+    "description": "GJ-20 is the Assistant Regional Transport Office (ARTO) serving the Dahod district in Gujarat. Located on the Indore Highway, it handles essential services including vehicle registration, learner and permanent driving licenses, and road tax collection.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant RTO Office, Near Garbada Chockdi, Indore Highway, Dahod, Gujarat",
+    "pinCode": "389151",
+    "phone": "02673-243200",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dahod",
+      "Garbada",
+      "Devgadh Baria",
+      "Dhanpur",
+      "Jhalod",
+      "Fatepura",
+      "Sanjeli",
+      "Limkheda"
+    ]
   }
 ]
