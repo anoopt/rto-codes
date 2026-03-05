@@ -1,0 +1,26 @@
+{
+    "code": "GJ-23",
+    "region": "Anand",
+    "city": "Anand",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Anand",
+    "division": "Ahmedabad",
+    "description": "The GJ-23 RTO serves the Anand district in Gujarat, famously known as the Milk Capital of India. It functions as an Assistant Regional Transport Office (ARTO) responsible for vehicle registrations, issuing driving licenses, and enforcing motor vehicle regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Jilla Seva Sadan, MS Building, Ground Floor, Near Borsad Chokadi, Anand, Gujarat",
+    "pinCode": "388001",
+    "phone": "02692-264800",
+    "email": "arto-anand@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Anand",
+        "Anklav",
+        "Borsad",
+        "Khambhat",
+        "Petlad",
+        "Sojitra",
+        "Tarapur",
+        "Umreth"
+    ]
+}

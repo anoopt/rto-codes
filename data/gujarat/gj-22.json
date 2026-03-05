@@ -1,0 +1,24 @@
+{
+    "code": "GJ-22",
+    "region": "Rajpipla",
+    "city": "Rajpipla",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Narmada",
+    "division": "Vadodara",
+    "description": "GJ-22 is the Assistant Regional Transport Office (ARTO) serving the Rajpipla region and the Narmada district. It is responsible for vehicle registration, driving licenses, and transport permit issuance for the residents of this administrative district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collector Office Building (Jilla Seva Sadan), Room No. 13/14, Ground Floor, Rajpipla, District: Narmada, Gujarat",
+    "pinCode": "393145",
+    "phone": "02640-224948",
+    "email": "arto-transrjp@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Rajpipla",
+        "Nandod",
+        "Garudeshwar",
+        "Tilakwada",
+        "Dediapada",
+        "Sagbara"
+    ]
+}

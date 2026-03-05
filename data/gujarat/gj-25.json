@@ -1,0 +1,21 @@
+{
+    "code": "GJ-25",
+    "region": "Porbandar",
+    "city": "Porbandar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Porbandar",
+    "division": "Rajkot Division",
+    "description": "GJ-25 is the official Regional Transport Office (ARTO) for the Porbandar district in Gujarat. It handles vehicle registration, fitness certificates, and licensing services for the coastal region, ensuring adherence to the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Jila Seva Sadan-2, Ranghavav, Sandeepani Ashram Road, Chhaya, Porbandar, Gujarat",
+    "pinCode": "360575",
+    "phone": "N/A",
+    "email": "artoporb-gj@nic.in",
+    "jurisdictionAreas": [
+        "Porbandar",
+        "Ranavav",
+        "Kutiyana"
+    ]
+}

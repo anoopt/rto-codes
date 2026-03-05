@@ -1,0 +1,27 @@
+{
+    "code": "GJ-24",
+    "region": "Patan",
+    "city": "Patan",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Patan",
+    "division": "Mehsana Division",
+    "description": "GJ-24 is the Assistant Regional Transport Office (ARTO) for Patan, Gujarat. It is responsible for the administration of motor vehicle acts, including vehicle registration, issuance of driving licenses, and permit management for the Patan district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant RTO Office, GIDC Estate Building No. 3, Sidhpur Cross Road, Near Navjivan Hotel, Patan, Gujarat",
+    "pinCode": "384265",
+    "phone": "02766-223100",
+    "email": "arto-patan@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Patan",
+        "Sidhpur",
+        "Chanasma",
+        "Harij",
+        "Sami",
+        "Radhanpur",
+        "Santalpur",
+        "Vagdod",
+        "Shankheshwar"
+    ]
+}

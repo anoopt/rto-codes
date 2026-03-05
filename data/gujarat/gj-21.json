@@ -1,0 +1,24 @@
+{
+    "code": "GJ-21",
+    "region": "Navsari",
+    "city": "Navsari",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Navsari",
+    "division": "Surat",
+    "description": "GJ-21 is the Assistant Regional Transport Office (ARTO) for Navsari district in Gujarat. It operates under the primary jurisdiction of the Valsad RTO and handles essential transport services including vehicle registration, driving licenses, and tax collection for the South Gujarat region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Italva, Navsari, Gujarat",
+    "pinCode": "396445",
+    "phone": "02637-265999",
+    "email": "arto-trans-nvs@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Navsari",
+        "Jalalpore",
+        "Gandevi",
+        "Chikhli",
+        "Khergam",
+        "Vansda"
+    ]
+}
