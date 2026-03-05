@@ -531,5 +531,127 @@
       "Sanjeli",
       "Limkheda"
     ]
+  },
+  {
+    "code": "GJ-21",
+    "region": "Navsari",
+    "city": "Navsari",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Navsari",
+    "division": "Surat",
+    "description": "GJ-21 is the Assistant Regional Transport Office (ARTO) for Navsari district in Gujarat. It operates under the primary jurisdiction of the Valsad RTO and handles essential transport services including vehicle registration, driving licenses, and tax collection for the South Gujarat region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Italva, Navsari, Gujarat",
+    "pinCode": "396445",
+    "phone": "02637-265999",
+    "email": "arto-trans-nvs@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Navsari",
+      "Jalalpore",
+      "Gandevi",
+      "Chikhli",
+      "Khergam",
+      "Vansda"
+    ]
+  },
+  {
+    "code": "GJ-22",
+    "region": "Rajpipla",
+    "city": "Rajpipla",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Narmada",
+    "division": "Vadodara",
+    "description": "GJ-22 is the Assistant Regional Transport Office (ARTO) serving the Rajpipla region and the Narmada district. It is responsible for vehicle registration, driving licenses, and transport permit issuance for the residents of this administrative district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collector Office Building (Jilla Seva Sadan), Room No. 13/14, Ground Floor, Rajpipla, District: Narmada, Gujarat",
+    "pinCode": "393145",
+    "phone": "02640-224948",
+    "email": "arto-transrjp@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Rajpipla",
+      "Nandod",
+      "Garudeshwar",
+      "Tilakwada",
+      "Dediapada",
+      "Sagbara"
+    ]
+  },
+  {
+    "code": "GJ-23",
+    "region": "Anand",
+    "city": "Anand",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Anand",
+    "division": "Ahmedabad",
+    "description": "The GJ-23 RTO serves the Anand district in Gujarat, famously known as the Milk Capital of India. It functions as an Assistant Regional Transport Office (ARTO) responsible for vehicle registrations, issuing driving licenses, and enforcing motor vehicle regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Jilla Seva Sadan, MS Building, Ground Floor, Near Borsad Chokadi, Anand, Gujarat",
+    "pinCode": "388001",
+    "phone": "02692-264800",
+    "email": "arto-anand@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Anand",
+      "Anklav",
+      "Borsad",
+      "Khambhat",
+      "Petlad",
+      "Sojitra",
+      "Tarapur",
+      "Umreth"
+    ]
+  },
+  {
+    "code": "GJ-24",
+    "region": "Patan",
+    "city": "Patan",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Patan",
+    "division": "Mehsana Division",
+    "description": "GJ-24 is the Assistant Regional Transport Office (ARTO) for Patan, Gujarat. It is responsible for the administration of motor vehicle acts, including vehicle registration, issuance of driving licenses, and permit management for the Patan district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant RTO Office, GIDC Estate Building No. 3, Sidhpur Cross Road, Near Navjivan Hotel, Patan, Gujarat",
+    "pinCode": "384265",
+    "phone": "02766-223100",
+    "email": "arto-patan@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Patan",
+      "Sidhpur",
+      "Chanasma",
+      "Harij",
+      "Sami",
+      "Radhanpur",
+      "Santalpur",
+      "Vagdod",
+      "Shankheshwar"
+    ]
+  },
+  {
+    "code": "GJ-25",
+    "region": "Porbandar",
+    "city": "Porbandar",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Porbandar",
+    "division": "Rajkot Division",
+    "description": "GJ-25 is the official Regional Transport Office (ARTO) for the Porbandar district in Gujarat. It handles vehicle registration, fitness certificates, and licensing services for the coastal region, ensuring adherence to the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Jila Seva Sadan-2, Ranghavav, Sandeepani Ashram Road, Chhaya, Porbandar, Gujarat",
+    "pinCode": "360575",
+    "phone": "N/A",
+    "email": "artoporb-gj@nic.in",
+    "jurisdictionAreas": [
+      "Porbandar",
+      "Ranavav",
+      "Kutiyana"
+    ]
   }
 ]
