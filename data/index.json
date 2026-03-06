@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-05T02:54:19.079Z",
-  "totalRTOs": 274,
-  "totalVerified": 274,
+  "generatedAt": "2026-03-06T02:54:34.269Z",
+  "totalRTOs": 279,
+  "totalVerified": 279,
   "totalStates": 28,
   "completedStates": 7,
   "inProgressStates": 1,
@@ -338,10 +338,10 @@
     {
       "stateCode": "GJ",
       "stateName": "Gujarat",
-      "rtoCount": 25,
+      "rtoCount": 30,
       "totalExpectedRTOs": 37,
       "activeRTOs": 0,
-      "verifiedCount": 25,
+      "verifiedCount": 30,
       "rtoCodes": [
         "gj-01",
         "gj-02",
@@ -367,7 +367,12 @@
         "gj-22",
         "gj-23",
         "gj-24",
-        "gj-25"
+        "gj-25",
+        "gj-26",
+        "gj-27",
+        "gj-28",
+        "gj-29",
+        "gj-30"
       ],
       "isComplete": false,
       "type": "state",
@@ -1131,10 +1136,10 @@
     "GJ": {
       "stateCode": "GJ",
       "stateName": "Gujarat",
-      "rtoCount": 25,
+      "rtoCount": 30,
       "totalExpectedRTOs": 37,
       "activeRTOs": 0,
-      "verifiedCount": 25,
+      "verifiedCount": 30,
       "rtoCodes": [
         "gj-01",
         "gj-02",
@@ -1160,7 +1165,12 @@
         "gj-22",
         "gj-23",
         "gj-24",
-        "gj-25"
+        "gj-25",
+        "gj-26",
+        "gj-27",
+        "gj-28",
+        "gj-29",
+        "gj-30"
       ],
       "isComplete": false,
       "type": "state",

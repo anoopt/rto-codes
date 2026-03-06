@@ -653,5 +653,125 @@
       "Ranavav",
       "Kutiyana"
     ]
+  },
+  {
+    "code": "GJ-26",
+    "region": "Vyara",
+    "city": "Vyara",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Tapi",
+    "division": "Surat",
+    "description": "GJ-26 is the Assistant Regional Transport Office (ARTO) serving the Vyara region in the Tapi district of Gujarat. It manages vehicle registrations, driving licenses, and transport permits for the South Gujarat region. The office plays a crucial role in facilitating transport services for the predominantly tribal and agricultural communities in the area.",
+    "status": "active",
+    "established": "2007",
+    "address": "Assistant RTO Office, Panvadi, Bhenskatri Road, Vyara, Gujarat 394650",
+    "pinCode": "394650",
+    "phone": "02626-223390",
+    "email": "arto-trans-vyr@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Vyara",
+      "Songadh",
+      "Ucchal",
+      "Nizar",
+      "Valod",
+      "Dolvan",
+      "Kukarmunda"
+    ]
+  },
+  {
+    "code": "GJ-27",
+    "region": "Ahmedabad East (Vastral)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Ahmedabad",
+    "division": "Ahmedabad",
+    "description": "The GJ-27 RTO, also known as the Ahmedabad East or Vastral RTO, serves the eastern districts of Ahmedabad city on the bank of the Sabarmati River. It was established to reduce the workload of the primary GJ-01 office and handles vehicle registration, licensing, and road tax collection for the eastern suburban belt.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mahadev Nagar Tekra, Near R.A.F. Camp, Vastral, Ahmedabad, Gujarat",
+    "pinCode": "380023",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Maninagar",
+      "Vatva",
+      "Asarwa",
+      "Vastral",
+      "Daskroi Taluka"
+    ]
+  },
+  {
+    "code": "GJ-28",
+    "region": "Surat Rural",
+    "city": "Surat",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Surat",
+    "division": "Surat",
+    "description": "GJ-28 is the Regional Transport Office serving the Surat Rural and West jurisdiction in Gujarat. Located in areas like Pal and Dumbhal, it was established to decentralize the workload from the main Surat RTO (GJ-05) and handles vehicle registration and driver licensing for the expanding outskirts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant RTO Office, Dumbhal, Surat, Gujarat",
+    "pinCode": "395010",
+    "phone": "0261-2450816",
+    "email": "surat-rto@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Surat Rural",
+      "Pal",
+      "Dumbhal",
+      "Adajan",
+      "Olpad",
+      "Choryasi"
+    ]
+  },
+  {
+    "code": "GJ-29",
+    "region": "Vadodara Rural",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Vadodara",
+    "division": "Vadodara",
+    "description": "The GJ-29 RTO office serves the Vadodara Rural region in Gujarat, functioning as an Assistant Regional Transport Office (ARTO). It was established to manage the high volume of vehicle registrations and licensing requirements in the rural areas surrounding Vadodara city, which is primary served by GJ-06. The office handles driving licenses, vehicle fitness certificates, and registration for various talukas in the district periphery.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Golden Chokdi, NH-8, Darjipura, Vadodara, Gujarat - 391110",
+    "pinCode": "391110",
+    "phone": "0265-2540016",
+    "email": "arto-vadr@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Vadodara Rural",
+      "Padra",
+      "Karjan",
+      "Shinor",
+      "Dabhoi",
+      "Waghodia",
+      "Savli",
+      "Desar"
+    ]
+  },
+  {
+    "code": "GJ-30",
+    "region": "Ahwa",
+    "city": "Ahwa",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Dang",
+    "division": "Surat",
+    "description": "GJ-30 is the Assistant Regional Transport Office (ARTO) based in Ahwa, serving the entire Dang district of Gujarat. It is responsible for vehicle registration, driving licenses, and the regulation of transport services in this hilly and tribal-dominated region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Office, Ahwa, District Dang, Gujarat",
+    "pinCode": "394710",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ahwa",
+      "Waghai",
+      "Subir",
+      "Saputara"
+    ]
   }
 ]
