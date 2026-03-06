@@ -1,0 +1,25 @@
+{
+    "code": "GJ-26",
+    "region": "Vyara",
+    "city": "Vyara",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Tapi",
+    "division": "Surat",
+    "description": "GJ-26 is the Assistant Regional Transport Office (ARTO) serving the Vyara region in the Tapi district of Gujarat. It manages vehicle registrations, driving licenses, and transport permits for the South Gujarat region. The office plays a crucial role in facilitating transport services for the predominantly tribal and agricultural communities in the area.",
+    "status": "active",
+    "established": "2007",
+    "address": "Assistant RTO Office, Panvadi, Bhenskatri Road, Vyara, Gujarat 394650",
+    "pinCode": "394650",
+    "phone": "02626-223390",
+    "email": "arto-trans-vyr@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Vyara",
+        "Songadh",
+        "Ucchal",
+        "Nizar",
+        "Valod",
+        "Dolvan",
+        "Kukarmunda"
+    ]
+}

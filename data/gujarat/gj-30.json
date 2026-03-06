@@ -1,0 +1,22 @@
+{
+    "code": "GJ-30",
+    "region": "Ahwa",
+    "city": "Ahwa",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Dang",
+    "division": "Surat",
+    "description": "GJ-30 is the Assistant Regional Transport Office (ARTO) based in Ahwa, serving the entire Dang district of Gujarat. It is responsible for vehicle registration, driving licenses, and the regulation of transport services in this hilly and tribal-dominated region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Office, Ahwa, District Dang, Gujarat",
+    "pinCode": "394710",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ahwa",
+        "Waghai",
+        "Subir",
+        "Saputara"
+    ]
+}

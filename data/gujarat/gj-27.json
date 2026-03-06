@@ -1,0 +1,23 @@
+{
+    "code": "GJ-27",
+    "region": "Ahmedabad East (Vastral)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Ahmedabad",
+    "division": "Ahmedabad",
+    "description": "The GJ-27 RTO, also known as the Ahmedabad East or Vastral RTO, serves the eastern districts of Ahmedabad city on the bank of the Sabarmati River. It was established to reduce the workload of the primary GJ-01 office and handles vehicle registration, licensing, and road tax collection for the eastern suburban belt.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mahadev Nagar Tekra, Near R.A.F. Camp, Vastral, Ahmedabad, Gujarat",
+    "pinCode": "380023",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Maninagar",
+        "Vatva",
+        "Asarwa",
+        "Vastral",
+        "Daskroi Taluka"
+    ]
+}

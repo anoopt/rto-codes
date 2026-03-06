@@ -1,0 +1,26 @@
+{
+    "code": "GJ-29",
+    "region": "Vadodara Rural",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Vadodara",
+    "division": "Vadodara",
+    "description": "The GJ-29 RTO office serves the Vadodara Rural region in Gujarat, functioning as an Assistant Regional Transport Office (ARTO). It was established to manage the high volume of vehicle registrations and licensing requirements in the rural areas surrounding Vadodara city, which is primary served by GJ-06. The office handles driving licenses, vehicle fitness certificates, and registration for various talukas in the district periphery.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Golden Chokdi, NH-8, Darjipura, Vadodara, Gujarat - 391110",
+    "pinCode": "391110",
+    "phone": "0265-2540016",
+    "email": "arto-vadr@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Vadodara Rural",
+        "Padra",
+        "Karjan",
+        "Shinor",
+        "Dabhoi",
+        "Waghodia",
+        "Savli",
+        "Desar"
+    ]
+}

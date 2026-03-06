@@ -1,0 +1,24 @@
+{
+    "code": "GJ-28",
+    "region": "Surat Rural",
+    "city": "Surat",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Surat",
+    "division": "Surat",
+    "description": "GJ-28 is the Regional Transport Office serving the Surat Rural and West jurisdiction in Gujarat. Located in areas like Pal and Dumbhal, it was established to decentralize the workload from the main Surat RTO (GJ-05) and handles vehicle registration and driver licensing for the expanding outskirts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant RTO Office, Dumbhal, Surat, Gujarat",
+    "pinCode": "395010",
+    "phone": "0261-2450816",
+    "email": "surat-rto@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Surat Rural",
+        "Pal",
+        "Dumbhal",
+        "Adajan",
+        "Olpad",
+        "Choryasi"
+    ]
+}
