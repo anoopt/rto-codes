@@ -773,5 +773,124 @@
       "Subir",
       "Saputara"
     ]
+  },
+  {
+    "code": "GJ-31",
+    "region": "Modasa",
+    "city": "Modasa",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Aravalli",
+    "division": "Ahmedabad",
+    "description": "GJ-31 is the Assistant Regional Transport Office (ARTO) serving the Modasa region and the Aravalli district in Gujarat. Established following the creation of the Aravalli district in 2013, this office manages vehicle registrations, driving licenses, and transport permit services for the local population.",
+    "status": "active",
+    "established": "2013",
+    "address": "ARTO Office, Shah Mukundadas Vithaldas Public Pharmacy College, Shamlaji Modasa Highway, Modasa, Gujarat",
+    "pinCode": "383315",
+    "phone": "N/A",
+    "email": "arto-trans-arv@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Modasa",
+      "Bayad",
+      "Dhansura",
+      "Malpur",
+      "Meghraj",
+      "Bhiloda"
+    ]
+  },
+  {
+    "code": "GJ-32",
+    "region": "Veraval",
+    "city": "Veraval",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Gir Somnath",
+    "division": "Junagadh",
+    "description": "GJ-32 is the Assistant Regional Transport Office (ARTO) located in Veraval, serving the Gir Somnath district of Gujarat. Established in 2015 following district reorganization, it handles vehicle registration and licensing for the coastal region housing the Somnath Temple.",
+    "status": "active",
+    "established": "2015",
+    "address": "ARTO Office, R & B Building, Near Birla Mandir, Veraval, Gir Somnath, Gujarat - 362265",
+    "pinCode": "362265",
+    "phone": "02876-240690",
+    "email": "arto-trans-grs@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Veraval",
+      "Patan-Veraval",
+      "Talala",
+      "Sutrapada",
+      "Kodinar",
+      "Una",
+      "Gir-Gadhada"
+    ]
+  },
+  {
+    "code": "GJ-33",
+    "region": "Botad",
+    "city": "Botad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Botad",
+    "division": "Bhavnagar",
+    "description": "The GJ-33 RTO serves the Botad district in Gujarat as an Assistant Regional Transport Office (ARTO). It was established following the creation of Botad as a separate district in 2013 to handle vehicle registration, licensing, and transport permits for the region.",
+    "status": "active",
+    "established": "2013",
+    "address": "ARTO Office, Government Colony, D Colony, Pura Road, Opposite DSP Office, Botad, Gujarat",
+    "pinCode": "364710",
+    "phone": "02849-255509",
+    "email": "arto-trans-bot@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Botad",
+      "Gadhada",
+      "Barwala",
+      "Ranpur"
+    ]
+  },
+  {
+    "code": "GJ-34",
+    "region": "Chhota Udepur",
+    "city": "Chhota Udepur",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Chhota Udaipur",
+    "division": "Vadodara",
+    "description": "The GJ-34 Assistant Regional Transport Office (ARTO) serves the Chhota Udepur district, which was officially formed in 2013. The office manages vehicle registrations, driving licenses, and transport permits for this tribal-dominated region bordering Madhya Pradesh. It is part of the expansion of transport infrastructure following the creation of several new districts in Gujarat.",
+    "status": "active",
+    "established": "2015",
+    "address": "ARTO Office, Fatehpura Road, Behind State Bank, Chhota Udepur, Gujarat",
+    "pinCode": "391165",
+    "phone": "N/A",
+    "email": "arto-trans-chu@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Chhota Udepur",
+      "Jetpur Pavi",
+      "Kawant",
+      "Nasvadi",
+      "Sankheda",
+      "Bodeli"
+    ]
+  },
+  {
+    "code": "GJ-35",
+    "region": "Mahisagar",
+    "city": "Lunawada",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Mahisagar",
+    "division": "Mahisagar",
+    "description": "GJ-35 is the Regional Transport Office for the Mahisagar district, headquartered in Lunawada. Established in 2013 following the district's formation, this office oversees vehicle registration, driving licenses, and transport permit services for several talukas.",
+    "status": "active",
+    "established": "2013",
+    "address": "Bhadar Sinchai Colony, Lunawada, Mahisagar, Gujarat",
+    "pinCode": "389230",
+    "phone": "02674-252119",
+    "email": "rto-mahisagar@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Lunawada",
+      "Khanpur",
+      "Kadana",
+      "Santrampur",
+      "Virpur",
+      "Balasinor"
+    ]
   }
 ]
