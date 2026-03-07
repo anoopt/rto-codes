@@ -1,0 +1,25 @@
+{
+    "code": "GJ-32",
+    "region": "Veraval",
+    "city": "Veraval",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Gir Somnath",
+    "division": "Junagadh",
+    "description": "GJ-32 is the Assistant Regional Transport Office (ARTO) located in Veraval, serving the Gir Somnath district of Gujarat. Established in 2015 following district reorganization, it handles vehicle registration and licensing for the coastal region housing the Somnath Temple.",
+    "status": "active",
+    "established": "2015",
+    "address": "ARTO Office, R & B Building, Near Birla Mandir, Veraval, Gir Somnath, Gujarat - 362265",
+    "pinCode": "362265",
+    "phone": "02876-240690",
+    "email": "arto-trans-grs@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Veraval",
+        "Patan-Veraval",
+        "Talala",
+        "Sutrapada",
+        "Kodinar",
+        "Una",
+        "Gir-Gadhada"
+    ]
+}

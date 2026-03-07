@@ -1,0 +1,22 @@
+{
+    "code": "GJ-33",
+    "region": "Botad",
+    "city": "Botad",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Botad",
+    "division": "Bhavnagar",
+    "description": "The GJ-33 RTO serves the Botad district in Gujarat as an Assistant Regional Transport Office (ARTO). It was established following the creation of Botad as a separate district in 2013 to handle vehicle registration, licensing, and transport permits for the region.",
+    "status": "active",
+    "established": "2013",
+    "address": "ARTO Office, Government Colony, D Colony, Pura Road, Opposite DSP Office, Botad, Gujarat",
+    "pinCode": "364710",
+    "phone": "02849-255509",
+    "email": "arto-trans-bot@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Botad",
+        "Gadhada",
+        "Barwala",
+        "Ranpur"
+    ]
+}

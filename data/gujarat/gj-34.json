@@ -1,0 +1,24 @@
+{
+    "code": "GJ-34",
+    "region": "Chhota Udepur",
+    "city": "Chhota Udepur",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Chhota Udaipur",
+    "division": "Vadodara",
+    "description": "The GJ-34 Assistant Regional Transport Office (ARTO) serves the Chhota Udepur district, which was officially formed in 2013. The office manages vehicle registrations, driving licenses, and transport permits for this tribal-dominated region bordering Madhya Pradesh. It is part of the expansion of transport infrastructure following the creation of several new districts in Gujarat.",
+    "status": "active",
+    "established": "2015",
+    "address": "ARTO Office, Fatehpura Road, Behind State Bank, Chhota Udepur, Gujarat",
+    "pinCode": "391165",
+    "phone": "N/A",
+    "email": "arto-trans-chu@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Chhota Udepur",
+        "Jetpur Pavi",
+        "Kawant",
+        "Nasvadi",
+        "Sankheda",
+        "Bodeli"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "GJ-35",
+    "region": "Mahisagar",
+    "city": "Lunawada",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Mahisagar",
+    "division": "Mahisagar",
+    "description": "GJ-35 is the Regional Transport Office for the Mahisagar district, headquartered in Lunawada. Established in 2013 following the district's formation, this office oversees vehicle registration, driving licenses, and transport permit services for several talukas.",
+    "status": "active",
+    "established": "2013",
+    "address": "Bhadar Sinchai Colony, Lunawada, Mahisagar, Gujarat",
+    "pinCode": "389230",
+    "phone": "02674-252119",
+    "email": "rto-mahisagar@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Lunawada",
+        "Khanpur",
+        "Kadana",
+        "Santrampur",
+        "Virpur",
+        "Balasinor"
+    ]
+}

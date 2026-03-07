@@ -1,0 +1,24 @@
+{
+    "code": "GJ-31",
+    "region": "Modasa",
+    "city": "Modasa",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Aravalli",
+    "division": "Ahmedabad",
+    "description": "GJ-31 is the Assistant Regional Transport Office (ARTO) serving the Modasa region and the Aravalli district in Gujarat. Established following the creation of the Aravalli district in 2013, this office manages vehicle registrations, driving licenses, and transport permit services for the local population.",
+    "status": "active",
+    "established": "2013",
+    "address": "ARTO Office, Shah Mukundadas Vithaldas Public Pharmacy College, Shamlaji Modasa Highway, Modasa, Gujarat",
+    "pinCode": "383315",
+    "phone": "N/A",
+    "email": "arto-trans-arv@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Modasa",
+        "Bayad",
+        "Dhansura",
+        "Malpur",
+        "Meghraj",
+        "Bhiloda"
+    ]
+}
