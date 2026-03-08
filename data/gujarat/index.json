@@ -892,5 +892,50 @@
       "Virpur",
       "Balasinor"
     ]
+  },
+  {
+    "code": "GJ-36",
+    "region": "Morbi",
+    "city": "Morbi",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Morbi",
+    "division": "Rajkot",
+    "description": "The GJ-36 RTO serves the Morbi district in Gujarat, known as the ceramic manufacturing hub of India. Established after the formation of Morbi as a separate district in 2013, it manages vehicle registrations and driving licenses for several key talukas in the region.",
+    "status": "active",
+    "established": "2013",
+    "address": "Old Toll Naka Building, Morbi - Miyana Bypass Road, Opp. Uma Resort, Morbi, Gujarat",
+    "pinCode": "363641",
+    "phone": "N/A",
+    "email": "rto-morbi@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Morbi",
+      "Maliya-Miyana",
+      "Wankaner",
+      "Tankara",
+      "Halvad"
+    ]
+  },
+  {
+    "code": "GJ-37",
+    "region": "Khambhaliya",
+    "city": "Khambhaliya",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Devbhumi Dwarka",
+    "division": "Rajkot",
+    "description": "GJ-37 is the code for the Assistant Regional Transport Office (ARTO) located in Khambhaliya, serving the Devbhumi Dwarka district. Established in 2013 following the creation of new districts, this office manages vehicle registrations, permits, and licensing for the region including the coastal pilgrimage site of Dwarka.",
+    "status": "active",
+    "established": "2013",
+    "address": "ARTO Office, Opposite New ITI, Jamnagar Highway, Khambhaliya, Gujarat",
+    "pinCode": "361305",
+    "phone": "02833-233300",
+    "email": "arto-trans-dbd@gujarat.gov.in",
+    "jurisdictionAreas": [
+      "Khambhaliya",
+      "Dwarka",
+      "Kalyanpur",
+      "Bhanvad"
+    ]
   }
 ]
