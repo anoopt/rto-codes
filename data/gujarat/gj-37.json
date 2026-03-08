@@ -1,0 +1,22 @@
+{
+    "code": "GJ-37",
+    "region": "Khambhaliya",
+    "city": "Khambhaliya",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Devbhumi Dwarka",
+    "division": "Rajkot",
+    "description": "GJ-37 is the code for the Assistant Regional Transport Office (ARTO) located in Khambhaliya, serving the Devbhumi Dwarka district. Established in 2013 following the creation of new districts, this office manages vehicle registrations, permits, and licensing for the region including the coastal pilgrimage site of Dwarka.",
+    "status": "active",
+    "established": "2013",
+    "address": "ARTO Office, Opposite New ITI, Jamnagar Highway, Khambhaliya, Gujarat",
+    "pinCode": "361305",
+    "phone": "02833-233300",
+    "email": "arto-trans-dbd@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Khambhaliya",
+        "Dwarka",
+        "Kalyanpur",
+        "Bhanvad"
+    ]
+}

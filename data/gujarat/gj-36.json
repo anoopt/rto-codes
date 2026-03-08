@@ -1,0 +1,23 @@
+{
+    "code": "GJ-36",
+    "region": "Morbi",
+    "city": "Morbi",
+    "state": "Gujarat",
+    "stateCode": "GJ",
+    "district": "Morbi",
+    "division": "Rajkot",
+    "description": "The GJ-36 RTO serves the Morbi district in Gujarat, known as the ceramic manufacturing hub of India. Established after the formation of Morbi as a separate district in 2013, it manages vehicle registrations and driving licenses for several key talukas in the region.",
+    "status": "active",
+    "established": "2013",
+    "address": "Old Toll Naka Building, Morbi - Miyana Bypass Road, Opp. Uma Resort, Morbi, Gujarat",
+    "pinCode": "363641",
+    "phone": "N/A",
+    "email": "rto-morbi@gujarat.gov.in",
+    "jurisdictionAreas": [
+        "Morbi",
+        "Maliya-Miyana",
+        "Wankaner",
+        "Tankara",
+        "Halvad"
+    ]
+}
