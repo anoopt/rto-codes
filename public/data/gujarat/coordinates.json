@@ -1,0 +1,184 @@
+{
+  "generatedAt": "2026-03-08T02:57:20.261Z",
+  "state": "Gujarat",
+  "rtoCount": 35,
+  "successCount": 35,
+  "failedRTOs": [],
+  "coordinates": {
+    "GJ-01": {
+      "lat": 23.0215374,
+      "lon": 72.5800568,
+      "displayName": "Ahmedabad, Gujarat, 380001, India"
+    },
+    "GJ-02": {
+      "lat": 23.5962889,
+      "lon": 72.3899844,
+      "displayName": "APMC mehsana, Station road, Suryoday Nagar, Mahesana, Mahesana Taluka, Mahesana, Gujarat, 384001, India"
+    },
+    "GJ-03": {
+      "lat": 22.3053263,
+      "lon": 70.8028377,
+      "displayName": "Rajkot, Rajkot East Taluka, Rajkot, Gujarat, 360001, India"
+    },
+    "GJ-04": {
+      "lat": 21.7718836,
+      "lon": 72.1416449,
+      "displayName": "Bhavnagar, Bhavnagar Taluka, Bhavnagar, Gujarat, 364001, India"
+    },
+    "GJ-05": {
+      "lat": 21.2094892,
+      "lon": 72.8317058,
+      "displayName": "Surat, Katargam Taluka, Surat, Gujarat, 395008, India"
+    },
+    "GJ-06": {
+      "lat": 22.2973142,
+      "lon": 73.1942567,
+      "displayName": "Vadodara, Vadodara Rural Taluka, Vadodara, Gujarat, 390001, India"
+    },
+    "GJ-07": {
+      "lat": 22.6895535,
+      "lon": 72.8713603,
+      "displayName": "Nadiad, Nadlad City Taluka, Kheda, Gujarat, 387001, India"
+    },
+    "GJ-08": {
+      "lat": 24.1709794,
+      "lon": 72.4366375,
+      "displayName": "Palanpur, Palanpur Taluka, Banaskantha, Gujarat, 385001, India"
+    },
+    "GJ-09": {
+      "lat": 23.5919297,
+      "lon": 72.96025,
+      "displayName": "Himmatnagar Junction, Station Road, Himatnagar, Himatnagar Taluka, Sabarkantha, Gujarat, 383001, India"
+    },
+    "GJ-10": {
+      "lat": 22.4732415,
+      "lon": 70.0552102,
+      "displayName": "Jamnagar, Jamnagar City Taluka, Jamnagar, Gujarat, 361001, India"
+    },
+    "GJ-11": {
+      "lat": 21.5220416,
+      "lon": 70.4582458,
+      "displayName": "Junagadh, Junagadh City Taluka, Junagadh, Gujarat, 362015, India"
+    },
+    "GJ-12": {
+      "lat": 23.2472446,
+      "lon": 69.668339,
+      "displayName": "Bhuj, Bhuj Taluka, Kutch, Gujarat, 370001, India"
+    },
+    "GJ-13": {
+      "lat": 22.72317,
+      "lon": 71.648352,
+      "displayName": "Surendranagar, Wadhwan Taluka, Surendranagar, Gujarat, India"
+    },
+    "GJ-14": {
+      "lat": 21.6009239,
+      "lon": 71.2168014,
+      "displayName": "Amreli, Amreli Taluka, Amreli, Gujarat, 364600, India"
+    },
+    "GJ-15": {
+      "lat": 20.6067767,
+      "lon": 72.9272881,
+      "displayName": "Valsad, Valsad Taluka, Valsad, Gujarat, 395125, India"
+    },
+    "GJ-16": {
+      "lat": 21.7080427,
+      "lon": 72.9956936,
+      "displayName": "Bharuch, Bharuch Taluka, Bharuch, Gujarat, India"
+    },
+    "GJ-17": {
+      "lat": 22.7785001,
+      "lon": 73.6245157,
+      "displayName": "Godhra, Godhra Taluka, Panchmahal, Gujarat, 389001, India"
+    },
+    "GJ-18": {
+      "lat": 23.2232877,
+      "lon": 72.6492267,
+      "displayName": "Gandhinagar, Gandhinagar Taluka, Gandhinagar, Gujarat, India"
+    },
+    "GJ-19": {
+      "lat": 21.1338291,
+      "lon": 73.1053896,
+      "displayName": "Bardoli, SH165, Bardoli, Bardoli Taluka, Surat, Gujarat, 394600, India"
+    },
+    "GJ-20": {
+      "lat": 22.8358786,
+      "lon": 74.2556823,
+      "displayName": "Dahod, Dahod Taluka, Dahod, Gujarat, 389100, India"
+    },
+    "GJ-21": {
+      "lat": 20.952407,
+      "lon": 72.9323831,
+      "displayName": "Navsari, Navsari Taluka, Navsari, Gujarat, 396400, India"
+    },
+    "GJ-22": {
+      "lat": 21.878069,
+      "lon": 73.5039695,
+      "displayName": "Rajpipla, SH64, Rajpipla, Nandod Taluka, Narmada, Gujarat, 393145, India"
+    },
+    "GJ-23": {
+      "lat": 22.5586555,
+      "lon": 72.9627227,
+      "displayName": "Anand, Anand City Taluka, Anand, Gujarat, 388001, India"
+    },
+    "GJ-24": {
+      "lat": 23.8505032,
+      "lon": 72.1133403,
+      "displayName": "Patan, Patan Taluka, Patan, Gujarat, 384200, India"
+    },
+    "GJ-25": {
+      "lat": 21.6409,
+      "lon": 69.611,
+      "displayName": "Porbandar, Porbandar Taluka, Porbandar, Gujarat, 360500, India"
+    },
+    "GJ-26": {
+      "lat": 21.1176744,
+      "lon": 73.3857702,
+      "displayName": "Vyara, Vyara Bypass Road, Vyara, Vyara Taluka, Tapi, Gujarat, 394650, India"
+    },
+    "GJ-27": {
+      "lat": 23.0215374,
+      "lon": 72.5800568,
+      "displayName": "Ahmedabad, Gujarat, 380001, India"
+    },
+    "GJ-28": {
+      "lat": 21.2094892,
+      "lon": 72.8317058,
+      "displayName": "Surat, Katargam Taluka, Surat, Gujarat, 395008, India"
+    },
+    "GJ-29": {
+      "lat": 22.2973142,
+      "lon": 73.1942567,
+      "displayName": "Vadodara, Vadodara Rural Taluka, Vadodara, Gujarat, 390001, India"
+    },
+    "GJ-30": {
+      "lat": 20.7587262,
+      "lon": 73.6873533,
+      "displayName": "Ahwa, Ahava Taluka, Dang, Gujarat, 394710, India"
+    },
+    "GJ-31": {
+      "lat": 23.4634245,
+      "lon": 73.2990631,
+      "displayName": "Modasa, Modasa Taluka, Aravalli, Gujarat, 383315, India"
+    },
+    "GJ-32": {
+      "lat": 20.9101099,
+      "lon": 70.365279,
+      "displayName": "Veraval, Patan Veraval Taluka, Gir Somnath, Gujarat, 362200, India"
+    },
+    "GJ-33": {
+      "lat": 22.1686,
+      "lon": 71.6685,
+      "displayName": "Botad, Botad Taluka, Botad, Gujarat, 364700, India"
+    },
+    "GJ-34": {
+      "lat": 22.3148736,
+      "lon": 74.0141067,
+      "displayName": "Chhota Udepur, SH62, Chhota Udepur, Chhota Udaipur Taluka, Chhota Udaipur, Gujarat, 391165, India"
+    },
+    "GJ-35": {
+      "lat": 23.1912195,
+      "lon": 73.6644398,
+      "displayName": "Mahisagar, Gujarat, India"
+    }
+  }
+}
