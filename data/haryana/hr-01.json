@@ -1,0 +1,23 @@
+{
+    "code": "HR-01",
+    "region": "Ambala City",
+    "city": "Ambala",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-01 is the primary Regional Transport Office for Ambala, Haryana, serving as the first registration code in the state's series. It primarily handles vehicle registrations and licensing for the Ambala City and Ambala North areas, operating under the Sub-Divisional Magistrate office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Floor, Mini Secretariat, Ambala City, Haryana",
+    "pinCode": "133001",
+    "phone": "0171-2530350",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ambala City",
+        "Ambala North",
+        "Mulana",
+        "Saha",
+        "Shehzadpur"
+    ]
+}

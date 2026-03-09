@@ -1,0 +1,25 @@
+{
+    "code": "HR-05",
+    "region": "Karnal",
+    "city": "Karnal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "The HR-05 RTO functions as the Registering and Licensing Authority (RLA) for the Karnal sub-division in Haryana. It primarily handles the registration of non-commercial private vehicles and the issuance of driving licenses under the supervision of the Sub-Divisional Magistrate (SDM).",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mini Secretariat, Karnal, Haryana",
+    "pinCode": "132001",
+    "phone": "0184-2267701",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Karnal",
+        "Indri",
+        "Nilokheri",
+        "Gharaunda",
+        "Assandh",
+        "Taraori",
+        "Nissing"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "HR-04",
+    "region": "Naraingarh",
+    "city": "Naraingarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-04 is the official Registering and Licensing Authority (RLA) for the Naraingarh subdivision in Ambala, Haryana. It operates under the supervision of the Sub-Divisional Magistrate and manages vehicle registrations, driving licenses, and tax collections for its local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Naraingarh, District Ambala, Haryana",
+    "pinCode": "134201",
+    "phone": "01734-284008",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Naraingarh",
+        "Shahzadpur",
+        "Naraingarh Subdivision"
+    ]
+}

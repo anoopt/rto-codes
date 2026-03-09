@@ -1,0 +1,24 @@
+{
+    "code": "HR-03",
+    "region": "Panchkula",
+    "city": "Panchkula",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panchkula",
+    "division": "Ambala",
+    "description": "HR-03 is the Regional Transport Office for Panchkula, Haryana, primarily responsible for the registration of non-transport (private) vehicles. Operating under the Sub-Divisional Magistrate (SDM), it manages driving licenses and motor vehicle regulations for the northernmost district of Haryana.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (Civil), Mini Secretariat, Sector 1, Panchkula, Haryana",
+    "pinCode": "134101",
+    "phone": "0172-2561685",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Panchkula",
+        "Pinjore",
+        "Kalka",
+        "Morni",
+        "Barwala",
+        "Raipur Rani"
+    ]
+}

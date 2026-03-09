@@ -1,0 +1,22 @@
+{
+    "code": "HR-02",
+    "region": "Jagadhri",
+    "city": "Jagadhri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamuna Nagar",
+    "division": "Ambala",
+    "description": "HR-02 is the Regional Transport Office for Jagadhri in the Yamuna Nagar district of Haryana. This office is primarily responsible for the registration of private (non-transport) vehicles and issuing driving licenses within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Jagadhri, Yamuna Nagar, Haryana - 135003",
+    "pinCode": "135003",
+    "phone": "01732-237805",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jagadhri",
+        "Yamuna Nagar (Sub-division)",
+        "Buria",
+        "Chhachhrauli"
+    ]
+}
