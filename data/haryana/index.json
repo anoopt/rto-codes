@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "code": "HR-01",
+    "region": "Ambala City",
+    "city": "Ambala",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-01 is the primary Regional Transport Office for Ambala, Haryana, serving as the first registration code in the state's series. It primarily handles vehicle registrations and licensing for the Ambala City and Ambala North areas, operating under the Sub-Divisional Magistrate office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Floor, Mini Secretariat, Ambala City, Haryana",
+    "pinCode": "133001",
+    "phone": "0171-2530350",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ambala City",
+      "Ambala North",
+      "Mulana",
+      "Saha",
+      "Shehzadpur"
+    ]
+  },
+  {
+    "code": "HR-02",
+    "region": "Jagadhri",
+    "city": "Jagadhri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamuna Nagar",
+    "division": "Ambala",
+    "description": "HR-02 is the Regional Transport Office for Jagadhri in the Yamuna Nagar district of Haryana. This office is primarily responsible for the registration of private (non-transport) vehicles and issuing driving licenses within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Jagadhri, Yamuna Nagar, Haryana - 135003",
+    "pinCode": "135003",
+    "phone": "01732-237805",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jagadhri",
+      "Yamuna Nagar (Sub-division)",
+      "Buria",
+      "Chhachhrauli"
+    ]
+  },
+  {
+    "code": "HR-03",
+    "region": "Panchkula",
+    "city": "Panchkula",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panchkula",
+    "division": "Ambala",
+    "description": "HR-03 is the Regional Transport Office for Panchkula, Haryana, primarily responsible for the registration of non-transport (private) vehicles. Operating under the Sub-Divisional Magistrate (SDM), it manages driving licenses and motor vehicle regulations for the northernmost district of Haryana.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (Civil), Mini Secretariat, Sector 1, Panchkula, Haryana",
+    "pinCode": "134101",
+    "phone": "0172-2561685",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Panchkula",
+      "Pinjore",
+      "Kalka",
+      "Morni",
+      "Barwala",
+      "Raipur Rani"
+    ]
+  },
+  {
+    "code": "HR-04",
+    "region": "Naraingarh",
+    "city": "Naraingarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-04 is the official Registering and Licensing Authority (RLA) for the Naraingarh subdivision in Ambala, Haryana. It operates under the supervision of the Sub-Divisional Magistrate and manages vehicle registrations, driving licenses, and tax collections for its local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Naraingarh, District Ambala, Haryana",
+    "pinCode": "134201",
+    "phone": "01734-284008",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Naraingarh",
+      "Shahzadpur",
+      "Naraingarh Subdivision"
+    ]
+  },
+  {
+    "code": "HR-05",
+    "region": "Karnal",
+    "city": "Karnal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "The HR-05 RTO functions as the Registering and Licensing Authority (RLA) for the Karnal sub-division in Haryana. It primarily handles the registration of non-commercial private vehicles and the issuance of driving licenses under the supervision of the Sub-Divisional Magistrate (SDM).",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mini Secretariat, Karnal, Haryana",
+    "pinCode": "132001",
+    "phone": "0184-2267701",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Karnal",
+      "Indri",
+      "Nilokheri",
+      "Gharaunda",
+      "Assandh",
+      "Taraori",
+      "Nissing"
+    ]
+  }
+]
