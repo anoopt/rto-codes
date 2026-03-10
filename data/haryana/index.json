@@ -113,5 +113,124 @@
       "Taraori",
       "Nissing"
     ]
+  },
+  {
+    "code": "HR-06",
+    "region": "Panipat",
+    "city": "Panipat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panipat",
+    "division": "Karnal",
+    "description": "HR-06 is the Regional Transport Authority (RTA) office located in Panipat, Haryana. It is the primary office for vehicle registration and driving license issuance within the Panipat district, a major industrial and historical hub. The office handles both private and commercial vehicle services under the Haryana Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Complex, Panipat, Haryana",
+    "pinCode": "132103",
+    "phone": "0180-2651303",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Panipat",
+      "Samalkha",
+      "Israna",
+      "Madlauda",
+      "Bapoli"
+    ]
+  },
+  {
+    "code": "HR-07",
+    "region": "Thanesar",
+    "city": "Thanesar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-07 is the Regional Transport Office located in Thanesar, serving the Kurukshetra district of Haryana. This office primarily handles the registration of non-commercial vehicles and the issuance of driving licenses for the subdivision, supporting the transport needs of this historically significant religious and cultural hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Thanesar, Kurukshetra, Haryana",
+    "pinCode": "136118",
+    "phone": "01744-220032",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Thanesar",
+      "Kurukshetra",
+      "Pipli",
+      "Ladwa",
+      "Shahbad",
+      "Ismailabad",
+      "Babain",
+      "Pehowa"
+    ]
+  },
+  {
+    "code": "HR-08",
+    "region": "Kaithal",
+    "city": "Kaithal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Ambala",
+    "description": "The HR-08 Regional Transport Office serves the Kaithal district in Haryana, facilitating vehicle registrations and driving license services. It is an active office located within the Mini Secretariat complex, catering to the transport needs of the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ground Floor, Mini Secretariat, Kaithal, Haryana",
+    "pinCode": "136027",
+    "phone": "01746-234220",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kaithal",
+      "Pundri",
+      "Rajound",
+      "Kalayat"
+    ]
+  },
+  {
+    "code": "HR-09",
+    "region": "Guhla",
+    "city": "Guhla",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Karnal",
+    "description": "The HR-09 RTO serves the Guhla sub-division within the Kaithal district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and acts as the local Registering and Licensing Authority for private vehicles and driver licensing in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Guhla, District Kaithal, Haryana - 136035",
+    "pinCode": "136035",
+    "phone": "01743-221234",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Guhla",
+      "Cheeka",
+      "Agondh",
+      "Siwan",
+      "Bhagana",
+      "Tatiana"
+    ]
+  },
+  {
+    "code": "HR-10",
+    "region": "Sonepat",
+    "city": "Sonepat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "HR-10 is the primary Regional Transport Office for the Sonepat sub-division in Haryana. It is responsible for the registration of non-transport (private) vehicles, issuance of driving licenses, and the collection of road taxes for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Secretariat, Sonepat, Haryana",
+    "pinCode": "131001",
+    "phone": "0130-2222100",
+    "email": "sdmsonepat@hry.nic.in",
+    "jurisdictionAreas": [
+      "Sonepat Sub-division",
+      "Sonepat City",
+      "Murthal",
+      "Rai",
+      "Kundli",
+      "Jakhauli"
+    ]
   }
 ]
