@@ -1,0 +1,26 @@
+{
+    "code": "HR-07",
+    "region": "Thanesar",
+    "city": "Thanesar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-07 is the Regional Transport Office located in Thanesar, serving the Kurukshetra district of Haryana. This office primarily handles the registration of non-commercial vehicles and the issuance of driving licenses for the subdivision, supporting the transport needs of this historically significant religious and cultural hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Thanesar, Kurukshetra, Haryana",
+    "pinCode": "136118",
+    "phone": "01744-220032",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Thanesar",
+        "Kurukshetra",
+        "Pipli",
+        "Ladwa",
+        "Shahbad",
+        "Ismailabad",
+        "Babain",
+        "Pehowa"
+    ]
+}

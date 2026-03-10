@@ -1,0 +1,22 @@
+{
+    "code": "HR-08",
+    "region": "Kaithal",
+    "city": "Kaithal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Ambala",
+    "description": "The HR-08 Regional Transport Office serves the Kaithal district in Haryana, facilitating vehicle registrations and driving license services. It is an active office located within the Mini Secretariat complex, catering to the transport needs of the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ground Floor, Mini Secretariat, Kaithal, Haryana",
+    "pinCode": "136027",
+    "phone": "01746-234220",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kaithal",
+        "Pundri",
+        "Rajound",
+        "Kalayat"
+    ]
+}

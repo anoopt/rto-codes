@@ -1,0 +1,24 @@
+{
+    "code": "HR-10",
+    "region": "Sonepat",
+    "city": "Sonepat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "HR-10 is the primary Regional Transport Office for the Sonepat sub-division in Haryana. It is responsible for the registration of non-transport (private) vehicles, issuance of driving licenses, and the collection of road taxes for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Secretariat, Sonepat, Haryana",
+    "pinCode": "131001",
+    "phone": "0130-2222100",
+    "email": "sdmsonepat@hry.nic.in",
+    "jurisdictionAreas": [
+        "Sonepat Sub-division",
+        "Sonepat City",
+        "Murthal",
+        "Rai",
+        "Kundli",
+        "Jakhauli"
+    ]
+}

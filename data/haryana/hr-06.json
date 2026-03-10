@@ -1,0 +1,23 @@
+{
+    "code": "HR-06",
+    "region": "Panipat",
+    "city": "Panipat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panipat",
+    "division": "Karnal",
+    "description": "HR-06 is the Regional Transport Authority (RTA) office located in Panipat, Haryana. It is the primary office for vehicle registration and driving license issuance within the Panipat district, a major industrial and historical hub. The office handles both private and commercial vehicle services under the Haryana Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Complex, Panipat, Haryana",
+    "pinCode": "132103",
+    "phone": "0180-2651303",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Panipat",
+        "Samalkha",
+        "Israna",
+        "Madlauda",
+        "Bapoli"
+    ]
+}

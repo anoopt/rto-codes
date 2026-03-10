@@ -1,0 +1,24 @@
+{
+    "code": "HR-09",
+    "region": "Guhla",
+    "city": "Guhla",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Karnal",
+    "description": "The HR-09 RTO serves the Guhla sub-division within the Kaithal district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and acts as the local Registering and Licensing Authority for private vehicles and driver licensing in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Guhla, District Kaithal, Haryana - 136035",
+    "pinCode": "136035",
+    "phone": "01743-221234",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Guhla",
+        "Cheeka",
+        "Agondh",
+        "Siwan",
+        "Bhagana",
+        "Tatiana"
+    ]
+}
