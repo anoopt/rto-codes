@@ -1,0 +1,24 @@
+{
+    "code": "HR-11",
+    "region": "Gohana",
+    "city": "Gohana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "HR-11 is the Registering and Licensing Authority (RLA) for the Gohana subdivision in the Sonipat district of Haryana. Operating under the Sub-Divisional Magistrate (SDM), it manages vehicle registrations, driving licenses, and tax collection for vehicles within the Gohana administrative area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Gohana, District Sonipat, Haryana",
+    "pinCode": "131301",
+    "phone": "01263-252049",
+    "email": "sdmghn@hry.nic.in",
+    "jurisdictionAreas": [
+        "Gohana",
+        "Mundlana",
+        "Kathura",
+        "Khanpur Kalan",
+        "Baroda",
+        "Bhagan"
+    ]
+}

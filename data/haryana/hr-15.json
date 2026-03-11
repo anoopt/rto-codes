@@ -1,0 +1,24 @@
+{
+    "code": "HR-15",
+    "region": "Meham",
+    "city": "Meham",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rohtak",
+    "division": "Rohtak",
+    "description": "HR-15 is the Regional Transport Office code for Meham, located in the Rohtak district of Haryana. As a sub-divisional transport office (SDM), it facilitates vehicle registrations, driving licenses, and transport permits for the residents of Meham and nearby rural localities. It serves as a key administrative hub for motor vehicle regulations within the western part of the Rohtak division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Ground Floor, Meham, Haryana - 124112",
+    "pinCode": "124112",
+    "phone": "01257-233148",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Meham",
+        "Lakhan Majra",
+        "Bainsi",
+        "Madina",
+        "Morkheri",
+        "Samargopalpur"
+    ]
+}

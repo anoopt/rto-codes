@@ -1,0 +1,26 @@
+{
+    "code": "HR-13",
+    "region": "Bahadurgarh",
+    "city": "Bahadurgarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "The HR-13 RTO serves the Bahadurgarh sub-division in the Jhajjar district of Haryana, functioning under the Sub-Divisional Magistrate (SDM) office. It is responsible for various transport-related services including vehicle registration, issuance of driving licenses, and tax collection. Bahadurgarh is a major industrial city on the border of Delhi, making this a high-traffic RTO office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Bahadurgarh, Jhajjar District, Haryana",
+    "pinCode": "124507",
+    "phone": "01276-230306",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bahadurgarh",
+        "Jassaur Kheri",
+        "Mandothi",
+        "Asaudha",
+        "Badli",
+        "Line Par",
+        "Sankhol",
+        "Bahadurgarh Industrial Area"
+    ]
+}

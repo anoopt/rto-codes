@@ -1,0 +1,23 @@
+{
+    "code": "HR-14",
+    "region": "Jhajjar",
+    "city": "Jhajjar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "HR-14 is the Regional Transport Office (RTO) serving the city and administrative center of Jhajjar in Haryana. The office is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport laws under the Haryana Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Complex, Jhajjar Road, Jhajjar, Haryana",
+    "pinCode": "124103",
+    "phone": "01251-269017",
+    "email": "sdmjjr-hry@nic.in",
+    "jurisdictionAreas": [
+        "Jhajjar",
+        "Matanhail",
+        "Beri",
+        "Machhrauli",
+        "Salhawas"
+    ]
+}

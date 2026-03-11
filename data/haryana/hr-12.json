@@ -1,0 +1,22 @@
+{
+    "code": "HR-12",
+    "region": "Rohtak",
+    "city": "Rohtak",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rohtak",
+    "division": "Rohtak Division",
+    "description": "The HR-12 RTO serves the Rohtak district in Haryana, primarily handling the registration of private and commercial vehicles. It is centrally located in the Rohtak division and provides essential services like issuing driving licenses, vehicle fitness certificates, and road permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Mini Secretariat, Rohtak, Haryana",
+    "pinCode": "124001",
+    "phone": "01262-252101",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rohtak",
+        "Meham",
+        "Sampla",
+        "Kalanaur"
+    ]
+}
