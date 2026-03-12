@@ -351,5 +351,121 @@
       "Morkheri",
       "Samargopalpur"
     ]
+  },
+  {
+    "code": "HR-16",
+    "region": "Bhiwani",
+    "city": "Bhiwani",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Rohtak",
+    "description": "HR-16 is the Regional Transport Office for Bhiwani, Haryana, responsible for vehicle registration, driving license issuance, and enforcement of transport regulations. It serves as a key administrative hub for road safety and taxation in the Bhiwani district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Huda Building, Near Huda Park, Bhiwani, Haryana",
+    "pinCode": "127021",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bhiwani",
+      "Bawani Khera",
+      "Tosham",
+      "Behal"
+    ]
+  },
+  {
+    "code": "HR-17",
+    "region": "Siwani",
+    "city": "Siwani",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "HR-17 is the Regional Transport Office serving the Siwani sub-division within the Bhiwani district of Haryana. It functions under the Sub-Divisional Magistrate (SDM) and is responsible for local vehicle registration, driving licenses, and transport permit services.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Siwani, District Bhiwani, Haryana - 127046",
+    "pinCode": "127046",
+    "phone": "01255-277222",
+    "email": "sdmsiwani-hry@nic.in",
+    "jurisdictionAreas": [
+      "Siwani Mandi",
+      "Siwani Sub-division",
+      "Barwa",
+      "Motipura",
+      "Jhumpa",
+      "Budhshelli"
+    ]
+  },
+  {
+    "code": "HR-18",
+    "region": "Loharu",
+    "city": "Loharu",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "The HR-18 RTO serves the Loharu subdivision in Haryana's Bhiwani district, operating under the Sub-Divisional Magistrate as the Registering and Licensing Authority. It handles the registration of non-transport vehicles and issues driving licenses for residents in the southwestern part of the state. The office is significant due to its location near the Rajasthan border, facilitating local transport governance and regulatory compliance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Loharu, District Bhiwani, Haryana",
+    "pinCode": "127201",
+    "phone": "01252-258227",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Loharu",
+      "Bahal",
+      "Siwani",
+      "Bhiwani Rural"
+    ]
+  },
+  {
+    "code": "HR-19",
+    "region": "Charkhi Dadri",
+    "city": "Charkhi Dadri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Charkhi Dadri",
+    "division": "Rohtak Division",
+    "description": "HR-19 is the Registering and Licensing Authority (RLA) code for Charkhi Dadri, operating under the Sub-Divisional Magistrate (SDM). The office primarily handles the registration of private (non-transport) vehicles and the issuance of learner and permanent driving licenses for the residents of the sub-division.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Sub-Divisional Magistrate, Mini Secretariat, Charkhi Dadri, Haryana",
+    "pinCode": "127306",
+    "phone": "01250-220053",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Charkhi Dadri",
+      "Badhra",
+      "Bond Kalan",
+      "Jhuiju Kalan"
+    ]
+  },
+  {
+    "code": "HR-20",
+    "region": "Hisar",
+    "city": "Hisar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-20 is the primary Regional Transport Office serving the Hisar district of Haryana. It is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the city and its surrounding sub-divisions. As a significant administrative and educational hub, this RTO manages a high volume of transport activities within the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mini Secretariat, Hisar, Haryana",
+    "pinCode": "125001",
+    "phone": "01662-232798",
+    "email": "sdmhisar-hry@nic.in",
+    "jurisdictionAreas": [
+      "Hisar City",
+      "Hisar-I",
+      "Hisar-II",
+      "Satrod",
+      "Balsamand",
+      "Bass",
+      "Sisai",
+      "Ghiraia"
+    ]
   }
 ]
