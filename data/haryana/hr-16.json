@@ -1,0 +1,22 @@
+{
+    "code": "HR-16",
+    "region": "Bhiwani",
+    "city": "Bhiwani",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Rohtak",
+    "description": "HR-16 is the Regional Transport Office for Bhiwani, Haryana, responsible for vehicle registration, driving license issuance, and enforcement of transport regulations. It serves as a key administrative hub for road safety and taxation in the Bhiwani district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Huda Building, Near Huda Park, Bhiwani, Haryana",
+    "pinCode": "127021",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhiwani",
+        "Bawani Khera",
+        "Tosham",
+        "Behal"
+    ]
+}

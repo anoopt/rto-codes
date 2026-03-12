@@ -1,0 +1,24 @@
+{
+    "code": "HR-17",
+    "region": "Siwani",
+    "city": "Siwani",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "HR-17 is the Regional Transport Office serving the Siwani sub-division within the Bhiwani district of Haryana. It functions under the Sub-Divisional Magistrate (SDM) and is responsible for local vehicle registration, driving licenses, and transport permit services.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Siwani, District Bhiwani, Haryana - 127046",
+    "pinCode": "127046",
+    "phone": "01255-277222",
+    "email": "sdmsiwani-hry@nic.in",
+    "jurisdictionAreas": [
+        "Siwani Mandi",
+        "Siwani Sub-division",
+        "Barwa",
+        "Motipura",
+        "Jhumpa",
+        "Budhshelli"
+    ]
+}

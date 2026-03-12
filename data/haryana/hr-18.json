@@ -1,0 +1,22 @@
+{
+    "code": "HR-18",
+    "region": "Loharu",
+    "city": "Loharu",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "The HR-18 RTO serves the Loharu subdivision in Haryana's Bhiwani district, operating under the Sub-Divisional Magistrate as the Registering and Licensing Authority. It handles the registration of non-transport vehicles and issues driving licenses for residents in the southwestern part of the state. The office is significant due to its location near the Rajasthan border, facilitating local transport governance and regulatory compliance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Loharu, District Bhiwani, Haryana",
+    "pinCode": "127201",
+    "phone": "01252-258227",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Loharu",
+        "Bahal",
+        "Siwani",
+        "Bhiwani Rural"
+    ]
+}

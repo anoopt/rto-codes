@@ -1,0 +1,26 @@
+{
+    "code": "HR-20",
+    "region": "Hisar",
+    "city": "Hisar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-20 is the primary Regional Transport Office serving the Hisar district of Haryana. It is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the city and its surrounding sub-divisions. As a significant administrative and educational hub, this RTO manages a high volume of transport activities within the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mini Secretariat, Hisar, Haryana",
+    "pinCode": "125001",
+    "phone": "01662-232798",
+    "email": "sdmhisar-hry@nic.in",
+    "jurisdictionAreas": [
+        "Hisar City",
+        "Hisar-I",
+        "Hisar-II",
+        "Satrod",
+        "Balsamand",
+        "Bass",
+        "Sisai",
+        "Ghiraia"
+    ]
+}

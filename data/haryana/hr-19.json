@@ -1,0 +1,22 @@
+{
+    "code": "HR-19",
+    "region": "Charkhi Dadri",
+    "city": "Charkhi Dadri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Charkhi Dadri",
+    "division": "Rohtak Division",
+    "description": "HR-19 is the Registering and Licensing Authority (RLA) code for Charkhi Dadri, operating under the Sub-Divisional Magistrate (SDM). The office primarily handles the registration of private (non-transport) vehicles and the issuance of learner and permanent driving licenses for the residents of the sub-division.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Sub-Divisional Magistrate, Mini Secretariat, Charkhi Dadri, Haryana",
+    "pinCode": "127306",
+    "phone": "01250-220053",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Charkhi Dadri",
+        "Badhra",
+        "Bond Kalan",
+        "Jhuiju Kalan"
+    ]
+}
