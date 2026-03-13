@@ -1,0 +1,23 @@
+{
+    "code": "HR-25",
+    "region": "Dabwali",
+    "city": "Mandi Dabwali",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-25 is the Regional Transport Office serving the Mandi Dabwali sub-division in the Sirsa district of Haryana. It functions under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and other transport-related services near the Punjab-Haryana border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mandi Dabwali, Sirsa, Haryana",
+    "pinCode": "125104",
+    "phone": "01668-222997",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dabwali",
+        "Kalanwali",
+        "Odhan",
+        "Lohgarh",
+        "Mandi Dabwali Municipal Area"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "HR-22",
+    "region": "Fatehabad",
+    "city": "Fatehabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "HR-22 is the Regional Transport Office (RTO) serving the Fatehabad district in Haryana. It is primarily responsible for the registration of private vehicles, issuance of driving licenses, and transport permit renewals for the Fatehabad sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mini Secretariat, Fatehabad, Haryana",
+    "pinCode": "125050",
+    "phone": "01667-230011",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Fatehabad",
+        "Bhattu Kalan",
+        "Fatehabad Sub-Division"
+    ]
+}

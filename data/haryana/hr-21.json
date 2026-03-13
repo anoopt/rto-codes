@@ -1,0 +1,24 @@
+{
+    "code": "HR-21",
+    "region": "Hansi",
+    "city": "Hansi",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "The HR-21 RTO office is located in Hansi and serves as the Registering Authority under the Sub-Divisional Magistrate (SDM) of the Hisar district. It is responsible for the registration of private and transport vehicles, issuance of driving licenses, and collection of road taxes for the Hansi sub-division. The office ensures compliance with the Motor Vehicles Act within its local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Hansi, District Hisar, Haryana",
+    "pinCode": "125033",
+    "phone": "01663-254074",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hansi",
+        "Hansi-I",
+        "Hansi-II",
+        "Bass",
+        "Sisai",
+        "Rural Hansi Area"
+    ]
+}

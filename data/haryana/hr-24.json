@@ -1,0 +1,24 @@
+{
+    "code": "HR-24",
+    "region": "Sirsa",
+    "city": "Sirsa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-24 is the Regional Licensing Authority (RLA) for the Sirsa sub-division in Haryana. It is primarily responsible for the registration of private (non-commercial) vehicles and the issuance of driving licenses under the jurisdiction of the Sub-Divisional Magistrate (SDM).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Mini Secretariat, Sirsa, Haryana",
+    "pinCode": "125055",
+    "phone": "01666-247345",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sirsa Sub-division",
+        "Sirsa City",
+        "Khairpur",
+        "Baragudha",
+        "Odhan",
+        "D.C. Colony"
+    ]
+}

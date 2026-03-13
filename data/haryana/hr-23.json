@@ -1,0 +1,22 @@
+{
+    "code": "HR-23",
+    "region": "Tohana",
+    "city": "Tohana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "HR-23 is the designated RTO code for the Tohana sub-division in Fatehabad district, Haryana. It functions as a Registering and Licensing Authority (RLA) under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tohana, District Fatehabad, Haryana",
+    "pinCode": "125120",
+    "phone": "01692-230280",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tohana",
+        "Jakhal",
+        "Jakhal Mandi",
+        "Tohana Sub-division"
+    ]
+}
