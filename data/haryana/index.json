@@ -467,5 +467,119 @@
       "Sisai",
       "Ghiraia"
     ]
+  },
+  {
+    "code": "HR-21",
+    "region": "Hansi",
+    "city": "Hansi",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "The HR-21 RTO office is located in Hansi and serves as the Registering Authority under the Sub-Divisional Magistrate (SDM) of the Hisar district. It is responsible for the registration of private and transport vehicles, issuance of driving licenses, and collection of road taxes for the Hansi sub-division. The office ensures compliance with the Motor Vehicles Act within its local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Hansi, District Hisar, Haryana",
+    "pinCode": "125033",
+    "phone": "01663-254074",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Hansi",
+      "Hansi-I",
+      "Hansi-II",
+      "Bass",
+      "Sisai",
+      "Rural Hansi Area"
+    ]
+  },
+  {
+    "code": "HR-22",
+    "region": "Fatehabad",
+    "city": "Fatehabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "HR-22 is the Regional Transport Office (RTO) serving the Fatehabad district in Haryana. It is primarily responsible for the registration of private vehicles, issuance of driving licenses, and transport permit renewals for the Fatehabad sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mini Secretariat, Fatehabad, Haryana",
+    "pinCode": "125050",
+    "phone": "01667-230011",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Fatehabad",
+      "Bhattu Kalan",
+      "Fatehabad Sub-Division"
+    ]
+  },
+  {
+    "code": "HR-23",
+    "region": "Tohana",
+    "city": "Tohana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "HR-23 is the designated RTO code for the Tohana sub-division in Fatehabad district, Haryana. It functions as a Registering and Licensing Authority (RLA) under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tohana, District Fatehabad, Haryana",
+    "pinCode": "125120",
+    "phone": "01692-230280",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tohana",
+      "Jakhal",
+      "Jakhal Mandi",
+      "Tohana Sub-division"
+    ]
+  },
+  {
+    "code": "HR-24",
+    "region": "Sirsa",
+    "city": "Sirsa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-24 is the Regional Licensing Authority (RLA) for the Sirsa sub-division in Haryana. It is primarily responsible for the registration of private (non-commercial) vehicles and the issuance of driving licenses under the jurisdiction of the Sub-Divisional Magistrate (SDM).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Mini Secretariat, Sirsa, Haryana",
+    "pinCode": "125055",
+    "phone": "01666-247345",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sirsa Sub-division",
+      "Sirsa City",
+      "Khairpur",
+      "Baragudha",
+      "Odhan",
+      "D.C. Colony"
+    ]
+  },
+  {
+    "code": "HR-25",
+    "region": "Dabwali",
+    "city": "Mandi Dabwali",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-25 is the Regional Transport Office serving the Mandi Dabwali sub-division in the Sirsa district of Haryana. It functions under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and other transport-related services near the Punjab-Haryana border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mandi Dabwali, Sirsa, Haryana",
+    "pinCode": "125104",
+    "phone": "01668-222997",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dabwali",
+      "Kalanwali",
+      "Odhan",
+      "Lohgarh",
+      "Mandi Dabwali Municipal Area"
+    ]
   }
 ]
