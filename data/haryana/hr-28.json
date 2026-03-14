@@ -1,0 +1,20 @@
+{
+    "code": "HR-28",
+    "region": "Ferozepur Jhirka",
+    "city": "Ferozepur Jhirka",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Faridabad Division",
+    "description": "HR-28 is the Regional Licensing Authority (RLA) code for Ferozepur Jhirka sub-division in the Nuh district of Haryana. It functions under the Sub-Divisional Magistrate office and handles the registration of private vehicles and issuance of driving licenses for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Ferozepur Jhirka, District Nuh, Haryana",
+    "pinCode": "122104",
+    "phone": "01268-277222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ferozepur Jhirka",
+        "Nuh District"
+    ]
+}

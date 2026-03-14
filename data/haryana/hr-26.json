@@ -1,0 +1,24 @@
+{
+    "code": "HR-26",
+    "region": "Gurugram (North)",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "HR-26 is the Regional Transport Office serving the northern region of Gurugram, Haryana. It primarily manages the registration of non-transport (private) vehicles and handles driver licensing for residents within its specific jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ground Floor, Mini Secretariat, Gurugram, Haryana",
+    "pinCode": "122018",
+    "phone": "0124-2321808",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gurugram North",
+        "Civil Lines",
+        "Palam Vihar",
+        "DLF Phases",
+        "Sushant Lok",
+        "Old Gurgaon Areas"
+    ]
+}

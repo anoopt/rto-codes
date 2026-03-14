@@ -1,0 +1,24 @@
+{
+    "code": "HR-30",
+    "region": "Palwal",
+    "city": "Palwal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Faridabad",
+    "description": "HR-30 is the official Regional Transport Office code for Palwal, Haryana, primarily serving as the Registration and Licensing Authority (RLA) for private vehicles. Located under the Sub-Divisional Magistrate's administration, it handles vehicle registration, driver licensing, and regional transport permits for the district.",
+    "status": "active",
+    "established": "2008",
+    "address": "Office of the Sub-Divisional Magistrate, Camp Area, Palwal, Haryana",
+    "pinCode": "121102",
+    "phone": "01275-240101",
+    "email": "sdmpll@hry.nic.in",
+    "jurisdictionAreas": [
+        "Palwal",
+        "Hodal",
+        "Hassanpur",
+        "Prithla",
+        "Dhatir",
+        "Bahin"
+    ]
+}

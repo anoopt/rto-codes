@@ -1,0 +1,26 @@
+{
+    "code": "HR-29",
+    "region": "Ballabgarh",
+    "city": "Ballabgarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "HR-29 is the designated code for the Registration and Licensing Authority (RLA) in Ballabgarh, Haryana. It primarily serves the southern administrative block of the Faridabad district, handling non-commercial vehicle registration and driving licenses. The office operates under the Sub-Divisional Magistrate (SDM) of Ballabgarh within the Faridabad industrial corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RLA-CUM-SDM Panchayat Bhawan, Near Aggarwal Dharamshala, Ballabgarh, Haryana",
+    "pinCode": "121004",
+    "phone": "0129-2304500",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ballabgarh",
+        "Chawla Colony",
+        "Sector 2",
+        "Sector 3",
+        "Sector 4",
+        "Mohna",
+        "Tigaon",
+        "Faridabad South"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "HR-27",
+    "region": "Nuh",
+    "city": "Nuh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Faridabad",
+    "description": "HR-27 is the Registering and Licensing Authority (RLA) located at the SDM office in Nuh, Haryana. This office is responsible for the registration of private non-transport vehicles and the issuance of driving licenses for the Nuh tehsil area. It operates under the Transport Department of Haryana and serves the primary administrative center of the Nuh district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Nuh, District Nuh, Haryana",
+    "pinCode": "122107",
+    "phone": "01267-271201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nuh",
+        "Nuh Tehsil",
+        "Nuh District"
+    ]
+}
