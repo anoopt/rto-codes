@@ -581,5 +581,120 @@
       "Lohgarh",
       "Mandi Dabwali Municipal Area"
     ]
+  },
+  {
+    "code": "HR-26",
+    "region": "Gurugram (North)",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "HR-26 is the Regional Transport Office serving the northern region of Gurugram, Haryana. It primarily manages the registration of non-transport (private) vehicles and handles driver licensing for residents within its specific jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ground Floor, Mini Secretariat, Gurugram, Haryana",
+    "pinCode": "122018",
+    "phone": "0124-2321808",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Gurugram North",
+      "Civil Lines",
+      "Palam Vihar",
+      "DLF Phases",
+      "Sushant Lok",
+      "Old Gurgaon Areas"
+    ]
+  },
+  {
+    "code": "HR-27",
+    "region": "Nuh",
+    "city": "Nuh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Faridabad",
+    "description": "HR-27 is the Registering and Licensing Authority (RLA) located at the SDM office in Nuh, Haryana. This office is responsible for the registration of private non-transport vehicles and the issuance of driving licenses for the Nuh tehsil area. It operates under the Transport Department of Haryana and serves the primary administrative center of the Nuh district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Nuh, District Nuh, Haryana",
+    "pinCode": "122107",
+    "phone": "01267-271201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nuh",
+      "Nuh Tehsil",
+      "Nuh District"
+    ]
+  },
+  {
+    "code": "HR-28",
+    "region": "Ferozepur Jhirka",
+    "city": "Ferozepur Jhirka",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Faridabad Division",
+    "description": "HR-28 is the Regional Licensing Authority (RLA) code for Ferozepur Jhirka sub-division in the Nuh district of Haryana. It functions under the Sub-Divisional Magistrate office and handles the registration of private vehicles and issuance of driving licenses for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Ferozepur Jhirka, District Nuh, Haryana",
+    "pinCode": "122104",
+    "phone": "01268-277222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ferozepur Jhirka",
+      "Nuh District"
+    ]
+  },
+  {
+    "code": "HR-29",
+    "region": "Ballabgarh",
+    "city": "Ballabgarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "HR-29 is the designated code for the Registration and Licensing Authority (RLA) in Ballabgarh, Haryana. It primarily serves the southern administrative block of the Faridabad district, handling non-commercial vehicle registration and driving licenses. The office operates under the Sub-Divisional Magistrate (SDM) of Ballabgarh within the Faridabad industrial corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RLA-CUM-SDM Panchayat Bhawan, Near Aggarwal Dharamshala, Ballabgarh, Haryana",
+    "pinCode": "121004",
+    "phone": "0129-2304500",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ballabgarh",
+      "Chawla Colony",
+      "Sector 2",
+      "Sector 3",
+      "Sector 4",
+      "Mohna",
+      "Tigaon",
+      "Faridabad South"
+    ]
+  },
+  {
+    "code": "HR-30",
+    "region": "Palwal",
+    "city": "Palwal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Faridabad",
+    "description": "HR-30 is the official Regional Transport Office code for Palwal, Haryana, primarily serving as the Registration and Licensing Authority (RLA) for private vehicles. Located under the Sub-Divisional Magistrate's administration, it handles vehicle registration, driver licensing, and regional transport permits for the district.",
+    "status": "active",
+    "established": "2008",
+    "address": "Office of the Sub-Divisional Magistrate, Camp Area, Palwal, Haryana",
+    "pinCode": "121102",
+    "phone": "01275-240101",
+    "email": "sdmpll@hry.nic.in",
+    "jurisdictionAreas": [
+      "Palwal",
+      "Hodal",
+      "Hassanpur",
+      "Prithla",
+      "Dhatir",
+      "Bahin"
+    ]
   }
 ]
