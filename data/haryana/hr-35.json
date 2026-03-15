@@ -1,0 +1,22 @@
+{
+    "code": "HR-35",
+    "region": "Narnaul",
+    "city": "Narnaul",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Rohtak",
+    "description": "HR-35 is the Regional Transport Office serving Narnaul in the Mahendragarh district of Haryana. It functions primarily as a Registering Authority (RA) for vehicles and handles driving license services and transport permit enforcement for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Narnaul, District Mahendragarh, Haryana",
+    "pinCode": "123001",
+    "phone": "01282-251153",
+    "email": "sdmnnl-hry@nic.in",
+    "jurisdictionAreas": [
+        "Narnaul",
+        "Ateli",
+        "Nangal Chaudhary",
+        "Nizampur"
+    ]
+}

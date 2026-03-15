@@ -1,0 +1,25 @@
+{
+    "code": "HR-31",
+    "region": "Jind",
+    "city": "Jind",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-31 is the primary Regional Transport Office for Jind district in Haryana. It is responsible for various transport-related services including vehicle registration, issuance of driving licenses, and collection of road taxes for the Jind jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Mini Secretariat, Jind, Haryana",
+    "pinCode": "126102",
+    "phone": "01681-269103",
+    "email": "sdmjind@hry.nic.in",
+    "jurisdictionAreas": [
+        "Jind",
+        "Julana",
+        "Safidon",
+        "Uchana",
+        "Narwana",
+        "Pillukhera",
+        "Alewa"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HR-34",
+    "region": "Mahendragarh",
+    "city": "Mahendragarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Gurgaon Division",
+    "description": "HR-34 is the official Registering and Licensing Authority (RLA) code for the Mahendragarh subdivision in Haryana. It primarily handles the registration of non-transport vehicles and the issuance of driving licenses for the local sub-district area, while the district headquarters in Narnaul operates under code HR-35.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Mahendragarh, Haryana",
+    "pinCode": "123029",
+    "phone": "01285-220228",
+    "email": "sdmmah@hry.nic.in",
+    "jurisdictionAreas": [
+        "Mahendragarh Town",
+        "Satnali",
+        "Akoda",
+        "Pali",
+        "Dongra Ahir",
+        "Sigra",
+        "Khatod"
+    ]
+}

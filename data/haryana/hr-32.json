@@ -1,0 +1,24 @@
+{
+    "code": "HR-32",
+    "region": "Narwana",
+    "city": "Narwana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-32 is the Regional Licensing Authority (RLA) situated in Narwana, serving the Jind district in Haryana. The office is managed by the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and other transport regulatory duties for the Narwana sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Narwana, District Jind, Haryana",
+    "pinCode": "126116",
+    "phone": "01684-240130",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Narwana",
+        "Dhamtan Sahib",
+        "Belarkha",
+        "Garhi",
+        "Ujhana",
+        "Dhandot"
+    ]
+}

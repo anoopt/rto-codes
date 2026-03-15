@@ -1,0 +1,23 @@
+{
+    "code": "HR-33",
+    "region": "Safidon",
+    "city": "Safidon",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-33 is the Regional Transport Office serving the Safidon sub-division in the Jind district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and other transport-related services for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Safidon, Jind, Haryana",
+    "pinCode": "126112",
+    "phone": "01686-262050",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Safidon",
+        "Pillu Khera",
+        "Muana",
+        "Hat",
+        "Anta"
+    ]
+}
