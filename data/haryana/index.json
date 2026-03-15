@@ -696,5 +696,124 @@
       "Dhatir",
       "Bahin"
     ]
+  },
+  {
+    "code": "HR-31",
+    "region": "Jind",
+    "city": "Jind",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-31 is the primary Regional Transport Office for Jind district in Haryana. It is responsible for various transport-related services including vehicle registration, issuance of driving licenses, and collection of road taxes for the Jind jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Mini Secretariat, Jind, Haryana",
+    "pinCode": "126102",
+    "phone": "01681-269103",
+    "email": "sdmjind@hry.nic.in",
+    "jurisdictionAreas": [
+      "Jind",
+      "Julana",
+      "Safidon",
+      "Uchana",
+      "Narwana",
+      "Pillukhera",
+      "Alewa"
+    ]
+  },
+  {
+    "code": "HR-32",
+    "region": "Narwana",
+    "city": "Narwana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-32 is the Regional Licensing Authority (RLA) situated in Narwana, serving the Jind district in Haryana. The office is managed by the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and other transport regulatory duties for the Narwana sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Narwana, District Jind, Haryana",
+    "pinCode": "126116",
+    "phone": "01684-240130",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Narwana",
+      "Dhamtan Sahib",
+      "Belarkha",
+      "Garhi",
+      "Ujhana",
+      "Dhandot"
+    ]
+  },
+  {
+    "code": "HR-33",
+    "region": "Safidon",
+    "city": "Safidon",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-33 is the Regional Transport Office serving the Safidon sub-division in the Jind district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and other transport-related services for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Safidon, Jind, Haryana",
+    "pinCode": "126112",
+    "phone": "01686-262050",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Safidon",
+      "Pillu Khera",
+      "Muana",
+      "Hat",
+      "Anta"
+    ]
+  },
+  {
+    "code": "HR-34",
+    "region": "Mahendragarh",
+    "city": "Mahendragarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Gurgaon Division",
+    "description": "HR-34 is the official Registering and Licensing Authority (RLA) code for the Mahendragarh subdivision in Haryana. It primarily handles the registration of non-transport vehicles and the issuance of driving licenses for the local sub-district area, while the district headquarters in Narnaul operates under code HR-35.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Mahendragarh, Haryana",
+    "pinCode": "123029",
+    "phone": "01285-220228",
+    "email": "sdmmah@hry.nic.in",
+    "jurisdictionAreas": [
+      "Mahendragarh Town",
+      "Satnali",
+      "Akoda",
+      "Pali",
+      "Dongra Ahir",
+      "Sigra",
+      "Khatod"
+    ]
+  },
+  {
+    "code": "HR-35",
+    "region": "Narnaul",
+    "city": "Narnaul",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Rohtak",
+    "description": "HR-35 is the Regional Transport Office serving Narnaul in the Mahendragarh district of Haryana. It functions primarily as a Registering Authority (RA) for vehicles and handles driving license services and transport permit enforcement for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Narnaul, District Mahendragarh, Haryana",
+    "pinCode": "123001",
+    "phone": "01282-251153",
+    "email": "sdmnnl-hry@nic.in",
+    "jurisdictionAreas": [
+      "Narnaul",
+      "Ateli",
+      "Nangal Chaudhary",
+      "Nizampur"
+    ]
   }
 ]
