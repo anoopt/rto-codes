@@ -1,0 +1,25 @@
+{
+    "code": "HR-38",
+    "region": "Faridabad",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "HR-38 is the Regional Transport Authority (RTA) office in Faridabad, Haryana, primarily responsible for the registration and oversight of commercial and transport vehicles. Operating from the Mini Secretariat, it manages transport permits, fitness certifications, and heavy vehicle documentation for this major industrial hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "2nd Floor, A-Block, Mini Secretariat, Sector 12, Faridabad, Haryana",
+    "pinCode": "121007",
+    "phone": "0129-2227244",
+    "email": "rtafaridabad@gmail.com",
+    "jurisdictionAreas": [
+        "Faridabad",
+        "Ballabgarh",
+        "Badkhal",
+        "Tigaon",
+        "Dhauj",
+        "Mohna",
+        "Dayalpur"
+    ]
+}

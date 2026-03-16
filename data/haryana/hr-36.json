@@ -1,0 +1,23 @@
+{
+    "code": "HR-36",
+    "region": "Rewari",
+    "city": "Rewari",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurugram Division",
+    "description": "HR-36 is the Regional Transport Office serving the Rewari subdivision in Haryana, operating under the Sub-Divisional Magistrate (SDM) authority. It is primarily responsible for the registration of private (non-transport) vehicles and the issuance of driving licenses for residents within the Rewari area. The office ensures compliance with the Motor Vehicles Act while facilitating transport services for this significant industrial and historical hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Secretariat, SDM Office, Rewari, Haryana",
+    "pinCode": "123401",
+    "phone": "01274-222270",
+    "email": "sdmrewari@hry.nic.in",
+    "jurisdictionAreas": [
+        "Rewari Tehsil",
+        "Rewari City",
+        "Dharuhera",
+        "Bawal (SDM Jurisdiction)",
+        "Jatusana"
+    ]
+}

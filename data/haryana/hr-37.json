@@ -1,0 +1,24 @@
+{
+    "code": "HR-37",
+    "region": "Ambala (Commercial Vehicles)",
+    "city": "Ambala",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-37 is the Regional Transport Authority (RTA) office in Ambala, Haryana, specifically designated for the registration and regulation of commercial vehicles. It functions as a specialized branch of the transport department to manage transport permits, fitness certificates, and heavy vehicle documentation for the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA), 1st Floor, Bus Stand, Ambala Cantt, Haryana",
+    "pinCode": "133001",
+    "phone": "0171-2645051",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ambala City",
+        "Ambala Cantt",
+        "Barara",
+        "Naraingarh",
+        "Saha",
+        "Shahzadpur"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HR-40",
+    "region": "Assandh",
+    "city": "Assandh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "HR-40 is the Regional Transport Office for the Assandh sub-division in Haryana's Karnal district. It operates as a Sub-Divisional Magistrate (SDM) office, providing essential services like vehicle registration, driving license issuance, and tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate, Assandh, District Karnal, Haryana",
+    "pinCode": "132039",
+    "phone": "01749-278334",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Assandh",
+        "Jalmana",
+        "Salwan",
+        "Balla",
+        "Rangrutti Khera",
+        "Phaphana",
+        "Thari"
+    ]
+}

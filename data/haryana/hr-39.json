@@ -1,0 +1,25 @@
+{
+    "code": "HR-39",
+    "region": "Hisar",
+    "city": "Hisar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-39 is the Regional Transport Authority (RTA) office in Hisar, Haryana, primarily focused on the registration and regulation of commercial and transport vehicles. It operates under the Haryana Transport Department to manage vehicle permits, fitness certifications, and enforcement of motor vehicle laws within the district. This RTO specifically serves as the primary hub for heavy vehicle administration in the Hisar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA) Office, Mini Secretariat, Hisar, Haryana",
+    "pinCode": "125001",
+    "phone": "01662-232798",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hisar",
+        "Hansi",
+        "Adampur",
+        "Barwala",
+        "Narnaund",
+        "Agroha",
+        "Uklana"
+    ]
+}
