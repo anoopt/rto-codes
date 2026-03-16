@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-15T02:59:35.142Z",
-  "totalRTOs": 321,
-  "totalVerified": 321,
+  "generatedAt": "2026-03-16T02:59:32.919Z",
+  "totalRTOs": 326,
+  "totalVerified": 326,
   "totalStates": 28,
   "completedStates": 8,
   "inProgressStates": 1,
@@ -390,10 +390,10 @@
     {
       "stateCode": "HR",
       "stateName": "Haryana",
-      "rtoCount": 35,
+      "rtoCount": 40,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 35,
+      "verifiedCount": 40,
       "rtoCodes": [
         "hr-01",
         "hr-02",
@@ -429,7 +429,12 @@
         "hr-32",
         "hr-33",
         "hr-34",
-        "hr-35"
+        "hr-35",
+        "hr-36",
+        "hr-37",
+        "hr-38",
+        "hr-39",
+        "hr-40"
       ],
       "isComplete": false,
       "type": "state",
@@ -1231,10 +1236,10 @@
     "HR": {
       "stateCode": "HR",
       "stateName": "Haryana",
-      "rtoCount": 35,
+      "rtoCount": 40,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 35,
+      "verifiedCount": 40,
       "rtoCodes": [
         "hr-01",
         "hr-02",
@@ -1270,7 +1275,12 @@
         "hr-32",
         "hr-33",
         "hr-34",
-        "hr-35"
+        "hr-35",
+        "hr-36",
+        "hr-37",
+        "hr-38",
+        "hr-39",
+        "hr-40"
       ],
       "isComplete": false,
       "type": "state",

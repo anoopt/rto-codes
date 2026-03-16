@@ -815,5 +815,127 @@
       "Nangal Chaudhary",
       "Nizampur"
     ]
+  },
+  {
+    "code": "HR-36",
+    "region": "Rewari",
+    "city": "Rewari",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurugram Division",
+    "description": "HR-36 is the Regional Transport Office serving the Rewari subdivision in Haryana, operating under the Sub-Divisional Magistrate (SDM) authority. It is primarily responsible for the registration of private (non-transport) vehicles and the issuance of driving licenses for residents within the Rewari area. The office ensures compliance with the Motor Vehicles Act while facilitating transport services for this significant industrial and historical hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Secretariat, SDM Office, Rewari, Haryana",
+    "pinCode": "123401",
+    "phone": "01274-222270",
+    "email": "sdmrewari@hry.nic.in",
+    "jurisdictionAreas": [
+      "Rewari Tehsil",
+      "Rewari City",
+      "Dharuhera",
+      "Bawal (SDM Jurisdiction)",
+      "Jatusana"
+    ]
+  },
+  {
+    "code": "HR-37",
+    "region": "Ambala (Commercial Vehicles)",
+    "city": "Ambala",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-37 is the Regional Transport Authority (RTA) office in Ambala, Haryana, specifically designated for the registration and regulation of commercial vehicles. It functions as a specialized branch of the transport department to manage transport permits, fitness certificates, and heavy vehicle documentation for the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA), 1st Floor, Bus Stand, Ambala Cantt, Haryana",
+    "pinCode": "133001",
+    "phone": "0171-2645051",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ambala City",
+      "Ambala Cantt",
+      "Barara",
+      "Naraingarh",
+      "Saha",
+      "Shahzadpur"
+    ]
+  },
+  {
+    "code": "HR-38",
+    "region": "Faridabad",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "HR-38 is the Regional Transport Authority (RTA) office in Faridabad, Haryana, primarily responsible for the registration and oversight of commercial and transport vehicles. Operating from the Mini Secretariat, it manages transport permits, fitness certifications, and heavy vehicle documentation for this major industrial hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "2nd Floor, A-Block, Mini Secretariat, Sector 12, Faridabad, Haryana",
+    "pinCode": "121007",
+    "phone": "0129-2227244",
+    "email": "rtafaridabad@gmail.com",
+    "jurisdictionAreas": [
+      "Faridabad",
+      "Ballabgarh",
+      "Badkhal",
+      "Tigaon",
+      "Dhauj",
+      "Mohna",
+      "Dayalpur"
+    ]
+  },
+  {
+    "code": "HR-39",
+    "region": "Hisar",
+    "city": "Hisar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-39 is the Regional Transport Authority (RTA) office in Hisar, Haryana, primarily focused on the registration and regulation of commercial and transport vehicles. It operates under the Haryana Transport Department to manage vehicle permits, fitness certifications, and enforcement of motor vehicle laws within the district. This RTO specifically serves as the primary hub for heavy vehicle administration in the Hisar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA) Office, Mini Secretariat, Hisar, Haryana",
+    "pinCode": "125001",
+    "phone": "01662-232798",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Hisar",
+      "Hansi",
+      "Adampur",
+      "Barwala",
+      "Narnaund",
+      "Agroha",
+      "Uklana"
+    ]
+  },
+  {
+    "code": "HR-40",
+    "region": "Assandh",
+    "city": "Assandh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "HR-40 is the Regional Transport Office for the Assandh sub-division in Haryana's Karnal district. It operates as a Sub-Divisional Magistrate (SDM) office, providing essential services like vehicle registration, driving license issuance, and tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate, Assandh, District Karnal, Haryana",
+    "pinCode": "132039",
+    "phone": "01749-278334",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Assandh",
+      "Jalmana",
+      "Salwan",
+      "Balla",
+      "Rangrutti Khera",
+      "Phaphana",
+      "Thari"
+    ]
   }
 ]
