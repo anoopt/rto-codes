@@ -1,0 +1,26 @@
+{
+    "code": "HR-44",
+    "region": "Ellenabad",
+    "city": "Ellenabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-44 is the Regional Transport Office for the Ellenabad sub-division in the Sirsa district of Haryana. It operates as a Registering Authority under the Sub-Divisional Magistrate (SDM), handling vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ellenabad, District Sirsa, Haryana",
+    "pinCode": "125102",
+    "phone": "01698-220287",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ellenabad",
+        "Mithi Sureran",
+        "Talwara Khurd",
+        "Dhaulpalia",
+        "Kutiana",
+        "Hundar",
+        "Sant Nagar",
+        "Beniwal"
+    ]
+}

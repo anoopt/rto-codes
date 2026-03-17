@@ -1,0 +1,23 @@
+{
+    "code": "HR-43",
+    "region": "Kosli",
+    "city": "Kosli",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurgaon",
+    "description": "The HR-43 RTO office is located in Kosli and serves the administrative subdivision of the Rewari district in Haryana. It functions as the Registering and Licensing Authority (RLA) under the Sub-Divisional Magistrate, managing non-commercial vehicle registrations and driver licensing services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Kosli, District Rewari, Haryana",
+    "pinCode": "123302",
+    "phone": "01259-275106",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kosli",
+        "Nahar",
+        "Jatusana",
+        "Dahina",
+        "Kanwali"
+    ]
+}

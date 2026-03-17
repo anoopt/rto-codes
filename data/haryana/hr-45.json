@@ -1,0 +1,23 @@
+{
+    "code": "HR-45",
+    "region": "Karnal",
+    "city": "Karnal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "HR-45 serves as the Regional Transport Authority (RTA) for Karnal, Haryana, primarily handling commercial and transport vehicle registrations. It operates in parallel with HR-05, which is typically used for private vehicle registrations through the Sub-Divisional Magistrate.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTA), Near New Bus Stand, Karnal, Haryana",
+    "pinCode": "132001",
+    "phone": "0184-2251600",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Karnal",
+        "Indri",
+        "Assandh",
+        "Gharaunda",
+        "Nilokheri"
+    ]
+}

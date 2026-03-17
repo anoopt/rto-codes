@@ -1,0 +1,23 @@
+{
+    "code": "HR-41",
+    "region": "Pehowa",
+    "city": "Pehowa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-41 is the designated RTO code for the Pehowa sub-division in Haryana, functioning under the Sub Divisional Magistrate (SDM). The office is responsible for vehicle registration, issuing driving licenses, and collecting road taxes within the Pehowa tehsil area. It plays a crucial role in managing transport services for the agricultural and religious hub of Pehowa.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Pehowa, District Kurukshetra, Haryana",
+    "pinCode": "136128",
+    "phone": "01741-220448",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pehowa",
+        "Ismailabad",
+        "Gumthala Garhu",
+        "Sarsa",
+        "Pehowa Tehsil Villages"
+    ]
+}

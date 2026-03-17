@@ -1,0 +1,24 @@
+{
+    "code": "HR-42",
+    "region": "Ganaur",
+    "city": "Ganaur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "HR-42 is the regional transport code for Ganaur, a significant town and tehsil in the Sonipat district of Haryana. The office, administered by the Sub-Divisional Magistrate, manages vehicle registrations, driving licenses, and transport safety enforcement for the Ganaur sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Railway Road, Ganaur, Sonipat, Haryana",
+    "pinCode": "131101",
+    "phone": "01264-246081",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ganaur",
+        "Ganaur Tehsil",
+        "Larsauli",
+        "Panch Gujran",
+        "Purkhas",
+        "Agwanpur"
+    ]
+}
