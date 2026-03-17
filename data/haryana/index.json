@@ -937,5 +937,124 @@
       "Phaphana",
       "Thari"
     ]
+  },
+  {
+    "code": "HR-41",
+    "region": "Pehowa",
+    "city": "Pehowa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-41 is the designated RTO code for the Pehowa sub-division in Haryana, functioning under the Sub Divisional Magistrate (SDM). The office is responsible for vehicle registration, issuing driving licenses, and collecting road taxes within the Pehowa tehsil area. It plays a crucial role in managing transport services for the agricultural and religious hub of Pehowa.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Pehowa, District Kurukshetra, Haryana",
+    "pinCode": "136128",
+    "phone": "01741-220448",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pehowa",
+      "Ismailabad",
+      "Gumthala Garhu",
+      "Sarsa",
+      "Pehowa Tehsil Villages"
+    ]
+  },
+  {
+    "code": "HR-42",
+    "region": "Ganaur",
+    "city": "Ganaur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "HR-42 is the regional transport code for Ganaur, a significant town and tehsil in the Sonipat district of Haryana. The office, administered by the Sub-Divisional Magistrate, manages vehicle registrations, driving licenses, and transport safety enforcement for the Ganaur sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Railway Road, Ganaur, Sonipat, Haryana",
+    "pinCode": "131101",
+    "phone": "01264-246081",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ganaur",
+      "Ganaur Tehsil",
+      "Larsauli",
+      "Panch Gujran",
+      "Purkhas",
+      "Agwanpur"
+    ]
+  },
+  {
+    "code": "HR-43",
+    "region": "Kosli",
+    "city": "Kosli",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurgaon",
+    "description": "The HR-43 RTO office is located in Kosli and serves the administrative subdivision of the Rewari district in Haryana. It functions as the Registering and Licensing Authority (RLA) under the Sub-Divisional Magistrate, managing non-commercial vehicle registrations and driver licensing services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Kosli, District Rewari, Haryana",
+    "pinCode": "123302",
+    "phone": "01259-275106",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kosli",
+      "Nahar",
+      "Jatusana",
+      "Dahina",
+      "Kanwali"
+    ]
+  },
+  {
+    "code": "HR-44",
+    "region": "Ellenabad",
+    "city": "Ellenabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-44 is the Regional Transport Office for the Ellenabad sub-division in the Sirsa district of Haryana. It operates as a Registering Authority under the Sub-Divisional Magistrate (SDM), handling vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ellenabad, District Sirsa, Haryana",
+    "pinCode": "125102",
+    "phone": "01698-220287",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ellenabad",
+      "Mithi Sureran",
+      "Talwara Khurd",
+      "Dhaulpalia",
+      "Kutiana",
+      "Hundar",
+      "Sant Nagar",
+      "Beniwal"
+    ]
+  },
+  {
+    "code": "HR-45",
+    "region": "Karnal",
+    "city": "Karnal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "HR-45 serves as the Regional Transport Authority (RTA) for Karnal, Haryana, primarily handling commercial and transport vehicle registrations. It operates in parallel with HR-05, which is typically used for private vehicle registrations through the Sub-Divisional Magistrate.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTA), Near New Bus Stand, Karnal, Haryana",
+    "pinCode": "132001",
+    "phone": "0184-2251600",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Karnal",
+      "Indri",
+      "Assandh",
+      "Gharaunda",
+      "Nilokheri"
+    ]
   }
 ]
