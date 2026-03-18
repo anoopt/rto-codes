@@ -1056,5 +1056,120 @@
       "Gharaunda",
       "Nilokheri"
     ]
+  },
+  {
+    "code": "HR-46",
+    "region": "Rohtak",
+    "city": "Rohtak",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rohtak",
+    "division": "Rohtak",
+    "description": "HR-46 is the Regional Transport Authority (RTA) in Rohtak, Haryana, primarily responsible for the registration and licensing of commercial and transport vehicles. It operates under the state transport department to manage commercial logistics and public transport regulations within the Rohtak district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTA), Ground Floor, Mini Secretariat Building, Rohtak, Haryana",
+    "pinCode": "124001",
+    "phone": "01262-245639",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rohtak",
+      "Meham",
+      "Sampla",
+      "Kalanaur",
+      "Lakhan Majra"
+    ]
+  },
+  {
+    "code": "HR-47",
+    "region": "Rewari",
+    "city": "Rewari",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurugram",
+    "description": "HR-47 is the Regional Transport Authority (RTA) office located in Rewari, Haryana. This office is specifically designated for the registration and regulation of commercial vehicles, including permits and fitness certifications, while private vehicles in the district are typically registered under HR-36.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO/RTA Office, Old Court Building, Rewari, Haryana",
+    "pinCode": "123401",
+    "phone": "01274-225245",
+    "email": "rta.rwr-hry@nic.in",
+    "jurisdictionAreas": [
+      "Rewari",
+      "Bawal",
+      "Dharuhera",
+      "Kosli",
+      "Jatusana",
+      "Khol",
+      "Palhawas"
+    ]
+  },
+  {
+    "code": "HR-48",
+    "region": "Tosham",
+    "city": "Tosham",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "HR-48 RTO is the Regional Transport Office located in Tosham, functioning as a Regional Licensing Authority (RLA) under the Sub-Divisional Magistrate office. It is responsible for vehicle registration, driving license issuance, and transport regulation for the Tosham sub-division of Haryana. This RTO helps decentralized transport administration in the Bhiwani district by serving local rural and semi-urban populations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tosham, District Bhiwani, Haryana",
+    "pinCode": "127040",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tosham",
+      "Bawani Khera",
+      "Tosham Sub-Division"
+    ]
+  },
+  {
+    "code": "HR-49",
+    "region": "Kalka",
+    "city": "Kalka",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panchkula",
+    "division": "Ambala",
+    "description": "HR-49 is the specific registration code for Kalka sub-division in the Panchkula district of Haryana. It operates as a Registering and Licensing Authority (RLA) under the Sub-Divisional Magistrate, primarily handling non-transport vehicle registrations and licensing for the region. This office is significant due to its location as a major transit point between the plains of Haryana and the hilly regions of Himachal Pradesh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Kalka, District Panchkula, Haryana",
+    "pinCode": "133302",
+    "phone": "01733-220500",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kalka",
+      "Pinjore",
+      "Kalka Sub-Division",
+      "Morni"
+    ]
+  },
+  {
+    "code": "HR-50",
+    "region": "Hodal",
+    "city": "Hodal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Gurugram",
+    "description": "HR-50 is the Registering and Licensing Authority (RLA) situated in the Hodal subdivision of the Palwal district. It operates under the jurisdiction of the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registrations, issuing driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "2008",
+    "address": "RLA-cum-SDM Office, Hassanpur Chowk, Hodal, Palwal District, Haryana",
+    "pinCode": "121106",
+    "phone": "01275-235836",
+    "email": "sdmhodal@hry.nic.in",
+    "jurisdictionAreas": [
+      "Hodal",
+      "Hassanpur",
+      "Banchari",
+      "Dighot",
+      "Sondehad",
+      "Khaika"
+    ]
   }
 ]
