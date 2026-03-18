@@ -1,0 +1,25 @@
+{
+    "code": "HR-47",
+    "region": "Rewari",
+    "city": "Rewari",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurugram",
+    "description": "HR-47 is the Regional Transport Authority (RTA) office located in Rewari, Haryana. This office is specifically designated for the registration and regulation of commercial vehicles, including permits and fitness certifications, while private vehicles in the district are typically registered under HR-36.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO/RTA Office, Old Court Building, Rewari, Haryana",
+    "pinCode": "123401",
+    "phone": "01274-225245",
+    "email": "rta.rwr-hry@nic.in",
+    "jurisdictionAreas": [
+        "Rewari",
+        "Bawal",
+        "Dharuhera",
+        "Kosli",
+        "Jatusana",
+        "Khol",
+        "Palhawas"
+    ]
+}

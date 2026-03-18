@@ -1,0 +1,24 @@
+{
+    "code": "HR-50",
+    "region": "Hodal",
+    "city": "Hodal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Gurugram",
+    "description": "HR-50 is the Registering and Licensing Authority (RLA) situated in the Hodal subdivision of the Palwal district. It operates under the jurisdiction of the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registrations, issuing driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "2008",
+    "address": "RLA-cum-SDM Office, Hassanpur Chowk, Hodal, Palwal District, Haryana",
+    "pinCode": "121106",
+    "phone": "01275-235836",
+    "email": "sdmhodal@hry.nic.in",
+    "jurisdictionAreas": [
+        "Hodal",
+        "Hassanpur",
+        "Banchari",
+        "Dighot",
+        "Sondehad",
+        "Khaika"
+    ]
+}

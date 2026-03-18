@@ -1,0 +1,23 @@
+{
+    "code": "HR-46",
+    "region": "Rohtak",
+    "city": "Rohtak",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rohtak",
+    "division": "Rohtak",
+    "description": "HR-46 is the Regional Transport Authority (RTA) in Rohtak, Haryana, primarily responsible for the registration and licensing of commercial and transport vehicles. It operates under the state transport department to manage commercial logistics and public transport regulations within the Rohtak district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTA), Ground Floor, Mini Secretariat Building, Rohtak, Haryana",
+    "pinCode": "124001",
+    "phone": "01262-245639",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rohtak",
+        "Meham",
+        "Sampla",
+        "Kalanaur",
+        "Lakhan Majra"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "HR-48",
+    "region": "Tosham",
+    "city": "Tosham",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "HR-48 RTO is the Regional Transport Office located in Tosham, functioning as a Regional Licensing Authority (RLA) under the Sub-Divisional Magistrate office. It is responsible for vehicle registration, driving license issuance, and transport regulation for the Tosham sub-division of Haryana. This RTO helps decentralized transport administration in the Bhiwani district by serving local rural and semi-urban populations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tosham, District Bhiwani, Haryana",
+    "pinCode": "127040",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tosham",
+        "Bawani Khera",
+        "Tosham Sub-Division"
+    ]
+}
