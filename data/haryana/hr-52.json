@@ -1,0 +1,21 @@
+{
+    "code": "HR-52",
+    "region": "Hathin",
+    "city": "Hathin",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Gurugram",
+    "description": "HR-52 is the Registering and Licensing Authority (RLA) office serving the Hathin sub-division in the Palwal district of Haryana. It operates under the supervision of the Sub-Divisional Magistrate (SDM) and manages vehicle registrations and driving permit issuance for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Registering and Licensing Authority (RLA-cum-SDM Office), Hathin, District Palwal, Haryana",
+    "pinCode": "121102",
+    "phone": "+91-1275-261480",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hathin",
+        "Hatin",
+        "Hathin Sub-division"
+    ]
+}

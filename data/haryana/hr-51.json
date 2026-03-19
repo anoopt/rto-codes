@@ -1,0 +1,23 @@
+{
+    "code": "HR-51",
+    "region": "Faridabad (Private Vehicles)",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "HR-51 is the Regional Transport Office for Faridabad city, Haryana, primarily focused on the registration of non-transport or private vehicles. Operating from the Mini Secretariat, it serves as a vital administrative hub for vehicle licensing and registration in one of the state's most populous industrial cities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Floor, A Block, Mini Secretariat, Sector-12, Faridabad, Haryana",
+    "pinCode": "121014",
+    "phone": "0129-2227868",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Faridabad City",
+        "Sector-12",
+        "Old Faridabad",
+        "NIT Faridabad",
+        "Surajkund"
+    ]
+}

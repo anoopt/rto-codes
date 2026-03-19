@@ -1,0 +1,24 @@
+{
+    "code": "HR-54",
+    "region": "Barara",
+    "city": "Barara",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-54 is the official RTO code for the Barara sub-division in the Ambala district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and transport permit services for the Barara region. It serves as a vital administrative hub for motor vehicle compliance in the eastern part of the Ambala district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Barara, District Ambala, Haryana",
+    "pinCode": "133201",
+    "phone": "01731-286711",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Barara",
+        "Adhoya",
+        "Thamber",
+        "Sohana",
+        "Doseka",
+        "Rajokheri"
+    ]
+}

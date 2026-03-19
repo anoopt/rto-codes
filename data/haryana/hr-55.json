@@ -1,0 +1,23 @@
+{
+    "code": "HR-55",
+    "region": "Gurugram Commercial",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "HR-55 is the Regional Transport Authority (RTA) in Gurugram, Haryana, specifically designated for the registration and licensing of commercial and transport vehicles. It operates out of the Mini Secretariat and plays a vital role in managing the heavy transport flow of this major economic hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5th Floor, Mini Secretariat, Gurugram, Haryana",
+    "pinCode": "122001",
+    "phone": "0124-2224444",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gurugram",
+        "Manesar",
+        "Pataudi",
+        "Sohna",
+        "Farrukh Nagar"
+    ]
+}
