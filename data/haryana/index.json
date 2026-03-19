@@ -1171,5 +1171,117 @@
       "Sondehad",
       "Khaika"
     ]
+  },
+  {
+    "code": "HR-51",
+    "region": "Faridabad (Private Vehicles)",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "HR-51 is the Regional Transport Office for Faridabad city, Haryana, primarily focused on the registration of non-transport or private vehicles. Operating from the Mini Secretariat, it serves as a vital administrative hub for vehicle licensing and registration in one of the state's most populous industrial cities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Floor, A Block, Mini Secretariat, Sector-12, Faridabad, Haryana",
+    "pinCode": "121014",
+    "phone": "0129-2227868",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Faridabad City",
+      "Sector-12",
+      "Old Faridabad",
+      "NIT Faridabad",
+      "Surajkund"
+    ]
+  },
+  {
+    "code": "HR-52",
+    "region": "Hathin",
+    "city": "Hathin",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Gurugram",
+    "description": "HR-52 is the Registering and Licensing Authority (RLA) office serving the Hathin sub-division in the Palwal district of Haryana. It operates under the supervision of the Sub-Divisional Magistrate (SDM) and manages vehicle registrations and driving permit issuance for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Registering and Licensing Authority (RLA-cum-SDM Office), Hathin, District Palwal, Haryana",
+    "pinCode": "121102",
+    "phone": "+91-1275-261480",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Hathin",
+      "Hatin",
+      "Hathin Sub-division"
+    ]
+  },
+  {
+    "code": "HR-53",
+    "region": "Adampur",
+    "city": "Adampur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "The HR-53 RTO office is located in Adampur and functions under the Haryana Transport Department, primarily serving the Adampur sub-division of the Hisar district. It is headed by the Sub-Divisional Officer (Civil) who acts as the Registering Authority for motor vehicles and driving licenses in this region. This office plays a crucial role in managing vehicle registration and transport regulations for the rural and semi-urban areas surrounding Mandi Adampur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDO (Civil), Adampur, Hisar District, Haryana",
+    "pinCode": "125052",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Adampur",
+      "Mandi Adampur",
+      "Adampur Tehsil"
+    ]
+  },
+  {
+    "code": "HR-54",
+    "region": "Barara",
+    "city": "Barara",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "HR-54 is the official RTO code for the Barara sub-division in the Ambala district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and transport permit services for the Barara region. It serves as a vital administrative hub for motor vehicle compliance in the eastern part of the Ambala district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Barara, District Ambala, Haryana",
+    "pinCode": "133201",
+    "phone": "01731-286711",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Barara",
+      "Adhoya",
+      "Thamber",
+      "Sohana",
+      "Doseka",
+      "Rajokheri"
+    ]
+  },
+  {
+    "code": "HR-55",
+    "region": "Gurugram Commercial",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "HR-55 is the Regional Transport Authority (RTA) in Gurugram, Haryana, specifically designated for the registration and licensing of commercial and transport vehicles. It operates out of the Mini Secretariat and plays a vital role in managing the heavy transport flow of this major economic hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5th Floor, Mini Secretariat, Gurugram, Haryana",
+    "pinCode": "122001",
+    "phone": "0124-2224444",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Gurugram",
+      "Manesar",
+      "Pataudi",
+      "Sohna",
+      "Farrukh Nagar"
+    ]
   }
 ]
