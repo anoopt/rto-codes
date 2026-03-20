@@ -1283,5 +1283,124 @@
       "Sohna",
       "Farrukh Nagar"
     ]
+  },
+  {
+    "code": "HR-56",
+    "region": "Jind (Commercial Vehicles)",
+    "city": "Jind",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-56 is the Regional Transport Authority (RTA) office specifically designated for the registration of commercial and transport vehicles in Jind district. It operates as a specialized branch to manage heavy vehicle permits, fitness certifications, and commercial registrations within the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA) Office, Mini Secretariat (O/o Deputy Commissioner), Jind, Haryana",
+    "pinCode": "126102",
+    "phone": "01681-269057",
+    "email": "rta.jind-hry@nic.in",
+    "jurisdictionAreas": [
+      "Jind",
+      "Safidon",
+      "Narwana",
+      "Julana",
+      "Pillu Khera",
+      "Uchana"
+    ]
+  },
+  {
+    "code": "HR-57",
+    "region": "Sirsa (Transport/Commercial)",
+    "city": "Sirsa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-57 is the specialized RTO code assigned for the registration of commercial and transport vehicles within the Sirsa district of Haryana. While private vehicles are registered under HR-24, this office under the Regional Transport Authority (RTA) manages permits, fitness certificates, and taxation for heavy motor vehicles and commercial fleets.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Secretary, Regional Transport Authority (RTA), Mini Secretariat, Sirsa, Haryana",
+    "pinCode": "125055",
+    "phone": "N/A",
+    "email": "rta.sirsa-hry@nic.in",
+    "jurisdictionAreas": [
+      "Sirsa",
+      "Ellenabad",
+      "Dabwali",
+      "Rania",
+      "Kalanwali",
+      "Odhan",
+      "Nathusari Chopta"
+    ]
+  },
+  {
+    "code": "HR-58",
+    "region": "Jagadhari",
+    "city": "Jagadhari",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamuna Nagar",
+    "division": "Ambala",
+    "description": "HR-58 is the Regional Transport Authority (RTA) office based in Jagadhari, specifically designated for the registration of commercial and transport vehicles in the Yamuna Nagar district. While HR-02 serves private vehicles, this office manages heavy vehicles, taxis, and buses, ensuring regulatory compliance within this significant industrial and timber-trading hub of Haryana.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO/RTA Office, Old Court Premises, Jagadhari, Yamuna Nagar, Haryana",
+    "pinCode": "135001",
+    "phone": "01732-237805",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jagadhari",
+      "Yamuna Nagar",
+      "Chhachhrauli",
+      "Bilaspur",
+      "Radaur",
+      "Sarsawati Nagar"
+    ]
+  },
+  {
+    "code": "HR-59",
+    "region": "Ratia",
+    "city": "Ratia",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "HR-59 RTO serves the Ratia sub-division in the Fatehabad district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and manages the registration of private vehicles, issuance of driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ratia, District Fatehabad, Haryana",
+    "pinCode": "125051",
+    "phone": "01697-251700",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ratia Tehsil",
+      "Ratia Town",
+      "Fatehabad District"
+    ]
+  },
+  {
+    "code": "HR-60",
+    "region": "Samalkha",
+    "city": "Samalkha",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panipat",
+    "division": "Karnal",
+    "description": "HR-60 RTO is the Sub-Divisional Magistrate office located in Samalkha, serving the Panipat district of Haryana. This office manages vehicle registration, driving licenses, and transport permits specifically for the Samalkha sub-division. It serves as a vital administrative hub to facilitate transport services for residents in the southern part of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Samalkha, Panipat, Haryana",
+    "pinCode": "132101",
+    "phone": "0180-2571100",
+    "email": "sdmsam-hry@nic.in",
+    "jurisdictionAreas": [
+      "Samalkha",
+      "Ganaur Road",
+      "Pattikalyana",
+      "Chulkana",
+      "Kiwanan",
+      "Hathwala",
+      "Beholi"
+    ]
   }
 ]
