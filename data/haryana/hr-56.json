@@ -1,0 +1,24 @@
+{
+    "code": "HR-56",
+    "region": "Jind (Commercial Vehicles)",
+    "city": "Jind",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "HR-56 is the Regional Transport Authority (RTA) office specifically designated for the registration of commercial and transport vehicles in Jind district. It operates as a specialized branch to manage heavy vehicle permits, fitness certifications, and commercial registrations within the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA) Office, Mini Secretariat (O/o Deputy Commissioner), Jind, Haryana",
+    "pinCode": "126102",
+    "phone": "01681-269057",
+    "email": "rta.jind-hry@nic.in",
+    "jurisdictionAreas": [
+        "Jind",
+        "Safidon",
+        "Narwana",
+        "Julana",
+        "Pillu Khera",
+        "Uchana"
+    ]
+}

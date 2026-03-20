@@ -1,0 +1,21 @@
+{
+    "code": "HR-59",
+    "region": "Ratia",
+    "city": "Ratia",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "HR-59 RTO serves the Ratia sub-division in the Fatehabad district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and manages the registration of private vehicles, issuance of driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ratia, District Fatehabad, Haryana",
+    "pinCode": "125051",
+    "phone": "01697-251700",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ratia Tehsil",
+        "Ratia Town",
+        "Fatehabad District"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HR-60",
+    "region": "Samalkha",
+    "city": "Samalkha",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panipat",
+    "division": "Karnal",
+    "description": "HR-60 RTO is the Sub-Divisional Magistrate office located in Samalkha, serving the Panipat district of Haryana. This office manages vehicle registration, driving licenses, and transport permits specifically for the Samalkha sub-division. It serves as a vital administrative hub to facilitate transport services for residents in the southern part of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Samalkha, Panipat, Haryana",
+    "pinCode": "132101",
+    "phone": "0180-2571100",
+    "email": "sdmsam-hry@nic.in",
+    "jurisdictionAreas": [
+        "Samalkha",
+        "Ganaur Road",
+        "Pattikalyana",
+        "Chulkana",
+        "Kiwanan",
+        "Hathwala",
+        "Beholi"
+    ]
+}

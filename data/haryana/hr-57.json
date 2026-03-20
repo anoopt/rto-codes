@@ -1,0 +1,25 @@
+{
+    "code": "HR-57",
+    "region": "Sirsa (Transport/Commercial)",
+    "city": "Sirsa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-57 is the specialized RTO code assigned for the registration of commercial and transport vehicles within the Sirsa district of Haryana. While private vehicles are registered under HR-24, this office under the Regional Transport Authority (RTA) manages permits, fitness certificates, and taxation for heavy motor vehicles and commercial fleets.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Secretary, Regional Transport Authority (RTA), Mini Secretariat, Sirsa, Haryana",
+    "pinCode": "125055",
+    "phone": "N/A",
+    "email": "rta.sirsa-hry@nic.in",
+    "jurisdictionAreas": [
+        "Sirsa",
+        "Ellenabad",
+        "Dabwali",
+        "Rania",
+        "Kalanwali",
+        "Odhan",
+        "Nathusari Chopta"
+    ]
+}

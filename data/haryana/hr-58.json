@@ -1,0 +1,24 @@
+{
+    "code": "HR-58",
+    "region": "Jagadhari",
+    "city": "Jagadhari",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamuna Nagar",
+    "division": "Ambala",
+    "description": "HR-58 is the Regional Transport Authority (RTA) office based in Jagadhari, specifically designated for the registration of commercial and transport vehicles in the Yamuna Nagar district. While HR-02 serves private vehicles, this office manages heavy vehicles, taxis, and buses, ensuring regulatory compliance within this significant industrial and timber-trading hub of Haryana.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO/RTA Office, Old Court Premises, Jagadhari, Yamuna Nagar, Haryana",
+    "pinCode": "135001",
+    "phone": "01732-237805",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jagadhari",
+        "Yamuna Nagar",
+        "Chhachhrauli",
+        "Bilaspur",
+        "Radaur",
+        "Sarsawati Nagar"
+    ]
+}
