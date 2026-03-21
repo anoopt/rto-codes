@@ -1402,5 +1402,124 @@
       "Hathwala",
       "Beholi"
     ]
+  },
+  {
+    "code": "HR-61",
+    "region": "Bhiwani (Commercial/Transport)",
+    "city": "Bhiwani",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "HR-61 is the official Regional Transport Authority (RTA) code for Bhiwani, Haryana, specifically designated for the registration of transport and commercial vehicles. It operates from the Huda Building and manages the issuance of commercial permits and vehicle fitness certificates for the entire district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Huda Building, Near Huda Park, Bhiwani, Haryana",
+    "pinCode": "127021",
+    "phone": "01664-252800",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bhiwani",
+      "Tosham",
+      "Bawani Khera",
+      "Loharu",
+      "Siwani"
+    ]
+  },
+  {
+    "code": "HR-62",
+    "region": "Fatehabad",
+    "city": "Fatehabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "The HR-62 RTO code is assigned to the Secretary, Regional Transport Authority (RTA) in Fatehabad, Haryana. This office is specifically responsible for the registration and regulation of commercial and transport vehicles, including trucks, buses, and taxis across the district. It operates in conjunction with the HR-22 code which is used for private non-transport vehicles in the same region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of Secretary, Regional Transport Authority (RTA), BDO Office Complex, Near Old Bus Stand, Fatehabad, Haryana",
+    "pinCode": "125120",
+    "phone": "01667-226388",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Fatehabad",
+      "Tohana",
+      "Ratia",
+      "Bhattukalan",
+      "Bhuna",
+      "Jakhal"
+    ]
+  },
+  {
+    "code": "HR-63",
+    "region": "Jhajjar (Commercial)",
+    "city": "Jhajjar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "The HR-63 RTO code is assigned to the Regional Transport Authority (RTA) in Jhajjar, Haryana, primarily for the registration of commercial vehicles. This office manages vehicle fitness certifications, commercial permits, and tax collection for the transport sector within the district. While private vehicles use the HR-14 code, HR-63 is essential for the region's logistics and transport operations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTA Jhajjar, Jhajjar Road, Gali No. 5, Jhajjar, Haryana",
+    "pinCode": "124507",
+    "phone": "01262-245639",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jhajjar",
+      "Bahadurgarh",
+      "Beri",
+      "Badli",
+      "Matenhail"
+    ]
+  },
+  {
+    "code": "HR-64",
+    "region": "Kaithal RTA",
+    "city": "Kaithal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Karnal",
+    "description": "HR-64 is the designated RTO code for the Regional Transport Authority (RTA) in Kaithal, Haryana. This office is specifically responsible for the registration of commercial vehicles, issuance of transport permits, and fitness certification for heavy vehicles. While HR-08 is typically used for private vehicle registrations in the same district, HR-64 serves the commercial transport sector.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Secretary, Regional Transport Authority (RTA), Zila Parishad Building, Bye Pass Road, Kaithal, Haryana",
+    "pinCode": "136027",
+    "phone": "01746-234220",
+    "email": "rta.kaithal@hry.nic.in",
+    "jurisdictionAreas": [
+      "Kaithal",
+      "Guhla",
+      "Kalayat",
+      "Pundri",
+      "Rajound",
+      "Siwan",
+      "Dhand"
+    ]
+  },
+  {
+    "code": "HR-65",
+    "region": "Kurukshetra (Commercial)",
+    "city": "Kurukshetra",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-65 is the Regional Transport Authority (RTA) code specifically designated for commercial and transport vehicle registrations in Kurukshetra, Haryana. While HR-07 handles private vehicles, this office manages the registration and permitting of trucks, buses, and taxis within the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority Office, Mini Secretariat, Kurukshetra, Haryana",
+    "pinCode": "136118",
+    "phone": "01744-225723",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Thanesar",
+      "Pehowa",
+      "Shahbad",
+      "Ladwa",
+      "Ismailabad",
+      "Babain"
+    ]
   }
 ]
