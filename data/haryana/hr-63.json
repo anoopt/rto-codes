@@ -1,0 +1,23 @@
+{
+    "code": "HR-63",
+    "region": "Jhajjar (Commercial)",
+    "city": "Jhajjar",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "The HR-63 RTO code is assigned to the Regional Transport Authority (RTA) in Jhajjar, Haryana, primarily for the registration of commercial vehicles. This office manages vehicle fitness certifications, commercial permits, and tax collection for the transport sector within the district. While private vehicles use the HR-14 code, HR-63 is essential for the region's logistics and transport operations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTA Jhajjar, Jhajjar Road, Gali No. 5, Jhajjar, Haryana",
+    "pinCode": "124507",
+    "phone": "01262-245639",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jhajjar",
+        "Bahadurgarh",
+        "Beri",
+        "Badli",
+        "Matenhail"
+    ]
+}

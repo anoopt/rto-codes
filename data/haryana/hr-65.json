@@ -1,0 +1,24 @@
+{
+    "code": "HR-65",
+    "region": "Kurukshetra (Commercial)",
+    "city": "Kurukshetra",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-65 is the Regional Transport Authority (RTA) code specifically designated for commercial and transport vehicle registrations in Kurukshetra, Haryana. While HR-07 handles private vehicles, this office manages the registration and permitting of trucks, buses, and taxis within the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority Office, Mini Secretariat, Kurukshetra, Haryana",
+    "pinCode": "136118",
+    "phone": "01744-225723",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Thanesar",
+        "Pehowa",
+        "Shahbad",
+        "Ladwa",
+        "Ismailabad",
+        "Babain"
+    ]
+}

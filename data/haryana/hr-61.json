@@ -1,0 +1,23 @@
+{
+    "code": "HR-61",
+    "region": "Bhiwani (Commercial/Transport)",
+    "city": "Bhiwani",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Bhiwani",
+    "division": "Hisar",
+    "description": "HR-61 is the official Regional Transport Authority (RTA) code for Bhiwani, Haryana, specifically designated for the registration of transport and commercial vehicles. It operates from the Huda Building and manages the issuance of commercial permits and vehicle fitness certificates for the entire district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Huda Building, Near Huda Park, Bhiwani, Haryana",
+    "pinCode": "127021",
+    "phone": "01664-252800",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhiwani",
+        "Tosham",
+        "Bawani Khera",
+        "Loharu",
+        "Siwani"
+    ]
+}

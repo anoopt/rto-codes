@@ -1,0 +1,24 @@
+{
+    "code": "HR-62",
+    "region": "Fatehabad",
+    "city": "Fatehabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Fatehabad",
+    "division": "Hisar",
+    "description": "The HR-62 RTO code is assigned to the Secretary, Regional Transport Authority (RTA) in Fatehabad, Haryana. This office is specifically responsible for the registration and regulation of commercial and transport vehicles, including trucks, buses, and taxis across the district. It operates in conjunction with the HR-22 code which is used for private non-transport vehicles in the same region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of Secretary, Regional Transport Authority (RTA), BDO Office Complex, Near Old Bus Stand, Fatehabad, Haryana",
+    "pinCode": "125120",
+    "phone": "01667-226388",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Fatehabad",
+        "Tohana",
+        "Ratia",
+        "Bhattukalan",
+        "Bhuna",
+        "Jakhal"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HR-64",
+    "region": "Kaithal RTA",
+    "city": "Kaithal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Karnal",
+    "description": "HR-64 is the designated RTO code for the Regional Transport Authority (RTA) in Kaithal, Haryana. This office is specifically responsible for the registration of commercial vehicles, issuance of transport permits, and fitness certification for heavy vehicles. While HR-08 is typically used for private vehicle registrations in the same district, HR-64 serves the commercial transport sector.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Secretary, Regional Transport Authority (RTA), Zila Parishad Building, Bye Pass Road, Kaithal, Haryana",
+    "pinCode": "136027",
+    "phone": "01746-234220",
+    "email": "rta.kaithal@hry.nic.in",
+    "jurisdictionAreas": [
+        "Kaithal",
+        "Guhla",
+        "Kalayat",
+        "Pundri",
+        "Rajound",
+        "Siwan",
+        "Dhand"
+    ]
+}
