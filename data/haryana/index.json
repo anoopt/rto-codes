@@ -1521,5 +1521,120 @@
       "Ismailabad",
       "Babain"
     ]
+  },
+  {
+    "code": "HR-66",
+    "region": "Narnaul",
+    "city": "Narnaul",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Gurugram",
+    "description": "HR-66 is the designated code for the Regional Transport Authority (RTA) in Mahendragarh, located at the district headquarters in Narnaul. This office primarily handles transport-related administrative tasks for commercial vehicles, including fitness certificates and district-wide permits, while non-transport vehicles are typically handled under separate SDM codes.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Nizampur Road, Near Shanti Hospital, Narnaul, Mahendragarh, Haryana",
+    "pinCode": "123001",
+    "phone": "01282-255107",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mahendragarh",
+      "Narnaul",
+      "Kanina",
+      "Ateli",
+      "Nangal Choudhary"
+    ]
+  },
+  {
+    "code": "HR-67",
+    "region": "Panipat",
+    "city": "Panipat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panipat",
+    "division": "Rohtak",
+    "description": "HR-67 is the designated code for the Regional Transport Authority (RTA) in Panipat, Haryana, primarily handling commercial and transport vehicle registrations. It serves the entire Panipat district, managing licensing, permits, and fitness certifications for heavy motor vehicles and commercial fleets. This office operates alongside HR-06, which is used for private non-transport vehicles in the same jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTA Panipat, Kothi No. 3, Sector-12, Panipat, Haryana",
+    "pinCode": "132103",
+    "phone": "0180-2651888",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Panipat",
+      "Samalkha",
+      "Israna",
+      "Madlauda",
+      "Bapoli"
+    ]
+  },
+  {
+    "code": "HR-68",
+    "region": "Panchkula (RTA)",
+    "city": "Panchkula",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panchkula",
+    "division": "Ambala",
+    "description": "HR-68 is the Regional Transport Authority (RTA) office for Panchkula district, Haryana. It primarily manages registration and permits for commercial and transport vehicles, while private vehicle registration is typically handled under the HR-03 code.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Secretary, Regional Transport Authority (RTA), Near Bus Stand, Sector 5, Panchkula, Haryana",
+    "pinCode": "134109",
+    "phone": "0172-2586877",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Panchkula",
+      "Kalka",
+      "Pinjore",
+      "Raipur Rani",
+      "Barwala"
+    ]
+  },
+  {
+    "code": "HR-69",
+    "region": "Sonipat",
+    "city": "Sonipat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "The HR-69 RTO is situated in Sonipat, Haryana, and functions as the Regional Transport Authority (RTA) office primarily responsible for the registration of commercial transport vehicles. It manages transport permits, fitness certificates, and tax collection for heavy and light commercial transport within the Sonipat district. This office operates as a separate administrative series from HR-10, which is dedicated to private non-transport vehicles in the same region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO/RTA Office, Gohana Road, Sector-17, Sonipat, Haryana",
+    "pinCode": "131001",
+    "phone": "0130-2221937",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sonipat",
+      "Gohana",
+      "Ganaur",
+      "Kharkhoda",
+      "Rai",
+      "Murthal"
+    ]
+  },
+  {
+    "code": "HR-70",
+    "region": "State Transport Commissioner",
+    "city": "Chandigarh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Chandigarh",
+    "division": "Ambala",
+    "description": "The HR-70 code is a specialized administrative registration series assigned to the State Transport Commissioner of Haryana. It is primarily utilized for state-level administrative functions, the issuance of VIP or out-of-turn registration numbers, and the retention of legacy registration numbers for new vehicles.",
+    "status": "active",
+    "established": "N/A",
+    "address": "State Transport Commissioner Office, 30 Bays Building, 2nd Floor, Sector 17C, Chandigarh",
+    "pinCode": "160017",
+    "phone": "N/A",
+    "email": "stchry@hry.nic.in",
+    "jurisdictionAreas": [
+      "Statewide Haryana",
+      "Special Registration Number Series",
+      "VIP Number Management",
+      "Retained Registration Numbers"
+    ]
   }
 ]
