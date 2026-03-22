@@ -1,0 +1,23 @@
+{
+    "code": "HR-68",
+    "region": "Panchkula (RTA)",
+    "city": "Panchkula",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panchkula",
+    "division": "Ambala",
+    "description": "HR-68 is the Regional Transport Authority (RTA) office for Panchkula district, Haryana. It primarily manages registration and permits for commercial and transport vehicles, while private vehicle registration is typically handled under the HR-03 code.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Secretary, Regional Transport Authority (RTA), Near Bus Stand, Sector 5, Panchkula, Haryana",
+    "pinCode": "134109",
+    "phone": "0172-2586877",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Panchkula",
+        "Kalka",
+        "Pinjore",
+        "Raipur Rani",
+        "Barwala"
+    ]
+}

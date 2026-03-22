@@ -1,0 +1,24 @@
+{
+    "code": "HR-69",
+    "region": "Sonipat",
+    "city": "Sonipat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "The HR-69 RTO is situated in Sonipat, Haryana, and functions as the Regional Transport Authority (RTA) office primarily responsible for the registration of commercial transport vehicles. It manages transport permits, fitness certificates, and tax collection for heavy and light commercial transport within the Sonipat district. This office operates as a separate administrative series from HR-10, which is dedicated to private non-transport vehicles in the same region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO/RTA Office, Gohana Road, Sector-17, Sonipat, Haryana",
+    "pinCode": "131001",
+    "phone": "0130-2221937",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sonipat",
+        "Gohana",
+        "Ganaur",
+        "Kharkhoda",
+        "Rai",
+        "Murthal"
+    ]
+}

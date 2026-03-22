@@ -1,0 +1,23 @@
+{
+    "code": "HR-66",
+    "region": "Narnaul",
+    "city": "Narnaul",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Gurugram",
+    "description": "HR-66 is the designated code for the Regional Transport Authority (RTA) in Mahendragarh, located at the district headquarters in Narnaul. This office primarily handles transport-related administrative tasks for commercial vehicles, including fitness certificates and district-wide permits, while non-transport vehicles are typically handled under separate SDM codes.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Nizampur Road, Near Shanti Hospital, Narnaul, Mahendragarh, Haryana",
+    "pinCode": "123001",
+    "phone": "01282-255107",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mahendragarh",
+        "Narnaul",
+        "Kanina",
+        "Ateli",
+        "Nangal Choudhary"
+    ]
+}

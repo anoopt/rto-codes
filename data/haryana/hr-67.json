@@ -1,0 +1,23 @@
+{
+    "code": "HR-67",
+    "region": "Panipat",
+    "city": "Panipat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Panipat",
+    "division": "Rohtak",
+    "description": "HR-67 is the designated code for the Regional Transport Authority (RTA) in Panipat, Haryana, primarily handling commercial and transport vehicle registrations. It serves the entire Panipat district, managing licensing, permits, and fitness certifications for heavy motor vehicles and commercial fleets. This office operates alongside HR-06, which is used for private non-transport vehicles in the same jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTA Panipat, Kothi No. 3, Sector-12, Panipat, Haryana",
+    "pinCode": "132103",
+    "phone": "0180-2651888",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Panipat",
+        "Samalkha",
+        "Israna",
+        "Madlauda",
+        "Bapoli"
+    ]
+}
