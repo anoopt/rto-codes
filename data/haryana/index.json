@@ -1636,5 +1636,119 @@
       "VIP Number Management",
       "Retained Registration Numbers"
     ]
+  },
+  {
+    "code": "HR-71",
+    "region": "Bilaspur (Yamunanagar)",
+    "city": "Bilaspur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamunanagar",
+    "division": "Ambala",
+    "description": "HR-71 is the Sub-Divisional Magistrate (SDM) office acting as a Registering and Licensing Authority for the Bilaspur sub-division in Yamunanagar district. It manages vehicle registration, driving licenses, and road tax collection for the local jurisdiction, often distinguished from Bilaspur in Gurugram.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Bilaspur, District Yamunanagar, Haryana",
+    "pinCode": "135102",
+    "phone": "01735-274890",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bilaspur Sub-division",
+      "Chhachhrauli",
+      "Mustafabad",
+      "Saraswati Nagar",
+      "Bilaspur Town"
+    ]
+  },
+  {
+    "code": "HR-72",
+    "region": "Gurugram (South)",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "The HR-72 RTO serves the Gurugram (South) jurisdiction in Haryana and is primarily responsible for the registration of private non-transport vehicles. It operates under the Sub-Divisional Magistrate (SDM) to handle the heavy volume of vehicle registrations in the southern part of the city, which is a major corporate and residential hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM (South) Gurgaon, Vikas Sadan, Opposite Mini Secretariat, Gurugram, Haryana",
+    "pinCode": "122018",
+    "phone": "0124-2225042",
+    "email": "sdmggns@hry.nic.in",
+    "jurisdictionAreas": [
+      "Gurugram South",
+      "Sohna Road",
+      "DLF Phase 5",
+      "Golf Course Extension",
+      "Sector 47 to 70",
+      "Badshahpur"
+    ]
+  },
+  {
+    "code": "HR-73",
+    "region": "Palwal",
+    "city": "Palwal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Faridabad",
+    "description": "HR-73 is the official registration code for the Regional Transport Authority (RTA) in Palwal, Haryana. This specific code is primarily utilized for the registration of commercial vehicles within the district, complementing the HR-30 code which is used for private vehicles. It oversees transport regulations, permit issuances, and tax collection for the Palwal jurisdiction.",
+    "status": "active",
+    "established": "2008",
+    "address": "Regional Transport Authority, Mini Secretariat, Palwal, Haryana",
+    "pinCode": "121102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Palwal",
+      "Hodal",
+      "Hathin",
+      "Hasanpur",
+      "Prithla",
+      "Dudhola"
+    ]
+  },
+  {
+    "code": "HR-74",
+    "region": "Nuh",
+    "city": "Nuh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Gurugram",
+    "description": "HR-74 is the Regional Transport Authority (RTA) office for Nuh (formerly Mewat) district in Haryana. This specific code is primarily utilized for the registration of commercial vehicles, including goods carriers and passenger buses, serving the southern-most region of the state. It handles vehicle taxation, permits, and regulatory compliance for transport operators within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA) Office, Mini Secretariat, Nuh, Haryana",
+    "pinCode": "122107",
+    "phone": "N/A",
+    "email": "rta.nuh-hry@nic.in",
+    "jurisdictionAreas": [
+      "Nuh",
+      "Ferozepur Jhirka",
+      "Punhana",
+      "Taoru",
+      "Nagina"
+    ]
+  },
+  {
+    "code": "HR-75",
+    "region": "Indri",
+    "city": "Indri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "HR-75 is the registration code for the Indri Sub-Divisional Office in the Karnal district of Haryana. This RTO is responsible for issuing driving licenses and registering private motor vehicles for the residents of the Indri subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer (Civil), Indri, District Karnal, Haryana",
+    "pinCode": "132041",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Indri",
+      "Indri Tehsil"
+    ]
   }
 ]
