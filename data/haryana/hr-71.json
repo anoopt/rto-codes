@@ -1,0 +1,23 @@
+{
+    "code": "HR-71",
+    "region": "Bilaspur (Yamunanagar)",
+    "city": "Bilaspur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamunanagar",
+    "division": "Ambala",
+    "description": "HR-71 is the Sub-Divisional Magistrate (SDM) office acting as a Registering and Licensing Authority for the Bilaspur sub-division in Yamunanagar district. It manages vehicle registration, driving licenses, and road tax collection for the local jurisdiction, often distinguished from Bilaspur in Gurugram.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Bilaspur, District Yamunanagar, Haryana",
+    "pinCode": "135102",
+    "phone": "01735-274890",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bilaspur Sub-division",
+        "Chhachhrauli",
+        "Mustafabad",
+        "Saraswati Nagar",
+        "Bilaspur Town"
+    ]
+}

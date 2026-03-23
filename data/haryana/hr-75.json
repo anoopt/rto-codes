@@ -1,0 +1,20 @@
+{
+    "code": "HR-75",
+    "region": "Indri",
+    "city": "Indri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "HR-75 is the registration code for the Indri Sub-Divisional Office in the Karnal district of Haryana. This RTO is responsible for issuing driving licenses and registering private motor vehicles for the residents of the Indri subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer (Civil), Indri, District Karnal, Haryana",
+    "pinCode": "132041",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Indri",
+        "Indri Tehsil"
+    ]
+}

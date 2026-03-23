@@ -1,0 +1,23 @@
+{
+    "code": "HR-74",
+    "region": "Nuh",
+    "city": "Nuh",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Gurugram",
+    "description": "HR-74 is the Regional Transport Authority (RTA) office for Nuh (formerly Mewat) district in Haryana. This specific code is primarily utilized for the registration of commercial vehicles, including goods carriers and passenger buses, serving the southern-most region of the state. It handles vehicle taxation, permits, and regulatory compliance for transport operators within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Authority (RTA) Office, Mini Secretariat, Nuh, Haryana",
+    "pinCode": "122107",
+    "phone": "N/A",
+    "email": "rta.nuh-hry@nic.in",
+    "jurisdictionAreas": [
+        "Nuh",
+        "Ferozepur Jhirka",
+        "Punhana",
+        "Taoru",
+        "Nagina"
+    ]
+}

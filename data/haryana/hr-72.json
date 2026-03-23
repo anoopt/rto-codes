@@ -1,0 +1,24 @@
+{
+    "code": "HR-72",
+    "region": "Gurugram (South)",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "The HR-72 RTO serves the Gurugram (South) jurisdiction in Haryana and is primarily responsible for the registration of private non-transport vehicles. It operates under the Sub-Divisional Magistrate (SDM) to handle the heavy volume of vehicle registrations in the southern part of the city, which is a major corporate and residential hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM (South) Gurgaon, Vikas Sadan, Opposite Mini Secretariat, Gurugram, Haryana",
+    "pinCode": "122018",
+    "phone": "0124-2225042",
+    "email": "sdmggns@hry.nic.in",
+    "jurisdictionAreas": [
+        "Gurugram South",
+        "Sohna Road",
+        "DLF Phase 5",
+        "Golf Course Extension",
+        "Sector 47 to 70",
+        "Badshahpur"
+    ]
+}

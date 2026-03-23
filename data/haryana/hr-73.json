@@ -1,0 +1,24 @@
+{
+    "code": "HR-73",
+    "region": "Palwal",
+    "city": "Palwal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Palwal",
+    "division": "Faridabad",
+    "description": "HR-73 is the official registration code for the Regional Transport Authority (RTA) in Palwal, Haryana. This specific code is primarily utilized for the registration of commercial vehicles within the district, complementing the HR-30 code which is used for private vehicles. It oversees transport regulations, permit issuances, and tax collection for the Palwal jurisdiction.",
+    "status": "active",
+    "established": "2008",
+    "address": "Regional Transport Authority, Mini Secretariat, Palwal, Haryana",
+    "pinCode": "121102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Palwal",
+        "Hodal",
+        "Hathin",
+        "Hasanpur",
+        "Prithla",
+        "Dudhola"
+    ]
+}
