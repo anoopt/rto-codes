@@ -1750,5 +1750,124 @@
       "Indri",
       "Indri Tehsil"
     ]
+  },
+  {
+    "code": "HR-76",
+    "region": "Pataudi",
+    "city": "Pataudi",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "HR-76 RTO serves the Pataudi subdivision in the Gurugram district of Haryana. The office is managed by the Sub-Divisional Officer (Civil) who acts as the Registering and Licensing Authority for the region, handling motor vehicle registrations and driver license issuance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer (Civil), Pataudi, District Gurugram, Haryana",
+    "pinCode": "122503",
+    "phone": "0124-2672900",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pataudi",
+      "Hailey Mandi",
+      "Farrukhnagar",
+      "Pataudi Tehsil",
+      "Jatauli"
+    ]
+  },
+  {
+    "code": "HR-77",
+    "region": "Beri",
+    "city": "Beri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "HR-77 is the Sub-Divisional RTO serving the Beri region within the Jhajjar district of Haryana. Operated under the Sub-Divisional Officer (Civil), it primarily handles the registration of non-transport vehicles and the issuance of driving licenses for local residents.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDO (Civil), Beri, Jhajjar, Haryana",
+    "pinCode": "124201",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Beri",
+      "Beri Sub-division",
+      "Dubaldhan",
+      "Dujana",
+      "Chhara",
+      "Gochhi"
+    ]
+  },
+  {
+    "code": "HR-78",
+    "region": "Shahabad",
+    "city": "Shahabad Markanda",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "The HR-78 RTO office is located in Shahabad Markanda within the Kurukshetra district of Haryana and serves as the Sub-Divisional Office (Civil) Registering Authority. It manages vehicle registrations, driving licenses, and transport permits for the Shahabad sub-division. Given its location on the major National Highway 44, it plays a vital role in regional transport administration.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Magistrate Office, Tehsil Building, Shahabad Markanda, District Kurukshetra, Haryana",
+    "pinCode": "136135",
+    "phone": "01744-240555",
+    "email": "sdmshb-hry@nic.in",
+    "jurisdictionAreas": [
+      "Shahabad",
+      "Babain",
+      "Ismailabad",
+      "Shahabad Markanda Tehsil"
+    ]
+  },
+  {
+    "code": "HR-79",
+    "region": "Kharkhoda",
+    "city": "Kharkhoda",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "The HR-79 RTO is the designated Registering Authority (SDM office) for the Kharkhoda sub-division in Haryana. It primarily handles the registration of non-transport (private) vehicles and the issuance of learner's and permanent driving licenses. Located in the Sonipat district, it serves a critical role in the transport administrative framework of the National Capital Region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Kharkhoda, District Sonipat, Haryana",
+    "pinCode": "131402",
+    "phone": "0130-2584055",
+    "email": "sdmkharkhoda@hry.nic.in",
+    "jurisdictionAreas": [
+      "Kharkhoda",
+      "Kharkhoda Tehsil",
+      "Thana Kalan",
+      "Sisana",
+      "Farmana",
+      "Rohat",
+      "Pipli",
+      "Hasangarh"
+    ]
+  },
+  {
+    "code": "HR-80",
+    "region": "Barwala",
+    "city": "Barwala",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-80 is the Regional Transport Office serving the Barwala sub-division in the Hisar district of Haryana. Operating under the Sub Divisional Officer (Civil), it manages vehicle registrations, driving licenses, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Barwala, District Hisar, Haryana",
+    "pinCode": "125121",
+    "phone": "01693-242211",
+    "email": "sdmbrw.hry@nic.in",
+    "jurisdictionAreas": [
+      "Barwala",
+      "Khedar",
+      "Daulatpur",
+      "Sarsana",
+      "Jevra",
+      "Barwala Sub-division"
+    ]
   }
 ]
