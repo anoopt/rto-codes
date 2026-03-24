@@ -1,0 +1,26 @@
+{
+    "code": "HR-79",
+    "region": "Kharkhoda",
+    "city": "Kharkhoda",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sonipat",
+    "division": "Rohtak",
+    "description": "The HR-79 RTO is the designated Registering Authority (SDM office) for the Kharkhoda sub-division in Haryana. It primarily handles the registration of non-transport (private) vehicles and the issuance of learner's and permanent driving licenses. Located in the Sonipat district, it serves a critical role in the transport administrative framework of the National Capital Region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Kharkhoda, District Sonipat, Haryana",
+    "pinCode": "131402",
+    "phone": "0130-2584055",
+    "email": "sdmkharkhoda@hry.nic.in",
+    "jurisdictionAreas": [
+        "Kharkhoda",
+        "Kharkhoda Tehsil",
+        "Thana Kalan",
+        "Sisana",
+        "Farmana",
+        "Rohat",
+        "Pipli",
+        "Hasangarh"
+    ]
+}

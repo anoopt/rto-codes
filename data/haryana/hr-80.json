@@ -1,0 +1,24 @@
+{
+    "code": "HR-80",
+    "region": "Barwala",
+    "city": "Barwala",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-80 is the Regional Transport Office serving the Barwala sub-division in the Hisar district of Haryana. Operating under the Sub Divisional Officer (Civil), it manages vehicle registrations, driving licenses, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Barwala, District Hisar, Haryana",
+    "pinCode": "125121",
+    "phone": "01693-242211",
+    "email": "sdmbrw.hry@nic.in",
+    "jurisdictionAreas": [
+        "Barwala",
+        "Khedar",
+        "Daulatpur",
+        "Sarsana",
+        "Jevra",
+        "Barwala Sub-division"
+    ]
+}

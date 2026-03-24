@@ -1,0 +1,24 @@
+{
+    "code": "HR-77",
+    "region": "Beri",
+    "city": "Beri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "HR-77 is the Sub-Divisional RTO serving the Beri region within the Jhajjar district of Haryana. Operated under the Sub-Divisional Officer (Civil), it primarily handles the registration of non-transport vehicles and the issuance of driving licenses for local residents.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDO (Civil), Beri, Jhajjar, Haryana",
+    "pinCode": "124201",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Beri",
+        "Beri Sub-division",
+        "Dubaldhan",
+        "Dujana",
+        "Chhara",
+        "Gochhi"
+    ]
+}

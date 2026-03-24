@@ -1,0 +1,22 @@
+{
+    "code": "HR-78",
+    "region": "Shahabad",
+    "city": "Shahabad Markanda",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "The HR-78 RTO office is located in Shahabad Markanda within the Kurukshetra district of Haryana and serves as the Sub-Divisional Office (Civil) Registering Authority. It manages vehicle registrations, driving licenses, and transport permits for the Shahabad sub-division. Given its location on the major National Highway 44, it plays a vital role in regional transport administration.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Magistrate Office, Tehsil Building, Shahabad Markanda, District Kurukshetra, Haryana",
+    "pinCode": "136135",
+    "phone": "01744-240555",
+    "email": "sdmshb-hry@nic.in",
+    "jurisdictionAreas": [
+        "Shahabad",
+        "Babain",
+        "Ismailabad",
+        "Shahabad Markanda Tehsil"
+    ]
+}

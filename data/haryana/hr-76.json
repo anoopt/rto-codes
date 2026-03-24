@@ -1,0 +1,23 @@
+{
+    "code": "HR-76",
+    "region": "Pataudi",
+    "city": "Pataudi",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "HR-76 RTO serves the Pataudi subdivision in the Gurugram district of Haryana. The office is managed by the Sub-Divisional Officer (Civil) who acts as the Registering and Licensing Authority for the region, handling motor vehicle registrations and driver license issuance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer (Civil), Pataudi, District Gurugram, Haryana",
+    "pinCode": "122503",
+    "phone": "0124-2672900",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pataudi",
+        "Hailey Mandi",
+        "Farrukhnagar",
+        "Pataudi Tehsil",
+        "Jatauli"
+    ]
+}
