@@ -1869,5 +1869,120 @@
       "Jevra",
       "Barwala Sub-division"
     ]
+  },
+  {
+    "code": "HR-81",
+    "region": "Bawal",
+    "city": "Bawal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurugram",
+    "description": "HR-81 is the Sub-Divisional Magistrate office and Registering Authority serving the Bawal sub-division in the Rewari district of Haryana. This office primarily handles the registration of non-commercial vehicles and provides driver licensing services to the residents of the Bawal industrial hub and its surrounding rural communities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-divisional Officer (Civil), Bawal, District Rewari, Haryana",
+    "pinCode": "123501",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bawal",
+      "Bawal Sub-division",
+      "Jatusana",
+      "Khol",
+      "Sahar"
+    ]
+  },
+  {
+    "code": "HR-82",
+    "region": "Kanina",
+    "city": "Kanina",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Gurugram",
+    "description": "The HR-82 RTO office is located in Kanina, Mahendragarh district, Haryana. It operates as a Sub-Divisional Magistrate (SDM) level transport office responsible for vehicle registrations, licensing, and road tax collection for the Kanina sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Kanina, District Mahendragarh, Haryana",
+    "pinCode": "123027",
+    "phone": "01285-235161",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kanina",
+      "Bhojawas",
+      "Sehore",
+      "Gharwas",
+      "Kanina Sub-division"
+    ]
+  },
+  {
+    "code": "HR-83",
+    "region": "Kalayat",
+    "city": "Kalayat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Karnal",
+    "description": "The HR-83 RTO serves the Kalayat subdivision in the Kaithal district of Haryana. It functions under the authority of the Sub Divisional Officer (Civil) and primarily handles the registration of non-transport (private) vehicles and the issuance of driving licenses for residents within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, BDPO Office Building, Kalayat, Kaithal, Haryana",
+    "pinCode": "136117",
+    "phone": "01746-260262",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kalayat Tehsil",
+      "Kalayat",
+      "Matour",
+      "Kailram",
+      "Simbalwala"
+    ]
+  },
+  {
+    "code": "HR-84",
+    "region": "Charkhi Dadri",
+    "city": "Charkhi Dadri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Charkhi Dadri",
+    "division": "Rohtak",
+    "description": "The HR-84 RTO serves as the Regional Transport Authority (RTA) for the Charkhi Dadri district, primarily managing the registration and permitting of commercial vehicles. Established after the formation of Charkhi Dadri as a new district, it ensures the regulation of transport services and heavy motor vehicles in the region.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Secretary, Regional Transport Authority, Charkhi Dadri, Haryana",
+    "pinCode": "127306",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Charkhi Dadri",
+      "Badhra",
+      "Bond Kalan",
+      "Jhuiju Kalan"
+    ]
+  },
+  {
+    "code": "HR-85",
+    "region": "Ambala Cantonment South",
+    "city": "Ambala Cantonment",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "The HR-85 RTO serves the Ambala Cantonment South sub-division in Haryana, operating under the authority of the Sub-Divisional Magistrate (SDM). It was established to manage the increasing volume of vehicle registrations and transport services in the Ambala region, complementing the HR-01 office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ambala Cantonment, Ambala, Haryana",
+    "pinCode": "133001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ambala Cantonment South",
+      "Ambala Cantt",
+      "Mahesh Nagar",
+      "Defence Colony",
+      "Babyal",
+      "Kardhan"
+    ]
   }
 ]
