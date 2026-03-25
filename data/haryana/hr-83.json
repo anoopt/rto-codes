@@ -1,0 +1,23 @@
+{
+    "code": "HR-83",
+    "region": "Kalayat",
+    "city": "Kalayat",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kaithal",
+    "division": "Karnal",
+    "description": "The HR-83 RTO serves the Kalayat subdivision in the Kaithal district of Haryana. It functions under the authority of the Sub Divisional Officer (Civil) and primarily handles the registration of non-transport (private) vehicles and the issuance of driving licenses for residents within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, BDPO Office Building, Kalayat, Kaithal, Haryana",
+    "pinCode": "136117",
+    "phone": "01746-260262",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kalayat Tehsil",
+        "Kalayat",
+        "Matour",
+        "Kailram",
+        "Simbalwala"
+    ]
+}

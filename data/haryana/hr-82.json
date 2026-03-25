@@ -1,0 +1,23 @@
+{
+    "code": "HR-82",
+    "region": "Kanina",
+    "city": "Kanina",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Mahendragarh",
+    "division": "Gurugram",
+    "description": "The HR-82 RTO office is located in Kanina, Mahendragarh district, Haryana. It operates as a Sub-Divisional Magistrate (SDM) level transport office responsible for vehicle registrations, licensing, and road tax collection for the Kanina sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Kanina, District Mahendragarh, Haryana",
+    "pinCode": "123027",
+    "phone": "01285-235161",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kanina",
+        "Bhojawas",
+        "Sehore",
+        "Gharwas",
+        "Kanina Sub-division"
+    ]
+}

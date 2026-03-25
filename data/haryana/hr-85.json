@@ -1,0 +1,24 @@
+{
+    "code": "HR-85",
+    "region": "Ambala Cantonment South",
+    "city": "Ambala Cantonment",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Ambala",
+    "division": "Ambala",
+    "description": "The HR-85 RTO serves the Ambala Cantonment South sub-division in Haryana, operating under the authority of the Sub-Divisional Magistrate (SDM). It was established to manage the increasing volume of vehicle registrations and transport services in the Ambala region, complementing the HR-01 office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ambala Cantonment, Ambala, Haryana",
+    "pinCode": "133001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ambala Cantonment South",
+        "Ambala Cantt",
+        "Mahesh Nagar",
+        "Defence Colony",
+        "Babyal",
+        "Kardhan"
+    ]
+}

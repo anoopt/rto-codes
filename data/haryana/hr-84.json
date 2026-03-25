@@ -1,0 +1,22 @@
+{
+    "code": "HR-84",
+    "region": "Charkhi Dadri",
+    "city": "Charkhi Dadri",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Charkhi Dadri",
+    "division": "Rohtak",
+    "description": "The HR-84 RTO serves as the Regional Transport Authority (RTA) for the Charkhi Dadri district, primarily managing the registration and permitting of commercial vehicles. Established after the formation of Charkhi Dadri as a new district, it ensures the regulation of transport services and heavy motor vehicles in the region.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Secretary, Regional Transport Authority, Charkhi Dadri, Haryana",
+    "pinCode": "127306",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Charkhi Dadri",
+        "Badhra",
+        "Bond Kalan",
+        "Jhuiju Kalan"
+    ]
+}

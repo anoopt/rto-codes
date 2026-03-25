@@ -1,0 +1,23 @@
+{
+    "code": "HR-81",
+    "region": "Bawal",
+    "city": "Bawal",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rewari",
+    "division": "Gurugram",
+    "description": "HR-81 is the Sub-Divisional Magistrate office and Registering Authority serving the Bawal sub-division in the Rewari district of Haryana. This office primarily handles the registration of non-commercial vehicles and provides driver licensing services to the residents of the Bawal industrial hub and its surrounding rural communities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-divisional Officer (Civil), Bawal, District Rewari, Haryana",
+    "pinCode": "123501",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bawal",
+        "Bawal Sub-division",
+        "Jatusana",
+        "Khol",
+        "Sahar"
+    ]
+}
