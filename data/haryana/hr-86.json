@@ -1,0 +1,26 @@
+{
+    "code": "HR-86",
+    "region": "Narnaud",
+    "city": "Narnaud",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Hisar",
+    "division": "Hisar",
+    "description": "HR-86 is the designated registration code for the Narnaud sub-division in the Hisar district of Haryana. The office operates as a Sub-Divisional Magistrate (SDM) office, primarily managing the registration of private (non-transport) vehicles and issuing driving licenses for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Narnaud, District Hisar, Haryana",
+    "pinCode": "125039",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Narnaud",
+        "Baas",
+        "Petwar",
+        "Sisai",
+        "Rakhi Shahpur",
+        "Mirchpur",
+        "Kheri Jalab",
+        "Lohari Ragho"
+    ]
+}

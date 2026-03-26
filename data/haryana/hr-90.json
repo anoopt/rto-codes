@@ -1,0 +1,25 @@
+{
+    "code": "HR-90",
+    "region": "Uchana",
+    "city": "Uchana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jind",
+    "division": "Hisar",
+    "description": "The HR-90 RTO is the Registering Authority (Motor Vehicles) located in the Uchana subdivision of Jind district, Haryana. It is managed by the Sub-Divisional Magistrate (SDM) and handles vehicle registrations, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Uchana, District Jind, Haryana",
+    "pinCode": "126115",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Uchana",
+        "Uchana Khurd",
+        "Uchana Kalan",
+        "Ghaso",
+        "Karsindhu",
+        "Dohra",
+        "Baroda"
+    ]
+}

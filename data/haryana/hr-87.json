@@ -1,0 +1,26 @@
+{
+    "code": "HR-87",
+    "region": "Badkhal",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Faridabad",
+    "division": "Faridabad",
+    "description": "The HR-87 RTO office is located in Badkhal, serving as a vital sub-divisional transport authority within the Faridabad district. It was established to manage the increasing volume of vehicle registrations and driving license applications in the rapidly expanding urban areas of Faridabad. The office operates under the jurisdiction of the Sub-Divisional Magistrate (SDM) of Badkhal.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Badkhal, New Industrial Township (NIT), Faridabad, Haryana",
+    "pinCode": "121001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Badkhal",
+        "NIT Faridabad",
+        "Sainik Colony",
+        "Greenfield Colony",
+        "Kant Enclave",
+        "Narela Rajeev Nagar",
+        "Ankhir",
+        "Surajkund Area"
+    ]
+}

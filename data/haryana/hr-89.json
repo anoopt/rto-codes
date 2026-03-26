@@ -1,0 +1,25 @@
+{
+    "code": "HR-89",
+    "region": "Badli",
+    "city": "Badli",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Jhajjar",
+    "division": "Rohtak",
+    "description": "HR-89 is the Regional Transport Office for the Badli sub-division in Haryana's Jhajjar district. It operates as a Sub-Divisional Magistrate (SDM) office, primarily managing the registration of private vehicles and providing driving licenses to the local population of the Badli tehsil.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Division Office, Badli, District Jhajjar, Haryana",
+    "pinCode": "124105",
+    "phone": "01276-240021",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Badli Tehsil",
+        "Badli",
+        "Gugana",
+        "Machhrauli",
+        "Majri",
+        "Dhirpur",
+        "Pahrawar"
+    ]
+}

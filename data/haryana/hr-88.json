@@ -1,0 +1,24 @@
+{
+    "code": "HR-88",
+    "region": "Badhra",
+    "city": "Badhra",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Charkhi Dadri",
+    "division": "Rohtak",
+    "description": "HR-88 is the Regional Transport Office for the Badhra subdivision in the Charkhi Dadri district of Haryana. It operates as a Registering and Licensing Authority (RLA) under the Sub-Divisional Officer (Civil), managing vehicle registrations and licensing for the local rural and urban population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer (Civil), Badhra, District Charkhi Dadri, Haryana",
+    "pinCode": "127308",
+    "phone": "N/A",
+    "email": "sdobadhra-hry@nic.in",
+    "jurisdictionAreas": [
+        "Badhra",
+        "Jhui",
+        "Kadma",
+        "Lohani",
+        "Mandhola",
+        "Chandeni"
+    ]
+}
