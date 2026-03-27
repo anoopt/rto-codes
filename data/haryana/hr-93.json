@@ -1,0 +1,24 @@
+{
+    "code": "HR-93",
+    "region": "Punhana",
+    "city": "Punhana",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Gurgaon",
+    "description": "The HR-93 RTO serves the Punhana subdivision in the Nuh district of Haryana. It operates as a Sub-Divisional Magistrate (SDM) office, primarily handling the registration of non-transport vehicles and the issuance of driving licenses for local residents.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate, Punhana, District Nuh, Haryana",
+    "pinCode": "122508",
+    "phone": "01268-272239",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Punhana",
+        "Punhana Subdivision",
+        "Bichhor",
+        "Singar",
+        "Pinangwan",
+        "Lohinga Kalan"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HR-91",
+    "region": "Gharaunda",
+    "city": "Gharaunda",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Karnal",
+    "division": "Karnal",
+    "description": "The HR-91 RTO serves the Gharaunda sub-division in the Karnal district of Haryana. This office operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, licensing, and traffic regulation enforcement for the region along the National Highway 44.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Gharaunda, District Karnal, Haryana",
+    "pinCode": "132114",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gharaunda",
+        "Munak",
+        "Kohand",
+        "Bastara",
+        "Arulpura",
+        "Chaura",
+        "Sheikhpura"
+    ]
+}

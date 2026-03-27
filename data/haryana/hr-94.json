@@ -1,0 +1,24 @@
+{
+    "code": "HR-94",
+    "region": "Kalanwali",
+    "city": "Kalanwali",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Sirsa",
+    "division": "Hisar",
+    "description": "HR-94 is the official RTO code for Kalanwali sub-division in the Sirsa district of Haryana. The office is managed by the Sub-Divisional Magistrate (SDM) and provides essential services including vehicle registration, driving licenses, and transport permit issuance for the local area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Kalanwali, District Sirsa, Haryana",
+    "pinCode": "125201",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kalanwali",
+        "Rori",
+        "Odhan",
+        "Desu Jodha",
+        "Paka",
+        "Sukhchain"
+    ]
+}

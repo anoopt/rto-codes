@@ -1,0 +1,21 @@
+{
+    "code": "HR-92",
+    "region": "Radaur",
+    "city": "Radaur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Yamuna Nagar",
+    "division": "Ambala",
+    "description": "HR-92 is the Regional Transport Office for the Radaur sub-division located in the Yamuna Nagar district of Haryana. This office facilitates vehicle registration, driving licenses, and other transport-related services at the sub-divisional level under the authority of the Sub-Divisional Magistrate. It serves as a decentralized hub to handle the growing transport needs of the Radaur region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Radaur, Yamuna Nagar District, Haryana",
+    "pinCode": "135133",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Radaur",
+        "Radaur Sub-division",
+        "Yamuna Nagar District"
+    ]
+}

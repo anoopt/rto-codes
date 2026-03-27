@@ -1,0 +1,25 @@
+{
+    "code": "HR-95",
+    "region": "Sampla",
+    "city": "Sampla",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Rohtak",
+    "division": "Rohtak",
+    "description": "The HR-95 RTO serves the Sampla sub-division within the Rohtak district of Haryana. It operates under the Sub-Divisional Officer (Civil) acting as the Registering Authority for vehicle registration and driver licensing services. This office is significant for providing localized transport administration to the semi-urban and rural clusters in the Sampla block.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Sampla, Rohtak District, Haryana",
+    "pinCode": "124501",
+    "phone": "01262-263209",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sampla",
+        "Sampla Sub-division",
+        "Garhi Sampla",
+        "Ismaila",
+        "Kheri Sampla",
+        "Ghandra",
+        "Bhalout"
+    ]
+}
