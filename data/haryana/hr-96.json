@@ -1,0 +1,22 @@
+{
+    "code": "HR-96",
+    "region": "Tauru",
+    "city": "Tauru",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Faridabad",
+    "description": "HR-96 is the Registration and Licensing Authority (RLA) for the Tauru sub-division in Haryana's Nuh district. This office handles vehicle registrations, the issuance of driving licenses, and other transport-related permits for the local sub-divisional area. It was established as part of the newer series of RTO codes to improve administrative efficiency in smaller sub-districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tauru, District Nuh, Haryana",
+    "pinCode": "122105",
+    "phone": "01267-282244",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tauru",
+        "Tauru Sub-division",
+        "Tauru Block",
+        "Surrounding villages of Tauru Tehsil"
+    ]
+}
