@@ -1,0 +1,499 @@
+{
+  "generatedAt": "2026-03-28T03:04:25.764Z",
+  "state": "Haryana",
+  "rtoCount": 98,
+  "successCount": 98,
+  "failedRTOs": [],
+  "coordinates": {
+    "HR-01": {
+      "lat": 30.3843674,
+      "lon": 76.770421,
+      "displayName": "Ambala, Ambala Cantt, Ambala, Haryana, 134002, India"
+    },
+    "HR-02": {
+      "lat": 30.1532045,
+      "lon": 77.3011957,
+      "displayName": "Jagadhri, Yamunanagar, Haryana, India"
+    },
+    "HR-03": {
+      "lat": 30.6975401,
+      "lon": 76.8551066,
+      "displayName": "Panchkula, Haryana, 134109, India"
+    },
+    "HR-04": {
+      "lat": 30.4455761,
+      "lon": 77.1256318,
+      "displayName": "Naraingarh, Ambala, Haryana, 134203, India"
+    },
+    "HR-05": {
+      "lat": 29.6951152,
+      "lon": 76.9698292,
+      "displayName": "Karnal, Flyover, Gyanpura Colony, Ramnagar, Karnal, Haryana, 132001, India"
+    },
+    "HR-06": {
+      "lat": 29.3912753,
+      "lon": 76.9771675,
+      "displayName": "Panipat, Haryana, 132100, India"
+    },
+    "HR-07": {
+      "lat": 29.9930395,
+      "lon": 76.8292228,
+      "displayName": "Thanesar, Kurukshetra, Haryana, India"
+    },
+    "HR-08": {
+      "lat": 29.7996588,
+      "lon": 76.3989903,
+      "displayName": "Kaithal, Haryana, 132027, India"
+    },
+    "HR-09": {
+      "lat": 30.0699109,
+      "lon": 76.3419803,
+      "displayName": "Guhla, Kaithal, Haryana, India"
+    },
+    "HR-10": {
+      "lat": 28.99197,
+      "lon": 77.0342633,
+      "displayName": "Bharat Hospital, Sonepat, NH352A, Sonipat, Haryana, 131001, India"
+    },
+    "HR-11": {
+      "lat": 29.1189406,
+      "lon": 76.6705443,
+      "displayName": "Gohana, Sonipat, Haryana, India"
+    },
+    "HR-12": {
+      "lat": 28.9010899,
+      "lon": 76.5801935,
+      "displayName": "Rohtak, Haryana, 124001, India"
+    },
+    "HR-13": {
+      "lat": 28.6933239,
+      "lon": 76.9332373,
+      "displayName": "Bahadurgarh, Jhajjar, Haryana, 124507, India"
+    },
+    "HR-14": {
+      "lat": 28.5336416,
+      "lon": 76.6898148,
+      "displayName": "Jhajjar, Haryana, India"
+    },
+    "HR-15": {
+      "lat": 28.9674025,
+      "lon": 76.2953562,
+      "displayName": "Meham, Maham, Rohtak, Haryana, 124112, India"
+    },
+    "HR-16": {
+      "lat": 28.7931703,
+      "lon": 76.1391283,
+      "displayName": "Bhiwani, Haryana, 125021, India"
+    },
+    "HR-17": {
+      "lat": 28.8241239,
+      "lon": 75.5956446,
+      "displayName": "Siwani, Bhiwani, Haryana, India"
+    },
+    "HR-18": {
+      "lat": 28.4279477,
+      "lon": 75.8054759,
+      "displayName": "Loharu, Bhiwani, Haryana, 123200, India"
+    },
+    "HR-19": {
+      "lat": 28.5919933,
+      "lon": 76.2719817,
+      "displayName": "Charkhi Dadri, Dadri, Charkhi Dadri, Haryana, 123306, India"
+    },
+    "HR-20": {
+      "lat": 29.1562688,
+      "lon": 75.7292303,
+      "displayName": "Hisar, Hisar I Block, Hisar, Haryana, 125001, India"
+    },
+    "HR-21": {
+      "lat": 29.140992,
+      "lon": 75.9787139,
+      "displayName": "Hansi, Hisar, Haryana, India"
+    },
+    "HR-22": {
+      "lat": 29.5118108,
+      "lon": 75.4294164,
+      "displayName": "Fatehabad, Haryana, India"
+    },
+    "HR-23": {
+      "lat": 29.7107922,
+      "lon": 75.9042326,
+      "displayName": "Tohana, Fatehabad, Haryana, India"
+    },
+    "HR-24": {
+      "lat": 29.5372849,
+      "lon": 75.0377649,
+      "displayName": "Sirsa, Haryana, 125055, India"
+    },
+    "HR-25": {
+      "lat": 29.9657112,
+      "lon": 74.702937,
+      "displayName": "Mandi Dabwali, Dabwali, Sirsa, Haryana, 125104, India"
+    },
+    "HR-26": {
+      "lat": 28.4808629,
+      "lon": 77.0848883,
+      "displayName": "Kotak Mahindra Bank;india, Sector 25, Gurgaon, Gurugram, Haryana, 122002, India"
+    },
+    "HR-27": {
+      "lat": 28.0974291,
+      "lon": 77.0515944,
+      "displayName": "Nuh, Haryana, India"
+    },
+    "HR-28": {
+      "lat": 27.83295,
+      "lon": 77.0255225,
+      "displayName": "Ferozepur Jhirka, Nuh, Haryana, India"
+    },
+    "HR-29": {
+      "lat": 28.2940728,
+      "lon": 77.3592238,
+      "displayName": "Ballabgarh, Faridabad, Haryana, India"
+    },
+    "HR-30": {
+      "lat": 28.1515806,
+      "lon": 77.3417952,
+      "displayName": "Palwal, Palwal Bypass, Palwal, Haryana, 121102, India"
+    },
+    "HR-31": {
+      "lat": 29.3152073,
+      "lon": 76.314082,
+      "displayName": "Jind, Haryana, 126100, India"
+    },
+    "HR-32": {
+      "lat": 29.5830598,
+      "lon": 76.0754066,
+      "displayName": "Narwana, Jind, Haryana, 126116, India"
+    },
+    "HR-33": {
+      "lat": 29.378315,
+      "lon": 76.627283,
+      "displayName": "Safidon, Jind, Haryana, 126112, India"
+    },
+    "HR-34": {
+      "lat": 28.2808597,
+      "lon": 76.1480985,
+      "displayName": "Mahendragarh, SH24, Riwasa, Mahendragarh, Haryana, 123029, India"
+    },
+    "HR-35": {
+      "lat": 28.0438456,
+      "lon": 76.1062015,
+      "displayName": "Narnaul, Mahendragarh, Haryana, 123001, India"
+    },
+    "HR-36": {
+      "lat": 28.1956468,
+      "lon": 76.6165179,
+      "displayName": "Rewari, Haryana, 123110, India"
+    },
+    "HR-37": {
+      "lat": 30.3843674,
+      "lon": 76.770421,
+      "displayName": "Ambala, Ambala Cantt, Ambala, Haryana, 134002, India"
+    },
+    "HR-38": {
+      "lat": 28.4031478,
+      "lon": 77.3105561,
+      "displayName": "Faridabad, Haryana, 121001, India"
+    },
+    "HR-39": {
+      "lat": 29.1562688,
+      "lon": 75.7292303,
+      "displayName": "Hisar, Hisar I Block, Hisar, Haryana, 125001, India"
+    },
+    "HR-40": {
+      "lat": 29.5675386,
+      "lon": 76.6446102,
+      "displayName": "Assandh, Karnal, Haryana, India"
+    },
+    "HR-41": {
+      "lat": 29.9988844,
+      "lon": 76.5582773,
+      "displayName": "Pehowa, Kurukshetra, Haryana, India"
+    },
+    "HR-42": {
+      "lat": 29.1378351,
+      "lon": 77.0202921,
+      "displayName": "Ganaur, Sonipat, Haryana, India"
+    },
+    "HR-43": {
+      "lat": 28.3921086,
+      "lon": 76.4501216,
+      "displayName": "Kosli, Rewari, Haryana, India"
+    },
+    "HR-44": {
+      "lat": 29.444108,
+      "lon": 74.6579499,
+      "displayName": "Ellenabad, SH23, Ellenabad, Sirsa, Haryana, 125102, India"
+    },
+    "HR-45": {
+      "lat": 29.6951152,
+      "lon": 76.9698292,
+      "displayName": "Karnal, Flyover, Gyanpura Colony, Ramnagar, Karnal, Haryana, 132001, India"
+    },
+    "HR-46": {
+      "lat": 28.9010899,
+      "lon": 76.5801935,
+      "displayName": "Rohtak, Haryana, 124001, India"
+    },
+    "HR-47": {
+      "lat": 28.1956468,
+      "lon": 76.6165179,
+      "displayName": "Rewari, Haryana, 123110, India"
+    },
+    "HR-48": {
+      "lat": 28.7799405,
+      "lon": 75.8282639,
+      "displayName": "Tosham, Bhiwani, Haryana, India"
+    },
+    "HR-49": {
+      "lat": 30.8249757,
+      "lon": 76.8826281,
+      "displayName": "Kalka, NH105, Chawla Colony, Kalka, Panchkula, Haryana, 134102, India"
+    },
+    "HR-50": {
+      "lat": 27.8999168,
+      "lon": 77.3739284,
+      "displayName": "Hodal, Palwal, Haryana, India"
+    },
+    "HR-51": {
+      "lat": 28.4031478,
+      "lon": 77.3105561,
+      "displayName": "Faridabad, Haryana, 121001, India"
+    },
+    "HR-52": {
+      "lat": 28.0353892,
+      "lon": 77.2243198,
+      "displayName": "Hathin, Palwal, Haryana, 121103, India"
+    },
+    "HR-53": {
+      "lat": 29.2857734,
+      "lon": 75.4789052,
+      "displayName": "Adampur, Hisar, Haryana, 125052, India"
+    },
+    "HR-54": {
+      "lat": 30.2423627,
+      "lon": 77.0460519,
+      "displayName": "Barara, Ambala, Haryana, India"
+    },
+    "HR-55": {
+      "lat": 28.4808629,
+      "lon": 77.0848883,
+      "displayName": "Kotak Mahindra Bank;india, Sector 25, Gurgaon, Gurugram, Haryana, 122002, India"
+    },
+    "HR-56": {
+      "lat": 29.3152073,
+      "lon": 76.314082,
+      "displayName": "Jind, Haryana, 126100, India"
+    },
+    "HR-57": {
+      "lat": 29.5372849,
+      "lon": 75.0377649,
+      "displayName": "Sirsa, Haryana, 125055, India"
+    },
+    "HR-58": {
+      "lat": 30.1689,
+      "lon": 77.3019,
+      "displayName": "Jagadhari, Jagadhri, Yamunanagar, Haryana, 135003, India"
+    },
+    "HR-59": {
+      "lat": 29.6930173,
+      "lon": 75.5183068,
+      "displayName": "Ratia, Fatehabad, Haryana, 125051, India"
+    },
+    "HR-60": {
+      "lat": 29.230736,
+      "lon": 77.0019919,
+      "displayName": "Samalkha, Panipat, Haryana, India"
+    },
+    "HR-61": {
+      "lat": 28.7931703,
+      "lon": 76.1391283,
+      "displayName": "Bhiwani, Haryana, 125021, India"
+    },
+    "HR-62": {
+      "lat": 29.5118108,
+      "lon": 75.4294164,
+      "displayName": "Fatehabad, Haryana, India"
+    },
+    "HR-63": {
+      "lat": 28.5336416,
+      "lon": 76.6898148,
+      "displayName": "Jhajjar, Haryana, India"
+    },
+    "HR-64": {
+      "lat": 29.7996588,
+      "lon": 76.3989903,
+      "displayName": "Kaithal, Haryana, 132027, India"
+    },
+    "HR-65": {
+      "lat": 29.9693747,
+      "lon": 76.8482787,
+      "displayName": "Kurukshetra, Thanesar, Kurukshetra, Haryana, 132118, India"
+    },
+    "HR-66": {
+      "lat": 28.0438456,
+      "lon": 76.1062015,
+      "displayName": "Narnaul, Mahendragarh, Haryana, 123001, India"
+    },
+    "HR-67": {
+      "lat": 29.3912753,
+      "lon": 76.9771675,
+      "displayName": "Panipat, Haryana, 132100, India"
+    },
+    "HR-68": {
+      "lat": 30.6975401,
+      "lon": 76.8551066,
+      "displayName": "Panchkula, Haryana, 134109, India"
+    },
+    "HR-69": {
+      "lat": 28.9953758,
+      "lon": 77.0233627,
+      "displayName": "Sonipat, Haryana, 131001, India"
+    },
+    "HR-70": {
+      "lat": 30.3719796,
+      "lon": 76.7856279,
+      "displayName": "Vardhaman Hospital, Chandigarh, Ambala, Ambala Cantt, Chandigarh, Haryana, 160022, India"
+    },
+    "HR-71": {
+      "lat": 30.3612115,
+      "lon": 77.3229651,
+      "displayName": "Bilaspur, Yamunanagar, Haryana, 135102, India"
+    },
+    "HR-72": {
+      "lat": 28.4808629,
+      "lon": 77.0848883,
+      "displayName": "Kotak Mahindra Bank;india, Sector 25, Gurgaon, Gurugram, Haryana, 122002, India"
+    },
+    "HR-73": {
+      "lat": 28.1515806,
+      "lon": 77.3417952,
+      "displayName": "Palwal, Palwal Bypass, Palwal, Haryana, 121102, India"
+    },
+    "HR-74": {
+      "lat": 28.0974291,
+      "lon": 77.0515944,
+      "displayName": "Nuh, Haryana, India"
+    },
+    "HR-75": {
+      "lat": 29.8920575,
+      "lon": 77.0910015,
+      "displayName": "Indri, Karnal, Haryana, 132041, India"
+    },
+    "HR-76": {
+      "lat": 28.325914,
+      "lon": 76.7787023,
+      "displayName": "Pataudi, Gurugram, Haryana, 123503, India"
+    },
+    "HR-77": {
+      "lat": 28.7193582,
+      "lon": 76.5530492,
+      "displayName": "Beri, Jhajjar, Haryana, India"
+    },
+    "HR-78": {
+      "lat": 30.1658852,
+      "lon": 76.8616655,
+      "displayName": "Shahabad Markanda, Grand Trunk Road, Shahbad, Kurukshetra, Haryana, 132135, India"
+    },
+    "HR-79": {
+      "lat": 28.9027675,
+      "lon": 76.903736,
+      "displayName": "Kharkhoda, Sonipat, Haryana, India"
+    },
+    "HR-80": {
+      "lat": 29.3563107,
+      "lon": 75.9326213,
+      "displayName": "Barwala, Hisar, Haryana, India"
+    },
+    "HR-81": {
+      "lat": 28.0596936,
+      "lon": 76.5766168,
+      "displayName": "Bawal, Rewari, Haryana, India"
+    },
+    "HR-82": {
+      "lat": 28.3302472,
+      "lon": 76.3091414,
+      "displayName": "Kanina Khas, Mahendragarh, Haryana, 123302, India"
+    },
+    "HR-83": {
+      "lat": 29.6710637,
+      "lon": 76.2952417,
+      "displayName": "Kalayat, Kaithal, Haryana, 136117, India"
+    },
+    "HR-84": {
+      "lat": 28.5919933,
+      "lon": 76.2719817,
+      "displayName": "Charkhi Dadri, Dadri, Charkhi Dadri, Haryana, 123306, India"
+    },
+    "HR-85": {
+      "lat": 30.3382427,
+      "lon": 76.8286956,
+      "displayName": "Ambala Cantonment Junction, Grand Trunk Road, Sadar Bazaar, Ambala, Ambala Cantt, Ambala, Haryana, 134002, India"
+    },
+    "HR-86": {
+      "lat": 29.2396596,
+      "lon": 75.8174505,
+      "displayName": "Hisar, Haryana, India"
+    },
+    "HR-87": {
+      "lat": 28.4031478,
+      "lon": 77.3105561,
+      "displayName": "Faridabad, Haryana, 121001, India"
+    },
+    "HR-88": {
+      "lat": 28.506826,
+      "lon": 75.9550138,
+      "displayName": "Badhra, Charkhi Dadri, Haryana, India"
+    },
+    "HR-89": {
+      "lat": 28.5726895,
+      "lon": 76.8100866,
+      "displayName": "Badli, Bahadurgarh, Jhajjar, Haryana, India"
+    },
+    "HR-90": {
+      "lat": 29.4884284,
+      "lon": 76.1481213,
+      "displayName": "Uchana, Jind, Haryana, 126115, India"
+    },
+    "HR-91": {
+      "lat": 29.5394114,
+      "lon": 76.9388937,
+      "displayName": "Gharaunda, Karnal, Haryana, India"
+    },
+    "HR-92": {
+      "lat": 30.0434068,
+      "lon": 77.1854441,
+      "displayName": "Radaur, Yamunanagar, Haryana, 135133, India"
+    },
+    "HR-93": {
+      "lat": 27.8637502,
+      "lon": 77.2051612,
+      "displayName": "Punhana, Punahana, Nuh, Haryana, 122508, India"
+    },
+    "HR-94": {
+      "lat": 29.8223648,
+      "lon": 74.9343591,
+      "displayName": "Kalanwali, Sirsa, Haryana, India"
+    },
+    "HR-95": {
+      "lat": 28.8192189,
+      "lon": 76.7609033,
+      "displayName": "Sampla, Rohtak, Haryana, India"
+    },
+    "HR-96": {
+      "lat": 28.2109261,
+      "lon": 76.9506404,
+      "displayName": "Tauru, Taoru, Nuh, Haryana, 122105, India"
+    },
+    "HR-97": {
+      "lat": 30.0346232,
+      "lon": 77.0485926,
+      "displayName": "Ladwa, Kurukshetra, Haryana, 136132, India"
+    },
+    "HR-98": {
+      "lat": 28.3932757,
+      "lon": 77.0484201,
+      "displayName": "Badshahpur, Gurgaon, Gurugram, Haryana, 122101, India"
+    }
+  }
+}
