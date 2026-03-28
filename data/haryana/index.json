@@ -2229,5 +2229,72 @@
       "Ghandra",
       "Bhalout"
     ]
+  },
+  {
+    "code": "HR-96",
+    "region": "Tauru",
+    "city": "Tauru",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Nuh",
+    "division": "Faridabad",
+    "description": "HR-96 is the Registration and Licensing Authority (RLA) for the Tauru sub-division in Haryana's Nuh district. This office handles vehicle registrations, the issuance of driving licenses, and other transport-related permits for the local sub-divisional area. It was established as part of the newer series of RTO codes to improve administrative efficiency in smaller sub-districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tauru, District Nuh, Haryana",
+    "pinCode": "122105",
+    "phone": "01267-282244",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tauru",
+      "Tauru Sub-division",
+      "Tauru Block",
+      "Surrounding villages of Tauru Tehsil"
+    ]
+  },
+  {
+    "code": "HR-97",
+    "region": "Ladwa",
+    "city": "Ladwa",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Kurukshetra",
+    "division": "Ambala",
+    "description": "HR-97 is the Regional Transport Office serving the Ladwa sub-division in the Kurukshetra district of Haryana. Established to decentralize transport services, it operates under the SDO (Civil) as the Registering Authority for motor vehicles. It handles registration series HR-97, driving licenses, and local transport taxation.",
+    "status": "active",
+    "established": "2024",
+    "address": "Office of the Sub Divisional Officer (Civil), Ladwa, District Kurukshetra, Haryana",
+    "pinCode": "136132",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ladwa",
+      "Babain",
+      "Ladwa Sub-division"
+    ]
+  },
+  {
+    "code": "HR-98",
+    "region": "Badshahpur",
+    "city": "Badshahpur",
+    "state": "Haryana",
+    "stateCode": "HR",
+    "district": "Gurugram",
+    "division": "Gurugram",
+    "description": "The HR-98 RTO was officially established in April 2024 to serve the Badshahpur region in the Gurugram district. This office manages vehicle registration and transport services for the southern sectors of Gurugram, including areas like Wazirabad and Sushant Lok III. It was created to alleviate the administrative burden on the existing Gurugram RTOs due to the city's rapid urban expansion.",
+    "status": "active",
+    "established": "2024",
+    "address": "Tehsil Badshahpur, Opp Boom Plaza, Sushant Lok III, Sector 57, Gurugram, Haryana",
+    "pinCode": "122003",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Badshahpur",
+      "Wazirabad",
+      "Sushant Lok III",
+      "Sector 57",
+      "Gurugram South",
+      "Badshahpur Tehsil"
+    ]
   }
 ]
