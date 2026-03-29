@@ -1,0 +1,28 @@
+{
+    "code": "HP-05",
+    "region": "Mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-05 is the Regional Transport Office serving the Mandi district in Himachal Pradesh. It is a major administrative hub for vehicle registration, driver licensing, and transport permit issuance in the central region of the state. The office is strategically located to manage the high volume of traffic passing through the NH-21 corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chadyana, Mandi, NH-21, Mandi Road, Mandi, Himachal Pradesh",
+    "pinCode": "175001",
+    "phone": "01905-225207",
+    "email": "rtomandi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Mandi",
+        "Sadar Mandi",
+        "Balh",
+        "Sundernagar",
+        "Chachyot",
+        "Thunag",
+        "Karsog",
+        "Jogindernagar",
+        "Padhar",
+        "Lad Bharol"
+    ]
+}

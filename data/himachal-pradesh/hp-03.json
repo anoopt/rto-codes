@@ -1,0 +1,23 @@
+{
+    "code": "HP-03",
+    "region": "Shimla Urban",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-03 is the Regional Transport Office for the Shimla Urban area, the capital city of Himachal Pradesh. It operates under the Sub Divisional Officer (Civil) and is primarily responsible for vehicle registrations, issuing driving licenses, and managing transport permits within the city limits, including the significant local taxi fleet.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (C), Shimla, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "0177-2657007",
+    "email": "sdmshu-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Shimla Urban",
+        "Shimla Municipal Corporation",
+        "Totu",
+        "Dhalli",
+        "Jatog"
+    ]
+}

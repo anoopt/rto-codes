@@ -1,0 +1,22 @@
+{
+    "code": "HP-02",
+    "region": "Shimla (Commercial/Tourist)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-02 is a specialized registration series for Shimla, Himachal Pradesh, specifically utilized for commercial transport vehicles including tourist buses and taxis. Managed by the Registering and Licensing Authority (RLA) in the state capital, it helps differentiate commercial and tourist fleet operations from private urban registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Shimla Urban, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shimla Urban",
+        "Shimla Municipal Corporation",
+        "Commercial Transport Sector",
+        "Tourist Vehicle Registrations"
+    ]
+}

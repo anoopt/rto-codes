@@ -1,0 +1,24 @@
+{
+    "code": "HP-04",
+    "region": "Dharamshala",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "HP-04 serves as the Regional Transport Office (RTO) for Dharamshala, the winter capital of Himachal Pradesh. This office is a critical administrative hub in the Kangra district, overseeing vehicle registrations, driving licenses, and transport law enforcement for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chilgari, Dharamshala, District Kangra, Himachal Pradesh",
+    "pinCode": "176215",
+    "phone": "N/A",
+    "email": "rto-dha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dharamshala",
+        "McLeod Ganj",
+        "Chilgari",
+        "Kangra Valley",
+        "Bhagsunag",
+        "Dharamkot"
+    ]
+}

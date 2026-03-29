@@ -1,0 +1,26 @@
+{
+    "code": "HP-01",
+    "region": "Shimla Urban",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-01 is the RTO code for Shimla Urban, the state capital of Himachal Pradesh. Operating as a Registering and Licensing Authority (RLA) under the Sub Divisional Magistrate, it handles private vehicle registration, driving licenses, and regulatory permits within the city's municipal limits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Shimla Urban, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shimla Municipal Corporation",
+        "Shimla Urban Area",
+        "Jakhoo",
+        "Mall Road",
+        "Chhota Shimla",
+        "Sanjauli",
+        "Kaithu",
+        "Annadale"
+    ]
+}
