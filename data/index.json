@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-28T02:57:35.023Z",
-  "totalRTOs": 384,
-  "totalVerified": 384,
+  "generatedAt": "2026-03-29T03:00:01.336Z",
+  "totalRTOs": 389,
+  "totalVerified": 389,
   "totalStates": 28,
-  "completedStates": 8,
-  "inProgressStates": 0,
+  "completedStates": 9,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 5,
   "inProgressUTs": 0,
@@ -494,23 +494,29 @@
         "hr-97",
         "hr-98"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "HP",
       "stateName": "Himachal Pradesh",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "hp-01",
+        "hp-02",
+        "hp-03",
+        "hp-04",
+        "hp-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1398,23 +1404,29 @@
         "hr-97",
         "hr-98"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "HP": {
       "stateCode": "HP",
       "stateName": "Himachal Pradesh",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "hp-01",
+        "hp-02",
+        "hp-03",
+        "hp-04",
+        "hp-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },

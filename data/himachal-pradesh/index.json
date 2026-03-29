@@ -1,1 +1,125 @@
-[]
+[
+  {
+    "code": "HP-01",
+    "region": "Shimla Urban",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-01 is the RTO code for Shimla Urban, the state capital of Himachal Pradesh. Operating as a Registering and Licensing Authority (RLA) under the Sub Divisional Magistrate, it handles private vehicle registration, driving licenses, and regulatory permits within the city's municipal limits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Shimla Urban, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shimla Municipal Corporation",
+      "Shimla Urban Area",
+      "Jakhoo",
+      "Mall Road",
+      "Chhota Shimla",
+      "Sanjauli",
+      "Kaithu",
+      "Annadale"
+    ]
+  },
+  {
+    "code": "HP-02",
+    "region": "Shimla (Commercial/Tourist)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-02 is a specialized registration series for Shimla, Himachal Pradesh, specifically utilized for commercial transport vehicles including tourist buses and taxis. Managed by the Registering and Licensing Authority (RLA) in the state capital, it helps differentiate commercial and tourist fleet operations from private urban registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Shimla Urban, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shimla Urban",
+      "Shimla Municipal Corporation",
+      "Commercial Transport Sector",
+      "Tourist Vehicle Registrations"
+    ]
+  },
+  {
+    "code": "HP-03",
+    "region": "Shimla Urban",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-03 is the Regional Transport Office for the Shimla Urban area, the capital city of Himachal Pradesh. It operates under the Sub Divisional Officer (Civil) and is primarily responsible for vehicle registrations, issuing driving licenses, and managing transport permits within the city limits, including the significant local taxi fleet.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (C), Shimla, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "0177-2657007",
+    "email": "sdmshu-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Shimla Urban",
+      "Shimla Municipal Corporation",
+      "Totu",
+      "Dhalli",
+      "Jatog"
+    ]
+  },
+  {
+    "code": "HP-04",
+    "region": "Dharamshala",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "HP-04 serves as the Regional Transport Office (RTO) for Dharamshala, the winter capital of Himachal Pradesh. This office is a critical administrative hub in the Kangra district, overseeing vehicle registrations, driving licenses, and transport law enforcement for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chilgari, Dharamshala, District Kangra, Himachal Pradesh",
+    "pinCode": "176215",
+    "phone": "N/A",
+    "email": "rto-dha-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dharamshala",
+      "McLeod Ganj",
+      "Chilgari",
+      "Kangra Valley",
+      "Bhagsunag",
+      "Dharamkot"
+    ]
+  },
+  {
+    "code": "HP-05",
+    "region": "Mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-05 is the Regional Transport Office serving the Mandi district in Himachal Pradesh. It is a major administrative hub for vehicle registration, driver licensing, and transport permit issuance in the central region of the state. The office is strategically located to manage the high volume of traffic passing through the NH-21 corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chadyana, Mandi, NH-21, Mandi Road, Mandi, Himachal Pradesh",
+    "pinCode": "175001",
+    "phone": "01905-225207",
+    "email": "rtomandi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Mandi",
+      "Sadar Mandi",
+      "Balh",
+      "Sundernagar",
+      "Chachyot",
+      "Thunag",
+      "Karsog",
+      "Jogindernagar",
+      "Padhar",
+      "Lad Bharol"
+    ]
+  }
+]
