@@ -29,7 +29,7 @@ export function ThemeSwitcher() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-5 h-5 absolute dark:opacity-100 opacity-0 transition-opacity duration-150"
+                className="w-5 h-5 absolute dark:opacity-100 opacity-0"
                 suppressHydrationWarning
             >
                 <circle cx="12" cy="12" r="4" />
@@ -51,7 +51,7 @@ export function ThemeSwitcher() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-5 h-5 dark:opacity-0 opacity-100 transition-opacity duration-150"
+                className="w-5 h-5 dark:opacity-0 opacity-100"
                 suppressHydrationWarning
             >
                 <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
