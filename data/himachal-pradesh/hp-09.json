@@ -1,0 +1,25 @@
+{
+    "code": "HP-09",
+    "region": "Theog",
+    "city": "Theog",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-09 is the Registering and Licensing Authority (RLA) for the Theog subdivision in the Shimla district of Himachal Pradesh. Operating under the Sub-Divisional Magistrate (SDM) office, it manages vehicle registration, driving licenses, and transport tax collection for the local highland region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Theog, District Shimla, Himachal Pradesh",
+    "pinCode": "171201",
+    "phone": "0177-2657009",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Theog",
+        "Matiana",
+        "Sainj",
+        "Balson",
+        "Dharech",
+        "Kotkhai (parts)",
+        "Fagu"
+    ]
+}

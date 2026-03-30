@@ -1,0 +1,22 @@
+{
+    "code": "HP-10",
+    "region": "Rohru",
+    "city": "Rohru",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-10 serves as the Registration and Licensing Authority (R&LA) for the Rohru sub-division in Himachal Pradesh. Operating under the Sub Divisional Officer (Civil), it manages vehicle registrations, driving licenses, and transport tax collections for this mountainous region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Rohru, District Shimla, Himachal Pradesh",
+    "pinCode": "171207",
+    "phone": "01781-240009",
+    "email": "sdmroh-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Rohru",
+        "Chirgaon",
+        "Dodra Kwar",
+        "Saraswatinagar"
+    ]
+}

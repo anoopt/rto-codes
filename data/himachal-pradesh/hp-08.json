@@ -1,0 +1,24 @@
+{
+    "code": "HP-08",
+    "region": "Chopal",
+    "city": "Chopal",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-08 functions as the Registration and Licensing Authority (RLA) for the Chopal sub-division within the Shimla district of Himachal Pradesh. This office handles vehicle registration, driver's licensing, and other transport regulatory duties for the mountainous Chopal region. It is overseen by the Sub-Divisional Magistrate (SDM) acting as the licensing authority.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Chopal, District Shimla, Himachal Pradesh",
+    "pinCode": "171211",
+    "phone": "01783-260014",
+    "email": "sdmchp-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Chopal",
+        "Nerwa",
+        "Kupvi",
+        "Dewat",
+        "Sarain",
+        "Tharoch"
+    ]
+}

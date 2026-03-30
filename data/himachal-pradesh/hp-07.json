@@ -1,0 +1,25 @@
+{
+    "code": "HP-07",
+    "region": "Shimla (Commercial)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-07 serves as the Regional Transport Office (RTO) for Shimla, the state capital of Himachal Pradesh, primarily handling commercial vehicle registrations and regional transport permits. It is one of the primary administrative hubs for the Himachal Pradesh Transport Department. The office plays a crucial role in managing the heavy transport and tourist vehicle flow within the hilly terrain of the Shimla district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Directorate of Transport, Parivahan Bhawan, Shimla, Himachal Pradesh",
+    "pinCode": "171004",
+    "phone": "0177-2808950",
+    "email": "rto-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Shimla Urban",
+        "Shimla Rural",
+        "Kusumpti",
+        "Mashobra",
+        "Sunni",
+        "Theog (Commercial)",
+        "Chopal (Commercial)"
+    ]
+}
