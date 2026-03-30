@@ -121,5 +121,123 @@
       "Padhar",
       "Lad Bharol"
     ]
+  },
+  {
+    "code": "HP-06",
+    "region": "Rampur Bushahr",
+    "city": "Rampur Bushahr",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-06 serves as the Registering and Licensing Authority (RLA) for the Rampur Bushahr subdivision in the Shimla district. It is responsible for vehicle registration, driving license issuance, and overseeing transport regulations in this key mountainous region located along the National Highway 5.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Rampur Bushahr, District Shimla, Himachal Pradesh",
+    "pinCode": "172001",
+    "phone": "01782-233002",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rampur Bushahr",
+      "Nankhari",
+      "Sarahan",
+      "Jhakri"
+    ]
+  },
+  {
+    "code": "HP-07",
+    "region": "Shimla (Commercial)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-07 serves as the Regional Transport Office (RTO) for Shimla, the state capital of Himachal Pradesh, primarily handling commercial vehicle registrations and regional transport permits. It is one of the primary administrative hubs for the Himachal Pradesh Transport Department. The office plays a crucial role in managing the heavy transport and tourist vehicle flow within the hilly terrain of the Shimla district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Directorate of Transport, Parivahan Bhawan, Shimla, Himachal Pradesh",
+    "pinCode": "171004",
+    "phone": "0177-2808950",
+    "email": "rto-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Shimla Urban",
+      "Shimla Rural",
+      "Kusumpti",
+      "Mashobra",
+      "Sunni",
+      "Theog (Commercial)",
+      "Chopal (Commercial)"
+    ]
+  },
+  {
+    "code": "HP-08",
+    "region": "Chopal",
+    "city": "Chopal",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-08 functions as the Registration and Licensing Authority (RLA) for the Chopal sub-division within the Shimla district of Himachal Pradesh. This office handles vehicle registration, driver's licensing, and other transport regulatory duties for the mountainous Chopal region. It is overseen by the Sub-Divisional Magistrate (SDM) acting as the licensing authority.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Chopal, District Shimla, Himachal Pradesh",
+    "pinCode": "171211",
+    "phone": "01783-260014",
+    "email": "sdmchp-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Chopal",
+      "Nerwa",
+      "Kupvi",
+      "Dewat",
+      "Sarain",
+      "Tharoch"
+    ]
+  },
+  {
+    "code": "HP-09",
+    "region": "Theog",
+    "city": "Theog",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-09 is the Registering and Licensing Authority (RLA) for the Theog subdivision in the Shimla district of Himachal Pradesh. Operating under the Sub-Divisional Magistrate (SDM) office, it manages vehicle registration, driving licenses, and transport tax collection for the local highland region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Theog, District Shimla, Himachal Pradesh",
+    "pinCode": "171201",
+    "phone": "0177-2657009",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Theog",
+      "Matiana",
+      "Sainj",
+      "Balson",
+      "Dharech",
+      "Kotkhai (parts)",
+      "Fagu"
+    ]
+  },
+  {
+    "code": "HP-10",
+    "region": "Rohru",
+    "city": "Rohru",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-10 serves as the Registration and Licensing Authority (R&LA) for the Rohru sub-division in Himachal Pradesh. Operating under the Sub Divisional Officer (Civil), it manages vehicle registrations, driving licenses, and transport tax collections for this mountainous region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Rohru, District Shimla, Himachal Pradesh",
+    "pinCode": "171207",
+    "phone": "01781-240009",
+    "email": "sdmroh-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Rohru",
+      "Chirgaon",
+      "Dodra Kwar",
+      "Saraswatinagar"
+    ]
   }
 ]
