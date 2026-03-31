@@ -1,0 +1,25 @@
+{
+    "code": "HP-14",
+    "region": "Solan",
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "HP-14 is the Registration and Licensing Authority (RLA) for the Solan region in Himachal Pradesh. It functions under the Sub Divisional Magistrate (SDM) of Solan and is responsible for vehicle registration, driving licenses, and other transport-related services for the Solan city area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Solan, District Solan, Himachal Pradesh",
+    "pinCode": "173212",
+    "phone": "01792-223707",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Solan City",
+        "Solan Subdivision",
+        "Saproon",
+        "Chambaghat",
+        "Jatoli",
+        "Oachghat",
+        "Salogra"
+    ]
+}

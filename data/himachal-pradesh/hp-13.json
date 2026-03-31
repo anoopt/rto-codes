@@ -1,0 +1,24 @@
+{
+    "code": "HP-13",
+    "region": "Kandaghat",
+    "city": "Kandaghat",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "HP-13 is the Registration and Licensing Authority (RLA) for the Kandaghat sub-division in Solan district. It operates under the Sub Divisional Officer (Civil) and handles vehicle registration, fitness certificates, and driving license renewals for the local hill region. Kandaghat is a key administrative hub located on the Kalka-Shimla highway.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Kandaghat, District Solan, Himachal Pradesh",
+    "pinCode": "173215",
+    "phone": "01792-256100",
+    "email": "sdmkand-sol-hp@nic.in",
+    "jurisdictionAreas": [
+        "Kandaghat",
+        "Chail",
+        "Sadhupul",
+        "Waknaghat",
+        "Mamlig",
+        "Sayri"
+    ]
+}

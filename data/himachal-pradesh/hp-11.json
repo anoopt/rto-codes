@@ -1,0 +1,24 @@
+{
+    "code": "HP-11",
+    "region": "Arki",
+    "city": "Arki",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Solan",
+    "description": "HP-11 is the official code for the Registration and Licensing Authority (RLA) in Arki, Himachal Pradesh. It serves the Arki sub-division of Solan district, facilitating vehicle registration and driver licensing services under the local SDM.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Arki, District Solan, Himachal Pradesh",
+    "pinCode": "173208",
+    "phone": "01796-220666",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Arki",
+        "Kunihar",
+        "Darlaghat",
+        "Diggal",
+        "Batal",
+        "Dhundan"
+    ]
+}

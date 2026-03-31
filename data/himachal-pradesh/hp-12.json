@@ -1,0 +1,23 @@
+{
+    "code": "HP-12",
+    "region": "Nalagarh",
+    "city": "Nalagarh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla Division",
+    "description": "The HP-12 RTO office serves the Nalagarh sub-division within the Solan district of Himachal Pradesh. This Registration and Licensing Authority (R&LA) is critical for managing vehicle registrations in one of the state's most significant industrial hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nalagarh, District Solan, Himachal Pradesh",
+    "pinCode": "174101",
+    "phone": "01795-223024",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nalagarh",
+        "Ramshehar",
+        "Panjehra",
+        "Doon",
+        "Lodi Majra"
+    ]
+}

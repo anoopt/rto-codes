@@ -1,0 +1,23 @@
+{
+    "code": "HP-15",
+    "region": "Parwanoo",
+    "city": "Parwanoo",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "The HP-15 RTO serves the Parwanoo sub-division within the Solan district of Himachal Pradesh. As a Registration and Licensing Authority (R&LA), it manages the issuance of driving licenses and registration of non-transport vehicles in this major industrial border town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Assistant Commissioner (AC) to Deputy Commissioner, Parwanoo, District Solan, Himachal Pradesh",
+    "pinCode": "173220",
+    "phone": "01792-233165",
+    "email": "acparwanoo@hp.gov.in",
+    "jurisdictionAreas": [
+        "Parwanoo",
+        "Dharampur",
+        "Taksal",
+        "Dagrosh",
+        "Gumar"
+    ]
+}
