@@ -239,5 +239,124 @@
       "Dodra Kwar",
       "Saraswatinagar"
     ]
+  },
+  {
+    "code": "HP-11",
+    "region": "Arki",
+    "city": "Arki",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Solan",
+    "description": "HP-11 is the official code for the Registration and Licensing Authority (RLA) in Arki, Himachal Pradesh. It serves the Arki sub-division of Solan district, facilitating vehicle registration and driver licensing services under the local SDM.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Arki, District Solan, Himachal Pradesh",
+    "pinCode": "173208",
+    "phone": "01796-220666",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Arki",
+      "Kunihar",
+      "Darlaghat",
+      "Diggal",
+      "Batal",
+      "Dhundan"
+    ]
+  },
+  {
+    "code": "HP-12",
+    "region": "Nalagarh",
+    "city": "Nalagarh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla Division",
+    "description": "The HP-12 RTO office serves the Nalagarh sub-division within the Solan district of Himachal Pradesh. This Registration and Licensing Authority (R&LA) is critical for managing vehicle registrations in one of the state's most significant industrial hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nalagarh, District Solan, Himachal Pradesh",
+    "pinCode": "174101",
+    "phone": "01795-223024",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nalagarh",
+      "Ramshehar",
+      "Panjehra",
+      "Doon",
+      "Lodi Majra"
+    ]
+  },
+  {
+    "code": "HP-13",
+    "region": "Kandaghat",
+    "city": "Kandaghat",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "HP-13 is the Registration and Licensing Authority (RLA) for the Kandaghat sub-division in Solan district. It operates under the Sub Divisional Officer (Civil) and handles vehicle registration, fitness certificates, and driving license renewals for the local hill region. Kandaghat is a key administrative hub located on the Kalka-Shimla highway.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Kandaghat, District Solan, Himachal Pradesh",
+    "pinCode": "173215",
+    "phone": "01792-256100",
+    "email": "sdmkand-sol-hp@nic.in",
+    "jurisdictionAreas": [
+      "Kandaghat",
+      "Chail",
+      "Sadhupul",
+      "Waknaghat",
+      "Mamlig",
+      "Sayri"
+    ]
+  },
+  {
+    "code": "HP-14",
+    "region": "Solan",
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "HP-14 is the Registration and Licensing Authority (RLA) for the Solan region in Himachal Pradesh. It functions under the Sub Divisional Magistrate (SDM) of Solan and is responsible for vehicle registration, driving licenses, and other transport-related services for the Solan city area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Solan, District Solan, Himachal Pradesh",
+    "pinCode": "173212",
+    "phone": "01792-223707",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Solan City",
+      "Solan Subdivision",
+      "Saproon",
+      "Chambaghat",
+      "Jatoli",
+      "Oachghat",
+      "Salogra"
+    ]
+  },
+  {
+    "code": "HP-15",
+    "region": "Parwanoo",
+    "city": "Parwanoo",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "The HP-15 RTO serves the Parwanoo sub-division within the Solan district of Himachal Pradesh. As a Registration and Licensing Authority (R&LA), it manages the issuance of driving licenses and registration of non-transport vehicles in this major industrial border town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Assistant Commissioner (AC) to Deputy Commissioner, Parwanoo, District Solan, Himachal Pradesh",
+    "pinCode": "173220",
+    "phone": "01792-233165",
+    "email": "acparwanoo@hp.gov.in",
+    "jurisdictionAreas": [
+      "Parwanoo",
+      "Dharampur",
+      "Taksal",
+      "Dagrosh",
+      "Gumar"
+    ]
   }
 ]
