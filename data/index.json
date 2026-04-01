@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-31T02:59:08.533Z",
-  "totalRTOs": 399,
-  "totalVerified": 399,
+  "generatedAt": "2026-04-01T02:59:54.698Z",
+  "totalRTOs": 404,
+  "totalVerified": 404,
   "totalStates": 28,
   "completedStates": 9,
   "inProgressStates": 1,
@@ -503,10 +503,10 @@
     {
       "stateCode": "HP",
       "stateName": "Himachal Pradesh",
-      "rtoCount": 15,
+      "rtoCount": 20,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 15,
+      "verifiedCount": 20,
       "rtoCodes": [
         "hp-01",
         "hp-02",
@@ -522,7 +522,12 @@
         "hp-12",
         "hp-13",
         "hp-14",
-        "hp-15"
+        "hp-15",
+        "hp-16",
+        "hp-17",
+        "hp-18",
+        "hp-19",
+        "hp-20"
       ],
       "isComplete": false,
       "type": "state",
@@ -1423,10 +1428,10 @@
     "HP": {
       "stateCode": "HP",
       "stateName": "Himachal Pradesh",
-      "rtoCount": 15,
+      "rtoCount": 20,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 15,
+      "verifiedCount": 20,
       "rtoCodes": [
         "hp-01",
         "hp-02",
@@ -1442,7 +1447,12 @@
         "hp-12",
         "hp-13",
         "hp-14",
-        "hp-15"
+        "hp-15",
+        "hp-16",
+        "hp-17",
+        "hp-18",
+        "hp-19",
+        "hp-20"
       ],
       "isComplete": false,
       "type": "state",
