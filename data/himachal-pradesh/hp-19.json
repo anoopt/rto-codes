@@ -1,0 +1,25 @@
+{
+    "code": "HP-19",
+    "region": "Amb",
+    "city": "Amb",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Kangra",
+    "description": "HP-19 serves as the Registration and Licensing Authority (R&LA) office located in Amb, within the Una district of Himachal Pradesh. It is primarily responsible for vehicle registration, issuance of driving licenses, and other transport-related services for the Amb sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Amb, District Una, Himachal Pradesh",
+    "pinCode": "177203",
+    "phone": "01976-261203",
+    "email": "sdm-amb-hp@nic.in",
+    "jurisdictionAreas": [
+        "Amb",
+        "Chintpurni",
+        "Gagret",
+        "Daulatpur",
+        "Mairi",
+        "Pragpur",
+        "Lohara"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HP-16",
+    "region": "Rajgarh",
+    "city": "Rajgarh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "HP-16 RTO serves the Rajgarh subdivision in the Sirmaur district of Himachal Pradesh. It functions as a Registration and Licensing Authority (RLA) responsible for issuing driving licenses, vehicle registrations, and fitness certificates. Rajgarh is a vital administrative center known as the Peach Valley, and this office handles transport services for its hilly terrain.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Rajgarh, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173101",
+    "phone": "01799-221034",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rajgarh",
+        "Habban",
+        "Dibber",
+        "Phagu",
+        "Deothi-Majgaon",
+        "Palu",
+        "Koti-Padog"
+    ]
+}

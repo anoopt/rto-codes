@@ -1,0 +1,25 @@
+{
+    "code": "HP-18",
+    "region": "Nahan",
+    "city": "Nahan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla Division",
+    "description": "HP-18 is the Regional Transport Office code for the Nahan sub-division in the Sirmaur district of Himachal Pradesh. Operating as a Registration and Licensing Authority (RLA) under the Sub Divisional Magistrate, it handles driver licensing, vehicle registration, and enforcement of transport regulations for the area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nahan, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173001",
+    "phone": "01702-222239",
+    "email": "sdmnahan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Nahan",
+        "Nahan Sub-Division",
+        "Jamta",
+        "Kala Amb",
+        "Trilokpur",
+        "Kolar",
+        "Birla"
+    ]
+}

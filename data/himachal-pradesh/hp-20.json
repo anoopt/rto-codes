@@ -1,0 +1,25 @@
+{
+    "code": "HP-20",
+    "region": "Una",
+    "city": "Una",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Kangra",
+    "description": "HP-20 is the official registration code for the Registration and Licensing Authority (R&LA) in Una, Himachal Pradesh. Operating under the jurisdiction of the Sub Divisional Officer (Civil), it manages the issuance of driving licenses and vehicle registration for the Una sub-division. It is one of several codes serving the Una district to ensure decentralized and efficient transport administration.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Una, District Una, Himachal Pradesh",
+    "pinCode": "174303",
+    "phone": "01975-223621",
+    "email": "sdm-una-hp@nic.in",
+    "jurisdictionAreas": [
+        "Una",
+        "Una Sub-division",
+        "Basdehra",
+        "Mehatpur",
+        "Santoshgarh",
+        "Ajouli",
+        "Lhalri"
+    ]
+}

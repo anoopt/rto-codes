@@ -1,0 +1,26 @@
+{
+    "code": "HP-17",
+    "region": "Paonta Sahib",
+    "city": "Paonta Sahib",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "HP-17 is the Registration and Licensing Authority (R&LA) office for Paonta Sahib subdivision in Sirmaur district. It functions under the Sub Divisional Magistrate (SDM) and manages vehicle registration, driving licenses, and road tax collection for this major industrial and pilgrimage town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDO (Civil), Paonta Sahib, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173025",
+    "phone": "01704-224100",
+    "email": "sdm-paonta-hp@nic.in",
+    "jurisdictionAreas": [
+        "Paonta Sahib",
+        "Majra",
+        "Misirwala",
+        "Dhaula Kuan",
+        "Giri Nagar",
+        "Badripur",
+        "Kolar",
+        "Sataun"
+    ]
+}
