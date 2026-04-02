@@ -1,0 +1,23 @@
+{
+    "code": "HP-21",
+    "region": "Barsar",
+    "city": "Barsar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Kangra",
+    "description": "HP-21 is the Registration and Licensing Authority (R&LA) for the Barsar sub-division in Hamirpur, Himachal Pradesh. It functions under the Sub-Divisional Magistrate (SDM) of Barsar, handling vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Barsar, District Hamirpur, Himachal Pradesh",
+    "pinCode": "174305",
+    "phone": "01972-288045",
+    "email": "sdmbsr-ham-hp@nic.in",
+    "jurisdictionAreas": [
+        "Barsar",
+        "Bijhari",
+        "Dhatwal",
+        "Mehli",
+        "Bhalat"
+    ]
+}

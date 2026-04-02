@@ -1,0 +1,23 @@
+{
+    "code": "HP-25",
+    "region": "Kalpa",
+    "city": "Kalpa",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kinnaur",
+    "division": "Shimla",
+    "description": "HP-25 is the Registering and Licensing Authority (RLA) office located in Kalpa, Kinnaur district of Himachal Pradesh. Managed by the Sub Divisional Magistrate (SDM), this office handles vehicle registration, road tax collection, and driving license services for the Kalpa sub-division and surrounding high-altitude areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Kalpa, District Kinnaur, Himachal Pradesh",
+    "pinCode": "172108",
+    "phone": "01786-222253",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kalpa Sub-division",
+        "Rekong Peo",
+        "Kothi",
+        "Pangi",
+        "Puwari"
+    ]
+}

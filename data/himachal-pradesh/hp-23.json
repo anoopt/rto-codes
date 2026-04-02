@@ -1,0 +1,21 @@
+{
+    "code": "HP-23",
+    "region": "Ghumarwin",
+    "city": "Ghumarwin",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Bilaspur",
+    "description": "HP-23 is the Registration and Licensing Authority (R&LA) for the Ghumarwin subdivision in the Bilaspur district of Himachal Pradesh. The office handles driving licenses and vehicle registration for the subdivision's residents and operates under the Sub Divisional Magistrate.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Ghumarwin, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174021",
+    "phone": "01978-255277",
+    "email": "sdmghu-bil-hp@nic.in",
+    "jurisdictionAreas": [
+        "Ghumarwin subdivision",
+        "Ghumarwin Tehsil",
+        "Bharari"
+    ]
+}

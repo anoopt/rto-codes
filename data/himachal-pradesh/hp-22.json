@@ -1,0 +1,23 @@
+{
+    "code": "HP-22",
+    "region": "Hamirpur",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Hamirpur",
+    "description": "HP-22 is the official Registration and Licensing Authority (R&LA) for the Hamirpur subdivision in Himachal Pradesh. Managed by the Sub Divisional Magistrate (SDM), this office handles the registration of private non-transport vehicles and the issuance of driving licenses for the local population. It is a critical hub for transport administration in the Hamirpur district, which is known for its high literacy rate and significant contribution to the state's educational and administrative sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Hamirpur, District Hamirpur, Himachal Pradesh - 177001",
+    "pinCode": "177001",
+    "phone": "01972-224304",
+    "email": "sdmham-ham-hp@nic.in",
+    "jurisdictionAreas": [
+        "Hamirpur",
+        "Sujanpur Tira",
+        "Tauni Devi",
+        "Bhira",
+        "Kanjyan"
+    ]
+}
