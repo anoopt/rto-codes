@@ -484,5 +484,95 @@
       "Ajouli",
       "Lhalri"
     ]
+  },
+  {
+    "code": "HP-21",
+    "region": "Barsar",
+    "city": "Barsar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Kangra",
+    "description": "HP-21 is the Registration and Licensing Authority (R&LA) for the Barsar sub-division in Hamirpur, Himachal Pradesh. It functions under the Sub-Divisional Magistrate (SDM) of Barsar, handling vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Barsar, District Hamirpur, Himachal Pradesh",
+    "pinCode": "174305",
+    "phone": "01972-288045",
+    "email": "sdmbsr-ham-hp@nic.in",
+    "jurisdictionAreas": [
+      "Barsar",
+      "Bijhari",
+      "Dhatwal",
+      "Mehli",
+      "Bhalat"
+    ]
+  },
+  {
+    "code": "HP-22",
+    "region": "Hamirpur",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Hamirpur",
+    "description": "HP-22 is the official Registration and Licensing Authority (R&LA) for the Hamirpur subdivision in Himachal Pradesh. Managed by the Sub Divisional Magistrate (SDM), this office handles the registration of private non-transport vehicles and the issuance of driving licenses for the local population. It is a critical hub for transport administration in the Hamirpur district, which is known for its high literacy rate and significant contribution to the state's educational and administrative sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Hamirpur, District Hamirpur, Himachal Pradesh - 177001",
+    "pinCode": "177001",
+    "phone": "01972-224304",
+    "email": "sdmham-ham-hp@nic.in",
+    "jurisdictionAreas": [
+      "Hamirpur",
+      "Sujanpur Tira",
+      "Tauni Devi",
+      "Bhira",
+      "Kanjyan"
+    ]
+  },
+  {
+    "code": "HP-23",
+    "region": "Ghumarwin",
+    "city": "Ghumarwin",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Bilaspur",
+    "description": "HP-23 is the Registration and Licensing Authority (R&LA) for the Ghumarwin subdivision in the Bilaspur district of Himachal Pradesh. The office handles driving licenses and vehicle registration for the subdivision's residents and operates under the Sub Divisional Magistrate.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Ghumarwin, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174021",
+    "phone": "01978-255277",
+    "email": "sdmghu-bil-hp@nic.in",
+    "jurisdictionAreas": [
+      "Ghumarwin subdivision",
+      "Ghumarwin Tehsil",
+      "Bharari"
+    ]
+  },
+  {
+    "code": "HP-25",
+    "region": "Kalpa",
+    "city": "Kalpa",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kinnaur",
+    "division": "Shimla",
+    "description": "HP-25 is the Registering and Licensing Authority (RLA) office located in Kalpa, Kinnaur district of Himachal Pradesh. Managed by the Sub Divisional Magistrate (SDM), this office handles vehicle registration, road tax collection, and driving license services for the Kalpa sub-division and surrounding high-altitude areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Kalpa, District Kinnaur, Himachal Pradesh",
+    "pinCode": "172108",
+    "phone": "01786-222253",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kalpa Sub-division",
+      "Rekong Peo",
+      "Kothi",
+      "Pangi",
+      "Puwari"
+    ]
   }
 ]
