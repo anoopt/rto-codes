@@ -574,5 +574,99 @@
       "Pangi",
       "Puwari"
     ]
+  },
+  {
+    "code": "HP-26",
+    "region": "Nichar",
+    "city": "Nichar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kinnaur",
+    "division": "Shimla Division",
+    "description": "HP-26 is the Registering and Licensing Authority (RLA) for the Nichar subdivision in the Kinnaur district of Himachal Pradesh. Operated under the Sub Divisional Magistrate, it handles vehicle registration and driving licenses for this mountainous tribal region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nichar, District Kinnaur, Himachal Pradesh",
+    "pinCode": "172103",
+    "phone": "01786-263201",
+    "email": "sdmnic-kin-hp@nic.in",
+    "jurisdictionAreas": [
+      "Nichar subdivision",
+      "Bhaba Nagar",
+      "Sungra",
+      "Kafnu",
+      "Chora",
+      "Ponda"
+    ]
+  },
+  {
+    "code": "HP-27",
+    "region": "Pooh",
+    "city": "Pooh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kinnaur",
+    "division": "Shimla Division",
+    "description": "HP-27 is the designated Registering and Licensing Authority (R&LA) office for the Pooh sub-division in the Kinnaur district of Himachal Pradesh. Operated under the Sub Divisional Officer (Civil), this office manages vehicle registrations, driving license issuances, and transport permits for the high-altitude tribal border regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Pooh, District Kinnaur, Himachal Pradesh",
+    "pinCode": "172111",
+    "phone": "01785-232222",
+    "email": "sdmpoh-kin-hp@nic.in",
+    "jurisdictionAreas": [
+      "Pooh",
+      "Hangrang",
+      "Nako",
+      "Chango",
+      "Leo",
+      "Spillo",
+      "Yangthang",
+      "Sumra",
+      "Khab"
+    ]
+  },
+  {
+    "code": "HP-28",
+    "region": "Sarkaghat",
+    "city": "Sarkaghat",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "The HP-28 RTO serves the Sarkaghat subdivision within the Mandi district of Himachal Pradesh. It functions as a Registration and Licensing Authority (RLA) overseen by the Sub Divisional Magistrate (SDM), handling vehicle registration and driver licensing services for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sarkaghat, District Mandi, Himachal Pradesh",
+    "pinCode": "175024",
+    "phone": "01905-230042",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sarkaghat",
+      "Baldwara",
+      "Dharampur",
+      "Sarkaghat Subdivision"
+    ]
+  },
+  {
+    "code": "HP-29",
+    "region": "Jogindernagar",
+    "city": "Jogindernagar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "HP-29 is the Regional Transport Office code for the Jogindernagar sub-division in the Mandi district of Himachal Pradesh. It functions as a Registration and Licensing Authority (RLA) under the Sub Divisional Magistrate (SDM), providing essential services such as vehicle registration and driving license issuance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jogindernagar, District Mandi, Himachal Pradesh",
+    "pinCode": "175015",
+    "phone": "01908-223895",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jogindernagar",
+      "Chauntra",
+      "Lad Bharol"
+    ]
   }
 ]
