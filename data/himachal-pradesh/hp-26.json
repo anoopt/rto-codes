@@ -1,0 +1,24 @@
+{
+    "code": "HP-26",
+    "region": "Nichar",
+    "city": "Nichar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kinnaur",
+    "division": "Shimla Division",
+    "description": "HP-26 is the Registering and Licensing Authority (RLA) for the Nichar subdivision in the Kinnaur district of Himachal Pradesh. Operated under the Sub Divisional Magistrate, it handles vehicle registration and driving licenses for this mountainous tribal region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nichar, District Kinnaur, Himachal Pradesh",
+    "pinCode": "172103",
+    "phone": "01786-263201",
+    "email": "sdmnic-kin-hp@nic.in",
+    "jurisdictionAreas": [
+        "Nichar subdivision",
+        "Bhaba Nagar",
+        "Sungra",
+        "Kafnu",
+        "Chora",
+        "Ponda"
+    ]
+}

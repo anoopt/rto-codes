@@ -1,0 +1,27 @@
+{
+    "code": "HP-27",
+    "region": "Pooh",
+    "city": "Pooh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kinnaur",
+    "division": "Shimla Division",
+    "description": "HP-27 is the designated Registering and Licensing Authority (R&LA) office for the Pooh sub-division in the Kinnaur district of Himachal Pradesh. Operated under the Sub Divisional Officer (Civil), this office manages vehicle registrations, driving license issuances, and transport permits for the high-altitude tribal border regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Pooh, District Kinnaur, Himachal Pradesh",
+    "pinCode": "172111",
+    "phone": "01785-232222",
+    "email": "sdmpoh-kin-hp@nic.in",
+    "jurisdictionAreas": [
+        "Pooh",
+        "Hangrang",
+        "Nako",
+        "Chango",
+        "Leo",
+        "Spillo",
+        "Yangthang",
+        "Sumra",
+        "Khab"
+    ]
+}

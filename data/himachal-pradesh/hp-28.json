@@ -1,0 +1,22 @@
+{
+    "code": "HP-28",
+    "region": "Sarkaghat",
+    "city": "Sarkaghat",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "The HP-28 RTO serves the Sarkaghat subdivision within the Mandi district of Himachal Pradesh. It functions as a Registration and Licensing Authority (RLA) overseen by the Sub Divisional Magistrate (SDM), handling vehicle registration and driver licensing services for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sarkaghat, District Mandi, Himachal Pradesh",
+    "pinCode": "175024",
+    "phone": "01905-230042",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sarkaghat",
+        "Baldwara",
+        "Dharampur",
+        "Sarkaghat Subdivision"
+    ]
+}

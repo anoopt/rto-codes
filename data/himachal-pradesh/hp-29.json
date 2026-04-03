@@ -1,0 +1,21 @@
+{
+    "code": "HP-29",
+    "region": "Jogindernagar",
+    "city": "Jogindernagar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "HP-29 is the Regional Transport Office code for the Jogindernagar sub-division in the Mandi district of Himachal Pradesh. It functions as a Registration and Licensing Authority (RLA) under the Sub Divisional Magistrate (SDM), providing essential services such as vehicle registration and driving license issuance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jogindernagar, District Mandi, Himachal Pradesh",
+    "pinCode": "175015",
+    "phone": "01908-223895",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jogindernagar",
+        "Chauntra",
+        "Lad Bharol"
+    ]
+}
