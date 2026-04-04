@@ -668,5 +668,96 @@
       "Chauntra",
       "Lad Bharol"
     ]
+  },
+  {
+    "code": "HP-30",
+    "region": "Karsog",
+    "city": "Karsog",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Karsog",
+    "description": "HP-30 is the official registration code for the Registration and Licensing Authority (RLA) in Karsog, Mandi. This office operates under the supervision of the Sub-Divisional Magistrate (SDM) and facilitates vehicle registration, license issuance, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Karsog, District Mandi, Himachal Pradesh",
+    "pinCode": "175011",
+    "phone": "01907-222236",
+    "email": "sdmmanksg@gmail.com",
+    "jurisdictionAreas": [
+      "Karsog",
+      "Mandi District",
+      "Karsog Subdivision"
+    ]
+  },
+  {
+    "code": "HP-31",
+    "region": "Sundernagar",
+    "city": "Sundernagar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-31 is the Registering and Licensing Authority (RLA) based in Sundernagar, serving the Mandi district of Himachal Pradesh. It operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registrations, issuing driving licenses, and managing transport permits for the region. This office is a vital transport node for the major commercial and educational hub of Sundernagar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sundernagar, District Mandi, Himachal Pradesh",
+    "pinCode": "175019",
+    "phone": "01907-266001",
+    "email": "sdmsnr-man-hp@nic.in",
+    "jurisdictionAreas": [
+      "Sundernagar",
+      "Dehar",
+      "Slapper",
+      "Jaidevi",
+      "Kanaid",
+      "Mahadev",
+      "Nihri"
+    ]
+  },
+  {
+    "code": "HP-32",
+    "region": "Gohar",
+    "city": "Gohar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-32 is the Registering and Licensing Authority (R&LA) office located in Gohar, Mandi district. It operates under the Sub Divisional Magistrate and is responsible for vehicle registration and driving licenses within the Gohar sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Gohar, District Mandi, Himachal Pradesh",
+    "pinCode": "175029",
+    "phone": "01907-250283",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Gohar",
+      "Chail Chowk",
+      "Bagsaid",
+      "Bakhwara"
+    ]
+  },
+  {
+    "code": "HP-33",
+    "region": "Mandi Sadar",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-33 is the Registering and Licensing Authority (RLA) for the Mandi Sadar sub-division in Himachal Pradesh. It functions under the jurisdiction of the Sub Divisional Magistrate (SDM) and is responsible for private vehicle registration, driving licenses, and tax collection for the Sadar area of Mandi district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Mandi Sadar, District Mandi, Himachal Pradesh",
+    "pinCode": "175001",
+    "phone": "01905-225207",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mandi Sadar",
+      "Pandoh",
+      "Kotli",
+      "Bari Gumanu",
+      "Mandi City"
+    ]
   }
 ]
