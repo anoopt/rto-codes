@@ -1,0 +1,25 @@
+{
+    "code": "HP-31",
+    "region": "Sundernagar",
+    "city": "Sundernagar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-31 is the Registering and Licensing Authority (RLA) based in Sundernagar, serving the Mandi district of Himachal Pradesh. It operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registrations, issuing driving licenses, and managing transport permits for the region. This office is a vital transport node for the major commercial and educational hub of Sundernagar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sundernagar, District Mandi, Himachal Pradesh",
+    "pinCode": "175019",
+    "phone": "01907-266001",
+    "email": "sdmsnr-man-hp@nic.in",
+    "jurisdictionAreas": [
+        "Sundernagar",
+        "Dehar",
+        "Slapper",
+        "Jaidevi",
+        "Kanaid",
+        "Mahadev",
+        "Nihri"
+    ]
+}

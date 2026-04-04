@@ -1,0 +1,21 @@
+{
+    "code": "HP-30",
+    "region": "Karsog",
+    "city": "Karsog",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Karsog",
+    "description": "HP-30 is the official registration code for the Registration and Licensing Authority (RLA) in Karsog, Mandi. This office operates under the supervision of the Sub-Divisional Magistrate (SDM) and facilitates vehicle registration, license issuance, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Karsog, District Mandi, Himachal Pradesh",
+    "pinCode": "175011",
+    "phone": "01907-222236",
+    "email": "sdmmanksg@gmail.com",
+    "jurisdictionAreas": [
+        "Karsog",
+        "Mandi District",
+        "Karsog Subdivision"
+    ]
+}

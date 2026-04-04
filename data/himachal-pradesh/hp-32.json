@@ -1,0 +1,22 @@
+{
+    "code": "HP-32",
+    "region": "Gohar",
+    "city": "Gohar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-32 is the Registering and Licensing Authority (R&LA) office located in Gohar, Mandi district. It operates under the Sub Divisional Magistrate and is responsible for vehicle registration and driving licenses within the Gohar sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Gohar, District Mandi, Himachal Pradesh",
+    "pinCode": "175029",
+    "phone": "01907-250283",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gohar",
+        "Chail Chowk",
+        "Bagsaid",
+        "Bakhwara"
+    ]
+}

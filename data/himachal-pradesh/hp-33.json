@@ -1,0 +1,23 @@
+{
+    "code": "HP-33",
+    "region": "Mandi Sadar",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-33 is the Registering and Licensing Authority (RLA) for the Mandi Sadar sub-division in Himachal Pradesh. It functions under the jurisdiction of the Sub Divisional Magistrate (SDM) and is responsible for private vehicle registration, driving licenses, and tax collection for the Sadar area of Mandi district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Mandi Sadar, District Mandi, Himachal Pradesh",
+    "pinCode": "175001",
+    "phone": "01905-225207",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mandi Sadar",
+        "Pandoh",
+        "Kotli",
+        "Bari Gumanu",
+        "Mandi City"
+    ]
+}
