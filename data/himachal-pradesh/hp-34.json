@@ -1,0 +1,21 @@
+{
+    "code": "HP-34",
+    "region": "Kullu",
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "HP-34 is the Registration and Licensing Authority (RLA) code for the Kullu sub-division in Himachal Pradesh. It is administered by the Sub Divisional Magistrate (SDM) office and is responsible for the registration of non-commercial vehicles and the issuance of driving licenses in the Kullu valley area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dhalpur, Kullu, Himachal Pradesh",
+    "pinCode": "175101",
+    "phone": "01902-222596",
+    "email": "sdmkul-kul-hp@nic.in",
+    "jurisdictionAreas": [
+        "Kullu Sub-Division",
+        "Kullu Town",
+        "Dhalpur"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "HP-36",
+    "region": "Dehra",
+    "city": "Dehra",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-36 is the Registration and Licensing Authority (R&LA) located in Dehra, Kangra district of Himachal Pradesh. Functioning under the Sub Divisional Magistrate (SDM), this office provides critical transport services including vehicle registration, driving license issuance, and road tax collection. It serves the Dehra sub-division, ensuring regional compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (C), Dehra, District Kangra, Himachal Pradesh",
+    "pinCode": "177101",
+    "phone": "01970-233102",
+    "email": "sdmdeh-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dehra",
+        "Dehra Gopipur",
+        "Pragpur",
+        "Dadasiba",
+        "Dhaliara",
+        "Haripur",
+        "Bankhandas"
+    ]
+}

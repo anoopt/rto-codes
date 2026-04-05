@@ -1,0 +1,21 @@
+{
+    "code": "HP-37",
+    "region": "Palampur",
+    "city": "Palampur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "HP-37 is the designated code for the Registering and Licensing Authority (RLA) based in Palampur, Kangra district. This office serves the Palampur sub-division, primarily handling the registration of non-transport vehicles and the issuance of learner and permanent driving licenses. It operates under the administration of the Sub Divisional Officer (Civil) of Palampur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (C), Palampur, District Kangra, Himachal Pradesh",
+    "pinCode": "176061",
+    "phone": "01894-230595",
+    "email": "sdmpal-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Palampur",
+        "Panchrukhi",
+        "Bhawarna"
+    ]
+}

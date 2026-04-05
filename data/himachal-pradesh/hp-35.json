@@ -1,0 +1,21 @@
+{
+    "code": "HP-35",
+    "region": "Anni",
+    "city": "Anni",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Kullu",
+    "description": "HP-35 serves as the Registering and Licensing Authority (RLA) for the Anni sub-division in the Kullu district. Managed by the Sub-Divisional Magistrate (SDM), it handles vehicle registration and driving licenses for the high-altitude remote regions of inner Seraj.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Anni, District Kullu, Himachal Pradesh",
+    "pinCode": "172026",
+    "phone": "01904-253344",
+    "email": "sdmani-kul-hp@nic.in",
+    "jurisdictionAreas": [
+        "Anni",
+        "Nirmand",
+        "Outer Seraj"
+    ]
+}
