@@ -759,5 +759,93 @@
       "Bari Gumanu",
       "Mandi City"
     ]
+  },
+  {
+    "code": "HP-34",
+    "region": "Kullu",
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "HP-34 is the Registration and Licensing Authority (RLA) code for the Kullu sub-division in Himachal Pradesh. It is administered by the Sub Divisional Magistrate (SDM) office and is responsible for the registration of non-commercial vehicles and the issuance of driving licenses in the Kullu valley area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dhalpur, Kullu, Himachal Pradesh",
+    "pinCode": "175101",
+    "phone": "01902-222596",
+    "email": "sdmkul-kul-hp@nic.in",
+    "jurisdictionAreas": [
+      "Kullu Sub-Division",
+      "Kullu Town",
+      "Dhalpur"
+    ]
+  },
+  {
+    "code": "HP-35",
+    "region": "Anni",
+    "city": "Anni",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Kullu",
+    "description": "HP-35 serves as the Registering and Licensing Authority (RLA) for the Anni sub-division in the Kullu district. Managed by the Sub-Divisional Magistrate (SDM), it handles vehicle registration and driving licenses for the high-altitude remote regions of inner Seraj.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Anni, District Kullu, Himachal Pradesh",
+    "pinCode": "172026",
+    "phone": "01904-253344",
+    "email": "sdmani-kul-hp@nic.in",
+    "jurisdictionAreas": [
+      "Anni",
+      "Nirmand",
+      "Outer Seraj"
+    ]
+  },
+  {
+    "code": "HP-36",
+    "region": "Dehra",
+    "city": "Dehra",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-36 is the Registration and Licensing Authority (R&LA) located in Dehra, Kangra district of Himachal Pradesh. Functioning under the Sub Divisional Magistrate (SDM), this office provides critical transport services including vehicle registration, driving license issuance, and road tax collection. It serves the Dehra sub-division, ensuring regional compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (C), Dehra, District Kangra, Himachal Pradesh",
+    "pinCode": "177101",
+    "phone": "01970-233102",
+    "email": "sdmdeh-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dehra",
+      "Dehra Gopipur",
+      "Pragpur",
+      "Dadasiba",
+      "Dhaliara",
+      "Haripur",
+      "Bankhandas"
+    ]
+  },
+  {
+    "code": "HP-37",
+    "region": "Palampur",
+    "city": "Palampur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "HP-37 is the designated code for the Registering and Licensing Authority (RLA) based in Palampur, Kangra district. This office serves the Palampur sub-division, primarily handling the registration of non-transport vehicles and the issuance of learner and permanent driving licenses. It operates under the administration of the Sub Divisional Officer (Civil) of Palampur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (C), Palampur, District Kangra, Himachal Pradesh",
+    "pinCode": "176061",
+    "phone": "01894-230595",
+    "email": "sdmpal-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Palampur",
+      "Panchrukhi",
+      "Bhawarna"
+    ]
   }
 ]
