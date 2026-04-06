@@ -847,5 +847,98 @@
       "Panchrukhi",
       "Bhawarna"
     ]
+  },
+  {
+    "code": "HP-38",
+    "region": "Nurpur",
+    "city": "Nurpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-38 is the Registration and Licensing Authority (RLA) based in Nurpur, serving the Nurpur sub-division of Kangra district. The office is responsible for vehicle registrations, driving license issuance, and road tax collection within its jurisdiction. It plays a significant role in managing transport regulations in the northern region of Himachal Pradesh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nurpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176202",
+    "phone": "01893-220024",
+    "email": "sdmnur-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Nurpur",
+      "Indora",
+      "Gangath",
+      "Rehan",
+      "Fatehpur"
+    ]
+  },
+  {
+    "code": "HP-39",
+    "region": "Dharamshala",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-39 is the Registering and Licensing Authority (RLA) code for the Dharamshala sub-division in Himachal Pradesh. Operating under the Sub Divisional Officer (Civil), it manages the registration of non-transport vehicles and issuance of driving licenses for the local region. It functions alongside other regional codes like HP-04 and HP-68 to serve the administrative needs of the Kangra district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dharamshala, District Kangra, Himachal Pradesh",
+    "pinCode": "176215",
+    "phone": "01892-223315",
+    "email": "sdmdha-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dharamshala Sub-Division",
+      "Dharamshala Municipal Corporation",
+      "McLeod Ganj",
+      "Forsyth Ganj",
+      "Bhagsunag",
+      "Dharamkot"
+    ]
+  },
+  {
+    "code": "HP-40",
+    "region": "Kangra Sub-division",
+    "city": "Kangra",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-40 is the Registering and Licensing Authority (RLA) for the Kangra sub-division in Himachal Pradesh. Located in Kangra town, this office functions under the Sub Divisional Magistrate and handles vehicle registrations and driving licenses for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Kangra, District Kangra, Himachal Pradesh",
+    "pinCode": "176001",
+    "phone": "01892-265024",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kangra Town",
+      "Kangra Sub-division"
+    ]
+  },
+  {
+    "code": "HP-41",
+    "region": "Kaza",
+    "city": "Kaza",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Lahaul and Spiti",
+    "division": "Mandi",
+    "description": "HP-41 is the Registration and Licensing Authority (RLA) serving the Kaza sub-division in the Spiti Valley. Managed by the Sub Divisional Magistrate, this office handles vehicle registration and driving licenses for one of the highest and most remote inhabited regions in India. It is one of the three primary registration codes assigned to the Lahaul and Spiti district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Kaza, District Lahaul & Spiti, Himachal Pradesh",
+    "pinCode": "172114",
+    "phone": "01906-222302",
+    "email": "sdmkza-lsp-hp@nic.in",
+    "jurisdictionAreas": [
+      "Kaza",
+      "Spiti Valley",
+      "Tabo",
+      "Kibber",
+      "Losar",
+      "Pin Valley",
+      "Dhankar",
+      "Hikkim"
+    ]
   }
 ]
