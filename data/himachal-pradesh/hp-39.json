@@ -1,0 +1,24 @@
+{
+    "code": "HP-39",
+    "region": "Dharamshala",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-39 is the Registering and Licensing Authority (RLA) code for the Dharamshala sub-division in Himachal Pradesh. Operating under the Sub Divisional Officer (Civil), it manages the registration of non-transport vehicles and issuance of driving licenses for the local region. It functions alongside other regional codes like HP-04 and HP-68 to serve the administrative needs of the Kangra district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dharamshala, District Kangra, Himachal Pradesh",
+    "pinCode": "176215",
+    "phone": "01892-223315",
+    "email": "sdmdha-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dharamshala Sub-Division",
+        "Dharamshala Municipal Corporation",
+        "McLeod Ganj",
+        "Forsyth Ganj",
+        "Bhagsunag",
+        "Dharamkot"
+    ]
+}

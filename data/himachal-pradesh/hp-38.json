@@ -1,0 +1,23 @@
+{
+    "code": "HP-38",
+    "region": "Nurpur",
+    "city": "Nurpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-38 is the Registration and Licensing Authority (RLA) based in Nurpur, serving the Nurpur sub-division of Kangra district. The office is responsible for vehicle registrations, driving license issuance, and road tax collection within its jurisdiction. It plays a significant role in managing transport regulations in the northern region of Himachal Pradesh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nurpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176202",
+    "phone": "01893-220024",
+    "email": "sdmnur-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Nurpur",
+        "Indora",
+        "Gangath",
+        "Rehan",
+        "Fatehpur"
+    ]
+}

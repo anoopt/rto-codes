@@ -1,0 +1,26 @@
+{
+    "code": "HP-41",
+    "region": "Kaza",
+    "city": "Kaza",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Lahaul and Spiti",
+    "division": "Mandi",
+    "description": "HP-41 is the Registration and Licensing Authority (RLA) serving the Kaza sub-division in the Spiti Valley. Managed by the Sub Divisional Magistrate, this office handles vehicle registration and driving licenses for one of the highest and most remote inhabited regions in India. It is one of the three primary registration codes assigned to the Lahaul and Spiti district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Kaza, District Lahaul & Spiti, Himachal Pradesh",
+    "pinCode": "172114",
+    "phone": "01906-222302",
+    "email": "sdmkza-lsp-hp@nic.in",
+    "jurisdictionAreas": [
+        "Kaza",
+        "Spiti Valley",
+        "Tabo",
+        "Kibber",
+        "Losar",
+        "Pin Valley",
+        "Dhankar",
+        "Hikkim"
+    ]
+}
