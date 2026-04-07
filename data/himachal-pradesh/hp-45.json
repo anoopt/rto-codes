@@ -1,0 +1,26 @@
+{
+    "code": "HP-45",
+    "region": "Pangi",
+    "city": "Killar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-45 is the Registering and Licensing Authority (RLA) for the Pangi subdivision in Chamba district, Himachal Pradesh. Headquartered in Killar, it manages vehicle registrations and driving licenses for the remote and high-altitude Pangi Valley region. The office is supervised by the Sub-Divisional Magistrate (SDM) of Pangi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer (Civil), Registering & Licensing Authority, Killar, Pangi, District Chamba, Himachal Pradesh",
+    "pinCode": "176323",
+    "phone": "01897-242222",
+    "email": "sdmpan-cha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Pangi",
+        "Killar",
+        "Dharwas",
+        "Sural Bhatori",
+        "Hudan Bhatori",
+        "Sechu",
+        "Findroo",
+        "Udaipur-Pangi Road Areas"
+    ]
+}

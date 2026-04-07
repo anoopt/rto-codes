@@ -1,0 +1,23 @@
+{
+    "code": "HP-44",
+    "region": "Churah (Tissa)",
+    "city": "Tissa",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Chamba",
+    "description": "HP-44 is the Registration and Licensing Authority (RLA) for the Churah subdivision in the Chamba district of Himachal Pradesh. Operated under the Sub-Divisional Magistrate, it manages vehicle registrations, driving licenses, and local transport compliance in the mountainous Tissa region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Churah at Tissa, District Chamba, Himachal Pradesh",
+    "pinCode": "176316",
+    "phone": "+91-1896-227033",
+    "email": "sdmtis-cha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Churah",
+        "Tissa",
+        "Bairagarh",
+        "Kihar",
+        "Nakrod"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "HP-43",
+    "region": "Udaipur (Lahaul and Spiti)",
+    "city": "Udaipur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Lahaul and Spiti",
+    "division": "Mandi",
+    "description": "HP-43 is the RTO code for the Registration and Licensing Authority (R&LA) in Udaipur, within the Lahaul and Spiti district of Himachal Pradesh. This office provides essential transport services like vehicle registration and driving licenses for the remote Udaipur sub-division and surrounding high-altitude valleys. It plays a significant role in managing vehicular traffic in the geographically isolated Pattan and Miyar regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Udaipur, District Lahaul & Spiti, Himachal Pradesh",
+    "pinCode": "175142",
+    "phone": "01909-222224",
+    "email": "sdmuda-lsp-hp@nic.in",
+    "jurisdictionAreas": [
+        "Udaipur",
+        "Miyar Valley",
+        "Pattan Valley",
+        "Tindi",
+        "Madgran",
+        "Karpat"
+    ]
+}

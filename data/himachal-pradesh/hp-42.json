@@ -1,0 +1,25 @@
+{
+    "code": "HP-42",
+    "region": "Keylong",
+    "city": "Keylong",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Lahaul and Spiti",
+    "division": "Mandi",
+    "description": "HP-42 serves as the Registration and Licensing Authority (RLA) for the Keylong subdivision in the Lahaul and Spiti district. Located in a high-altitude Himalayan region, this office handles vehicle registrations, driving licenses, and transport permits for the sparsely populated Lahaul valley. It is managed by the Sub Divisional Magistrate (SDM) office acting as the licensing authority.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Keylong, District Lahaul and Spiti, Himachal Pradesh",
+    "pinCode": "175132",
+    "phone": "+91-1900-222225",
+    "email": "sdm-keylong-hp@nic.in",
+    "jurisdictionAreas": [
+        "Keylong",
+        "Lahaul Subdivision",
+        "Jispa",
+        "Sissu",
+        "Gondhla",
+        "Tandi",
+        "Darcha"
+    ]
+}
