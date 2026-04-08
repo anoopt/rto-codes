@@ -1038,5 +1038,96 @@
       "Findroo",
       "Udaipur-Pangi Road Areas"
     ]
+  },
+  {
+    "code": "HP-46",
+    "region": "Bharmour",
+    "city": "Bharmour",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-46 is the Registering and Licensing Authority (RLA) for the Bharmour sub-division in the Chamba district of Himachal Pradesh. Operated under the Sub-Divisional Magistrate (SDM), it manages vehicle registration and driving licenses for this high-altitude Himalayan region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate, Bharmour, District Chamba, Himachal Pradesh",
+    "pinCode": "176315",
+    "phone": "+91-1895-225027",
+    "email": "sdmbhar-cha-hp@nic.in",
+    "jurisdictionAreas": [
+      "Bharmour",
+      "Holi",
+      "Kugti",
+      "Tundah",
+      "Bharmour Sub-division"
+    ]
+  },
+  {
+    "code": "HP-47",
+    "region": "Dalhousie",
+    "city": "Dalhousie",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-47 is the Registration and Licensing Authority (R&LA) office for Dalhousie in Himachal Pradesh. It operates under the Sub Divisional Magistrate (SDM) of Dalhousie and manages vehicle registrations and driving licenses for the Dalhousie sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Dalhousie, District Chamba, Himachal Pradesh",
+    "pinCode": "176304",
+    "phone": "01899-242122",
+    "email": "sdmdal-cha-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dalhousie",
+      "Banikhet",
+      "Bakloh",
+      "Bathri",
+      "Dhuniyara"
+    ]
+  },
+  {
+    "code": "HP-48",
+    "region": "Chamba (Sadar)",
+    "city": "Chamba",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-48 is the designated registration code for the Registering and Licensing Authority (RLA) based at the Sub Divisional Magistrate office in Chamba Sadar. This RTO primarily manages the issuance of driving licenses and vehicle registration for the Chamba sub-division, ensuring compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate-cum-RLA, Chamba, District Chamba, Himachal Pradesh",
+    "pinCode": "176310",
+    "phone": "+91-1899-222278",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chamba Sub-division",
+      "Chamba Tehsil",
+      "Sadar Chamba"
+    ]
+  },
+  {
+    "code": "HP-49",
+    "region": "Banjar",
+    "city": "Banjar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Kullu",
+    "description": "HP-49 is the official registration code for the Banjar sub-division in the Kullu district of Himachal Pradesh. This Registration & Licensing Authority (R&LA) office manages vehicle registration and driving licenses for the Tirthan Valley and surrounding mountainous regions. It operates under the administrative jurisdiction of the Sub Divisional Magistrate (SDM) of Banjar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Banjar, District Kullu, Himachal Pradesh - 175123",
+    "pinCode": "175123",
+    "phone": "01903-221253",
+    "email": "sdmban-kul-hp@nic.in",
+    "jurisdictionAreas": [
+      "Banjar",
+      "Tirthan Valley",
+      "Jibhi",
+      "Gushaini",
+      "Sojha",
+      "Gadagushaini"
+    ]
   }
 ]
