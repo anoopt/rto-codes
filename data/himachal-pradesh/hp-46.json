@@ -1,0 +1,23 @@
+{
+    "code": "HP-46",
+    "region": "Bharmour",
+    "city": "Bharmour",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-46 is the Registering and Licensing Authority (RLA) for the Bharmour sub-division in the Chamba district of Himachal Pradesh. Operated under the Sub-Divisional Magistrate (SDM), it manages vehicle registration and driving licenses for this high-altitude Himalayan region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate, Bharmour, District Chamba, Himachal Pradesh",
+    "pinCode": "176315",
+    "phone": "+91-1895-225027",
+    "email": "sdmbhar-cha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Bharmour",
+        "Holi",
+        "Kugti",
+        "Tundah",
+        "Bharmour Sub-division"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "HP-47",
+    "region": "Dalhousie",
+    "city": "Dalhousie",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-47 is the Registration and Licensing Authority (R&LA) office for Dalhousie in Himachal Pradesh. It operates under the Sub Divisional Magistrate (SDM) of Dalhousie and manages vehicle registrations and driving licenses for the Dalhousie sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Dalhousie, District Chamba, Himachal Pradesh",
+    "pinCode": "176304",
+    "phone": "01899-242122",
+    "email": "sdmdal-cha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dalhousie",
+        "Banikhet",
+        "Bakloh",
+        "Bathri",
+        "Dhuniyara"
+    ]
+}

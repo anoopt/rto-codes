@@ -1,0 +1,21 @@
+{
+    "code": "HP-48",
+    "region": "Chamba (Sadar)",
+    "city": "Chamba",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-48 is the designated registration code for the Registering and Licensing Authority (RLA) based at the Sub Divisional Magistrate office in Chamba Sadar. This RTO primarily manages the issuance of driving licenses and vehicle registration for the Chamba sub-division, ensuring compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate-cum-RLA, Chamba, District Chamba, Himachal Pradesh",
+    "pinCode": "176310",
+    "phone": "+91-1899-222278",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chamba Sub-division",
+        "Chamba Tehsil",
+        "Sadar Chamba"
+    ]
+}

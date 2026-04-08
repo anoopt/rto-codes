@@ -1,0 +1,24 @@
+{
+    "code": "HP-49",
+    "region": "Banjar",
+    "city": "Banjar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Kullu",
+    "description": "HP-49 is the official registration code for the Banjar sub-division in the Kullu district of Himachal Pradesh. This Registration & Licensing Authority (R&LA) office manages vehicle registration and driving licenses for the Tirthan Valley and surrounding mountainous regions. It operates under the administrative jurisdiction of the Sub Divisional Magistrate (SDM) of Banjar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Banjar, District Kullu, Himachal Pradesh - 175123",
+    "pinCode": "175123",
+    "phone": "01903-221253",
+    "email": "sdmban-kul-hp@nic.in",
+    "jurisdictionAreas": [
+        "Banjar",
+        "Tirthan Valley",
+        "Jibhi",
+        "Gushaini",
+        "Sojha",
+        "Gadagushaini"
+    ]
+}
