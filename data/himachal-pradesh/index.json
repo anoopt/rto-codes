@@ -1129,5 +1129,103 @@
       "Sojha",
       "Gadagushaini"
     ]
+  },
+  {
+    "code": "HP-50",
+    "region": "Shimla (Auto-rickshaws)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-50 is a specialized RTO code in Himachal Pradesh specifically designated for the registration of auto-rickshaws in the Shimla district. It operates as a distinct category under the Regional Transport Office Shimla to streamline the management and regulation of three-wheeler public transport within the state capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shimla Municipal Corporation",
+      "Shimla Urban",
+      "Shimla Rural",
+      "Tutikandi",
+      "Dhalli",
+      "Sanjauli",
+      "Lakkar Bazar",
+      "Chotta Shimla"
+    ]
+  },
+  {
+    "code": "HP-51",
+    "region": "Shimla Rural",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-51 is the Registering and Licensing Authority (RLA) serving the Shimla Rural jurisdiction in Himachal Pradesh. It operates under the Sub-Divisional Magistrate (SDM) office and handles vehicle registrations, driving licenses, and transport permits for the rural areas surrounding the capital city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM) Shimla Rural, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "+91-177-2657009",
+    "email": "sdmshr-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Shimla Rural",
+      "Sunni",
+      "Dhami",
+      "Halog",
+      "Basantpur",
+      "Totu"
+    ]
+  },
+  {
+    "code": "HP-52",
+    "region": "Shimla (Rural)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-52 is the Regional Transport Office serving the Shimla Rural region, headquartered in Kasumpti. It operates as a Registration and Licensing Authority (R&LA) to manage vehicle registrations and driving permits for the rural outskirts of the state capital. This office plays a vital role in local transport administration, ensuring decentralized services for the residents of the Shimla district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Shimla (Rural), Kasumpti, Shimla, Himachal Pradesh",
+    "pinCode": "171009",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shimla Rural",
+      "Kasumpti",
+      "Mashobra",
+      "Basantpur",
+      "Totu"
+    ]
+  },
+  {
+    "code": "HP-53",
+    "region": "Baijnath",
+    "city": "Baijnath",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-53 is the Registering & Licensing Authority (R&LA) for Baijnath in the Kangra district of Himachal Pradesh. This office is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the Baijnath sub-division. It plays a crucial role in maintaining transport records for the region, which is famous for its ancient Shiva Temple and proximity to the Bir-Billing paragliding site.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Baijnath, District Kangra, Himachal Pradesh",
+    "pinCode": "176125",
+    "phone": "01894-263656",
+    "email": "sdmbai-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Baijnath",
+      "Paprola",
+      "Bir",
+      "Billing",
+      "Chadhiar",
+      "Multhan",
+      "Sansal"
+    ]
   }
 ]
