@@ -1,0 +1,26 @@
+{
+    "code": "HP-50",
+    "region": "Shimla (Auto-rickshaws)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-50 is a specialized RTO code in Himachal Pradesh specifically designated for the registration of auto-rickshaws in the Shimla district. It operates as a distinct category under the Regional Transport Office Shimla to streamline the management and regulation of three-wheeler public transport within the state capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shimla Municipal Corporation",
+        "Shimla Urban",
+        "Shimla Rural",
+        "Tutikandi",
+        "Dhalli",
+        "Sanjauli",
+        "Lakkar Bazar",
+        "Chotta Shimla"
+    ]
+}

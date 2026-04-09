@@ -1,0 +1,25 @@
+{
+    "code": "HP-53",
+    "region": "Baijnath",
+    "city": "Baijnath",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-53 is the Registering & Licensing Authority (R&LA) for Baijnath in the Kangra district of Himachal Pradesh. This office is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the Baijnath sub-division. It plays a crucial role in maintaining transport records for the region, which is famous for its ancient Shiva Temple and proximity to the Bir-Billing paragliding site.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Baijnath, District Kangra, Himachal Pradesh",
+    "pinCode": "176125",
+    "phone": "01894-263656",
+    "email": "sdmbai-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Baijnath",
+        "Paprola",
+        "Bir",
+        "Billing",
+        "Chadhiar",
+        "Multhan",
+        "Sansal"
+    ]
+}

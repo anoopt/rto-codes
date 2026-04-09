@@ -1,0 +1,23 @@
+{
+    "code": "HP-52",
+    "region": "Shimla (Rural)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-52 is the Regional Transport Office serving the Shimla Rural region, headquartered in Kasumpti. It operates as a Registration and Licensing Authority (R&LA) to manage vehicle registrations and driving permits for the rural outskirts of the state capital. This office plays a vital role in local transport administration, ensuring decentralized services for the residents of the Shimla district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Shimla (Rural), Kasumpti, Shimla, Himachal Pradesh",
+    "pinCode": "171009",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shimla Rural",
+        "Kasumpti",
+        "Mashobra",
+        "Basantpur",
+        "Totu"
+    ]
+}

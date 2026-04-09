@@ -1,0 +1,24 @@
+{
+    "code": "HP-51",
+    "region": "Shimla Rural",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-51 is the Registering and Licensing Authority (RLA) serving the Shimla Rural jurisdiction in Himachal Pradesh. It operates under the Sub-Divisional Magistrate (SDM) office and handles vehicle registrations, driving licenses, and transport permits for the rural areas surrounding the capital city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM) Shimla Rural, District Shimla, Himachal Pradesh",
+    "pinCode": "171001",
+    "phone": "+91-177-2657009",
+    "email": "sdmshr-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Shimla Rural",
+        "Sunni",
+        "Dhami",
+        "Halog",
+        "Basantpur",
+        "Totu"
+    ]
+}
