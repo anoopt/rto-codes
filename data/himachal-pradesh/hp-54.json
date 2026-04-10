@@ -1,0 +1,20 @@
+{
+    "code": "HP-54",
+    "region": "Jawali",
+    "city": "Jawali",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-54 functions as the Registration and Licensing Authority (R&LA) for the Jawali subdivision within the Kangra district. This office operates under the Sub-Divisional Magistrate (Civil) and handles vehicle registration, driver licensing, and regional transport permits for the residents of Jawali.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jawali, District Kangra, Himachal Pradesh",
+    "pinCode": "176023",
+    "phone": "01893-264310",
+    "email": "sdmjaw-ka-hp@nic.in",
+    "jurisdictionAreas": [
+        "Jawali Sub-division",
+        "Jawali Tehsil"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "HP-57",
+    "region": "Chowari (Bhattiyat)",
+    "city": "Chowari",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-57 is the Registering and Licensing Authority (RLA) for the Chowari region in the Chamba district of Himachal Pradesh. This office manages vehicle registration and driver licensing for the Bhattiyat sub-division, ensuring compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDO (C), Bhattiyat, Chowari, District Chamba, Himachal Pradesh",
+    "pinCode": "176302",
+    "phone": "+91-1899-266455",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chowari",
+        "Bhattiyat",
+        "Bakloh",
+        "Kakira",
+        "Banikhet (partial)",
+        "Sihunta"
+    ]
+}

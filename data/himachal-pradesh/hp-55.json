@@ -1,0 +1,20 @@
+{
+    "code": "HP-55",
+    "region": "Nadaun",
+    "city": "Nadaun",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Kangra",
+    "description": "HP-55 is the Registering & Licensing Authority (R&LA) located in Nadaun, Himachal Pradesh. It operates under the Hamirpur district administration and is responsible for vehicle registration, issuing driving licenses, and enforcing transport regulations within the Nadaun sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Nadaun, Distt. Hamirpur, Himachal Pradesh",
+    "pinCode": "177033",
+    "phone": "01972-232511",
+    "email": "sdmndn-ham-hp@nic.in",
+    "jurisdictionAreas": [
+        "Nadaun",
+        "Nadaun Sub-Division"
+    ]
+}

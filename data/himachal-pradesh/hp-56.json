@@ -1,0 +1,24 @@
+{
+    "code": "HP-56",
+    "region": "Jaisinghpur",
+    "city": "Jaisinghpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-56 RTO serves the Jaisinghpur sub-division in the Kangra district of Himachal Pradesh. It functions as a Registration and Licensing Authority (R&LA) under the jurisdiction of the local SDM, primarily handling private vehicle registrations and driving licenses.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jaisinghpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176095",
+    "phone": "01894-228111",
+    "email": "sdmjai-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Jaisinghpur",
+        "Netru",
+        "Harsipattan",
+        "Talwar",
+        "Sangal",
+        "Alampur"
+    ]
+}
