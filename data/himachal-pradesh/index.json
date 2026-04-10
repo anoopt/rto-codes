@@ -1227,5 +1227,93 @@
       "Multhan",
       "Sansal"
     ]
+  },
+  {
+    "code": "HP-54",
+    "region": "Jawali",
+    "city": "Jawali",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-54 functions as the Registration and Licensing Authority (R&LA) for the Jawali subdivision within the Kangra district. This office operates under the Sub-Divisional Magistrate (Civil) and handles vehicle registration, driver licensing, and regional transport permits for the residents of Jawali.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jawali, District Kangra, Himachal Pradesh",
+    "pinCode": "176023",
+    "phone": "01893-264310",
+    "email": "sdmjaw-ka-hp@nic.in",
+    "jurisdictionAreas": [
+      "Jawali Sub-division",
+      "Jawali Tehsil"
+    ]
+  },
+  {
+    "code": "HP-55",
+    "region": "Nadaun",
+    "city": "Nadaun",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Kangra",
+    "description": "HP-55 is the Registering & Licensing Authority (R&LA) located in Nadaun, Himachal Pradesh. It operates under the Hamirpur district administration and is responsible for vehicle registration, issuing driving licenses, and enforcing transport regulations within the Nadaun sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Nadaun, Distt. Hamirpur, Himachal Pradesh",
+    "pinCode": "177033",
+    "phone": "01972-232511",
+    "email": "sdmndn-ham-hp@nic.in",
+    "jurisdictionAreas": [
+      "Nadaun",
+      "Nadaun Sub-Division"
+    ]
+  },
+  {
+    "code": "HP-56",
+    "region": "Jaisinghpur",
+    "city": "Jaisinghpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-56 RTO serves the Jaisinghpur sub-division in the Kangra district of Himachal Pradesh. It functions as a Registration and Licensing Authority (R&LA) under the jurisdiction of the local SDM, primarily handling private vehicle registrations and driving licenses.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jaisinghpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176095",
+    "phone": "01894-228111",
+    "email": "sdmjai-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Jaisinghpur",
+      "Netru",
+      "Harsipattan",
+      "Talwar",
+      "Sangal",
+      "Alampur"
+    ]
+  },
+  {
+    "code": "HP-57",
+    "region": "Chowari (Bhattiyat)",
+    "city": "Chowari",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "HP-57 is the Registering and Licensing Authority (RLA) for the Chowari region in the Chamba district of Himachal Pradesh. This office manages vehicle registration and driver licensing for the Bhattiyat sub-division, ensuring compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDO (C), Bhattiyat, Chowari, District Chamba, Himachal Pradesh",
+    "pinCode": "176302",
+    "phone": "+91-1899-266455",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chowari",
+      "Bhattiyat",
+      "Bakloh",
+      "Kakira",
+      "Banikhet (partial)",
+      "Sihunta"
+    ]
   }
 ]
