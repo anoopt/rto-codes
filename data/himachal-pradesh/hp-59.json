@@ -1,0 +1,23 @@
+{
+    "code": "HP-59",
+    "region": "Solan (Baddi)",
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla Division",
+    "description": "HP-59 is a Registering and Licensing Authority (RLA) code in Himachal Pradesh serving the Solan and Baddi areas. It is an essential administrative office for vehicle registrations and driver licensing, particularly supporting the Baddi-Barotiwala-Nalagarh (BBN) industrial hub, which is the state's largest industrial corridor. The office manages a high volume of both commercial and private vehicle registrations due to the region's intense industrial activity.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Registering and Licensing Authority, New Bus Stand, Solan, Himachal Pradesh",
+    "pinCode": "173212",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Solan",
+        "Baddi",
+        "Barotiwala",
+        "Nalagarh Sub-division",
+        "BBN Industrial Belt"
+    ]
+}

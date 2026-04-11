@@ -1,0 +1,24 @@
+{
+    "code": "HP-61",
+    "region": "Kullu",
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "The HP-61 RTO is the Regional Transport Office for the Kullu district, primarily responsible for the registration of commercial vehicles and the issuance of transport permits. Unlike Sub-Divisional Magistrate (SDM) offices that handle private vehicle registrations (like HP-34), HP-61 functions at the district level for enforcement and regulatory transport matters. It serves as a vital hub for managing the high volume of commercial tourist traffic and freight within the Kullu valley.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Kullu District Headquarters, Kullu, Himachal Pradesh",
+    "pinCode": "175101",
+    "phone": "N/A",
+    "email": "rtokul-hp@nic.in",
+    "jurisdictionAreas": [
+        "Kullu",
+        "Manali",
+        "Anni",
+        "Banjar",
+        "Nirmand",
+        "Sainj"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "code": "HP-58",
+    "region": "Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "HP-58 is the Registering and Licensing Authority (RLA) for the Manali subdivision in Himachal Pradesh. It was established to manage vehicle registrations and licensing for the high-traffic tourist hub of Manali, operating under the jurisdiction of the Regional Transport Office (RTO) Kullu.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Manali, District Kullu, Himachal Pradesh - 175131",
+    "pinCode": "175131",
+    "phone": "+91-1902-254100",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Manali Subdivision",
+        "Solang",
+        "Patlikuhal",
+        "Beas River Valley Area"
+    ]
+}

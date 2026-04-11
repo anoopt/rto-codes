@@ -1,0 +1,24 @@
+{
+    "code": "HP-60",
+    "region": "Hamirpur",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Kangra",
+    "description": "HP-60 is the Regional Transport Office (RTO) for the Hamirpur district in Himachal Pradesh. While the HP-22 code is generally used for private vehicles by the local licensing authority, HP-60 is specifically designated for the Regional Transport Office, primarily managing transport/commercial vehicle registrations and permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Shimla-Kangra Road, Near Bhota Chowk, Hamirpur, District Hamirpur, Himachal Pradesh",
+    "pinCode": "177001",
+    "phone": "01972-221330",
+    "email": "rto-ham-hp@nic.in",
+    "jurisdictionAreas": [
+        "Hamirpur",
+        "Nadaun",
+        "Sujanpur",
+        "Bhoranj",
+        "Barsar",
+        "Tauni Devi"
+    ]
+}
