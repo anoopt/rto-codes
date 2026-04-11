@@ -1315,5 +1315,98 @@
       "Banikhet (partial)",
       "Sihunta"
     ]
+  },
+  {
+    "code": "HP-58",
+    "region": "Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "HP-58 is the Registering and Licensing Authority (RLA) for the Manali subdivision in Himachal Pradesh. It was established to manage vehicle registrations and licensing for the high-traffic tourist hub of Manali, operating under the jurisdiction of the Regional Transport Office (RTO) Kullu.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Manali, District Kullu, Himachal Pradesh - 175131",
+    "pinCode": "175131",
+    "phone": "+91-1902-254100",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Manali Subdivision",
+      "Solang",
+      "Patlikuhal",
+      "Beas River Valley Area"
+    ]
+  },
+  {
+    "code": "HP-59",
+    "region": "Solan (Baddi)",
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla Division",
+    "description": "HP-59 is a Registering and Licensing Authority (RLA) code in Himachal Pradesh serving the Solan and Baddi areas. It is an essential administrative office for vehicle registrations and driver licensing, particularly supporting the Baddi-Barotiwala-Nalagarh (BBN) industrial hub, which is the state's largest industrial corridor. The office manages a high volume of both commercial and private vehicle registrations due to the region's intense industrial activity.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Registering and Licensing Authority, New Bus Stand, Solan, Himachal Pradesh",
+    "pinCode": "173212",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Solan",
+      "Baddi",
+      "Barotiwala",
+      "Nalagarh Sub-division",
+      "BBN Industrial Belt"
+    ]
+  },
+  {
+    "code": "HP-60",
+    "region": "Hamirpur",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Kangra",
+    "description": "HP-60 is the Regional Transport Office (RTO) for the Hamirpur district in Himachal Pradesh. While the HP-22 code is generally used for private vehicles by the local licensing authority, HP-60 is specifically designated for the Regional Transport Office, primarily managing transport/commercial vehicle registrations and permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Shimla-Kangra Road, Near Bhota Chowk, Hamirpur, District Hamirpur, Himachal Pradesh",
+    "pinCode": "177001",
+    "phone": "01972-221330",
+    "email": "rto-ham-hp@nic.in",
+    "jurisdictionAreas": [
+      "Hamirpur",
+      "Nadaun",
+      "Sujanpur",
+      "Bhoranj",
+      "Barsar",
+      "Tauni Devi"
+    ]
+  },
+  {
+    "code": "HP-61",
+    "region": "Kullu",
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "The HP-61 RTO is the Regional Transport Office for the Kullu district, primarily responsible for the registration of commercial vehicles and the issuance of transport permits. Unlike Sub-Divisional Magistrate (SDM) offices that handle private vehicle registrations (like HP-34), HP-61 functions at the district level for enforcement and regulatory transport matters. It serves as a vital hub for managing the high volume of commercial tourist traffic and freight within the Kullu valley.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Kullu District Headquarters, Kullu, Himachal Pradesh",
+    "pinCode": "175101",
+    "phone": "N/A",
+    "email": "rtokul-hp@nic.in",
+    "jurisdictionAreas": [
+      "Kullu",
+      "Manali",
+      "Anni",
+      "Banjar",
+      "Nirmand",
+      "Sainj"
+    ]
   }
 ]
