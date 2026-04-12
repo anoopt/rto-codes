@@ -1,0 +1,20 @@
+{
+    "code": "HP-62",
+    "region": "State Transport Authority (STA)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-62 is the designated code for the State Transport Authority (STA) based in the capital city of Shimla. Unlike standard Regional Transport Offices that handle local private vehicle registrations, this office is responsible for issuing statewide and national permits for commercial transport, including tourist buses and taxis.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Directorate of Transport, Parivahan Bhawan, Shimla, Himachal Pradesh",
+    "pinCode": "171004",
+    "phone": "0177-2811335",
+    "email": "sta-hp@nic.in",
+    "jurisdictionAreas": [
+        "Himachal Pradesh (Statewide for Permits)",
+        "Shimla"
+    ]
+}

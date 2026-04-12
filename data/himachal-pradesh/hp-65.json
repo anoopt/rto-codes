@@ -1,0 +1,28 @@
+{
+    "code": "HP-65",
+    "region": "Mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "HP-65 is the Regional Transport Office (RTO) for the Mandi district, serving as a primary hub for regional transport administration in Himachal Pradesh. Unlike local Registering and Licensing Authorities (RLAs), this office specifically handles commercial vehicle registrations and the issuance of national permits. It plays a critical role in managing transport logistics and road safety enforcement across the Mandi region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Mandi, District Mandi, Himachal Pradesh - 175001",
+    "pinCode": "175001",
+    "phone": "01905-235171",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mandi Sadar",
+        "Jogindernagar",
+        "Sundernagar",
+        "Karsog",
+        "Gohar",
+        "Sarkaghat",
+        "Chachyot",
+        "Thunag",
+        "Padhar",
+        "Lad Bharol"
+    ]
+}

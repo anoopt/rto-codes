@@ -1,0 +1,24 @@
+{
+    "code": "HP-64",
+    "region": "Solan",
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla Division",
+    "description": "HP-64 is the Regional Transport Office for Solan, Himachal Pradesh, primarily responsible for the registration of transport and commercial vehicles. It serves as the primary hub for commercial logistics and licensing for heavy motor vehicles, buses, and taxis within the Solan district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Solan, Himachal Pradesh",
+    "pinCode": "173212",
+    "phone": "01792-231308",
+    "email": "rto-sol-hp@nic.in",
+    "jurisdictionAreas": [
+        "Solan District",
+        "Arki",
+        "Kandaghat",
+        "Kasauli",
+        "Nalagarh",
+        "Dharampur"
+    ]
+}

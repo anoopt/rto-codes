@@ -1,0 +1,26 @@
+{
+    "code": "HP-63",
+    "region": "Shimla Rural",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "The HP-63 code is assigned to the Regional Transport Office (RTO) located in Shimla, Himachal Pradesh. It serves as a primary hub for vehicle registration and licensing, operating out of the state's transport headquarters at Parivahan Bhawan to manage commercial and private transport for the Shimla region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Directorate of Transport, Parivahan Bhawan, Cart Road, Chaura Maidan, Shimla, Himachal Pradesh",
+    "pinCode": "171004",
+    "phone": "0177-2658379",
+    "email": "rto-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Shimla Rural",
+        "Shimla Urban",
+        "Theog",
+        "Chopal",
+        "Rampur",
+        "Rohru",
+        "Kumarsain",
+        "Sunni"
+    ]
+}
