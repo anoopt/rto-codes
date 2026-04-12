@@ -1408,5 +1408,103 @@
       "Nirmand",
       "Sainj"
     ]
+  },
+  {
+    "code": "HP-62",
+    "region": "State Transport Authority (STA)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-62 is the designated code for the State Transport Authority (STA) based in the capital city of Shimla. Unlike standard Regional Transport Offices that handle local private vehicle registrations, this office is responsible for issuing statewide and national permits for commercial transport, including tourist buses and taxis.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Directorate of Transport, Parivahan Bhawan, Shimla, Himachal Pradesh",
+    "pinCode": "171004",
+    "phone": "0177-2811335",
+    "email": "sta-hp@nic.in",
+    "jurisdictionAreas": [
+      "Himachal Pradesh (Statewide for Permits)",
+      "Shimla"
+    ]
+  },
+  {
+    "code": "HP-63",
+    "region": "Shimla Rural",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "The HP-63 code is assigned to the Regional Transport Office (RTO) located in Shimla, Himachal Pradesh. It serves as a primary hub for vehicle registration and licensing, operating out of the state's transport headquarters at Parivahan Bhawan to manage commercial and private transport for the Shimla region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Directorate of Transport, Parivahan Bhawan, Cart Road, Chaura Maidan, Shimla, Himachal Pradesh",
+    "pinCode": "171004",
+    "phone": "0177-2658379",
+    "email": "rto-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Shimla Rural",
+      "Shimla Urban",
+      "Theog",
+      "Chopal",
+      "Rampur",
+      "Rohru",
+      "Kumarsain",
+      "Sunni"
+    ]
+  },
+  {
+    "code": "HP-64",
+    "region": "Solan",
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla Division",
+    "description": "HP-64 is the Regional Transport Office for Solan, Himachal Pradesh, primarily responsible for the registration of transport and commercial vehicles. It serves as the primary hub for commercial logistics and licensing for heavy motor vehicles, buses, and taxis within the Solan district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Solan, Himachal Pradesh",
+    "pinCode": "173212",
+    "phone": "01792-231308",
+    "email": "rto-sol-hp@nic.in",
+    "jurisdictionAreas": [
+      "Solan District",
+      "Arki",
+      "Kandaghat",
+      "Kasauli",
+      "Nalagarh",
+      "Dharampur"
+    ]
+  },
+  {
+    "code": "HP-65",
+    "region": "Mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "HP-65 is the Regional Transport Office (RTO) for the Mandi district, serving as a primary hub for regional transport administration in Himachal Pradesh. Unlike local Registering and Licensing Authorities (RLAs), this office specifically handles commercial vehicle registrations and the issuance of national permits. It plays a critical role in managing transport logistics and road safety enforcement across the Mandi region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Mandi, District Mandi, Himachal Pradesh - 175001",
+    "pinCode": "175001",
+    "phone": "01905-235171",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mandi Sadar",
+      "Jogindernagar",
+      "Sundernagar",
+      "Karsog",
+      "Gohar",
+      "Sarkaghat",
+      "Chachyot",
+      "Thunag",
+      "Padhar",
+      "Lad Bharol"
+    ]
   }
 ]
