@@ -1506,5 +1506,98 @@
       "Padhar",
       "Lad Bharol"
     ]
+  },
+  {
+    "code": "HP-66",
+    "region": "Kullu",
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "HP-66 is the dedicated Regional Transport Office (RTO) for Kullu district in Himachal Pradesh. Unlike sub-divisional RLA offices, this RTO focuses on district-wide transport administration, commercial vehicle permits, and licensing enforcement. It serves as the primary regulatory body for the transport sector within the Kullu valley and surrounding areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Kullu District, Kullu, Himachal Pradesh",
+    "pinCode": "175101",
+    "phone": "01902-226497",
+    "email": "rto-kul-hp@nic.in",
+    "jurisdictionAreas": [
+      "Kullu",
+      "Anni",
+      "Banjar",
+      "Manali",
+      "Nirmand",
+      "Sainj"
+    ]
+  },
+  {
+    "code": "HP-67",
+    "region": "Hamirpur RTO",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Hamirpur",
+    "description": "HP-67 is the Regional Transport Office for Hamirpur district in Himachal Pradesh. While HP-22 is used by the RLA for private vehicles, HP-67 specifically manages transport and commercial vehicle registrations, permits, and fitness certificates across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Hamirpur, District Hamirpur, Himachal Pradesh",
+    "pinCode": "177001",
+    "phone": "01972-221330",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Hamirpur",
+      "Nadaun",
+      "Sujanpur",
+      "Bhoranj",
+      "Barsar",
+      "Tauni Devi"
+    ]
+  },
+  {
+    "code": "HP-68",
+    "region": "Dharamshala",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "The HP-68 RTO serves the Dharamshala region in the Kangra district of Himachal Pradesh. It functions as a Regional Transport Office primarily focused on commercial vehicle registrations and state transport permits, distinguishing itself from local RLA codes like HP-39 which handle private vehicle licensing.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO) Dharamshala, District Kangra, Himachal Pradesh",
+    "pinCode": "176215",
+    "phone": "+91-1892-222055",
+    "email": "rto-dha-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dharamshala",
+      "Kangra District",
+      "Mcleod Ganj"
+    ]
+  },
+  {
+    "code": "HP-69",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Mandi",
+    "description": "HP-69 is the official code for the Regional Transport Office (RTO) in Bilaspur, Himachal Pradesh. It handles various transport-related functions including vehicle registration, commercial permit issuance, and driver licensing oversight for the district. It functions as the main administrative transport office alongside local Registration & Licensing Authorities (RLA) like HP-24.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Bilaspur, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174001",
+    "phone": "01978-221364",
+    "email": "rto-bil-hp@nic.in",
+    "jurisdictionAreas": [
+      "Bilaspur Sadar",
+      "Ghumarwin",
+      "Jhandutta",
+      "Naina Devi",
+      "Swarghat",
+      "Namhol"
+    ]
   }
 ]
