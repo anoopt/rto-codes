@@ -1,0 +1,24 @@
+{
+    "code": "HP-67",
+    "region": "Hamirpur RTO",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Hamirpur",
+    "description": "HP-67 is the Regional Transport Office for Hamirpur district in Himachal Pradesh. While HP-22 is used by the RLA for private vehicles, HP-67 specifically manages transport and commercial vehicle registrations, permits, and fitness certificates across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Hamirpur, District Hamirpur, Himachal Pradesh",
+    "pinCode": "177001",
+    "phone": "01972-221330",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hamirpur",
+        "Nadaun",
+        "Sujanpur",
+        "Bhoranj",
+        "Barsar",
+        "Tauni Devi"
+    ]
+}

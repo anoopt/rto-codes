@@ -1,0 +1,24 @@
+{
+    "code": "HP-66",
+    "region": "Kullu",
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kullu",
+    "division": "Mandi",
+    "description": "HP-66 is the dedicated Regional Transport Office (RTO) for Kullu district in Himachal Pradesh. Unlike sub-divisional RLA offices, this RTO focuses on district-wide transport administration, commercial vehicle permits, and licensing enforcement. It serves as the primary regulatory body for the transport sector within the Kullu valley and surrounding areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Kullu District, Kullu, Himachal Pradesh",
+    "pinCode": "175101",
+    "phone": "01902-226497",
+    "email": "rto-kul-hp@nic.in",
+    "jurisdictionAreas": [
+        "Kullu",
+        "Anni",
+        "Banjar",
+        "Manali",
+        "Nirmand",
+        "Sainj"
+    ]
+}

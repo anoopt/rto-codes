@@ -1,0 +1,21 @@
+{
+    "code": "HP-68",
+    "region": "Dharamshala",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "The HP-68 RTO serves the Dharamshala region in the Kangra district of Himachal Pradesh. It functions as a Regional Transport Office primarily focused on commercial vehicle registrations and state transport permits, distinguishing itself from local RLA codes like HP-39 which handle private vehicle licensing.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO) Dharamshala, District Kangra, Himachal Pradesh",
+    "pinCode": "176215",
+    "phone": "+91-1892-222055",
+    "email": "rto-dha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dharamshala",
+        "Kangra District",
+        "Mcleod Ganj"
+    ]
+}

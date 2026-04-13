@@ -1,0 +1,24 @@
+{
+    "code": "HP-69",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Mandi",
+    "description": "HP-69 is the official code for the Regional Transport Office (RTO) in Bilaspur, Himachal Pradesh. It handles various transport-related functions including vehicle registration, commercial permit issuance, and driver licensing oversight for the district. It functions as the main administrative transport office alongside local Registration & Licensing Authorities (RLA) like HP-24.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Bilaspur, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174001",
+    "phone": "01978-221364",
+    "email": "rto-bil-hp@nic.in",
+    "jurisdictionAreas": [
+        "Bilaspur Sadar",
+        "Ghumarwin",
+        "Jhandutta",
+        "Naina Devi",
+        "Swarghat",
+        "Namhol"
+    ]
+}
