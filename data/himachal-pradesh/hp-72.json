@@ -1,0 +1,23 @@
+{
+    "code": "HP-72",
+    "region": "Una",
+    "city": "Una",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Mandi",
+    "description": "HP-72 is the Regional Transport Office (RTO) located in Una, Himachal Pradesh, serving as the district-level hub for transport administration. Unlike the local RLA offices that handle private vehicles, this RTO specifically manages commercial vehicle registrations, fitness certifications, and the issuance of various transport permits. It plays a critical role in enforcing the Motor Vehicles Act and overseeing heavy transport operations throughout the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Una, District Una, Himachal Pradesh",
+    "pinCode": "174303",
+    "phone": "01975-203020",
+    "email": "rto-una-hp@nic.in",
+    "jurisdictionAreas": [
+        "Una",
+        "Amb",
+        "Bangana",
+        "Haroli",
+        "Gagret"
+    ]
+}

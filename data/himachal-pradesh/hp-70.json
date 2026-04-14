@@ -1,0 +1,24 @@
+{
+    "code": "HP-70",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Bilaspur",
+    "description": "HP-70 is a Regional Transport Office (RTO) code for Bilaspur, Himachal Pradesh, primarily utilized for commercial and district-level vehicle registrations. It operates alongside the HP-24 and HP-69 codes to serve the administrative transport needs of the Bilaspur district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bilaspur, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174001",
+    "phone": "01978-224798",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bilaspur",
+        "Ghumarwin",
+        "Jhandutta",
+        "Swarghat",
+        "Naina Devi",
+        "Namhol"
+    ]
+}

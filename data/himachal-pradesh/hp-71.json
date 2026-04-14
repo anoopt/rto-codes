@@ -1,0 +1,25 @@
+{
+    "code": "HP-71",
+    "region": "Sirmaur (Nahan)",
+    "city": "Nahan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "HP-71 is the Regional Transport Office (RTO) for the Sirmaur district, headquartered in Nahan. It serves as the primary district-level authority for commercial permits and vehicle registrations, operating alongside localized Registering and Licensing Authorities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Sirmaur at Nahan, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173001",
+    "phone": "01702-225968",
+    "email": "rto-nahn-hp@nic.in",
+    "jurisdictionAreas": [
+        "Nahan",
+        "Paonta Sahib",
+        "Rajgarh",
+        "Sangrah",
+        "Shillai",
+        "Sarahan",
+        "Pachhad"
+    ]
+}

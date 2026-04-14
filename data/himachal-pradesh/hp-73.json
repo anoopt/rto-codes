@@ -1,0 +1,25 @@
+{
+    "code": "HP-73",
+    "region": "Chamba",
+    "city": "Chamba",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "The HP-73 RTO is the primary Regional Transport Office for the Chamba district in Himachal Pradesh. It is responsible for vehicle registration, driving licenses, and transport permits, particularly serving as the central authority for commercial and government vehicles in the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer (RTO), Chamba, District Chamba, Himachal Pradesh",
+    "pinCode": "176310",
+    "phone": "01899-224131",
+    "email": "rto-cha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Chamba",
+        "Churah",
+        "Pangi",
+        "Dalhousie",
+        "Bharmour",
+        "Salooni",
+        "Tissa"
+    ]
+}
