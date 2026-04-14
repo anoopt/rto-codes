@@ -1599,5 +1599,102 @@
       "Swarghat",
       "Namhol"
     ]
+  },
+  {
+    "code": "HP-70",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Bilaspur",
+    "description": "HP-70 is a Regional Transport Office (RTO) code for Bilaspur, Himachal Pradesh, primarily utilized for commercial and district-level vehicle registrations. It operates alongside the HP-24 and HP-69 codes to serve the administrative transport needs of the Bilaspur district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bilaspur, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174001",
+    "phone": "01978-224798",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bilaspur",
+      "Ghumarwin",
+      "Jhandutta",
+      "Swarghat",
+      "Naina Devi",
+      "Namhol"
+    ]
+  },
+  {
+    "code": "HP-71",
+    "region": "Sirmaur (Nahan)",
+    "city": "Nahan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "HP-71 is the Regional Transport Office (RTO) for the Sirmaur district, headquartered in Nahan. It serves as the primary district-level authority for commercial permits and vehicle registrations, operating alongside localized Registering and Licensing Authorities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Sirmaur at Nahan, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173001",
+    "phone": "01702-225968",
+    "email": "rto-nahn-hp@nic.in",
+    "jurisdictionAreas": [
+      "Nahan",
+      "Paonta Sahib",
+      "Rajgarh",
+      "Sangrah",
+      "Shillai",
+      "Sarahan",
+      "Pachhad"
+    ]
+  },
+  {
+    "code": "HP-72",
+    "region": "Una",
+    "city": "Una",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Mandi",
+    "description": "HP-72 is the Regional Transport Office (RTO) located in Una, Himachal Pradesh, serving as the district-level hub for transport administration. Unlike the local RLA offices that handle private vehicles, this RTO specifically manages commercial vehicle registrations, fitness certifications, and the issuance of various transport permits. It plays a critical role in enforcing the Motor Vehicles Act and overseeing heavy transport operations throughout the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Una, District Una, Himachal Pradesh",
+    "pinCode": "174303",
+    "phone": "01975-203020",
+    "email": "rto-una-hp@nic.in",
+    "jurisdictionAreas": [
+      "Una",
+      "Amb",
+      "Bangana",
+      "Haroli",
+      "Gagret"
+    ]
+  },
+  {
+    "code": "HP-73",
+    "region": "Chamba",
+    "city": "Chamba",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Kangra",
+    "description": "The HP-73 RTO is the primary Regional Transport Office for the Chamba district in Himachal Pradesh. It is responsible for vehicle registration, driving licenses, and transport permits, particularly serving as the central authority for commercial and government vehicles in the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer (RTO), Chamba, District Chamba, Himachal Pradesh",
+    "pinCode": "176310",
+    "phone": "01899-224131",
+    "email": "rto-cha-hp@nic.in",
+    "jurisdictionAreas": [
+      "Chamba",
+      "Churah",
+      "Pangi",
+      "Dalhousie",
+      "Bharmour",
+      "Salooni",
+      "Tissa"
+    ]
   }
 ]
