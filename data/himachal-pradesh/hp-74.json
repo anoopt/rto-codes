@@ -1,0 +1,23 @@
+{
+    "code": "HP-74",
+    "region": "Bhoranj",
+    "city": "Bhoranj",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Mandi",
+    "description": "HP-74 is the Registration and Licensing Authority (R&LA) located in Bhoranj, serving the Hamirpur district of Himachal Pradesh. Operating under the local Sub-Divisional Magistrate, this office manages vehicle registrations, driving license issuances, and transport permit renewals for the Bhoranj subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Bhoranj, District Hamirpur, Himachal Pradesh",
+    "pinCode": "176045",
+    "phone": "01972-266928",
+    "email": "sdmbrj-ham-hp@nic.in",
+    "jurisdictionAreas": [
+        "Bhoranj",
+        "Bhoranj Tehsil",
+        "Aghari",
+        "Bari",
+        "Bhoranj Subdivision"
+    ]
+}

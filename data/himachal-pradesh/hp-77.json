@@ -1,0 +1,21 @@
+{
+    "code": "HP-77",
+    "region": "Dodra Kawar",
+    "city": "Dodra Kawar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla Division",
+    "description": "HP-77 is the Registering and Licensing Authority (RLA) code for Dodra Kawar, a remote sub-division in the Shimla district of Himachal Pradesh. It functions under the Sub-Divisional Officer (Civil) and manages registration for private vehicles and the issuance of driving licenses for the local residents. This RTO code is crucial for providing administrative transport services to one of the most geographically isolated regions of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dodra Kawar, District Shimla, Himachal Pradesh",
+    "pinCode": "171221",
+    "phone": "01783-260014",
+    "email": "sdm-dkw-shi-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dodra",
+        "Kawar",
+        "Dodra Kawar Sub-Division"
+    ]
+}
