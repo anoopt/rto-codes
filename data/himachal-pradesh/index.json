@@ -1696,5 +1696,91 @@
       "Salooni",
       "Tissa"
     ]
+  },
+  {
+    "code": "HP-74",
+    "region": "Bhoranj",
+    "city": "Bhoranj",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Mandi",
+    "description": "HP-74 is the Registration and Licensing Authority (R&LA) located in Bhoranj, serving the Hamirpur district of Himachal Pradesh. Operating under the local Sub-Divisional Magistrate, this office manages vehicle registrations, driving license issuances, and transport permit renewals for the Bhoranj subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Bhoranj, District Hamirpur, Himachal Pradesh",
+    "pinCode": "176045",
+    "phone": "01972-266928",
+    "email": "sdmbrj-ham-hp@nic.in",
+    "jurisdictionAreas": [
+      "Bhoranj",
+      "Bhoranj Tehsil",
+      "Aghari",
+      "Bari",
+      "Bhoranj Subdivision"
+    ]
+  },
+  {
+    "code": "HP-75",
+    "region": "Jubbal",
+    "city": "Jubbal",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-75 is the Registering and Licensing Authority (RLA) located in Jubbal, under the Shimla district of Himachal Pradesh. Managed by the Sub Divisional Magistrate (SDM), this office handles local vehicle registration series and driving license issuance for the Jubbal subdivision. It is a critical administrative unit for transport services in this apple-growing region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Jubbal, District Shimla, Himachal Pradesh",
+    "pinCode": "171205",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jubbal",
+      "Jubbal Tehsil",
+      "Jubbal Subdivision"
+    ]
+  },
+  {
+    "code": "HP-76",
+    "region": "Paddhar",
+    "city": "Paddhar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-76 is the official code for the Registering and Licensing Authority (R&LA) in Paddhar, located in the Mandi district. This office operates under the authority of the Sub-Divisional Magistrate (SDM) and facilitates vehicle registration and driving license issuance for the local sub-division. It is an essential administrative outpost for transport services in this mountainous region of Himachal Pradesh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Padhar, District Mandi, Himachal Pradesh",
+    "pinCode": "175012",
+    "phone": "01908-260666",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Paddhar",
+      "Padhar Tehsil",
+      "Padhar Sub-division"
+    ]
+  },
+  {
+    "code": "HP-77",
+    "region": "Dodra Kawar",
+    "city": "Dodra Kawar",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla Division",
+    "description": "HP-77 is the Registering and Licensing Authority (RLA) code for Dodra Kawar, a remote sub-division in the Shimla district of Himachal Pradesh. It functions under the Sub-Divisional Officer (Civil) and manages registration for private vehicles and the issuance of driving licenses for the local residents. This RTO code is crucial for providing administrative transport services to one of the most geographically isolated regions of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dodra Kawar, District Shimla, Himachal Pradesh",
+    "pinCode": "171221",
+    "phone": "01783-260014",
+    "email": "sdm-dkw-shi-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dodra",
+      "Kawar",
+      "Dodra Kawar Sub-Division"
+    ]
   }
 ]
