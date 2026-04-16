@@ -1,0 +1,23 @@
+{
+    "code": "HP-81",
+    "region": "Salooni",
+    "city": "Salooni",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Chamba",
+    "description": "HP-81 is the Registering and Licensing Authority (RLA) located in Salooni, Chamba district. It serves as a decentralized hub for vehicle registration and driving license issuance within the Salooni sub-division. This office is essential for providing administrative transport services to the mountainous rural communities of the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Salooni, District Chamba, Himachal Pradesh",
+    "pinCode": "176320",
+    "phone": "01896-233122",
+    "email": "sdmsal-cha-hp@nic.in",
+    "jurisdictionAreas": [
+        "Salooni",
+        "Kihar",
+        "Bhandal",
+        "Dharwas",
+        "Manjir"
+    ]
+}

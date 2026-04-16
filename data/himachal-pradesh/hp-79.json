@@ -1,0 +1,22 @@
+{
+    "code": "HP-79",
+    "region": "Sangrah",
+    "city": "Sangrah",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "HP-79 serves as the Registering and Licensing Authority (RLA) for the Sangrah sub-division in the Sirmaur district of Himachal Pradesh. Managed by the Sub-Divisional Magistrate, this office handles the registration of private motor vehicles and the issuance of driving licenses for the local administrative area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sangrah, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173023",
+    "phone": "01702-248004",
+    "email": "sdm-san-hp@nic.in",
+    "jurisdictionAreas": [
+        "Sangrah",
+        "Haripurdhar",
+        "Renuka Ji",
+        "Dadahu"
+    ]
+}

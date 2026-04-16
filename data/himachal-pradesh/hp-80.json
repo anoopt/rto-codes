@@ -1,0 +1,21 @@
+{
+    "code": "HP-80",
+    "region": "Haroli",
+    "city": "Haroli",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Kangra",
+    "description": "HP-80 is the Registration and Licensing Authority (R&LA) office located in Haroli, Una district of Himachal Pradesh. It handles various transport services including vehicle registration, driving license issuance, and road tax collection for the Haroli sub-division. The office serves as a critical administrative unit for automotive governance in the region bordering Punjab.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Haroli, District Una, Himachal Pradesh - 177220",
+    "pinCode": "177220",
+    "phone": "01975-284400",
+    "email": "sdm-haroli-hp@nic.in",
+    "jurisdictionAreas": [
+        "Haroli",
+        "Haroli Sub-Division",
+        "Una District"
+    ]
+}
