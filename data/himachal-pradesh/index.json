@@ -1782,5 +1782,92 @@
       "Kawar",
       "Dodra Kawar Sub-Division"
     ]
+  },
+  {
+    "code": "HP-78",
+    "region": "Bangana",
+    "city": "Bangana",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Kangra",
+    "description": "HP-78 is the Regional Transport Office serving the Bangana sub-division in the Una district of Himachal Pradesh. It operates as a Registering and Licensing Authority (RLA) under the Sub Divisional Officer (Civil), managing vehicle registrations and driving licenses for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Bangana, District Una, Himachal Pradesh",
+    "pinCode": "174304",
+    "phone": "01975-263060",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bangana",
+      "Bangana Sub-division",
+      "Una District"
+    ]
+  },
+  {
+    "code": "HP-79",
+    "region": "Sangrah",
+    "city": "Sangrah",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "HP-79 serves as the Registering and Licensing Authority (RLA) for the Sangrah sub-division in the Sirmaur district of Himachal Pradesh. Managed by the Sub-Divisional Magistrate, this office handles the registration of private motor vehicles and the issuance of driving licenses for the local administrative area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sangrah, District Sirmaur, Himachal Pradesh",
+    "pinCode": "173023",
+    "phone": "01702-248004",
+    "email": "sdm-san-hp@nic.in",
+    "jurisdictionAreas": [
+      "Sangrah",
+      "Haripurdhar",
+      "Renuka Ji",
+      "Dadahu"
+    ]
+  },
+  {
+    "code": "HP-80",
+    "region": "Haroli",
+    "city": "Haroli",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Una",
+    "division": "Kangra",
+    "description": "HP-80 is the Registration and Licensing Authority (R&LA) office located in Haroli, Una district of Himachal Pradesh. It handles various transport services including vehicle registration, driving license issuance, and road tax collection for the Haroli sub-division. The office serves as a critical administrative unit for automotive governance in the region bordering Punjab.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Haroli, District Una, Himachal Pradesh - 177220",
+    "pinCode": "177220",
+    "phone": "01975-284400",
+    "email": "sdm-haroli-hp@nic.in",
+    "jurisdictionAreas": [
+      "Haroli",
+      "Haroli Sub-Division",
+      "Una District"
+    ]
+  },
+  {
+    "code": "HP-81",
+    "region": "Salooni",
+    "city": "Salooni",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Chamba",
+    "division": "Chamba",
+    "description": "HP-81 is the Registering and Licensing Authority (RLA) located in Salooni, Chamba district. It serves as a decentralized hub for vehicle registration and driving license issuance within the Salooni sub-division. This office is essential for providing administrative transport services to the mountainous rural communities of the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Salooni, District Chamba, Himachal Pradesh",
+    "pinCode": "176320",
+    "phone": "01896-233122",
+    "email": "sdmsal-cha-hp@nic.in",
+    "jurisdictionAreas": [
+      "Salooni",
+      "Kihar",
+      "Bhandal",
+      "Dharwas",
+      "Manjir"
+    ]
   }
 ]
