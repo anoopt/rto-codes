@@ -1869,5 +1869,102 @@
       "Dharwas",
       "Manjir"
     ]
+  },
+  {
+    "code": "HP-82",
+    "region": "Balh (Ner Chowk)",
+    "city": "Balh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "The HP-82 Registration and Licensing Authority (R&LA) serves the Balh sub-division in the Mandi district of Himachal Pradesh. It manages vehicle registrations, driving licenses, and transport permits specifically for the Balh area, which is a significant commercial hub centered around Ner Chowk. The office operates under the administrative control of the Sub-Divisional Magistrate (SDM) of Balh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Balh, District Mandi, Himachal Pradesh",
+    "pinCode": "175012",
+    "phone": "01905-242001",
+    "email": "sdm.balh-hp@nic.in",
+    "jurisdictionAreas": [
+      "Balh",
+      "Ner Chowk",
+      "Ratti",
+      "Gagal",
+      "Dadar",
+      "Lohara",
+      "Chakmoh",
+      "Syanj"
+    ]
+  },
+  {
+    "code": "HP-83",
+    "region": "Jawalamukhi",
+    "city": "Jawalamukhi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-83 is the Registering and Licensing Authority (RLA) situated in Jawalamukhi within the Kangra district of Himachal Pradesh. This office is responsible for vehicle registration, issuing driving licenses, and providing various transport-related services to the residents of the Jawalamukhi subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil) Jawalamukhi, District Kangra, Himachal Pradesh",
+    "pinCode": "176031",
+    "phone": "01970-223100",
+    "email": "sdmjji-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Jawalamukhi",
+      "Jawalaji",
+      "Jawalamukhi Subdivision"
+    ]
+  },
+  {
+    "code": "HP-84",
+    "region": "Sujanpur",
+    "city": "Sujanpur Tihra",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Hamirpur",
+    "description": "HP-84 serves as the Registration and Licensing Authority (R&LA) for the Sujanpur sub-division in Hamirpur district. It operates under the jurisdiction of the Sub Divisional Officer (Civil) and is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations in the region. Sujanpur is historically significant for its Tihra Sujanpur fort and its role as a key administrative hub in the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sujanpur Tihra, District Hamirpur, Himachal Pradesh",
+    "pinCode": "176110",
+    "phone": "01972-273100",
+    "email": "sdmsujanpur84@gmail.com",
+    "jurisdictionAreas": [
+      "Sujanpur",
+      "Sujanpur Tihra",
+      "Chabutra",
+      "Patlander",
+      "Kherian",
+      "Bahanwin",
+      "Tihra",
+      "Jangal"
+    ]
+  },
+  {
+    "code": "HP-85",
+    "region": "Shillai",
+    "city": "Shillai",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "The HP-85 RTO operates as the Registration and Licensing Authority (RLA) for the Shillai sub-division in the Sirmaur district of Himachal Pradesh. It is managed by the Sub-Divisional Magistrate (SDM) and provides essential services including vehicle registration, driving licenses, and permit issuance for this mountainous region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Shillai, District Sirmaur, Himachal Pradesh - 173027",
+    "pinCode": "173027",
+    "phone": "01704-278534",
+    "email": "rlashillai-hp@nic.in",
+    "jurisdictionAreas": [
+      "Shillai Sub-division",
+      "Shillai",
+      "Ronhat",
+      "Timbi",
+      "Bakras",
+      "Millah"
+    ]
   }
 ]
