@@ -1,0 +1,26 @@
+{
+    "code": "HP-82",
+    "region": "Balh (Ner Chowk)",
+    "city": "Balh",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "The HP-82 Registration and Licensing Authority (R&LA) serves the Balh sub-division in the Mandi district of Himachal Pradesh. It manages vehicle registrations, driving licenses, and transport permits specifically for the Balh area, which is a significant commercial hub centered around Ner Chowk. The office operates under the administrative control of the Sub-Divisional Magistrate (SDM) of Balh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Balh, District Mandi, Himachal Pradesh",
+    "pinCode": "175012",
+    "phone": "01905-242001",
+    "email": "sdm.balh-hp@nic.in",
+    "jurisdictionAreas": [
+        "Balh",
+        "Ner Chowk",
+        "Ratti",
+        "Gagal",
+        "Dadar",
+        "Lohara",
+        "Chakmoh",
+        "Syanj"
+    ]
+}

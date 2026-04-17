@@ -1,0 +1,26 @@
+{
+    "code": "HP-84",
+    "region": "Sujanpur",
+    "city": "Sujanpur Tihra",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Hamirpur",
+    "division": "Hamirpur",
+    "description": "HP-84 serves as the Registration and Licensing Authority (R&LA) for the Sujanpur sub-division in Hamirpur district. It operates under the jurisdiction of the Sub Divisional Officer (Civil) and is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations in the region. Sujanpur is historically significant for its Tihra Sujanpur fort and its role as a key administrative hub in the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Sujanpur Tihra, District Hamirpur, Himachal Pradesh",
+    "pinCode": "176110",
+    "phone": "01972-273100",
+    "email": "sdmsujanpur84@gmail.com",
+    "jurisdictionAreas": [
+        "Sujanpur",
+        "Sujanpur Tihra",
+        "Chabutra",
+        "Patlander",
+        "Kherian",
+        "Bahanwin",
+        "Tihra",
+        "Jangal"
+    ]
+}

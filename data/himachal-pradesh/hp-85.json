@@ -1,0 +1,24 @@
+{
+    "code": "HP-85",
+    "region": "Shillai",
+    "city": "Shillai",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Sirmaur",
+    "division": "Shimla",
+    "description": "The HP-85 RTO operates as the Registration and Licensing Authority (RLA) for the Shillai sub-division in the Sirmaur district of Himachal Pradesh. It is managed by the Sub-Divisional Magistrate (SDM) and provides essential services including vehicle registration, driving licenses, and permit issuance for this mountainous region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Shillai, District Sirmaur, Himachal Pradesh - 173027",
+    "pinCode": "173027",
+    "phone": "01704-278534",
+    "email": "rlashillai-hp@nic.in",
+    "jurisdictionAreas": [
+        "Shillai Sub-division",
+        "Shillai",
+        "Ronhat",
+        "Timbi",
+        "Bakras",
+        "Millah"
+    ]
+}
