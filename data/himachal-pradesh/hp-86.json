@@ -1,0 +1,23 @@
+{
+    "code": "HP-86",
+    "region": "Dharampur",
+    "city": "Dharampur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-86 is the Registration and Licensing Authority (R&LA) located in Dharampur, Mandi district of Himachal Pradesh. It functions under the Sub Divisional Officer (Civil) and is responsible for vehicle registration, driving licenses, and transport-related administrative tasks for the Dharampur sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dharampur, District Mandi, Himachal Pradesh",
+    "pinCode": "175040",
+    "phone": "01905-272080",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dharampur",
+        "Sandhole",
+        "Tihra",
+        "Sarkaghat (Partial)",
+        "Mandi (Dharampur Sub-division)"
+    ]
+}

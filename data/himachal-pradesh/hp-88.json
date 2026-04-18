@@ -1,0 +1,24 @@
+{
+    "code": "HP-88",
+    "region": "Fatehpur",
+    "city": "Fatehpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Transport Division",
+    "description": "HP-88 is the registration code for the Registering and Licensing Authority (RLA) in Fatehpur, situated in the Kangra district of Himachal Pradesh. This office operates under the Sub-Divisional Officer (Civil) and manages vehicle registrations, driving licenses, and other transport regulatory tasks for the Fatehpur sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Fatehpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176053",
+    "phone": "01893-256222",
+    "email": "sdmfat-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Fatehpur Sub-division",
+        "Raja-ka-Talab",
+        "Dhameta",
+        "Rehan",
+        "Khatiyar",
+        "Harsar"
+    ]
+}

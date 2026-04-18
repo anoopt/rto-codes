@@ -1,0 +1,23 @@
+{
+    "code": "HP-89",
+    "region": "Jhandutta",
+    "city": "Jhandutta",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Mandi",
+    "description": "HP-89 is the Regional Transport Office/Registration and Licensing Authority serving the Jhandutta sub-division of Bilaspur district in Himachal Pradesh. The office is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations under the Sub-Divisional Officer (Civil).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jhandutta, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174034",
+    "phone": "01978-272122",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jhandutta",
+        "Gehrwin",
+        "Sunhani",
+        "Kalol",
+        "Talai"
+    ]
+}
