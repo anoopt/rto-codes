@@ -1966,5 +1966,96 @@
       "Bakras",
       "Millah"
     ]
+  },
+  {
+    "code": "HP-86",
+    "region": "Dharampur",
+    "city": "Dharampur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi",
+    "description": "HP-86 is the Registration and Licensing Authority (R&LA) located in Dharampur, Mandi district of Himachal Pradesh. It functions under the Sub Divisional Officer (Civil) and is responsible for vehicle registration, driving licenses, and transport-related administrative tasks for the Dharampur sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dharampur, District Mandi, Himachal Pradesh",
+    "pinCode": "175040",
+    "phone": "01905-272080",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dharampur",
+      "Sandhole",
+      "Tihra",
+      "Sarkaghat (Partial)",
+      "Mandi (Dharampur Sub-division)"
+    ]
+  },
+  {
+    "code": "HP-87",
+    "region": "Janjehli",
+    "city": "Thunag",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Mandi",
+    "division": "Mandi Division",
+    "description": "HP-87 is the Registration and Licensing Authority (R&LA) for the Janjehli region in Mandi district, Himachal Pradesh. Operating under the Sub Divisional Officer (Civil) at Thunag, this office handles vehicle registrations, driving licenses, and other transport-related services for the Janjehli and Thunag sub-divisions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Thunag, District Mandi, Himachal Pradesh",
+    "pinCode": "175048",
+    "phone": "01907-256666",
+    "email": "sdmmanjnl@gmail.com",
+    "jurisdictionAreas": [
+      "Janjehli",
+      "Thunag",
+      "Bali Chowki"
+    ]
+  },
+  {
+    "code": "HP-88",
+    "region": "Fatehpur",
+    "city": "Fatehpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Transport Division",
+    "description": "HP-88 is the registration code for the Registering and Licensing Authority (RLA) in Fatehpur, situated in the Kangra district of Himachal Pradesh. This office operates under the Sub-Divisional Officer (Civil) and manages vehicle registrations, driving licenses, and other transport regulatory tasks for the Fatehpur sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Fatehpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176053",
+    "phone": "01893-256222",
+    "email": "sdmfat-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Fatehpur Sub-division",
+      "Raja-ka-Talab",
+      "Dhameta",
+      "Rehan",
+      "Khatiyar",
+      "Harsar"
+    ]
+  },
+  {
+    "code": "HP-89",
+    "region": "Jhandutta",
+    "city": "Jhandutta",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Mandi",
+    "description": "HP-89 is the Regional Transport Office/Registration and Licensing Authority serving the Jhandutta sub-division of Bilaspur district in Himachal Pradesh. The office is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations under the Sub-Divisional Officer (Civil).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Jhandutta, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174034",
+    "phone": "01978-272122",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jhandutta",
+      "Gehrwin",
+      "Sunhani",
+      "Kalol",
+      "Talai"
+    ]
   }
 ]
