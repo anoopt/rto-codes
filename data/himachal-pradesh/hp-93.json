@@ -1,0 +1,22 @@
+{
+    "code": "HP-93",
+    "region": "Baddi",
+    "city": "Baddi",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "HP-93 is the Regional Transport Office (RTO) serving Baddi in the Solan district of Himachal Pradesh. This office primarily handles transport permits and vehicle registrations for the Baddi-Barotiwala-Nalagarh (BBN) industrial corridor, which is one of India's most significant industrial hubs. It was established to provide dedicated transport administration for the high volume of commercial traffic in this region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Baddi, Nalagarh, District Solan, Himachal Pradesh",
+    "pinCode": "174101",
+    "phone": "01795-222684",
+    "email": "rto-nalg-hp@gov.in",
+    "jurisdictionAreas": [
+        "Baddi",
+        "Barotiwala",
+        "Nalagarh",
+        "BBN Industrial Hub"
+    ]
+}

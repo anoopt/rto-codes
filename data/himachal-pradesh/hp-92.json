@@ -1,0 +1,22 @@
+{
+    "code": "HP-92",
+    "region": "Rampur Bushahr",
+    "city": "Rampur Bushahr",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "HP-92 is the Regional Transport Office serving the Rampur Bushahr area in the Shimla district of Himachal Pradesh. This office manages vehicle registration, commercial permits, and driving licenses for the Rampur subdivision, ensuring compliance with state transport regulations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Rampur, District Shimla, Himachal Pradesh",
+    "pinCode": "172001",
+    "phone": "01782-234759",
+    "email": "rto-rmp-hp@gov.in",
+    "jurisdictionAreas": [
+        "Rampur Bushahr",
+        "Nankhari",
+        "Sarahan",
+        "Rampur Subdivision"
+    ]
+}

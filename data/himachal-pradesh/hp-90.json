@@ -1,0 +1,23 @@
+{
+    "code": "HP-90",
+    "region": "Shahpur",
+    "city": "Shahpur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "The HP-90 RTO serves as the Registering and Licensing Authority (R&LA) for the Shahpur sub-division in the Kangra district of Himachal Pradesh. It is primarily responsible for the registration of private motor vehicles and the issuance of driving licenses within its administrative jurisdiction. The office functions under the supervision of the Sub Divisional Magistrate of Shahpur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Shahpur, District Kangra, Himachal Pradesh",
+    "pinCode": "176206",
+    "phone": "01892-237007",
+    "email": "sdmsha-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Shahpur",
+        "Shahpur Sub-Division",
+        "Rehlu",
+        "Chari",
+        "Durgella"
+    ]
+}
