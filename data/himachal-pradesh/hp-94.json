@@ -1,0 +1,25 @@
+{
+    "code": "HP-94",
+    "region": "Nagrota Bagwan",
+    "city": "Nagrota Bagwan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-94 serves as the Registering and Licensing Authority (RLA) for Nagrota Bagwan in the Kangra district of Himachal Pradesh. Operated under the Sub Divisional Magistrate (SDM), this office handles vehicle registration, license issuance, and local transport administration. It is part of the state's initiative to decentralize RTO services for better accessibility in the sub-divisional areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nagrota Bagwan, District Kangra, Himachal Pradesh",
+    "pinCode": "176047",
+    "phone": "01892-252001",
+    "email": "sdmngb-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Nagrota Bagwan",
+        "Baroh",
+        "Hatwas",
+        "Malan",
+        "Sunehar",
+        "Pathiar",
+        "Baldhar"
+    ]
+}

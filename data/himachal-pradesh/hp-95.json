@@ -1,0 +1,24 @@
+{
+    "code": "HP-95",
+    "region": "Kumarsain",
+    "city": "Kumarsain",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla Transport Division",
+    "description": "The HP-95 Registration and Licensing Authority (R&LA) serves the Kumarsain subdivision within the Shimla district of Himachal Pradesh. This office manages vehicle registration, driving licenses, and other transport-related services to provide efficient administrative support for the Kumarsain region. It is part of the state's decentralization effort to bring transport services closer to citizens in hilly terrains.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Kumarsain, District Shimla, Himachal Pradesh",
+    "pinCode": "171213",
+    "phone": "01781-272001",
+    "email": "sdmkumarsain@gmail.com",
+    "jurisdictionAreas": [
+        "Kumarsain",
+        "Narkanda",
+        "Thanedhar",
+        "Barubagh",
+        "Baggi",
+        "Kumarsain Subdivision"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "HP-96",
+    "region": "Dheera",
+    "city": "Dheera",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-96 is the Registration and Licensing Authority (RLA) located in Dheera, Himachal Pradesh, operating under the jurisdiction of the Sub-Divisional Magistrate (SDM). It primarily handles the registration of private (non-transport) vehicles and the issuance of driving licenses for the Dheera sub-division. The office is part of the newer series of registration codes established to serve the growing administrative needs of the Kangra district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dheera, District Kangra, Himachal Pradesh",
+    "pinCode": "176101",
+    "phone": "01894-222666",
+    "email": "sdmdhe-kan-hp@nic.in",
+    "jurisdictionAreas": [
+        "Dheera",
+        "Dheera Sub-division",
+        "Kangra District"
+    ]
+}

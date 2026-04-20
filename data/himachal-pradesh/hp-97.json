@@ -1,0 +1,25 @@
+{
+    "code": "HP-97",
+    "region": "Indora",
+    "city": "Indora",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "HP-97 is the Registering and Licensing Authority (R&LA) located in Indora, Kangra district, Himachal Pradesh. It operates as a sub-divisional transport office under the Sub-Divisional Officer (Civil), handling vehicle registration and driver licensing for the Indora region. The office was established to decentralize transport services and improve administrative accessibility for residents of the Indora sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Indora, District Kangra, Himachal Pradesh - 176401",
+    "pinCode": "176401",
+    "phone": "01893-256222",
+    "email": "sdmind-kan-hp@gov.in",
+    "jurisdictionAreas": [
+        "Indora",
+        "Indora Sub-division",
+        "Dhameta",
+        "Thakurdwara",
+        "Milwan",
+        "Surajpur",
+        "Mand Area"
+    ]
+}
