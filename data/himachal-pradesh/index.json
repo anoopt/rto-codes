@@ -2147,5 +2147,100 @@
       "Nalagarh",
       "BBN Industrial Hub"
     ]
+  },
+  {
+    "code": "HP-94",
+    "region": "Nagrota Bagwan",
+    "city": "Nagrota Bagwan",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-94 serves as the Registering and Licensing Authority (RLA) for Nagrota Bagwan in the Kangra district of Himachal Pradesh. Operated under the Sub Divisional Magistrate (SDM), this office handles vehicle registration, license issuance, and local transport administration. It is part of the state's initiative to decentralize RTO services for better accessibility in the sub-divisional areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Nagrota Bagwan, District Kangra, Himachal Pradesh",
+    "pinCode": "176047",
+    "phone": "01892-252001",
+    "email": "sdmngb-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Nagrota Bagwan",
+      "Baroh",
+      "Hatwas",
+      "Malan",
+      "Sunehar",
+      "Pathiar",
+      "Baldhar"
+    ]
+  },
+  {
+    "code": "HP-95",
+    "region": "Kumarsain",
+    "city": "Kumarsain",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla Transport Division",
+    "description": "The HP-95 Registration and Licensing Authority (R&LA) serves the Kumarsain subdivision within the Shimla district of Himachal Pradesh. This office manages vehicle registration, driving licenses, and other transport-related services to provide efficient administrative support for the Kumarsain region. It is part of the state's decentralization effort to bring transport services closer to citizens in hilly terrains.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Kumarsain, District Shimla, Himachal Pradesh",
+    "pinCode": "171213",
+    "phone": "01781-272001",
+    "email": "sdmkumarsain@gmail.com",
+    "jurisdictionAreas": [
+      "Kumarsain",
+      "Narkanda",
+      "Thanedhar",
+      "Barubagh",
+      "Baggi",
+      "Kumarsain Subdivision"
+    ]
+  },
+  {
+    "code": "HP-96",
+    "region": "Dheera",
+    "city": "Dheera",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra",
+    "description": "HP-96 is the Registration and Licensing Authority (RLA) located in Dheera, Himachal Pradesh, operating under the jurisdiction of the Sub-Divisional Magistrate (SDM). It primarily handles the registration of private (non-transport) vehicles and the issuance of driving licenses for the Dheera sub-division. The office is part of the newer series of registration codes established to serve the growing administrative needs of the Kangra district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Dheera, District Kangra, Himachal Pradesh",
+    "pinCode": "176101",
+    "phone": "01894-222666",
+    "email": "sdmdhe-kan-hp@nic.in",
+    "jurisdictionAreas": [
+      "Dheera",
+      "Dheera Sub-division",
+      "Kangra District"
+    ]
+  },
+  {
+    "code": "HP-97",
+    "region": "Indora",
+    "city": "Indora",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Kangra",
+    "division": "Kangra Division",
+    "description": "HP-97 is the Registering and Licensing Authority (R&LA) located in Indora, Kangra district, Himachal Pradesh. It operates as a sub-divisional transport office under the Sub-Divisional Officer (Civil), handling vehicle registration and driver licensing for the Indora region. The office was established to decentralize transport services and improve administrative accessibility for residents of the Indora sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Officer (Civil), Indora, District Kangra, Himachal Pradesh - 176401",
+    "pinCode": "176401",
+    "phone": "01893-256222",
+    "email": "sdmind-kan-hp@gov.in",
+    "jurisdictionAreas": [
+      "Indora",
+      "Indora Sub-division",
+      "Dhameta",
+      "Thakurdwara",
+      "Milwan",
+      "Surajpur",
+      "Mand Area"
+    ]
   }
 ]
