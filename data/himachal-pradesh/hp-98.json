@@ -1,0 +1,25 @@
+{
+    "code": "HP-98",
+    "region": "Kasauli",
+    "city": "Kasauli",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Solan",
+    "division": "Shimla",
+    "description": "HP-98 serves as the Registering and Licensing Authority (RLA) for the Kasauli sub-division in Solan district, Himachal Pradesh. Operating under the Sub-Divisional Magistrate (SDM), it manages local vehicle registrations, driving license issuances, and road tax collection. This RTO code is part of the state's initiative to decentralize transport services in hilly terrains.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Kasauli, District Solan, Himachal Pradesh",
+    "pinCode": "173204",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kasauli",
+        "Dharampur",
+        "Parwanoo",
+        "Garkhal",
+        "Sanawar",
+        "Kimmughat",
+        "Dagshai"
+    ]
+}

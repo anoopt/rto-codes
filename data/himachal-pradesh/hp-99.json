@@ -1,0 +1,23 @@
+{
+    "code": "HP-99",
+    "region": "Kotkhai",
+    "city": "Kotkhai",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Shimla",
+    "division": "Shimla",
+    "description": "The HP-99 RTO serves as the Registering and Licensing Authority (RLA) for the Kotkhai region in the Shimla district. It functions under the jurisdiction of the Sub-Divisional Magistrate (SDM) and manages vehicle registrations and driving licenses. This RTO series became notable in 2023 for receiving record-breaking bids for premium vehicle registration numbers.",
+    "status": "active",
+    "established": "2023",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Kotkhai, District Shimla, Himachal Pradesh",
+    "pinCode": "171202",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kotkhai",
+        "Kotkhai Tehsil",
+        "Gumma",
+        "Kalbog",
+        "Baghi"
+    ]
+}
