@@ -1,0 +1,23 @@
+{
+    "code": "MP-04",
+    "region": "Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal Division",
+    "description": "The MP-04 RTO serves the capital city of Bhopal, Madhya Pradesh, and is responsible for vehicle registration and driving licenses for the district. It is the first numerical code assigned to a general administrative district in the state, following the reserved codes for high-level officials and police. The office plays a critical role in managing urban transport and enforcing motor vehicle regulations in the state capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPRTC Building, Behind Mansarovar Complex, 7 Number Stop, Shivaji Nagar, Bhopal, Madhya Pradesh",
+    "pinCode": "462016",
+    "phone": "N/A",
+    "email": "rto-bho-mp@nic.in",
+    "jurisdictionAreas": [
+        "Bhopal City",
+        "Berasia",
+        "Huzur",
+        "Phanda",
+        "Bairagarh"
+    ]
+}

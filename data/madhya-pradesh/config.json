@@ -1,10 +1,10 @@
 {
-  "stateCode": "MP",
-  "name": "Madhya Pradesh",
-  "displayName": "Madhya Pradesh",
-  "capital": "Bhopal",
-  "totalRTOs": 74,
-  "districtMapping": {},
-  "isComplete": false,
-  "type": "state"
+    "stateCode": "MP",
+    "name": "Madhya Pradesh",
+    "displayName": "Madhya Pradesh",
+    "capital": "Bhopal",
+    "totalRTOs": 73,
+    "districtMapping": {},
+    "isComplete": false,
+    "type": "state"
 }

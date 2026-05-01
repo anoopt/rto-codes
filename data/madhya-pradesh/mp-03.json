@@ -1,0 +1,19 @@
+{
+    "code": "MP-03",
+    "region": "Madhya Pradesh Police",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal",
+    "description": "MP-03 is a specialized registration code reserved exclusively for vehicles owned and operated by the Madhya Pradesh Police Department. Unlike standard district codes, this series is active state-wide for the police fleet and is administratively managed from the state capital, Bhopal.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, No. 6 Locality, Shivaji Nagar, Bhopal, Madhya Pradesh",
+    "pinCode": "462016",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "State-wide Police Department Fleet"
+    ]
+}

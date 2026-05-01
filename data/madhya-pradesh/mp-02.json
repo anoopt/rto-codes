@@ -1,0 +1,23 @@
+{
+    "code": "MP-02",
+    "region": "Madhya Pradesh State Government",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal",
+    "description": "MP-02 is a specialized registration code reserved exclusively for vehicles owned and operated by the Madhya Pradesh State Government. Unlike standard city-based RTOs, this code is used for the official government fleet and is centrally administered through the state's transport infrastructure in the capital city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shivaji Nagar, Bhopal, Madhya Pradesh",
+    "pinCode": "462016",
+    "phone": "0755-2460111",
+    "email": "rtobho-mp@nic.in",
+    "jurisdictionAreas": [
+        "State Government Departments",
+        "Government Secretariat",
+        "Madhya Pradesh Legislative Assembly",
+        "State Ministry Fleet",
+        "Administrative Department Vehicles"
+    ]
+}

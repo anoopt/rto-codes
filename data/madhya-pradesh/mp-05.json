@@ -1,0 +1,25 @@
+{
+    "code": "MP-05",
+    "region": "Narmadapuram",
+    "city": "Narmadapuram",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Narmadapuram",
+    "division": "Narmadapuram",
+    "description": "The MP-05 RTO serves the Narmadapuram district, formerly known as Hoshangabad, which is a major administrative hub in central Madhya Pradesh. It is a vital office for vehicle registration and licensing within the Narmada valley region, handling heavy traffic due to its proximity to the Itarsi railway junction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPSRTC Bus Stand, Near Satrasta RTO Office, Narmadapuram, Madhya Pradesh",
+    "pinCode": "461001",
+    "phone": "07574-253939",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Narmadapuram",
+        "Itarsi",
+        "Seoni Malwa",
+        "Pipariya",
+        "Sohagpur",
+        "Babai",
+        "Dolariya"
+    ]
+}
