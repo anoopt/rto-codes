@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "code": "MP-02",
+    "region": "Madhya Pradesh State Government",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal",
+    "description": "MP-02 is a specialized registration code reserved exclusively for vehicles owned and operated by the Madhya Pradesh State Government. Unlike standard city-based RTOs, this code is used for the official government fleet and is centrally administered through the state's transport infrastructure in the capital city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shivaji Nagar, Bhopal, Madhya Pradesh",
+    "pinCode": "462016",
+    "phone": "0755-2460111",
+    "email": "rtobho-mp@nic.in",
+    "jurisdictionAreas": [
+      "State Government Departments",
+      "Government Secretariat",
+      "Madhya Pradesh Legislative Assembly",
+      "State Ministry Fleet",
+      "Administrative Department Vehicles"
+    ]
+  },
+  {
+    "code": "MP-03",
+    "region": "Madhya Pradesh Police",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal",
+    "description": "MP-03 is a specialized registration code reserved exclusively for vehicles owned and operated by the Madhya Pradesh Police Department. Unlike standard district codes, this series is active state-wide for the police fleet and is administratively managed from the state capital, Bhopal.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, No. 6 Locality, Shivaji Nagar, Bhopal, Madhya Pradesh",
+    "pinCode": "462016",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "State-wide Police Department Fleet"
+    ]
+  },
+  {
+    "code": "MP-04",
+    "region": "Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal Division",
+    "description": "The MP-04 RTO serves the capital city of Bhopal, Madhya Pradesh, and is responsible for vehicle registration and driving licenses for the district. It is the first numerical code assigned to a general administrative district in the state, following the reserved codes for high-level officials and police. The office plays a critical role in managing urban transport and enforcing motor vehicle regulations in the state capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPRTC Building, Behind Mansarovar Complex, 7 Number Stop, Shivaji Nagar, Bhopal, Madhya Pradesh",
+    "pinCode": "462016",
+    "phone": "N/A",
+    "email": "rto-bho-mp@nic.in",
+    "jurisdictionAreas": [
+      "Bhopal City",
+      "Berasia",
+      "Huzur",
+      "Phanda",
+      "Bairagarh"
+    ]
+  },
+  {
+    "code": "MP-05",
+    "region": "Narmadapuram",
+    "city": "Narmadapuram",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Narmadapuram",
+    "division": "Narmadapuram",
+    "description": "The MP-05 RTO serves the Narmadapuram district, formerly known as Hoshangabad, which is a major administrative hub in central Madhya Pradesh. It is a vital office for vehicle registration and licensing within the Narmada valley region, handling heavy traffic due to its proximity to the Itarsi railway junction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPSRTC Bus Stand, Near Satrasta RTO Office, Narmadapuram, Madhya Pradesh",
+    "pinCode": "461001",
+    "phone": "07574-253939",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Narmadapuram",
+      "Itarsi",
+      "Seoni Malwa",
+      "Pipariya",
+      "Sohagpur",
+      "Babai",
+      "Dolariya"
+    ]
+  }
+]
