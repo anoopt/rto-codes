@@ -1,0 +1,23 @@
+{
+    "code": "MP-09",
+    "region": "Indore",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Indore",
+    "division": "Indore",
+    "description": "MP-09 is the Regional Transport Office for Indore, the largest city and commercial hub of Madhya Pradesh. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations across one of Central India's most significant urban and industrial corridors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office, Nayta Mundla, Indore, Madhya Pradesh",
+    "pinCode": "452020",
+    "phone": "0731-2363151",
+    "email": "rto.ind@mp.gov.in",
+    "jurisdictionAreas": [
+        "Indore",
+        "Depalpur",
+        "Sanwer",
+        "Mhow",
+        "Dr. Ambedkar Nagar"
+    ]
+}

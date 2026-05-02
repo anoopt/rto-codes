@@ -1,0 +1,23 @@
+{
+    "code": "MP-07",
+    "region": "Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Gwalior",
+    "division": "Gwalior",
+    "description": "MP-07 is the Regional Transport Office serving Gwalior, a major historical and administrative city in Madhya Pradesh. This RTO is responsible for vehicle registration, driving license issuance, and enforcing road safety regulations within the Gwalior district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Police Station, Aamkho Road, Vakil Colony, Kampoo, Gwalior, Madhya Pradesh",
+    "pinCode": "474001",
+    "phone": "0751-2321073",
+    "email": "rtogwalior@mp.gov.in",
+    "jurisdictionAreas": [
+        "Gwalior City",
+        "Dabra",
+        "Bhitarwar",
+        "Chinore",
+        "Ghatigaon"
+    ]
+}

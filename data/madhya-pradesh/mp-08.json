@@ -1,0 +1,24 @@
+{
+    "code": "MP-08",
+    "region": "Guna",
+    "city": "Guna",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Guna",
+    "division": "Gwalior",
+    "description": "The MP-08 Regional Transport Office serves the Guna district in Madhya Pradesh, managing vehicle registrations, driving licenses, and transport permits. It is a key administrative hub for road safety and transport regulation in the Gwalior division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Model Town Colony, Guna, Madhya Pradesh 473001",
+    "pinCode": "473001",
+    "phone": "+91-7542-221905",
+    "email": "rtoguna@mp.gov.in",
+    "jurisdictionAreas": [
+        "Guna",
+        "Raghogarh",
+        "Chachoura",
+        "Kumbhraj",
+        "Aron",
+        "Binaganj"
+    ]
+}

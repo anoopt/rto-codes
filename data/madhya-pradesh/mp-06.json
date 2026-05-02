@@ -1,0 +1,24 @@
+{
+    "code": "MP-06",
+    "region": "Morena",
+    "city": "Morena",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Morena",
+    "division": "Chambal Division",
+    "description": "The RTO Morena (MP-06) is a vital Regional Transport Office serving the Morena district within the Chambal division. It is responsible for motor vehicle registrations, issuance of driving licenses, and enforcement of the Motor Vehicles Act along the Mumbai-Agra National Highway (NH-3).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Chonda Toll Tax, Mumbai-Agra National Highway (A.B. Road), Morena, Madhya Pradesh",
+    "pinCode": "476001",
+    "phone": "N/A",
+    "email": "rtomorena@mp.gov.in",
+    "jurisdictionAreas": [
+        "Morena",
+        "Ambah",
+        "Porsa",
+        "Joura",
+        "Sabalgarh",
+        "Kailaras"
+    ]
+}
