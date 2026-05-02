@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-01T20:24:56.930Z",
-  "totalRTOs": 486,
-  "totalVerified": 486,
+  "generatedAt": "2026-05-02T02:59:13.369Z",
+  "totalRTOs": 490,
+  "totalVerified": 490,
   "totalStates": 28,
   "completedStates": 9,
   "inProgressStates": 2,
@@ -775,15 +775,19 @@
     {
       "stateCode": "MP",
       "stateName": "Madhya Pradesh",
-      "rtoCount": 4,
+      "rtoCount": 8,
       "totalExpectedRTOs": 73,
       "activeRTOs": 0,
-      "verifiedCount": 4,
+      "verifiedCount": 8,
       "rtoCodes": [
         "mp-02",
         "mp-03",
         "mp-04",
-        "mp-05"
+        "mp-05",
+        "mp-06",
+        "mp-07",
+        "mp-08",
+        "mp-09"
       ],
       "isComplete": false,
       "type": "state",
@@ -1783,15 +1787,19 @@
     "MP": {
       "stateCode": "MP",
       "stateName": "Madhya Pradesh",
-      "rtoCount": 4,
+      "rtoCount": 8,
       "totalExpectedRTOs": 73,
       "activeRTOs": 0,
-      "verifiedCount": 4,
+      "verifiedCount": 8,
       "rtoCodes": [
         "mp-02",
         "mp-03",
         "mp-04",
-        "mp-05"
+        "mp-05",
+        "mp-06",
+        "mp-07",
+        "mp-08",
+        "mp-09"
       ],
       "isComplete": false,
       "type": "state",
