@@ -182,5 +182,108 @@
       "Mhow",
       "Dr. Ambedkar Nagar"
     ]
+  },
+  {
+    "code": "MP-10",
+    "region": "Khargone",
+    "city": "Khargone",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Khargone",
+    "division": "Indore",
+    "description": "The MP-10 RTO office is located in Khargone, Madhya Pradesh, and serves as the primary administrative body for vehicle registration and licensing in the Khargone district. It manages both commercial and private vehicle permits and is a key hub for road safety enforcement in the West Nimar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPSRTC Depot, Sanawad Road, Khargone, Madhya Pradesh",
+    "pinCode": "451001",
+    "phone": "07282-232022",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khargone",
+      "Barwaha",
+      "Bhikangaon",
+      "Kasrawad",
+      "Maheshwar",
+      "Gogawan",
+      "Segaon",
+      "Jhiranya",
+      "Bhagwanpura"
+    ]
+  },
+  {
+    "code": "MP-11",
+    "region": "Dhar",
+    "city": "Dhar",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Dhar",
+    "division": "Indore",
+    "description": "MP-11 is the Regional Transport Office serving the Dhar district in Madhya Pradesh. It is a critical administrative hub for vehicle registration and licensing, notably overseeing the industrial corridor of Pithampur along with various agricultural blocks.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ratlam Road, RTO Office, Dhar, Madhya Pradesh",
+    "pinCode": "454001",
+    "phone": "07292-232458",
+    "email": "rtodhar@mp.gov.in",
+    "jurisdictionAreas": [
+      "Dhar",
+      "Badnawar",
+      "Kukshi",
+      "Manawar",
+      "Sardarpur",
+      "Gandhwani",
+      "Dharampuri",
+      "Pithampur",
+      "Nisarpur",
+      "Tirla"
+    ]
+  },
+  {
+    "code": "MP-12",
+    "region": "Khandwa",
+    "city": "Khandwa",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Khandwa",
+    "division": "Indore",
+    "description": "The MP-12 Regional Transport Office (RTO) serves the Khandwa district, also known as East Nimar, in Madhya Pradesh. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport safety regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Anand Nagar Road, Khandwa, Madhya Pradesh",
+    "pinCode": "450001",
+    "phone": "0733-2248684",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khandwa",
+      "Pandhana",
+      "Punasa",
+      "Harsud",
+      "Khalwa"
+    ]
+  },
+  {
+    "code": "MP-13",
+    "region": "Ujjain",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Ujjain",
+    "division": "Ujjain",
+    "description": "The MP-13 Regional Transport Office serves the Ujjain district, an important cultural and pilgrimage center in Madhya Pradesh. This office is responsible for the issuance of driving licenses, vehicle registrations (RC), and road tax collection for both private and commercial transport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Dewas Road, Bharatpuri, Ujjain, Madhya Pradesh",
+    "pinCode": "456010",
+    "phone": "0734-2511585",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ujjain",
+      "Nagda",
+      "Khachrod",
+      "Barnagar",
+      "Mahidpur",
+      "Tarana",
+      "Ghatiya"
+    ]
   }
 ]
