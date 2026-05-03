@@ -1,0 +1,23 @@
+{
+    "code": "MP-12",
+    "region": "Khandwa",
+    "city": "Khandwa",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Khandwa",
+    "division": "Indore",
+    "description": "The MP-12 Regional Transport Office (RTO) serves the Khandwa district, also known as East Nimar, in Madhya Pradesh. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport safety regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Anand Nagar Road, Khandwa, Madhya Pradesh",
+    "pinCode": "450001",
+    "phone": "0733-2248684",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khandwa",
+        "Pandhana",
+        "Punasa",
+        "Harsud",
+        "Khalwa"
+    ]
+}

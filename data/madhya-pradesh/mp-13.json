@@ -1,0 +1,25 @@
+{
+    "code": "MP-13",
+    "region": "Ujjain",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Ujjain",
+    "division": "Ujjain",
+    "description": "The MP-13 Regional Transport Office serves the Ujjain district, an important cultural and pilgrimage center in Madhya Pradesh. This office is responsible for the issuance of driving licenses, vehicle registrations (RC), and road tax collection for both private and commercial transport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Dewas Road, Bharatpuri, Ujjain, Madhya Pradesh",
+    "pinCode": "456010",
+    "phone": "0734-2511585",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ujjain",
+        "Nagda",
+        "Khachrod",
+        "Barnagar",
+        "Mahidpur",
+        "Tarana",
+        "Ghatiya"
+    ]
+}

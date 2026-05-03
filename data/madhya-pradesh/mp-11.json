@@ -1,0 +1,28 @@
+{
+    "code": "MP-11",
+    "region": "Dhar",
+    "city": "Dhar",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Dhar",
+    "division": "Indore",
+    "description": "MP-11 is the Regional Transport Office serving the Dhar district in Madhya Pradesh. It is a critical administrative hub for vehicle registration and licensing, notably overseeing the industrial corridor of Pithampur along with various agricultural blocks.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ratlam Road, RTO Office, Dhar, Madhya Pradesh",
+    "pinCode": "454001",
+    "phone": "07292-232458",
+    "email": "rtodhar@mp.gov.in",
+    "jurisdictionAreas": [
+        "Dhar",
+        "Badnawar",
+        "Kukshi",
+        "Manawar",
+        "Sardarpur",
+        "Gandhwani",
+        "Dharampuri",
+        "Pithampur",
+        "Nisarpur",
+        "Tirla"
+    ]
+}

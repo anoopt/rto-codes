@@ -1,0 +1,27 @@
+{
+    "code": "MP-10",
+    "region": "Khargone",
+    "city": "Khargone",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Khargone",
+    "division": "Indore",
+    "description": "The MP-10 RTO office is located in Khargone, Madhya Pradesh, and serves as the primary administrative body for vehicle registration and licensing in the Khargone district. It manages both commercial and private vehicle permits and is a key hub for road safety enforcement in the West Nimar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPSRTC Depot, Sanawad Road, Khargone, Madhya Pradesh",
+    "pinCode": "451001",
+    "phone": "07282-232022",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khargone",
+        "Barwaha",
+        "Bhikangaon",
+        "Kasrawad",
+        "Maheshwar",
+        "Gogawan",
+        "Segaon",
+        "Jhiranya",
+        "Bhagwanpura"
+    ]
+}
