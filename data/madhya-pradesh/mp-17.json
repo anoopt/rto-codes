@@ -1,0 +1,28 @@
+{
+    "code": "MP-17",
+    "region": "Rewa",
+    "city": "Rewa",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Rewa",
+    "division": "Rewa",
+    "description": "The MP-17 Regional Transport Office (RTO) serves the Rewa district of Madhya Pradesh. It is a key administrative hub for vehicle registration, driving license issuance, and enforcement of transport regulations in the northeastern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MP SRTC Depot, NH-7, Allahabad Road, Rathara, Rewa, Madhya Pradesh",
+    "pinCode": "486001",
+    "phone": "07662-251277",
+    "email": "rtorew-mp@nic.in",
+    "jurisdictionAreas": [
+        "Rewa",
+        "Huzur",
+        "Sirmour",
+        "Mauganj",
+        "Hanumana",
+        "Teonthar",
+        "Naigarhi",
+        "Gurh",
+        "Mangawan",
+        "Semaria"
+    ]
+}

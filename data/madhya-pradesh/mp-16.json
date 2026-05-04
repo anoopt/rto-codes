@@ -1,0 +1,28 @@
+{
+    "code": "MP-16",
+    "region": "Chhatarpur",
+    "city": "Chhatarpur",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Chhatarpur",
+    "division": "Sagar Division",
+    "description": "The MP-16 Regional Transport Office (RTO) serves the Chhatarpur district in Madhya Pradesh. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations across a region significant for its heritage sites like Khajuraho.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mahoba Road, Chhatarpur, Madhya Pradesh",
+    "pinCode": "471001",
+    "phone": "07682-245710",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chhatarpur",
+        "Nowgong",
+        "Rajnagar",
+        "Laundi",
+        "Bijawar",
+        "Buxwaha",
+        "Chandla",
+        "Gaurihar",
+        "Maharajpur",
+        "Ghiraur"
+    ]
+}

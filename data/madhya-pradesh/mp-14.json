@@ -1,0 +1,26 @@
+{
+    "code": "MP-14",
+    "region": "Mandsaur",
+    "city": "Mandsaur",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Mandsaur",
+    "division": "Ujjain",
+    "description": "The MP-14 Regional Transport Office serves the Mandsaur district in the Malwa region of Madhya Pradesh. It is responsible for vehicle registration, driving license issuance, and road tax collection for the entire district area, which is historically significant and known for its agricultural economy.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mhow-Neemuch Road, Behind Y.D. Nagar Police Station, Mandsaur, Madhya Pradesh",
+    "pinCode": "458001",
+    "phone": "07422-255364",
+    "email": "rtomandsaur@mp.gov.in",
+    "jurisdictionAreas": [
+        "Mandsaur",
+        "Malhargarh",
+        "Garoth",
+        "Shamgarh",
+        "Daloda",
+        "Bhanpura",
+        "Suwasra",
+        "Sitamau"
+    ]
+}

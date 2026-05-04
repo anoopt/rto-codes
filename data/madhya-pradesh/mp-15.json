@@ -1,0 +1,29 @@
+{
+    "code": "MP-15",
+    "region": "Sagar",
+    "city": "Sagar",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Sagar",
+    "division": "Sagar Division",
+    "description": "MP-15 is the Regional Transport Office serving Sagar district in Madhya Pradesh. It is responsible for vehicle registration, driving license issuance, and road tax collection for both private and commercial transport within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "MPSRTC Depot, Tilli Road, Sagar, Madhya Pradesh",
+    "pinCode": "470002",
+    "phone": "07582-236420",
+    "email": "rtosag@mp.gov.in",
+    "jurisdictionAreas": [
+        "Sagar",
+        "Bina",
+        "Khurai",
+        "Rehli",
+        "Deori",
+        "Banda",
+        "Shahgarh",
+        "Rahatgarh",
+        "Jaisinagar",
+        "Kesli",
+        "Malthone"
+    ]
+}
