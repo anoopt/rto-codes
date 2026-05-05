@@ -1,0 +1,25 @@
+{
+    "code": "MP-21",
+    "region": "Katni",
+    "city": "Katni",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Katni",
+    "division": "Jabalpur",
+    "description": "The MP-21 RTO office serves the Katni district of Madhya Pradesh, which is a significant commercial and railway junction known for its limestone and marble industries. This office is responsible for vehicle registrations, issuing driving licenses, and enforcing transport laws within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "M.I.G. 61, 62 Housing Board Colony, Katni, Madhya Pradesh",
+    "pinCode": "483501",
+    "phone": "07622-224109",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Katni",
+        "Murwara",
+        "Bahoriband",
+        "Dheemerkheda",
+        "Rithi",
+        "Badwara",
+        "Vijayraghavgarh"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "code": "MP-19",
+    "region": "Satna",
+    "city": "Satna",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Satna",
+    "division": "Rewa",
+    "description": "The MP-19 RTO serves the Satna district in Madhya Pradesh, operating under the Rewa transport division. It is the primary authority for vehicle registration, driving license issuance, and road tax collection for the region, which is a significant industrial area known for cement production.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Old Collectorate Building, Civil Line, Satna, Madhya Pradesh",
+    "pinCode": "485001",
+    "phone": "07672-226320",
+    "email": "rto-satna@mp.gov.in",
+    "jurisdictionAreas": [
+        "Satna",
+        "Maihar",
+        "Amarpatan",
+        "Ramnagar",
+        "Unchehara",
+        "Nagod",
+        "Majhgawan",
+        "Rampur Baghelan",
+        "Kotar",
+        "Birsinghpur"
+    ]
+}

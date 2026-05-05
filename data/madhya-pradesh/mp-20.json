@@ -1,0 +1,25 @@
+{
+    "code": "MP-20",
+    "region": "Jabalpur",
+    "city": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Jabalpur",
+    "division": "Jabalpur",
+    "description": "MP-20 is the Regional Transport Office (RTO) serving the Jabalpur district of Madhya Pradesh. As a primary administrative hub for the region, it manages vehicle registrations, driving license issuances, and transport permit regulations for one of the state's most significant judicial and commercial centers.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Karmeta, Jabalpur, Madhya Pradesh",
+    "pinCode": "482002",
+    "phone": "0761-2621328",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jabalpur",
+        "Sihora",
+        "Patan",
+        "Shahpura",
+        "Panagar",
+        "Majhouli",
+        "Kundam"
+    ]
+}
