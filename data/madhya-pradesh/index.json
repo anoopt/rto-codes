@@ -396,5 +396,107 @@
       "Mangawan",
       "Semaria"
     ]
+  },
+  {
+    "code": "MP-18",
+    "region": "Shahdol",
+    "city": "Shahdol",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Shahdol",
+    "division": "Shahdol Division",
+    "description": "The MP-18 Regional Transport Office serves the Shahdol district of Madhya Pradesh, managing vehicle registrations, driving licenses, and transport permits. It is a vital administrative center for the northeastern region of the state, ensuring compliance with Motor Vehicle Acts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Head Post Office, In Front of Nagar Palika RTO Office, Shahdol, Madhya Pradesh",
+    "pinCode": "484001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shahdol",
+      "Sohagpur",
+      "Beohari",
+      "Jaisinghnagar",
+      "Budhar",
+      "Gohparu"
+    ]
+  },
+  {
+    "code": "MP-19",
+    "region": "Satna",
+    "city": "Satna",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Satna",
+    "division": "Rewa",
+    "description": "The MP-19 RTO serves the Satna district in Madhya Pradesh, operating under the Rewa transport division. It is the primary authority for vehicle registration, driving license issuance, and road tax collection for the region, which is a significant industrial area known for cement production.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Old Collectorate Building, Civil Line, Satna, Madhya Pradesh",
+    "pinCode": "485001",
+    "phone": "07672-226320",
+    "email": "rto-satna@mp.gov.in",
+    "jurisdictionAreas": [
+      "Satna",
+      "Maihar",
+      "Amarpatan",
+      "Ramnagar",
+      "Unchehara",
+      "Nagod",
+      "Majhgawan",
+      "Rampur Baghelan",
+      "Kotar",
+      "Birsinghpur"
+    ]
+  },
+  {
+    "code": "MP-20",
+    "region": "Jabalpur",
+    "city": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Jabalpur",
+    "division": "Jabalpur",
+    "description": "MP-20 is the Regional Transport Office (RTO) serving the Jabalpur district of Madhya Pradesh. As a primary administrative hub for the region, it manages vehicle registrations, driving license issuances, and transport permit regulations for one of the state's most significant judicial and commercial centers.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Karmeta, Jabalpur, Madhya Pradesh",
+    "pinCode": "482002",
+    "phone": "0761-2621328",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jabalpur",
+      "Sihora",
+      "Patan",
+      "Shahpura",
+      "Panagar",
+      "Majhouli",
+      "Kundam"
+    ]
+  },
+  {
+    "code": "MP-21",
+    "region": "Katni",
+    "city": "Katni",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Katni",
+    "division": "Jabalpur",
+    "description": "The MP-21 RTO office serves the Katni district of Madhya Pradesh, which is a significant commercial and railway junction known for its limestone and marble industries. This office is responsible for vehicle registrations, issuing driving licenses, and enforcing transport laws within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "M.I.G. 61, 62 Housing Board Colony, Katni, Madhya Pradesh",
+    "pinCode": "483501",
+    "phone": "07622-224109",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Katni",
+      "Murwara",
+      "Bahoriband",
+      "Dheemerkheda",
+      "Rithi",
+      "Badwara",
+      "Vijayraghavgarh"
+    ]
   }
 ]
