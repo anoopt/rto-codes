@@ -498,5 +498,30 @@
       "Badwara",
       "Vijayraghavgarh"
     ]
+  },
+  {
+    "code": "MP-22",
+    "region": "Seoni",
+    "city": "Seoni",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Seoni",
+    "division": "Jabalpur",
+    "description": "The MP-22 RTO is the Regional Transport Office serving the Seoni district in Madhya Pradesh. It manages vehicle registrations, driving license issuance, and enforcement of transport safety regulations along the important Nagpur-Jabalpur corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Nagpur-Jabalpur Road, Nagjhar, Post-Vijhabara, Seoni, Madhya Pradesh",
+    "pinCode": "480661",
+    "phone": "07692-228047",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Seoni",
+      "Keolari",
+      "Lakhnadon",
+      "Barghat",
+      "Chhapara",
+      "Ghansore",
+      "Kurai"
+    ]
   }
 ]
