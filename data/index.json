@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T03:00:12.192Z",
+  "generatedAt": "2026-05-11T03:01:00.786Z",
   "totalRTOs": 503,
   "totalVerified": 503,
   "totalStates": 28,
@@ -776,7 +776,7 @@
       "stateCode": "MP",
       "stateName": "Madhya Pradesh",
       "rtoCount": 21,
-      "totalExpectedRTOs": 54,
+      "totalExpectedRTOs": 50,
       "activeRTOs": 0,
       "verifiedCount": 21,
       "rtoCodes": [
@@ -1801,7 +1801,7 @@
       "stateCode": "MP",
       "stateName": "Madhya Pradesh",
       "rtoCount": 21,
-      "totalExpectedRTOs": 54,
+      "totalExpectedRTOs": 50,
       "activeRTOs": 0,
       "verifiedCount": 21,
       "rtoCodes": [
