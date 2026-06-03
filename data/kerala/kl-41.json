@@ -1,0 +1,26 @@
+{
+    "code": "KL-41",
+    "region": "Aluva",
+    "city": "Aluva",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "The KL-41 Sub-Regional Transport Office serves the Aluva region in the Ernakulam district of Kerala. Established in 2006, it handles vehicle registrations, driving licenses, and transport permits for the Aluva Taluk area under the jurisdiction of the Regional Transport Office Ernakulam.",
+    "status": "active",
+    "established": "2006",
+    "address": "Building No. VIII/501(14), Mini Civil Station, Goods Shed Road, Aluva, Kerala - 683101",
+    "pinCode": "683101",
+    "phone": "0484-2622006",
+    "email": "kl41.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Aluva Taluk",
+        "Aluva Municipality",
+        "Chengamanad",
+        "Chowwara",
+        "Kanjirakkad",
+        "Keezhmad",
+        "Nedumbassery",
+        "Sre-Karumalloor"
+    ]
+}

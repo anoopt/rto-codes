@@ -1,0 +1,27 @@
+{
+    "code": "KL-50",
+    "region": "Mannarkkad",
+    "city": "Mannarkkad",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Palakkad",
+    "division": "Palakkad",
+    "description": "KL-50 is the Sub Regional Transport Office (SRTO) for Mannarkkad, functioning under the Palakkad Regional Transport Office. It primarily serves the Mannarkkad Taluk, providing essential services such as vehicle registration, driving licenses, and permit renewals for the eastern region of Palakkad district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Civil Station, Kunthipuzha, Mannarkkad, Kerala",
+    "pinCode": "678582",
+    "phone": "04924-223090",
+    "email": "kl50.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Mannarkkad Taluk",
+        "Attappadi",
+        "Agali",
+        "Pudur",
+        "Sholayur",
+        "Kottoppadam",
+        "Kumaramputhur",
+        "Thenkara",
+        "Alanallur"
+    ]
+}

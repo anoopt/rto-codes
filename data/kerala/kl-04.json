@@ -1,0 +1,23 @@
+{
+    "code": "KL-04",
+    "region": "Alappuzha",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Alappuzha",
+    "description": "The KL-04 RTO serves the Alappuzha region and was one of the original 14 registration offices established in Kerala in 1989. It is the primary transport authority for the Ambalappuzha taluk, handling vehicle registrations, licensing, and road safety enforcement.",
+    "status": "active",
+    "established": "1989",
+    "address": "Civil Station Building, Civil Station P.O., Alappuzha, Kerala",
+    "pinCode": "688001",
+    "phone": "0477-2253160",
+    "email": "kl04.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Ambalappuzha Taluk",
+        "Alappuzha Municipality",
+        "Mannancherry",
+        "Aryad",
+        "Mararikulam"
+    ]
+}

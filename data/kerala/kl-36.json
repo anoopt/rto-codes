@@ -1,0 +1,26 @@
+{
+    "code": "KL-36",
+    "region": "Vaikom",
+    "city": "Vaikom",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Kottayam Division",
+    "description": "KL-36 is the Sub Regional Transport Office (SRTO) serving the Vaikom region in the Kottayam district of Kerala. Established in 2006, it facilitates vehicle registration, driving licenses, and transport safety regulations for the local community.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Municipal Shopping Complex, Hospital Road, Vaikom, Kerala",
+    "pinCode": "686141",
+    "phone": "04829-224141",
+    "email": "kl36.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Vaikom Taluk",
+        "Vaikom Municipality",
+        "Thalayolaparambu",
+        "Kaduthuruthy",
+        "Chempu",
+        "Udayanapuram",
+        "Maravanthuruthu",
+        "TTV Puram"
+    ]
+}

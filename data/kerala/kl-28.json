@@ -1,0 +1,25 @@
+{
+    "code": "KL-28",
+    "region": "Mallappally",
+    "city": "Mallappally",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "Pathanamthitta",
+    "description": "KL-28 serves as the Sub-Regional Transport Office (SRTO) for Mallappally in the Pathanamthitta district of Kerala. It was established to provide decentralized transport services such as vehicle registration and licensing specifically for the residents of the Mallappally Taluk region.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Mallappally, Kerala - 689585",
+    "pinCode": "689585",
+    "phone": "0469-2681900",
+    "email": "kl28@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Mallappally Taluk",
+        "Anicadu",
+        "Kallooppara",
+        "Kottangal",
+        "Mallappally",
+        "Puramattom",
+        "Ezhumattoor"
+    ]
+}

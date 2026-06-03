@@ -1,0 +1,26 @@
+{
+    "code": "KL-29",
+    "region": "Kayamkulam",
+    "city": "Kayamkulam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Thiruvananthapuram",
+    "description": "KL-29 is the Sub-Regional Transport Office (SRTO) located in Kayamkulam, Kerala. It provides essential services such as vehicle registration, license issuance, and fitness certifications for the Karthikappally Taluk region. The office operates under the administrative oversight of the Alappuzha Regional Transport Office (KL-04).",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Kayamkulam, Alappuzha, Kerala",
+    "pinCode": "690502",
+    "phone": "0479-2447760",
+    "email": "kl29.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Karthikappally Taluk",
+        "Kayamkulam",
+        "Harippad",
+        "Muthukulam",
+        "Cheppad",
+        "Arattupuzha",
+        "Kandalloor",
+        "Krishnapuram"
+    ]
+}

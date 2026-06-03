@@ -1,0 +1,23 @@
+{
+    "code": "KL-59",
+    "region": "Taliparamba",
+    "city": "Taliparamba",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kannur",
+    "division": "Kannur",
+    "description": "The KL-59 RTO serves as the Sub-Regional Transport Office for the Taliparamba region in the Kannur district of Kerala. Established in 2006, it provides essential services such as vehicle registration, driving license issuance, and road tax collection. It ensures compliance with the Motor Vehicles Act within its designated jurisdiction in northern Kerala.",
+    "status": "active",
+    "established": "2006",
+    "address": "Katti Complex, Manna, Thaliparamba, Kannur, Kerala",
+    "pinCode": "670141",
+    "phone": "0460-2206580",
+    "email": "kl59@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Taliparamba Taluk",
+        "Manna",
+        "Payyannur",
+        "Sreekandapuram",
+        "Irikkur"
+    ]
+}

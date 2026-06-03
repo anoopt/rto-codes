@@ -1,0 +1,25 @@
+{
+    "code": "KL-11",
+    "region": "Kozhikode",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "KL-11 is the primary Regional Transport Office for Kozhikode, located at the Civil Station in Eranhippalam. It serves as the main administrative hub for vehicle registration and driver licensing for the Kozhikode Taluk and surrounding metropolitan areas in the Malabar region.",
+    "status": "active",
+    "established": "1989",
+    "address": "Ground Floor, Civil Station, Wayanad Road, Eranhippalam, Kozhikode, Kerala",
+    "pinCode": "673020",
+    "phone": "0495-2371705",
+    "email": "kl11.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kozhikode Taluk",
+        "Kozhikode Corporation",
+        "Beypore",
+        "Cheruvannur",
+        "Nallalam",
+        "Elathur",
+        "Kunnamangalam"
+    ]
+}

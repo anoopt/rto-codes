@@ -1,0 +1,26 @@
+{
+    "code": "KL-57",
+    "region": "Koduvally",
+    "city": "Koduvally",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "KL-57 is the Sub-Regional Transport Office (SRTO) located in Koduvally, Kerala. It operates under the Kerala Motor Vehicles Department to provide essential services like vehicle registration, driving license issuance, and road tax collection for the Koduvally region. This office was established to decentralize the workload from the main Kozhikode RTO and cater more efficiently to the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Koduvally, Kozhikode, Kerala",
+    "pinCode": "673572",
+    "phone": "0495-2213200",
+    "email": "kl57@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Koduvally",
+        "Thamarassery",
+        "Omassery",
+        "Kunnamangalam",
+        "Kizhakoth",
+        "Madavoor",
+        "Puthuppadi",
+        "Koduvally Taluk"
+    ]
+}

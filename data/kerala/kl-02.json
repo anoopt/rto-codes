@@ -1,0 +1,26 @@
+{
+    "code": "KL-02",
+    "region": "Kollam",
+    "city": "Kollam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam",
+    "description": "The KL-02 Regional Transport Office serves as the primary motor vehicle registration authority for the district headquarters of Kollam. It manages critical services including driving license issuance, vehicle registration, and environmental compliance for the Kollam Taluk and surrounding urban areas.",
+    "status": "active",
+    "established": "1989",
+    "address": "Civil Station, Near Anandavalleswaram Temple, Anandavalleswaram, Kollam, Kerala - 691013",
+    "pinCode": "691013",
+    "phone": "0474-2793499",
+    "email": "rtoe02.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kollam Taluk",
+        "Kollam City",
+        "Anandavalleswaram",
+        "Eravipuram",
+        "Kilikollur",
+        "Mayyanad",
+        "Thrikkadavoor",
+        "Kottankara"
+    ]
+}

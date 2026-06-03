@@ -1,0 +1,28 @@
+{
+    "code": "KL-24",
+    "region": "Kottarakara",
+    "city": "Kottarakara",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam",
+    "description": "The KL-24 Sub-Regional Transport Office (SRTO) serves the Kottarakara region within the Kollam district of Kerala. It handles vehicle registration, driving licenses, and transport permits for the Kottarakara Taluk under the administrative control of the main Kollam RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Polachira Building, Market Junction, Kottarakkara, Kollam, Kerala",
+    "pinCode": "691506",
+    "phone": "0474-2455699",
+    "email": "kl24.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kottarakara Taluk",
+        "Kottarakkara Municipality",
+        "Neduvathoor",
+        "Mylom",
+        "Kulakkada",
+        "Ezhukone",
+        "Kareepra",
+        "Ummannoor",
+        "Veliyam",
+        "Pooyappally"
+    ]
+}

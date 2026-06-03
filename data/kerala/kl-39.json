@@ -1,0 +1,25 @@
+{
+    "code": "KL-39",
+    "region": "Thripunithura",
+    "city": "Thripunithura",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "KL-39 is the Sub-Regional Transport Office (SRTO) located in Thripunithura, Kerala, serving the Ernakulam district. Established in 2006, this office manages vehicle registration and licensing services for the Kanayannur Taluk to decentralize the workload from the main Ernakulam RTO (KL-07).",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Tripunithura, Ernakulam, Kerala",
+    "pinCode": "682301",
+    "phone": "0484-2774166",
+    "email": "kl39@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Thripunithura Municipality",
+        "Maradu Municipality",
+        "Kanayannur Taluk",
+        "Udayamperoor",
+        "Amballur",
+        "Mulanthuruthy",
+        "Chottanikkara"
+    ]
+}

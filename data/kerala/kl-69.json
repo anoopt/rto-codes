@@ -1,0 +1,28 @@
+{
+    "code": "KL-69",
+    "region": "Udumbanchola",
+    "city": "Nedumkandam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Idukki",
+    "division": "Idukki",
+    "description": "KL-69 is the Sub-Regional Transport Office (SRTO) serving the Udumbanchola Taluk in the Idukki district of Kerala. It operates from Nedumkandam and provides essential services like vehicle registration, driving licenses, and permit issuance to the high-range hill station areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Regional Transport Office Udumbanchola, Nedumkandam P.O., Idukki, Kerala",
+    "pinCode": "685553",
+    "phone": "04868-232244",
+    "email": "kl69.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Udumbanchola Taluk",
+        "Nedumkandam",
+        "Rajakkad",
+        "Rajakumari",
+        "Santhanpara",
+        "Senapathy",
+        "Vandanmedu",
+        "Bisonvalley",
+        "Chinnakanal",
+        "Pambadumpara"
+    ]
+}

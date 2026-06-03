@@ -1,0 +1,23 @@
+{
+    "code": "KL-03",
+    "region": "Pathanamthitta",
+    "city": "Pathanamthitta",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "Pathanamthitta",
+    "description": "KL-03 is the Regional Transport Office for Pathanamthitta, Kerala, primarily serving the Kozhencherry taluk. It handles vehicle registrations, driving licenses, and road tax collection for the central part of the district. The office was established in 1989 as part of the state-wide motor vehicle registration reform.",
+    "status": "active",
+    "established": "1989",
+    "address": "Stadium Junction, Kaipatoor Pathanamthitta Road, Pathanamthitta, Kerala",
+    "pinCode": "689645",
+    "phone": "0473-2322426",
+    "email": "kl03@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kozhencherry Taluk",
+        "Pathanamthitta Municipality",
+        "Mylapra",
+        "Naranganam",
+        "Omalloor"
+    ]
+}

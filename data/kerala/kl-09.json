@@ -1,0 +1,19 @@
+{
+    "code": "KL-09",
+    "region": "Palakkad",
+    "city": "Palakkad",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Palakkad",
+    "division": "Palakkad",
+    "description": "The KL-09 RTO is the main Regional Transport Office for the Palakkad region, functioning as the primary administrative hub for the district's transport department. It is responsible for vehicle registrations, issuing driving licenses, and enforcing traffic regulations within its specific jurisdiction in Kerala.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Civil Station, Civil Station P.O., Palakkad, Kerala",
+    "pinCode": "678001",
+    "phone": "0491-2505741",
+    "email": "kl09@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Palakkad Taluk"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "code": "KL-20",
+    "region": "Neyyattinkara",
+    "city": "Neyyattinkara",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "KL-20 is the Sub-Regional Transport Office (SRTO) located in Neyyattinkara, functioning under the Thiruvananthapuram Regional Transport Office. It was established in 2006 to decentralize transport services and primarily serves the southern region of the Thiruvananthapuram district near the Tamil Nadu border.",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Opposite Neyyattinkara Taluk Office, Neyyattinkara P.O., Thiruvananthapuram, Kerala",
+    "pinCode": "695121",
+    "phone": "0471-2223643",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Neyyattinkara Taluk",
+        "Neyyattinkara Municipality",
+        "Parassala",
+        "Vellarada",
+        "Perumkadavila",
+        "Kunnathukal",
+        "Aryancode",
+        "Kallikkad",
+        "Ottasekharamangalam",
+        "Kollayil"
+    ]
+}

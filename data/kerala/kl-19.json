@@ -1,0 +1,25 @@
+{
+    "code": "KL-19",
+    "region": "Parassala",
+    "city": "Parassala",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "KL-19 is the Sub-Regional Transport Office (SRTO) serving the Parassala taluk in the Thiruvananthapuram district of Kerala. It is an active office responsible for vehicle registrations, issuing driving licenses, and enforcing motor vehicle regulations in the southernmost part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Civil Station, Parassala, Thiruvananthapuram, Kerala",
+    "pinCode": "695502",
+    "phone": "0471-2200026",
+    "email": "kl19@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Parassala",
+        "Kunnathukal",
+        "Kollayil",
+        "Vellarada",
+        "Amboori",
+        "Perumkadavila",
+        "Ottasekharamangalam"
+    ]
+}

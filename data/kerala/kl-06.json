@@ -1,0 +1,24 @@
+{
+    "code": "KL-06",
+    "region": "Idukki",
+    "city": "Painavu",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Idukki",
+    "division": "Central Zone II",
+    "description": "The KL-06 RTO is the principal Regional Transport Office for the Idukki district in Kerala, headquartered at Painavu. It is responsible for motor vehicle registration, driver licensing, and taxation services primarily within the Idukki Taluk and serves as the central administrative hub for the mountainous district's transport department.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Kuyilimala, Painavu P.O., Idukki, Kerala",
+    "pinCode": "685603",
+    "phone": "04862-232244",
+    "email": "kl06@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Idukki Taluk",
+        "Painavu",
+        "Kuyilimala",
+        "Cheruthoni",
+        "Kanjikuzhy",
+        "Vazhathope"
+    ]
+}

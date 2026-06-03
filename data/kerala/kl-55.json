@@ -1,0 +1,19 @@
+{
+    "code": "KL-55",
+    "region": "Tirur",
+    "city": "Tirur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "Kozhikode",
+    "description": "KL-55 is the Sub Regional Transport Office (SRTO) located in Tirur, Kerala, serving the Malappuram district. Established in 2006, it functions under the jurisdiction of the Malappuram Regional Transport Office and handles vehicle registrations and driving licenses for the Tirur Taluk.",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Tirur, Malappuram, Kerala",
+    "pinCode": "676101",
+    "phone": "0494-2423700",
+    "email": "kl55@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Tirur Taluk"
+    ]
+}

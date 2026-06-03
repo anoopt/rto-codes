@@ -1,0 +1,28 @@
+{
+    "code": "KL-40",
+    "region": "Perumbavoor",
+    "city": "Perumbavoor",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "The KL-40 RTO is the Sub Regional Transport Office (SRTO) located in Perumbavoor, Ernakulam district. It operates under the Kerala Motor Vehicles Department and handles vehicle registration, licensing, and permits for the Kunnathunad Taluk region. Established in 2006, it serves as a crucial hub for transport administration in the Perumbavoor area.",
+    "status": "active",
+    "established": "2006",
+    "address": "Pattal Shopping Complex, Perumbavoor Municipality, Pattal, Perumbavoor, Ernakulam, Kerala - 683542",
+    "pinCode": "683542",
+    "phone": "0484-2525573",
+    "email": "kl40.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kunnathunad Taluk",
+        "Perumbavoor Municipality",
+        "Vengola",
+        "Mazhuvannoor",
+        "Kizhakkambalam",
+        "Pattimattom",
+        "Kunnathunad Village",
+        "Aikaranad",
+        "Puthencruz",
+        "Thiruvaniyoor"
+    ]
+}

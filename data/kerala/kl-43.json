@@ -1,0 +1,26 @@
+{
+    "code": "KL-43",
+    "region": "Mattancherry",
+    "city": "Kochi",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam Transport Division",
+    "description": "The KL-43 Regional Transport Office serves the Mattancherry region within the Kochi metropolitan area of Kerala. Functioning as a Sub-Regional Transport Office (SRTO), it manages vehicle registrations, driving licenses, and permit issuance to alleviate the burden on the main Ernakulam RTO.",
+    "status": "active",
+    "established": "2006",
+    "address": "Hebron Building, Chemman's Junction, West Karuvelipady, Thoppumpady, Kochi, Kerala",
+    "pinCode": "682005",
+    "phone": "0484-2229200",
+    "email": "kl43.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Mattancherry",
+        "Thoppumpady",
+        "Kochi Taluk",
+        "Fort Kochi",
+        "Palluruthy",
+        "Willingdon Island",
+        "Chellanam",
+        "Kumbalangi"
+    ]
+}

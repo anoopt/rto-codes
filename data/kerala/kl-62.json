@@ -1,0 +1,27 @@
+{
+    "code": "KL-62",
+    "region": "Ranni",
+    "city": "Ranni",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "South Zone",
+    "description": "KL-62 is the Sub-Regional Transport Office (SRTO) for Ranni, established in 2011 to decentralize administrative functions from the Pathanamthitta RTO. It serves the residents of Ranni Taluk, providing services like vehicle registration, driver testing, and pollution control regulation.",
+    "status": "active",
+    "established": "2011",
+    "address": "Sub Regional Transport Office, Ranni, Pathanamthitta, Kerala",
+    "pinCode": "689672",
+    "phone": "0473-5228866",
+    "email": "kl62@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Ranni Taluk",
+        "Pazhavangadi",
+        "Angadi",
+        "Ranni-Perunad",
+        "Vadasserikkara",
+        "Chittar",
+        "Seethathodu",
+        "Naranammoozhy",
+        "Vechoochira"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "code": "KL-44",
+    "region": "Kothamangalam",
+    "city": "Kothamangalam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "The KL-44 RTO office is the Sub-Regional Transport Office (SRTO) serving the Kothamangalam region in Ernakulam district. It manages vehicle registrations, driving licenses, and transport permits for the eastern high-range areas of the district. The office plays a crucial role in regulating traffic and vehicle safety under the Kerala Motor Vehicles Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3rd Floor, Revenue Tower, Near Municipal Bus Stand, Kothamangalam, Kerala",
+    "pinCode": "686691",
+    "phone": "0485-2826826",
+    "email": "kl44@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kothamangalam Taluk",
+        "Kothamangalam",
+        "Neriamangalam",
+        "Pothanicad",
+        "Varappetty",
+        "Keerampara",
+        "Paingottoor",
+        "Kottappady",
+        "Pindimana",
+        "Nellikkuzhi"
+    ]
+}

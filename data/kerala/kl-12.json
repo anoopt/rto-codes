@@ -1,0 +1,27 @@
+{
+    "code": "KL-12",
+    "region": "Kalpetta",
+    "city": "Kalpetta",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Wayanad",
+    "division": "North Zone",
+    "description": "The KL-12 RTO is the primary Regional Transport Office for the Wayanad district, headquartered in Kalpetta. It is responsible for vehicle registration, driving licenses, and enforcing motor vehicle regulations within its jurisdiction, specifically covering the Vythiri taluk area.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Kalpetta, Wayanad, Kerala",
+    "pinCode": "673122",
+    "phone": "04936-202607",
+    "email": "kl12.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kalpetta",
+        "Vythiri",
+        "Meppadi",
+        "Pozhuthana",
+        "Thariyode",
+        "Padinjarathara",
+        "Vengappally",
+        "Muttil",
+        "Kottathara"
+    ]
+}

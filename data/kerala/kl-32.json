@@ -1,0 +1,26 @@
+{
+    "code": "KL-32",
+    "region": "Cherthala",
+    "city": "Cherthala",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Kerala Motor Vehicles Department",
+    "description": "The KL-32 RTO is the Sub-Regional Transport Office located in Cherthala, Alappuzha district, Kerala. It operates under the primary jurisdiction of the Alappuzha RTO and manages vehicle registration, licensing, and transport permits for the local area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "First Floor, Mini Civil Station, Police Station Road, Kodathikavala, Cherthala P.O., Alappuzha, Kerala",
+    "pinCode": "688524",
+    "phone": "0478-2816248",
+    "email": "kl32.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Cherthala Taluk",
+        "Cherthala South",
+        "Cherthala North",
+        "Kodathikavala",
+        "Pattanakkad",
+        "Thuravoor",
+        "Aroor",
+        "Kuthiyathode"
+    ]
+}

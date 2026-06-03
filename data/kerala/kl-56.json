@@ -1,0 +1,23 @@
+{
+    "code": "KL-56",
+    "region": "Koyilandi",
+    "city": "Koyilandi",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "KL-56 is the Sub-Regional Transport Office (SRTO) for Koyilandi in the Kozhikode district of Kerala. Established in 2006, it functions under the jurisdiction of the Kozhikode Regional Transport Office to manage vehicle registrations and driving licenses for the local population. The office serves as a critical administrative hub for road transport services in the northern part of the Kozhikode district.",
+    "status": "active",
+    "established": "2006",
+    "address": "Meethalekandi Complex, Koyilandi, Kozhikode, Kerala",
+    "pinCode": "673305",
+    "phone": "0496-2623215",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Koyilandi",
+        "Balussery",
+        "Payyoli",
+        "Perambra",
+        "Koyilandi Taluk"
+    ]
+}

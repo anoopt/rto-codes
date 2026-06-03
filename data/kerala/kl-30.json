@@ -1,0 +1,28 @@
+{
+    "code": "KL-30",
+    "region": "Chengannur",
+    "city": "Chengannur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Alappuzha",
+    "description": "KL-30 represents the Sub-Regional Transport Office (SRTO) in Chengannur, Kerala. It operates under the Alappuzha Regional Transport Office and manages vehicle registrations, driving license issuances, and transport safety regulations for the Chengannur taluk area.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Chengannur P.O., Chengannur, Alappuzha, Kerala",
+    "pinCode": "689121",
+    "phone": "0479-2450800",
+    "email": "kl30.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Chengannur Taluk",
+        "Mannar",
+        "Pandanad",
+        "Thiruvanvandoor",
+        "Mulakuzha",
+        "Ala",
+        "Puliyoor",
+        "Budhanoor",
+        "Cheriyanad",
+        "Venmony"
+    ]
+}

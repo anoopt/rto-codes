@@ -1,0 +1,25 @@
+{
+    "code": "KL-07",
+    "region": "Ernakulam",
+    "city": "Kochi",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Central Zone",
+    "description": "KL-07 is the primary Regional Transport Office for the Ernakulam district, headquartered in Kochi (Kakkanad). It serves as a major hub for vehicle registration and licensing in Kerala's commercial capital and was the first RTO in the state to reach the milestone of one million vehicle registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "2nd Floor, Civil Station, Thrikkakara P.O., Kakkanad, Kochi, Kerala",
+    "pinCode": "682030",
+    "phone": "0484-2422246",
+    "email": "kl07@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kanayannur Taluk",
+        "Kochi City",
+        "Kakkanad",
+        "Edappally",
+        "Vyttila",
+        "Palarivattom",
+        "Thrikkakara"
+    ]
+}

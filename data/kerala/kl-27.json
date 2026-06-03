@@ -1,0 +1,31 @@
+{
+    "code": "KL-27",
+    "region": "Thiruvalla",
+    "city": "Thiruvalla",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "Pathanamthitta",
+    "description": "KL-27 is the Sub Regional Transport Office (SRTO) serving Thiruvalla in the Pathanamthitta district of Kerala. Established in 2006, it functions under the jurisdiction of the Regional Transport Office (KL-03) Pathanamthitta and manages vehicle registrations, driving licenses, and transport permits for the Thiruvalla Taluk.",
+    "status": "active",
+    "established": "2006",
+    "address": "Revenue Tower, Opposite Police Station, Head Post Office, Thiruvalla, Pathanamthitta, Kerala",
+    "pinCode": "689101",
+    "phone": "0469-2635577",
+    "email": "srto-trvla.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Thiruvalla Taluk",
+        "Kaviyoor",
+        "Kunnamthanam",
+        "Kalloopara",
+        "Anicadu",
+        "Kottangal",
+        "Perumpetty",
+        "Ezhumattoor",
+        "Kadapra",
+        "Niranam",
+        "Peringara",
+        "Nedumpuram",
+        "Kuttoor"
+    ]
+}

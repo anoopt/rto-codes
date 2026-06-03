@@ -1,0 +1,29 @@
+{
+    "code": "KL-26",
+    "region": "Adoor",
+    "city": "Adoor",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "South Zone",
+    "description": "The KL-26 RTO is the Sub-Regional Transport Office (SRTO) located in Adoor, serving the Adoor Taluk within the Pathanamthitta district. It handles vehicle registration, issuance of driving licenses, and transport permit renewals under the Kerala Motor Vehicles Department. The office operates under the jurisdiction of the main Regional Transport Office in Pathanamthitta.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3rd Floor, Revenue Tower, Adoor, Pathanamthitta, Kerala",
+    "pinCode": "691523",
+    "phone": "+91-4734-227475",
+    "email": "kl26@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Adoor Taluk",
+        "Adoor",
+        "Pandalam",
+        "Kodumon",
+        "Ezhamkulam",
+        "Enadimangalam",
+        "Erathu",
+        "Kadampanad",
+        "Kalanjoor",
+        "Pallickal",
+        "Pandalam Thekkekara"
+    ]
+}

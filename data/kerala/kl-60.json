@@ -1,0 +1,24 @@
+{
+    "code": "KL-60",
+    "region": "Kanhangad",
+    "city": "Kanhangad",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kasaragod",
+    "division": "Northern Region",
+    "description": "Sub-Regional Transport Office (SRTO) Kanhangad (KL-60) is an administrative office under the Kerala Motor Vehicles Department. It serves the Hosdurg Taluk and surrounding areas in the Kasaragod district, facilitating vehicle registration, driving licenses, and fitness inspections.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub-Regional Transport Office, Near Town Hall, Kanhangad, Kasaragod, Kerala",
+    "pinCode": "671315",
+    "phone": "0467-2207766",
+    "email": "kl60.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Hosdurg Taluk",
+        "Kanhangad",
+        "Nileshwaram",
+        "Madiyan",
+        "Pullur",
+        "Ajanur"
+    ]
+}

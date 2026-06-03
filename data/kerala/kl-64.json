@@ -1,0 +1,25 @@
+{
+    "code": "KL-64",
+    "region": "Chalakudy",
+    "city": "Chalakudy",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "KL-64 is the Sub-Regional Transport Office (SRTO) located in Chalakudy, under the Thrissur district of Kerala. It is responsible for vehicle registration, driver licensing, and motor vehicle regulation enforcement within the Chalakudy Taluk area. The office operates under the administrative jurisdiction of the Thrissur Regional Transport Office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "2nd Floor, Mini Civil Station, NH 47 Bye Pass, Chalakudi, Thrissur, Kerala",
+    "pinCode": "680307",
+    "phone": "+91-480-2700064",
+    "email": "kl64@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Chalakudy Taluk",
+        "Chalakudy Municipality",
+        "Kodakara",
+        "Mala",
+        "Athirappilly",
+        "Pariyaram",
+        "Aloor"
+    ]
+}

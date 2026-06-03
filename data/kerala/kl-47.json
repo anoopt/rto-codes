@@ -1,0 +1,19 @@
+{
+    "code": "KL-47",
+    "region": "Kodungallur",
+    "city": "Kodungallur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "The KL-47 RTO is a Sub Regional Transport Office located in Kodungallur, Thrissur district. It serves the Kodungallur taluk, facilitating motor vehicle registration, driver's licensing, and enforcement of transport regulations. It operates as part of the Kerala Motor Vehicles Department to improve administrative efficiency in the region.",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Vadakke Nada, Kodungallur, Thrissur, Kerala - 680664",
+    "pinCode": "680664",
+    "phone": "0480-2807666",
+    "email": "kl47.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kodungallur Taluk"
+    ]
+}

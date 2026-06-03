@@ -1,0 +1,20 @@
+{
+    "code": "KL-15",
+    "region": "Nationalised Sector (KSRTC)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "KL-15 is a specialized Regional Transport Office code in Kerala dedicated to the Nationalised Sector, specifically for the Kerala State Road Transport Corporation (KSRTC). It manages the registration and regulation of the state-run bus fleet across the entire state of Kerala. The office is centrally located at the KSRTC headquarters in the state capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Bhavan, Near Attukal Shopping Complex, East Fort, Thiruvananthapuram, Kerala",
+    "pinCode": "695023",
+    "phone": "0471-2471011",
+    "email": "kl15@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "State-wide KSRTC Vehicles",
+        "Kerala State Road Transport Corporation Depots"
+    ]
+}

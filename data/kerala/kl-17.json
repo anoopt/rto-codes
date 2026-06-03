@@ -1,0 +1,30 @@
+{
+    "code": "KL-17",
+    "region": "Muvattupuzha",
+    "city": "Muvattupuzha",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "The KL-17 RTO is an active Regional Transport Office based in Muvattupuzha, serving the central part of Ernakulam district. It manages a wide range of services including vehicle registration, driving licenses, and transport permits for the Muvattupuzha Taluk. It was established to decentralize transport administration from the main Ernakulam RTO to better serve the local population.",
+    "status": "active",
+    "established": "2002",
+    "address": "Mini Civil Station, Vazhappilly, Mudavoor P.O., Muvattupuzha, Kerala",
+    "pinCode": "686669",
+    "phone": "0485-2814959",
+    "email": "kl17@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Muvattupuzha Taluk",
+        "Muvattupuzha Municipality",
+        "Arakuzha",
+        "Ayavana",
+        "Enanalloor",
+        "Kalloorkkad",
+        "Manjalloor",
+        "Marady",
+        "Paipra",
+        "Valakam",
+        "Paippra",
+        "Avoli"
+    ]
+}

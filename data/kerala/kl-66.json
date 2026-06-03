@@ -1,0 +1,30 @@
+{
+    "code": "KL-66",
+    "region": "Kuttanad",
+    "city": "Kuttanad",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Alappuzha",
+    "description": "KL-66 is the Sub-Regional Transport Office (SRTO) serving the Kuttanad Taluk in Alappuzha district. Established in 2013, it facilitates vehicle registration, driving licenses, and other transport-related services for the unique backwater region of Kerala.",
+    "status": "active",
+    "established": "2013",
+    "address": "2nd Floor, Kailath Building, Ramankary, Kuttanad, Kerala",
+    "pinCode": "689595",
+    "phone": "0477-2702221",
+    "email": "kl66.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kuttanad Taluk",
+        "Ramankary",
+        "Moncompu",
+        "Champakulam",
+        "Edathua",
+        "Muttar",
+        "Neelamperoor",
+        "Pulincunnoo",
+        "Veliyanad",
+        "Kavalam",
+        "Kunnumma",
+        "Thakazhy"
+    ]
+}

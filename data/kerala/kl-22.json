@@ -1,0 +1,25 @@
+{
+    "code": "KL-22",
+    "region": "Kazhakkoottam",
+    "city": "Kazhakkoottam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "The KL-22 RTO is the Sub Regional Transport Office (SRTO) situated in Kazhakkoottam, serving the northern suburbs and IT corridor of Thiruvananthapuram. It was established to provide decentralized transport services including vehicle registration and driver licensing for the growing population in and around the Technopark region. This office significantly reduces the administrative burden on the main Thiruvananthapuram RTO (KL-01).",
+    "status": "active",
+    "established": "N/A",
+    "address": "2nd Floor, Alathara Complex, K.P. III/17, Kazhakkoottam Junction, Thiruvananthapuram, Kerala",
+    "pinCode": "695582",
+    "phone": "0471-2412400",
+    "email": "kl22@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kazhakkoottam",
+        "Menamkulam",
+        "Attipra",
+        "Sreekaryam",
+        "Kulathoor",
+        "Pangappara",
+        "Technopark"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "code": "KL-54",
+    "region": "Ponnani",
+    "city": "Ponnani",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "Malappuram",
+    "description": "KL-54 is the Sub-Regional Transport Office (SRTO) located in Ponnani, serving the coastal region of the Malappuram district in Kerala. The office manages vehicle registration, driving licenses, and transport permits for the residents of Ponnani Taluk. It plays a significant role in regulating road transport and enhancing safety across its maritime and rural jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Floor, Mini Civil Station, Ponnani Nagar, Ponnani, Malappuram, Kerala",
+    "pinCode": "679583",
+    "phone": "0494-2667511",
+    "email": "kl54.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Ponnani Taluk",
+        "Ponnani Municipality",
+        "Edappal",
+        "Vattamkulam",
+        "Maranchery",
+        "Alamcode",
+        "Nannamukku",
+        "Tavanur",
+        "Kalady"
+    ]
+}

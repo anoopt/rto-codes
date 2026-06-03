@@ -1,0 +1,27 @@
+{
+    "code": "KL-51",
+    "region": "Ottappalam",
+    "city": "Ottappalam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Palakkad",
+    "division": "Palakkad",
+    "description": "KL-51 is the Sub-Regional Transport Office (SRTO) serving the Ottappalam region in the Palakkad district of Kerala. It provides critical services including motor vehicle registration, driver licensing, and enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SBI Building, Opposite Municipal Bus Stand, Main Road, Ottappalam, Palakkad, Kerala - 679101",
+    "pinCode": "679101",
+    "phone": "0466-2247064",
+    "email": "kl51@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Ottappalam",
+        "Shoranur",
+        "Cherpulassery",
+        "Lakkidi-Perur",
+        "Ananganadi",
+        "Ambalapara",
+        "Vaniamkulam",
+        "Chalavara",
+        "Thrikkadeeri"
+    ]
+}

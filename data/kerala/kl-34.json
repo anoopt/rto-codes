@@ -1,0 +1,25 @@
+{
+    "code": "KL-34",
+    "region": "Kanjirappally",
+    "city": "Kanjirappally",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Kottayam",
+    "description": "The KL-34 RTO is the Sub Regional Transport Office (SRTO) serving the Kanjirappally region in the Kottayam district of Kerala. It handles vehicle registration, driving licenses, and transport permits for the Kanjirappally Taluk area under the Kerala Motor Vehicles Department.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Mangalampady Buildings, Attickal, Ponkunnam P.O., Kanjirappally, Kottayam, Kerala",
+    "pinCode": "686506",
+    "phone": "04828-223090",
+    "email": "kl34.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kanjirappally Taluk",
+        "Ponkunnam",
+        "Erumely",
+        "Mundakayam",
+        "Manimala",
+        "Parathode",
+        "Chirakkadavu"
+    ]
+}

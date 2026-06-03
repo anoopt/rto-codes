@@ -1,0 +1,26 @@
+{
+    "code": "KL-61",
+    "region": "Kunnathur",
+    "city": "Kunnathur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam",
+    "description": "KL-61 is the Sub-Regional Transport Office (SRTO) serving the Kunnathur taluk in Kerala's Kollam district. It handles various transport-related services including vehicle registration, driving licenses, and motor vehicle permits for the local jurisdiction.",
+    "status": "active",
+    "established": "2011",
+    "address": "Mangalathu Building, Puthiyakavu Bharanikavu Road, Chakkuvally, Kollam, Kerala",
+    "pinCode": "690520",
+    "phone": "0476-2852273",
+    "email": "kl61.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kunnathur Taluk",
+        "Chakkuvally",
+        "Sasthamcotta",
+        "Sooranad South",
+        "Sooranad North",
+        "Poruvazhy",
+        "West Kallada",
+        "Mynagappally"
+    ]
+}

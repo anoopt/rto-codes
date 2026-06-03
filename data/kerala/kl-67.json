@@ -1,0 +1,23 @@
+{
+    "code": "KL-67",
+    "region": "Uzhavoor",
+    "city": "Uzhavoor",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Kottayam",
+    "description": "KL-67 is the Sub-Regional Transport Office (SRTO) situated in Uzhavoor, within the Kottayam district of Kerala. Established in 2013 to decentralize transport administration, it handles vehicle registrations, driving licenses, and permit renewals for the local Uzhavoor region. It operates under the Kerala Motor Vehicles Department to ensure road safety and regulatory compliance in its jurisdiction.",
+    "status": "active",
+    "established": "2013",
+    "address": "Theruvathu Building, Uzhavoor P.O., Kottayam, Kerala",
+    "pinCode": "686634",
+    "phone": "04822-249967",
+    "email": "kl67.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Uzhavoor",
+        "Kuravilangad",
+        "Marangattupally",
+        "Kadaplamattom",
+        "Veliyannoor"
+    ]
+}

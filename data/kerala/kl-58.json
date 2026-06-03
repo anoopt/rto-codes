@@ -1,0 +1,27 @@
+{
+    "code": "KL-58",
+    "region": "Thalassery",
+    "city": "Thalassery",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kannur",
+    "division": "Kozhikode",
+    "description": "KL-58 represents the Sub-Regional Transport Office (SRTO) in Thalassery, Kerala. It provides critical services including vehicle registration, license issuance, and taxation for the Thalassery Taluk region under the Motor Vehicles Department of Kerala.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3rd Floor, Hindustan Tower, Near Town Hall, Thalassery, Kannur, Kerala",
+    "pinCode": "670104",
+    "phone": "0490-2327300",
+    "email": "kl58@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Thalassery Taluk",
+        "Thalassery Municipality",
+        "Dharmadom",
+        "Pinarayi",
+        "Kathirur",
+        "Eranholi",
+        "Chokli",
+        "New Mahe",
+        "Panniyannur"
+    ]
+}

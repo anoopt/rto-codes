@@ -1,0 +1,27 @@
+{
+    "code": "KL-42",
+    "region": "North Paravur",
+    "city": "North Paravur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "KL-42 is the Sub Regional Transport Office (SRTO) serving the North Paravur region in the Ernakulam district of Kerala. The office is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations within its designated taluk jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Abdul Jaleel Mar Gregorios Memorial Shopping Complex, Perumpadanna, North Paravur, Kerala",
+    "pinCode": "683513",
+    "phone": "0484-2442522",
+    "email": "kl42.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "North Paravur Taluk",
+        "Perumpadanna",
+        "Kottuvally",
+        "Varapuzha",
+        "Chendamangalam",
+        "Chittatukara",
+        "Ezhikkara",
+        "Vadakkekara",
+        "Puthenvelikkara"
+    ]
+}

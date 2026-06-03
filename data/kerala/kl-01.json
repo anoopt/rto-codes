@@ -1,0 +1,20 @@
+{
+    "code": "KL-01",
+    "region": "Thiruvananthapuram",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "South Zone",
+    "description": "KL-01 is the primary Regional Transport Office for Thiruvananthapuram, the capital city of Kerala. It handles vehicle registrations, driving licenses, and transport permits for the city municipal area and Thiruvananthapuram Taluk. Established in 1989 with the introduction of the KL series, it is one of the most significant RTOs in the state.",
+    "status": "active",
+    "established": "1989",
+    "address": "5th Floor, KSRTC Terminal, Thampanoor, Thiruvananthapuram, Kerala",
+    "pinCode": "695023",
+    "phone": "0471-2339223",
+    "email": "kl01.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Thiruvananthapuram Taluk",
+        "Thiruvananthapuram Municipal Corporation"
+    ]
+}

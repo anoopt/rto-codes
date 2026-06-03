@@ -1,0 +1,26 @@
+{
+    "code": "KL-21",
+    "region": "Nedumangad",
+    "city": "Nedumangad",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "KL-21 is the Sub-Regional Transport Office (SRTO) located in Nedumangad, serving the Thiruvananthapuram district. Established in 2006, this office manages vehicle registration, driving licenses, and transport permits specifically for the Nedumangad taluk region.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub Regional Transport Office, Pazhakutty, Nedumangad, Thiruvananthapuram, Kerala",
+    "pinCode": "695541",
+    "phone": "0472-2813177",
+    "email": "kl21.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Nedumangad Taluk",
+        "Aruvikkara",
+        "Vithura",
+        "Palode",
+        "Aryanad",
+        "Anad",
+        "Panavoor",
+        "Vellanad"
+    ]
+}

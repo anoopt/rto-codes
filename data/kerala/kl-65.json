@@ -1,0 +1,28 @@
+{
+    "code": "KL-65",
+    "region": "Tirurangadi",
+    "city": "Tirurangadi",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "Malappuram",
+    "description": "The KL-65 RTO represents the Sub-Regional Transport Office in Tirurangadi, serving the Malappuram district of Kerala. It handles vehicle registration, driving licensing, and transport permits for the Tirurangadi taluk to decentralize services from the main Malappuram RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Civil Station, Block Road, Chemmadu, Tirurangadi, Malappuram, Kerala",
+    "pinCode": "676306",
+    "phone": "0494-2463000",
+    "email": "kl65@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Tirurangadi",
+        "Chemmadu",
+        "Parappanangadi",
+        "Vengara",
+        "Thennala",
+        "Moonniyur",
+        "Vallikunnu",
+        "Tenhipalam",
+        "Nannambra",
+        "Kannamangalam"
+    ]
+}

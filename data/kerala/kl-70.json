@@ -1,0 +1,27 @@
+{
+    "code": "KL-70",
+    "region": "Chittur",
+    "city": "Chittur-Thathamangalam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Palakkad",
+    "division": "Palakkad",
+    "description": "The KL-70 RTO serves as the Sub-Regional Transport Office (SRTO) for the Chittur region in the Palakkad district of Kerala. It handles essential services including vehicle registration, driving license issuance, and transport permits to decentralize the workload from the main Palakkad RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Municipal Bus Stand Complex, Mini Civil Station, SH27, Chittur-Thathamangalam, Palakkad, Kerala",
+    "pinCode": "678102",
+    "phone": "04923-222677",
+    "email": "kl70.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Chittur Taluk",
+        "Chittur-Thathamangalam",
+        "Kozhinjampara",
+        "Nallepilly",
+        "Pattanchery",
+        "Perumatty",
+        "Vadavannur",
+        "Eruthempathy",
+        "Vandithavalam"
+    ]
+}

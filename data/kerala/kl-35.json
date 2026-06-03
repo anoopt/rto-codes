@@ -1,0 +1,24 @@
+{
+    "code": "KL-35",
+    "region": "Pala",
+    "city": "Pala",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Kottayam",
+    "description": "KL-35 is the Sub Regional Transport Office (SRTO) for Pala, located in the Kottayam district of Kerala. Established in 2006, it primarily serves the Meenachil Taluk area, managing vehicle registrations, driving licenses, and transport permits. It operates as a subordinate office under the main Regional Transport Office in Kottayam.",
+    "status": "active",
+    "established": "2006",
+    "address": "Building No. 186/C, Ward No. 15, Pala Municipality, Chethimattom, Pala, Kottayam - 686575",
+    "pinCode": "686575",
+    "phone": "04822-216455",
+    "email": "kl35.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Meenachil Taluk",
+        "Pala Municipality",
+        "Chethimattom",
+        "Bharananganam",
+        "Ramapuram",
+        "Kozhuvanal"
+    ]
+}

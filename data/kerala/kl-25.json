@@ -1,0 +1,22 @@
+{
+    "code": "KL-25",
+    "region": "Punalur",
+    "city": "Punalur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam",
+    "description": "KL-25 is the Sub-Regional Transport Office (SRTO) situated in Punalur, Kollam district. It serves as an administrative hub for vehicle registration and licensing under the Motor Vehicles Department of Kerala, primarily catering to the residents of Punalur Taluk.",
+    "status": "active",
+    "established": "2006",
+    "address": "Ayyappas Building, Nellipally, Punalur, Kerala",
+    "pinCode": "691305",
+    "phone": "0475-2228420",
+    "email": "kl25@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Punalur Taluk",
+        "Nellipally",
+        "Vilakkuvettom",
+        "Punalur Municipality"
+    ]
+}

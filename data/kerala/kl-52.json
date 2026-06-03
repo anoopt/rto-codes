@@ -1,0 +1,29 @@
+{
+    "code": "KL-52",
+    "region": "Pattambi",
+    "city": "Pattambi",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Palakkad",
+    "division": "Palakkad",
+    "description": "KL-52 is the Sub-Regional Transport Office (SRTO) located in Pattambi, Palakkad district. It was established to streamline vehicle registration and licensing services for the residents of Pattambi Taluk, relieving pressure on the main Palakkad RTO. The office plays a vital role in road safety enforcement and motor vehicle tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "2006",
+    "address": "Sub-Regional Transport Office, Mini Civil Station, Pattambi, Palakkad, Kerala",
+    "pinCode": "679303",
+    "phone": "0466-2214182",
+    "email": "kl52@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Pattambi Taluk",
+        "Pattambi Municipality",
+        "Koppam",
+        "Kulukkallur",
+        "Muthuthala",
+        "Ongallur",
+        "Parudur",
+        "Thiruvegapura",
+        "Vilayur",
+        "Vallapuzha",
+        "Thrithala"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "KL-45",
+    "region": "Irinjalakuda",
+    "city": "Irinjalakuda",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "KL-45 is the Sub-Regional Transport Office (SRTO) for Irinjalakuda, located in the Thrissur district of Kerala. Formally established in 2006, it serves the vehicle registration and licensing needs of the Mukundapuram Taluk region. The office handles primary services like driving licenses, vehicle registrations, and fitness certificates for its assigned jurisdiction.",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Irinjalakuda, Thrissur, Kerala",
+    "pinCode": "680121",
+    "phone": "0480-2824330",
+    "email": "kl45.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Mukundapuram Taluk",
+        "Irinjalakuda Municipality",
+        "Muriyad",
+        "Parappukkara",
+        "Aloor",
+        "Velookkara",
+        "Padiyoor"
+    ]
+}

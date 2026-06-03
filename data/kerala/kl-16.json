@@ -1,0 +1,25 @@
+{
+    "code": "KL-16",
+    "region": "Attingal",
+    "city": "Attingal",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "The KL-16 Regional Transport Office (RTO) serves Attingal and the northern regions of Thiruvananthapuram district. Established in 2002, it oversees vehicle registrations, licensing, and transport permits specifically for the Chirayinkeezhu Taluk and its surrounding municipalities.",
+    "status": "active",
+    "established": "2002",
+    "address": "Ansar Complex, T.B. Junction, Attingal, Thiruvananthapuram, Kerala",
+    "pinCode": "695101",
+    "phone": "0470-2623355",
+    "email": "kl16.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Attingal Municipality",
+        "Chirayinkeezhu Taluk",
+        "Varkala",
+        "Kilimanoor",
+        "Kadakkavoor",
+        "Anjengo",
+        "Alamcode"
+    ]
+}

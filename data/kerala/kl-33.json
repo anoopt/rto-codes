@@ -1,0 +1,24 @@
+{
+    "code": "KL-33",
+    "region": "Changanassery",
+    "city": "Changanassery",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Central Kerala",
+    "description": "The KL-33 RTO serves the Changanassery region in Kerala, functioning as a Sub-Regional Transport Office under the Kottayam district. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations within the Changanassery Taluk.",
+    "status": "active",
+    "established": "2006",
+    "address": "3rd Floor, Revenue Tower, T.B. Road, Changanassery, Kottayam, Kerala - 686101",
+    "pinCode": "686101",
+    "phone": "0481-2411930",
+    "email": "kl33.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Changanassery Taluk",
+        "Vazhappally",
+        "Kurichy",
+        "Madappally",
+        "Paippad",
+        "Thrikkodithanam"
+    ]
+}

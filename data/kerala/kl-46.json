@@ -1,0 +1,25 @@
+{
+    "code": "KL-46",
+    "region": "Guruvayur",
+    "city": "Guruvayur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "The KL-46 RTO is a Sub-Regional Transport Office (SRTO) located in Guruvayur, Kerala, falling under the administrative jurisdiction of the Thrissur Regional Transport Office. Established in 2006, it serves the pilgrimage town of Guruvayur and the Chavakkad taluk, facilitating vehicle registrations, driving tests, and fitness certification.",
+    "status": "active",
+    "established": "2006",
+    "address": "9/128, Manjulal Shopping Complex, East Nada, Guruvayur, Thrissur, Kerala - 680101",
+    "pinCode": "680101",
+    "phone": "0487-2551666",
+    "email": "kl46.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Chavakkad Taluk",
+        "Guruvayur Municipality",
+        "Punnayur",
+        "Punnayurkulam",
+        "Vadakkekad",
+        "Engandiyur",
+        "Kadappuram"
+    ]
+}

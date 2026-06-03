@@ -1,0 +1,30 @@
+{
+    "code": "KL-31",
+    "region": "Mavelikara",
+    "city": "Mavelikara",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Alappuzha",
+    "division": "Alappuzha",
+    "description": "KL-31 is the Sub-Regional Transport Office (SRTO) for Mavelikara, located in the Alappuzha district of Kerala. This office handles vehicle registration, license issuance, and motor vehicle regulation enforcement for the Mavelikara Taluk and its surrounding areas.",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Power House Junction, Mavelikkara P.O., Alappuzha District, Kerala",
+    "pinCode": "690101",
+    "phone": "0479-2306200",
+    "email": "kl31@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Mavelikara Taluk",
+        "Mavelikkara",
+        "Chennithala",
+        "Thripperumthura",
+        "Chettikulangara",
+        "Bharanikkavu",
+        "Thamarakkulam",
+        "Vallikunnam",
+        "Chunakkara",
+        "Nooranad",
+        "Palamel",
+        "Thazhakara"
+    ]
+}

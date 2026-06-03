@@ -1,0 +1,28 @@
+{
+    "code": "KL-48",
+    "region": "Wadakkancherry",
+    "city": "Wadakkancherry",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "KL-48 is the Sub-Regional Transport Office (SRTO) located in Wadakkancherry, Thrissur district, Kerala. It provides motor vehicle services such as vehicle registration, license issuance, and tax collection for the Wadakkancherry Taluk region under the Motor Vehicles Department of Kerala.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Souhruda Arcade, Near Taluk Office, Wadakkancherry, Thrissur, Kerala",
+    "pinCode": "680582",
+    "phone": "04884-233666",
+    "email": "kl48.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Wadakkancherry Taluk",
+        "Wadakkancherry Municipality",
+        "Desamangalam",
+        "Erumapetty",
+        "Kadavallur",
+        "Mullurkara",
+        "Mundathikode",
+        "Pazhayannur",
+        "Thekkumkara",
+        "Varavoor"
+    ]
+}

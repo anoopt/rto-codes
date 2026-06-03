@@ -1,0 +1,25 @@
+{
+    "code": "KL-10",
+    "region": "Malappuram",
+    "city": "Malappuram",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "Malappuram",
+    "description": "The KL-10 RTO is the Regional Transport Office for Malappuram, Kerala, serving as a primary administrative hub for the district. It is responsible for vehicle registration, driving license issuance, and the enforcement of motor vehicle regulations within its jurisdiction. This office specifically covers the Eranad taluk and central parts of the district, playing a vital role in the region's transport infrastructure.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Up Hill Post, Malappuram, Kerala",
+    "pinCode": "676505",
+    "phone": "0483-2734924",
+    "email": "kl10@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Eranad Taluk",
+        "Malappuram Municipality",
+        "Anakkayam",
+        "Morayur",
+        "Pookkottur",
+        "Pulpatta",
+        "Kuzhimanna"
+    ]
+}

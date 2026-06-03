@@ -1,0 +1,28 @@
+{
+    "code": "KL-68",
+    "region": "Devikulam",
+    "city": "Devikulam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Idukki",
+    "division": "Central Zone",
+    "description": "The KL-68 RTO serves the Devikulam Sub Regional Transport Office in the Idukki district of Kerala. It is responsible for vehicle registration, driving license issuance, and enforcement of motor vehicle regulations in the hilly terrains of the Devikulam taluk, including major tourist hubs like Munnar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Regional Transport Office, Mini Civil Station, Devikulam, Idukki, Kerala",
+    "pinCode": "685613",
+    "phone": "04864-222628",
+    "email": "kl68.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Devikulam Taluk",
+        "Munnar",
+        "Adimali",
+        "Marayoor",
+        "Vattavada",
+        "Kanthalloor",
+        "Mankulam",
+        "Bison Valley",
+        "Chinnakanal",
+        "Pallivasal"
+    ]
+}

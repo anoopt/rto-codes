@@ -1,0 +1,27 @@
+{
+    "code": "KL-49",
+    "region": "Alathur",
+    "city": "Alathur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Palakkad",
+    "division": "Palakkad",
+    "description": "The KL-49 RTO is the Sub Regional Transport Office (SRTO) serving the Alathur region in Palakkad district, Kerala. Established in 2006, it provides essential services such as vehicle registration, driving licenses, and transport permits for the Alathur Taluk. It operates under the administrative jurisdiction of the Palakkad Regional Transport Office (KL-09).",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Swathi Junction, Alathur, Palakkad - 678541",
+    "pinCode": "678541",
+    "phone": "04922-224909",
+    "email": "kl49.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Alathur Taluk",
+        "Kavassery",
+        "Kizhakkancherry",
+        "Tarur",
+        "Peringottukurissi",
+        "Kottayi",
+        "Kuthanur",
+        "Kuzhalmannam",
+        "Mathur"
+    ]
+}

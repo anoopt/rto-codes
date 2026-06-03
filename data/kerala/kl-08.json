@@ -1,0 +1,19 @@
+{
+    "code": "KL-08",
+    "region": "Thrissur",
+    "city": "Thrissur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "KL-08 is the primary Regional Transport Office for Thrissur, Kerala, serving as a vital hub for vehicle registration and transport administration in the cultural capital. It handles the issuance of driving licenses, vehicle fitness certificates, and road tax collection for the central Thrissur region. The office operates under the Kerala Motor Vehicles Department and covers the specific jurisdiction of the Thrissur Taluk.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Ayyanthole P.O., Thrissur, Kerala - 680003",
+    "pinCode": "680003",
+    "phone": "0487-2360262",
+    "email": "kl08.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Thrissur Taluk"
+    ]
+}

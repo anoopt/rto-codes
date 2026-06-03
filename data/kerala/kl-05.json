@@ -1,0 +1,25 @@
+{
+    "code": "KL-05",
+    "region": "Kottayam",
+    "city": "Kottayam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kottayam",
+    "division": "Kottayam",
+    "description": "The KL-05 RTO is the primary regional transport authority for the Kottayam district, headquartered in the city of Kottayam. Established in 1989, it manages vehicle registration, licensing, and transport regulation for the Kottayam taluk. It is a critical administrative office for central Kerala's transport infrastructure.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, 3rd Floor, Civil Station, Collectorate P.O., Kottayam, Kerala",
+    "pinCode": "686002",
+    "phone": "0481-2560429",
+    "email": "kl05.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kottayam Taluk",
+        "Kottayam Municipal Area",
+        "Puthuppally",
+        "Pampady",
+        "Kumarakom",
+        "Ayarkunnam",
+        "Vijayapuram"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "KL-37",
+    "region": "Vandiperiyar",
+    "city": "Vandiperiyar",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Idukki",
+    "division": "Central Zone (Kottayam)",
+    "description": "KL-37 is the Sub-Regional Transport Office (SRTO) located in Vandiperiyar, Kerala, serving the Peerumedu Taluk of Idukki district. Established in 2006, it operates under the jurisdiction of the Idukki RTO to facilitate vehicle registration and licensing services for the high-range region. It plays a crucial role in managing transport regulations in this key plantation and tourism belt.",
+    "status": "active",
+    "established": "2006",
+    "address": "Mini Civil Station, Peerumedu, Idukki, Kerala - 685531",
+    "pinCode": "685531",
+    "phone": "04869-232100",
+    "email": "srtovpr.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Peerumedu Taluk",
+        "Vandiperiyar",
+        "Kumily",
+        "Elappara",
+        "Upputhara",
+        "Peermade"
+    ]
+}

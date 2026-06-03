@@ -1,0 +1,26 @@
+{
+    "code": "KL-63",
+    "region": "Angamaly",
+    "city": "Angamaly",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Ernakulam",
+    "division": "Ernakulam",
+    "description": "The KL-63 RTO is a Sub-Regional Transport Office (SRTO) located in Angamaly, Kerala, functioning under the administrative control of the Aluva Regional Transport Office. Established in 2011, it serves the northern parts of Ernakulam district, facilitating vehicle registration, driving licenses, and transport permit services for this busy industrial and transit hub.",
+    "status": "active",
+    "established": "2011",
+    "address": "2nd Floor, Mini Civil Station Complex, Manjapara Road, Angamaly, Kerala",
+    "pinCode": "683572",
+    "phone": "0484-2456333",
+    "email": "kl63.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Angamaly",
+        "Karukutty",
+        "Kalady",
+        "Malayattoor",
+        "Neeleeswaram",
+        "Manjapra",
+        "Kanjoor",
+        "Mukkannoor"
+    ]
+}

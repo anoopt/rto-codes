@@ -1,0 +1,20 @@
+{
+    "code": "KL-14",
+    "region": "Kasaragod",
+    "city": "Kasaragod",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kasaragod",
+    "division": "North Zone",
+    "description": "The KL-14 RTO serves the Kasaragod district in northern Kerala, managing vehicle registration and licensing for the northernmost tip of the state. It plays a crucial role in regulating transport activities near the Kerala-Karnataka border and serves a significant volume of interstate traffic.",
+    "status": "active",
+    "established": "1989",
+    "address": "Civil Station, Vidya Nagar, Kasaragod, Kerala",
+    "pinCode": "671123",
+    "phone": "04994-255290",
+    "email": "kl14.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kasaragod Taluk",
+        "Manjeshwar Taluk"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "KL-13",
+    "region": "Kannur",
+    "city": "Kannur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kannur",
+    "division": "North Kerala",
+    "description": "The KL-13 RTO serves as the primary Regional Transport Office for Kannur district headquarters. Established in 1989, it handles vehicle registrations, driving licenses, and transport law enforcement for the city and the Kannur Taluk.",
+    "status": "active",
+    "established": "1989",
+    "address": "Regional Transport Office, Civil Station, Collectorate Road, Talap, Kannur, Kerala",
+    "pinCode": "670002",
+    "phone": "0497-2700566",
+    "email": "kl13.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kannur Taluk",
+        "Kannur City",
+        "Talap",
+        "Pallikkunnu",
+        "Puzhathi",
+        "Elayavoor",
+        "Munderi",
+        "Chelora"
+    ]
+}
