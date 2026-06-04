@@ -1,0 +1,25 @@
+{
+    "code": "KL-72",
+    "region": "Mananthavady",
+    "city": "Mananthavady",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Wayanad",
+    "division": "Wayanad",
+    "description": "The KL-72 RTO is a Sub-Regional Transport Office (SRTO) located in Mananthavady, serving the northern part of the Wayanad district. It functions under the main Wayanad RTO (KL-12) and facilitates vehicle registration, licensing, and taxation for the Mananthavady taluk region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5th Mile, Kellur P.O., Mananthavady, Wayanad, Kerala",
+    "pinCode": "670645",
+    "phone": "N/A",
+    "email": "kl72.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Mananthavady Taluk",
+        "Thirunelly",
+        "Vellamunda",
+        "Thavinhal",
+        "Edavaka",
+        "Mananthavady Municipality",
+        "Kellur"
+    ]
+}

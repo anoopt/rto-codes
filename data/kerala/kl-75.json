@@ -1,0 +1,25 @@
+{
+    "code": "KL-75",
+    "region": "Thriprayar",
+    "city": "Thriprayar",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thrissur",
+    "division": "Thrissur",
+    "description": "The KL-75 RTO (Sub-Regional Transport Office) serves the Thriprayar region of Thrissur district. Established to decentralize services from the main Thrissur and Chavakkad offices, it handles vehicle registrations, driving licenses, and transport permits for the coastal belt and surrounding areas.",
+    "status": "active",
+    "established": "2018",
+    "address": "Mini Civil Station, Thriprayar, P.O. Nattika, Thrissur, Kerala",
+    "pinCode": "680566",
+    "phone": "8547639075",
+    "email": "kl75.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Thriprayar",
+        "Nattika",
+        "Valapad",
+        "Vatanappally",
+        "Anthikad",
+        "Chazhur",
+        "Chavakkad Taluk"
+    ]
+}

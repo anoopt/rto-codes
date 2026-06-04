@@ -1,0 +1,29 @@
+{
+    "code": "KL-71",
+    "region": "Nilambur",
+    "city": "Nilambur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "Malappuram",
+    "description": "KL-71 is the Sub-Regional Transport Office (SRTO) for Nilambur, established to facilitate vehicle registration and licensing for the Nilambur Taluk. It operates under the Malappuram Regional Transport Office to decentralize services in the region, which is known for its teak plantations and forest reserves. The office handles various tasks including driving license issuance, vehicle fitness checks, and taxation.",
+    "status": "active",
+    "established": "2013",
+    "address": "Sub-Regional Transport Office, Mannil Building, State Highway 39, Chandakunnu P.O., Nilambur, Malappuram, Kerala",
+    "pinCode": "679330",
+    "phone": "N/A",
+    "email": "kl71.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Nilambur Taluk",
+        "Nilambur Municipality",
+        "Amarambalam",
+        "Chaliyar",
+        "Chungathara",
+        "Edakkara",
+        "Karulai",
+        "Mampad",
+        "Moothedam",
+        "Pothukal",
+        "Vazhikkadavu"
+    ]
+}

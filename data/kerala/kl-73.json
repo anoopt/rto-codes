@@ -1,0 +1,26 @@
+{
+    "code": "KL-73",
+    "region": "Sulthan Bathery",
+    "city": "Sulthan Bathery",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Wayanad",
+    "division": "Kozhikode Zone",
+    "description": "The KL-73 RTO is a Sub-Regional Transport Office located in Sulthan Bathery, Wayanad district, Kerala. It provides motor vehicle services including registration and licensing for the local taluk, operating under the administrative oversight of the Wayanad Regional Transport Office (KL-12).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mini Civil Station, Sulthan Bathery, Wayanad, Kerala",
+    "pinCode": "673592",
+    "phone": "04936-227273",
+    "email": "kl73.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Sulthan Bathery",
+        "Ambalavayal",
+        "Meenangadi",
+        "Mullankolly",
+        "Noolpuzha",
+        "Poothadi",
+        "Pulpally",
+        "Nenmeni"
+    ]
+}

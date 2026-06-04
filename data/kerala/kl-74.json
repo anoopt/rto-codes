@@ -1,0 +1,31 @@
+{
+    "code": "KL-74",
+    "region": "Kattakkada",
+    "city": "Kattakkada",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "KL-74 is the Sub-Regional Transport Office (SRTO) located in Kattakkada, serving the Thiruvananthapuram district. It was established in 2018 to facilitate motor vehicle services and registration for the Kattakkada Taluk area, reducing the workload of the Neyyattinkara and Nedumangad RTOs.",
+    "status": "active",
+    "established": "2018",
+    "address": "Building No. KP-17-89-B, Near Employment Exchange, Kulathummal, Kattakkada, Kerala",
+    "pinCode": "695572",
+    "phone": "0471-2293553",
+    "email": "kl74.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Kulathummal",
+        "Malayinkeezhu",
+        "Maranalloor",
+        "Amboori",
+        "Kallikad",
+        "Keezharoor",
+        "Mannoorkara",
+        "Perumkulam",
+        "Veeranakavu",
+        "Ottasekharamangalam",
+        "Vazhichal",
+        "Vilappil",
+        "Vilavoorkal"
+    ]
+}
