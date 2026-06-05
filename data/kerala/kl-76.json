@@ -1,0 +1,28 @@
+{
+    "code": "KL-76",
+    "region": "Nanmanda",
+    "city": "Nanmanda",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "The KL-76 Sub Regional Transport Office (SRTO) is located in Nanmanda, Kozhikode, and was established in 2018 to facilitate transport services for several local panchayats. It handles vehicle registration, driving licenses, and transport permits, effectively easing the administrative burden on the main Kozhikode RTO.",
+    "status": "active",
+    "established": "2018",
+    "address": "Building No. 9/499, First Floor, Nanmanda P.O., Kozhikode, Kerala",
+    "pinCode": "673613",
+    "phone": "0495-2857700",
+    "email": "kl76.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Nanmanda",
+        "Narikkuni",
+        "Kakkur",
+        "Kuruvattoor",
+        "Chelannur",
+        "Kakkodi",
+        "Atholi",
+        "Thalakkulathur",
+        "Balussery",
+        "Panangad"
+    ]
+}

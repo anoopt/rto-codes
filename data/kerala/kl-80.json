@@ -1,0 +1,22 @@
+{
+    "code": "KL-80",
+    "region": "Pathanapuram",
+    "city": "Pathanapuram",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam",
+    "description": "The KL-80 RTO is the Sub Regional Transport Office (SRTO) serving Pathanapuram in the Kollam district of Kerala. Established around 2020 to decentralize services from the main Kollam RTO, it handles vehicle registrations, driving licenses, and permit issuances for the Pathanapuram taluk.",
+    "status": "active",
+    "established": "2020",
+    "address": "Sub Regional Transport Office, Pathanapuram, Building No. 13/685, Moolakada, Kandayam P.O., Pathanapuram, Kerala",
+    "pinCode": "689695",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pathanapuram Taluk",
+        "Pathanapuram Municipality",
+        "Moolakada",
+        "Kandayam"
+    ]
+}

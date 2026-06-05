@@ -1,0 +1,23 @@
+{
+    "code": "KL-79",
+    "region": "Vellarikundu",
+    "city": "Vellarikundu",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kasaragod",
+    "division": "Kasaragod Division",
+    "description": "KL-79 is the Sub-Regional Transport Office (SRTO) serving Vellarikundu Taluk in the Kasaragod district of Kerala. Established in 2018 to decentralize services from the main Kasaragod RTO, it handles vehicle registrations, driving licenses, and permit renewals for the region.",
+    "status": "active",
+    "established": "2018",
+    "address": "Building No 462 (E, F, G, H), Ward No 15, Belal Grama Panchayath, Vellarikundu, Kasaragod, Kerala",
+    "pinCode": "671533",
+    "phone": "0467-2986042",
+    "email": "kl79.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Vellarikundu Taluk",
+        "Belal Grama Panchayath",
+        "West Eleri",
+        "East Eleri",
+        "Kinanoor-Karinthalam"
+    ]
+}

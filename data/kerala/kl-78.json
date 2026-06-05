@@ -1,0 +1,29 @@
+{
+    "code": "KL-78",
+    "region": "Iritty",
+    "city": "Iritty",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kannur",
+    "division": "North Zone",
+    "description": "The KL-78 RTO is a Sub-Regional Transport Office (SRTO) located in Iritty, Kannur district. It was established in 2018 to cater to the transport administrative needs of the Iritty Taluk, easing the workload of neighboring RTOs.",
+    "status": "active",
+    "established": "2018",
+    "address": "Falcon Plaza Building, Second Floor, N.P. Road, Iritty, Kannur, Kerala",
+    "pinCode": "670703",
+    "phone": "0490-2490001",
+    "email": "kl78.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Iritty Taluk",
+        "Iritty",
+        "Payyavoor",
+        "Ulikkal",
+        "Aralam",
+        "Ayyankunnu",
+        "Kottiyoor",
+        "Kelakam",
+        "Kanichar",
+        "Muzhakkunnu",
+        "Thillenkeri"
+    ]
+}

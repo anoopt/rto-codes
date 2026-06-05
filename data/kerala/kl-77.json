@@ -1,0 +1,25 @@
+{
+    "code": "KL-77",
+    "region": "Perambra",
+    "city": "Perambra",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "The KL-77 Regional Transport Office is a Sub-RTO (SRTO) based in Perambra, Kozhikode district. It was established to provide decentralised transport services including vehicle registration, driving license issuance, and road tax collection for the local residents.",
+    "status": "active",
+    "established": "N/A",
+    "address": "15/12 C&E, First Floor, Mini Civil Station, Perambra, Kozhikode, Kerala",
+    "pinCode": "673525",
+    "phone": "0496-2615077",
+    "email": "kl77.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Perambra",
+        "Chakkittapara",
+        "Changaroth",
+        "Cheruvannur",
+        "Kayanna",
+        "Koothali",
+        "Nochad"
+    ]
+}
