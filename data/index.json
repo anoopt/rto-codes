@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-05T03:00:49.856Z",
-  "totalRTOs": 583,
-  "totalVerified": 583,
+  "generatedAt": "2026-06-06T03:00:13.555Z",
+  "totalRTOs": 588,
+  "totalVerified": 588,
   "totalStates": 28,
   "completedStates": 9,
   "inProgressStates": 3,
@@ -730,10 +730,10 @@
     {
       "stateCode": "KL",
       "stateName": "Kerala",
-      "rtoCount": 80,
+      "rtoCount": 85,
       "totalExpectedRTOs": 87,
       "activeRTOs": 0,
-      "verifiedCount": 80,
+      "verifiedCount": 85,
       "rtoCodes": [
         "kl-01",
         "kl-02",
@@ -814,7 +814,12 @@
         "kl-77",
         "kl-78",
         "kl-79",
-        "kl-80"
+        "kl-80",
+        "kl-81",
+        "kl-82",
+        "kl-83",
+        "kl-84",
+        "kl-85"
       ],
       "isComplete": false,
       "type": "state",
@@ -1836,10 +1841,10 @@
     "KL": {
       "stateCode": "KL",
       "stateName": "Kerala",
-      "rtoCount": 80,
+      "rtoCount": 85,
       "totalExpectedRTOs": 87,
       "activeRTOs": 0,
-      "verifiedCount": 80,
+      "verifiedCount": 85,
       "rtoCodes": [
         "kl-01",
         "kl-02",
@@ -1920,7 +1925,12 @@
         "kl-77",
         "kl-78",
         "kl-79",
-        "kl-80"
+        "kl-80",
+        "kl-81",
+        "kl-82",
+        "kl-83",
+        "kl-84",
+        "kl-85"
       ],
       "isComplete": false,
       "type": "state",
