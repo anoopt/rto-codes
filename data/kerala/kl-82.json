@@ -1,0 +1,25 @@
+{
+    "code": "KL-82",
+    "region": "Chadayamangalam",
+    "city": "Chadayamangalam",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kollam",
+    "division": "Kollam Transport Division",
+    "description": "The KL-82 RTO is the Sub Regional Transport Office (SRTO) located in Chadayamangalam, Kollam district. Established in 2020, it provides various services including vehicle registration, driving licenses, and road tax collection for its designated jurisdiction.",
+    "status": "active",
+    "established": "2020",
+    "address": "Sub Regional Transport Office, 1st Floor, Panchayath Shopping Complex, Chadayamangalam, Kollam, Kerala - 691534",
+    "pinCode": "691534",
+    "phone": "0474-2475200",
+    "email": "kl82.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Chadayamangalam",
+        "Nilamel",
+        "Kadakkal",
+        "Itiva",
+        "Chithara",
+        "Kummil",
+        "Velinalloor"
+    ]
+}

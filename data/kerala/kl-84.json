@@ -1,0 +1,27 @@
+{
+    "code": "KL-84",
+    "region": "Kondotty",
+    "city": "Kondotty",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Malappuram",
+    "division": "Malappuram",
+    "description": "KL-84 is the Sub-Regional Transport Office (SRTO) for Kondotty, established in 2020 to decentralize administrative services in the Malappuram district. This office provides essential services including vehicle registration, driving license issuance, and road tax collection for the residents of the Kondotty Taluk area.",
+    "status": "active",
+    "established": "2020",
+    "address": "Sub RTO Office Kondotty, Musliyarangadi, Nediyiruppu, Kondotty, Kerala 673638",
+    "pinCode": "673638",
+    "phone": "N/A",
+    "email": "kl84@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Kondotty Taluk",
+        "Nediyiruppu",
+        "Musliyarangadi",
+        "Pallikkal",
+        "Chelembra",
+        "Cherukavu",
+        "Vazhayur",
+        "Vazhakkad",
+        "Pulikkal"
+    ]
+}

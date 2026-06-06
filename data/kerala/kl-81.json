@@ -1,0 +1,25 @@
+{
+    "code": "KL-81",
+    "region": "Varkala",
+    "city": "Varkala",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Thiruvananthapuram",
+    "division": "Thiruvananthapuram",
+    "description": "The KL-81 Sub-Regional Transport Office serves the Varkala region in the Thiruvananthapuram district of Kerala. Established in 2020 to decentralize services from the Attingal RTO, it facilitates vehicle registration, driving licenses, and transport permit services for the Varkala Taluk.",
+    "status": "active",
+    "established": "2020",
+    "address": "Chithira Arcade, Puthan Chantha, Varkala, Kerala",
+    "pinCode": "695141",
+    "phone": "0470-2613344",
+    "email": "kl81.mvd@kerala.gov.in",
+    "jurisdictionAreas": [
+        "Varkala Taluk",
+        "Edava",
+        "Elakamon",
+        "Chemmaruthy",
+        "Cherunniyoor",
+        "Ottoor",
+        "Vettoor"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "code": "KL-85",
+    "region": "Ramanattukara",
+    "city": "Ramanattukara",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kozhikode",
+    "division": "Kozhikode",
+    "description": "KL-85 is the Sub-Regional Transport Office (SRTO) for Ramanattukara, established to manage vehicle registration and licensing services for the southern region of the Kozhikode district. The office serves as a decentralized hub of the Kerala Motor Vehicles Department, reducing the administrative burden on the main Kozhikode RTO (KL-11). It primarily caters to the growing urban populations of Ramanattukara and Feroke.",
+    "status": "active",
+    "established": "2020",
+    "address": "Sub Regional Transport Office, Imax Tower, Chungam, Feroke P.O., Kozhikode, Kerala",
+    "pinCode": "673631",
+    "phone": "0495-2486002",
+    "email": "kl85@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Ramanattukara Municipality",
+        "Feroke Municipality",
+        "Kozhikode District",
+        "Chungam"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "code": "KL-83",
+    "region": "Konni",
+    "city": "Konni",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Pathanamthitta",
+    "division": "Pathanamthitta",
+    "description": "KL-83 is the Sub-Regional Transport Office (SRTO) serving Konni in the Pathanamthitta district of Kerala. Established in 2020, this office was created to decentralize vehicle registration and licensing services specifically for the residents of Konni Taluk.",
+    "status": "active",
+    "established": "2020",
+    "address": "Building No. XVIII/400A, Ground Floor, B and B Apartment, Near Aanakoode, Konni - Chandanappally Road, Konni, Pathanamthitta, Kerala - 689691",
+    "pinCode": "689691",
+    "phone": "N/A",
+    "email": "kl83@keralamvd.gov.in",
+    "jurisdictionAreas": [
+        "Konni",
+        "Konni Taluk",
+        "Vallicode",
+        "Pramadom",
+        "Mylapra",
+        "Malayalappuzha",
+        "Aruvappulam",
+        "Thannithode",
+        "Chandanappally"
+    ]
+}
