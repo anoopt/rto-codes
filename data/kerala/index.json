@@ -2176,5 +2176,32 @@
       "Kozhikode District",
       "Chungam"
     ]
+  },
+  {
+    "code": "KL-86",
+    "region": "Payyanur",
+    "city": "Payyanur",
+    "state": "Kerala",
+    "stateCode": "KL",
+    "district": "Kannur",
+    "division": "North Zone",
+    "description": "KL-86 is the Sub-Regional Transport Office (SRTO) serving Payyanur in the Kannur district of Kerala. Established in late 2020, this office was created to manage vehicle registration and licensing services for the northern region of the district, easing the administrative burden on the Kannur and Taliparamba offices.",
+    "status": "active",
+    "established": "2020",
+    "address": "1st Floor, H R Plaza Building, Near Vellur Post Office, Vellur, Payyanur, Kerala",
+    "pinCode": "670307",
+    "phone": "04985-293000",
+    "email": "kl86@keralamvd.gov.in",
+    "jurisdictionAreas": [
+      "Payyanur Municipality",
+      "Payyanur Taluk",
+      "Panappuzha",
+      "Kadannappally",
+      "Cheruthazham",
+      "Kunhimangalam",
+      "Ramanthali",
+      "Karivellur-Peralam",
+      "Kankol-Alappadamba"
+    ]
   }
 ]
