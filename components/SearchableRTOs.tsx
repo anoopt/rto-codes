@@ -79,7 +79,7 @@ export default function SearchableRTOs({ rtos, searchQuery, availableImages }: S
             </svg>
             <p className="text-sm text-[var(--foreground)]">
               <span className="text-[var(--muted)]">Search results for</span>{' '}
-              <span className="font-medium">"{searchQuery}"</span>
+              <span className="font-medium">&quot;{searchQuery}&quot;</span>
               <span className="text-[var(--muted)] ml-2">
                 ({filteredRTOs.length} {filteredRTOs.length === 1 ? 'result' : 'results'})
               </span>

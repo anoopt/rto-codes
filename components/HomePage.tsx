@@ -22,6 +22,8 @@ export default function HomePage({ rtos, availableImages }: HomePageProps) {
         const params = new URLSearchParams(window.location.search);
         const q = params.get('search');
         if (q) {
+            // One-time sync from URL on mount; can't read window.location during SSR render
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setSearchQuery(q);
             window.dispatchEvent(new CustomEvent('webmcpSearch', { detail: q }));
             // Clean the URL without reloading
