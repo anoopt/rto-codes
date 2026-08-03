@@ -236,9 +236,12 @@ async function main() {
             continue;
         }
 
-        // Skip if already has totalRTOs set (unless force flag)
-        if (config.totalRTOs > 0 && !force) {
-            console.log(`  ⏭️  Skipping - totalRTOs already set to ${config.totalRTOs}`);
+        // Skip only if totalRTOs AND validCodes are already set (unless force flag).
+        // A state can have totalRTOs set but no validCodes yet (e.g. non-sequential
+        // gaps discovered later), in which case it still needs research.
+        const hasValidCodes = Array.isArray(config.validCodes) && config.validCodes.length > 0;
+        if (config.totalRTOs > 0 && hasValidCodes && !force) {
+            console.log(`  ⏭️  Skipping - totalRTOs (${config.totalRTOs}) and validCodes already set`);
             console.log(`     (use --force to update anyway)`);
             skippedCount++;
             continue;

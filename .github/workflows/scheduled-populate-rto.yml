@@ -252,8 +252,31 @@ jobs:
               exit 0
             fi
           else
-            # Fallback for states without validCodes (sequential assumption)
-            START=$((EXISTING + 1))
+            # Fallback for states without validCodes: scan sequential numbers
+            # for the first gap instead of assuming EXISTING+1, since a single
+            # missing code (e.g. HP-24) would otherwise stall the state forever.
+            STATE_CODE=$(jq -r '.stateCode' "data/$STATE/config.json" | tr '[:upper:]' '[:lower:]')
+            START=0
+            num=1
+            while [ $num -le $TOTAL ]; do
+              padded=$(printf '%02d' $num)
+              file="data/$STATE/${STATE_CODE}-${padded}.json"
+              if [ ! -f "$file" ]; then
+                START=$num
+                echo "📍 First missing code: ${STATE_CODE^^}-${padded} (sequential position $num)"
+                break
+              fi
+              num=$((num + 1))
+            done
+
+            # All sequential codes have files - nothing to generate
+            if [ "$START" = "0" ]; then
+              echo "✅ All sequential codes 1-$TOTAL have files on disk"
+              echo "success=true" >> $GITHUB_OUTPUT
+              echo "generated=0" >> $GITHUB_OUTPUT
+              echo "new_total=$EXISTING" >> $GITHUB_OUTPUT
+              exit 0
+            fi
           fi
 
           END=$((START + LIMIT - 1))
