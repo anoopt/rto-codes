@@ -1,0 +1,499 @@
+{
+  "generatedAt": "2026-08-04T00:07:50.646Z",
+  "state": "Himachal Pradesh",
+  "rtoCount": 98,
+  "successCount": 98,
+  "failedRTOs": [],
+  "coordinates": {
+    "HP-01": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-02": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-03": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-04": {
+      "lat": 32.2143039,
+      "lon": 76.3196717,
+      "displayName": "Dharamshala, Kangra, Himachal Pradesh, 176200, India"
+    },
+    "HP-05": {
+      "lat": 31.6698556,
+      "lon": 76.9492507,
+      "displayName": "Mandi, Himachal Pradesh, India"
+    },
+    "HP-06": {
+      "lat": 31.4486551,
+      "lon": 77.6302099,
+      "displayName": "Rampur Bushahr, Rampur, Shimla, Himachal Pradesh, 172022, India"
+    },
+    "HP-07": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-08": {
+      "lat": 30.9491214,
+      "lon": 77.591071,
+      "displayName": "Chaupal, Shimla, Himachal Pradesh, India"
+    },
+    "HP-09": {
+      "lat": 31.1198874,
+      "lon": 77.3636183,
+      "displayName": "Theog, Shimla, Himachal Pradesh, India"
+    },
+    "HP-10": {
+      "lat": 31.2258578,
+      "lon": 77.7340762,
+      "displayName": "Rohru, Shimla, Himachal Pradesh, 171207, India"
+    },
+    "HP-11": {
+      "lat": 31.1524854,
+      "lon": 76.9428892,
+      "displayName": "Arki, Solan, Himachal Pradesh, India"
+    },
+    "HP-12": {
+      "lat": 31.1059814,
+      "lon": 76.6567018,
+      "displayName": "Nalagarh, Solan, Himachal Pradesh, India"
+    },
+    "HP-13": {
+      "lat": 31.0017985,
+      "lon": 77.094054,
+      "displayName": "Kandaghat, Solan, Himachal Pradesh, India"
+    },
+    "HP-14": {
+      "lat": 30.9077569,
+      "lon": 77.1023645,
+      "displayName": "Solan, Himachal Pradesh, 173212, India"
+    },
+    "HP-15": {
+      "lat": 30.837887,
+      "lon": 76.9601747,
+      "displayName": "Parwanoo, Kasauli, Solan, Himachal Pradesh, 173220, India"
+    },
+    "HP-16": {
+      "lat": 30.8807375,
+      "lon": 77.3244765,
+      "displayName": "Rajgarh, Sirmaur, Himachal Pradesh, India"
+    },
+    "HP-17": {
+      "lat": 30.4384439,
+      "lon": 77.6211774,
+      "displayName": "Paonta Sahib, Sirmaur, Himachal Pradesh, 173025, India"
+    },
+    "HP-18": {
+      "lat": 30.5601803,
+      "lon": 77.2923596,
+      "displayName": "Nahan, Sirmaur, Himachal Pradesh, 173001, India"
+    },
+    "HP-19": {
+      "lat": 31.7027585,
+      "lon": 76.1168902,
+      "displayName": "Amb, Una, Himachal Pradesh, India"
+    },
+    "HP-20": {
+      "lat": 31.583333,
+      "lon": 76.25,
+      "displayName": "Una, Himachal Pradesh, India"
+    },
+    "HP-21": {
+      "lat": 31.5554903,
+      "lon": 76.4773784,
+      "displayName": "Barsar, Hamirpur, Himachal Pradesh, India"
+    },
+    "HP-22": {
+      "lat": 31.6925529,
+      "lon": 76.5410574,
+      "displayName": "Hamirpur, Himachal Pradesh, India"
+    },
+    "HP-23": {
+      "lat": 31.4668061,
+      "lon": 76.7039214,
+      "displayName": "Ghumarwin, Bilaspur, Himachal Pradesh, India"
+    },
+    "HP-25": {
+      "lat": 31.577786,
+      "lon": 78.2286065,
+      "displayName": "Kalpa, Kinnaur, Himachal Pradesh, India"
+    },
+    "HP-26": {
+      "lat": 31.5931155,
+      "lon": 78.0048403,
+      "displayName": "Nichar, Kinnaur, Himachal Pradesh, India"
+    },
+    "HP-27": {
+      "lat": 31.76159,
+      "lon": 78.5839324,
+      "displayName": "Pooh, Poo district, Kinnaur, Himachal Pradesh, 172111, India"
+    },
+    "HP-28": {
+      "lat": 31.6997465,
+      "lon": 76.7203497,
+      "displayName": "Sarkaghat, Mandi, Himachal Pradesh, India"
+    },
+    "HP-29": {
+      "lat": 31.9901487,
+      "lon": 76.7929928,
+      "displayName": "Joginder Nagar, Jogindar Nagar, Mandi, Himachal Pradesh, 176120, India"
+    },
+    "HP-30": {
+      "lat": 31.3422936,
+      "lon": 77.2007657,
+      "displayName": "Karsog, Mandi, Himachal Pradesh, India"
+    },
+    "HP-31": {
+      "lat": 31.5346989,
+      "lon": 76.8863313,
+      "displayName": "BSL Sundernagar Reservoir, Thathar, Ropa, Sundarnagar, Mandi, Himachal Pradesh, India"
+    },
+    "HP-32": {
+      "lat": 31.5781241,
+      "lon": 77.0454562,
+      "displayName": "Gohar, Kutachi, Chachyot, Mandi, Himachal Pradesh, 175028, India"
+    },
+    "HP-33": {
+      "lat": 31.6698556,
+      "lon": 76.9492507,
+      "displayName": "Mandi, Himachal Pradesh, India"
+    },
+    "HP-34": {
+      "lat": 31.9578974,
+      "lon": 77.1089232,
+      "displayName": "Kullu, Himachal Pradesh, 175100, India"
+    },
+    "HP-35": {
+      "lat": 31.4339728,
+      "lon": 77.4188089,
+      "displayName": "Anni, Ani, Kullu, Himachal Pradesh, 175038, India"
+    },
+    "HP-36": {
+      "lat": 31.9634133,
+      "lon": 76.1101532,
+      "displayName": "Dehra, Kangra, Himachal Pradesh, India"
+    },
+    "HP-37": {
+      "lat": 32.1095492,
+      "lon": 76.5359534,
+      "displayName": "Palampur, Kangra, Himachal Pradesh, 176061, India"
+    },
+    "HP-38": {
+      "lat": 32.2997393,
+      "lon": 75.8839627,
+      "displayName": "Nurpur, Kangra, Himachal Pradesh, India"
+    },
+    "HP-39": {
+      "lat": 32.2143039,
+      "lon": 76.3196717,
+      "displayName": "Dharamshala, Kangra, Himachal Pradesh, 176200, India"
+    },
+    "HP-40": {
+      "lat": 32.1031646,
+      "lon": 76.2723559,
+      "displayName": "Kangra, Himachal Pradesh, 176002, India"
+    },
+    "HP-41": {
+      "lat": 32.2243837,
+      "lon": 78.0722634,
+      "displayName": "Kaza, Spiti, Lahaul and Spiti, Himachal Pradesh, India"
+    },
+    "HP-42": {
+      "lat": 32.5713398,
+      "lon": 77.0345199,
+      "displayName": "Keylong, Lahaul, Lahaul and Spiti, Himachal Pradesh, 175132, India"
+    },
+    "HP-43": {
+      "lat": 32.8974437,
+      "lon": 76.8282077,
+      "displayName": "Udaipur, Lahaul and Spiti, Himachal Pradesh, India"
+    },
+    "HP-44": {
+      "lat": 32.833684,
+      "lon": 76.1564219,
+      "displayName": "Civil Hospital, Tissa, Chamba Kilar Road, Kuarun, Khushnagri, Chaurah, Chamba, Himachal Pradesh, 176316, India"
+    },
+    "HP-45": {
+      "lat": 33.0804585,
+      "lon": 76.4014977,
+      "displayName": "Killar, Pangi, Chamba, Himachal Pradesh, India"
+    },
+    "HP-46": {
+      "lat": 32.4416691,
+      "lon": 76.5364551,
+      "displayName": "Bharmour, Brahmaur, Chamba, Himachal Pradesh, 176315, India"
+    },
+    "HP-47": {
+      "lat": 32.5435755,
+      "lon": 75.9448409,
+      "displayName": "Dalhousie, Chamba, Himachal Pradesh, India"
+    },
+    "HP-48": {
+      "lat": 32.5,
+      "lon": 76.5,
+      "displayName": "Chamba, Himachal Pradesh, India"
+    },
+    "HP-49": {
+      "lat": 31.6351336,
+      "lon": 77.4352861,
+      "displayName": "Banjar, Kullu, Himachal Pradesh, 175123, India"
+    },
+    "HP-50": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-51": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-52": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-53": {
+      "lat": 32.053021,
+      "lon": 76.672197,
+      "displayName": "Baijnath, Kangra, Himachal Pradesh, India"
+    },
+    "HP-54": {
+      "lat": 32.1521803,
+      "lon": 76.0184764,
+      "displayName": "Jawali, Kangra, Himachal Pradesh, India"
+    },
+    "HP-55": {
+      "lat": 31.7209338,
+      "lon": 76.3906974,
+      "displayName": "Nadaun, Hamirpur, Himachal Pradesh, India"
+    },
+    "HP-56": {
+      "lat": 31.9204318,
+      "lon": 76.5715224,
+      "displayName": "Jaisinghpur, Kangra, Himachal Pradesh, India"
+    },
+    "HP-57": {
+      "lat": 32.4323195,
+      "lon": 76.0107708,
+      "displayName": "Chowari, Bhattiyat, Chamba, Himachal Pradesh, 176302, India"
+    },
+    "HP-58": {
+      "lat": 32.2454608,
+      "lon": 77.1872926,
+      "displayName": "Manali, Kullu, Himachal Pradesh, 175131, India"
+    },
+    "HP-59": {
+      "lat": 30.9077569,
+      "lon": 77.1023645,
+      "displayName": "Solan, Himachal Pradesh, 173212, India"
+    },
+    "HP-60": {
+      "lat": 31.6925529,
+      "lon": 76.5410574,
+      "displayName": "Hamirpur, Himachal Pradesh, India"
+    },
+    "HP-61": {
+      "lat": 31.9578974,
+      "lon": 77.1089232,
+      "displayName": "Kullu, Himachal Pradesh, 175100, India"
+    },
+    "HP-62": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-63": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-64": {
+      "lat": 30.9077569,
+      "lon": 77.1023645,
+      "displayName": "Solan, Himachal Pradesh, 173212, India"
+    },
+    "HP-65": {
+      "lat": 31.6698556,
+      "lon": 76.9492507,
+      "displayName": "Mandi, Himachal Pradesh, India"
+    },
+    "HP-66": {
+      "lat": 31.9578974,
+      "lon": 77.1089232,
+      "displayName": "Kullu, Himachal Pradesh, 175100, India"
+    },
+    "HP-67": {
+      "lat": 31.6925529,
+      "lon": 76.5410574,
+      "displayName": "Hamirpur, Himachal Pradesh, India"
+    },
+    "HP-68": {
+      "lat": 32.2143039,
+      "lon": 76.3196717,
+      "displayName": "Dharamshala, Kangra, Himachal Pradesh, 176200, India"
+    },
+    "HP-69": {
+      "lat": 31.3193644,
+      "lon": 76.780578,
+      "displayName": "Bilaspur Sadar, Bilaspur, Himachal Pradesh, India"
+    },
+    "HP-70": {
+      "lat": 31.3193644,
+      "lon": 76.780578,
+      "displayName": "Bilaspur Sadar, Bilaspur, Himachal Pradesh, India"
+    },
+    "HP-71": {
+      "lat": 30.5601803,
+      "lon": 77.2923596,
+      "displayName": "Nahan, Sirmaur, Himachal Pradesh, 173001, India"
+    },
+    "HP-72": {
+      "lat": 31.583333,
+      "lon": 76.25,
+      "displayName": "Una, Himachal Pradesh, India"
+    },
+    "HP-73": {
+      "lat": 32.5,
+      "lon": 76.5,
+      "displayName": "Chamba, Himachal Pradesh, India"
+    },
+    "HP-74": {
+      "lat": 31.6576401,
+      "lon": 76.6641153,
+      "displayName": "Bhoranj, Hamirpur, Himachal Pradesh, India"
+    },
+    "HP-75": {
+      "lat": 31.0631082,
+      "lon": 77.7403263,
+      "displayName": "Jubbal, Shimla, Himachal Pradesh, India"
+    },
+    "HP-76": {
+      "lat": 31.6516617,
+      "lon": 77.0092542,
+      "displayName": "Mandi, Himachal Pradesh, India"
+    },
+    "HP-77": {
+      "lat": 31.1040393,
+      "lon": 77.1707923,
+      "displayName": "Shimla, Shimla (urban), Shimla, Himachal Pradesh, 171001, India"
+    },
+    "HP-78": {
+      "lat": 31.5664,
+      "lon": 76.3447002,
+      "displayName": "Bangana, Una, Himachal Pradesh, India"
+    },
+    "HP-79": {
+      "lat": 30.722948,
+      "lon": 77.5239231,
+      "displayName": "Renuka -sangrah -HaripurDhar Road, Dalenu, Renuka, Sirmaur, Himachal Pradesh, 173032, India"
+    },
+    "HP-80": {
+      "lat": 31.4224193,
+      "lon": 76.2314057,
+      "displayName": "Haroli, Una, Himachal Pradesh, 177220, India"
+    },
+    "HP-81": {
+      "lat": 32.7211397,
+      "lon": 76.0522798,
+      "displayName": "CHC, Salooni, SH35, Bhandar, Saluni, Chamba, Himachal Pradesh, 176320, India"
+    },
+    "HP-82": {
+      "lat": 31.891484,
+      "lon": 76.9445944,
+      "displayName": "PHC, Balh Tikkar, NH154, Paundal Bunha, Padhar, Mandi, Himachal Pradesh, 175012, India"
+    },
+    "HP-83": {
+      "lat": 31.8373161,
+      "lon": 76.305564,
+      "displayName": "Jawalamukhi, Kangra, Himachal Pradesh, 176031, India"
+    },
+    "HP-84": {
+      "lat": 31.8355482,
+      "lon": 76.5059744,
+      "displayName": "Tira Sujanpur, Hamirpur, Himachal Pradesh, 176110, India"
+    },
+    "HP-85": {
+      "lat": 30.6769058,
+      "lon": 77.7069318,
+      "displayName": "Shillai, Shalai, Sirmaur, Himachal Pradesh, 173027, India"
+    },
+    "HP-86": {
+      "lat": 31.8029118,
+      "lon": 76.7584459,
+      "displayName": "CHC,Dharampur, NH3, Banal, Dharmpur, Mandi, Himachal Pradesh, 175040, India"
+    },
+    "HP-87": {
+      "lat": 31.5403218,
+      "lon": 77.18545,
+      "displayName": "Thunag, Mandi, Himachal Pradesh, India"
+    },
+    "HP-88": {
+      "lat": 32.0593003,
+      "lon": 75.8969921,
+      "displayName": "Fatehpur, Kangra, Himachal Pradesh, 176025, India"
+    },
+    "HP-89": {
+      "lat": 31.3675571,
+      "lon": 76.6358853,
+      "displayName": "CHC, Jhandutta, Jhanduta, Bilaspur, Himachal Pradesh, 174031, India"
+    },
+    "HP-90": {
+      "lat": 32.2613779,
+      "lon": 76.2178392,
+      "displayName": "Shahpur, Kangra, Himachal Pradesh, India"
+    },
+    "HP-91": {
+      "lat": 31.23001,
+      "lon": 76.71753,
+      "displayName": "Swarghat, Bilaspur, Himachal Pradesh, 174011, India"
+    },
+    "HP-92": {
+      "lat": 31.4486551,
+      "lon": 77.6302099,
+      "displayName": "Rampur Bushahr, Rampur, Shimla, Himachal Pradesh, 172022, India"
+    },
+    "HP-93": {
+      "lat": 30.9763026,
+      "lon": 76.7674001,
+      "displayName": "Baddi, Solan, Himachal Pradesh, 173205, India"
+    },
+    "HP-94": {
+      "lat": 32.0957729,
+      "lon": 76.3791619,
+      "displayName": "Nagrota Bagwan, Kangra, Himachal Pradesh, 176047, India"
+    },
+    "HP-95": {
+      "lat": 31.3179317,
+      "lon": 77.4478133,
+      "displayName": "Kumarsain, Kumharsain, Shimla, Himachal Pradesh, 172029, India"
+    },
+    "HP-96": {
+      "lat": 32.013058,
+      "lon": 76.451341,
+      "displayName": "CHC, Dheera, SH 39, Manimbal, salri, Palampur, Kangra, Himachal Pradesh, 176101, India"
+    },
+    "HP-97": {
+      "lat": 32.1419699,
+      "lon": 75.818212,
+      "displayName": "Indora, Kangra, Himachal Pradesh, India"
+    },
+    "HP-98": {
+      "lat": 30.8999479,
+      "lon": 76.9619744,
+      "displayName": "Kasauli, Solan, Himachal Pradesh, 173233, India"
+    },
+    "HP-99": {
+      "lat": 31.1569042,
+      "lon": 77.5310257,
+      "displayName": "Kotkhai, Shimla, Himachal Pradesh, India"
+    }
+  }
+}
