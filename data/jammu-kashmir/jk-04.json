@@ -1,0 +1,25 @@
+{
+    "code": "JK-04",
+    "region": "Budgam",
+    "city": "Budgam",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Budgam",
+    "division": "Kashmir",
+    "description": "The JK-04 Assistant Regional Transport Office (ARTO) serves the Budgam district within the Kashmir division. It is the primary authority for vehicle registration, driving licenses, and transport permit issuance for the residents of Budgam and surrounding tehsils.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office (ARTO), Budgam, Srinagar-Budgam Road, Budgam, Jammu and Kashmir",
+    "pinCode": "191111",
+    "phone": "01951-255222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Budgam",
+        "Beerwah",
+        "Chadoora",
+        "Khansahib",
+        "Khag",
+        "Magam",
+        "Charar-i-Sharief"
+    ]
+}

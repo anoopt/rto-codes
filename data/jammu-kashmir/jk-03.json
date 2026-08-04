@@ -1,0 +1,26 @@
+{
+    "code": "JK-03",
+    "region": "Anantnag",
+    "city": "Anantnag",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Anantnag",
+    "division": "Kashmir",
+    "description": "The JK-03 RTO serves the Anantnag district in the Kashmir valley, operating as an Assistant Regional Transport Office (ARTO). It handles motor vehicle registrations, license issuances, and transport permit management for one of the oldest and most populous districts in the union territory.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office (ARTO) Anantnag, Court Road, Mehman Mohalla, Anantnag, Jammu & Kashmir",
+    "pinCode": "192101",
+    "phone": "01932-222823",
+    "email": "artoana-jk@nic.in",
+    "jurisdictionAreas": [
+        "Anantnag",
+        "Bijbehara",
+        "Dooru",
+        "Kokernag",
+        "Pahalgam",
+        "Shangus",
+        "Qazigund",
+        "Mattan"
+    ]
+}

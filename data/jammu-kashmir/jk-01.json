@@ -1,0 +1,25 @@
+{
+    "code": "JK-01",
+    "region": "Srinagar",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Srinagar",
+    "division": "Kashmir Division",
+    "description": "JK-01 serves the Regional Transport Office (RTO) in Srinagar, the summer capital of Jammu and Kashmir. It is responsible for motor vehicle registration, driver licensing, and enforcement of transport regulations across the Srinagar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Srinagar, Chattabal, Srinagar, Jammu and Kashmir",
+    "pinCode": "190010",
+    "phone": "+91-194-2303778",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Srinagar Municipal Corporation Area",
+        "Hazratbal",
+        "Eidgah",
+        "Khanyar",
+        "Sonwar",
+        "Batamaloo",
+        "Pantha Chowk"
+    ]
+}
