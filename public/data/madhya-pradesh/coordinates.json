@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-08-04T00:14:00.102Z",
+  "state": "Madhya Pradesh",
+  "rtoCount": 21,
+  "successCount": 21,
+  "failedRTOs": [],
+  "coordinates": {
+    "MP-02": {
+      "lat": 23.2584857,
+      "lon": 77.401989,
+      "displayName": "Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India"
+    },
+    "MP-03": {
+      "lat": 23.2584857,
+      "lon": 77.401989,
+      "displayName": "Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India"
+    },
+    "MP-04": {
+      "lat": 23.2584857,
+      "lon": 77.401989,
+      "displayName": "Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India"
+    },
+    "MP-05": {
+      "lat": 22.7545538,
+      "lon": 77.7198249,
+      "displayName": "Narmadapuram, Narmadapuram Tahsil, Narmadapuram, Madhya Pradesh, 461001, India"
+    },
+    "MP-06": {
+      "lat": 26.4909914,
+      "lon": 77.9813656,
+      "displayName": "Morena, Morena Nagar Tahsil, Morena, Madhya Pradesh, 476001, India"
+    },
+    "MP-07": {
+      "lat": 26.2037247,
+      "lon": 78.1573628,
+      "displayName": "Gwalior, Gird Tahsil, Gwalior, Madhya Pradesh, 474001, India"
+    },
+    "MP-08": {
+      "lat": 24.6476632,
+      "lon": 77.3161782,
+      "displayName": "Guna, Guna NagarTahsil, Guna, Madhya Pradesh, 473001, India"
+    },
+    "MP-09": {
+      "lat": 22.7203616,
+      "lon": 75.8681996,
+      "displayName": "Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+    },
+    "MP-10": {
+      "lat": 21.825599,
+      "lon": 75.614182,
+      "displayName": "Khargone, Khargone Tahsil, Khargone, Madhya Pradesh, 451001, India"
+    },
+    "MP-11": {
+      "lat": 22.5972396,
+      "lon": 75.306565,
+      "displayName": "Dhar, Dhar Tahsil, Dhar, Madhya Pradesh, 454001, India"
+    },
+    "MP-12": {
+      "lat": 21.8203752,
+      "lon": 76.3555424,
+      "displayName": "Khandwa, Khandwa Nagar Tahsil, Khandwa, Madhya Pradesh, 450001, India"
+    },
+    "MP-13": {
+      "lat": 23.1885131,
+      "lon": 75.7716562,
+      "displayName": "Ujjain, Ujjain NagarTahsil, Ujjain, Madhya Pradesh, 456001, India"
+    },
+    "MP-14": {
+      "lat": 24.0682898,
+      "lon": 75.0742388,
+      "displayName": "Mandsaur, Mandsaur Nagar Tahsil, Mandsaur, Madhya Pradesh, 458001, India"
+    },
+    "MP-15": {
+      "lat": 23.8417793,
+      "lon": 78.7466817,
+      "displayName": "Sagar, Sagar Nagar Tahsil, Sagar, Madhya Pradesh, 470001, India"
+    },
+    "MP-16": {
+      "lat": 24.9204657,
+      "lon": 79.5839755,
+      "displayName": "Chhatarpur, Chhatarpur Nagar Tahsil, Chhatarpur, Madhya Pradesh, 471001, India"
+    },
+    "MP-17": {
+      "lat": 24.5359,
+      "lon": 81.2934,
+      "displayName": "Rewa, Huzur Tahsil, Rewa, Madhya Pradesh, 486001, India"
+    },
+    "MP-18": {
+      "lat": 23.2859237,
+      "lon": 81.3648409,
+      "displayName": "Shahdol, NH543, Sohagpur, Sohagpur Tahsil, Shahdol, Madhya Pradesh, India"
+    },
+    "MP-19": {
+      "lat": 24.5751308,
+      "lon": 80.8325721,
+      "displayName": "Satna, Raghurajnagar Nagareey Tahsil, Satna, Madhya Pradesh, 485001, India"
+    },
+    "MP-20": {
+      "lat": 23.1701522,
+      "lon": 79.9324505,
+      "displayName": "Jabalpur, Ranjhi Tahsil, Jabalpur, Madhya Pradesh, India"
+    },
+    "MP-21": {
+      "lat": 23.8339621,
+      "lon": 80.392456,
+      "displayName": "Katni, Murwara, Katni Nagar, Katni, Madhya Pradesh, 483500, India"
+    },
+    "MP-22": {
+      "lat": 22.0910049,
+      "lon": 79.5507791,
+      "displayName": "Seoni, Seoni Tahsil, Seoni, Madhya Pradesh, 480600, India"
+    }
+  }
+}
