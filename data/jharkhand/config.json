@@ -6,5 +6,31 @@
   "totalRTOs": 24,
   "districtMapping": {},
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "validCodes": [
+    "JH-01",
+    "JH-02",
+    "JH-03",
+    "JH-04",
+    "JH-05",
+    "JH-06",
+    "JH-07",
+    "JH-08",
+    "JH-09",
+    "JH-10",
+    "JH-11",
+    "JH-12",
+    "JH-13",
+    "JH-14",
+    "JH-15",
+    "JH-16",
+    "JH-17",
+    "JH-18",
+    "JH-19",
+    "JH-20",
+    "JH-21",
+    "JH-22",
+    "JH-23",
+    "JH-24"
+  ]
 }
