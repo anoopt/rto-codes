@@ -1,0 +1,23 @@
+{
+    "code": "HP-24",
+    "region": "Bilaspur",
+    "city": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "stateCode": "HP",
+    "district": "Bilaspur",
+    "division": "Mandi",
+    "description": "HP-24 is the Registration and Licensing Authority (R&LA) office located in Bilaspur, Himachal Pradesh. It functions under the Sub Divisional Officer (Civil) and is responsible for vehicle registration and the issuance of driving licenses for the Bilaspur Sadar sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Officer (Civil), Bilaspur, District Bilaspur, Himachal Pradesh",
+    "pinCode": "174001",
+    "phone": "01978-224798",
+    "email": "sdms-bil-hp@nic.in",
+    "jurisdictionAreas": [
+        "Bilaspur Sadar",
+        "Namhol",
+        "Kalyanpur",
+        "Chandpur",
+        "Bassir"
+    ]
+}
