@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-04T00:23:11.966Z",
-  "totalRTOs": 615,
-  "totalVerified": 615,
+  "generatedAt": "2026-08-04T02:59:21.081Z",
+  "totalRTOs": 620,
+  "totalVerified": 620,
   "totalStates": 28,
-  "completedStates": 12,
+  "completedStates": 13,
   "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 5,
-  "inProgressUTs": 0,
+  "inProgressUTs": 1,
   "states": [
     {
       "stateCode": "AN",
@@ -617,14 +617,20 @@
     {
       "stateCode": "JK",
       "stateName": "Jammu and Kashmir",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 22,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "jk-01",
+        "jk-02",
+        "jk-03",
+        "jk-04",
+        "jk-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -661,11 +667,11 @@
         "jh-23",
         "jh-24"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "KA",
@@ -1756,14 +1762,20 @@
     "JK": {
       "stateCode": "JK",
       "stateName": "Jammu and Kashmir",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 22,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "jk-01",
+        "jk-02",
+        "jk-03",
+        "jk-04",
+        "jk-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1800,11 +1812,11 @@
         "jh-23",
         "jh-24"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "KA": {
       "stateCode": "KA",
