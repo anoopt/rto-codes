@@ -338,15 +338,23 @@ async function main() {
     }
   }
 
+  // Load existing generated images
+  const generatedImages = loadGeneratedImages();
+  console.log(`📦 Already generated: ${generatedImages.size} images`);
+
+  // Skip codes already tracked locally before hitting the Cloudinary API,
+  // otherwise every already-generated RTO still costs a network round-trip + rate-limit delay
+  if (skipExisting) {
+    const beforeCount = rtosToProcess.length;
+    rtosToProcess = rtosToProcess.filter(rto => !generatedImages.has(rto.code.toUpperCase()));
+    console.log(`⏭️  Skipped ${beforeCount - rtosToProcess.length} RTOs already in ${path.join('data', 'rto-images.json')}`);
+  }
+
   if (limit > 0) {
     rtosToProcess = rtosToProcess.slice(0, limit);
   }
 
   console.log(`📋 Processing ${rtosToProcess.length} RTOs`);
-
-  // Load existing generated images
-  const generatedImages = loadGeneratedImages();
-  console.log(`📦 Already generated: ${generatedImages.size} images`);
 
   // Process RTOs
   let successCount = 0;
