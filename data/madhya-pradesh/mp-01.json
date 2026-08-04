@@ -1,0 +1,20 @@
+{
+    "code": "MP-01",
+    "region": "Governor of Madhya Pradesh",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "district": "Bhopal",
+    "division": "Bhopal",
+    "description": "MP-01 is a specialized registration code in Madhya Pradesh reserved exclusively for the official motor fleet of the Governor. It is not a public-facing Regional Transport Office and does not provide registration or licensing services to the general public.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Raj Bhavan, Arera Hills, Bhopal, Madhya Pradesh",
+    "pinCode": "462003",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Governor's Official Fleet",
+        "Raj Bhavan Administration"
+    ]
+}
