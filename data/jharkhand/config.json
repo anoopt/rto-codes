@@ -4,8 +4,33 @@
   "displayName": "Jharkhand",
   "capital": "Ranchi",
   "totalRTOs": 24,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Bokaro": "Bokaro",
+    "Chatra": "Chatra",
+    "Deoghar": "Deoghar",
+    "Dhanbad": "Dhanbad",
+    "Dumka": "Dumka",
+    "East Singhbhum": "East Singhbhum",
+    "Garhwa": "Garhwa",
+    "Giridih": "Giridih",
+    "Godda": "Godda",
+    "Gumla": "Gumla",
+    "Hazaribagh": "Hazaribagh",
+    "Jamtara": "Jamtara",
+    "Khunti": "Khunti",
+    "Koderma": "Koderma",
+    "Latehar": "Latehar",
+    "Lohardaga": "Lohardaga",
+    "Pakur": "Pakur",
+    "Palamu": "Palamu",
+    "Ramgarh": "Ramgarh",
+    "Ranchi": "Ranchi",
+    "Sahebganj": "Sahebganj",
+    "Seraikela Kharsawan": "Seraikela Kharsawan",
+    "Simdega": "Simdega",
+    "West Singhbhum": "West Singhbhum"
+  },
+  "isComplete": true,
   "type": "state",
   "validCodes": [
     "JH-01",
@@ -32,5 +57,6 @@
     "JH-22",
     "JH-23",
     "JH-24"
-  ]
+  ],
+  "osmEnabled": true
 }
