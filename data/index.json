@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-07T03:00:23.390Z",
-  "totalRTOs": 589,
-  "totalVerified": 589,
+  "generatedAt": "2026-08-04T00:05:29.679Z",
+  "totalRTOs": 590,
+  "totalVerified": 590,
   "totalStates": 28,
-  "completedStates": 9,
-  "inProgressStates": 2,
+  "completedStates": 10,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 5,
   "inProgressUTs": 0,
@@ -503,10 +503,10 @@
     {
       "stateCode": "HP",
       "stateName": "Himachal Pradesh",
-      "rtoCount": 98,
+      "rtoCount": 99,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 98,
+      "verifiedCount": 99,
       "rtoCodes": [
         "hp-01",
         "hp-02",
@@ -531,6 +531,7 @@
         "hp-21",
         "hp-22",
         "hp-23",
+        "hp-24",
         "hp-25",
         "hp-26",
         "hp-27",
@@ -609,7 +610,7 @@
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -822,11 +823,11 @@
         "kl-85",
         "kl-86"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "LA",
@@ -1615,10 +1616,10 @@
     "HP": {
       "stateCode": "HP",
       "stateName": "Himachal Pradesh",
-      "rtoCount": 98,
+      "rtoCount": 99,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 98,
+      "verifiedCount": 99,
       "rtoCodes": [
         "hp-01",
         "hp-02",
@@ -1643,6 +1644,7 @@
         "hp-21",
         "hp-22",
         "hp-23",
+        "hp-24",
         "hp-25",
         "hp-26",
         "hp-27",
@@ -1721,7 +1723,7 @@
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1934,11 +1936,11 @@
         "kl-85",
         "kl-86"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "LA": {
       "stateCode": "LA",
