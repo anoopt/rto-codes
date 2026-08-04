@@ -4,8 +4,21 @@
   "displayName": "Himachal Pradesh",
   "capital": "Shimla",
   "totalRTOs": 99,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Bilaspur": "Bilaspur",
+    "Chamba": "Chamba",
+    "Hamirpur": "Hamirpur",
+    "Kangra": "Kangra",
+    "Kinnaur": "Kinnaur",
+    "Kullu": "Kullu",
+    "Lahaul and Spiti": "Lahaul and Spiti",
+    "Mandi": "Mandi",
+    "Shimla": "Shimla",
+    "Sirmaur": "Sirmaur",
+    "Solan": "Solan",
+    "Una": "Una"
+  },
+  "isComplete": true,
   "type": "state",
   "validCodes": [
     "HP-01",
@@ -107,5 +120,6 @@
     "HP-97",
     "HP-98",
     "HP-99"
-  ]
+  ],
+  "osmEnabled": true
 }
