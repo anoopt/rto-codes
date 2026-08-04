@@ -1,0 +1,25 @@
+{
+    "code": "JH-08",
+    "region": "Lohardaga",
+    "city": "Lohardaga",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Lohardaga",
+    "division": "South Chotanagpur",
+    "description": "JH-08 is the District Transport Office (DTO) for Lohardaga, Jharkhand, operating under the Transport Department of the Government of Jharkhand. It manages all transport-related activities including vehicle registration, issuance of driving permits, and road tax collection for the Lohardaga district. The office serves as a primary regulatory body ensuring vehicle compliance and safety in the region.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectorate Building, Lohardaga, Jharkhand",
+    "pinCode": "835213",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Lohardaga",
+        "Kisko",
+        "Senha",
+        "Bhandra",
+        "Kuru",
+        "Peshrar",
+        "Bagru"
+    ]
+}

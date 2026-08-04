@@ -1,0 +1,31 @@
+{
+    "code": "JH-01",
+    "region": "Ranchi",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Ranchi",
+    "division": "South Chotanagpur",
+    "description": "JH-01 is the primary Regional Transport Office for Ranchi, the capital city of Jharkhand. It serves as the district's main hub for vehicle registrations, driving license issuances, and transport permit management under the state's motor vehicle department.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, HEC Colony, Sector-2, Near Sahid Maidan, Dhurwa, Ranchi, Jharkhand",
+    "pinCode": "834004",
+    "phone": "0651-2443608",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ranchi City",
+        "Kanke",
+        "Namkum",
+        "Ratu",
+        "Ormanjhi",
+        "Angara",
+        "Bundu",
+        "Tamar",
+        "Silli",
+        "Mandar",
+        "Itki",
+        "Bero",
+        "Lapung"
+    ]
+}

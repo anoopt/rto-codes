@@ -1,0 +1,28 @@
+{
+    "code": "JH-15",
+    "region": "Deoghar",
+    "city": "Deoghar",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Deoghar",
+    "division": "Santhal Pargana",
+    "description": "The JH-15 RTO office serves the Deoghar district in Jharkhand, handling essential services such as vehicle registration, driving license issuance, and road tax collection. Deoghar is a major religious destination, and this office manages transport logistics for both local residents and the significant tourist influx to the Baidyanath Temple area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Court Campus, Deoghar, Jharkhand",
+    "pinCode": "814112",
+    "phone": "06432-238764",
+    "email": "dto-deo@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Deoghar",
+        "Madhupur",
+        "Sarwan",
+        "Sarath",
+        "Devipur",
+        "Mohanpur",
+        "Sonaraithari",
+        "Palojori",
+        "Margomunda",
+        "Karown"
+    ]
+}

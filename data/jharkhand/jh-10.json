@@ -1,0 +1,26 @@
+{
+    "code": "JH-10",
+    "region": "Dhanbad",
+    "city": "Dhanbad",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Dhanbad",
+    "division": "North Chotanagpur",
+    "description": "JH-10 is the official Regional Transport Office for Dhanbad district in Jharkhand, serving as a critical hub for vehicle registration and licensing in the 'Coal Capital of India'. The office manages a high volume of heavy commercial vehicles and private transport activities within the industrial belt of the state.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectorate Compound, Dhanbad, Jharkhand",
+    "pinCode": "826001",
+    "phone": "0326-2311250",
+    "email": "dto-dhanbad@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Dhanbad",
+        "Jharia",
+        "Baghmara",
+        "Nirsa",
+        "Govindpur",
+        "Baliapur",
+        "Tundi",
+        "Topchanchi"
+    ]
+}

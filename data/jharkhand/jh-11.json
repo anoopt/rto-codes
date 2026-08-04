@@ -1,0 +1,30 @@
+{
+    "code": "JH-11",
+    "region": "Giridih",
+    "city": "Giridih",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Giridih",
+    "division": "North Chotanagpur",
+    "description": "The JH-11 RTO serves as the District Transport Office for Giridih, Jharkhand. It manages all transport-related activities including vehicle registration, driving permit issuance, and road tax collection for the entire Giridih district.",
+    "status": "active",
+    "established": "2000",
+    "address": "District Transport Office, Q. No. D-11, Officer’s Colony, Giridih, Jharkhand",
+    "pinCode": "815301",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Giridih",
+        "Gandey",
+        "Bengabad",
+        "Pirtand",
+        "Dumri",
+        "Bagodar",
+        "Birni",
+        "Dhanwar",
+        "Jamua",
+        "Deori",
+        "Tisri",
+        "Gawan"
+    ]
+}

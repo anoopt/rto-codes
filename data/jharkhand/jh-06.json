@@ -1,0 +1,26 @@
+{
+    "code": "JH-06",
+    "region": "Chaibasa",
+    "city": "Chaibasa",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "West Singhbhum",
+    "division": "Kolhan",
+    "description": "The JH-06 RTO is the District Transport Office (DTO) for West Singhbhum district, headquartered in Chaibasa. It is responsible for vehicle registration, issuance of driving licenses, and enforcing motor vehicle laws across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Building, Chaibasa, West Singhbhum, Jharkhand",
+    "pinCode": "833201",
+    "phone": "06582-257804",
+    "email": "dto-wsi@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Chaibasa",
+        "Chakradharpur",
+        "Jagannathpur",
+        "Manoharpur",
+        "Noamundi",
+        "Sonua",
+        "Goilkera",
+        "Hat Gamharia"
+    ]
+}

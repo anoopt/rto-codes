@@ -1,0 +1,27 @@
+{
+    "code": "JH-17",
+    "region": "Godda",
+    "city": "Godda",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Godda",
+    "division": "Santhal Pargana",
+    "description": "The JH-17 Regional Transport Office (RTO) serves the Godda district in the state of Jharkhand. It is responsible for essential services such as vehicle registration, driving license issuance, and the enforcement of road safety regulations under the Motor Vehicles Act.",
+    "status": "active",
+    "established": "2000",
+    "address": "District Transport Office, Collectorate Campus, Godda, Jharkhand",
+    "pinCode": "814154",
+    "phone": "06437-222204",
+    "email": "dto-godda@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Godda",
+        "Pathergama",
+        "Mahagama",
+        "Meherma",
+        "Boarijore",
+        "Sundarpahari",
+        "Poraiyahat",
+        "Thakurgangti",
+        "Basantrai"
+    ]
+}

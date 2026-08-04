@@ -1,0 +1,30 @@
+{
+    "code": "JH-13",
+    "region": "Chatra",
+    "city": "Chatra",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Chatra",
+    "division": "North Chotanagpur",
+    "description": "The JH-13 RTO serves the Chatra district in Jharkhand, managing vehicle registration, driving licenses, and transport permits. It operates as the District Transport Office (DTO) for the region, facilitating motor vehicle regulation and road safety enforcement.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Ground Floor, Collectorate Building, Chatra, Jharkhand",
+    "pinCode": "825401",
+    "phone": "N/A",
+    "email": "dto-chatra@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Chatra",
+        "Hunterganj",
+        "Itkhori",
+        "Pratappur",
+        "Simaria",
+        "Tandwa",
+        "Kanhachatti",
+        "Pathalgada",
+        "Gidhour",
+        "Lawalong",
+        "Kunda",
+        "Mayurhand"
+    ]
+}

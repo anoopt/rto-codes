@@ -1,0 +1,24 @@
+{
+    "code": "JH-21",
+    "region": "Jamtara",
+    "city": "Jamtara",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Jamtara",
+    "division": "Santhal Pargana",
+    "description": "JH-21 RTO serves the Jamtara district in Jharkhand, providing essential services such as vehicle registration, issuance of driving licenses, and permit management. As the District Transport Office (DTO) for Jamtara, it ensures adherence to the Motor Vehicles Act across its jurisdiction in the Santhal Pargana division.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Combined Building, DC Office Campus, Jamtara, Jharkhand",
+    "pinCode": "815354",
+    "phone": "06433-222011",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jamtara",
+        "Fatehpur",
+        "Nala",
+        "Kundhit",
+        "Narayanpur",
+        "Karmatand"
+    ]
+}

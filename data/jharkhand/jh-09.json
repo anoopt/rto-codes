@@ -1,0 +1,27 @@
+{
+    "code": "JH-09",
+    "region": "Bokaro",
+    "city": "Bokaro Steel City",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Bokaro",
+    "division": "North Chotanagpur",
+    "description": "The JH-09 RTO (District Transport Office) serves the Bokaro district, a major industrial hub known for the Bokaro Steel Plant. It manages all transport-related activities including vehicle registration, issuance of fitness certificates, and driving license services for the region.",
+    "status": "active",
+    "established": "2000",
+    "address": "Camp II, Bokaro Collectorate, Bokaro Steel City, Jharkhand",
+    "pinCode": "827001",
+    "phone": "N/A",
+    "email": "dto-bokaro@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Chas",
+        "Chandankiyari",
+        "Jaridih",
+        "Kasmar",
+        "Peterwar",
+        "Gomia",
+        "Bermo",
+        "Nawadih",
+        "Chandrapura"
+    ]
+}

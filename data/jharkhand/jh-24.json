@@ -1,0 +1,24 @@
+{
+    "code": "JH-24",
+    "region": "Ramgarh",
+    "city": "Ramgarh",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Ramgarh",
+    "division": "North Chotanagpur",
+    "description": "The JH-24 Regional Transport Office serves the Ramgarh district in Jharkhand, providing essential services like vehicle registration, driving licenses, and tax collection. This RTO was created to manage the transport needs of the district after its formation as a separate entity from Hazaribagh.",
+    "status": "active",
+    "established": "2007",
+    "address": "District Transport Office (DTO), Block Campus, Collectorate, Ramgarh, Jharkhand",
+    "pinCode": "829122",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ramgarh",
+        "Gola",
+        "Mandu",
+        "Patratu",
+        "Chittarpur",
+        "Dulmi"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "code": "JH-19",
+    "region": "Latehar",
+    "city": "Latehar",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Latehar",
+    "division": "Palamu Division",
+    "description": "The JH-19 RTO serves the Latehar district of Jharkhand, operating as the District Transport Office (DTO). It handles all regional transport activities including vehicle registration, permit issuance, and driver licensing for the district.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectoriate Bhawan, Annexy-C, Latehar, Jharkhand",
+    "pinCode": "829204",
+    "phone": "N/A",
+    "email": "dto-lat@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Latehar",
+        "Chandwa",
+        "Balumath",
+        "Barwadih",
+        "Mahuadanr",
+        "Manika",
+        "Herhanj",
+        "Garu",
+        "Bariatu"
+    ]
+}

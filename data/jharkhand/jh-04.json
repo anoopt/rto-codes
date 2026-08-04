@@ -1,0 +1,28 @@
+{
+    "code": "JH-04",
+    "region": "Dumka",
+    "city": "Dumka",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Dumka",
+    "division": "Santhal Pargana",
+    "description": "The JH-04 RTO is the District Transport Office for Dumka, which serves as the sub-capital of Jharkhand. It manages all transport-related services including vehicle registration, permit issuance, and driver licensing for the Dumka district within the Santhal Pargana division.",
+    "status": "active",
+    "established": "2000",
+    "address": "District Transport Office, Court Compound, Municipality Chowk, Dumka, Jharkhand",
+    "pinCode": "814101",
+    "phone": "06434-224802",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dumka",
+        "Jama",
+        "Jarmundi",
+        "Masalia",
+        "Ramgarh",
+        "Saraiyahat",
+        "Shikaripara",
+        "Ranishwar",
+        "Kathikund",
+        "Gopikandar"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "code": "JH-03",
+    "region": "Daltonganj",
+    "city": "Daltonganj (Medininagar)",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Palamu",
+    "division": "Palamu Division",
+    "description": "The JH-03 RTO office serves the Palamu district in Jharkhand, facilitating vehicle registration and driving license services. It was formerly part of the Bihar transport system under the BR-15 code until Jharkhand's formation in 2000.",
+    "status": "active",
+    "established": "2000",
+    "address": "Collectoriate Campus, Court Compound, Daltonganj, Palamu, Jharkhand",
+    "pinCode": "822101",
+    "phone": "06562-226316",
+    "email": "dto-palamu@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Daltonganj",
+        "Medininagar",
+        "Bishrampur",
+        "Chhatarpur",
+        "Hussainabad",
+        "Lesliganj",
+        "Panki",
+        "Satbarwa",
+        "Chainpur",
+        "Patan",
+        "Hariharganj"
+    ]
+}

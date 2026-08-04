@@ -1,0 +1,24 @@
+{
+    "code": "JH-23",
+    "region": "Khunti",
+    "city": "Khunti",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Khunti",
+    "division": "South Chotanagpur",
+    "description": "The JH-23 RTO serves the Khunti district of Jharkhand, which was established as a separate district in 2007. The office is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations across the district's jurisdiction.",
+    "status": "active",
+    "established": "2007",
+    "address": "District Transport Office, Vikash Bhawan, Khunti, Jharkhand - 835201",
+    "pinCode": "835201",
+    "phone": "N/A",
+    "email": "dto-khunti@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Khunti",
+        "Arki",
+        "Karra",
+        "Murhu",
+        "Rania",
+        "Torpa"
+    ]
+}

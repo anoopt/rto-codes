@@ -1,0 +1,31 @@
+{
+    "code": "JH-05",
+    "region": "Jamshedpur",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "East Singhbhum",
+    "division": "Kolhan",
+    "description": "JH-05 is the Regional Transport Office for Jamshedpur, the largest city in Jharkhand and the district headquarters of East Singhbhum. This office is a critical transport hub managing vehicle registrations and licensing for one of India's major industrial and steel-producing regions.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Old Court Campus, Sakchi, Jamshedpur, Jharkhand",
+    "pinCode": "831001",
+    "phone": "0657-2431031",
+    "email": "dto-esingh@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Jamshedpur",
+        "Ghatshila",
+        "Dhalbhumgarh",
+        "Musabani",
+        "Dumaria",
+        "Potka",
+        "Patamda",
+        "Bodam",
+        "Baharagora",
+        "Chakulia",
+        "Ghorabandha",
+        "Parsudih",
+        "Jugsalai"
+    ]
+}

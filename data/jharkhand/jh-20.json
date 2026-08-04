@@ -1,0 +1,27 @@
+{
+    "code": "JH-20",
+    "region": "Simdega",
+    "city": "Simdega",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Simdega",
+    "division": "South Chotanagpur",
+    "description": "JH-20 is the District Transport Office (DTO) serving the Simdega district in Jharkhand. It handles vehicle registrations, driving license issuances, and the collection of road taxes under the Motor Vehicles Act. The office is located within the Collectorate complex and covers the southwestern region of the state bordering Odisha.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectorate Building, Post: Khunti Toli, District: Simdega, Jharkhand",
+    "pinCode": "835223",
+    "phone": "N/A",
+    "email": "dto-simdega@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Simdega",
+        "Kurdeg",
+        "Bolba",
+        "Thethaitangar",
+        "Kolebira",
+        "Bano",
+        "Jaldega",
+        "Pakartanr",
+        "Kersai"
+    ]
+}

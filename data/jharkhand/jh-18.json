@@ -1,0 +1,27 @@
+{
+    "code": "JH-18",
+    "region": "Sahibganj",
+    "city": "Sahibganj",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Sahebganj",
+    "division": "Santhal Pargana Division",
+    "description": "The JH-18 RTO serves the Sahibganj district in Jharkhand, handling crucial transport-related administrative tasks. It is responsible for vehicle registration, issuance of driving licenses, and the enforcement of road safety regulations and tax collection in this riverine district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Collectorate Compound, Sahibganj, Jharkhand",
+    "pinCode": "816101",
+    "phone": "06436-224399",
+    "email": "dto-sahibganj@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Sahibganj",
+        "Rajmahal",
+        "Borio",
+        "Barhait",
+        "Taljhari",
+        "Pathna",
+        "Barharwa",
+        "Udhwa",
+        "Mandro"
+    ]
+}

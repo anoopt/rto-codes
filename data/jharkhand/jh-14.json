@@ -1,0 +1,33 @@
+{
+    "code": "JH-14",
+    "region": "Garhwa",
+    "city": "Garhwa",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Garhwa",
+    "division": "Palamu Division",
+    "description": "JH-14 represents the District Transport Office (DTO) of Garhwa, situated in the Palamu division of Jharkhand. This office oversees vehicle registration (RC), driving license (DL) issuance, and motor vehicle tax collection for the entire Garhwa district.",
+    "status": "active",
+    "established": "2001",
+    "address": "District Transport Office, Collectorate Campus, Garhwa, Jharkhand",
+    "pinCode": "822114",
+    "phone": "06561-222301",
+    "email": "dto-gar@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Garhwa",
+        "Bansi",
+        "Bhawnathpur",
+        "Chiniya",
+        "Dandai",
+        "Dhurki",
+        "Kandi",
+        "Kharaundhi",
+        "Majhiaon",
+        "Meral",
+        "Nagar Untari",
+        "Ramna",
+        "Ramkanda",
+        "Ranka",
+        "Sagma"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "JH-12",
+    "region": "Koderma",
+    "city": "Koderma",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Koderma",
+    "division": "North Chotanagpur",
+    "description": "JH-12 is the Regional Transport Office for the Koderma district, responsible for vehicle registration, driving license issuance, and tax collection. It serves as a vital administrative unit in the North Chotanagpur division, ensuring transport regulations are followed across the district.",
+    "status": "active",
+    "established": "2000",
+    "address": "District Transport Office, Collectoriate Campus, Koderma, Jharkhand",
+    "pinCode": "825318",
+    "phone": "06534-252796",
+    "email": "dto-koderma@jharkhandmail.gov.in",
+    "jurisdictionAreas": [
+        "Koderma",
+        "Jhumri Telaiya",
+        "Chandwara",
+        "Markacho",
+        "Satgawan",
+        "Domchanch"
+    ]
+}

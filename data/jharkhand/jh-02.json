@@ -1,0 +1,30 @@
+{
+    "code": "JH-02",
+    "region": "Hazaribagh",
+    "city": "Hazaribagh",
+    "state": "Jharkhand",
+    "stateCode": "JH",
+    "district": "Hazaribagh",
+    "division": "North Chotanagpur",
+    "description": "JH-02 is the Regional Transport Office serving the Hazaribagh district in Jharkhand. It manages essential vehicle-related services including registration, licensing, and tax collection. As a major administrative hub in North Chotanagpur, it plays a critical role in regional transport management.",
+    "status": "active",
+    "established": "N/A",
+    "address": "NH 100, CTS Colony, Hazaribagh, Jharkhand",
+    "pinCode": "825301",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hazaribagh",
+        "Barkagaon",
+        "Barhi",
+        "Barkatha",
+        "Bishnugarh",
+        "Chauran",
+        "Dadi",
+        "Ichak",
+        "Kati",
+        "Keredari",
+        "Padma",
+        "Tati Jhariya"
+    ]
+}
