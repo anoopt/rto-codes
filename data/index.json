@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-04T00:05:29.679Z",
-  "totalRTOs": 590,
-  "totalVerified": 590,
+  "generatedAt": "2026-08-04T00:12:48.272Z",
+  "totalRTOs": 591,
+  "totalVerified": 591,
   "totalStates": 28,
-  "completedStates": 10,
-  "inProgressStates": 1,
+  "completedStates": 11,
+  "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 5,
   "inProgressUTs": 0,
@@ -608,11 +608,11 @@
         "hp-98",
         "hp-99"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "JK",
@@ -863,11 +863,12 @@
     {
       "stateCode": "MP",
       "stateName": "Madhya Pradesh",
-      "rtoCount": 21,
+      "rtoCount": 22,
       "totalExpectedRTOs": 22,
       "activeRTOs": 0,
-      "verifiedCount": 21,
+      "verifiedCount": 22,
       "rtoCodes": [
+        "mp-01",
         "mp-02",
         "mp-03",
         "mp-04",
@@ -892,7 +893,7 @@
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1721,11 +1722,11 @@
         "hp-98",
         "hp-99"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "JK": {
       "stateCode": "JK",
@@ -1976,11 +1977,12 @@
     "MP": {
       "stateCode": "MP",
       "stateName": "Madhya Pradesh",
-      "rtoCount": 21,
+      "rtoCount": 22,
       "totalExpectedRTOs": 22,
       "activeRTOs": 0,
-      "verifiedCount": 21,
+      "verifiedCount": 22,
       "rtoCodes": [
+        "mp-01",
         "mp-02",
         "mp-03",
         "mp-04",
@@ -2005,7 +2007,7 @@
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
