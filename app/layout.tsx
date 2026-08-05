@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Josefin_Sans } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import DevWarningBanner from "@/components/DevWarningBanner";
 import PersistentHeader from "@/components/PersistentHeader";
