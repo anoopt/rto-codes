@@ -1,0 +1,26 @@
+{
+    "code": "JK-06",
+    "region": "Doda",
+    "city": "Doda",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Doda",
+    "division": "Jammu",
+    "description": "The JK-06 RTO functions as the Assistant Regional Transport Office (ARTO) for the Doda district in the Jammu division. It is responsible for vehicle registration, driving license issuance, and monitoring road safety standards across the mountainous terrain of Doda.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Doda, Dessa Road, Doda, Jammu and Kashmir",
+    "pinCode": "182145",
+    "phone": "N/A",
+    "email": "artododa@gmail.com",
+    "jurisdictionAreas": [
+        "Doda",
+        "Bhaderwah",
+        "Gandoh",
+        "Thathri",
+        "Assar",
+        "Bhagwah",
+        "Kastigarh",
+        "Marmat"
+    ]
+}

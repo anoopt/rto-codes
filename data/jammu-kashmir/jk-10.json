@@ -1,0 +1,24 @@
+{
+    "code": "JK-10",
+    "region": "Leh",
+    "city": "Leh",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Leh",
+    "division": "Ladakh",
+    "description": "JK-10 is the historical registration code for the Leh district, managed by the Assistant Regional Transport Office (ARTO). Following the Jammu and Kashmir Reorganisation Act of 2019, new vehicles are registered under the LA-02 prefix, but the JK-10 code remains active for existing vehicle records and renewals.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office (ARTO) Leh, DC Office Complex, Leh, Ladakh",
+    "pinCode": "194101",
+    "phone": "01982-252106",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Leh",
+        "Nubra",
+        "Khalsi",
+        "Nyoma",
+        "Durbuk",
+        "Kharu"
+    ]
+}

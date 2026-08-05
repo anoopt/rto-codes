@@ -1,0 +1,27 @@
+{
+    "code": "JK-08",
+    "region": "Kathua",
+    "city": "Kathua",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Kathua",
+    "division": "Jammu Division",
+    "description": "The JK-08 RTO serves the Kathua district in the Union Territory of Jammu and Kashmir, acting as a crucial entry point for the region. It is responsible for vehicle registration, driving licenses, and revenue collection for various tehsils including Lakhanpur and Hiranagar. Being located near the border of Punjab and Himachal Pradesh, this RTO manages significant interstate transport and commercial vehicle traffic.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, District Office Complex, Kathua, Jammu and Kashmir",
+    "pinCode": "184101",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kathua",
+        "Lakhanpur",
+        "Hiranagar",
+        "Billawar",
+        "Basholi",
+        "Bani",
+        "Mahanpur",
+        "Marheen",
+        "Nagri Parole"
+    ]
+}
