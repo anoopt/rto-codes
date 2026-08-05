@@ -29,6 +29,7 @@
   "dependencies": {
     "@google/genai": "^1.37.0",
     "@google/generative-ai": "^0.24.1",
+    "@vercel/analytics": "^2.0.1",
     "cloudinary": "^2.8.0",
     "leaflet": "^1.9.4",
     "next": "^16.1.1",
