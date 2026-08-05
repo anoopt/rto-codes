@@ -17,7 +17,7 @@ interface WebMCPToolsProps {
 export default function WebMCPTools({ rtos }: WebMCPToolsProps) {
   useEffect(() => {
     const mc = navigator.modelContext;
-    if (!mc) return;
+    if (!mc || typeof mc.provideContext !== 'function') return;
 
     mc.provideContext({
       tools: [
@@ -223,7 +223,9 @@ export default function WebMCPTools({ rtos }: WebMCPToolsProps) {
     });
 
     return () => {
-      mc.clearContext();
+      if (typeof mc.clearContext === 'function') {
+        mc.clearContext();
+      }
     };
   }, [rtos]);
 
