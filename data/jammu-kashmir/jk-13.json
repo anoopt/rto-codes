@@ -1,0 +1,26 @@
+{
+    "code": "JK-13",
+    "region": "Pulwama",
+    "city": "Pulwama",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Pulwama",
+    "division": "Kashmir Division",
+    "description": "The JK-13 RTO office, officially the Assistant Regional Transport Office (ARTO) Pulwama, is responsible for vehicle registration and licensing in the Pulwama district. It operates under the Transport Department of Jammu and Kashmir to ensure compliance with the Motor Vehicles Act and provide essential transport services to the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office (ARTO), Near Mini Secretariat, Pulwama, Jammu and Kashmir",
+    "pinCode": "192301",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pulwama",
+        "Pampore",
+        "Tral",
+        "Rajpora",
+        "Awantipora",
+        "Litter",
+        "Kakapora",
+        "Shahoora"
+    ]
+}

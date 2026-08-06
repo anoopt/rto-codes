@@ -1,0 +1,25 @@
+{
+    "code": "JK-15",
+    "region": "Bandipora",
+    "city": "Bandipora",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Bandipora",
+    "division": "Kashmir",
+    "description": "The JK-15 RTO office is an Assistant Regional Transport Office (ARTO) serving the Bandipora district in North Kashmir. It manages vehicle registrations, driving license issuances, and traffic regulation enforcement for the entire district area.",
+    "status": "active",
+    "established": "2007",
+    "address": "ARTO Office, Nasoo, Bandipora, Jammu and Kashmir",
+    "pinCode": "193502",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bandipora",
+        "Sumbal",
+        "Gurez",
+        "Ajas",
+        "Hajin",
+        "Aloosa",
+        "Sonawari"
+    ]
+}

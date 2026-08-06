@@ -1,0 +1,23 @@
+{
+    "code": "JK-12",
+    "region": "Poonch",
+    "city": "Poonch",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Poonch",
+    "division": "Jammu",
+    "description": "The JK-12 RTO office serves as the Assistant Regional Transport Office (ARTO) for the Poonch district in Jammu and Kashmir. It is responsible for vehicle registrations, issuing driving licenses, and managing transport permits for the entire border region of Poonch.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office (ARTO), DC Office Complex, Poonch, Jammu and Kashmir",
+    "pinCode": "185101",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Poonch",
+        "Mandi",
+        "Mendhar",
+        "Surankote",
+        "Haveli"
+    ]
+}
