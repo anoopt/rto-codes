@@ -1,0 +1,25 @@
+{
+    "code": "JK-16",
+    "region": "Ganderbal",
+    "city": "Ganderbal",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Ganderbal",
+    "division": "Kashmir",
+    "description": "JK-16 is the Assistant Regional Transport Office (ARTO) for the Ganderbal district in the Union Territory of Jammu and Kashmir. It provides essential services such as vehicle registration, issuing driving licenses, and collecting road taxes for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "ARTO Ganderbal, Qamaria Park, near Duderhama, Ganderbal, Jammu & Kashmir",
+    "pinCode": "191201",
+    "phone": "N/A",
+    "email": "artoganderbal16@gmail.com",
+    "jurisdictionAreas": [
+        "Ganderbal",
+        "Lar",
+        "Kangan",
+        "Gund",
+        "Tullamulla",
+        "Wakura",
+        "Safapora"
+    ]
+}

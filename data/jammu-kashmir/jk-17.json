@@ -1,0 +1,26 @@
+{
+    "code": "JK-17",
+    "region": "Kishtwar",
+    "city": "Kishtwar",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Kishtwar",
+    "division": "Jammu",
+    "description": "The JK-17 RTO serves the Kishtwar district in the Jammu division of the Union Territory. It operates as an Assistant Regional Transport Office (ARTO) responsible for vehicle registrations, permits, and licensing for the mountainous Kishtwar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office (ARTO), Opposite DC Office Complex, Kishtwar, Jammu and Kashmir",
+    "pinCode": "182204",
+    "phone": "N/A",
+    "email": "arto-kishtwar-jk@nic.in",
+    "jurisdictionAreas": [
+        "Kishtwar",
+        "Paddar",
+        "Marwah",
+        "Warwan",
+        "Chhatroo",
+        "Nagseni",
+        "Drabshalla",
+        "Mughal Maidan"
+    ]
+}

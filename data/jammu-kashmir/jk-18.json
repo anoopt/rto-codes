@@ -1,0 +1,25 @@
+{
+    "code": "JK-18",
+    "region": "Kulgam",
+    "city": "Kulgam",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Kulgam",
+    "division": "Kashmir",
+    "description": "The JK-18 RTO serves the Kulgam district under the Kashmir division of Jammu and Kashmir. It is managed by the Assistant Regional Transport Officer (ARTO) and is responsible for vehicle registration, driving licenses, and transport permit issuance for the local population.",
+    "status": "active",
+    "established": "2007",
+    "address": "Assistant Regional Transport Office (ARTO), Cholgam Road, Kulgam, Jammu and Kashmir",
+    "pinCode": "192231",
+    "phone": "N/A",
+    "email": "artokulgam-jk@nic.in",
+    "jurisdictionAreas": [
+        "Kulgam",
+        "Damhal Hanji Pora",
+        "Devsar",
+        "Frisal",
+        "Yaripora",
+        "Pahloo",
+        "Qaimoh"
+    ]
+}

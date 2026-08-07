@@ -1,0 +1,26 @@
+{
+    "code": "JK-19",
+    "region": "Ramban",
+    "city": "Ramban",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Ramban",
+    "division": "Jammu",
+    "description": "The JK-19 RTO serves as the Assistant Regional Transport Office (ARTO) for the Ramban district in Jammu and Kashmir. It is responsible for motor vehicle registration, issuance of driving licenses, and enforcement of transport regulations across the mountainous terrain of the Ramban region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Assistant Regional Transport Office, Maitra, Ramban, Jammu and Kashmir",
+    "pinCode": "182144",
+    "phone": "N/A",
+    "email": "artoramban-jk@nic.in",
+    "jurisdictionAreas": [
+        "Ramban",
+        "Banihal",
+        "Gool",
+        "Batote",
+        "Ramsoo",
+        "Ukhral",
+        "Pogal Paristan",
+        "Sangaldan"
+    ]
+}

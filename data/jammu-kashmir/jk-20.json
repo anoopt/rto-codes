@@ -1,0 +1,26 @@
+{
+    "code": "JK-20",
+    "region": "Reasi",
+    "city": "Reasi",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Reasi",
+    "division": "Jammu",
+    "description": "The JK-20 RTO (Assistant Regional Transport Office) serves the Reasi district in the Union Territory of Jammu and Kashmir. It is responsible for motor vehicle registration, issuing driving licenses, and enforcing transport regulations throughout the district, including the major pilgrimage hub of Katra.",
+    "status": "active",
+    "established": "2007",
+    "address": "ARTO Office, Ward No. 13, Shiv Nagar, Reasi, Jammu and Kashmir",
+    "pinCode": "182311",
+    "phone": "N/A",
+    "email": "artoreasi-jk@nic.in",
+    "jurisdictionAreas": [
+        "Reasi",
+        "Katra",
+        "Pouni",
+        "Mahore",
+        "Arnas",
+        "Chasana",
+        "Thakrakote",
+        "Thuroo"
+    ]
+}
