@@ -1,0 +1,26 @@
+{
+    "code": "JK-22",
+    "region": "Shopian",
+    "city": "Shopian",
+    "state": "Jammu and Kashmir",
+    "stateCode": "JK",
+    "district": "Shopian",
+    "division": "Kashmir",
+    "description": "The JK-22 RTO office serves the Shopian district in the Kashmir division of Jammu and Kashmir. As an Assistant Regional Transport Office (ARTO), it handles vehicle registrations, driving licenses, and road tax collection for this major apple-producing region.",
+    "status": "active",
+    "established": "2007",
+    "address": "Assistant Regional Transport Office (ARTO), New Bus Stand, Batpora, Shopian, Jammu & Kashmir",
+    "pinCode": "192303",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shopian",
+        "Zainapora",
+        "Keller",
+        "Hermain",
+        "Chitragam",
+        "Imamsahib",
+        "Kaprin",
+        "Kanjiullar"
+    ]
+}
