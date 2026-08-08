@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-08T02:37:22.223Z",
+  "state": "Jammu Kashmir",
+  "rtoCount": 19,
+  "successCount": 19,
+  "failedRTOs": [],
+  "coordinates": {
+    "JK-01": {
+      "lat": 34.0747444,
+      "lon": 74.8204443,
+      "displayName": "Srinagar, Srinagar (South), Srinagar, Jammu and Kashmir, 190001, India"
+    },
+    "JK-02": {
+      "lat": 32.7185614,
+      "lon": 74.8580917,
+      "displayName": "Jammu, Jammu district, Jammu and Kashmir, 180001, India"
+    },
+    "JK-03": {
+      "lat": 33.74611,
+      "lon": 75.1854475,
+      "displayName": "Anantnag, Jammu and Kashmir, India"
+    },
+    "JK-04": {
+      "lat": 33.9933661,
+      "lon": 74.7751625,
+      "displayName": "Sheikh ul-Alam International Airport, Airport Road, Ichgam, Badgam tehsil, Budgam, Jammu and Kashmir, 190021, India"
+    },
+    "JK-05": {
+      "lat": 34.2086903,
+      "lon": 74.343498,
+      "displayName": "Baramulla, Jammu and Kashmir, 193101, India"
+    },
+    "JK-06": {
+      "lat": 33.1774307,
+      "lon": 75.5675228,
+      "displayName": "Doda, Jammu and Kashmir, India"
+    },
+    "JK-08": {
+      "lat": 32.3765524,
+      "lon": 75.5243044,
+      "displayName": "Kathua, Kathua district, Jammu and Kashmir, 184101, India"
+    },
+    "JK-09": {
+      "lat": 34.6110236,
+      "lon": 74.2384787,
+      "displayName": "Kupwara, Jammu and Kashmir, India"
+    },
+    "JK-10": {
+      "lat": 34.1664372,
+      "lon": 74.808529,
+      "displayName": "NH1, Vicharnag, Rangpura, Zoonimar, Gulab bagh, Srinagar, Jammu and Kashmir, 190006, India"
+    },
+    "JK-11": {
+      "lat": 33.3772495,
+      "lon": 74.3132332,
+      "displayName": "Rajouri, Rajauri, Rajouri, Jammu and Kashmir, 185131, India"
+    },
+    "JK-12": {
+      "lat": 33.7670004,
+      "lon": 74.0957143,
+      "displayName": "Poonch, Haveli tehsil, Poonch, Jammu and Kashmir, 185101, India"
+    },
+    "JK-13": {
+      "lat": 33.8756947,
+      "lon": 74.9003129,
+      "displayName": "Pulwama, Pulwama tehsil, Pulwama, Jammu and Kashmir, India"
+    },
+    "JK-14": {
+      "lat": 32.9219726,
+      "lon": 75.1331482,
+      "displayName": "Udhampur, Udhampur district, Jammu and Kashmir, 182101, India"
+    },
+    "JK-15": {
+      "lat": 34.4232433,
+      "lon": 74.635965,
+      "displayName": "Bandipora, Bandipore, Jammu and Kashmir, 193502, India"
+    },
+    "JK-16": {
+      "lat": 34.192763,
+      "lon": 74.7700157,
+      "displayName": "Ganderbal, Jammu and Kashmir, 191201, India"
+    },
+    "JK-17": {
+      "lat": 33.3107908,
+      "lon": 75.7694213,
+      "displayName": "Kishtwar, Jammu and Kashmir, 182204, India"
+    },
+    "JK-18": {
+      "lat": 33.6446899,
+      "lon": 75.0188432,
+      "displayName": "Kulgam, Jammu and Kashmir, India"
+    },
+    "JK-19": {
+      "lat": 33.2387042,
+      "lon": 75.2404448,
+      "displayName": "Ramban, Ramban district, Jammu and Kashmir, India"
+    },
+    "JK-20": {
+      "lat": 33.0791771,
+      "lon": 74.8362947,
+      "displayName": "Reasi, Reasi district, Jammu and Kashmir, 182311, India"
+    }
+  }
+}
