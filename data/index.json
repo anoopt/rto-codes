@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-07T02:58:33.393Z",
-  "totalRTOs": 634,
-  "totalVerified": 634,
+  "generatedAt": "2026-08-08T02:36:09.754Z",
+  "totalRTOs": 636,
+  "totalVerified": 636,
   "totalStates": 28,
   "completedStates": 13,
   "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 5,
-  "inProgressUTs": 1,
+  "inProgressUTs": 0,
   "states": [
     {
       "stateCode": "AN",
@@ -617,10 +617,10 @@
     {
       "stateCode": "JK",
       "stateName": "Jammu and Kashmir",
-      "rtoCount": 19,
+      "rtoCount": 21,
       "totalExpectedRTOs": 21,
       "activeRTOs": 0,
-      "verifiedCount": 19,
+      "verifiedCount": 21,
       "rtoCodes": [
         "jk-01",
         "jk-02",
@@ -640,11 +640,13 @@
         "jk-17",
         "jk-18",
         "jk-19",
-        "jk-20"
+        "jk-20",
+        "jk-21",
+        "jk-22"
       ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1776,10 +1778,10 @@
     "JK": {
       "stateCode": "JK",
       "stateName": "Jammu and Kashmir",
-      "rtoCount": 19,
+      "rtoCount": 21,
       "totalExpectedRTOs": 21,
       "activeRTOs": 0,
-      "verifiedCount": 19,
+      "verifiedCount": 21,
       "rtoCodes": [
         "jk-01",
         "jk-02",
@@ -1799,11 +1801,13 @@
         "jk-17",
         "jk-18",
         "jk-19",
-        "jk-20"
+        "jk-20",
+        "jk-21",
+        "jk-22"
       ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
