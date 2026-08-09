@@ -1,0 +1,20 @@
+{
+    "code": "LD-04",
+    "region": "Andrott Island",
+    "city": "Androth",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport Division",
+    "description": "The LD-04 RTO serves Andrott Island, the largest island in the Lakshadweep archipelago. It is responsible for vehicle registration, driving licenses, and the enforcement of motor vehicle regulations under the Lakshadweep Motor Vehicles Department.",
+    "status": "active",
+    "established": "1990",
+    "address": "Regional Transport Office, Androth Island, Lakshadweep",
+    "pinCode": "682551",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Andrott Island",
+        "Androth"
+    ]
+}

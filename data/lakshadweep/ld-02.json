@@ -1,0 +1,19 @@
+{
+    "code": "LD-02",
+    "region": "Agatti",
+    "city": "Agatti",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep",
+    "description": "The LD-02 RTO office is located on Agatti Island and serves as a key administrative hub for transport services in this part of the Union Territory. It handles vehicle registration, the issuance of driving licenses, and the collection of road taxes specifically for the Agatti region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer (RTO), Agatti, Lakshadweep",
+    "pinCode": "682553",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Agatti Island"
+    ]
+}

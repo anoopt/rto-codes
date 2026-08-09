@@ -1,0 +1,19 @@
+{
+    "code": "LD-01",
+    "region": "Kavaratti",
+    "city": "Kavaratti",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport Department",
+    "description": "LD-01 is the primary Regional Transport Office for the Union Territory of Lakshadweep, located on the island of Kavaratti. It serves as the administrative hub for vehicle registration and licensing for the capital island and oversees transport operations across the archipelago.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO), Kavaratti, Lakshadweep - 682555",
+    "pinCode": "682555",
+    "phone": "04867-22018",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kavaratti"
+    ]
+}

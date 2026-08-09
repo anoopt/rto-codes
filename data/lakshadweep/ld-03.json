@@ -1,0 +1,19 @@
+{
+    "code": "LD-03",
+    "region": "Amini",
+    "city": "Amini",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport Department",
+    "description": "The LD-03 RTO is the official registration authority for the Amini island in the Union Territory of Lakshadweep. It handles motor vehicle registrations, driving license issuances, and transport permits for the island's residents and transport operators.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Amini, Lakshadweep - 682552",
+    "pinCode": "682552",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Amini Island"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "code": "LD-05",
+    "region": "Kadmat",
+    "city": "Kadmat",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep",
+    "description": "The LD-05 RTO office serves Kadmat Island in the Union Territory of Lakshadweep. It is an active office responsible for vehicle registration, issuance of driving licenses, and road safety enforcement for the island's residents.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Kadamat, Lakshadweep",
+    "pinCode": "682556",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kadmat Island"
+    ]
+}
