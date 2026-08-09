@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-08T02:36:09.754Z",
-  "totalRTOs": 636,
-  "totalVerified": 636,
+  "generatedAt": "2026-08-09T02:40:34.999Z",
+  "totalRTOs": 641,
+  "totalVerified": 641,
   "totalStates": 28,
   "completedStates": 13,
   "inProgressStates": 0,
   "totalUTs": 8,
-  "completedUTs": 5,
-  "inProgressUTs": 0,
+  "completedUTs": 6,
+  "inProgressUTs": 1,
   "states": [
     {
       "stateCode": "AN",
@@ -644,11 +644,11 @@
         "jk-21",
         "jk-22"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "JH",
@@ -896,14 +896,20 @@
     {
       "stateCode": "LD",
       "stateName": "Lakshadweep",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 9,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "ld-01",
+        "ld-02",
+        "ld-03",
+        "ld-04",
+        "ld-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -1805,11 +1811,11 @@
         "jk-21",
         "jk-22"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "JH": {
       "stateCode": "JH",
@@ -2057,14 +2063,20 @@
     "LD": {
       "stateCode": "LD",
       "stateName": "Lakshadweep",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 9,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "ld-01",
+        "ld-02",
+        "ld-03",
+        "ld-04",
+        "ld-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
