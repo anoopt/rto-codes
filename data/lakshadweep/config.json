@@ -6,5 +6,16 @@
   "totalRTOs": 9,
   "districtMapping": {},
   "isComplete": false,
-  "type": "union-territory"
+  "type": "union-territory",
+  "validCodes": [
+    "LD-01",
+    "LD-02",
+    "LD-03",
+    "LD-04",
+    "LD-05",
+    "LD-06",
+    "LD-07",
+    "LD-08",
+    "LD-09"
+  ]
 }
