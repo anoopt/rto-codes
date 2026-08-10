@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-09T02:40:34.999Z",
-  "totalRTOs": 641,
-  "totalVerified": 641,
+  "generatedAt": "2026-08-10T02:48:11.417Z",
+  "totalRTOs": 644,
+  "totalVerified": 644,
   "totalStates": 28,
   "completedStates": 13,
   "inProgressStates": 0,
@@ -896,16 +896,19 @@
     {
       "stateCode": "LD",
       "stateName": "Lakshadweep",
-      "rtoCount": 5,
+      "rtoCount": 8,
       "totalExpectedRTOs": 9,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 8,
       "rtoCodes": [
         "ld-01",
         "ld-02",
         "ld-03",
         "ld-04",
-        "ld-05"
+        "ld-05",
+        "ld-06",
+        "ld-07",
+        "ld-09"
       ],
       "isComplete": false,
       "type": "union-territory",
@@ -2063,16 +2066,19 @@
     "LD": {
       "stateCode": "LD",
       "stateName": "Lakshadweep",
-      "rtoCount": 5,
+      "rtoCount": 8,
       "totalExpectedRTOs": 9,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 8,
       "rtoCodes": [
         "ld-01",
         "ld-02",
         "ld-03",
         "ld-04",
-        "ld-05"
+        "ld-05",
+        "ld-06",
+        "ld-07",
+        "ld-09"
       ],
       "isComplete": false,
       "type": "union-territory",

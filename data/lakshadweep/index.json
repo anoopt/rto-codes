@@ -94,5 +94,63 @@
     "jurisdictionAreas": [
       "Kadmat Island"
     ]
+  },
+  {
+    "code": "LD-06",
+    "region": "Kiltan",
+    "city": "Kiltan",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport",
+    "description": "The LD-06 Regional Transport Office serves the Kiltan island area in the Union Territory of Lakshadweep. It is responsible for vehicle registration, road tax collection, and issuing driving licenses for the island's residents under the authority of the Sub-Divisional Officer.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer, Kiltan, Lakshadweep",
+    "pinCode": "682558",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kiltan Island"
+    ]
+  },
+  {
+    "code": "LD-07",
+    "region": "Chetlat",
+    "city": "Chetlat",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport Department",
+    "description": "LD-07 is the Regional Transport Office designated for Chetlat Island in the Union Territory of Lakshadweep. It manages vehicle registrations under the LD-07 series, issues driving licenses, and ensures compliance with the Motor Vehicles Act across the island.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chetlat Island, Lakshadweep",
+    "pinCode": "682554",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chetlat"
+    ]
+  },
+  {
+    "code": "LD-09",
+    "region": "Minicoy",
+    "city": "Minicoy",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Minicoy",
+    "description": "LD-09 is the Regional Transport Office for Minicoy island, the southernmost atoll in the Union Territory of Lakshadweep. The office is managed under the administration of the Lakshadweep Transport Department and handles all vehicle-related registrations and licensing for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer, Regional Transport Office, Minicoy, Lakshadweep",
+    "pinCode": "682559",
+    "phone": "N/A",
+    "email": "transport-lk@nic.in",
+    "jurisdictionAreas": [
+      "Minicoy Island",
+      "Viringili"
+    ]
   }
 ]
