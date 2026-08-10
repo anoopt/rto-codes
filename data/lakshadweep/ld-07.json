@@ -1,0 +1,19 @@
+{
+    "code": "LD-07",
+    "region": "Chetlat",
+    "city": "Chetlat",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport Department",
+    "description": "LD-07 is the Regional Transport Office designated for Chetlat Island in the Union Territory of Lakshadweep. It manages vehicle registrations under the LD-07 series, issues driving licenses, and ensures compliance with the Motor Vehicles Act across the island.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chetlat Island, Lakshadweep",
+    "pinCode": "682554",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chetlat"
+    ]
+}

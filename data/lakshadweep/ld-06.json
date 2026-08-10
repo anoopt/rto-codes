@@ -1,0 +1,19 @@
+{
+    "code": "LD-06",
+    "region": "Kiltan",
+    "city": "Kiltan",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport",
+    "description": "The LD-06 Regional Transport Office serves the Kiltan island area in the Union Territory of Lakshadweep. It is responsible for vehicle registration, road tax collection, and issuing driving licenses for the island's residents under the authority of the Sub-Divisional Officer.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer, Kiltan, Lakshadweep",
+    "pinCode": "682558",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kiltan Island"
+    ]
+}

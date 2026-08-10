@@ -1,0 +1,20 @@
+{
+    "code": "LD-09",
+    "region": "Minicoy",
+    "city": "Minicoy",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Minicoy",
+    "description": "LD-09 is the Regional Transport Office for Minicoy island, the southernmost atoll in the Union Territory of Lakshadweep. The office is managed under the administration of the Lakshadweep Transport Department and handles all vehicle-related registrations and licensing for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Officer, Regional Transport Office, Minicoy, Lakshadweep",
+    "pinCode": "682559",
+    "phone": "N/A",
+    "email": "transport-lk@nic.in",
+    "jurisdictionAreas": [
+        "Minicoy Island",
+        "Viringili"
+    ]
+}
