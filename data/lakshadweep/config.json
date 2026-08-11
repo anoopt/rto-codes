@@ -4,8 +4,10 @@
   "displayName": "Lakshadweep",
   "capital": "Kavaratti",
   "totalRTOs": 9,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Lakshadweep": "Lakshadweep"
+  },
+  "isComplete": true,
   "type": "union-territory",
   "validCodes": [
     "LD-01",
@@ -17,5 +19,6 @@
     "LD-07",
     "LD-08",
     "LD-09"
-  ]
+  ],
+  "osmEnabled": true
 }
