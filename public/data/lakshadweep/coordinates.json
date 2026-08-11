@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-08-11T02:39:20.262Z",
+  "state": "Lakshadweep",
+  "rtoCount": 8,
+  "successCount": 8,
+  "failedRTOs": [],
+  "coordinates": {
+    "LD-01": {
+      "lat": 10.5672203,
+      "lon": 72.6394636,
+      "displayName": "Kavaratti, Lakshadweep, 262240, India"
+    },
+    "LD-02": {
+      "lat": 10.9478981,
+      "lon": 72.3177271,
+      "displayName": "Agatti, Lakshadweep, India"
+    },
+    "LD-03": {
+      "lat": 11.123865,
+      "lon": 72.7233235,
+      "displayName": "Amini, Lakshadweep, India"
+    },
+    "LD-04": {
+      "lat": 10.8132489,
+      "lon": 73.6804621,
+      "displayName": "Androth Island, Andrott, Lakshadweep, India"
+    },
+    "LD-05": {
+      "lat": 11.219255,
+      "lon": 72.7751186,
+      "displayName": "Kadmat, Lakshadweep, India"
+    },
+    "LD-06": {
+      "lat": 11.482725,
+      "lon": 73.0063495,
+      "displayName": "Kiltan, Lakshadweep, India"
+    },
+    "LD-07": {
+      "lat": 11.693815,
+      "lon": 72.7134444,
+      "displayName": "Chetlat, Lakshadweep, India"
+    },
+    "LD-09": {
+      "lat": 8.295235,
+      "lon": 73.0648394,
+      "displayName": "Minicoy, Lakshadweep, 682559, India"
+    }
+  }
+}
