@@ -1,0 +1,19 @@
+{
+    "code": "LD-08",
+    "region": "Kalpeni",
+    "city": "Kalpeni",
+    "state": "Lakshadweep",
+    "stateCode": "LD",
+    "district": "Lakshadweep",
+    "division": "Lakshadweep Transport Department",
+    "description": "The LD-08 RTO serves the island of Kalpeni in the Union Territory of Lakshadweep. It handles vehicle registrations, driving license issuances, and road tax collection for the local residents and administration. As with other islands in the UT, registration duties are often overseen by the Sub-Divisional Officer (SDO) acting as the transport authority.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Kalpeni Island, Lakshadweep",
+    "pinCode": "682557",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kalpeni Island"
+    ]
+}
