@@ -1,0 +1,26 @@
+{
+    "code": "MH-02",
+    "region": "Mumbai (West)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Mumbai Suburban",
+    "division": "Konkan Division",
+    "description": "The MH-02 Regional Transport Office serves the Western Suburbs of Mumbai, specifically the Andheri region. It is responsible for vehicle registration, licensing, and enforcing transport regulations in one of the most densely populated residential and commercial hubs of the city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, D/111, Ambivali Village, New Manish Nagar, Versova Road, Andheri (West), Mumbai, Maharashtra",
+    "pinCode": "400053",
+    "phone": "022-26366957",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Andheri",
+        "Bandra",
+        "Juhu",
+        "Versova",
+        "Vile Parle",
+        "Santacruz",
+        "Oshiwara",
+        "Jogeshwari"
+    ]
+}

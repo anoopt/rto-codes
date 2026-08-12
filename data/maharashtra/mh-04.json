@@ -1,0 +1,27 @@
+{
+    "code": "MH-04",
+    "region": "Thane",
+    "city": "Thane",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Thane",
+    "division": "Konkan",
+    "description": "The MH-04 Regional Transport Office (RTO) serves the city of Thane and is one of the most prominent transport offices in the Konkan division. It is responsible for essential services such as vehicle registration, driving license issuance, and road safety enforcement for the rapidly expanding Thane metropolitan area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer, Near Central Jail, Thane (West), Maharashtra",
+    "pinCode": "400601",
+    "phone": "022-25343580",
+    "email": "rto.04-mh@gov.in",
+    "jurisdictionAreas": [
+        "Thane City",
+        "Thane Bazar",
+        "Naupada",
+        "Kopri",
+        "Kalwa",
+        "Mumbra",
+        "Mira Road",
+        "Bhayander",
+        "Wagle Estate"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "MH-05",
+    "region": "Kalyan",
+    "city": "Kalyan",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Thane",
+    "division": "Konkan Division",
+    "description": "The MH-05 RTO is the Deputy Regional Transport Office serving the Kalyan region in the Thane district of Maharashtra. It handles vehicle registrations, driving licenses, and traffic regulation enforcement for the Kalyan-Dombivli metropolitan area and its surrounding talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sahyadri Nagar, Chikanghar, Near Birla School, Kalyan (West), District Thane, Maharashtra",
+    "pinCode": "421301",
+    "phone": "0251-2230505",
+    "email": "dyrto.05-mh@gov.in",
+    "jurisdictionAreas": [
+        "Kalyan",
+        "Dombivli",
+        "Ulhasnagar",
+        "Ambernath",
+        "Badlapur",
+        "Murbad",
+        "Shahapur"
+    ]
+}

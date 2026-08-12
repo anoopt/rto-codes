@@ -1,0 +1,30 @@
+{
+    "code": "MH-01",
+    "region": "Mumbai (Central)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Mumbai City",
+    "division": "Konkan",
+    "description": "MH-01 is the Regional Transport Office for South Mumbai, widely known as the Tardeo RTO. As the oldest RTO office in Maharashtra, it manages vehicle registration, licensing, and transport permits for the city's most prominent commercial and administrative hubs.",
+    "status": "active",
+    "established": "1939",
+    "address": "Old Bodyguard Lane, Tulsiwadi, Tardeo, Mumbai, Maharashtra",
+    "pinCode": "400034",
+    "phone": "022-23532337",
+    "email": "rto.01-mh@gov.in",
+    "jurisdictionAreas": [
+        "Colaba",
+        "Cuffe Parade",
+        "Nariman Point",
+        "Churchgate",
+        "Fort",
+        "Marine Drive",
+        "Malabar Hill",
+        "Tardeo",
+        "Byculla",
+        "Mazgaon",
+        "Girgaon",
+        "Parel"
+    ]
+}

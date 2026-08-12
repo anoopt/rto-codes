@@ -1,0 +1,26 @@
+{
+    "code": "MH-03",
+    "region": "Mumbai (East)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Mumbai Suburban",
+    "division": "Konkan",
+    "description": "The MH-03 RTO, widely known as the Wadala RTO, serves the Eastern Suburbs of Mumbai. It manages vehicle registrations, driving licenses, and transport permits for the eastern corridor of the Mumbai metropolitan region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "B/2, 3rd Floor, Wadala Truck Terminal, Wadala Road, Mumbai, Maharashtra",
+    "pinCode": "400037",
+    "phone": "022-24036221",
+    "email": "rto.mumbaidist3-mh@gov.in",
+    "jurisdictionAreas": [
+        "Wadala",
+        "Kurla",
+        "Ghatkopar",
+        "Chembur",
+        "Mankhurd",
+        "Mulund",
+        "Bhandup",
+        "Vikhroli"
+    ]
+}
