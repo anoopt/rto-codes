@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-10T02:48:11.417Z",
-  "totalRTOs": 644,
-  "totalVerified": 644,
+  "generatedAt": "2026-08-12T02:50:18.672Z",
+  "totalRTOs": 650,
+  "totalVerified": 650,
   "totalStates": 28,
   "completedStates": 13,
-  "inProgressStates": 0,
+  "inProgressStates": 1,
   "totalUTs": 8,
-  "completedUTs": 6,
-  "inProgressUTs": 1,
+  "completedUTs": 7,
+  "inProgressUTs": 0,
   "states": [
     {
       "stateCode": "AN",
@@ -896,10 +896,10 @@
     {
       "stateCode": "LD",
       "stateName": "Lakshadweep",
-      "rtoCount": 8,
+      "rtoCount": 9,
       "totalExpectedRTOs": 9,
       "activeRTOs": 0,
-      "verifiedCount": 8,
+      "verifiedCount": 9,
       "rtoCodes": [
         "ld-01",
         "ld-02",
@@ -908,13 +908,14 @@
         "ld-05",
         "ld-06",
         "ld-07",
+        "ld-08",
         "ld-09"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory",
-      "status": "In Progress",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "status": "Complete",
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "MP",
@@ -956,14 +957,20 @@
     {
       "stateCode": "MH",
       "stateName": "Maharashtra",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 53,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 55,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "mh-01",
+        "mh-02",
+        "mh-03",
+        "mh-04",
+        "mh-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2066,10 +2073,10 @@
     "LD": {
       "stateCode": "LD",
       "stateName": "Lakshadweep",
-      "rtoCount": 8,
+      "rtoCount": 9,
       "totalExpectedRTOs": 9,
       "activeRTOs": 0,
-      "verifiedCount": 8,
+      "verifiedCount": 9,
       "rtoCodes": [
         "ld-01",
         "ld-02",
@@ -2078,13 +2085,14 @@
         "ld-05",
         "ld-06",
         "ld-07",
+        "ld-08",
         "ld-09"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "union-territory",
-      "status": "In Progress",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "status": "Complete",
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "MP": {
       "stateCode": "MP",
@@ -2126,14 +2134,20 @@
     "MH": {
       "stateCode": "MH",
       "stateName": "Maharashtra",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 53,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 55,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "mh-01",
+        "mh-02",
+        "mh-03",
+        "mh-04",
+        "mh-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
