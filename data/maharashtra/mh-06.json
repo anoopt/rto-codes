@@ -1,0 +1,28 @@
+{
+    "code": "MH-06",
+    "region": "Pen (Raigad)",
+    "city": "Pen",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Raigad",
+    "division": "Konkan Division",
+    "description": "MH-06 is the Deputy Regional Transport Office (Dy. RTO) based in Pen, serving the Raigad district. It manages vehicle registrations, driving licenses, and transport permits for the central and southern parts of the district, distinct from the Panvel RTO jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Vikas Smruti, Pen Khopoli Road, Utkarsha Nagar, Taluka - Pen, District - Raigad, Maharashtra",
+    "pinCode": "402107",
+    "phone": "02143-252234",
+    "email": "dyrto.06-mh@gov.in",
+    "jurisdictionAreas": [
+        "Pen",
+        "Alibag",
+        "Mangaon",
+        "Roha",
+        "Murud",
+        "Shrivardhan",
+        "Mahad",
+        "Poladpur",
+        "Tala",
+        "Mhasala"
+    ]
+}

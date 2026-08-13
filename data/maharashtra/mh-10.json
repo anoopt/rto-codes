@@ -1,0 +1,29 @@
+{
+    "code": "MH-10",
+    "region": "Sangli",
+    "city": "Sangli",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Sangli",
+    "division": "Kolhapur",
+    "description": "The MH-10 RTO serves the Sangli district in Maharashtra, providing essential transport services such as vehicle registration, driving licenses, and permit management. It covers the major urban centers of Sangli, Miraj, and Kupwad, along with the surrounding rural talukas within the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Madhav Nagar Road, Industrial Estate, Sangli, Maharashtra",
+    "pinCode": "416416",
+    "phone": "0233-2310555",
+    "email": "dyrto.10-mh@gov.in",
+    "jurisdictionAreas": [
+        "Sangli",
+        "Miraj",
+        "Kupwad",
+        "Tasgaon",
+        "Palus",
+        "Khanapur",
+        "Atpadi",
+        "Kavathe Mahankal",
+        "Jat",
+        "Walwa",
+        "Shirala"
+    ]
+}

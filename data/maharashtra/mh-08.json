@@ -1,0 +1,27 @@
+{
+    "code": "MH-08",
+    "region": "Ratnagiri",
+    "city": "Ratnagiri",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Ratnagiri",
+    "division": "Konkan",
+    "description": "The MH-08 RTO serves the Ratnagiri district in the Konkan region of Maharashtra. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations across its coastal jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Survey No 56, Ganesh Nagar, Pomendi Kurd, Kuwarbav, Ratnagiri, Maharashtra",
+    "pinCode": "415612",
+    "phone": "02352-222714",
+    "email": "rto.08-mh@gov.in",
+    "jurisdictionAreas": [
+        "Ratnagiri",
+        "Sangameshwar",
+        "Lanja",
+        "Rajapur",
+        "Chiplun",
+        "Guhagar",
+        "Dapoli",
+        "Mandangad",
+        "Khed"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "code": "MH-09",
+    "region": "Kolhapur",
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Kolhapur",
+    "division": "Kolhapur",
+    "description": "The MH-09 RTO is located in Kolhapur and serves as the primary transport authority for the Kolhapur district. It manages vehicle registration, fitness certificates, and licensing for one of Maharashtra's most prominent industrial and historical regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "203, E Ward, Tarabai Park, Warna Colony, Kolhapur, Maharashtra",
+    "pinCode": "416003",
+    "phone": "0231-2665494",
+    "email": "rto.09-mh@gov.in",
+    "jurisdictionAreas": [
+        "Karvir",
+        "Panhala",
+        "Shahuwadi",
+        "Radhanagari",
+        "Kagal",
+        "Gadhinglaj",
+        "Bhudargad",
+        "Ajara",
+        "Chandgad",
+        "Hatkanangale",
+        "Shirol"
+    ]
+}

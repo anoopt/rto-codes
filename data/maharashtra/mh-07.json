@@ -1,0 +1,26 @@
+{
+    "code": "MH-07",
+    "region": "Sindhudurg",
+    "city": "Sindhudurg Nagari",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Sindhudurg",
+    "division": "Konkan Division",
+    "description": "The MH-07 RTO serves the Sindhudurg district in the Konkan region of Maharashtra. As a Deputy Regional Transport Office (Dy. RTO), it manages vehicle registration, licensing, and transport permits for the southern coastal region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mumbai-Goa Highway, Sindhudurg Nagari, Oros, Taluka Kudal, District Sindhudurg, Maharashtra",
+    "pinCode": "416812",
+    "phone": "02362-229050",
+    "email": "dyrto.07-mh@gov.in",
+    "jurisdictionAreas": [
+        "Kudal",
+        "Sawantwadi",
+        "Kankavali",
+        "Malvan",
+        "Devgad",
+        "Vaibhavwadi",
+        "Vengurla",
+        "Dodamarg"
+    ]
+}
