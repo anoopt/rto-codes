@@ -1,0 +1,29 @@
+{
+    "code": "MH-11",
+    "region": "Satara",
+    "city": "Satara",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Satara",
+    "division": "Pune Division",
+    "description": "The MH-11 Regional Transport Office serves the Satara district in Maharashtra, facilitating vehicle registrations and driving license services. It is a critical administrative hub for the transport sector in the historic city of Satara and its surrounding rural and hilly terrains.",
+    "status": "active",
+    "established": "N/A",
+    "address": "515-1/2, Sadar Bazaar, Satara, Maharashtra",
+    "pinCode": "415001",
+    "phone": "02162-235888",
+    "email": "rto.11-mh@gov.in",
+    "jurisdictionAreas": [
+        "Satara",
+        "Karad",
+        "Wai",
+        "Mahabaleshwar",
+        "Phaltan",
+        "Man",
+        "Khatav",
+        "Koregaon",
+        "Patan",
+        "Jaoli",
+        "Khandala"
+    ]
+}

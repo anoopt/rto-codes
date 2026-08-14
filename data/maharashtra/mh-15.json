@@ -1,0 +1,25 @@
+{
+    "code": "MH-15",
+    "region": "Nashik",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nashik",
+    "division": "Nashik Division",
+    "description": "MH-15 is the Regional Transport Office serving the urban limits of Nashik City in Maharashtra. It is responsible for essential services such as vehicle registration, driving license issuance, and road tax collection for the city. While it covers the urban core, rural Nashik is typically administered under a separate code.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Peth Road, Panchavati, Nashik, Maharashtra",
+    "pinCode": "422004",
+    "phone": "0253-2229005",
+    "email": "rto.15-mh@gov.in",
+    "jurisdictionAreas": [
+        "Nashik City",
+        "Panchavati",
+        "Satpur",
+        "Ambad",
+        "Nashik Road",
+        "Deolali",
+        "Cidco"
+    ]
+}

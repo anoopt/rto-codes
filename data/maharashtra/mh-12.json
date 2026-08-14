@@ -1,0 +1,28 @@
+{
+    "code": "MH-12",
+    "region": "Pune City",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Pune",
+    "division": "Pune Division",
+    "description": "The MH-12 RTO serves the central city of Pune, one of India's most significant automotive and educational hubs. It is the primary transport office for the core urban and cantonment areas, managing high-volume vehicle registrations and licensing.",
+    "status": "active",
+    "established": "N/A",
+    "address": "38, Dr. Babasaheb Ambedkar Road, Near Sangam Bridge, Pune",
+    "pinCode": "411001",
+    "phone": "020-26058080",
+    "email": "rto.12-mh@gov.in",
+    "jurisdictionAreas": [
+        "Pune Municipal Corporation",
+        "Pune Cantonment",
+        "Shivajinagar",
+        "Kothrud",
+        "Yerwada",
+        "Hadapsar",
+        "Swargate",
+        "Bibwewadi",
+        "Dhankawadi",
+        "Warje"
+    ]
+}

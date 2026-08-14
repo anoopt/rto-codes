@@ -1,0 +1,29 @@
+{
+    "code": "MH-14",
+    "region": "Pimpri-Chinchwad",
+    "city": "Pimpri-Chinchwad",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Pune",
+    "division": "Pune",
+    "description": "The MH-14 RTO serves the Pimpri-Chinchwad industrial hub and twin cities within the Pune district. It functions as a Deputy RTO office primarily handling vehicle registration, driving licenses, and transport permits for the PCMC area. This office was established to alleviate the workload of the main Pune RTO (MH-12) due to the region's massive industrial growth.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Purna Complex, A Wing, Opposite Telco Gate, Chikhali Road, Pimpri-Chinchwad, Pune, Maharashtra",
+    "pinCode": "411019",
+    "phone": "020-27492828",
+    "email": "dyrto.14-mh@gov.in",
+    "jurisdictionAreas": [
+        "Pimpri",
+        "Chinchwad",
+        "Nigdi",
+        "Akurdi",
+        "Moshi",
+        "Bhosari",
+        "Sangvi",
+        "Talawade",
+        "Chikhali",
+        "Dapodi",
+        "Rawat"
+    ]
+}

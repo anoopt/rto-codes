@@ -1,0 +1,25 @@
+{
+    "code": "MH-13",
+    "region": "Solapur",
+    "city": "Solapur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Solapur",
+    "division": "Pune",
+    "description": "The MH-13 Regional Transport Office serves the Solapur region in Maharashtra, managing vehicle registrations and licensing for one of the state's major textile and industrial hubs. It operates as a Deputy RTO under the Pune transport division, ensuring road safety and transport regulation compliance across the city and surrounding talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Vijapur Road, S.T. Colony, Shivaji Nagar, Solapur",
+    "pinCode": "413004",
+    "phone": "0217-2303099",
+    "email": "dyrto.13-mh@gov.in",
+    "jurisdictionAreas": [
+        "Solapur City",
+        "North Solapur",
+        "South Solapur",
+        "Barshi",
+        "Akkalkot",
+        "Mohol",
+        "Mangalwedha"
+    ]
+}
