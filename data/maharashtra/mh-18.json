@@ -1,0 +1,22 @@
+{
+    "code": "MH-18",
+    "region": "Dhule",
+    "city": "Dhule",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Dhule",
+    "division": "Nashik",
+    "description": "The MH-18 RTO office is located in Dhule, Maharashtra, serving as the primary hub for vehicle registration and licensing in the Dhule district. It plays a critical role in managing transport services along the Mumbai-Agra National Highway corridor and overseeing public and private transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Dudh Bhawan, Mohadi Upnagar, NH-3, Mumbai-Agra Road, Dhule, Maharashtra",
+    "pinCode": "424311",
+    "phone": "02562-281351",
+    "email": "rto.18-mh@gov.in",
+    "jurisdictionAreas": [
+        "Dhule",
+        "Sakri",
+        "Shirpur",
+        "Sindkheda"
+    ]
+}

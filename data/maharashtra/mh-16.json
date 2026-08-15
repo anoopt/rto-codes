@@ -1,0 +1,30 @@
+{
+    "code": "MH-16",
+    "region": "Ahmednagar",
+    "city": "Ahmednagar",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Ahmednagar",
+    "division": "Nashik Division",
+    "description": "The MH-16 Regional Transport Office serves the Ahmednagar district in Maharashtra, facilitating vehicle registration, driving license issuance, and road safety regulation. It is a key transport hub in the Nashik division, overseeing significant traffic between Pune, Aurangabad, and Nashik.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Bungalow No. 8, Nagar Wanbori Road, Ahmednagar, Maharashtra",
+    "pinCode": "414001",
+    "phone": "0241-2430114",
+    "email": "rto.16-mh@gov.in",
+    "jurisdictionAreas": [
+        "Ahmednagar",
+        "Akole",
+        "Jamkhed",
+        "Karjat",
+        "Kopargaon",
+        "Newasa",
+        "Parner",
+        "Pathardi",
+        "Rahuri",
+        "Sangamner",
+        "Shevgaon",
+        "Shrigonda"
+    ]
+}

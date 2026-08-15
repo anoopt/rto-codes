@@ -1,0 +1,24 @@
+{
+    "code": "MH-17",
+    "region": "Shrirampur",
+    "city": "Shrirampur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Ahmednagar",
+    "division": "Nashik Division",
+    "description": "MH-17 is the Deputy Regional Transport Office located in Shrirampur, catering to the northern part of the Ahmednagar district. It handles vehicle registrations, driving licenses, and transport permit services for several talukas in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Market Yard, Nevasa Road, Shrirampur, District Ahmednagar, Maharashtra",
+    "pinCode": "413709",
+    "phone": "02422-222175",
+    "email": "dyrto.17-mh@gov.in",
+    "jurisdictionAreas": [
+        "Shrirampur",
+        "Rahata",
+        "Sangamner",
+        "Kopargaon",
+        "Akole",
+        "Nevasa"
+    ]
+}

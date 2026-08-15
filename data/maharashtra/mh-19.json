@@ -1,0 +1,33 @@
+{
+    "code": "MH-19",
+    "region": "Jalgaon",
+    "city": "Jalgaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Jalgaon",
+    "division": "Nashik",
+    "description": "The MH-19 RTO serves the Jalgaon district in the state of Maharashtra, functioning as a primary hub for vehicle registration and licensing. It handles a high volume of agricultural and commercial vehicle documentation given Jalgaon's status as a major producer of bananas and gold trading.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 7, Adarsh Nagar, Near SP Chowk, Ganapati Nagar, Jalgaon, Maharashtra",
+    "pinCode": "425001",
+    "phone": "0257-2261819",
+    "email": "dyrto.19-mh@gov.in",
+    "jurisdictionAreas": [
+        "Jalgaon",
+        "Amalner",
+        "Bhadgaon",
+        "Bhusawal",
+        "Bodwad",
+        "Chalisgaon",
+        "Chopda",
+        "Dharangaon",
+        "Erandol",
+        "Jamner",
+        "Muktainagar",
+        "Pachora",
+        "Parola",
+        "Raver",
+        "Yawal"
+    ]
+}

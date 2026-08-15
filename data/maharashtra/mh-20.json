@@ -1,0 +1,27 @@
+{
+    "code": "MH-20",
+    "region": "Aurangabad",
+    "city": "Aurangabad",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Aurangabad",
+    "division": "Aurangabad Division",
+    "description": "The MH-20 RTO office serves the Aurangabad district (now officially Chhatrapati Sambhajinagar) in Maharashtra. It handles all regional transport functions including vehicle registration, driver licensing, and enforcement of motor vehicle laws for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Railway Station, Station Road, Aurangabad - 431001",
+    "pinCode": "431001",
+    "phone": "0240-2331135",
+    "email": "rto.20-mh@gov.in",
+    "jurisdictionAreas": [
+        "Aurangabad City",
+        "Paithan",
+        "Gangapur",
+        "Vaijapur",
+        "Kannad",
+        "Khultabad",
+        "Sillod",
+        "Phulambri",
+        "Soegaon"
+    ]
+}
