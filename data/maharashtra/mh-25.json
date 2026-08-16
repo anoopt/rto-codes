@@ -1,0 +1,26 @@
+{
+    "code": "MH-25",
+    "region": "Osmanabad (Dharashiv)",
+    "city": "Osmanabad",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Osmanabad",
+    "division": "Aurangabad",
+    "description": "MH-25 is the Deputy Regional Transport Office (Dy. RTO) for the Osmanabad district (recently renamed Dharashiv). The office manages vehicle registrations, driving licenses, and enforces motor vehicle regulations across the district's rural and urban areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 18, MIDC Area, Osmanabad, Maharashtra",
+    "pinCode": "413501",
+    "phone": "02472-221555",
+    "email": "dyrto.25-mh@gov.in",
+    "jurisdictionAreas": [
+        "Osmanabad",
+        "Tuljapur",
+        "Bhoom",
+        "Paranda",
+        "Washi",
+        "Kalamb",
+        "Lohara",
+        "Umarga"
+    ]
+}

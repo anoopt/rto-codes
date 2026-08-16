@@ -1,0 +1,27 @@
+{
+    "code": "MH-22",
+    "region": "Parbhani",
+    "city": "Parbhani",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Parbhani",
+    "division": "Aurangabad Division",
+    "description": "The MH-22 RTO serves the Parbhani district in the Marathwada region of Maharashtra. As a Deputy Regional Transport Office, it manages vehicle registrations, driving licenses, and transport permits for the entire district. It plays a crucial role in regulating road safety and transport services for this agricultural and educational hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Manvat Road, Parbhani, Maharashtra",
+    "pinCode": "431401",
+    "phone": "02452-291000",
+    "email": "dyrto.22-mh@gov.in",
+    "jurisdictionAreas": [
+        "Parbhani",
+        "Gangakhed",
+        "Sonpeth",
+        "Pathri",
+        "Jintur",
+        "Palam",
+        "Purna",
+        "Sailu",
+        "Manwath"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "code": "MH-23",
+    "region": "Beed",
+    "city": "Beed",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Beed",
+    "division": "Aurangabad",
+    "description": "The MH-23 RTO office serves the Beed district in the Marathwada region of Maharashtra. It is responsible for vehicle registration, issuance of driving licenses, and the enforcement of the Motor Vehicles Act within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Jalna Road, Mauje Ghosapuri, Namal Gaon Phata, Beed, Maharashtra",
+    "pinCode": "431122",
+    "phone": "02442-256111",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Beed",
+        "Ashti",
+        "Patoda",
+        "Shirur (Kasar)",
+        "Gevrai",
+        "Majalgaon",
+        "Wadwani",
+        "Kaij",
+        "Dharur",
+        "Parli",
+        "Ambejogai"
+    ]
+}

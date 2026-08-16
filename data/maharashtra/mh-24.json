@@ -1,0 +1,28 @@
+{
+    "code": "MH-24",
+    "region": "Latur",
+    "city": "Latur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Latur",
+    "division": "Latur",
+    "description": "The MH-24 RTO serves the Latur district in the Marathwada region of Maharashtra. This office is responsible for vehicle registration, issuance of driving licenses, and the enforcement of the Motor Vehicles Act within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Parivahan Bhavan, Babhalgaon Road, Latur, Maharashtra",
+    "pinCode": "413512",
+    "phone": "02382-242434",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Latur",
+        "Ahmadpur",
+        "Ausa",
+        "Chakur",
+        "Deoni",
+        "Jalkot",
+        "Nilanga",
+        "Renapur",
+        "Shirur Anantpal",
+        "Udgir"
+    ]
+}

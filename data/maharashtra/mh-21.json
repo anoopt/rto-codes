@@ -1,0 +1,26 @@
+{
+    "code": "MH-21",
+    "region": "Jalna",
+    "city": "Jalna",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Jalna",
+    "division": "Aurangabad",
+    "description": "The MH-21 Regional Transport Office is located in Jalna and serves the entire Jalna district of Maharashtra. It is responsible for vehicle registration, issuing driving licenses, and implementing road safety regulations within its jurisdiction, which is a major commercial hub for seeds and steel.",
+    "status": "active",
+    "established": "1982",
+    "address": "Regional Transport Office, Gut No. 246, Nagewadi, Aurangabad Road, Jalna, Maharashtra",
+    "pinCode": "431203",
+    "phone": "02482-220929",
+    "email": "rto.21-mh@gov.in",
+    "jurisdictionAreas": [
+        "Jalna",
+        "Bhokardan",
+        "Jafrabad",
+        "Badnapur",
+        "Ambad",
+        "Ghansawangi",
+        "Partur",
+        "Mantha"
+    ]
+}
