@@ -1,0 +1,31 @@
+{
+    "code": "MH-27",
+    "region": "Amravati",
+    "city": "Amravati",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Amravati",
+    "division": "Amravati Transport Division",
+    "description": "The MH-27 Regional Transport Office (RTO) serves the city and district of Amravati in Maharashtra. It is responsible for motor vehicle registration, issuing driving licenses, and enforcing transport safety regulations across its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Collectorate Camp, Amravati, Maharashtra",
+    "pinCode": "444602",
+    "phone": "0721-2662032",
+    "email": "rto.27-mh@gov.in",
+    "jurisdictionAreas": [
+        "Amravati",
+        "Achalpur",
+        "Anjangaon Surji",
+        "Chandur Railway",
+        "Chandurbazar",
+        "Chikhaldara",
+        "Daryapur",
+        "Dhamangaon Railway",
+        "Dharni",
+        "Morshi",
+        "Nandgaon Khandeshwar",
+        "Teosa",
+        "Warud"
+    ]
+}

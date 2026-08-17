@@ -1,0 +1,31 @@
+{
+    "code": "MH-28",
+    "region": "Buldhana",
+    "city": "Buldhana",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Buldhana",
+    "division": "Amravati",
+    "description": "The MH-28 RTO serves the Buldhana district in the Vidarbha region of Maharashtra, operating as a Deputy Regional Transport Office. It manages vehicle registrations, driving licenses, and transport permits for various talukas within the district jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Opposite Malkapur Road, Buldhana, Maharashtra",
+    "pinCode": "443001",
+    "phone": "07262-242334",
+    "email": "dyrto.28-mh@gov.in",
+    "jurisdictionAreas": [
+        "Buldhana",
+        "Khamgaon",
+        "Malkapur",
+        "Shegaon",
+        "Chikhli",
+        "Mehkar",
+        "Deulgaon Raja",
+        "Lonar",
+        "Nandura",
+        "Sangrampur",
+        "Jalgaon Jamod",
+        "Motala",
+        "Sindkhed Raja"
+    ]
+}

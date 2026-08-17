@@ -1,0 +1,25 @@
+{
+    "code": "MH-30",
+    "region": "Akola",
+    "city": "Akola",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Akola",
+    "division": "Amravati",
+    "description": "The Akola Regional Transport Office (MH-30) is the primary transport regulatory authority for the Akola district in Maharashtra. It handles vehicle registrations, driving license permits, and oversees road safety and motor vehicle law compliance across its administrative zone.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Murtizapur Road, Near Krishi Nagar, Akola, Maharashtra",
+    "pinCode": "444104",
+    "phone": "0724-2459488",
+    "email": "rto.30-mh@gov.in",
+    "jurisdictionAreas": [
+        "Akola",
+        "Akot",
+        "Balapur",
+        "Barshitakli",
+        "Murtizapur",
+        "Patur",
+        "Telhara"
+    ]
+}
