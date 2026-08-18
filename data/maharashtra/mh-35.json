@@ -1,0 +1,26 @@
+{
+    "code": "MH-35",
+    "region": "Gondia",
+    "city": "Gondia",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Gondia",
+    "division": "Nagpur Division",
+    "description": "MH-35 is the Deputy Regional Transport Office (Dy. RTO) serving the Gondia district in the Vidarbha region of Maharashtra. The office is responsible for vehicle registration, driver licensing, and enforcing motor vehicle regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Fulchur Naka, Fulchurtola, Gondia, Maharashtra",
+    "pinCode": "441601",
+    "phone": "07182-237321",
+    "email": "dyrto.35-mh@gov.in",
+    "jurisdictionAreas": [
+        "Gondia",
+        "Arjuni Morgaon",
+        "Deori",
+        "Amgaon",
+        "Salekasa",
+        "Tiroda",
+        "Goregaon",
+        "Sadak Arjuni"
+    ]
+}

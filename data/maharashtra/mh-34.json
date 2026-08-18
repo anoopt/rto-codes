@@ -1,0 +1,33 @@
+{
+    "code": "MH-34",
+    "region": "Chandrapur",
+    "city": "Chandrapur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Chandrapur",
+    "division": "Nagpur",
+    "description": "MH-34 is the Deputy Regional Transport Office (Dy. RTO) for the Chandrapur district in Maharashtra. It handles a wide range of services including vehicle registration, driving license issuance, and road tax collection for the coal and industrial belt of eastern Maharashtra.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Behind LIC Building, Jailnagar Ward, Chandrapur, Maharashtra",
+    "pinCode": "442401",
+    "phone": "07172-255372",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chandrapur",
+        "Ballarpur",
+        "Warora",
+        "Bhadrawati",
+        "Rajura",
+        "Mul",
+        "Chimur",
+        "Sindewahi",
+        "Brahmapuri",
+        "Nagbhir",
+        "Pombhurna",
+        "Gondpipri",
+        "Jiwati",
+        "Korpana",
+        "Sawali"
+    ]
+}

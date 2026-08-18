@@ -1,0 +1,30 @@
+{
+    "code": "MH-33",
+    "region": "Gadchiroli",
+    "city": "Gadchiroli",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Gadchiroli",
+    "division": "Nagpur",
+    "description": "MH-33 is the Deputy Regional Transport Office (Dy. RTO) serving the Gadchiroli district in the Vidarbha region of Maharashtra. The office oversees vehicle registration, driving license issuance, and road safety enforcement for one of the state's most eastern and forested districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "New Administrative Building, Near Collector Office Complex, MIDC Road, Murkhala, Gadchiroli, Maharashtra",
+    "pinCode": "442605",
+    "phone": "+91-7132-222195",
+    "email": "dyrtogadchiroli@gmail.com",
+    "jurisdictionAreas": [
+        "Gadchiroli",
+        "Aheri",
+        "Armori",
+        "Chamorshi",
+        "Dhanora",
+        "Etapalli",
+        "Korchi",
+        "Kurkheda",
+        "Mulchera",
+        "Sironcha",
+        "Bhamragad",
+        "Desaiganj"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "MH-32",
+    "region": "Wardha",
+    "city": "Wardha",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Wardha",
+    "division": "Nagpur",
+    "description": "MH-32 is the Deputy Regional Transport Office (Dy. RTO) for the Wardha district in the Vidarbha region of Maharashtra. The office is responsible for vehicle registration, issuing driving licenses, and enforcing motor vehicle regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Administrative Building, 1st Floor, Collector Office Compound, Sevagram Road, Wardha - 442001, Maharashtra",
+    "pinCode": "442001",
+    "phone": "07152-243543",
+    "email": "dyrto.32-mh@gov.in",
+    "jurisdictionAreas": [
+        "Wardha",
+        "Deoli",
+        "Seloo",
+        "Arvi",
+        "Ashti",
+        "Karanja",
+        "Hinganghat",
+        "Samudrapur"
+    ]
+}

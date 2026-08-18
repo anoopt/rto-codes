@@ -1,0 +1,28 @@
+{
+    "code": "MH-31",
+    "region": "Nagpur Urban",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nagpur",
+    "division": "Nagpur",
+    "description": "MH-31 is the Regional Transport Office serving the urban jurisdiction of Nagpur, the winter capital of Maharashtra. It is one of the three RTOs in the district, specifically handling motor vehicle registrations, driving licenses, and transport permits for the core city area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Opposite Giripeth Post Office, Amravati Road, Nagpur, Maharashtra",
+    "pinCode": "440001",
+    "phone": "0712-2561698",
+    "email": "rto.31-mh@gov.in",
+    "jurisdictionAreas": [
+        "Nagpur City",
+        "Sitabuldi",
+        "Dharampeth",
+        "Dhantoli",
+        "Laxmi Nagar",
+        "Hanuman Nagar",
+        "Nehru Nagar",
+        "Gandhibagh",
+        "Satnampura",
+        "Mangalwari"
+    ]
+}
