@@ -81,6 +81,13 @@ Vercel → Project → **Settings → Environment Variables**. You need (Product
 > command = `bun install && bun run build`, Output directory = `out`. Then create a
 > fresh deployment (Create deployment, or push an empty commit) — settings are
 > snapshotted per deployment, so "Retry" on the old one is not enough.
+>
+> **Dashboard gotcha:** while the project is on the "Next.js" (OpenNext) preset, the
+> **Build output directory** field is hidden. Change the **Framework preset** first
+> (to "Next.js (Static HTML Export)" or "None"), and the Build command / Build output
+> directory / Root directory fields appear. If the preset cannot be changed, delete the
+> project and recreate it with the correct preset (no domain is attached yet, so
+> nothing is lost).
 
 9. **Settings → Builds & deployments → Preview deployments → None** (saves builds;
    every push to `main` is the only thing that builds).
