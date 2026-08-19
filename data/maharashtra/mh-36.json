@@ -1,0 +1,25 @@
+{
+    "code": "MH-36",
+    "region": "Bhandara",
+    "city": "Bhandara",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Bhandara",
+    "division": "Nagpur",
+    "description": "MH-36 is the Deputy Regional Transport Office (Dy. RTO) for the Bhandara district in Maharashtra. It oversees vehicle registration, driving license issuance, and road tax collection for the district, operating under the Nagpur transport division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Administrative Building, NH-6, Bhandara, Maharashtra - 441904",
+    "pinCode": "441904",
+    "phone": "07184-258165",
+    "email": "dyrto.36-mh@gov.in",
+    "jurisdictionAreas": [
+        "Bhandara",
+        "Tumsar",
+        "Pauni",
+        "Mohadi",
+        "Sakoli",
+        "Lakhni",
+        "Lakhandur"
+    ]
+}

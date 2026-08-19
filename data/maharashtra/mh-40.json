@@ -1,0 +1,28 @@
+{
+    "code": "MH-40",
+    "region": "Nagpur Rural",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nagpur",
+    "division": "Nagpur",
+    "description": "MH-40 is the Regional Transport Office for Nagpur Rural, commonly referred to as Nagpur Gramin. This office facilitates motor vehicle registrations, license issuances, and transport tax collection for areas surrounding Nagpur city, ensuring regulatory compliance across the district's rural talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Nagpur (Rural), Indora, Red Godown No. 9, Teka Naka, Kamptee Road, Nagpur, Maharashtra",
+    "pinCode": "440014",
+    "phone": "0712-2630647",
+    "email": "rto.40-mh@gov.in",
+    "jurisdictionAreas": [
+        "Wadi",
+        "Kamptee",
+        "Hingna",
+        "Katol",
+        "Narkhed",
+        "Saoner",
+        "Kalmeshwar",
+        "Ramtek",
+        "Umred",
+        "Bhiwapur"
+    ]
+}

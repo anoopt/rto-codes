@@ -1,0 +1,24 @@
+{
+    "code": "MH-39",
+    "region": "Nandurbar",
+    "city": "Nandurbar",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nandurbar",
+    "division": "Nashik",
+    "description": "MH-39 is the Deputy Regional Transport Office (Dy. RTO) located in Nandurbar, Maharashtra. It is the primary authority for vehicle registration, licensing, and road safety enforcement for the entire Nandurbar district in North Maharashtra.",
+    "status": "active",
+    "established": "1998",
+    "address": "Shasakiya Dhudh Bhavan, Sakri Road, Nandurbar, Maharashtra",
+    "pinCode": "425412",
+    "phone": "02564-210129",
+    "email": "dyrto.39-mh@gov.in",
+    "jurisdictionAreas": [
+        "Nandurbar",
+        "Shahada",
+        "Taloda",
+        "Akkalkuwa",
+        "Akrani",
+        "Navapur"
+    ]
+}

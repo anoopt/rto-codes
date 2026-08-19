@@ -1,0 +1,24 @@
+{
+    "code": "MH-37",
+    "region": "Washim",
+    "city": "Washim",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Washim",
+    "division": "Amravati",
+    "description": "MH-37 is the Deputy Regional Transport Office (Dy. RTO) for the Washim district in Maharashtra. This office provides essential transport services including vehicle registration, driving license issuance, and enforcement of motor vehicle laws within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "A/P-D.Ed. College Building, Risod Road, Lakhala, Washim, Maharashtra - 444505",
+    "pinCode": "444505",
+    "phone": "07252-235244",
+    "email": "dyrto.37-mh@gov.in",
+    "jurisdictionAreas": [
+        "Washim",
+        "Malegaon",
+        "Risod",
+        "Mangrulpir",
+        "Karanja",
+        "Manora"
+    ]
+}

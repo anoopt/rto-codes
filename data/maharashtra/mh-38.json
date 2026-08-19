@@ -1,0 +1,23 @@
+{
+    "code": "MH-38",
+    "region": "Hingoli",
+    "city": "Hingoli",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Hingoli",
+    "division": "Aurangabad",
+    "description": "MH-38 is the dedicated Deputy Regional Transport Office for the Hingoli district in Maharashtra. It facilitates motor vehicle registrations, issuance of driving licenses, and transport permits for the entire district area. The office is essential for maintaining transport records and enforcing road safety standards in this region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Jaiswal Sadan, MIDC Limbala Makta, Hingoli, Maharashtra",
+    "pinCode": "431513",
+    "phone": "N/A",
+    "email": "dyrtothingoli-mh@gov.in",
+    "jurisdictionAreas": [
+        "Hingoli",
+        "Sengaon",
+        "Kalamnuri",
+        "Basmath",
+        "Aundha Nagnath"
+    ]
+}
