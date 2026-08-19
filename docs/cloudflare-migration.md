@@ -72,6 +72,16 @@ Vercel → Project → **Settings → Environment Variables**. You need (Product
 > `npm install && npm run build` (there is no `package-lock.json`, so Bun is preferred;
 > report the issue if this happens).
 
+> **Troubleshooting — OpenNext error:** if the build log shows
+> `bunx opennextjs-cloudflare build` followed by
+> `Error: ENOENT: no such file or directory, open '.../.next/standalone/.next/server/pages-manifest.json'`,
+> the project is using the plain **"Next.js"** (server/OpenNext) preset, which is
+> incompatible with `output: "export"`. Fix in Settings → Builds & deployments →
+> Build configuration: Framework preset = **Next.js (Static HTML Export)**, Build
+> command = `bun install && bun run build`, Output directory = `out`. Then create a
+> fresh deployment (Create deployment, or push an empty commit) — settings are
+> snapshotted per deployment, so "Retry" on the old one is not enough.
+
 9. **Settings → Builds & deployments → Preview deployments → None** (saves builds;
    every push to `main` is the only thing that builds).
 
