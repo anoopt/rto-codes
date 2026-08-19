@@ -1,0 +1,11 @@
+# Cloudflare Pages configuration
+#
+# With Git integration, the build command and output directory are configured
+# in the Cloudflare dashboard (Settings -> Builds & deployments):
+#   Build command:   bun install && bun run build
+#   Output directory: out
+#
+# This file is used by `wrangler pages deploy` for direct-upload deploys.
+
+name = "rto-codes"
+pages_build_output_dir = "out"
