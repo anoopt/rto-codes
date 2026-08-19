@@ -88,6 +88,14 @@ Vercel → Project → **Settings → Environment Variables**. You need (Product
 > directory / Root directory fields appear. If the preset cannot be changed, delete the
 > project and recreate it with the correct preset (no domain is attached yet, so
 > nothing is lost).
+>
+> **Workers Build trap:** if Settings → Builds & deployments shows **Build command /
+> Deploy command / Root directory** (no framework preset, no build output directory),
+> the project was created as a **Workers Build** (the plain "Next.js" preset routes to
+> this flow). A classic Pages project always shows a framework preset plus **Build
+> output directory**. Delete the project and recreate it via **Create application →
+> Pages tab → Connect to Git → preset "Next.js (Static HTML Export)"** — not the
+> Workers/Builds tab.
 
 9. **Settings → Builds & deployments → Preview deployments → None** (saves builds;
    every push to `main` is the only thing that builds).
