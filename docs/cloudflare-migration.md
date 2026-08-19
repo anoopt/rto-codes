@@ -45,6 +45,10 @@ Vercel → Project → **Settings → Environment Variables**. You need (Product
 | `NEXT_PUBLIC_OSM_ENABLED` | `true` |
 | `NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME` | *(your Cloudinary cloud name — required or images break)* |
 
+> **CLI alternative:** `vercel env pull --environment=production` (after `vercel login`
+> + `vercel link` in the repo) downloads all production env values into `.env.local`
+> automatically — no manual copying. See the CLI quick-reference below.
+
 ---
 
 ## Phase 1 — Create the Cloudflare Pages project
@@ -124,9 +128,11 @@ Vercel → Project → **Settings → Environment Variables**. You need (Product
 1. Re-verify the site end-to-end on Cloudflare from a real browser/phone.
 2. **Vercel → Project (rto-codes) → Settings → Domains** → remove
    `rto-codes.in` and `www.rto-codes.in`.
+   *CLI:* `vercel domains remove rto-codes.in --yes && vercel domains remove www.rto-codes.in --yes`
 3. **Vercel → Project → Settings → Danger Zone → Delete Project** → type the project
    name → confirm. This stops Vercel builds, the analytics beacon, and — most
    importantly — the usage meter that generated the warning emails.
+   *CLI:* `vercel project remove rto-codes --yes`
 4. Optional: remove the **Vercel GitHub app** (GitHub → Settings → Applications →
    Vercel → Configure → Uninstall). Inert once the project is deleted, but tidy.
 5. Optional cleanup commit (later, on `main`):
@@ -144,6 +150,36 @@ Vercel → Project → **Settings → Environment Variables**. You need (Product
 - [ ] Cloudflare Pages: production branch `main`, preview deployments **None**
 - [ ] Push to `main` triggers a Pages build (and no longer a Vercel one)
 - [ ] Vercel project deleted — no more usage emails
+
+## CLI quick-reference (optional)
+
+Both providers ship CLIs — this reduces (but does not eliminate) dashboard clicking:
+
+- **Vercel CLI:** `npm i -g vercel` → `vercel login` (opens a browser)
+- **Cloudflare Wrangler:** `npm i -g wrangler` → `wrangler login` (opens a browser)
+
+For headless/scripted use both accept tokens instead of interactive login:
+`VERCEL_TOKEN=<token> vercel ...` and `CLOUDFLARE_API_TOKEN=<token> wrangler ...`
+(create tokens in each dashboard; revoke them after the migration).
+
+| Step | CLI command | Dashboard alternative |
+| --- | --- | --- |
+| Pull Vercel env values | `vercel link` then `vercel env pull --environment=production` | Copy from Settings → Env Vars |
+| Create Pages project | `wrangler pages project create rto-codes --production-branch main` | Create → Connect to Git |
+| Test-deploy without git | `wrangler pages deploy out` | Direct upload |
+| Remove domains from Vercel | `vercel domains remove rto-codes.in --yes` (and `www`) | Settings → Domains |
+| Delete Vercel project | `vercel project remove rto-codes --yes` | Settings → Danger Zone |
+
+**Still dashboard/registrar-only (no CLI for these):**
+
+| Step | Where |
+| --- | --- |
+| Connect Git repo + set build command/out dir + build env vars | Pages project dashboard (build env vars are not exposed by `wrangler` — set them in the project settings) |
+| Add the zone, copy the 2 nameservers | Cloudflare dashboard (Add site) |
+| Change nameservers | **BigRock** registrar panel |
+| Add custom domains to the Pages project | Pages project → Custom domains (wrangler v4 has no `pages domain` command) |
+| Edit/delete DNS records | Cloudflare DNS dashboard (wrangler v4 removed `wrangler dns` — API only) |
+| Preview deployments → None | Pages project settings |
 
 ## Rollback (if anything breaks after the DNS cutover)
 
