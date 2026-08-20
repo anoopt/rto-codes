@@ -1102,5 +1102,122 @@
       "Umred",
       "Bhiwapur"
     ]
+  },
+  {
+    "code": "MH-41",
+    "region": "Malegaon",
+    "city": "Malegaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nashik",
+    "division": "Nashik Division",
+    "description": "MH-41 is the Deputy Regional Transport Office (Dy. RTO) for Malegaon, located within the Nashik district of Maharashtra. It was established to manage vehicle registration and licensing for the Malegaon taluka, alleviating the load from the primary Nashik RTO office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Krushi Utppan Market Yard, Camp Road, Malegaon, District Nashik, Maharashtra - 423105",
+    "pinCode": "423105",
+    "phone": "02554-258850",
+    "email": "dyrto.41-mh@gov.in",
+    "jurisdictionAreas": [
+      "Malegaon Taluka",
+      "Chandwad",
+      "Nandgaon"
+    ]
+  },
+  {
+    "code": "MH-42",
+    "region": "Baramati",
+    "city": "Baramati",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Pune",
+    "division": "Pune",
+    "description": "The MH-42 RTO serves the Baramati region within the Pune district of Maharashtra. As a Deputy Regional Transport Office, it handles vehicle registration, driver's licenses, and transport permits for the Baramati subdivision and neighboring areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Vidhya Corner, MIDC Circle, Bhigwan Road, Baramati, District Pune, Maharashtra",
+    "pinCode": "413133",
+    "phone": "02112-243111",
+    "email": "dyrto.42-mh@gov.in",
+    "jurisdictionAreas": [
+      "Baramati",
+      "Indapur",
+      "Daund"
+    ]
+  },
+  {
+    "code": "MH-43",
+    "region": "Navi Mumbai (Vashi)",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Thane",
+    "division": "Konkan",
+    "description": "MH-43 is the Deputy Regional Transport Office for Navi Mumbai located at Vashi. It is responsible for vehicle registration, licensing, and enforcing transport regulations across the northern nodes of the Navi Mumbai Municipal Corporation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Block-T, Sector 19/B, APMC Market Compound, Vashi, Navi Mumbai, Maharashtra",
+    "pinCode": "400705",
+    "phone": "022-27650701",
+    "email": "dyrto.43-mh@gov.in",
+    "jurisdictionAreas": [
+      "Vashi",
+      "Nerul",
+      "Belapur",
+      "Sanpada",
+      "Airoli",
+      "Koparkhairane",
+      "Ghansoli",
+      "Turbhe",
+      "Juinagar"
+    ]
+  },
+  {
+    "code": "MH-44",
+    "region": "Ambajogai",
+    "city": "Ambajogai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Beed",
+    "division": "Aurangabad",
+    "description": "MH-44 is the Deputy Regional Transport Office (Dy. RTO) located in Ambajogai, serving the eastern part of the Beed district. It was established to manage vehicle registration and licensing tasks for local residents, significantly reducing the administrative pressure on the main Beed RTO office (MH-23).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Yeshwantrao Chavan Chowk, Morewadi, Ambajogai, District Beed, Maharashtra",
+    "pinCode": "431517",
+    "phone": "02446-247755",
+    "email": "dyrto.44-mh@gov.in",
+    "jurisdictionAreas": [
+      "Ambajogai",
+      "Majalgaon",
+      "Kaij",
+      "Wadvani",
+      "Parli",
+      "Dharur"
+    ]
+  },
+  {
+    "code": "MH-45",
+    "region": "Akluj",
+    "city": "Akluj",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Solapur",
+    "division": "Pune Division",
+    "description": "MH-45 RTO is the Deputy Regional Transport Office located in Akluj, serving the Solapur district. It primarily handles vehicle registration and licensing for the Malshiras taluka, providing administrative relief to the main Solapur RTO (MH-13).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Anand Nagar, Akluj, Taluka – Malshiras, District – Solapur, Maharashtra",
+    "pinCode": "413101",
+    "phone": "02185-227555",
+    "email": "dyrto.45-mh@gov.in",
+    "jurisdictionAreas": [
+      "Akluj",
+      "Malshiras",
+      "Natepute",
+      "Velapur",
+      "Piliv",
+      "Bawada"
+    ]
   }
 ]
