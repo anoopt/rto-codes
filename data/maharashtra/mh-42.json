@@ -1,0 +1,21 @@
+{
+    "code": "MH-42",
+    "region": "Baramati",
+    "city": "Baramati",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Pune",
+    "division": "Pune",
+    "description": "The MH-42 RTO serves the Baramati region within the Pune district of Maharashtra. As a Deputy Regional Transport Office, it handles vehicle registration, driver's licenses, and transport permits for the Baramati subdivision and neighboring areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Vidhya Corner, MIDC Circle, Bhigwan Road, Baramati, District Pune, Maharashtra",
+    "pinCode": "413133",
+    "phone": "02112-243111",
+    "email": "dyrto.42-mh@gov.in",
+    "jurisdictionAreas": [
+        "Baramati",
+        "Indapur",
+        "Daund"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "MH-45",
+    "region": "Akluj",
+    "city": "Akluj",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Solapur",
+    "division": "Pune Division",
+    "description": "MH-45 RTO is the Deputy Regional Transport Office located in Akluj, serving the Solapur district. It primarily handles vehicle registration and licensing for the Malshiras taluka, providing administrative relief to the main Solapur RTO (MH-13).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Deputy Regional Transport Office, Anand Nagar, Akluj, Taluka – Malshiras, District – Solapur, Maharashtra",
+    "pinCode": "413101",
+    "phone": "02185-227555",
+    "email": "dyrto.45-mh@gov.in",
+    "jurisdictionAreas": [
+        "Akluj",
+        "Malshiras",
+        "Natepute",
+        "Velapur",
+        "Piliv",
+        "Bawada"
+    ]
+}

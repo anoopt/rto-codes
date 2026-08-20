@@ -1,0 +1,21 @@
+{
+    "code": "MH-41",
+    "region": "Malegaon",
+    "city": "Malegaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nashik",
+    "division": "Nashik Division",
+    "description": "MH-41 is the Deputy Regional Transport Office (Dy. RTO) for Malegaon, located within the Nashik district of Maharashtra. It was established to manage vehicle registration and licensing for the Malegaon taluka, alleviating the load from the primary Nashik RTO office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Krushi Utppan Market Yard, Camp Road, Malegaon, District Nashik, Maharashtra - 423105",
+    "pinCode": "423105",
+    "phone": "02554-258850",
+    "email": "dyrto.41-mh@gov.in",
+    "jurisdictionAreas": [
+        "Malegaon Taluka",
+        "Chandwad",
+        "Nandgaon"
+    ]
+}

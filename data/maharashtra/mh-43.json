@@ -1,0 +1,27 @@
+{
+    "code": "MH-43",
+    "region": "Navi Mumbai (Vashi)",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Thane",
+    "division": "Konkan",
+    "description": "MH-43 is the Deputy Regional Transport Office for Navi Mumbai located at Vashi. It is responsible for vehicle registration, licensing, and enforcing transport regulations across the northern nodes of the Navi Mumbai Municipal Corporation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Block-T, Sector 19/B, APMC Market Compound, Vashi, Navi Mumbai, Maharashtra",
+    "pinCode": "400705",
+    "phone": "022-27650701",
+    "email": "dyrto.43-mh@gov.in",
+    "jurisdictionAreas": [
+        "Vashi",
+        "Nerul",
+        "Belapur",
+        "Sanpada",
+        "Airoli",
+        "Koparkhairane",
+        "Ghansoli",
+        "Turbhe",
+        "Juinagar"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "MH-44",
+    "region": "Ambajogai",
+    "city": "Ambajogai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Beed",
+    "division": "Aurangabad",
+    "description": "MH-44 is the Deputy Regional Transport Office (Dy. RTO) located in Ambajogai, serving the eastern part of the Beed district. It was established to manage vehicle registration and licensing tasks for local residents, significantly reducing the administrative pressure on the main Beed RTO office (MH-23).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Yeshwantrao Chavan Chowk, Morewadi, Ambajogai, District Beed, Maharashtra",
+    "pinCode": "431517",
+    "phone": "02446-247755",
+    "email": "dyrto.44-mh@gov.in",
+    "jurisdictionAreas": [
+        "Ambajogai",
+        "Majalgaon",
+        "Kaij",
+        "Wadvani",
+        "Parli",
+        "Dharur"
+    ]
+}
