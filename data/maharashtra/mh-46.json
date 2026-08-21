@@ -1,0 +1,24 @@
+{
+    "code": "MH-46",
+    "region": "Panvel",
+    "city": "Panvel",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Raigad",
+    "division": "Konkan",
+    "description": "MH-46 is the Regional Transport Office for Panvel, located in the Raigad district of Maharashtra. This office serves the rapidly growing Navi Mumbai (South) region and was established to manage high vehicle registration volumes in satellite cities like Kharghar and Kalamboli.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Central Facility Building, Steel Market, Kalamboli, Taluka - Panvel, District - Raigad, Maharashtra - 410218",
+    "pinCode": "410218",
+    "phone": "022-27424444",
+    "email": "rto.46-mh@gov.in",
+    "jurisdictionAreas": [
+        "Panvel",
+        "Kharghar",
+        "Kalamboli",
+        "Kamothe",
+        "Taloja",
+        "Navi Mumbai (South)"
+    ]
+}

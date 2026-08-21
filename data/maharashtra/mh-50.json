@@ -1,0 +1,28 @@
+{
+    "code": "MH-50",
+    "region": "Karad",
+    "city": "Karad",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Satara",
+    "division": "Pune Division",
+    "description": "The MH-50 RTO office is a Deputy Regional Transport Office (Dy. RTO) located in Karad, Satara. It was established to manage vehicle registration and licensing services for the Karad region, alleviating the administrative burden on the main Satara RTO (MH-11).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Dy. Regional Transport Office, Sharada Mangal Karyalaya, At. Padali (Kese), P.O. Supane, Taluka Karad, District Satara, Maharashtra",
+    "pinCode": "415114",
+    "phone": "02164-255300",
+    "email": "dyrto.50-mh@gov.in",
+    "jurisdictionAreas": [
+        "Karad Taluka",
+        "Padali",
+        "Kese",
+        "Supane",
+        "Karad City",
+        "Wing",
+        "Masur",
+        "Umbraj",
+        "Ond",
+        "Koynanagar"
+    ]
+}

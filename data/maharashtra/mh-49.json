@@ -1,0 +1,26 @@
+{
+    "code": "MH-49",
+    "region": "Nagpur East",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Nagpur",
+    "division": "Nagpur",
+    "description": "The MH-49 RTO, also known as the Nagpur East Regional Transport Office, was established to decongest the primary Nagpur Urban and Rural RTOs. It serves the eastern part of Nagpur city and surrounding industrial areas, managing vehicle registrations, driving licenses, and transport permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "N.I.T. Community Hall, Dipti Signal, Chikhali Layout, Wardhaman Nagar, Nagpur, Maharashtra",
+    "pinCode": "440035",
+    "phone": "0712-2681215",
+    "email": "dyrto.49-mh@gov.in",
+    "jurisdictionAreas": [
+        "Nagpur East",
+        "Chikhali",
+        "Dipti Signal",
+        "Wardhaman Nagar",
+        "Shanti Nagar",
+        "Pardi",
+        "Kalamna",
+        "Lakadjoining eastern parts of Nagpur District"
+    ]
+}

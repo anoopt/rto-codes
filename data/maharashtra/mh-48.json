@@ -1,0 +1,25 @@
+{
+    "code": "MH-48",
+    "region": "Vasai-Virar",
+    "city": "Vasai-Virar",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Palghar",
+    "division": "Mumbai",
+    "description": "MH-48 is the Deputy Regional Transport Office (Dy. RTO) serving the Vasai-Virar region within the Palghar district. It manages vehicle registrations, driving licenses, and transport permits for the rapidly growing northern suburbs of the Mumbai Metropolitan Region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "At. Post Chandansar, Virar (East), Taluka Vasai, District Palghar, Maharashtra",
+    "pinCode": "401303",
+    "phone": "+91-250-2523888",
+    "email": "dyrto.48-mh@gov.in",
+    "jurisdictionAreas": [
+        "Vasai",
+        "Virar",
+        "Nalasopara",
+        "Naigaon",
+        "Bhayandar",
+        "Vasai Taluka",
+        "Vasai-Virar City Municipal Corporation"
+    ]
+}

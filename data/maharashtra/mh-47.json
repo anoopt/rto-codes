@@ -1,0 +1,21 @@
+{
+    "code": "MH-47",
+    "region": "Mumbai North",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Mumbai Suburban",
+    "division": "Konkan",
+    "description": "The MH-47 RTO, also known as the Mumbai North or Dahisar RTO, was established to decongest the Andheri RTO (MH-02). It serves the northernmost western suburbs of Mumbai, managing vehicle registrations, driving licenses, and permit services for one of the city's most densely populated residential corridors.",
+    "status": "active",
+    "established": "2011",
+    "address": "Dy. Regional Transport Officer, Wing-A, Link Road, Kandarpada, Anand Park, Dahisar West, Mumbai",
+    "pinCode": "400068",
+    "phone": "022-28938484",
+    "email": "mh47@mahatranscom.in",
+    "jurisdictionAreas": [
+        "Dahisar",
+        "Borivali",
+        "Kandivali"
+    ]
+}
