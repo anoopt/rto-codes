@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-21T02:27:16.951Z",
-  "totalRTOs": 695,
-  "totalVerified": 695,
+  "generatedAt": "2026-08-22T02:22:58.892Z",
+  "totalRTOs": 700,
+  "totalVerified": 700,
   "totalStates": 28,
   "completedStates": 13,
-  "inProgressStates": 1,
+  "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 7,
   "inProgressUTs": 0,
@@ -957,10 +957,10 @@
     {
       "stateCode": "MH",
       "stateName": "Maharashtra",
-      "rtoCount": 50,
+      "rtoCount": 55,
       "totalExpectedRTOs": 55,
       "activeRTOs": 0,
-      "verifiedCount": 50,
+      "verifiedCount": 55,
       "rtoCodes": [
         "mh-01",
         "mh-02",
@@ -1011,11 +1011,16 @@
         "mh-47",
         "mh-48",
         "mh-49",
-        "mh-50"
+        "mh-50",
+        "mh-51",
+        "mh-52",
+        "mh-53",
+        "mh-54",
+        "mh-55"
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2179,10 +2184,10 @@
     "MH": {
       "stateCode": "MH",
       "stateName": "Maharashtra",
-      "rtoCount": 50,
+      "rtoCount": 55,
       "totalExpectedRTOs": 55,
       "activeRTOs": 0,
-      "verifiedCount": 50,
+      "verifiedCount": 55,
       "rtoCodes": [
         "mh-01",
         "mh-02",
@@ -2233,11 +2238,16 @@
         "mh-47",
         "mh-48",
         "mh-49",
-        "mh-50"
+        "mh-50",
+        "mh-51",
+        "mh-52",
+        "mh-53",
+        "mh-54",
+        "mh-55"
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },

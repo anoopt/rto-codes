@@ -1343,5 +1343,119 @@
       "Ond",
       "Koynanagar"
     ]
+  },
+  {
+    "code": "MH-51",
+    "region": "Ichalkaranji",
+    "city": "Ichalkaranji",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Kolhapur",
+    "division": "Kolhapur",
+    "description": "MH-51 is the Deputy Regional Transport Office (Dy RTO) for Ichalkaranji, established in May 2023 to serve the major textile hub of Maharashtra. It was created to reduce the administrative burden on the main Kolhapur RTO (MH-09) and provides essential services like vehicle registration and licensing for the eastern parts of the district.",
+    "status": "active",
+    "established": "2023",
+    "address": "Deputy Regional Transport Office, Vikash Nagar, Ichalkaranji, Kolhapur District, Maharashtra",
+    "pinCode": "416115",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ichalkaranji",
+      "Hatkanangale",
+      "Shirol"
+    ]
+  },
+  {
+    "code": "MH-52",
+    "region": "Chalisgaon",
+    "city": "Chalisgaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Jalgaon",
+    "division": "Nashik",
+    "description": "MH-52 is the Deputy Regional Transport Office (Dy. RTO) serving the Chalisgaon region in Jalgaon district, Maharashtra. Established as part of a state-wide decentralization effort in 2024, it handles vehicle registration, driving licenses, and transport permits specifically for the Chalisgaon taluka.",
+    "status": "active",
+    "established": "2024",
+    "address": "Shastri Nagar, Bhadgaon Road, Chalisgaon, Jalgaon District, Maharashtra",
+    "pinCode": "424101",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chalisgaon"
+    ]
+  },
+  {
+    "code": "MH-53",
+    "region": "Pune South",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Pune",
+    "division": "Pune",
+    "description": "MH-53 is a recently established Deputy Regional Transport Office serving the Pune South region in Maharashtra. It was introduced to reduce the administrative burden on the MH-12 Pune office, handling vehicle registrations and licensing for the rapidly growing southern suburban and metropolitan areas of Pune.",
+    "status": "active",
+    "established": "2023",
+    "address": "Deputy Regional Transport Office, Pune South, Pune, Maharashtra",
+    "pinCode": "411001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pune South",
+      "Dhankawadi",
+      "Katraj",
+      "Hadapsar",
+      "Kondhwa",
+      "Bibwewadi",
+      "Sahakar Nagar",
+      "Gultekdi"
+    ]
+  },
+  {
+    "code": "MH-54",
+    "region": "Bhadgaon",
+    "city": "Bhadgaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Jalgaon",
+    "division": "Nashik",
+    "description": "MH-54 is the Deputy Regional Transport Office (Dy. RTO) for Bhadgaon in the Jalgaon district, officially established in May 2023. It was created as part of a state-wide expansion to decentralize services from the main Jalgaon RTO (MH-19), facilitating vehicle registration and licensing for several talukas.",
+    "status": "active",
+    "established": "2023",
+    "address": "Mauje Tongaon, Bhadgaon-Pachora Road, Opposite Ashirwad Ginning, Bhadgaon, Jalgaon, Maharashtra",
+    "pinCode": "424105",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bhadgaon",
+      "Pachora",
+      "Parola",
+      "Amalner",
+      "Chopada",
+      "Erandol",
+      "Dharangaon"
+    ]
+  },
+  {
+    "code": "MH-55",
+    "region": "Udgir",
+    "city": "Udgir",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Latur",
+    "division": "Latur",
+    "description": "MH-55 is the Deputy Regional Transport Office (Dy RTO) located in Udgir, serving the Latur district of Maharashtra. Established circa 2023-2024 as part of a state-wide expansion, it provides essential vehicle registration and licensing services to the eastern talukas of the district.",
+    "status": "active",
+    "established": "2023",
+    "address": "Near Shiv Plaza, Nanded Road, Udgir City Entrance, Latur, Maharashtra",
+    "pinCode": "413517",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Udgir",
+      "Deoni",
+      "Jalkot",
+      "Shirur Anantpal",
+      "Ahmadpur"
+    ]
   }
 ]
