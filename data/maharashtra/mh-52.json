@@ -1,0 +1,19 @@
+{
+    "code": "MH-52",
+    "region": "Chalisgaon",
+    "city": "Chalisgaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Jalgaon",
+    "division": "Nashik",
+    "description": "MH-52 is the Deputy Regional Transport Office (Dy. RTO) serving the Chalisgaon region in Jalgaon district, Maharashtra. Established as part of a state-wide decentralization effort in 2024, it handles vehicle registration, driving licenses, and transport permits specifically for the Chalisgaon taluka.",
+    "status": "active",
+    "established": "2024",
+    "address": "Shastri Nagar, Bhadgaon Road, Chalisgaon, Jalgaon District, Maharashtra",
+    "pinCode": "424101",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chalisgaon"
+    ]
+}

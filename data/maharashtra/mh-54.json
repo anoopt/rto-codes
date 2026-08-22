@@ -1,0 +1,25 @@
+{
+    "code": "MH-54",
+    "region": "Bhadgaon",
+    "city": "Bhadgaon",
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "district": "Jalgaon",
+    "division": "Nashik",
+    "description": "MH-54 is the Deputy Regional Transport Office (Dy. RTO) for Bhadgaon in the Jalgaon district, officially established in May 2023. It was created as part of a state-wide expansion to decentralize services from the main Jalgaon RTO (MH-19), facilitating vehicle registration and licensing for several talukas.",
+    "status": "active",
+    "established": "2023",
+    "address": "Mauje Tongaon, Bhadgaon-Pachora Road, Opposite Ashirwad Ginning, Bhadgaon, Jalgaon, Maharashtra",
+    "pinCode": "424105",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhadgaon",
+        "Pachora",
+        "Parola",
+        "Amalner",
+        "Chopada",
+        "Erandol",
+        "Dharangaon"
+    ]
+}
