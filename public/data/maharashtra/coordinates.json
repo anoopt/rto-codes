@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-08-22T02:25:32.549Z",
+  "state": "Maharashtra",
+  "rtoCount": 50,
+  "successCount": 50,
+  "failedRTOs": [],
+  "coordinates": {
+    "MH-01": {
+      "lat": 18.9414186,
+      "lon": 72.8354328,
+      "displayName": "Mumbai CSMT, Dr Dadabhai Naoroji Road, Bori Bunder, Fort, A Ward, Mumbai Zone 1, Mumbai, Mumbai City District, Maharashtra, 400001, India"
+    },
+    "MH-02": {
+      "lat": 19.0592671,
+      "lon": 72.861326,
+      "displayName": "Securities Exchange Board of India, mumbai, Bandra Kurla Complex Road, Sant Dnyaneshwar Nagar, Bandra Kurla Complex, H/E Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+    },
+    "MH-03": {
+      "lat": 19.0592671,
+      "lon": 72.861326,
+      "displayName": "Securities Exchange Board of India, mumbai, Bandra Kurla Complex Road, Sant Dnyaneshwar Nagar, Bandra Kurla Complex, H/E Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+    },
+    "MH-04": {
+      "lat": 19.1943294,
+      "lon": 72.9701779,
+      "displayName": "Thane, Thane Subdistrict, Thane, Maharashtra, India"
+    },
+    "MH-05": {
+      "lat": 19.2396742,
+      "lon": 73.1366482,
+      "displayName": "Kalyan, Kalyan-Dombivli, Kalyan Subdistrict, Thane, Maharashtra, 421306, India"
+    },
+    "MH-06": {
+      "lat": 18.735385,
+      "lon": 73.0868161,
+      "displayName": "Pen, NH66, Pen, Pen Taluka, Raigad, Maharashtra, 402107, India"
+    },
+    "MH-07": {
+      "lat": 16.1121887,
+      "lon": 73.6798546,
+      "displayName": "Sindhudurg, raulwadi road, Sukalwad, Malvan Taluka, Sindhudurg, Maharashtra, 416534, India"
+    },
+    "MH-08": {
+      "lat": 16.9933521,
+      "lon": 73.2954371,
+      "displayName": "Ratnagiri, Ratnagiri Taluka, Ratnagiri, Maharashtra, 415612, India"
+    },
+    "MH-09": {
+      "lat": 16.7028412,
+      "lon": 74.2405329,
+      "displayName": "Kolhapur, Karvir, Kolhapur, Maharashtra, 416003, India"
+    },
+    "MH-10": {
+      "lat": 16.8502534,
+      "lon": 74.5948885,
+      "displayName": "Sangli, Miraj, Sangli, Maharashtra, 416416, India"
+    },
+    "MH-11": {
+      "lat": 17.688321,
+      "lon": 74.0041726,
+      "displayName": "Satara, Maharashtra, 415002, India"
+    },
+    "MH-12": {
+      "lat": 18.5213738,
+      "lon": 73.8545071,
+      "displayName": "Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India"
+    },
+    "MH-13": {
+      "lat": 17.6699734,
+      "lon": 75.9008118,
+      "displayName": "Solapur, Solapur North, Solapur, Maharashtra, 413001, India"
+    },
+    "MH-14": {
+      "lat": 18.6279288,
+      "lon": 73.8009829,
+      "displayName": "Pimpri-Chinchwad, Haveli Subdistrict, Pune, Maharashtra, 411089, India"
+    },
+    "MH-15": {
+      "lat": 20.0112475,
+      "lon": 73.7902364,
+      "displayName": "Nashik, Nashik Subdistrict, Nashik, Maharashtra, 422001, India"
+    },
+    "MH-16": {
+      "lat": 19.092952,
+      "lon": 74.7493451,
+      "displayName": "Ahilyanagar, Nagar Subdistrict, Ahilyanagar District, Maharashtra, 414001, India"
+    },
+    "MH-17": {
+      "lat": 19.6419712,
+      "lon": 74.700709,
+      "displayName": "Shrirampur, Ahilyanagar District, Maharashtra, India"
+    },
+    "MH-18": {
+      "lat": 20.898,
+      "lon": 74.7732,
+      "displayName": "Dhule, Dhule Taluka, Dhule, Maharashtra, 424001, India"
+    },
+    "MH-19": {
+      "lat": 21.0100695,
+      "lon": 75.5696003,
+      "displayName": "Jalgaon, Maharashtra, 425001, India"
+    },
+    "MH-20": {
+      "lat": 19.8597998,
+      "lon": 75.3114008,
+      "displayName": "Chhatrapati Sambhajinagar, Railway Station Flyover, Cantonment, Chhatrapati Sambhajinagar, Maharashtra, 431002, India"
+    },
+    "MH-21": {
+      "lat": 19.8318228,
+      "lon": 75.8909339,
+      "displayName": "Jalna, Railway Station Road, Nariman Nagar, Jalna, Maharashtra, 431200, India"
+    },
+    "MH-22": {
+      "lat": 19.2447104,
+      "lon": 76.776084,
+      "displayName": "Parbhani, Maharashtra, India"
+    },
+    "MH-23": {
+      "lat": 18.9904059,
+      "lon": 75.7542291,
+      "displayName": "Beed, Maharashtra, 431122, India"
+    },
+    "MH-24": {
+      "lat": 18.3982273,
+      "lon": 76.5625913,
+      "displayName": "Latur, Maharashtra, 413512, India"
+    },
+    "MH-25": {
+      "lat": 18.2822454,
+      "lon": 76.0588166,
+      "displayName": "Osmanabad, Waruda Road, Gairan Wasti, Waruda, Dharashiv, Maharashtra, 413501, India"
+    },
+    "MH-26": {
+      "lat": 19.1725722,
+      "lon": 77.2914124,
+      "displayName": "Nanded, Maharashtra, India"
+    },
+    "MH-27": {
+      "lat": 21.0857492,
+      "lon": 77.666978,
+      "displayName": "Amravati, Maharashtra, 444801, India"
+    },
+    "MH-28": {
+      "lat": 20.4548493,
+      "lon": 76.0955537,
+      "displayName": "Buldhana, Maharashtra, India"
+    },
+    "MH-29": {
+      "lat": 20.390344,
+      "lon": 78.1328518,
+      "displayName": "Yavatmal, Maharashtra, 445001, India"
+    },
+    "MH-30": {
+      "lat": 20.7116604,
+      "lon": 77.002632,
+      "displayName": "Akola, Maharashtra, 444001, India"
+    },
+    "MH-31": {
+      "lat": 21.1498134,
+      "lon": 79.0820556,
+      "displayName": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+    },
+    "MH-32": {
+      "lat": 20.7464941,
+      "lon": 78.5997922,
+      "displayName": "Wardha, Maharashtra, 442001, India"
+    },
+    "MH-33": {
+      "lat": 20.1853965,
+      "lon": 80.003509,
+      "displayName": "Gadchiroli, Gadchiroli Taluka, Gadchiroli, Maharashtra, 442605, India"
+    },
+    "MH-34": {
+      "lat": 19.9508161,
+      "lon": 79.2986673,
+      "displayName": "Chandrapur, Chandrapur Taluka, Chandrapur, Maharashtra, 442401, India"
+    },
+    "MH-35": {
+      "lat": 21.4611517,
+      "lon": 80.1931894,
+      "displayName": "Gondia Junction, Gondia - Balaghat Road, Sai Colony, Gondia City, Gondiya Taluka, Gondiya, Maharashtra, 441601, India"
+    },
+    "MH-36": {
+      "lat": 21.1706698,
+      "lon": 79.65658,
+      "displayName": "Bhandara City, Bhandara Taluka, Bhandara, Maharashtra, 441904, India"
+    },
+    "MH-37": {
+      "lat": 20.1029211,
+      "lon": 77.1353872,
+      "displayName": "Washim, Maharashtra, 444505, India"
+    },
+    "MH-38": {
+      "lat": 19.8035118,
+      "lon": 77.1792598,
+      "displayName": "Hingoli, Maharashtra, 431513, India"
+    },
+    "MH-39": {
+      "lat": 21.3737635,
+      "lon": 74.2445558,
+      "displayName": "Nandurbar, Street Havey, Nandurbar, Nandurbar Taluka, Nandurbar, Maharashtra, 425412, India"
+    },
+    "MH-40": {
+      "lat": 21.1498134,
+      "lon": 79.0820556,
+      "displayName": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+    },
+    "MH-41": {
+      "lat": 20.5576062,
+      "lon": 74.5246514,
+      "displayName": "Malegaon, Malegaon Taluka, Nashik, Maharashtra, 423200, India"
+    },
+    "MH-42": {
+      "lat": 18.2198538,
+      "lon": 74.4534054,
+      "displayName": "Baramati, Pune, Maharashtra, India"
+    },
+    "MH-43": {
+      "lat": 19.0308262,
+      "lon": 73.0198537,
+      "displayName": "Navi Mumbai, Thane Subdistrict, Thane, Maharashtra, India"
+    },
+    "MH-44": {
+      "lat": 18.7318232,
+      "lon": 76.3854836,
+      "displayName": "Ambajogai, Ambejogai, Beed, Maharashtra, 431517, India"
+    },
+    "MH-45": {
+      "lat": 17.8930069,
+      "lon": 75.0204482,
+      "displayName": "Akluj, Malshiras, Solapur, Maharashtra, 413101, India"
+    },
+    "MH-46": {
+      "lat": 18.9895249,
+      "lon": 73.1221935,
+      "displayName": "Panvel, Panvel Subdistrict, Raigad, Maharashtra, India"
+    },
+    "MH-47": {
+      "lat": 19.0592671,
+      "lon": 72.861326,
+      "displayName": "Securities Exchange Board of India, mumbai, Bandra Kurla Complex Road, Sant Dnyaneshwar Nagar, Bandra Kurla Complex, H/E Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+    },
+    "MH-48": {
+      "lat": 19.4210423,
+      "lon": 72.8197221,
+      "displayName": "Vasai-Virar, Vasai Subdistrict, Palghar, Maharashtra, India"
+    },
+    "MH-49": {
+      "lat": 21.1498134,
+      "lon": 79.0820556,
+      "displayName": "Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+    },
+    "MH-50": {
+      "lat": 17.2852127,
+      "lon": 74.1822147,
+      "displayName": "Karad, Satara, Maharashtra, 415100, India"
+    }
+  }
+}
