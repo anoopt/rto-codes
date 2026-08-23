@@ -3,8 +3,26 @@
   "name": "Manipur",
   "displayName": "Manipur",
   "capital": "Imphal",
-  "totalRTOs": 8,
+  "totalRTOs": 16,
   "districtMapping": {},
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "validCodes": [
+    "MN-01",
+    "MN-02",
+    "MN-03",
+    "MN-04",
+    "MN-05",
+    "MN-06",
+    "MN-07",
+    "MN-08",
+    "MN-09",
+    "MN-10",
+    "MN-11",
+    "MN-12",
+    "MN-13",
+    "MN-14",
+    "MN-15",
+    "MN-16"
+  ]
 }
