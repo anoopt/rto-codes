@@ -1,1 +1,121 @@
-[]
+[
+  {
+    "code": "MN-01",
+    "region": "Imphal West",
+    "city": "Imphal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Imphal West",
+    "division": "Imphal West",
+    "description": "MN-01 is the District Transport Office for Imphal West, serving as a primary hub for motor vehicle administration in the capital of Manipur. It manages vehicle registrations, driving tests, and transport permits for residents within the western quadrant of the Imphal valley.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Directorate, Babupara, Imphal, Manipur",
+    "pinCode": "795001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Imphal West",
+      "Lamphelpat",
+      "Patsoi",
+      "Lamsang",
+      "Wangoi"
+    ]
+  },
+  {
+    "code": "MN-02",
+    "region": "Churachandpur",
+    "city": "Churachandpur",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Churachandpur",
+    "division": "Manipur Transport Department",
+    "description": "The MN-02 RTO serves as the District Transport Office for Churachandpur in Manipur. It is responsible for vehicle registration, driving licenses, and transport permit issuance for the southern district of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Tuibong, Churachandpur, Manipur",
+    "pinCode": "795128",
+    "phone": "03874-233433",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Churachandpur",
+      "Tuibong",
+      "Singngat",
+      "Henglep",
+      "Samulamlan",
+      "Saikot",
+      "Sangaikot"
+    ]
+  },
+  {
+    "code": "MN-03",
+    "region": "Kangpokpi",
+    "city": "Kangpokpi",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Kangpokpi",
+    "division": "Manipur Transport Department",
+    "description": "The MN-03 RTO is the District Transport Office (DTO) for the Kangpokpi district in Manipur. It is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations along the NH-39 corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ward No. 7, Near National Highway 39 (NH-39), Kangpokpi, Manipur",
+    "pinCode": "795129",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kangpokpi",
+      "Saitu-Gamphazol",
+      "Saikul",
+      "Champhai",
+      "Island"
+    ]
+  },
+  {
+    "code": "MN-04",
+    "region": "Thoubal",
+    "city": "Thoubal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Thoubal",
+    "division": "Manipur Transport Department",
+    "description": "The MN-04 RTO serves the Thoubal district in Manipur, providing essential transport services under the state government's mandate. It is responsible for vehicle registration, the issuance of driving licenses, and the collection of road taxes to ensure road safety and legal compliance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Thoubal Bazar, P.O. Thoubal, Manipur - 795138",
+    "pinCode": "795138",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Thoubal District",
+      "Thoubal Town",
+      "Lilong",
+      "Wangjing",
+      "Yairipok",
+      "Heirok"
+    ]
+  },
+  {
+    "code": "MN-05",
+    "region": "Bishnupur",
+    "city": "Bishnupur",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Bishnupur",
+    "division": "Manipur Transport Department",
+    "description": "The MN-05 Regional Transport Office serves the Bishnupur district in Manipur, facilitating motor vehicle registrations and driving license issuances. It is a key administrative hub for transport services in the region, covering major areas like Moirang and Nambol.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Bishnupur, Near Registrar Office, Bishnupur, Manipur",
+    "pinCode": "795133",
+    "phone": "03874-233433",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bishnupur",
+      "Moirang",
+      "Nambol",
+      "Kumbi",
+      "Ningthoukhong",
+      "Oinam"
+    ]
+  }
+]
