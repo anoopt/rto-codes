@@ -1,0 +1,24 @@
+{
+    "code": "MN-04",
+    "region": "Thoubal",
+    "city": "Thoubal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Thoubal",
+    "division": "Manipur Transport Department",
+    "description": "The MN-04 RTO serves the Thoubal district in Manipur, providing essential transport services under the state government's mandate. It is responsible for vehicle registration, the issuance of driving licenses, and the collection of road taxes to ensure road safety and legal compliance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Thoubal Bazar, P.O. Thoubal, Manipur - 795138",
+    "pinCode": "795138",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Thoubal District",
+        "Thoubal Town",
+        "Lilong",
+        "Wangjing",
+        "Yairipok",
+        "Heirok"
+    ]
+}

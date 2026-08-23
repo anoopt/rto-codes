@@ -1,0 +1,23 @@
+{
+    "code": "MN-01",
+    "region": "Imphal West",
+    "city": "Imphal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Imphal West",
+    "division": "Imphal West",
+    "description": "MN-01 is the District Transport Office for Imphal West, serving as a primary hub for motor vehicle administration in the capital of Manipur. It manages vehicle registrations, driving tests, and transport permits for residents within the western quadrant of the Imphal valley.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Directorate, Babupara, Imphal, Manipur",
+    "pinCode": "795001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Imphal West",
+        "Lamphelpat",
+        "Patsoi",
+        "Lamsang",
+        "Wangoi"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "MN-02",
+    "region": "Churachandpur",
+    "city": "Churachandpur",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Churachandpur",
+    "division": "Manipur Transport Department",
+    "description": "The MN-02 RTO serves as the District Transport Office for Churachandpur in Manipur. It is responsible for vehicle registration, driving licenses, and transport permit issuance for the southern district of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Tuibong, Churachandpur, Manipur",
+    "pinCode": "795128",
+    "phone": "03874-233433",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Churachandpur",
+        "Tuibong",
+        "Singngat",
+        "Henglep",
+        "Samulamlan",
+        "Saikot",
+        "Sangaikot"
+    ]
+}

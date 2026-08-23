@@ -1,0 +1,24 @@
+{
+    "code": "MN-05",
+    "region": "Bishnupur",
+    "city": "Bishnupur",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Bishnupur",
+    "division": "Manipur Transport Department",
+    "description": "The MN-05 Regional Transport Office serves the Bishnupur district in Manipur, facilitating motor vehicle registrations and driving license issuances. It is a key administrative hub for transport services in the region, covering major areas like Moirang and Nambol.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Bishnupur, Near Registrar Office, Bishnupur, Manipur",
+    "pinCode": "795133",
+    "phone": "03874-233433",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bishnupur",
+        "Moirang",
+        "Nambol",
+        "Kumbi",
+        "Ningthoukhong",
+        "Oinam"
+    ]
+}

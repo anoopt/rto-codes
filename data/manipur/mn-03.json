@@ -1,0 +1,23 @@
+{
+    "code": "MN-03",
+    "region": "Kangpokpi",
+    "city": "Kangpokpi",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Kangpokpi",
+    "division": "Manipur Transport Department",
+    "description": "The MN-03 RTO is the District Transport Office (DTO) for the Kangpokpi district in Manipur. It is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations along the NH-39 corridor.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ward No. 7, Near National Highway 39 (NH-39), Kangpokpi, Manipur",
+    "pinCode": "795129",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kangpokpi",
+        "Saitu-Gamphazol",
+        "Saikul",
+        "Champhai",
+        "Island"
+    ]
+}
