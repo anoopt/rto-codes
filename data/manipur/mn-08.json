@@ -1,0 +1,25 @@
+{
+    "code": "MN-08",
+    "region": "Senapati",
+    "city": "Senapati",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Senapati",
+    "division": "Manipur Transport Department",
+    "description": "MN-08 represents the District Transport Office in Senapati, Manipur. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations within the Senapati district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat Complex, Senapati, Manipur",
+    "pinCode": "795106",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Senapati",
+        "Mao-Maram",
+        "Paomata",
+        "Purul",
+        "Willong",
+        "Chilivai-Phaibung",
+        "Songsong"
+    ]
+}

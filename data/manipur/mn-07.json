@@ -1,0 +1,23 @@
+{
+    "code": "MN-07",
+    "region": "Ukhrul",
+    "city": "Ukhrul",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Ukhrul",
+    "division": "Manipur Transport",
+    "description": "MN-07 is the designated District Transport Office for Ukhrul, Manipur, handling motor vehicle registration and driver licensing services. Located in the Mini Secretariat, it serves the residents of the hilly eastern region near the Indo-Myanmar border. The office is responsible for revenue collection through road taxes and ensuring transport safety regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, West Block, Mini Secretariat, Ukhrul, Manipur",
+    "pinCode": "795142",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ukhrul",
+        "Chingai",
+        "Jessami",
+        "Lungchong Maiphai",
+        "Ukhrul Central"
+    ]
+}

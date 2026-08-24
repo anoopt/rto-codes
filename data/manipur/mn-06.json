@@ -1,0 +1,25 @@
+{
+    "code": "MN-06",
+    "region": "Imphal East",
+    "city": "Imphal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Imphal East",
+    "division": "Imphal East Transport Division",
+    "description": "MN-06 is the official RTO code for the District Transport Office (DTO) in Imphal East, Manipur. This office handles vehicle registration, driver licensing, and transport permits for the eastern part of the capital region, including significant areas like Mantripukhri and Porompat.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Near STPI, P.O. Mantripukhri, Imphal East, Manipur",
+    "pinCode": "795002",
+    "phone": "098564 44315",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Imphal East",
+        "Mantripukhri",
+        "Porompat",
+        "Heingang",
+        "Keirao Bitra",
+        "Sawombung",
+        "Khurai"
+    ]
+}

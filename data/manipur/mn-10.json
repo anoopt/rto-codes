@@ -1,0 +1,20 @@
+{
+    "code": "MN-10",
+    "region": "Jiribam",
+    "city": "Jiribam",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Jiribam",
+    "division": "Manipur Transport Department",
+    "description": "MN-10 is the District Transport Office (DTO) for Jiribam district, established after the district reorganization in late 2016. It serves as a vital transport hub for vehicle registration and licensing on the Manipur-Assam border.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the District Transport Officer, District Administrative Complex, Jiribam, Manipur",
+    "pinCode": "795116",
+    "phone": "0385-2461204",
+    "email": "dtojiribam@manipur.gov.in",
+    "jurisdictionAreas": [
+        "Jiribam",
+        "Borobekra"
+    ]
+}
