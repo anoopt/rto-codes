@@ -117,5 +117,119 @@
       "Ningthoukhong",
       "Oinam"
     ]
+  },
+  {
+    "code": "MN-06",
+    "region": "Imphal East",
+    "city": "Imphal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Imphal East",
+    "division": "Imphal East Transport Division",
+    "description": "MN-06 is the official RTO code for the District Transport Office (DTO) in Imphal East, Manipur. This office handles vehicle registration, driver licensing, and transport permits for the eastern part of the capital region, including significant areas like Mantripukhri and Porompat.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Near STPI, P.O. Mantripukhri, Imphal East, Manipur",
+    "pinCode": "795002",
+    "phone": "098564 44315",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Imphal East",
+      "Mantripukhri",
+      "Porompat",
+      "Heingang",
+      "Keirao Bitra",
+      "Sawombung",
+      "Khurai"
+    ]
+  },
+  {
+    "code": "MN-07",
+    "region": "Ukhrul",
+    "city": "Ukhrul",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Ukhrul",
+    "division": "Manipur Transport",
+    "description": "MN-07 is the designated District Transport Office for Ukhrul, Manipur, handling motor vehicle registration and driver licensing services. Located in the Mini Secretariat, it serves the residents of the hilly eastern region near the Indo-Myanmar border. The office is responsible for revenue collection through road taxes and ensuring transport safety regulations across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, West Block, Mini Secretariat, Ukhrul, Manipur",
+    "pinCode": "795142",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ukhrul",
+      "Chingai",
+      "Jessami",
+      "Lungchong Maiphai",
+      "Ukhrul Central"
+    ]
+  },
+  {
+    "code": "MN-08",
+    "region": "Senapati",
+    "city": "Senapati",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Senapati",
+    "division": "Manipur Transport Department",
+    "description": "MN-08 represents the District Transport Office in Senapati, Manipur. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations within the Senapati district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat Complex, Senapati, Manipur",
+    "pinCode": "795106",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Senapati",
+      "Mao-Maram",
+      "Paomata",
+      "Purul",
+      "Willong",
+      "Chilivai-Phaibung",
+      "Songsong"
+    ]
+  },
+  {
+    "code": "MN-09",
+    "region": "Chandel",
+    "city": "Chandel",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Chandel",
+    "division": "Manipur",
+    "description": "MN-09 is the District Transport Office (DTO) for the Chandel district in Manipur. It provides essential services such as vehicle registration, driving license issuance, and road tax collection for the district which borders Myanmar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat Complex, Chandel, Manipur",
+    "pinCode": "795127",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chandel",
+      "Chakpikarong",
+      "Khengjoy"
+    ]
+  },
+  {
+    "code": "MN-10",
+    "region": "Jiribam",
+    "city": "Jiribam",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Jiribam",
+    "division": "Manipur Transport Department",
+    "description": "MN-10 is the District Transport Office (DTO) for Jiribam district, established after the district reorganization in late 2016. It serves as a vital transport hub for vehicle registration and licensing on the Manipur-Assam border.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the District Transport Officer, District Administrative Complex, Jiribam, Manipur",
+    "pinCode": "795116",
+    "phone": "0385-2461204",
+    "email": "dtojiribam@manipur.gov.in",
+    "jurisdictionAreas": [
+      "Jiribam",
+      "Borobekra"
+    ]
   }
 ]
