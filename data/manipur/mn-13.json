@@ -1,0 +1,22 @@
+{
+    "code": "MN-13",
+    "region": "Kamjong",
+    "city": "Kamjong",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Kamjong",
+    "division": "Manipur Transport Department",
+    "description": "MN-13 serves the Kamjong district in Manipur, which was carved out of the Ukhrul district in 2016. This District Transport Office facilitates vehicle registration, learner's and permanent driving licenses, and transport permit services for the border region.",
+    "status": "active",
+    "established": "2016",
+    "address": "District Transport Office, Mini Secretariat Complex, Kamjong, Manipur",
+    "pinCode": "795145",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kamjong",
+        "Phungyar",
+        "Kasom Khullen",
+        "Sahamphung"
+    ]
+}

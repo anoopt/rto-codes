@@ -1,0 +1,23 @@
+{
+    "code": "MN-14",
+    "region": "Noney",
+    "city": "Noney",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Noney",
+    "division": "Noney",
+    "description": "MN-14 serves as the District Transport Office (DTO) for the Noney district in Manipur. It was established to manage vehicle registration, permits, and licensing for the region following the administrative reorganization of the state into 16 districts.",
+    "status": "active",
+    "established": "2016",
+    "address": "District Transport Office, Noney District Headquarters, Noney Town, Manipur",
+    "pinCode": "795159",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Noney",
+        "Longmai",
+        "Haochong",
+        "Khoupum",
+        "Nungba"
+    ]
+}

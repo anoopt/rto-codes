@@ -1,0 +1,23 @@
+{
+    "code": "MN-11",
+    "region": "Kakching",
+    "city": "Kakching",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Kakching",
+    "division": "Manipur Transport Division",
+    "description": "MN-11 is the Regional Transport Office for the Kakching district in Manipur. It was recently made fully functional to provide essential services such as vehicle registration, fitness certificates, and driving license issuances for the district's residents.",
+    "status": "active",
+    "established": "2025",
+    "address": "Room No. 15C and 18C, Ground Floor, DC Office Complex, Kakching, Manipur",
+    "pinCode": "795103",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kakching",
+        "Waikhong",
+        "Hiyanglam",
+        "Sugnu",
+        "Pallel"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "MN-15",
+    "region": "Pherzawl",
+    "city": "Pherzawl",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Pherzawl",
+    "division": "Manipur Transport Department",
+    "description": "MN-15 is the Regional Transport Office for the Pherzawl district in Manipur. It was established following the creation of new administrative districts to facilitate vehicle registration, licensing, and transport governance in this remote hilly region bordering Mizoram and Assam.",
+    "status": "active",
+    "established": "2021",
+    "address": "District Transport Office (DTO), Pherzawl, Manipur",
+    "pinCode": "795143",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pherzawl",
+        "Vangai Range",
+        "Thanlon",
+        "Tipaimukh",
+        "Parbung"
+    ]
+}

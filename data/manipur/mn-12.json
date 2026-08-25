@@ -1,0 +1,21 @@
+{
+    "code": "MN-12",
+    "region": "Tengnoupal",
+    "city": "Tengnoupal",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Tengnoupal",
+    "division": "Manipur Transport Department",
+    "description": "MN-12 is the Regional Transport Office serving the Tengnoupal district in Manipur. It was established following the administrative reorganization of districts and handles vehicle registration, license issuance, and road tax collection for the region, including the important border trade hub of Moreh.",
+    "status": "active",
+    "established": "2016",
+    "address": "District Transport Office, Tengnoupal District Headquarters, Manipur",
+    "pinCode": "795131",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tengnoupal",
+        "Moreh",
+        "Machhi"
+    ]
+}
