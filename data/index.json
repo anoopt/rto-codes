@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-24T02:28:01.916Z",
-  "totalRTOs": 710,
-  "totalVerified": 710,
+  "generatedAt": "2026-08-25T02:25:35.220Z",
+  "totalRTOs": 715,
+  "totalVerified": 715,
   "totalStates": 28,
   "completedStates": 14,
   "inProgressStates": 1,
@@ -1027,10 +1027,10 @@
     {
       "stateCode": "MN",
       "stateName": "Manipur",
-      "rtoCount": 10,
+      "rtoCount": 15,
       "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 10,
+      "verifiedCount": 15,
       "rtoCodes": [
         "mn-01",
         "mn-02",
@@ -1041,7 +1041,12 @@
         "mn-07",
         "mn-08",
         "mn-09",
-        "mn-10"
+        "mn-10",
+        "mn-11",
+        "mn-12",
+        "mn-13",
+        "mn-14",
+        "mn-15"
       ],
       "isComplete": false,
       "type": "state",
@@ -2265,10 +2270,10 @@
     "MN": {
       "stateCode": "MN",
       "stateName": "Manipur",
-      "rtoCount": 10,
+      "rtoCount": 15,
       "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 10,
+      "verifiedCount": 15,
       "rtoCodes": [
         "mn-01",
         "mn-02",
@@ -2279,7 +2284,12 @@
         "mn-07",
         "mn-08",
         "mn-09",
-        "mn-10"
+        "mn-10",
+        "mn-11",
+        "mn-12",
+        "mn-13",
+        "mn-14",
+        "mn-15"
       ],
       "isComplete": false,
       "type": "state",
