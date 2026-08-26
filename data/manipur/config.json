@@ -4,8 +4,24 @@
   "displayName": "Manipur",
   "capital": "Imphal",
   "totalRTOs": 16,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Bishnupur": "Bishnupur",
+    "Chandel": "Chandel",
+    "Churachandpur": "Churachandpur",
+    "Imphal East": "Imphal East",
+    "Imphal West": "Imphal West",
+    "Jiribam": "Jiribam",
+    "Kakching": "Kakching",
+    "Kamjong": "Kamjong",
+    "Kangpokpi": "Kangpokpi",
+    "Noney": "Noney",
+    "Pherzawl": "Pherzawl",
+    "Senapati": "Senapati",
+    "Tengnoupal": "Tengnoupal",
+    "Thoubal": "Thoubal",
+    "Ukhrul": "Ukhrul"
+  },
+  "isComplete": true,
   "type": "state",
   "validCodes": [
     "MN-01",
@@ -24,5 +40,6 @@
     "MN-14",
     "MN-15",
     "MN-16"
-  ]
+  ],
+  "osmEnabled": true
 }
