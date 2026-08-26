@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-08-26T02:29:06.477Z",
+  "state": "Manipur",
+  "rtoCount": 15,
+  "successCount": 15,
+  "failedRTOs": [],
+  "coordinates": {
+    "MN-01": {
+      "lat": 24.7991162,
+      "lon": 93.9364419,
+      "displayName": "Imphal, Lamphelpat, Imphal West, Manipur, 795001, India"
+    },
+    "MN-02": {
+      "lat": 24.3468839,
+      "lon": 93.6994143,
+      "displayName": "Churachandpur, Churachandpur Subdivision, Churachandpur district, Manipur, 795128, India"
+    },
+    "MN-03": {
+      "lat": 25.1527725,
+      "lon": 93.9713691,
+      "displayName": "Kangpokpi, Kangpoki subdivision, Kangpokpi district, Manipur, 795129, India"
+    },
+    "MN-04": {
+      "lat": 24.6386954,
+      "lon": 93.996871,
+      "displayName": "Thoubal, Thoubal Subdivision, Thoubal district, Manipur, 795138, India"
+    },
+    "MN-05": {
+      "lat": 24.6267287,
+      "lon": 93.7600454,
+      "displayName": "Bishnupur, Nambol block, Bishnupur block, Bishnupur district, Manipur, 795126, India"
+    },
+    "MN-06": {
+      "lat": 24.8224476,
+      "lon": 93.9463078,
+      "displayName": "Imphal War Cemetery, Khongsai Veng, Porompat, Imphal East, Manipur, India"
+    },
+    "MN-07": {
+      "lat": 25.0978641,
+      "lon": 94.3610713,
+      "displayName": "Ukhrul, Ukhrul subdivision, Ukhrul district, Manipur, 795142, India"
+    },
+    "MN-08": {
+      "lat": 25.2726634,
+      "lon": 94.0267486,
+      "displayName": "Senapati, Senapati tehsil, Senapati, Manipur, India"
+    },
+    "MN-09": {
+      "lat": 24.3312009,
+      "lon": 94.0011081,
+      "displayName": "Chandel, Chandel subdivision, Chandel district, Manipur, 795127, India"
+    },
+    "MN-10": {
+      "lat": 24.8023996,
+      "lon": 93.1165145,
+      "displayName": "Jiribam, NH37, Gularthol, Jiribam district, Manipur, 788104, India"
+    },
+    "MN-11": {
+      "lat": 24.4974827,
+      "lon": 93.9835543,
+      "displayName": "Kakching, Kakching subdivision, Kakching district, Manipur, 795103, India"
+    },
+    "MN-12": {
+      "lat": 24.3847802,
+      "lon": 94.1472634,
+      "displayName": "Tengnoupal, Tengnoupal subdivision, Tengnoupal, Manipur, India"
+    },
+    "MN-13": {
+      "lat": 24.8559107,
+      "lon": 94.5119827,
+      "displayName": "Kamjong, Kamjong subdivision, Kamjong district, Manipur, India"
+    },
+    "MN-14": {
+      "lat": 24.8591099,
+      "lon": 93.6325027,
+      "displayName": "Noney, NH37, Noney, Longmei Subdivision, Noney district, Manipur, 795159, India"
+    },
+    "MN-15": {
+      "lat": 24.2595653,
+      "lon": 93.1906004,
+      "displayName": "Pherzawl, Parbung-Tipaimukh subdivision, Pherzawl district, Manipur, India"
+    }
+  }
+}
