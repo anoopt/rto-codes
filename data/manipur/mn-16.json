@@ -1,0 +1,22 @@
+{
+    "code": "MN-16",
+    "region": "Kakching",
+    "city": "Kakching",
+    "state": "Manipur",
+    "stateCode": "MN",
+    "district": "Kakching",
+    "division": "Manipur Transport Department",
+    "description": "The MN-16 RTO serves the Kakching district of Manipur, providing essential transport services such as vehicle registration and driver licensing. It was established following the state's administrative reorganization in late 2016 to cater to the transport needs of the newly formed district.",
+    "status": "active",
+    "established": "2016",
+    "address": "District Transport Office, Kakching, Manipur",
+    "pinCode": "795103",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kakching",
+        "Waikhong",
+        "Hiyanglam",
+        "Sugnu"
+    ]
+}
