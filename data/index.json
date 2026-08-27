@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-26T02:28:18.442Z",
-  "totalRTOs": 716,
-  "totalVerified": 716,
+  "generatedAt": "2026-08-27T03:37:14.886Z",
+  "totalRTOs": 721,
+  "totalVerified": 721,
   "totalStates": 28,
-  "completedStates": 14,
-  "inProgressStates": 0,
+  "completedStates": 15,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 7,
   "inProgressUTs": 0,
@@ -1049,23 +1049,29 @@
         "mn-15",
         "mn-16"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "ML",
       "stateName": "Meghalaya",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 10,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 13,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "ml-01",
+        "ml-02",
+        "ml-03",
+        "ml-04",
+        "ml-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2293,23 +2299,29 @@
         "mn-15",
         "mn-16"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "ML": {
       "stateCode": "ML",
       "stateName": "Meghalaya",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 10,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 13,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "ml-01",
+        "ml-02",
+        "ml-03",
+        "ml-04",
+        "ml-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },

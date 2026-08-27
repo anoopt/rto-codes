@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "code": "ML-01",
+    "region": "Shillong (Meghalaya Government Vehicles)",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "Khasi Hills",
+    "description": "ML-01 is the official RTO code designated specifically for registration of Meghalaya Government vehicles. Headquartered in Shillong, this series is used for the state's official fleet, including vehicles used by the Chief Minister, ministers, and various government departments.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Lower Lachumiere, Shillong, East Khasi Hills, Meghalaya",
+    "pinCode": "793001",
+    "phone": "+91-364-2224201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "State-wide (for Government Vehicles)",
+      "Shillong",
+      "East Khasi Hills District"
+    ]
+  },
+  {
+    "code": "ML-02",
+    "region": "Meghalaya Police Department",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "Shillong",
+    "description": "The ML-02 RTO code is a specialized registration series reserved exclusively for vehicles belonging to the Meghalaya Police Department. While general public vehicles in Shillong use ML-05, the ML-02 series is used for state-wide law enforcement and departmental vehicle administration.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, East Khasi Hills District, Shillong, Meghalaya",
+    "pinCode": "793001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Meghalaya Police Vehicles (State-wide)",
+      "East Khasi Hills",
+      "Shillong"
+    ]
+  },
+  {
+    "code": "ML-03",
+    "region": "Meghalaya Transport Corporation",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "Shillong",
+    "description": "ML-03 is a specialized registration code in Meghalaya assigned exclusively to the Meghalaya Transport Corporation (MTC) and state-owned commercial transport vehicles. Centrally managed from the capital city of Shillong, it distinguishes corporate-owned public transport from private civilian registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shillong, East Khasi Hills, Meghalaya",
+    "pinCode": "793001",
+    "phone": "0364-2220219",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Meghalaya Transport Corporation Vehicles",
+      "State Transport Fleet",
+      "Shillong Municipal Area"
+    ]
+  },
+  {
+    "code": "ML-04",
+    "region": "Jowai",
+    "city": "Jowai",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "West Jaintia Hills",
+    "division": "Jaintia Hills",
+    "description": "The ML-04 RTO serves as the District Transport Office (DTO) for Jowai, located in the West Jaintia Hills district. It is the first geographical registration code in Meghalaya's numbering system, handling vehicle registration, driving licenses, and permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jowai, West Jaintia Hills District, Meghalaya",
+    "pinCode": "793150",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jowai",
+      "Amlarem",
+      "Thadlaskein",
+      "Laskein"
+    ]
+  },
+  {
+    "code": "ML-05",
+    "region": "Shillong",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "East Khasi Hills Transport Division",
+    "description": "The ML-05 RTO serves the East Khasi Hills district, headquartered in the state capital of Shillong. This District Transport Office is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations within the state capital and surrounding areas. It is one of the primary and most active transport hubs in the state of Meghalaya.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, New Administrative Building, Lower Lachumiere, Shillong, East Khasi Hills, Meghalaya",
+    "pinCode": "793001",
+    "phone": "0364-2224201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shillong Municipal Area",
+      "Mylliem",
+      "Mawphlang",
+      "Mawsynram",
+      "Pynursla",
+      "Sohra",
+      "Khatarshnong Laitkroh",
+      "Mawkynrew",
+      "Mawryngkneng",
+      "Shella Bholaganj",
+      "Mawryngkneng",
+      "Sohiong"
+    ]
+  }
+]
