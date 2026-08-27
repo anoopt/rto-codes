@@ -1,0 +1,30 @@
+{
+    "code": "ML-05",
+    "region": "Shillong",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "East Khasi Hills Transport Division",
+    "description": "The ML-05 RTO serves the East Khasi Hills district, headquartered in the state capital of Shillong. This District Transport Office is responsible for vehicle registration, driving license issuance, and enforcement of transport regulations within the state capital and surrounding areas. It is one of the primary and most active transport hubs in the state of Meghalaya.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, New Administrative Building, Lower Lachumiere, Shillong, East Khasi Hills, Meghalaya",
+    "pinCode": "793001",
+    "phone": "0364-2224201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shillong Municipal Area",
+        "Mylliem",
+        "Mawphlang",
+        "Mawsynram",
+        "Pynursla",
+        "Sohra",
+        "Khatarshnong Laitkroh",
+        "Mawkynrew",
+        "Mawryngkneng",
+        "Shella Bholaganj",
+        "Mawryngkneng",
+        "Sohiong"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "code": "ML-04",
+    "region": "Jowai",
+    "city": "Jowai",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "West Jaintia Hills",
+    "division": "Jaintia Hills",
+    "description": "The ML-04 RTO serves as the District Transport Office (DTO) for Jowai, located in the West Jaintia Hills district. It is the first geographical registration code in Meghalaya's numbering system, handling vehicle registration, driving licenses, and permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jowai, West Jaintia Hills District, Meghalaya",
+    "pinCode": "793150",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jowai",
+        "Amlarem",
+        "Thadlaskein",
+        "Laskein"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "ML-01",
+    "region": "Shillong (Meghalaya Government Vehicles)",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "Khasi Hills",
+    "description": "ML-01 is the official RTO code designated specifically for registration of Meghalaya Government vehicles. Headquartered in Shillong, this series is used for the state's official fleet, including vehicles used by the Chief Minister, ministers, and various government departments.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Lower Lachumiere, Shillong, East Khasi Hills, Meghalaya",
+    "pinCode": "793001",
+    "phone": "+91-364-2224201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "State-wide (for Government Vehicles)",
+        "Shillong",
+        "East Khasi Hills District"
+    ]
+}

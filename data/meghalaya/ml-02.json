@@ -1,0 +1,21 @@
+{
+    "code": "ML-02",
+    "region": "Meghalaya Police Department",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "Shillong",
+    "description": "The ML-02 RTO code is a specialized registration series reserved exclusively for vehicles belonging to the Meghalaya Police Department. While general public vehicles in Shillong use ML-05, the ML-02 series is used for state-wide law enforcement and departmental vehicle administration.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the District Transport Officer, East Khasi Hills District, Shillong, Meghalaya",
+    "pinCode": "793001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Meghalaya Police Vehicles (State-wide)",
+        "East Khasi Hills",
+        "Shillong"
+    ]
+}

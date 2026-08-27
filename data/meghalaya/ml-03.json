@@ -1,0 +1,21 @@
+{
+    "code": "ML-03",
+    "region": "Meghalaya Transport Corporation",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Khasi Hills",
+    "division": "Shillong",
+    "description": "ML-03 is a specialized registration code in Meghalaya assigned exclusively to the Meghalaya Transport Corporation (MTC) and state-owned commercial transport vehicles. Centrally managed from the capital city of Shillong, it distinguishes corporate-owned public transport from private civilian registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shillong, East Khasi Hills, Meghalaya",
+    "pinCode": "793001",
+    "phone": "0364-2220219",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Meghalaya Transport Corporation Vehicles",
+        "State Transport Fleet",
+        "Shillong Municipal Area"
+    ]
+}
