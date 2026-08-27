@@ -3,8 +3,23 @@
   "name": "Meghalaya",
   "displayName": "Meghalaya",
   "capital": "Shillong",
-  "totalRTOs": 10,
+  "totalRTOs": 13,
   "districtMapping": {},
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "validCodes": [
+    "ML-01",
+    "ML-02",
+    "ML-03",
+    "ML-04",
+    "ML-05",
+    "ML-06",
+    "ML-07",
+    "ML-08",
+    "ML-09",
+    "ML-10",
+    "ML-11",
+    "ML-12",
+    "ML-13"
+  ]
 }
