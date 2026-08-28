@@ -1,0 +1,23 @@
+{
+    "code": "ML-10",
+    "region": "Nongpoh",
+    "city": "Nongpoh",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "Ri-Bhoi",
+    "division": "Meghalaya Transport",
+    "description": "The ML-10 RTO serves the Ri-Bhoi district of Meghalaya, with its headquarters situated in Nongpoh. It handles vehicle registration, issuance of driving licenses, and transport permit management for the critical region connecting Shillong to the Assam border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Nongpoh, Ri-Bhoi District, Meghalaya",
+    "pinCode": "793102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nongpoh",
+        "Umling",
+        "Jirang",
+        "Umsning",
+        "Bhoirymbong"
+    ]
+}

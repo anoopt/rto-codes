@@ -1,0 +1,23 @@
+{
+    "code": "ML-09",
+    "region": "Baghmara",
+    "city": "Baghmara",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "South Garo Hills",
+    "division": "Garo Hills Division",
+    "description": "The ML-09 RTO serves the South Garo Hills district in Meghalaya, with its headquarters located in Baghmara. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations across the district's diverse terrain near the international border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Baghmara, South Garo Hills, Meghalaya",
+    "pinCode": "794102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Baghmara",
+        "Chokpot",
+        "Gasuapara",
+        "Rongara",
+        "South Garo Hills District"
+    ]
+}

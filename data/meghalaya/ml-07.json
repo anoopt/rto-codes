@@ -1,0 +1,23 @@
+{
+    "code": "ML-07",
+    "region": "Williamnagar",
+    "city": "Williamnagar",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Garo Hills",
+    "division": "Meghalaya Transport Department",
+    "description": "The ML-07 District Transport Office (DTO) is the primary vehicle registration and licensing authority for the East Garo Hills district in Meghalaya. Located in the headquarters of Williamnagar, it manages transport-related services including commercial permits and road safety regulations for the eastern Garo Hills region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Williamnagar, East Garo Hills, Meghalaya",
+    "pinCode": "794111",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Williamnagar",
+        "Songsak",
+        "Rongjeng",
+        "Samanda",
+        "Dambo Rongjeng"
+    ]
+}
