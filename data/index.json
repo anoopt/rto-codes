@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T03:37:14.886Z",
-  "totalRTOs": 721,
-  "totalVerified": 721,
+  "generatedAt": "2026-08-28T04:33:55.668Z",
+  "totalRTOs": 726,
+  "totalVerified": 726,
   "totalStates": 28,
   "completedStates": 15,
   "inProgressStates": 1,
@@ -1058,16 +1058,21 @@
     {
       "stateCode": "ML",
       "stateName": "Meghalaya",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 13,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "ml-01",
         "ml-02",
         "ml-03",
         "ml-04",
-        "ml-05"
+        "ml-05",
+        "ml-06",
+        "ml-07",
+        "ml-08",
+        "ml-09",
+        "ml-10"
       ],
       "isComplete": false,
       "type": "state",
@@ -2308,16 +2313,21 @@
     "ML": {
       "stateCode": "ML",
       "stateName": "Meghalaya",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 13,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "ml-01",
         "ml-02",
         "ml-03",
         "ml-04",
-        "ml-05"
+        "ml-05",
+        "ml-06",
+        "ml-07",
+        "ml-08",
+        "ml-09",
+        "ml-10"
       ],
       "isComplete": false,
       "type": "state",

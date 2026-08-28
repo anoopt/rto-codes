@@ -113,5 +113,123 @@
       "Mawryngkneng",
       "Sohiong"
     ]
+  },
+  {
+    "code": "ML-06",
+    "region": "West Khasi Hills",
+    "city": "Nongstoin",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "West Khasi Hills",
+    "division": "Meghalaya Transport Department",
+    "description": "The ML-06 RTO is the District Transport Office (DTO) for the West Khasi Hills district in Meghalaya, headquartered in Nongstoin. It handles all statutory functions of the Motor Vehicles Act, including vehicle registration, driver licensing, and road tax collection for the western Khasi region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Nongstoin, West Khasi Hills, Meghalaya",
+    "pinCode": "793119",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nongstoin",
+      "Mairang",
+      "Mawshynrut",
+      "Aradonga",
+      "Rambrai",
+      "Shallang"
+    ]
+  },
+  {
+    "code": "ML-07",
+    "region": "Williamnagar",
+    "city": "Williamnagar",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Garo Hills",
+    "division": "Meghalaya Transport Department",
+    "description": "The ML-07 District Transport Office (DTO) is the primary vehicle registration and licensing authority for the East Garo Hills district in Meghalaya. Located in the headquarters of Williamnagar, it manages transport-related services including commercial permits and road safety regulations for the eastern Garo Hills region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Williamnagar, East Garo Hills, Meghalaya",
+    "pinCode": "794111",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Williamnagar",
+      "Songsak",
+      "Rongjeng",
+      "Samanda",
+      "Dambo Rongjeng"
+    ]
+  },
+  {
+    "code": "ML-08",
+    "region": "West Garo Hills",
+    "city": "Tura",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "West Garo Hills",
+    "division": "Garo Hills Division",
+    "description": "The ML-08 Regional Transport Office (RTO) serves the West Garo Hills district of Meghalaya, with its administrative headquarters in Tura. It is responsible for various transport-related services including vehicle registration, issuance of driving licenses, and collection of road taxes in the Garo Hills region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Tura, West Garo Hills, Meghalaya",
+    "pinCode": "794001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tura",
+      "Dalu",
+      "Gambegre",
+      "Rongram",
+      "Selsella",
+      "Tikrikilla",
+      "Dadenggre"
+    ]
+  },
+  {
+    "code": "ML-09",
+    "region": "Baghmara",
+    "city": "Baghmara",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "South Garo Hills",
+    "division": "Garo Hills Division",
+    "description": "The ML-09 RTO serves the South Garo Hills district in Meghalaya, with its headquarters located in Baghmara. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations across the district's diverse terrain near the international border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Baghmara, South Garo Hills, Meghalaya",
+    "pinCode": "794102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Baghmara",
+      "Chokpot",
+      "Gasuapara",
+      "Rongara",
+      "South Garo Hills District"
+    ]
+  },
+  {
+    "code": "ML-10",
+    "region": "Nongpoh",
+    "city": "Nongpoh",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "Ri-Bhoi",
+    "division": "Meghalaya Transport",
+    "description": "The ML-10 RTO serves the Ri-Bhoi district of Meghalaya, with its headquarters situated in Nongpoh. It handles vehicle registration, issuance of driving licenses, and transport permit management for the critical region connecting Shillong to the Assam border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Nongpoh, Ri-Bhoi District, Meghalaya",
+    "pinCode": "793102",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nongpoh",
+      "Umling",
+      "Jirang",
+      "Umsning",
+      "Bhoirymbong"
+    ]
   }
 ]
