@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-29T02:01:49.390Z",
+  "state": "Meghalaya",
+  "rtoCount": 10,
+  "successCount": 10,
+  "failedRTOs": [],
+  "coordinates": {
+    "ML-01": {
+      "lat": 25.5759931,
+      "lon": 91.8827872,
+      "displayName": "Shillong, Mylliem, East Khasi Hills, Meghalaya, 793001, India"
+    },
+    "ML-02": {
+      "lat": 25.5759931,
+      "lon": 91.8827872,
+      "displayName": "Shillong, Mylliem, East Khasi Hills, Meghalaya, 793001, India"
+    },
+    "ML-03": {
+      "lat": 25.5759931,
+      "lon": 91.8827872,
+      "displayName": "Shillong, Mylliem, East Khasi Hills, Meghalaya, 793001, India"
+    },
+    "ML-04": {
+      "lat": 25.4434703,
+      "lon": 92.1973181,
+      "displayName": "Jowai, Thadlaskein, West Jaintia Hills, Meghalaya, 793150, India"
+    },
+    "ML-05": {
+      "lat": 25.5759931,
+      "lon": 91.8827872,
+      "displayName": "Shillong, Mylliem, East Khasi Hills, Meghalaya, 793001, India"
+    },
+    "ML-06": {
+      "lat": 25.5726394,
+      "lon": 91.2540803,
+      "displayName": "Nongstoin, West Khasi Hills, Meghalaya, 793119, India"
+    },
+    "ML-07": {
+      "lat": 25.506085,
+      "lon": 90.60381,
+      "displayName": "Williamnagar, Samanda, East Garo Hills, Meghalaya, India"
+    },
+    "ML-08": {
+      "lat": 25.5125616,
+      "lon": 90.2171526,
+      "displayName": "Tura, Gambegre, West Garo Hills, Meghalaya, 794001, India"
+    },
+    "ML-09": {
+      "lat": 25.3610902,
+      "lon": 90.6434347,
+      "displayName": "Baghmara, South Garo Hills, Meghalaya, 794102, India"
+    },
+    "ML-10": {
+      "lat": 25.8989839,
+      "lon": 91.8812907,
+      "displayName": "Nongpoh, Umling, Ri-Bhoi, Meghalaya, 793102, India"
+    }
+  }
+}
