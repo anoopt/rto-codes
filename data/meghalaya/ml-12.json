@@ -1,0 +1,21 @@
+{
+    "code": "ML-12",
+    "region": "Mawkyrwat",
+    "city": "Mawkyrwat",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "South West Khasi Hills",
+    "division": "Meghalaya Transport Department",
+    "description": "The ML-12 RTO serves the South West Khasi Hills district in Meghalaya, based in Mawkyrwat. It handles vehicle registration, driver licensing, and enforcement of the Motor Vehicles Act within this hill region. It was established following the bifurcation of the West Khasi Hills district to improve administrative reach.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office (DTO), Mawkyrwat, South West Khasi Hills, Meghalaya",
+    "pinCode": "793114",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mawkyrwat",
+        "Ranikor",
+        "South West Khasi Hills District"
+    ]
+}
