@@ -231,5 +231,74 @@
       "Umsning",
       "Bhoirymbong"
     ]
+  },
+  {
+    "code": "ML-11",
+    "region": "Khliehriat",
+    "city": "Khliehriat",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "East Jaintia Hills",
+    "division": "Meghalaya Transport Division",
+    "description": "The ML-11 RTO serves the East Jaintia Hills district with its headquarters in Khliehriat, Meghalaya. It provides essential services like vehicle registration, driving licenses, and road tax collection for the coal-rich Jaintia region. The office was established following the bifurcation of the Jaintia Hills district in 2012.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Dkhiah West, Khliehriat, East Jaintia Hills, Meghalaya",
+    "pinCode": "793200",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khliehriat",
+      "Saipung",
+      "Lad Rymbai",
+      "Sutnga",
+      "Lumshnong",
+      "Wapung",
+      "Umkiang"
+    ]
+  },
+  {
+    "code": "ML-12",
+    "region": "Mawkyrwat",
+    "city": "Mawkyrwat",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "South West Khasi Hills",
+    "division": "Meghalaya Transport Department",
+    "description": "The ML-12 RTO serves the South West Khasi Hills district in Meghalaya, based in Mawkyrwat. It handles vehicle registration, driver licensing, and enforcement of the Motor Vehicles Act within this hill region. It was established following the bifurcation of the West Khasi Hills district to improve administrative reach.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office (DTO), Mawkyrwat, South West Khasi Hills, Meghalaya",
+    "pinCode": "793114",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mawkyrwat",
+      "Ranikor",
+      "South West Khasi Hills District"
+    ]
+  },
+  {
+    "code": "ML-13",
+    "region": "Resubelpara",
+    "city": "Resubelpara",
+    "state": "Meghalaya",
+    "stateCode": "ML",
+    "district": "North Garo Hills",
+    "division": "Garo Hills",
+    "description": "ML-13 is the District Transport Office (DTO) serving Resubelpara and the surrounding North Garo Hills district in Meghalaya. It manages all transport-related activities including vehicle registration, issuance of driving licenses, and enforcement of road safety regulations for the district.",
+    "status": "active",
+    "established": "2012",
+    "address": "District Transport Office, Resubelpara, North Garo Hills District, Meghalaya",
+    "pinCode": "794108",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Resubelpara",
+      "Bajengdoba",
+      "Kharkutta",
+      "Mendipathar",
+      "North Garo Hills District"
+    ]
   }
 ]
