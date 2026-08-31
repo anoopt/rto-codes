@@ -3,8 +3,21 @@
   "name": "Mizoram",
   "displayName": "Mizoram",
   "capital": "Aizawl",
-  "totalRTOs": 8,
+  "totalRTOs": 11,
   "districtMapping": {},
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "validCodes": [
+    "MZ-01",
+    "MZ-02",
+    "MZ-03",
+    "MZ-04",
+    "MZ-05",
+    "MZ-06",
+    "MZ-07",
+    "MZ-08",
+    "MZ-09",
+    "MZ-10",
+    "MZ-11"
+  ]
 }
