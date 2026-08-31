@@ -1,1 +1,126 @@
-[]
+[
+  {
+    "code": "MZ-01",
+    "region": "Aizawl (Urban/Main)",
+    "city": "Aizawl",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Aizawl",
+    "division": "Aizawl Division",
+    "description": "MZ-01 is the primary Regional Transport Office for Aizawl, the capital city of Mizoram. This office handles all major vehicle registrations, driving licenses, and permit services for the urban and central regions of Aizawl district. It is a critical hub for the Mizoram Transport Department, ensuring compliance with the Motor Vehicles Act across the state's capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Edenthar, Aizawl, Mizoram",
+    "pinCode": "796001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Aizawl City",
+      "Edenthar",
+      "Chanmari",
+      "Zarkawt",
+      "Bawngkawn",
+      "Vaivakawn",
+      "Khatla",
+      "Mission Veng",
+      "Kulikawn",
+      "Tuikual",
+      "Electric Veng"
+    ]
+  },
+  {
+    "code": "MZ-02",
+    "region": "Lunglei",
+    "city": "Lunglei",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Lunglei",
+    "division": "Mizoram Transport Department",
+    "description": "The MZ-02 RTO serves the Lunglei district, which is the second-largest district in Mizoram. It operates as the District Transport Office (DTO) responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the southern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Venglai, Lunglei, Mizoram",
+    "pinCode": "796701",
+    "phone": "0372-2324756",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Lunglei Town",
+      "Bunghmun",
+      "Lungsen",
+      "West Bunghmun",
+      "Lunglei South",
+      "Lunglei North"
+    ]
+  },
+  {
+    "code": "MZ-03",
+    "region": "Siaha",
+    "city": "Siaha",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Siaha",
+    "division": "Siaha Transport Division",
+    "description": "The MZ-03 RTO is the District Transport Office located in Siaha, serving the southernmost district of Mizoram. It is responsible for vehicle registration, driving licenses, and transport permits for the area governed by the Mara Autonomous District Council.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Vengpui, Siaha, Mizoram",
+    "pinCode": "796901",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Siaha",
+      "Tipa",
+      "Phura",
+      "Sangau",
+      "Vengpui"
+    ]
+  },
+  {
+    "code": "MZ-04",
+    "region": "Champhai",
+    "city": "Champhai",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Champhai",
+    "division": "Champhai District Transport Division",
+    "description": "MZ-04 is the official code for the District Transport Office located in Champhai, Mizoram. This RTO is responsible for vehicle registration, issuance of driving licenses, and enforcement of the Motor Vehicles Act in the district near the Indo-Myanmar border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Karawt Veng, Champhai, Mizoram",
+    "pinCode": "796321",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Champhai",
+      "Zokhawthar",
+      "Khawhai",
+      "Tiau",
+      "Vaphai"
+    ]
+  },
+  {
+    "code": "MZ-05",
+    "region": "Kolasib",
+    "city": "Kolasib",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Kolasib",
+    "division": "Mizoram Transport Department",
+    "description": "The District Transport Office (DTO) in Kolasib is responsible for vehicle registration and the issuance of driving licenses within the Kolasib district. It serves as a key administrative body for transport regulations in northern Mizoram, facilitating movement along the crucial National Highway linking the state to the rest of India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Hmar Veng, Kolasib, Mizoram",
+    "pinCode": "796081",
+    "phone": "03837-221561",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kolasib",
+      "Vairengte",
+      "Bairabi",
+      "Bilkhawthlir",
+      "Kawnpui",
+      "Thingdawl",
+      "North Thingdawl"
+    ]
+  }
+]
