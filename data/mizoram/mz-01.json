@@ -1,0 +1,29 @@
+{
+    "code": "MZ-01",
+    "region": "Aizawl (Urban/Main)",
+    "city": "Aizawl",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Aizawl",
+    "division": "Aizawl Division",
+    "description": "MZ-01 is the primary Regional Transport Office for Aizawl, the capital city of Mizoram. This office handles all major vehicle registrations, driving licenses, and permit services for the urban and central regions of Aizawl district. It is a critical hub for the Mizoram Transport Department, ensuring compliance with the Motor Vehicles Act across the state's capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Edenthar, Aizawl, Mizoram",
+    "pinCode": "796001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Aizawl City",
+        "Edenthar",
+        "Chanmari",
+        "Zarkawt",
+        "Bawngkawn",
+        "Vaivakawn",
+        "Khatla",
+        "Mission Veng",
+        "Kulikawn",
+        "Tuikual",
+        "Electric Veng"
+    ]
+}

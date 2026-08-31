@@ -1,0 +1,25 @@
+{
+    "code": "MZ-05",
+    "region": "Kolasib",
+    "city": "Kolasib",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Kolasib",
+    "division": "Mizoram Transport Department",
+    "description": "The District Transport Office (DTO) in Kolasib is responsible for vehicle registration and the issuance of driving licenses within the Kolasib district. It serves as a key administrative body for transport regulations in northern Mizoram, facilitating movement along the crucial National Highway linking the state to the rest of India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Hmar Veng, Kolasib, Mizoram",
+    "pinCode": "796081",
+    "phone": "03837-221561",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kolasib",
+        "Vairengte",
+        "Bairabi",
+        "Bilkhawthlir",
+        "Kawnpui",
+        "Thingdawl",
+        "North Thingdawl"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "MZ-04",
+    "region": "Champhai",
+    "city": "Champhai",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Champhai",
+    "division": "Champhai District Transport Division",
+    "description": "MZ-04 is the official code for the District Transport Office located in Champhai, Mizoram. This RTO is responsible for vehicle registration, issuance of driving licenses, and enforcement of the Motor Vehicles Act in the district near the Indo-Myanmar border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Karawt Veng, Champhai, Mizoram",
+    "pinCode": "796321",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Champhai",
+        "Zokhawthar",
+        "Khawhai",
+        "Tiau",
+        "Vaphai"
+    ]
+}

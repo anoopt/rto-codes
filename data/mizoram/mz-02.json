@@ -1,0 +1,24 @@
+{
+    "code": "MZ-02",
+    "region": "Lunglei",
+    "city": "Lunglei",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Lunglei",
+    "division": "Mizoram Transport Department",
+    "description": "The MZ-02 RTO serves the Lunglei district, which is the second-largest district in Mizoram. It operates as the District Transport Office (DTO) responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the southern part of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Venglai, Lunglei, Mizoram",
+    "pinCode": "796701",
+    "phone": "0372-2324756",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Lunglei Town",
+        "Bunghmun",
+        "Lungsen",
+        "West Bunghmun",
+        "Lunglei South",
+        "Lunglei North"
+    ]
+}
