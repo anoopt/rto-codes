@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-31T02:02:57.866Z",
-  "totalRTOs": 734,
-  "totalVerified": 734,
+  "generatedAt": "2026-09-01T02:05:06.746Z",
+  "totalRTOs": 739,
+  "totalVerified": 739,
   "totalStates": 28,
   "completedStates": 16,
   "inProgressStates": 1,
@@ -1086,16 +1086,21 @@
     {
       "stateCode": "MZ",
       "stateName": "Mizoram",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 11,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "mz-01",
         "mz-02",
         "mz-03",
         "mz-04",
-        "mz-05"
+        "mz-05",
+        "mz-06",
+        "mz-07",
+        "mz-08",
+        "mz-09",
+        "mz-10"
       ],
       "isComplete": false,
       "type": "state",
@@ -2350,16 +2355,21 @@
     "MZ": {
       "stateCode": "MZ",
       "stateName": "Mizoram",
-      "rtoCount": 5,
+      "rtoCount": 10,
       "totalExpectedRTOs": 11,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 10,
       "rtoCodes": [
         "mz-01",
         "mz-02",
         "mz-03",
         "mz-04",
-        "mz-05"
+        "mz-05",
+        "mz-06",
+        "mz-07",
+        "mz-08",
+        "mz-09",
+        "mz-10"
       ],
       "isComplete": false,
       "type": "state",

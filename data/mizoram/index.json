@@ -122,5 +122,127 @@
       "Thingdawl",
       "North Thingdawl"
     ]
+  },
+  {
+    "code": "MZ-06",
+    "region": "Serchhip",
+    "city": "Serchhip",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Serchhip",
+    "division": "Aizawl",
+    "description": "The MZ-06 Regional Transport Office (RTO) is the District Transport Office located in Serchhip, Mizoram. It serves as the primary administrative body for vehicle registration, driving license issuance, and road safety enforcement for the Serchhip district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, IOC Veng, New Serchhip, Serchhip, Mizoram",
+    "pinCode": "796181",
+    "phone": "03838-222296",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Serchhip",
+      "Thenzawl",
+      "North Vanlaiphai",
+      "Chhiahtlang",
+      "Lungpho",
+      "Keitum",
+      "Khawlailung"
+    ]
+  },
+  {
+    "code": "MZ-07",
+    "region": "Lawngtlai",
+    "city": "Lawngtlai",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Lawngtlai",
+    "division": "Mizoram Transport Division",
+    "description": "The MZ-07 RTO serves the Lawngtlai district in Mizoram, providing essential services such as vehicle registration and driving license issuance. It operates under the state's transport department to manage traffic regulations and road safety within the autonomous district council area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO) Lawngtlai, L-IV Lawngtlai, Mizoram - 796891",
+    "pinCode": "796891",
+    "phone": "03835-232212",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Lawngtlai",
+      "Sangau",
+      "Bungtlang South",
+      "Chawngte",
+      "Vawmbuk",
+      "Diltlang",
+      "Lungpher"
+    ]
+  },
+  {
+    "code": "MZ-08",
+    "region": "Mamit",
+    "city": "Mamit",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Mamit",
+    "division": "Mizoram State Transport",
+    "description": "The MZ-08 Regional Transport Office serves the Mamit district in Mizoram, managing vehicle registrations and licensing services for the region. Located at the district headquarters, it plays a vital role in regulating transport activities and ensuring road safety across its jurisdiction near the Tripura border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Dinthar, Mamit, Mizoram",
+    "pinCode": "796441",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mamit",
+      "Zawlnuam",
+      "West Phaileng",
+      "Reiek",
+      "Kawrtethawveng",
+      "Tuidam"
+    ]
+  },
+  {
+    "code": "MZ-09",
+    "region": "Saitual",
+    "city": "Saitual",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Saitual",
+    "division": "Transport Department, Mizoram",
+    "description": "MZ-09 is the designated regional transport office for the Saitual district of Mizoram. Historically used for Aizawl Rural before being merged into MZ-01, the code was officially reassigned to the newly established Saitual district in September 2025 to manage local vehicle registration and licensing.",
+    "status": "active",
+    "established": "2025",
+    "address": "District Transport Office (DTO), Saitual, Mizoram",
+    "pinCode": "796261",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Saitual",
+      "Keifang",
+      "Phullen",
+      "Suangpuilawn",
+      "Ngopa",
+      "Mualpheng"
+    ]
+  },
+  {
+    "code": "MZ-10",
+    "region": "Khawzawl",
+    "city": "Khawzawl",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Khawzawl",
+    "division": "Mizoram Transport Department",
+    "description": "The MZ-10 RTO is the District Transport Office (DTO) for the Khawzawl district in Mizoram. It was established following the district's administrative creation to manage vehicle registrations, driving permits, and transport safety regulations for the local population. The MZ-10 code was officially assigned by the state government to streamline regional transport logistics.",
+    "status": "active",
+    "established": "2021",
+    "address": "District Transport Office, Khawzawl District, Mizoram",
+    "pinCode": "796310",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khawzawl",
+      "Khawhai",
+      "Sialhawk",
+      "Rabung",
+      "Nghalchawm",
+      "Tlangnuam"
+    ]
   }
 ]
