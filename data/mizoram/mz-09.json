@@ -1,0 +1,24 @@
+{
+    "code": "MZ-09",
+    "region": "Saitual",
+    "city": "Saitual",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Saitual",
+    "division": "Transport Department, Mizoram",
+    "description": "MZ-09 is the designated regional transport office for the Saitual district of Mizoram. Historically used for Aizawl Rural before being merged into MZ-01, the code was officially reassigned to the newly established Saitual district in September 2025 to manage local vehicle registration and licensing.",
+    "status": "active",
+    "established": "2025",
+    "address": "District Transport Office (DTO), Saitual, Mizoram",
+    "pinCode": "796261",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Saitual",
+        "Keifang",
+        "Phullen",
+        "Suangpuilawn",
+        "Ngopa",
+        "Mualpheng"
+    ]
+}

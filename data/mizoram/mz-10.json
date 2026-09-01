@@ -1,0 +1,24 @@
+{
+    "code": "MZ-10",
+    "region": "Khawzawl",
+    "city": "Khawzawl",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Khawzawl",
+    "division": "Mizoram Transport Department",
+    "description": "The MZ-10 RTO is the District Transport Office (DTO) for the Khawzawl district in Mizoram. It was established following the district's administrative creation to manage vehicle registrations, driving permits, and transport safety regulations for the local population. The MZ-10 code was officially assigned by the state government to streamline regional transport logistics.",
+    "status": "active",
+    "established": "2021",
+    "address": "District Transport Office, Khawzawl District, Mizoram",
+    "pinCode": "796310",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khawzawl",
+        "Khawhai",
+        "Sialhawk",
+        "Rabung",
+        "Nghalchawm",
+        "Tlangnuam"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "MZ-06",
+    "region": "Serchhip",
+    "city": "Serchhip",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Serchhip",
+    "division": "Aizawl",
+    "description": "The MZ-06 Regional Transport Office (RTO) is the District Transport Office located in Serchhip, Mizoram. It serves as the primary administrative body for vehicle registration, driving license issuance, and road safety enforcement for the Serchhip district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, IOC Veng, New Serchhip, Serchhip, Mizoram",
+    "pinCode": "796181",
+    "phone": "03838-222296",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Serchhip",
+        "Thenzawl",
+        "North Vanlaiphai",
+        "Chhiahtlang",
+        "Lungpho",
+        "Keitum",
+        "Khawlailung"
+    ]
+}

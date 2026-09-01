@@ -1,0 +1,25 @@
+{
+    "code": "MZ-07",
+    "region": "Lawngtlai",
+    "city": "Lawngtlai",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Lawngtlai",
+    "division": "Mizoram Transport Division",
+    "description": "The MZ-07 RTO serves the Lawngtlai district in Mizoram, providing essential services such as vehicle registration and driving license issuance. It operates under the state's transport department to manage traffic regulations and road safety within the autonomous district council area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO) Lawngtlai, L-IV Lawngtlai, Mizoram - 796891",
+    "pinCode": "796891",
+    "phone": "03835-232212",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Lawngtlai",
+        "Sangau",
+        "Bungtlang South",
+        "Chawngte",
+        "Vawmbuk",
+        "Diltlang",
+        "Lungpher"
+    ]
+}

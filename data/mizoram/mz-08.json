@@ -1,0 +1,24 @@
+{
+    "code": "MZ-08",
+    "region": "Mamit",
+    "city": "Mamit",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Mamit",
+    "division": "Mizoram State Transport",
+    "description": "The MZ-08 Regional Transport Office serves the Mamit district in Mizoram, managing vehicle registrations and licensing services for the region. Located at the district headquarters, it plays a vital role in regulating transport activities and ensuring road safety across its jurisdiction near the Tripura border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Dinthar, Mamit, Mizoram",
+    "pinCode": "796441",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mamit",
+        "Zawlnuam",
+        "West Phaileng",
+        "Reiek",
+        "Kawrtethawveng",
+        "Tuidam"
+    ]
+}
