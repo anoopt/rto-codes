@@ -4,8 +4,20 @@
   "displayName": "Mizoram",
   "capital": "Aizawl",
   "totalRTOs": 11,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Aizawl": "Aizawl",
+    "Champhai": "Champhai",
+    "Hnahthial": "Hnahthial",
+    "Khawzawl": "Khawzawl",
+    "Kolasib": "Kolasib",
+    "Lawngtlai": "Lawngtlai",
+    "Lunglei": "Lunglei",
+    "Mamit": "Mamit",
+    "Saitual": "Saitual",
+    "Serchhip": "Serchhip",
+    "Siaha": "Siaha"
+  },
+  "isComplete": true,
   "type": "state",
   "validCodes": [
     "MZ-01",
@@ -19,5 +31,6 @@
     "MZ-09",
     "MZ-10",
     "MZ-11"
-  ]
+  ],
+  "osmEnabled": true
 }
