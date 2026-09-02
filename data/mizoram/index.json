@@ -244,5 +244,30 @@
       "Nghalchawm",
       "Tlangnuam"
     ]
+  },
+  {
+    "code": "MZ-11",
+    "region": "Hnahthial",
+    "city": "Hnahthial",
+    "state": "Mizoram",
+    "stateCode": "MZ",
+    "district": "Hnahthial",
+    "division": "Mizoram Transport Department",
+    "description": "MZ-11 is the District Transport Office (DTO) for Hnahthial, established to provide transport services to the newly created Hnahthial district. The office handles vehicle registration, issuance of driving licenses, and road tax collection for residents who previously fell under the Lunglei (MZ-02) jurisdiction.",
+    "status": "active",
+    "established": "2025",
+    "address": "District Transport Office, Lungleng Veng, near Lalnu Ropuiliani Hall, Hnahthial, Mizoram",
+    "pinCode": "796571",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Hnahthial",
+      "South Vanlaiphai",
+      "Lungleng",
+      "Pangzawl",
+      "Aithur",
+      "Cherhlun",
+      "Tarpho"
+    ]
   }
 ]
