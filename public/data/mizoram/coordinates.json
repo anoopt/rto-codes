@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-09-02T02:11:38.083Z",
+  "state": "Mizoram",
+  "rtoCount": 10,
+  "successCount": 10,
+  "failedRTOs": [],
+  "coordinates": {
+    "MZ-01": {
+      "lat": 23.7277631,
+      "lon": 92.7179947,
+      "displayName": "Aizawl, Tlangnuam, Aizawl, Mizoram, 796190, India"
+    },
+    "MZ-02": {
+      "lat": 22.8931695,
+      "lon": 92.7470391,
+      "displayName": "Lunglei, Mizoram, 796701, India"
+    },
+    "MZ-03": {
+      "lat": 22.4895876,
+      "lon": 92.9791567,
+      "displayName": "District Hospital , Siaha, NH502, Siaha, Saiha, Mizoram, 796901, India"
+    },
+    "MZ-04": {
+      "lat": 23.4787183,
+      "lon": 93.3198879,
+      "displayName": "Champhai, Champhai district, Mizoram, 796321, India"
+    },
+    "MZ-05": {
+      "lat": 24.2264657,
+      "lon": 92.6773489,
+      "displayName": "Kolasib, Bilkhawthlir, Kolasib, Mizoram, 796081, India"
+    },
+    "MZ-06": {
+      "lat": 23.3858923,
+      "lon": 92.9305989,
+      "displayName": "Serchhip, Mizoram, India"
+    },
+    "MZ-07": {
+      "lat": 22.3431138,
+      "lon": 92.8100095,
+      "displayName": "Lawngtlai, Mizoram, 796891, India"
+    },
+    "MZ-08": {
+      "lat": 23.9160087,
+      "lon": 92.4935815,
+      "displayName": "Mamit, Zawlnuam, Mamit, Mizoram, 796441, India"
+    },
+    "MZ-09": {
+      "lat": 23.6929995,
+      "lon": 92.965428,
+      "displayName": "Sachal, Thingsulthliah, Saitual, Mizoram, 966261, India"
+    },
+    "MZ-10": {
+      "lat": 23.4877894,
+      "lon": 93.1402943,
+      "displayName": "Khawzawl, Mizoram, 796310, India"
+    }
+  }
+}
