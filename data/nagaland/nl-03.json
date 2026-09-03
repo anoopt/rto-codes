@@ -1,0 +1,25 @@
+{
+    "code": "NL-03",
+    "region": "Tuensang",
+    "city": "Tuensang",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Tuensang",
+    "division": "Tuensang Division",
+    "description": "The NL-03 District Transport Office (DTO) serves as the primary motor vehicle regulatory body for the Tuensang district in Nagaland. It handles duties such as vehicle registration, issuing driving licenses, and enforcing transportation safety standards in one of Nagaland's most populous eastern districts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Government High School, Tuensang, Nagaland",
+    "pinCode": "798612",
+    "phone": "03861-220342",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tuensang",
+        "Noksen",
+        "Longkhim",
+        "Chare",
+        "Chessore",
+        "Thonoknyu",
+        "Shamator"
+    ]
+}

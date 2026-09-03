@@ -1,0 +1,27 @@
+{
+    "code": "NL-02",
+    "region": "Mokokchung",
+    "city": "Mokokchung",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Mokokchung",
+    "division": "Mokokchung Transport Division",
+    "description": "The NL-02 RTO office serves the Mokokchung district in Nagaland, acting as a primary hub for vehicle registration and driver licensing. It plays a critical role in managing transport regulations and road safety within one of the oldest and most significant cultural districts of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Imnameren Road, Mokokchung, Nagaland - 798601",
+    "pinCode": "798601",
+    "phone": "0369-2226376",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mokokchung District",
+        "Impur",
+        "Chungtiayimsen",
+        "Mangkolemba",
+        "Tuli",
+        "Changtongya",
+        "Longchem",
+        "Alongkima",
+        "Kubolong"
+    ]
+}

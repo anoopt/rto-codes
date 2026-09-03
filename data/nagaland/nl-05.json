@@ -1,0 +1,25 @@
+{
+    "code": "NL-05",
+    "region": "Wokha",
+    "city": "Wokha",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Wokha",
+    "division": "Wokha",
+    "description": "NL-05 is the District Transport Office (DTO) for Wokha, Nagaland. It is responsible for all regional vehicle registrations, driver licensing, and traffic regulation enforcement within the Wokha district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Near DC Office Complex, Wokha, Nagaland",
+    "pinCode": "797111",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Wokha",
+        "Bhandari",
+        "Sanis",
+        "Wozhuro",
+        "Ralan",
+        "Aitepyong",
+        "Englan"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "NL-01",
+    "region": "Kohima",
+    "city": "Kohima",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Kohima",
+    "division": "Kohima Transport Division",
+    "description": "NL-01 is the primary Regional Transport Office for Kohima, the capital city of Nagaland. It serves as the main administrative hub for vehicle registrations, driving licenses, and transport permit issuance for the Kohima district and its surrounding blocks.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, New Capital Complex, Secretariat, Kohima, Nagaland",
+    "pinCode": "797004",
+    "phone": "0370-2270244",
+    "email": "mvd-ngl@nic.in",
+    "jurisdictionAreas": [
+        "Kohima",
+        "Chiephobozou",
+        "Jakhama",
+        "Sechu-Zubza",
+        "Kezocha",
+        "Tseminyu"
+    ]
+}

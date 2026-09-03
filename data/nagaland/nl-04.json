@@ -1,0 +1,28 @@
+{
+    "code": "NL-04",
+    "region": "Mon",
+    "city": "Mon",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Mon",
+    "division": "Nagaland Motor Vehicles Department",
+    "description": "NL-04 is the official Regional Transport Office for the Mon district in Nagaland. This District Transport Office (DTO) is responsible for vehicle registration, driving license issuance, and road tax collection within the border district primarily inhabited by the Konyak Naga tribe.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mon, Nagaland",
+    "pinCode": "798603",
+    "phone": "03869-221383",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mon Sadar",
+        "Aboi",
+        "Tizit",
+        "Naganimora",
+        "Phomching",
+        "Chen",
+        "Monyakshu",
+        "Angjangyang",
+        "Tobu",
+        "Mopong"
+    ]
+}
