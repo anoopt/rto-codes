@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-02T02:11:00.630Z",
-  "totalRTOs": 740,
-  "totalVerified": 740,
+  "generatedAt": "2026-09-03T02:07:43.282Z",
+  "totalRTOs": 745,
+  "totalVerified": 745,
   "totalStates": 28,
-  "completedStates": 16,
-  "inProgressStates": 0,
+  "completedStates": 17,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 7,
   "inProgressUTs": 0,
@@ -1103,23 +1103,29 @@
         "mz-10",
         "mz-11"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "NL",
       "stateName": "Nagaland",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 10,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "nl-01",
+        "nl-02",
+        "nl-03",
+        "nl-04",
+        "nl-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2373,23 +2379,29 @@
         "mz-10",
         "mz-11"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "NL": {
       "stateCode": "NL",
       "stateName": "Nagaland",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 10,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 16,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "nl-01",
+        "nl-02",
+        "nl-03",
+        "nl-04",
+        "nl-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
