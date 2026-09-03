@@ -3,8 +3,26 @@
   "name": "Nagaland",
   "displayName": "Nagaland",
   "capital": "Kohima",
-  "totalRTOs": 10,
+  "totalRTOs": 16,
   "districtMapping": {},
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "validCodes": [
+    "NL-01",
+    "NL-02",
+    "NL-03",
+    "NL-04",
+    "NL-05",
+    "NL-06",
+    "NL-07",
+    "NL-08",
+    "NL-09",
+    "NL-10",
+    "NL-11",
+    "NL-12",
+    "NL-13",
+    "NL-14",
+    "NL-15",
+    "NL-16"
+  ]
 }
