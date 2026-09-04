@@ -1,0 +1,24 @@
+{
+    "code": "NL-07",
+    "region": "Dimapur",
+    "city": "Dimapur",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Dimapur",
+    "division": "Dimapur",
+    "description": "The NL-07 RTO serves as the District Transport Office for Dimapur, the commercial capital and most populous city of Nagaland. It is responsible for managing vehicle registrations, road tax collection, and the issuance of driving licenses for the district which acts as a major transport hub for the Northeast region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, 2 1/2 Mile, NH-39, Dimapur, Nagaland",
+    "pinCode": "797112",
+    "phone": "N/A",
+    "email": "mvd-ngl@nic.in",
+    "jurisdictionAreas": [
+        "Dimapur City",
+        "Chumoukedima",
+        "Medziphema",
+        "Niuland",
+        "Dhansiripar",
+        "Kuhuboto"
+    ]
+}

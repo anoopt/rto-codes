@@ -1,0 +1,19 @@
+{
+    "code": "NL-10",
+    "region": "Kohima (Government Non-Transport Vehicles)",
+    "city": "Kohima",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Kohima",
+    "division": "Kohima Division",
+    "description": "NL-10 is a specialized RTO code in Nagaland designated exclusively for the registration of Government Non-Transport (private) vehicles. It is managed by the Regional Transport Office in Kohima and serves the state's official government fleet rather than the general public.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Commissionerate of Motor Vehicles Department, Government of Nagaland, New Capital Complex, Kohima, Nagaland",
+    "pinCode": "797004",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nagaland State-wide (Official Government Vehicles)"
+    ]
+}

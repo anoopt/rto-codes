@@ -1,0 +1,26 @@
+{
+    "code": "NL-06",
+    "region": "Zunheboto",
+    "city": "Zunheboto",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Zunheboto",
+    "division": "Nagaland Motor Vehicles Department",
+    "description": "NL-06 is the official code for the District Transport Office (DTO) of Zunheboto in Nagaland. This office is responsible for vehicle registration, driving license issuance, and road tax collection within the Zunheboto district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Near Public Ground, Zunheboto, Nagaland",
+    "pinCode": "798620",
+    "phone": "03867-220318",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Zunheboto",
+        "Aghunato",
+        "Akuluto",
+        "Asuto",
+        "Atoizu",
+        "Pughoboto",
+        "Satakha",
+        "Suruhuto"
+    ]
+}

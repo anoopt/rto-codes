@@ -1,0 +1,24 @@
+{
+    "code": "NL-08",
+    "region": "Phek",
+    "city": "Phek",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Phek",
+    "division": "Phek",
+    "description": "The NL-08 RTO is the District Transport Office (DTO) located in Phek, Nagaland. It is responsible for motor vehicle registration, issuing driving licenses, and implementing transport laws across the Phek district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Motor Vehicles Department, Phek, Nagaland",
+    "pinCode": "797107",
+    "phone": "03865-223304",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Phek",
+        "Pfütsero",
+        "Chozuba",
+        "Meluri",
+        "Chetheba",
+        "Sekruzu"
+    ]
+}
