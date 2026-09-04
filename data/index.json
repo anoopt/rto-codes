@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-03T02:07:43.282Z",
-  "totalRTOs": 745,
-  "totalVerified": 745,
+  "generatedAt": "2026-09-04T02:02:35.086Z",
+  "totalRTOs": 749,
+  "totalVerified": 749,
   "totalStates": 28,
   "completedStates": 17,
   "inProgressStates": 1,
@@ -1112,16 +1112,20 @@
     {
       "stateCode": "NL",
       "stateName": "Nagaland",
-      "rtoCount": 5,
-      "totalExpectedRTOs": 16,
+      "rtoCount": 9,
+      "totalExpectedRTOs": 15,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 9,
       "rtoCodes": [
         "nl-01",
         "nl-02",
         "nl-03",
         "nl-04",
-        "nl-05"
+        "nl-05",
+        "nl-06",
+        "nl-07",
+        "nl-08",
+        "nl-10"
       ],
       "isComplete": false,
       "type": "state",
@@ -2388,16 +2392,20 @@
     "NL": {
       "stateCode": "NL",
       "stateName": "Nagaland",
-      "rtoCount": 5,
-      "totalExpectedRTOs": 16,
+      "rtoCount": 9,
+      "totalExpectedRTOs": 15,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 9,
       "rtoCodes": [
         "nl-01",
         "nl-02",
         "nl-03",
         "nl-04",
-        "nl-05"
+        "nl-05",
+        "nl-06",
+        "nl-07",
+        "nl-08",
+        "nl-10"
       ],
       "isComplete": false,
       "type": "state",

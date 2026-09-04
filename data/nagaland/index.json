@@ -127,5 +127,98 @@
       "Aitepyong",
       "Englan"
     ]
+  },
+  {
+    "code": "NL-06",
+    "region": "Zunheboto",
+    "city": "Zunheboto",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Zunheboto",
+    "division": "Nagaland Motor Vehicles Department",
+    "description": "NL-06 is the official code for the District Transport Office (DTO) of Zunheboto in Nagaland. This office is responsible for vehicle registration, driving license issuance, and road tax collection within the Zunheboto district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Near Public Ground, Zunheboto, Nagaland",
+    "pinCode": "798620",
+    "phone": "03867-220318",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Zunheboto",
+      "Aghunato",
+      "Akuluto",
+      "Asuto",
+      "Atoizu",
+      "Pughoboto",
+      "Satakha",
+      "Suruhuto"
+    ]
+  },
+  {
+    "code": "NL-07",
+    "region": "Dimapur",
+    "city": "Dimapur",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Dimapur",
+    "division": "Dimapur",
+    "description": "The NL-07 RTO serves as the District Transport Office for Dimapur, the commercial capital and most populous city of Nagaland. It is responsible for managing vehicle registrations, road tax collection, and the issuance of driving licenses for the district which acts as a major transport hub for the Northeast region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, 2 1/2 Mile, NH-39, Dimapur, Nagaland",
+    "pinCode": "797112",
+    "phone": "N/A",
+    "email": "mvd-ngl@nic.in",
+    "jurisdictionAreas": [
+      "Dimapur City",
+      "Chumoukedima",
+      "Medziphema",
+      "Niuland",
+      "Dhansiripar",
+      "Kuhuboto"
+    ]
+  },
+  {
+    "code": "NL-08",
+    "region": "Phek",
+    "city": "Phek",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Phek",
+    "division": "Phek",
+    "description": "The NL-08 RTO is the District Transport Office (DTO) located in Phek, Nagaland. It is responsible for motor vehicle registration, issuing driving licenses, and implementing transport laws across the Phek district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Motor Vehicles Department, Phek, Nagaland",
+    "pinCode": "797107",
+    "phone": "03865-223304",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Phek",
+      "Pfütsero",
+      "Chozuba",
+      "Meluri",
+      "Chetheba",
+      "Sekruzu"
+    ]
+  },
+  {
+    "code": "NL-10",
+    "region": "Kohima (Government Non-Transport Vehicles)",
+    "city": "Kohima",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Kohima",
+    "division": "Kohima Division",
+    "description": "NL-10 is a specialized RTO code in Nagaland designated exclusively for the registration of Government Non-Transport (private) vehicles. It is managed by the Regional Transport Office in Kohima and serves the state's official government fleet rather than the general public.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Commissionerate of Motor Vehicles Department, Government of Nagaland, New Capital Complex, Kohima, Nagaland",
+    "pinCode": "797004",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nagaland State-wide (Official Government Vehicles)"
+    ]
   }
 ]
