@@ -220,5 +220,29 @@
     "jurisdictionAreas": [
       "Nagaland State-wide (Official Government Vehicles)"
     ]
+  },
+  {
+    "code": "NL-11",
+    "region": "Peren",
+    "city": "Peren",
+    "state": "Nagaland",
+    "stateCode": "NL",
+    "district": "Peren",
+    "division": "Nagaland Motor Vehicles Department",
+    "description": "NL-11 is the Regional Transport Office for the Peren district in Nagaland. It is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the district. While historically used for state government transport, it is now widely recognized as the primary DTO code for the Peren administrative region.",
+    "status": "active",
+    "established": "2004",
+    "address": "District Transport Office (DTO), Peren, Nagaland",
+    "pinCode": "797101",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Peren",
+      "Jalukie",
+      "Tening",
+      "Ahthibung",
+      "Nsong",
+      "Kebai-Khelma"
+    ]
   }
 ]
