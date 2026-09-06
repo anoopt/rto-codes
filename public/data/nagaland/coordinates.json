@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-09-06T02:01:53.514Z",
+  "state": "Nagaland",
+  "rtoCount": 10,
+  "successCount": 10,
+  "failedRTOs": [],
+  "coordinates": {
+    "NL-01": {
+      "lat": 25.6618755,
+      "lon": 94.1019156,
+      "displayName": "Kohima, Kohima Sadar, Kohima, Nagaland, 797001, India"
+    },
+    "NL-02": {
+      "lat": 26.3238761,
+      "lon": 94.5214104,
+      "displayName": "Mokokchung, ONGPANGKONG (N), Mokokchung, Nagaland, 798601, India"
+    },
+    "NL-03": {
+      "lat": 26.2393314,
+      "lon": 94.8146931,
+      "displayName": "Tuensang, Tuensang Sadar, Tuensang, Nagaland, 798612, India"
+    },
+    "NL-04": {
+      "lat": 26.7252584,
+      "lon": 95.0304359,
+      "displayName": "Mon, Mon Sadar, Mon, Nagaland, 798621, India"
+    },
+    "NL-05": {
+      "lat": 26.166667,
+      "lon": 94.25,
+      "displayName": "Wokha, Nagaland, 797100, India"
+    },
+    "NL-06": {
+      "lat": 26.0150293,
+      "lon": 94.5288731,
+      "displayName": "Zunheboto, Zunheboto Sadar, Zünheboto, Nagaland, India"
+    },
+    "NL-07": {
+      "lat": 25.911744,
+      "lon": 93.721703,
+      "displayName": "Dimapur, Dimapur Sadar, Dimapur, Nagaland, 797112, India"
+    },
+    "NL-08": {
+      "lat": 25.75,
+      "lon": 94.5,
+      "displayName": "Phek, Nagaland, 797108, India"
+    },
+    "NL-10": {
+      "lat": 25.6618755,
+      "lon": 94.1019156,
+      "displayName": "Kohima, Kohima Sadar, Kohima, Nagaland, 797001, India"
+    },
+    "NL-11": {
+      "lat": 25.4790771,
+      "lon": 93.7256366,
+      "displayName": "Peren, Nagaland, 797101, India"
+    }
+  }
+}
