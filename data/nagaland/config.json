@@ -1,22 +1,33 @@
 {
-    "stateCode": "NL",
-    "name": "Nagaland",
-    "displayName": "Nagaland",
-    "capital": "Kohima",
-    "totalRTOs": 10,
-    "districtMapping": {},
-    "isComplete": false,
-    "type": "state",
-    "validCodes": [
-        "NL-01",
-        "NL-02",
-        "NL-03",
-        "NL-04",
-        "NL-05",
-        "NL-06",
-        "NL-07",
-        "NL-08",
-        "NL-10",
-        "NL-11"
-    ]
+  "stateCode": "NL",
+  "name": "Nagaland",
+  "displayName": "Nagaland",
+  "capital": "Kohima",
+  "totalRTOs": 10,
+  "districtMapping": {
+    "Dimapur": "Dimapur",
+    "Kohima": "Kohima",
+    "Mokokchung": "Mokokchung",
+    "Mon": "Mon",
+    "Peren": "Peren",
+    "Phek": "Phek",
+    "Tuensang": "Tuensang",
+    "Wokha": "Wokha",
+    "Zunheboto": "Zunheboto"
+  },
+  "isComplete": true,
+  "type": "state",
+  "validCodes": [
+    "NL-01",
+    "NL-02",
+    "NL-03",
+    "NL-04",
+    "NL-05",
+    "NL-06",
+    "NL-07",
+    "NL-08",
+    "NL-10",
+    "NL-11"
+  ],
+  "osmEnabled": true
 }
