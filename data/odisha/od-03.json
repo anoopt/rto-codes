@@ -1,0 +1,29 @@
+{
+    "code": "OD-03",
+    "region": "Balangir",
+    "city": "Balangir",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Balangir",
+    "division": "Northern Division",
+    "description": "The OD-03 RTO serves the Balangir district in Odisha, overseeing vehicle registration, driver licensing, and motor vehicle tax collection. It transitioned from the OR-03 prefix in 2012 following the official change of the state's name from Orissa to Odisha.",
+    "status": "active",
+    "established": "2012",
+    "address": "Regional Transport Office, Near Govt. Women's College, Balangir, Odisha",
+    "pinCode": "767001",
+    "phone": "06652-232424",
+    "email": "rto.bolangir-od@nic.in",
+    "jurisdictionAreas": [
+        "Balangir",
+        "Titlagarh",
+        "Kantabanji",
+        "Patnagarh",
+        "Saintala",
+        "Tushura",
+        "Loisingha",
+        "Puintala",
+        "Deogaon",
+        "Muribahal",
+        "Bangomunda"
+    ]
+}

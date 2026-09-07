@@ -1,0 +1,24 @@
+{
+    "code": "OD-04",
+    "region": "Chandikhole",
+    "city": "Chandikhole",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Jajpur",
+    "division": "Central Division",
+    "description": "The OD-04 Regional Transport Office serves the Chandikhole region within the Jajpur district of Odisha. It is a strategically significant office located at the intersection of major national highways, handling heavy commercial vehicle traffic and local registrations.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Chandikhole, Dist: Jajpur, Odisha",
+    "pinCode": "755044",
+    "phone": "06725-220220",
+    "email": "rto.ori-od@nic.in",
+    "jurisdictionAreas": [
+        "Chandikhole",
+        "Barachana",
+        "Dharmasala",
+        "Sukinda",
+        "Bairi",
+        "Darpan"
+    ]
+}

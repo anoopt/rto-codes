@@ -1,0 +1,28 @@
+{
+    "code": "OD-05",
+    "region": "Cuttack",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Cuttack",
+    "division": "Central Division",
+    "description": "The OD-05 RTO is the primary transport authority for Cuttack, the former capital and second-largest city of Odisha. It oversees vehicle registration, licensing, and road safety regulations for the urban and rural areas of the Cuttack district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Collectorate, P.O. - Chandni Chowk, P.S. - Lalbag, Cuttack",
+    "pinCode": "753002",
+    "phone": "0671-2507492",
+    "email": "rto_cuttack@yahoo.co.in",
+    "jurisdictionAreas": [
+        "Cuttack Municipal Corporation",
+        "Cuttack Sadar",
+        "Athagarh",
+        "Banki",
+        "Baramba",
+        "Niali",
+        "Narsinghpur",
+        "Tangi-Choudwar",
+        "Kishorenagar",
+        "Kantapada"
+    ]
+}

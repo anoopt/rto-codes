@@ -1,0 +1,30 @@
+{
+    "code": "OD-01",
+    "region": "Balasore",
+    "city": "Balasore",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Balasore",
+    "division": "Central Revenue Division",
+    "description": "The OD-01 Regional Transport Office serves the Balasore district of Odisha. It is a key administrative hub for vehicle registration, licensing, and road safety enforcement in the northern coastal region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near ITI Square, Angargadia, Balasore, Odisha",
+    "pinCode": "756001",
+    "phone": "06782-262203",
+    "email": "rto.balasore-od@nic.in",
+    "jurisdictionAreas": [
+        "Balasore",
+        "Basta",
+        "Baliapal",
+        "Bhograi",
+        "Jaleswar",
+        "Remuna",
+        "Nilagiri",
+        "Soro",
+        "Simulia",
+        "Oupada",
+        "Khaira",
+        "Bahanaga"
+    ]
+}

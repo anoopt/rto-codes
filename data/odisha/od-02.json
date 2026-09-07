@@ -1,0 +1,25 @@
+{
+    "code": "OD-02",
+    "region": "Bhubaneswar-I",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Khurda",
+    "division": "Central",
+    "description": "OD-02 is the primary Regional Transport Office for Bhubaneswar-I, serving the capital city of Odisha. This office is responsible for vehicle registration, driving licenses, and transport permit administration for the central and southern regions of the metropolitan area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Bhoinagar Basti, Acharya Vihar, Near Maharaja Cinema Hall, Bhoi Nagar, Bhubaneswar, Odisha",
+    "pinCode": "751022",
+    "phone": "0674-2540904",
+    "email": "rto_bbsr@yahoo.co.in",
+    "jurisdictionAreas": [
+        "Bhubaneswar Municipal Corporation (Part)",
+        "Bhoi Nagar",
+        "Acharya Vihar",
+        "Saheed Nagar",
+        "Laxmi Sagar",
+        "Unit 1 to 9",
+        "Old Town"
+    ]
+}
