@@ -1,0 +1,31 @@
+{
+    "code": "OD-09",
+    "region": "Keonjhar",
+    "city": "Keonjhar",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Keonjhar",
+    "division": "Northern Division",
+    "description": "The OD-09 RTO office serves the Keonjhar district in Odisha, handling vehicle registrations, driving licenses, and transport permits. It is a vital administrative hub for the transport sector in this mineral-rich region, ensuring compliance with the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Keonjhar, Odisha",
+    "pinCode": "758001",
+    "phone": "+91-6766-255481",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Keonjhar",
+        "Anandapur",
+        "Champua",
+        "Barbil",
+        "Joda",
+        "Ghasipura",
+        "Hatadihi",
+        "Jhumpura",
+        "Patna",
+        "Saharpada",
+        "Banspal",
+        "Telkoi",
+        "Harichandanpur"
+    ]
+}

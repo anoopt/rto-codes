@@ -1,0 +1,30 @@
+{
+    "code": "OD-07",
+    "region": "Ganjam",
+    "city": "Chatrapur",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Ganjam",
+    "division": "Southern Division",
+    "description": "The OD-07 RTO is the Regional Transport Office for the Ganjam district in Odisha, located at its administrative headquarters in Chatrapur. It manages vehicle registrations, driving licenses, and transport permits for one of the state's most populous regions, excluding the areas under the Bhanjanagar ARTO jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Regional Transport Officer, Near Collectorate, Chatrapur, Ganjam, Odisha",
+    "pinCode": "761020",
+    "phone": "06811-263974",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chatrapur",
+        "Berhampur",
+        "Gopalpur",
+        "Hinjilicut",
+        "Purushottampur",
+        "Ganjam Town",
+        "Khallikote",
+        "Kodala",
+        "Polasara",
+        "Aska",
+        "Kavisuryanagar",
+        "Chikiti"
+    ]
+}

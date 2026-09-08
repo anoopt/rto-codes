@@ -1,0 +1,32 @@
+{
+    "code": "OD-10",
+    "region": "Koraput",
+    "city": "Koraput",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Koraput",
+    "division": "South",
+    "description": "OD-10 is the Regional Transport Office serving the Koraput district in Odisha. It handles vehicle registrations, driving licenses, and permit issuances for the southern tribal belt of the state, ensuring adherence to the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Koraput, Odisha",
+    "pinCode": "764001",
+    "phone": "+91-6852-250289",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Koraput",
+        "Jeypore",
+        "Sunabeda",
+        "Damanjodi",
+        "Kotpad",
+        "Laxmipur",
+        "Semiliguda",
+        "Pottangi",
+        "Boipariguda",
+        "Kundura",
+        "Borigumma",
+        "Dasamantapur",
+        "Nandapur",
+        "Lamtaput"
+    ]
+}

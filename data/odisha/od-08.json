@@ -1,0 +1,31 @@
+{
+    "code": "OD-08",
+    "region": "Kalahandi",
+    "city": "Bhawanipatna",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Kalahandi",
+    "division": "South Western Division",
+    "description": "OD-08 is the Regional Transport Office for the Kalahandi district in Odisha, based in Bhawanipatna. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations across the district. The office transitioned from the OR-08 prefix to OD-08 in 2012 following the state name change.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Naktiguda, Bhawanipatna, Kalahandi, Odisha",
+    "pinCode": "766002",
+    "phone": "06670-230545",
+    "email": "rtokalahandi-od@nic.in",
+    "jurisdictionAreas": [
+        "Bhawanipatna",
+        "Junagarh",
+        "Dharamgarh",
+        "Lanjigarh",
+        "Kesinga",
+        "Madanpur Rampur",
+        "Golamunda",
+        "Koksara",
+        "Karlamunda",
+        "Narla",
+        "Thuarampul",
+        "Jaipatna",
+        "Kalampur"
+    ]
+}

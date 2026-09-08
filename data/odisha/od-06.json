@@ -1,0 +1,25 @@
+{
+    "code": "OD-06",
+    "region": "Dhenkanal",
+    "city": "Dhenkanal",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Dhenkanal",
+    "division": "Central Transport Division",
+    "description": "The OD-06 RTO is the primary Regional Transport Office for the Dhenkanal district in Odisha, responsible for vehicle registration, licensing, and road safety enforcement. It transitioned from the legacy prefix OR-06 in 2012 and serves as a major administrative hub for the central industrial and agricultural region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near College Chowk, Dhenkanal, Odisha",
+    "pinCode": "759001",
+    "phone": "06762-224424",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dhenkanal",
+        "Hindol",
+        "Kamakhyanagar",
+        "Parjang",
+        "Bhuban",
+        "Gondia",
+        "Kankadahad"
+    ]
+}
