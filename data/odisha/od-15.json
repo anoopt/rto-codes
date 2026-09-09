@@ -1,0 +1,28 @@
+{
+    "code": "OD-15",
+    "region": "Sambalpur",
+    "city": "Sambalpur",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Sambalpur",
+    "division": "Northern Division",
+    "description": "The OD-15 Regional Transport Office in Sambalpur is responsible for vehicle registration and transport administration in the Sambalpur district of Odisha. It handles the issuance of driving licenses, permits for commercial vehicles, and the collection of road taxes in accordance with the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Kacheri Road, Hans Nagar, Sambalpur, Odisha",
+    "pinCode": "768001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sambalpur",
+        "Kuchinda",
+        "Rairakhol",
+        "Burla",
+        "Hirakud",
+        "Bamra",
+        "Dhankauda",
+        "Jujomura",
+        "Maneswar",
+        "Naktideul"
+    ]
+}

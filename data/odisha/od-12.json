@@ -1,0 +1,29 @@
+{
+    "code": "OD-12",
+    "region": "Phulbani",
+    "city": "Phulbani",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Kandhamal",
+    "division": "South Zone",
+    "description": "The OD-12 RTO serves the Phulbani region within the Kandhamal district of Odisha. It is responsible for vehicle registration, driving license issuance, and road tax collection for the district, which is known for its tribal population and hilly terrain.",
+    "status": "active",
+    "established": "2012",
+    "address": "Regional Transport Office, Phulbani, Kandhamal, Odisha",
+    "pinCode": "762001",
+    "phone": "06842-253654",
+    "email": "rto.phulbani-od@nic.in",
+    "jurisdictionAreas": [
+        "Phulbani",
+        "Baliguda",
+        "G. Udayagiri",
+        "Tikabali",
+        "Chakapada",
+        "K. Nuagaon",
+        "Daringbadi",
+        "Kotagarh",
+        "Tumudibandh",
+        "Raikia",
+        "Khajuripada"
+    ]
+}

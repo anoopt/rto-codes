@@ -1,0 +1,33 @@
+{
+    "code": "OD-11",
+    "region": "Mayurbhanj",
+    "city": "Baripada",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Mayurbhanj",
+    "division": "North Odisha Transport Division",
+    "description": "OD-11 is the Regional Transport Office (RTO) for Mayurbhanj, located in Baripada. It oversees motor vehicle registration, driver licensing, and transport law enforcement for the largest district in Odisha.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, At/Po- Baripada, District- Mayurbhanj, Odisha",
+    "pinCode": "757001",
+    "phone": "06792-260768",
+    "email": "rtomayurbhanj-od@nic.in",
+    "jurisdictionAreas": [
+        "Baripada",
+        "Rairangpur",
+        "Udala",
+        "Karanjia",
+        "Betnoti",
+        "Rasgovindpur",
+        "Morada",
+        "Bangiriposi",
+        "Jharpokharia",
+        "Joshipur",
+        "Badasahi",
+        "Bahalda",
+        "Jamda",
+        "Tiring",
+        "Gorumahisani"
+    ]
+}

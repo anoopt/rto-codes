@@ -1,0 +1,29 @@
+{
+    "code": "OD-13",
+    "region": "Puri",
+    "city": "Puri",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Puri",
+    "division": "Central Division",
+    "description": "The OD-13 Regional Transport Office serves the coastal district of Puri in Odisha, a major religious and tourism hub. It is responsible for vehicle registration, issuing driving licenses, and enforcing road safety regulations across the district. The office plays a critical role in managing the heavy influx of tourist vehicles visiting the Jagannath Temple and the Puri beach.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Regional Transport Officer, Near Collectorate, Puri, Odisha",
+    "pinCode": "752001",
+    "phone": "06752-223478",
+    "email": "rto_puri@nic.in",
+    "jurisdictionAreas": [
+        "Puri",
+        "Brahmagiri",
+        "Satyabadi",
+        "Pipili",
+        "Nimapada",
+        "Kakatpur",
+        "Gop",
+        "Delang",
+        "Krushnaprasad",
+        "Kanasa",
+        "Astaranga"
+    ]
+}

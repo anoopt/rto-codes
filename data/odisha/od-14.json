@@ -1,0 +1,26 @@
+{
+    "code": "OD-14",
+    "region": "Rourkela",
+    "city": "Rourkela",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Sundargarh",
+    "division": "North Revenue Division",
+    "description": "OD-14 serves the Regional Transport Office in Rourkela, an essential administrative hub for the Sundargarh district. It primarily manages vehicle registration and licensing for the industrial city of Rourkela and its surrounding subdivisions, ensuring compliance with the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Uditnagar, Rourkela, Odisha",
+    "pinCode": "769012",
+    "phone": "+91-661-2500833",
+    "email": "rto.rourkela-od@nic.in",
+    "jurisdictionAreas": [
+        "Rourkela",
+        "Panposh Subdivision",
+        "Bonai Subdivision",
+        "Lathikata",
+        "Biramitrapur",
+        "Bisra",
+        "Nuagaon",
+        "Kuanrmunda"
+    ]
+}
