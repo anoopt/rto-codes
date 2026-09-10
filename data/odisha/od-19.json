@@ -1,0 +1,26 @@
+{
+    "code": "OD-19",
+    "region": "Angul",
+    "city": "Angul",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Angul",
+    "division": "Central Revenue Division",
+    "description": "The OD-19 RTO serves the Angul district in Odisha, which is a significant industrial and mining hub. This office handles all aspects of vehicle registration, driving license issuance, and road tax collection for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, NH-55, Angul, Odisha",
+    "pinCode": "759122",
+    "phone": "+91-6764-232727",
+    "email": "rto.angul-od@gov.in",
+    "jurisdictionAreas": [
+        "Angul",
+        "Talcher",
+        "Pallahara",
+        "Athmallik",
+        "Banarpal",
+        "Kishorenagar",
+        "Chhendipada",
+        "Kaniha"
+    ]
+}

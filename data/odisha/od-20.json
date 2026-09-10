@@ -1,0 +1,26 @@
+{
+    "code": "OD-20",
+    "region": "Gajapati",
+    "city": "Paralakhemundi",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Gajapati",
+    "division": "Berhampur",
+    "description": "The OD-20 RTO serves the Gajapati district in southern Odisha, with its primary office located in the district headquarters of Paralakhemundi. It is responsible for all regional transport activities including motor vehicle registrations, issuance of permits, and conducting driving tests for the local population. The office manages transport regulations in a geographically diverse area that borders Andhra Pradesh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Regional Transport Officer, Paralakhemundi, District: Gajapati, Odisha",
+    "pinCode": "761200",
+    "phone": "06815-224233",
+    "email": "rto.gajapati-od@gov.in",
+    "jurisdictionAreas": [
+        "Paralakhemundi",
+        "Kashinagara",
+        "Gumma",
+        "Nuagada",
+        "Rayagada",
+        "Gosani",
+        "Mohana",
+        "R.Udayagiri"
+    ]
+}

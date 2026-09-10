@@ -1,0 +1,30 @@
+{
+    "code": "OD-17",
+    "region": "Bargarh",
+    "city": "Bargarh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Bargarh",
+    "division": "Northern Division",
+    "description": "The OD-17 RTO office serves the Bargarh district in Odisha, facilitating vehicle registrations, driving licenses, and permit issuances. It plays a crucial role in managing road safety and transport regulations in this agriculturally significant region known as the Rice Bowl of Odisha.",
+    "status": "active",
+    "established": "1993",
+    "address": "Office of the Regional Transport Officer, Near Government ITI, Bargarh, Odisha",
+    "pinCode": "768028",
+    "phone": "9237378617",
+    "email": "rto.bargarh@nic.in",
+    "jurisdictionAreas": [
+        "Bargarh",
+        "Barpali",
+        "Attabira",
+        "Bheden",
+        "Sohela",
+        "Bijepur",
+        "Gaisilet",
+        "Padampur",
+        "Paikmal",
+        "Jharbandh",
+        "Ambabhona",
+        "Bhatli"
+    ]
+}

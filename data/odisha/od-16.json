@@ -1,0 +1,27 @@
+{
+    "code": "OD-16",
+    "region": "Sundargarh",
+    "city": "Sundargarh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Sundargarh",
+    "division": "Western Division",
+    "description": "The OD-16 RTO serves as the primary Regional Transport Office for the Sundargarh district headquarters in Odisha. It is responsible for vehicle registration, driving license issuance, and road tax collection for the administrative headquarters and surrounding rural blocks, distinct from the Rourkela RTO (OD-14).",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near LIC Road, Sundargarh, Odisha",
+    "pinCode": "770001",
+    "phone": "06622-272287",
+    "email": "rto.sundergarh-or@nic.in",
+    "jurisdictionAreas": [
+        "Sundargarh",
+        "Hemgir",
+        "Lefripara",
+        "Bargaon",
+        "Kutra",
+        "Rajgangpur",
+        "Subdega",
+        "Balisankara",
+        "Tangarpali"
+    ]
+}
