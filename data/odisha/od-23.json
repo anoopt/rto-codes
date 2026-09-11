@@ -1,0 +1,25 @@
+{
+    "code": "OD-23",
+    "region": "Jharsuguda",
+    "city": "Jharsuguda",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Jharsuguda",
+    "division": "North Revenue Division",
+    "description": "The OD-23 RTO is the official transport authority for Jharsuguda district in Odisha, responsible for motor vehicle registration and licensing. As Jharsuguda is a prominent industrial and mining hub, the office plays a critical role in managing heavy commercial vehicle documentation and road safety enforcement.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Collectorate, Jharsuguda, Odisha",
+    "pinCode": "768201",
+    "phone": "06645-271040",
+    "email": "rto.jharsuguda-od@nic.in",
+    "jurisdictionAreas": [
+        "Jharsuguda",
+        "Brajarajnagar",
+        "Belpahar",
+        "Lakhanpur",
+        "Laikera",
+        "Kolabira",
+        "Kirmira"
+    ]
+}

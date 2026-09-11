@@ -1,0 +1,26 @@
+{
+    "code": "OD-25",
+    "region": "Nayagarh",
+    "city": "Nayagarh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Nayagarh",
+    "division": "Central Division",
+    "description": "The OD-25 Regional Transport Office (RTO) serves the Nayagarh district in Odisha. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations across the district's various sub-divisions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Revenue Department Building, Khandapada Road, Nayagarh, Odisha",
+    "pinCode": "752069",
+    "phone": "06753-254144",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nayagarh",
+        "Khandapada",
+        "Bhapur",
+        "Odagaon",
+        "Ranpur",
+        "Nuagaon",
+        "Gania",
+        "Dasapalla"
+    ]
+}

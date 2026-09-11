@@ -1,0 +1,26 @@
+{
+    "code": "OD-21",
+    "region": "Jagatsinghpur",
+    "city": "Jagatsinghpur",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Jagatsinghpur",
+    "division": "Central Division",
+    "description": "The OD-21 Regional Transport Office serves the Jagatsinghpur district in Odisha. It is a key administrative hub for vehicle registration, licensing, and transport law enforcement within the coastal region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Regional Transport Officer, Jagatsinghpur, Odisha",
+    "pinCode": "754103",
+    "phone": "06724-222755",
+    "email": "rto.orjg-od@nic.in",
+    "jurisdictionAreas": [
+        "Jagatsinghpur",
+        "Balikuda",
+        "Biridi",
+        "Erasama",
+        "Kujang",
+        "Naugaon",
+        "Raghunathpur",
+        "Tirtol"
+    ]
+}

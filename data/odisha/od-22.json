@@ -1,0 +1,25 @@
+{
+    "code": "OD-22",
+    "region": "Bhadrak",
+    "city": "Bhadrak",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Bhadrak",
+    "division": "Central Division",
+    "description": "The OD-22 RTO serves the Bhadrak district in Odisha, managing vehicle registrations, driving licenses, and transport permits for the region. It transitioned from the legacy OR-22 code following the state's name change and is a key administrative hub for transport services in coastal Odisha.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bhadrak, Odisha - 756100",
+    "pinCode": "756100",
+    "phone": "06784-211335",
+    "email": "rto.bhadrak-od@nic.in",
+    "jurisdictionAreas": [
+        "Bhadrak",
+        "Basudevpur",
+        "Chandabali",
+        "Dhamnagar",
+        "Bonth",
+        "Tihidi",
+        "Bhandaripokhari"
+    ]
+}
