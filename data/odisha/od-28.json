@@ -1,0 +1,22 @@
+{
+    "code": "OD-28",
+    "region": "Deogarh",
+    "city": "Deogarh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Deogarh",
+    "division": "Northern Division",
+    "description": "OD-28 is the Regional Transport Office for the Deogarh district in Odisha, which transitioned from the older OR-28 series. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations across the district's jurisdiction. The office is essential for the management of motor vehicle records and road safety initiatives in this primarily rural and forested region.",
+    "status": "active",
+    "established": "1994",
+    "address": "Office of the Regional Transport Officer, Deogarh, Odisha",
+    "pinCode": "768108",
+    "phone": "06724-222755",
+    "email": "rto.deogarh@gmail.com",
+    "jurisdictionAreas": [
+        "Deogarh",
+        "Barkote",
+        "Reamal",
+        "Tileibani"
+    ]
+}

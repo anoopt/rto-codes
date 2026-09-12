@@ -1,0 +1,25 @@
+{
+    "code": "OD-30",
+    "region": "Malkangiri",
+    "city": "Malkangiri",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Malkangiri",
+    "division": "South Zone",
+    "description": "The OD-30 RTO serves the Malkangiri district in the southernmost part of Odisha. It is responsible for the administration of the Motor Vehicles Act, including vehicle registration, issuance of driving licenses, and transport permit management within this hilly and strategically important border region.",
+    "status": "active",
+    "established": "1992",
+    "address": "Regional Transport Office, Malkangiri, Odisha",
+    "pinCode": "764045",
+    "phone": "06724-222755",
+    "email": "rto.malkangiri@gmail.com",
+    "jurisdictionAreas": [
+        "Malkangiri",
+        "Kalimela",
+        "Podia",
+        "Mathili",
+        "Khairput",
+        "Kudumulugumma",
+        "Chitrakonda"
+    ]
+}

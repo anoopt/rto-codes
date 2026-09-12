@@ -1,0 +1,21 @@
+{
+    "code": "OD-27",
+    "region": "Boudh",
+    "city": "Boudh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Boudh",
+    "division": "Southern Division",
+    "description": "The OD-27 Regional Transport Office (RTO) is the primary transport authority for the Boudh district in Odisha. It is responsible for the administration of the Motor Vehicles Act, including vehicle registration, issuance of driving licenses, and collection of road taxes within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Boudh, Odisha",
+    "pinCode": "762015",
+    "phone": "06724-222755",
+    "email": "rto.boudh-od@nic.in",
+    "jurisdictionAreas": [
+        "Boudh",
+        "Harbhanga",
+        "Kantamal"
+    ]
+}

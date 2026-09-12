@@ -1,0 +1,23 @@
+{
+    "code": "OD-26",
+    "region": "Nuapada",
+    "city": "Nuapada",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Nuapada",
+    "division": "Southern Division",
+    "description": "The OD-26 RTO serves the Nuapada district in Odisha, functioning as the primary authority for vehicle registration and licensing in the region. It operates under the Odisha Transport Department to ensure road safety and regulatory compliance across its jurisdiction.",
+    "status": "active",
+    "established": "1993",
+    "address": "Office of the Regional Transport Officer, Nuapada, Odisha - 766104",
+    "pinCode": "766104",
+    "phone": "06678-223243",
+    "email": "rto.nuapada-od@gov.in",
+    "jurisdictionAreas": [
+        "Nuapada",
+        "Khariar",
+        "Boden",
+        "Sinapali",
+        "Komna"
+    ]
+}

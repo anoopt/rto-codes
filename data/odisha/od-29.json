@@ -1,0 +1,27 @@
+{
+    "code": "OD-29",
+    "region": "Kendrapara",
+    "city": "Kendrapara",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Kendrapara",
+    "division": "Cuttack",
+    "description": "The OD-29 RTO office serves the Kendrapara district in Odisha, managing vehicle registrations, driving licenses, and transport law enforcement. It was transitioned from the earlier OR-29 code and is a crucial administrative body for the coastal district's transport infrastructure.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer (RTO), Kendrapara, Odisha",
+    "pinCode": "754211",
+    "phone": "+91-6724-222755",
+    "email": "rtokendrapara-od@nic.in",
+    "jurisdictionAreas": [
+        "Kendrapara",
+        "Pattamundai",
+        "Aul",
+        "Rajnagar",
+        "Rajkanika",
+        "Marshaghai",
+        "Derabishi",
+        "Garadpur",
+        "Mahakalapada"
+    ]
+}
