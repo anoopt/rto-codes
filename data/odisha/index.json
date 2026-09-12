@@ -696,5 +696,123 @@
       "Gania",
       "Dasapalla"
     ]
+  },
+  {
+    "code": "OD-26",
+    "region": "Nuapada",
+    "city": "Nuapada",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Nuapada",
+    "division": "Southern Division",
+    "description": "The OD-26 RTO serves the Nuapada district in Odisha, functioning as the primary authority for vehicle registration and licensing in the region. It operates under the Odisha Transport Department to ensure road safety and regulatory compliance across its jurisdiction.",
+    "status": "active",
+    "established": "1993",
+    "address": "Office of the Regional Transport Officer, Nuapada, Odisha - 766104",
+    "pinCode": "766104",
+    "phone": "06678-223243",
+    "email": "rto.nuapada-od@gov.in",
+    "jurisdictionAreas": [
+      "Nuapada",
+      "Khariar",
+      "Boden",
+      "Sinapali",
+      "Komna"
+    ]
+  },
+  {
+    "code": "OD-27",
+    "region": "Boudh",
+    "city": "Boudh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Boudh",
+    "division": "Southern Division",
+    "description": "The OD-27 Regional Transport Office (RTO) is the primary transport authority for the Boudh district in Odisha. It is responsible for the administration of the Motor Vehicles Act, including vehicle registration, issuance of driving licenses, and collection of road taxes within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Boudh, Odisha",
+    "pinCode": "762015",
+    "phone": "06724-222755",
+    "email": "rto.boudh-od@nic.in",
+    "jurisdictionAreas": [
+      "Boudh",
+      "Harbhanga",
+      "Kantamal"
+    ]
+  },
+  {
+    "code": "OD-28",
+    "region": "Deogarh",
+    "city": "Deogarh",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Deogarh",
+    "division": "Northern Division",
+    "description": "OD-28 is the Regional Transport Office for the Deogarh district in Odisha, which transitioned from the older OR-28 series. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations across the district's jurisdiction. The office is essential for the management of motor vehicle records and road safety initiatives in this primarily rural and forested region.",
+    "status": "active",
+    "established": "1994",
+    "address": "Office of the Regional Transport Officer, Deogarh, Odisha",
+    "pinCode": "768108",
+    "phone": "06724-222755",
+    "email": "rto.deogarh@gmail.com",
+    "jurisdictionAreas": [
+      "Deogarh",
+      "Barkote",
+      "Reamal",
+      "Tileibani"
+    ]
+  },
+  {
+    "code": "OD-29",
+    "region": "Kendrapara",
+    "city": "Kendrapara",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Kendrapara",
+    "division": "Cuttack",
+    "description": "The OD-29 RTO office serves the Kendrapara district in Odisha, managing vehicle registrations, driving licenses, and transport law enforcement. It was transitioned from the earlier OR-29 code and is a crucial administrative body for the coastal district's transport infrastructure.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Officer (RTO), Kendrapara, Odisha",
+    "pinCode": "754211",
+    "phone": "+91-6724-222755",
+    "email": "rtokendrapara-od@nic.in",
+    "jurisdictionAreas": [
+      "Kendrapara",
+      "Pattamundai",
+      "Aul",
+      "Rajnagar",
+      "Rajkanika",
+      "Marshaghai",
+      "Derabishi",
+      "Garadpur",
+      "Mahakalapada"
+    ]
+  },
+  {
+    "code": "OD-30",
+    "region": "Malkangiri",
+    "city": "Malkangiri",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Malkangiri",
+    "division": "South Zone",
+    "description": "The OD-30 RTO serves the Malkangiri district in the southernmost part of Odisha. It is responsible for the administration of the Motor Vehicles Act, including vehicle registration, issuance of driving licenses, and transport permit management within this hilly and strategically important border region.",
+    "status": "active",
+    "established": "1992",
+    "address": "Regional Transport Office, Malkangiri, Odisha",
+    "pinCode": "764045",
+    "phone": "06724-222755",
+    "email": "rto.malkangiri@gmail.com",
+    "jurisdictionAreas": [
+      "Malkangiri",
+      "Kalimela",
+      "Podia",
+      "Mathili",
+      "Khairput",
+      "Kudumulugumma",
+      "Chitrakonda"
+    ]
   }
 ]
