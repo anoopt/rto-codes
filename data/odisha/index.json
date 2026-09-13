@@ -814,5 +814,126 @@
       "Kudumulugumma",
       "Chitrakonda"
     ]
+  },
+  {
+    "code": "OD-31",
+    "region": "Subarnapur",
+    "city": "Sonepur",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Subarnapur",
+    "division": "Northern Division (Sambalpur)",
+    "description": "The OD-31 Regional Transport Office (RTO) serves the Subarnapur district, commonly known as Sonepur, in Odisha. It is responsible for motor vehicle registration, driver licensing, and ensuring road safety regulations are upheld throughout the district jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Subarnapur, Odisha",
+    "pinCode": "767017",
+    "phone": "06724-222755",
+    "email": "rto.subarnapur-od@gov.in",
+    "jurisdictionAreas": [
+      "Sonepur",
+      "Binika",
+      "Tarbha",
+      "Ullunda",
+      "Birmaharajpur",
+      "Dunguripali"
+    ]
+  },
+  {
+    "code": "OD-32",
+    "region": "Bhanjanagar",
+    "city": "Bhanjanagar",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Ganjam",
+    "division": "Berhampur",
+    "description": "OD-32 is the Regional Transport Office for Bhanjanagar, serving the northern sub-division of the Ganjam district. It manages vehicle registrations, driving license issuances, and transport safety enforcement for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bhanjanagar, District: Ganjam, Odisha",
+    "pinCode": "761126",
+    "phone": "06724-222755",
+    "email": "rto.bhanjanagar-od@gov.in",
+    "jurisdictionAreas": [
+      "Bhanjanagar",
+      "Belaguntha",
+      "Jagannath Prasad",
+      "Ganjam District Sub-division"
+    ]
+  },
+  {
+    "code": "OD-33",
+    "region": "Bhubaneswar-II",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Khurda",
+    "division": "Central",
+    "description": "OD-33 is the Regional Transport Office for Bhubaneswar-II, serving the northern suburbs and institutional areas of the capital city. It was established to reduce the workload of the primary Bhubaneswar RTO (OD-02) and manages vehicle registrations, driving licenses, and road permits for its specific jurisdiction.",
+    "status": "active",
+    "established": "2013",
+    "address": "Sikharchandi Vihar, Patia, Bhubaneswar, Odisha",
+    "pinCode": "751024",
+    "phone": "0674-2725900",
+    "email": "rto_bbsr@yahoo.co.in",
+    "jurisdictionAreas": [
+      "Patia",
+      "Sikharchandi",
+      "Chandrasekharpur",
+      "Mancheswar",
+      "Infocity",
+      "Nandankanan",
+      "Raghunathpur",
+      "Khandagiri"
+    ]
+  },
+  {
+    "code": "OD-34",
+    "region": "Jajpur",
+    "city": "Jajpur Town",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Jajpur",
+    "division": "Central Division",
+    "description": "The OD-34 RTO office serves the Jajpur Town region in Odisha, facilitating vehicle registration, driving license issuance, and transport permit management. It was established as a separate administrative unit within the Jajpur district to complement the existing OD-04 Chandikhole RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Jajpur, Collectorate Jajpur, Jajpur, Odisha",
+    "pinCode": "755001",
+    "phone": "N/A",
+    "email": "rto_jajpur@yahoo.in",
+    "jurisdictionAreas": [
+      "Jajpur Town",
+      "Jajpur Sadar",
+      "Binjharpur",
+      "Bari",
+      "Dasharathpur",
+      "Korei",
+      "Sukinda",
+      "Danagadi"
+    ]
+  },
+  {
+    "code": "OD-35",
+    "region": "Talcher",
+    "city": "Talcher",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Angul",
+    "division": "Transport Division",
+    "description": "The OD-35 RTO serves the Talcher sub-division within the Angul district of Odisha. It was established as a separate Regional Transport Office to manage the high volume of vehicle registrations and commercial transport permits in this significant coal mining and industrial hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Hatatota, Talcher, Angul, Odisha",
+    "pinCode": "759100",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Talcher",
+      "Kaniha",
+      "Pallahara",
+      "Samal",
+      "Hatatota"
+    ]
   }
 ]
