@@ -1,0 +1,22 @@
+{
+    "code": "OD-32",
+    "region": "Bhanjanagar",
+    "city": "Bhanjanagar",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Ganjam",
+    "division": "Berhampur",
+    "description": "OD-32 is the Regional Transport Office for Bhanjanagar, serving the northern sub-division of the Ganjam district. It manages vehicle registrations, driving license issuances, and transport safety enforcement for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Bhanjanagar, District: Ganjam, Odisha",
+    "pinCode": "761126",
+    "phone": "06724-222755",
+    "email": "rto.bhanjanagar-od@gov.in",
+    "jurisdictionAreas": [
+        "Bhanjanagar",
+        "Belaguntha",
+        "Jagannath Prasad",
+        "Ganjam District Sub-division"
+    ]
+}

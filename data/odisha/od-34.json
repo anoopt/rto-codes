@@ -1,0 +1,26 @@
+{
+    "code": "OD-34",
+    "region": "Jajpur",
+    "city": "Jajpur Town",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Jajpur",
+    "division": "Central Division",
+    "description": "The OD-34 RTO office serves the Jajpur Town region in Odisha, facilitating vehicle registration, driving license issuance, and transport permit management. It was established as a separate administrative unit within the Jajpur district to complement the existing OD-04 Chandikhole RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Jajpur, Collectorate Jajpur, Jajpur, Odisha",
+    "pinCode": "755001",
+    "phone": "N/A",
+    "email": "rto_jajpur@yahoo.in",
+    "jurisdictionAreas": [
+        "Jajpur Town",
+        "Jajpur Sadar",
+        "Binjharpur",
+        "Bari",
+        "Dasharathpur",
+        "Korei",
+        "Sukinda",
+        "Danagadi"
+    ]
+}

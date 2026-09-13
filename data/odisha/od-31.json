@@ -1,0 +1,24 @@
+{
+    "code": "OD-31",
+    "region": "Subarnapur",
+    "city": "Sonepur",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Subarnapur",
+    "division": "Northern Division (Sambalpur)",
+    "description": "The OD-31 Regional Transport Office (RTO) serves the Subarnapur district, commonly known as Sonepur, in Odisha. It is responsible for motor vehicle registration, driver licensing, and ensuring road safety regulations are upheld throughout the district jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Subarnapur, Odisha",
+    "pinCode": "767017",
+    "phone": "06724-222755",
+    "email": "rto.subarnapur-od@gov.in",
+    "jurisdictionAreas": [
+        "Sonepur",
+        "Binika",
+        "Tarbha",
+        "Ullunda",
+        "Birmaharajpur",
+        "Dunguripali"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "OD-35",
+    "region": "Talcher",
+    "city": "Talcher",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Angul",
+    "division": "Transport Division",
+    "description": "The OD-35 RTO serves the Talcher sub-division within the Angul district of Odisha. It was established as a separate Regional Transport Office to manage the high volume of vehicle registrations and commercial transport permits in this significant coal mining and industrial hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Hatatota, Talcher, Angul, Odisha",
+    "pinCode": "759100",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Talcher",
+        "Kaniha",
+        "Pallahara",
+        "Samal",
+        "Hatatota"
+    ]
+}

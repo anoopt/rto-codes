@@ -1,0 +1,26 @@
+{
+    "code": "OD-33",
+    "region": "Bhubaneswar-II",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "stateCode": "OD",
+    "district": "Khurda",
+    "division": "Central",
+    "description": "OD-33 is the Regional Transport Office for Bhubaneswar-II, serving the northern suburbs and institutional areas of the capital city. It was established to reduce the workload of the primary Bhubaneswar RTO (OD-02) and manages vehicle registrations, driving licenses, and road permits for its specific jurisdiction.",
+    "status": "active",
+    "established": "2013",
+    "address": "Sikharchandi Vihar, Patia, Bhubaneswar, Odisha",
+    "pinCode": "751024",
+    "phone": "0674-2725900",
+    "email": "rto_bbsr@yahoo.co.in",
+    "jurisdictionAreas": [
+        "Patia",
+        "Sikharchandi",
+        "Chandrasekharpur",
+        "Mancheswar",
+        "Infocity",
+        "Nandankanan",
+        "Raghunathpur",
+        "Khandagiri"
+    ]
+}
