@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-13T02:02:27.581Z",
+  "generatedAt": "2026-09-14T02:04:11.455Z",
   "totalRTOs": 785,
   "totalVerified": 785,
   "totalStates": 28,
   "completedStates": 18,
-  "inProgressStates": 1,
+  "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 7,
   "inProgressUTs": 0,
@@ -1138,7 +1138,7 @@
       "stateCode": "OD",
       "stateName": "Odisha",
       "rtoCount": 35,
-      "totalExpectedRTOs": 36,
+      "totalExpectedRTOs": 35,
       "activeRTOs": 0,
       "verifiedCount": 35,
       "rtoCodes": [
@@ -1180,7 +1180,7 @@
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2455,7 +2455,7 @@
       "stateCode": "OD",
       "stateName": "Odisha",
       "rtoCount": 35,
-      "totalExpectedRTOs": 36,
+      "totalExpectedRTOs": 35,
       "activeRTOs": 0,
       "verifiedCount": 35,
       "rtoCodes": [
@@ -2497,7 +2497,7 @@
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
