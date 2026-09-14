@@ -1,0 +1,184 @@
+{
+  "generatedAt": "2026-09-14T02:06:36.363Z",
+  "state": "Odisha",
+  "rtoCount": 35,
+  "successCount": 35,
+  "failedRTOs": [],
+  "coordinates": {
+    "OD-01": {
+      "lat": 21.5006421,
+      "lon": 86.919884,
+      "displayName": "Balasore, Station Road, Baleshwar, Baleshwar (M), Baleshwar, Odisha, 756001, India"
+    },
+    "OD-02": {
+      "lat": 20.2564401,
+      "lon": 85.8250922,
+      "displayName": "State Bank of India, Biju Patnaik Park Footpath, Ward 52, South West Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751009, India"
+    },
+    "OD-03": {
+      "lat": 20.7497833,
+      "lon": 83.4409722,
+      "displayName": "Balangir, Odisha, India"
+    },
+    "OD-04": {
+      "lat": 20.7263099,
+      "lon": 86.0342477,
+      "displayName": "chandikhole to lethaka, mangaraj pur, Badachana, Jajpur, Odisha, 754082, India"
+    },
+    "OD-05": {
+      "lat": 20.4686,
+      "lon": 85.8792,
+      "displayName": "Cuttack, Cuttack (M.Corp.) P.S, Cuttack, Odisha, 753001, India"
+    },
+    "OD-06": {
+      "lat": 20.6767247,
+      "lon": 85.5901721,
+      "displayName": "Dhenkanal, Dhenkanal Railway Station Road, Dhenkanal, Dhenkanal Sadar, Dhenkanal, Odisha, 759001, India"
+    },
+    "OD-07": {
+      "lat": 19.3592282,
+      "lon": 84.9737421,
+      "displayName": "Chatrapur, Station Drive Way, Railway colony, Chhatrapur, Ganjam, Odisha, 761020, India"
+    },
+    "OD-08": {
+      "lat": 19.9104952,
+      "lon": 83.1678321,
+      "displayName": "Bhawanipatna, Sadar, Kalahandi, Odisha, 766001, India"
+    },
+    "OD-09": {
+      "lat": 21.6347428,
+      "lon": 85.599027,
+      "displayName": "Keonjhar Jail, Kendujhar Bypass, Kendujhargarh, Kendujhar Town, Kendujhar, Odisha, 758001, India"
+    },
+    "OD-10": {
+      "lat": 18.8499648,
+      "lon": 82.7800661,
+      "displayName": "Koraput, Odisha, India"
+    },
+    "OD-11": {
+      "lat": 21.9342456,
+      "lon": 86.7308825,
+      "displayName": "Baripada, Baripada (M), Mayurbhanj, Odisha, 757001, India"
+    },
+    "OD-12": {
+      "lat": 20.4762322,
+      "lon": 84.2348517,
+      "displayName": "Phulbani, Phulabani Town, Kandhamal, Odisha, 762001, India"
+    },
+    "OD-13": {
+      "lat": 19.8076083,
+      "lon": 85.8252538,
+      "displayName": "Puri, Puri (M), Puri, Odisha, 752001, India"
+    },
+    "OD-14": {
+      "lat": 22.2309255,
+      "lon": 84.8678705,
+      "displayName": "Rourkela, Raurkela (M), Sundargarh, Odisha, 769002, India"
+    },
+    "OD-15": {
+      "lat": 21.4705391,
+      "lon": 83.9761511,
+      "displayName": "Sambalpur, Odisha, 768001, India"
+    },
+    "OD-16": {
+      "lat": 22.133272,
+      "lon": 83.9796528,
+      "displayName": "Sundargarh, Odisha, 770020, India"
+    },
+    "OD-17": {
+      "lat": 21.3477634,
+      "lon": 83.657683,
+      "displayName": "Bargarh, Odisha, India"
+    },
+    "OD-18": {
+      "lat": 19.1753646,
+      "lon": 83.41068,
+      "displayName": "Rayagada, NH326, Thumbiguda, Rayagada, Odisha, 765001, India"
+    },
+    "OD-19": {
+      "lat": 20.8602508,
+      "lon": 85.1021043,
+      "displayName": "Angul, Angul - Talcher Road, Angul, Anugul, Angul, Odisha, 759122, India"
+    },
+    "OD-20": {
+      "lat": 18.8447966,
+      "lon": 84.0499591,
+      "displayName": "Paralakhemundi, Gajapati, Odisha, India"
+    },
+    "OD-21": {
+      "lat": 20.2327324,
+      "lon": 86.1624628,
+      "displayName": "Jagatsinghpur Hospital, SVM College Road, Jagatsinghpur, Jagatsinghapur, Odisha, 754103, India"
+    },
+    "OD-22": {
+      "lat": 21.0633288,
+      "lon": 86.5053731,
+      "displayName": "Bhadrak, Bhadrak Rural, Bhadrak, Odisha, 756100, India"
+    },
+    "OD-23": {
+      "lat": 21.8770513,
+      "lon": 84.0090506,
+      "displayName": "Jharsuguda, Odisha, India"
+    },
+    "OD-24": {
+      "lat": 19.2392083,
+      "lon": 82.5475064,
+      "displayName": "Christian Hospital Blood Bank, Nabarangpur, NH26, Nabarangapur, Nabarangapur P.S, Nabarangapur, Odisha, 764059, India"
+    },
+    "OD-25": {
+      "lat": 20.1160666,
+      "lon": 85.1119564,
+      "displayName": "Nayagarh, Odisha, India"
+    },
+    "OD-26": {
+      "lat": 20.7690998,
+      "lon": 82.5186285,
+      "displayName": "Nuapada, Odisha, India"
+    },
+    "OD-27": {
+      "lat": 20.8415619,
+      "lon": 84.3213321,
+      "displayName": "Boudh, Baudh Sadar, Boudh, Odisha, 762014, India"
+    },
+    "OD-28": {
+      "lat": 21.5358375,
+      "lon": 84.7244434,
+      "displayName": "Deogarh, Debagarh, Odisha, 768108, India"
+    },
+    "OD-29": {
+      "lat": 20.5042089,
+      "lon": 86.4159937,
+      "displayName": "Kendrapara, Odisha, 754200, India"
+    },
+    "OD-30": {
+      "lat": 18.3583544,
+      "lon": 81.8982375,
+      "displayName": "Malkangiri, Odisha, India"
+    },
+    "OD-31": {
+      "lat": 20.8453864,
+      "lon": 83.909083,
+      "displayName": "Subarnapur, Sonapur, Subarnapur, Odisha, 767017, India"
+    },
+    "OD-32": {
+      "lat": 20.0209157,
+      "lon": 84.4864172,
+      "displayName": "Bhanjanagar, Ganjam, Odisha, India"
+    },
+    "OD-33": {
+      "lat": 20.2564401,
+      "lon": 85.8250922,
+      "displayName": "State Bank of India, Biju Patnaik Park Footpath, Ward 52, South West Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751009, India"
+    },
+    "OD-34": {
+      "lat": 20.8522696,
+      "lon": 86.3385714,
+      "displayName": "Jajpur, Jajapur, Jajpur, Odisha, 755001, India"
+    },
+    "OD-35": {
+      "lat": 20.9458183,
+      "lon": 85.2111736,
+      "displayName": "Talcher, Colliery, Angul, Odisha, 759100, India"
+    }
+  }
+}
