@@ -4,8 +4,13 @@
   "displayName": "Puducherry",
   "capital": "Puducherry",
   "totalRTOs": 5,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "Karaikal": "Karaikal",
+    "Mahe": "Mahe",
+    "Puducherry": "Puducherry",
+    "Yanam": "Yanam"
+  },
+  "isComplete": true,
   "type": "union-territory",
   "validCodes": [
     "PY-01",
@@ -13,5 +18,6 @@
     "PY-03",
     "PY-04",
     "PY-05"
-  ]
+  ],
+  "osmEnabled": true
 }
