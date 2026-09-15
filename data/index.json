@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-14T02:04:11.455Z",
-  "totalRTOs": 785,
-  "totalVerified": 785,
+  "generatedAt": "2026-09-15T02:03:51.620Z",
+  "totalRTOs": 790,
+  "totalVerified": 790,
   "totalStates": 28,
-  "completedStates": 18,
+  "completedStates": 19,
   "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 7,
@@ -1178,23 +1178,29 @@
         "od-34",
         "od-35"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "PY",
       "stateName": "Puducherry",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 5,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "py-01",
+        "py-02",
+        "py-03",
+        "py-04",
+        "py-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2495,23 +2501,29 @@
         "od-34",
         "od-35"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "PY": {
       "stateCode": "PY",
       "stateName": "Puducherry",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 5,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "py-01",
+        "py-02",
+        "py-03",
+        "py-04",
+        "py-05"
+      ],
       "isComplete": false,
       "type": "union-territory",
-      "status": "Not Started",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
