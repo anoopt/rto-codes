@@ -6,5 +6,12 @@
   "totalRTOs": 5,
   "districtMapping": {},
   "isComplete": false,
-  "type": "union-territory"
+  "type": "union-territory",
+  "validCodes": [
+    "PY-01",
+    "PY-02",
+    "PY-03",
+    "PY-04",
+    "PY-05"
+  ]
 }
