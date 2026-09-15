@@ -1,0 +1,19 @@
+{
+    "code": "PY-04",
+    "region": "Yanam",
+    "city": "Yanam",
+    "state": "Puducherry",
+    "stateCode": "PY",
+    "district": "Yanam",
+    "division": "Puducherry Transport Department",
+    "description": "The PY-04 RTO is the official transport authority for the Yanam enclave, which is a distinct district of the Union Territory of Puducherry located near Andhra Pradesh. This office manages all statutory requirements under the Motor Vehicles Act, including vehicle registration and driving license issuance for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Transport Unit Office, Civil Station, Opposite to Regional Executive Office, Yanam, Puducherry",
+    "pinCode": "533464",
+    "phone": "+91-884-2321215",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Yanam"
+    ]
+}

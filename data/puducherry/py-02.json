@@ -1,0 +1,24 @@
+{
+    "code": "PY-02",
+    "region": "Karaikal",
+    "city": "Karaikal",
+    "state": "Puducherry",
+    "stateCode": "PY",
+    "district": "Karaikal",
+    "division": "Puducherry Transport Department",
+    "description": "The PY-02 RTO serves the Karaikal district, one of the four enclaves of the Union Territory of Puducherry. It manages vehicle registrations, driving licenses, and transport permits for the local population and commercial fleet in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Civil Station, Karaikal, Puducherry",
+    "pinCode": "609602",
+    "phone": "+91-4368-222729",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Karaikal",
+        "Thirunallar",
+        "Kottucherry",
+        "Nedungadu",
+        "Neravy",
+        "T.R. Pattinam"
+    ]
+}

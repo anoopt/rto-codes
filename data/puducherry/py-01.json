@@ -1,0 +1,24 @@
+{
+    "code": "PY-01",
+    "region": "Puducherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "stateCode": "PY",
+    "district": "Puducherry",
+    "division": "Puducherry Transport Division",
+    "description": "PY-01 is the primary Regional Transport Office for the Puducherry region, serving as the headquarters for vehicle registration and licensing in the Union Territory. It handles a wide range of services including issuance of driving licenses, vehicle fitness certificates, and tax collection for the Puducherry district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "100 Feet Road, Olandaikeerapalayam, Opposite Bus Stand, Mudaliarpet, Puducherry - 605004",
+    "pinCode": "605004",
+    "phone": "0413-2200371",
+    "email": "tc.pon@nic.in",
+    "jurisdictionAreas": [
+        "Puducherry Town",
+        "Mudaliarpet",
+        "Olandaikeerapalayam",
+        "Ariyankuppam",
+        "Villianur",
+        "Bahour"
+    ]
+}

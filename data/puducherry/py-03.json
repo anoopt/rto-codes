@@ -1,0 +1,23 @@
+{
+    "code": "PY-03",
+    "region": "Mahe",
+    "city": "Mahe",
+    "state": "Puducherry",
+    "stateCode": "PY",
+    "district": "Mahe",
+    "division": "Puducherry Transport Department",
+    "description": "The PY-03 RTO serves the Mahe enclave of the Union Territory of Puducherry, located on the Malabar Coast of Kerala. It is responsible for vehicle registration, driving licenses, and enforcing transport regulations for the geographically distinct Mahe district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO) Mahe, Transport Unit Office, Civil Station, Mahe, Puducherry",
+    "pinCode": "673310",
+    "phone": "0490-2332560",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mahe",
+        "Palloor",
+        "Pandakkal",
+        "Cherukallayi",
+        "Chalakkara"
+    ]
+}

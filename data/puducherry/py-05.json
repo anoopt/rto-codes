@@ -1,0 +1,24 @@
+{
+    "code": "PY-05",
+    "region": "Oulgaret",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "stateCode": "PY",
+    "district": "Puducherry",
+    "division": "Puducherry Transport Department",
+    "description": "PY-05 is the Regional Transport Office serving the Oulgaret (Uzhavarkarai) region within the Puducherry district. It was created as a bifurcation from the main Puducherry RTO (PY-01) to handle the significant increase in vehicle registrations in the northern and western urban clusters. The office manages driver licensing, vehicle fitness certifications, and tax collection for its specific taluk.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Govt. Automobile Workshop (GAW) Building, Kamaraj Salai, Saram, Puducherry",
+    "pinCode": "605013",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Oulgaret",
+        "Saram",
+        "Reddiarpalayam",
+        "Lawspet",
+        "Kadirgamam",
+        "Villianur"
+    ]
+}
