@@ -1,0 +1,24 @@
+{
+    "code": "PB-02",
+    "region": "Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar Division",
+    "description": "The PB-02 RTO serves the city of Amritsar and is one of the oldest and busiest transport offices in Punjab. It manages a wide range of services including vehicle registration, driving licenses, and transport permits for the holy city and its surrounding regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Opposite Fort, Goal Bagh, Amritsar, Punjab",
+    "pinCode": "143001",
+    "phone": "0183-2210300",
+    "email": "rto.asr-pun@nic.in",
+    "jurisdictionAreas": [
+        "Amritsar City",
+        "Amritsar-I",
+        "Amritsar-II",
+        "Majitha",
+        "Ajnala",
+        "Chogawan"
+    ]
+}

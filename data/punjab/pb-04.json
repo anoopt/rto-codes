@@ -1,0 +1,21 @@
+{
+    "code": "PB-04",
+    "region": "Faridkot",
+    "city": "Faridkot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Faridkot",
+    "division": "Faridkot",
+    "description": "The PB-04 Regional Transport Office serves the Faridkot district in Punjab. It is centrally located at the Mini Secretariat and manages vehicle registrations, driving licenses, and road tax collection for the entire district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Faridkot, Punjab",
+    "pinCode": "151203",
+    "phone": "01639-250715",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Faridkot",
+        "Kotkapura",
+        "Jaiton"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "code": "PB-01",
+    "region": "State Transport Authority, Punjab",
+    "city": "Chandigarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Chandigarh",
+    "division": "State Transport Authority Division",
+    "description": "PB-01 is the RTO code for the State Transport Authority (STA) Punjab, headquartered in Chandigarh. Unlike district RTOs, this office primarily handles the registration of commercial transport vehicles, tourist taxis, and buses operating under state-wide Punjab permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "State Transport Authority, Punjab, SCO No. 177-178, Sector 17-C, Chandigarh",
+    "pinCode": "160017",
+    "phone": "0172-2704711",
+    "email": "sta-transport@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Whole State of Punjab for Tourist Permits",
+        "Commercial Taxis",
+        "Inter-state Buses",
+        "State Transport Authority Headquarters"
+    ]
+}

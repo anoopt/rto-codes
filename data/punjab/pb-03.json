@@ -1,0 +1,26 @@
+{
+    "code": "PB-03",
+    "region": "Bathinda",
+    "city": "Bathinda",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Faridkot",
+    "description": "The PB-03 RTO serves the Bathinda district in Punjab, handling vehicle registrations, driving licenses, and permit issuances. It is a major transport hub in the Malwa region of Punjab, ensuring compliance with the Motor Vehicles Act across its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Bathinda, Punjab",
+    "pinCode": "151001",
+    "phone": "0164-2216827",
+    "email": "dto.bti.trans@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Bathinda",
+        "Nathana",
+        "Rampura Phul",
+        "Maur",
+        "Talwandi Sabo",
+        "Bhucho Mandi",
+        "Gangat",
+        "Sangat"
+    ]
+}

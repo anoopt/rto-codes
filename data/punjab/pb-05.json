@@ -1,0 +1,23 @@
+{
+    "code": "PB-05",
+    "region": "Ferozepur",
+    "city": "Ferozepur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ferozepur",
+    "division": "Ferozepur",
+    "description": "The PB-05 RTO office is located in Ferozepur and is responsible for managing vehicle registrations and driving licenses for the entire district. It serves as a vital administrative hub for transport regulations in this border region of Punjab.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Opposite Central Jail, Ferozepur City, Punjab",
+    "pinCode": "152002",
+    "phone": "01632-245118",
+    "email": "rto.frz-pb@nic.in",
+    "jurisdictionAreas": [
+        "Ferozepur",
+        "Guru Har Sahai",
+        "Zira",
+        "Mamdot",
+        "Talwandi Bhai"
+    ]
+}
