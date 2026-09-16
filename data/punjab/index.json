@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "code": "PB-01",
+    "region": "State Transport Authority, Punjab",
+    "city": "Chandigarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Chandigarh",
+    "division": "State Transport Authority Division",
+    "description": "PB-01 is the RTO code for the State Transport Authority (STA) Punjab, headquartered in Chandigarh. Unlike district RTOs, this office primarily handles the registration of commercial transport vehicles, tourist taxis, and buses operating under state-wide Punjab permits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "State Transport Authority, Punjab, SCO No. 177-178, Sector 17-C, Chandigarh",
+    "pinCode": "160017",
+    "phone": "0172-2704711",
+    "email": "sta-transport@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Whole State of Punjab for Tourist Permits",
+      "Commercial Taxis",
+      "Inter-state Buses",
+      "State Transport Authority Headquarters"
+    ]
+  },
+  {
+    "code": "PB-02",
+    "region": "Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar Division",
+    "description": "The PB-02 RTO serves the city of Amritsar and is one of the oldest and busiest transport offices in Punjab. It manages a wide range of services including vehicle registration, driving licenses, and transport permits for the holy city and its surrounding regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Opposite Fort, Goal Bagh, Amritsar, Punjab",
+    "pinCode": "143001",
+    "phone": "0183-2210300",
+    "email": "rto.asr-pun@nic.in",
+    "jurisdictionAreas": [
+      "Amritsar City",
+      "Amritsar-I",
+      "Amritsar-II",
+      "Majitha",
+      "Ajnala",
+      "Chogawan"
+    ]
+  },
+  {
+    "code": "PB-03",
+    "region": "Bathinda",
+    "city": "Bathinda",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Faridkot",
+    "description": "The PB-03 RTO serves the Bathinda district in Punjab, handling vehicle registrations, driving licenses, and permit issuances. It is a major transport hub in the Malwa region of Punjab, ensuring compliance with the Motor Vehicles Act across its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Bathinda, Punjab",
+    "pinCode": "151001",
+    "phone": "0164-2216827",
+    "email": "dto.bti.trans@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Bathinda",
+      "Nathana",
+      "Rampura Phul",
+      "Maur",
+      "Talwandi Sabo",
+      "Bhucho Mandi",
+      "Gangat",
+      "Sangat"
+    ]
+  },
+  {
+    "code": "PB-04",
+    "region": "Faridkot",
+    "city": "Faridkot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Faridkot",
+    "division": "Faridkot",
+    "description": "The PB-04 Regional Transport Office serves the Faridkot district in Punjab. It is centrally located at the Mini Secretariat and manages vehicle registrations, driving licenses, and road tax collection for the entire district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Faridkot, Punjab",
+    "pinCode": "151203",
+    "phone": "01639-250715",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Faridkot",
+      "Kotkapura",
+      "Jaiton"
+    ]
+  },
+  {
+    "code": "PB-05",
+    "region": "Ferozepur",
+    "city": "Ferozepur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ferozepur",
+    "division": "Ferozepur",
+    "description": "The PB-05 RTO office is located in Ferozepur and is responsible for managing vehicle registrations and driving licenses for the entire district. It serves as a vital administrative hub for transport regulations in this border region of Punjab.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Opposite Central Jail, Ferozepur City, Punjab",
+    "pinCode": "152002",
+    "phone": "01632-245118",
+    "email": "rto.frz-pb@nic.in",
+    "jurisdictionAreas": [
+      "Ferozepur",
+      "Guru Har Sahai",
+      "Zira",
+      "Mamdot",
+      "Talwandi Bhai"
+    ]
+  }
+]
