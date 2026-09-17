@@ -1,0 +1,25 @@
+{
+    "code": "PB-07",
+    "region": "Hoshiarpur",
+    "city": "Hoshiarpur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Hoshiarpur",
+    "division": "Jalandhar",
+    "description": "The PB-07 RTO serves the Hoshiarpur district in Punjab, acting as the primary hub for vehicle registration and licensing services in the Doaba region. It is responsible for enforcing the Motor Vehicles Act, collecting road taxes, and ensuring road safety across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Hoshiarpur, Punjab",
+    "pinCode": "146001",
+    "phone": "01882-220311",
+    "email": "dtohoshiarpur07@gmail.com",
+    "jurisdictionAreas": [
+        "Hoshiarpur",
+        "Dasuya",
+        "Mukerian",
+        "Garhshankar",
+        "Tanda",
+        "Talwara",
+        "Hajipur"
+    ]
+}

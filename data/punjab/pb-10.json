@@ -1,0 +1,23 @@
+{
+    "code": "PB-10",
+    "region": "Ludhiana",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala",
+    "description": "The PB-10 RTO is the primary vehicle registration authority for Ludhiana, the largest industrial city in Punjab. It handles a high volume of commercial and private vehicle registrations, driving licenses, and road tax collections for the urban center.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Ferozepur Road, Ludhiana, Punjab",
+    "pinCode": "141001",
+    "phone": "0161-2401002",
+    "email": "rtoludhiana.pb@nic.in",
+    "jurisdictionAreas": [
+        "Ludhiana City",
+        "Ludhiana East",
+        "Ludhiana West",
+        "Gill",
+        "Sahnewal"
+    ]
+}

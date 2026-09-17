@@ -1,0 +1,24 @@
+{
+    "code": "PB-06",
+    "region": "Gurdaspur",
+    "city": "Gurdaspur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar Division",
+    "description": "The PB-06 Regional Transport Office (RTO) serves the Gurdaspur district in Punjab. It is responsible for vehicle registration, driving license issuance, and road tax collection, ensuring compliance with the Motor Vehicles Act within its administrative zone.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Backside of Bus Stand, Court Road, Red Cross Building, Gurdaspur, Punjab",
+    "pinCode": "143521",
+    "phone": "01874-242095",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gurdaspur",
+        "Dhariwal",
+        "Dina Nagar",
+        "Kalanaur",
+        "Kahnuwan",
+        "Dorangla"
+    ]
+}

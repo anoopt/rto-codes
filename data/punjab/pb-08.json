@@ -1,0 +1,25 @@
+{
+    "code": "PB-08",
+    "region": "Jalandhar",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "PB-08 is the Regional Transport Office (RTO) for Jalandhar, Punjab. It is one of the state's busiest offices, responsible for vehicle registrations, driving licenses, and permit issuances for the Jalandhar district. The office plays a critical role in managing urban transport and ensuring road safety regulations are met in this major commercial and educational hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "First Floor, District Administrative Complex (DAC), Jalandhar, Punjab",
+    "pinCode": "144001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jalandhar",
+        "Jalandhar I",
+        "Jalandhar II",
+        "Adampur",
+        "Kartarpur",
+        "Shahkot",
+        "Nakodar"
+    ]
+}

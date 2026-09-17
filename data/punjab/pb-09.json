@@ -1,0 +1,22 @@
+{
+    "code": "PB-09",
+    "region": "Kapurthala",
+    "city": "Kapurthala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Kapurthala",
+    "division": "Jalandhar Division",
+    "description": "PB-09 is the Regional Transport Office serving the Kapurthala district in Punjab. It is responsible for motor vehicle registration, issuing driving licenses, and implementing transport safety regulations across the region known for its rich heritage and administrative importance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Administrative Complex (DC Office), Kapurthala, Punjab",
+    "pinCode": "144601",
+    "phone": "01822-233849",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kapurthala",
+        "Phagwara",
+        "Sultanpur Lodhi",
+        "Bholath"
+    ]
+}
