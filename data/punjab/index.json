@@ -233,5 +233,118 @@
       "Gill",
       "Sahnewal"
     ]
+  },
+  {
+    "code": "PB-11",
+    "region": "Patiala",
+    "city": "Patiala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala Division",
+    "description": "PB-11 is the primary Regional Transport Office (RTO) for the city of Patiala in Punjab. It manages vehicle registrations, driving licenses, and road tax collection for the district headquarters and its immediate urban and rural outskirts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO Office, A Block, Mini Secretariat, Patiala, Punjab",
+    "pinCode": "147001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Patiala",
+      "Patiala Rural",
+      "Sanaur",
+      "Ghanaur"
+    ]
+  },
+  {
+    "code": "PB-12",
+    "region": "Ropar",
+    "city": "Rupnagar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala Division",
+    "description": "PB-12 RTO is the primary vehicle registration office for Rupnagar (formerly Ropar) district in Punjab. It manages various services including the issuance of driving licenses, vehicle registration certificates, and the enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Ropar, Punjab",
+    "pinCode": "140001",
+    "phone": "01881-221164",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rupnagar",
+      "Morinda",
+      "Nangal",
+      "Chamkaur Sahib",
+      "Anandpur Sahib"
+    ]
+  },
+  {
+    "code": "PB-13",
+    "region": "Sangrur",
+    "city": "Sangrur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-13 is the Regional Transport Office (RTO) for the Sangrur district in Punjab. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations across the Sangrur headquarters and its immediate surrounding areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, College Road, Haripura Colony, Partap Nagar, Sangrur, Punjab",
+    "pinCode": "148001",
+    "phone": "01672-234355",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sangrur",
+      "Bhawanigarh",
+      "Dhuri",
+      "Lehragaga"
+    ]
+  },
+  {
+    "code": "PB-14",
+    "region": "Ajnala",
+    "city": "Ajnala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar Division",
+    "description": "PB-14 RTO is the designated transport authority for the Ajnala subdivision in the Amritsar district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and the collection of road taxes for its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Ajnala, District Amritsar, Punjab",
+    "pinCode": "143102",
+    "phone": "01858-221033",
+    "email": "sdm.ajnala@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Ajnala",
+      "Ramdas",
+      "Chogawan",
+      "Lopoke",
+      "Harsa Chhina"
+    ]
+  },
+  {
+    "code": "PB-15",
+    "region": "Abohar",
+    "city": "Abohar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fazilka",
+    "division": "Ferozepur Division",
+    "description": "The PB-15 RTO office serves the Abohar sub-division in the Fazilka district of Punjab. It functions under the authority of the Sub-Divisional Magistrate and handles vehicle registration, license issuance, and tax collection for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Abohar, District Fazilka, Punjab",
+    "pinCode": "152116",
+    "phone": "01634-221666",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Abohar",
+      "Khuian Sarwar",
+      "Arniwala Sheikh Subhan",
+      "Balluana",
+      "Sita Gunno"
+    ]
   }
 ]
