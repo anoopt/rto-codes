@@ -1,0 +1,22 @@
+{
+    "code": "PB-13",
+    "region": "Sangrur",
+    "city": "Sangrur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-13 is the Regional Transport Office (RTO) for the Sangrur district in Punjab. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations across the Sangrur headquarters and its immediate surrounding areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, College Road, Haripura Colony, Partap Nagar, Sangrur, Punjab",
+    "pinCode": "148001",
+    "phone": "01672-234355",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sangrur",
+        "Bhawanigarh",
+        "Dhuri",
+        "Lehragaga"
+    ]
+}

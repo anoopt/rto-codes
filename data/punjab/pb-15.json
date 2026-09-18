@@ -1,0 +1,23 @@
+{
+    "code": "PB-15",
+    "region": "Abohar",
+    "city": "Abohar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fazilka",
+    "division": "Ferozepur Division",
+    "description": "The PB-15 RTO office serves the Abohar sub-division in the Fazilka district of Punjab. It functions under the authority of the Sub-Divisional Magistrate and handles vehicle registration, license issuance, and tax collection for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Abohar, District Fazilka, Punjab",
+    "pinCode": "152116",
+    "phone": "01634-221666",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Abohar",
+        "Khuian Sarwar",
+        "Arniwala Sheikh Subhan",
+        "Balluana",
+        "Sita Gunno"
+    ]
+}

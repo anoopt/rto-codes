@@ -1,0 +1,22 @@
+{
+    "code": "PB-11",
+    "region": "Patiala",
+    "city": "Patiala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala Division",
+    "description": "PB-11 is the primary Regional Transport Office (RTO) for the city of Patiala in Punjab. It manages vehicle registrations, driving licenses, and road tax collection for the district headquarters and its immediate urban and rural outskirts.",
+    "status": "active",
+    "established": "N/A",
+    "address": "DTO Office, A Block, Mini Secretariat, Patiala, Punjab",
+    "pinCode": "147001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Patiala",
+        "Patiala Rural",
+        "Sanaur",
+        "Ghanaur"
+    ]
+}

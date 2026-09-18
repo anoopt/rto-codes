@@ -1,0 +1,23 @@
+{
+    "code": "PB-12",
+    "region": "Ropar",
+    "city": "Rupnagar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala Division",
+    "description": "PB-12 RTO is the primary vehicle registration office for Rupnagar (formerly Ropar) district in Punjab. It manages various services including the issuance of driving licenses, vehicle registration certificates, and the enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Mini Secretariat, Ropar, Punjab",
+    "pinCode": "140001",
+    "phone": "01881-221164",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rupnagar",
+        "Morinda",
+        "Nangal",
+        "Chamkaur Sahib",
+        "Anandpur Sahib"
+    ]
+}

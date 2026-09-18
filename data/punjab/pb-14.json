@@ -1,0 +1,23 @@
+{
+    "code": "PB-14",
+    "region": "Ajnala",
+    "city": "Ajnala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar Division",
+    "description": "PB-14 RTO is the designated transport authority for the Ajnala subdivision in the Amritsar district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and the collection of road taxes for its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Ajnala, District Amritsar, Punjab",
+    "pinCode": "143102",
+    "phone": "01858-221033",
+    "email": "sdm.ajnala@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Ajnala",
+        "Ramdas",
+        "Chogawan",
+        "Lopoke",
+        "Harsa Chhina"
+    ]
+}
