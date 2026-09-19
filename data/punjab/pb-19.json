@@ -1,0 +1,23 @@
+{
+    "code": "PB-19",
+    "region": "Barnala",
+    "city": "Barnala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Barnala",
+    "division": "Patiala",
+    "description": "PB-19 is the Regional Transport Office serving the Barnala district of Punjab, responsible for vehicle registration, driving licenses, and transport tax collection. It operates under the Punjab Transport Department and is the primary transport hub for the Barnala region following its establishment as a separate district.",
+    "status": "active",
+    "established": "2006",
+    "address": "District Transport Office, District Administrative Complex (DAC), Barnala, Punjab",
+    "pinCode": "148101",
+    "phone": "01679-234388",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Barnala",
+        "Mehal Kalan",
+        "Tappa Mandi",
+        "Sehna",
+        "Handiaya"
+    ]
+}

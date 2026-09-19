@@ -1,0 +1,23 @@
+{
+    "code": "PB-18",
+    "region": "Batala",
+    "city": "Batala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar",
+    "description": "The PB-18 RTO serves the Batala sub-division within the Gurdaspur district of Punjab. It is an active registration authority managed under the Sub-Divisional Magistrate (SDM), facilitating vehicle registration, driving licenses, and other transport-related services for the industrial hub of Batala.",
+    "status": "active",
+    "established": "N/A",
+    "address": "S.D.M. Office, Batala, District Gurdaspur, Punjab - 143505",
+    "pinCode": "143505",
+    "phone": "01871-240036",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Batala",
+        "Qadian",
+        "Fatehgarh Churian",
+        "Sri Hargobindpur",
+        "Dera Baba Nanak"
+    ]
+}

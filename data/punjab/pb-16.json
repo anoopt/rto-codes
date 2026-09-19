@@ -1,0 +1,23 @@
+{
+    "code": "PB-16",
+    "region": "Anandpur Sahib",
+    "city": "Anandpur Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala",
+    "description": "PB-16 is the Regional Transport Office for the Anandpur Sahib subdivision in the Rupnagar district of Punjab. Operated under the Sub-Divisional Magistrate, it handles vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Anandpur Sahib, Rupnagar, Punjab - 140118",
+    "pinCode": "140118",
+    "phone": "+91-1887-232036",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Anandpur Sahib",
+        "Nangal",
+        "Nurpur Bedi",
+        "Kiratpur Sahib",
+        "Sri Anandpur Sahib Sub-Division"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "PB-17",
+    "region": "Baba Bakala",
+    "city": "Baba Bakala Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar",
+    "description": "PB-17 RTO serves the Baba Bakala Sahib subdivision in the Amritsar district of Punjab as a Sub-Divisional Magistrate (SDM) office. It is responsible for vehicle registration, issuance of driving licenses, and other transport regulatory services for the local population in and around the historic town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate Office, Tehsil Baba Bakala, Amritsar, Punjab",
+    "pinCode": "143202",
+    "phone": "01853-245510",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Baba Bakala",
+        "Baba Bakala Sahib",
+        "Beas",
+        "Rayya",
+        "Khilchian",
+        "Mehta"
+    ]
+}

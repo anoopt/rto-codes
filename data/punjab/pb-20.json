@@ -1,0 +1,23 @@
+{
+    "code": "PB-20",
+    "region": "Balachaur",
+    "city": "Balachaur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Shahid Bhagat Singh Nagar",
+    "division": "Jalandhar Division",
+    "description": "The PB-20 RTO serves the Balachaur sub-division within the Shahid Bhagat Singh Nagar district of Punjab. This office facilitates motor vehicle registrations, driving license issuance, and ensures compliance with transport safety and environmental regulations in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Balachaur, Shahid Bhagat Singh Nagar, Punjab",
+    "pinCode": "144521",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Balachaur",
+        "Kathgarh",
+        "Poyal",
+        "Sarith",
+        "Ballowal Saunkhri"
+    ]
+}
