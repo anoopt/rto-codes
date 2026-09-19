@@ -346,5 +346,121 @@
       "Balluana",
       "Sita Gunno"
     ]
+  },
+  {
+    "code": "PB-16",
+    "region": "Anandpur Sahib",
+    "city": "Anandpur Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala",
+    "description": "PB-16 is the Regional Transport Office for the Anandpur Sahib subdivision in the Rupnagar district of Punjab. Operated under the Sub-Divisional Magistrate, it handles vehicle registration, driving licenses, and other transport-related services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Anandpur Sahib, Rupnagar, Punjab - 140118",
+    "pinCode": "140118",
+    "phone": "+91-1887-232036",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Anandpur Sahib",
+      "Nangal",
+      "Nurpur Bedi",
+      "Kiratpur Sahib",
+      "Sri Anandpur Sahib Sub-Division"
+    ]
+  },
+  {
+    "code": "PB-17",
+    "region": "Baba Bakala",
+    "city": "Baba Bakala Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar",
+    "description": "PB-17 RTO serves the Baba Bakala Sahib subdivision in the Amritsar district of Punjab as a Sub-Divisional Magistrate (SDM) office. It is responsible for vehicle registration, issuance of driving licenses, and other transport regulatory services for the local population in and around the historic town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate Office, Tehsil Baba Bakala, Amritsar, Punjab",
+    "pinCode": "143202",
+    "phone": "01853-245510",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Baba Bakala",
+      "Baba Bakala Sahib",
+      "Beas",
+      "Rayya",
+      "Khilchian",
+      "Mehta"
+    ]
+  },
+  {
+    "code": "PB-18",
+    "region": "Batala",
+    "city": "Batala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar",
+    "description": "The PB-18 RTO serves the Batala sub-division within the Gurdaspur district of Punjab. It is an active registration authority managed under the Sub-Divisional Magistrate (SDM), facilitating vehicle registration, driving licenses, and other transport-related services for the industrial hub of Batala.",
+    "status": "active",
+    "established": "N/A",
+    "address": "S.D.M. Office, Batala, District Gurdaspur, Punjab - 143505",
+    "pinCode": "143505",
+    "phone": "01871-240036",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Batala",
+      "Qadian",
+      "Fatehgarh Churian",
+      "Sri Hargobindpur",
+      "Dera Baba Nanak"
+    ]
+  },
+  {
+    "code": "PB-19",
+    "region": "Barnala",
+    "city": "Barnala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Barnala",
+    "division": "Patiala",
+    "description": "PB-19 is the Regional Transport Office serving the Barnala district of Punjab, responsible for vehicle registration, driving licenses, and transport tax collection. It operates under the Punjab Transport Department and is the primary transport hub for the Barnala region following its establishment as a separate district.",
+    "status": "active",
+    "established": "2006",
+    "address": "District Transport Office, District Administrative Complex (DAC), Barnala, Punjab",
+    "pinCode": "148101",
+    "phone": "01679-234388",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Barnala",
+      "Mehal Kalan",
+      "Tappa Mandi",
+      "Sehna",
+      "Handiaya"
+    ]
+  },
+  {
+    "code": "PB-20",
+    "region": "Balachaur",
+    "city": "Balachaur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Shahid Bhagat Singh Nagar",
+    "division": "Jalandhar Division",
+    "description": "The PB-20 RTO serves the Balachaur sub-division within the Shahid Bhagat Singh Nagar district of Punjab. This office facilitates motor vehicle registrations, driving license issuance, and ensures compliance with transport safety and environmental regulations in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Balachaur, Shahid Bhagat Singh Nagar, Punjab",
+    "pinCode": "144521",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Balachaur",
+      "Kathgarh",
+      "Poyal",
+      "Sarith",
+      "Ballowal Saunkhri"
+    ]
   }
 ]
