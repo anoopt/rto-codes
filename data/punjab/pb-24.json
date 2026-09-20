@@ -1,0 +1,22 @@
+{
+    "code": "PB-24",
+    "region": "Garhshankar",
+    "city": "Garhshankar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Hoshiarpur",
+    "division": "Jalandhar Transport Division",
+    "description": "The PB-24 RTO serves the Garhshankar subdivision in the Hoshiarpur district of Punjab. Operating under the Sub-Divisional Magistrate (SDM), it manages vehicle registration, driving license issuance, and road tax collection for the local area. It helps decentralize the administrative load from the main district RTO in Hoshiarpur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Garhshankar, District Hoshiarpur, Punjab",
+    "pinCode": "144527",
+    "phone": "01884-222022",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Garhshankar",
+        "Mahilpur",
+        "Saila Khurd",
+        "Saroya"
+    ]
+}

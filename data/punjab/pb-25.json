@@ -1,0 +1,24 @@
+{
+    "code": "PB-25",
+    "region": "Jagraon",
+    "city": "Jagraon",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala",
+    "description": "The PB-25 RTO office in Jagraon serves as a Sub-Divisional Magistrate (SDM) facility for the Punjab Transport Department. It manages all vehicle registration activities, issuance of driving licenses, and transport permit processing for the Jagraon sub-division of Ludhiana district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ferozepur Road, Jagraon, District Ludhiana, Punjab",
+    "pinCode": "142026",
+    "phone": "01624-223256",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jagraon",
+        "Sidhwan Bet",
+        "Mullanpur Dakha",
+        "Chowkiman",
+        "Nanaksar",
+        "Galib Kalan"
+    ]
+}

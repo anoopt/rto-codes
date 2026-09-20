@@ -1,0 +1,24 @@
+{
+    "code": "PB-21",
+    "region": "Dasuya",
+    "city": "Dasuya",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Hoshiarpur",
+    "division": "Jalandhar",
+    "description": "PB-21 is the official RTO code for the Dasuya sub-division in Hoshiarpur district, Punjab. The office is headed by the Sub-Divisional Magistrate (SDM) acting as the registering authority, providing services such as vehicle registration, driving licenses, and road tax collection.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Dasuya, District Hoshiarpur, Punjab",
+    "pinCode": "144205",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dasuya",
+        "Urmar Tanda",
+        "Talwara",
+        "Hajipur",
+        "Garhdiwala",
+        "Kamahi Devi"
+    ]
+}

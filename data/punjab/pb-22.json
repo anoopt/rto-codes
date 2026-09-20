@@ -1,0 +1,22 @@
+{
+    "code": "PB-22",
+    "region": "Fazilka",
+    "city": "Fazilka",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fazilka",
+    "division": "Ferozepur",
+    "description": "PB-22 is the Regional Transport Office for the Fazilka district in Punjab. Formally established as a separate entity following the creation of the district in 2011, it manages vehicle registration, licensing, and transport law enforcement for the border-adjacent region.",
+    "status": "active",
+    "established": "2011",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Fazilka, Punjab",
+    "pinCode": "152123",
+    "phone": "01638-263374",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Fazilka",
+        "Abohar",
+        "Jalalabad",
+        "Arniwala Sheikh Subhan"
+    ]
+}

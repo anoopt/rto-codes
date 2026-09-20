@@ -1,0 +1,24 @@
+{
+    "code": "PB-23",
+    "region": "Fatehgarh Sahib",
+    "city": "Fatehgarh Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala Division",
+    "description": "The PB-23 RTO serves the Fatehgarh Sahib district in Punjab, handling vehicle registrations, driving licenses, and transport permits. It is a key office for the historical town of Fatehgarh Sahib and the industrial hub of Mandi Gobindgarh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Ground Floor, District Administrative Complex (Mini Secretariat), Fatehgarh Sahib, Punjab",
+    "pinCode": "140406",
+    "phone": "01763-232196",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Fatehgarh Sahib",
+        "Sirhind",
+        "Mandi Gobindgarh",
+        "Amloh",
+        "Khamano",
+        "Bassi Pathana"
+    ]
+}
