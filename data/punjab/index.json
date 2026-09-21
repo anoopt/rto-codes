@@ -578,5 +578,119 @@
       "Nanaksar",
       "Galib Kalan"
     ]
+  },
+  {
+    "code": "PB-26",
+    "region": "Khanna",
+    "city": "Khanna",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Ludhiana",
+    "description": "The PB-26 RTO serves the Khanna subdivision of Ludhiana district in Punjab. It functions primarily as an SDM-led registration authority handling vehicle registration, driving licenses, and transport permits for the region known for hosting one of Asia's largest grain markets.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, G.T. Road, Khanna, Punjab",
+    "pinCode": "141401",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khanna",
+      "Khanna Subdivision",
+      "Khanna Rural",
+      "Bhadla",
+      "Ikolaha",
+      "Daad"
+    ]
+  },
+  {
+    "code": "PB-27",
+    "region": "Kharar",
+    "city": "Kharar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sahibzada Ajit Singh Nagar",
+    "division": "Patiala Division",
+    "description": "The PB-27 RTO serves the Kharar subdivision in the Sahibzada Ajit Singh Nagar district of Punjab. As a Sub-Divisional Magistrate office, it handles vehicle registration, driving licenses, and transport permits for the local population. It is a key administrative hub for transport services in the region adjacent to Chandigarh and Mohali.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office (SDM Office), Kharar, District SAS Nagar, Punjab",
+    "pinCode": "140301",
+    "phone": "0160-2280222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kharar",
+      "Kurali",
+      "Nayagaon",
+      "Majri",
+      "Mullanpur Garibdass"
+    ]
+  },
+  {
+    "code": "PB-28",
+    "region": "Malerkotla",
+    "city": "Malerkotla",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Malerkotla",
+    "division": "Patiala",
+    "description": "PB-28 is the designated RTO code for Malerkotla, which was formally established as the 23rd district of Punjab in 2021. The office operates under the Sub-Divisional Magistrate (SDM) and manages all transport-related activities including vehicle registration, HSRP issuance, and driving licenses.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate Office, Malerkotla, District Malerkotla, Punjab",
+    "pinCode": "148023",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Malerkotla",
+      "Ahmedgarh",
+      "Amargarh"
+    ]
+  },
+  {
+    "code": "PB-29",
+    "region": "Moga",
+    "city": "Moga",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "PB-29 is the Regional Transport Office (RTO) for the Moga district in Punjab. It handles various transport-related services including vehicle registration, issuance of driving licenses, and transport permit management for the majority of the district's jurisdiction.",
+    "status": "active",
+    "established": "1995",
+    "address": "Regional Transport Office (RTO), DC Office Complex, Moga, Punjab",
+    "pinCode": "142001",
+    "phone": "+91-1636-234327",
+    "email": "rto.moga@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Moga",
+      "Dharamkot",
+      "Nihal Singh Wala",
+      "Badhni Kalan",
+      "Kot Ise Khan"
+    ]
+  },
+  {
+    "code": "PB-30",
+    "region": "Sri Muktsar Sahib",
+    "city": "Muktsar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Muktsar",
+    "division": "Ferozepur",
+    "description": "PB-30 is the Regional Transport Office for Sri Muktsar Sahib, Punjab. It is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the Muktsar district and surrounding sub-divisions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Administrative Complex, D.C. Office, Muktsar, Punjab",
+    "pinCode": "152026",
+    "phone": "01633-261468",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Muktsar",
+      "Malout",
+      "Gidderbaha",
+      "Bariwala",
+      "Lambi"
+    ]
   }
 ]
