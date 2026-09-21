@@ -1,0 +1,24 @@
+{
+    "code": "PB-26",
+    "region": "Khanna",
+    "city": "Khanna",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Ludhiana",
+    "description": "The PB-26 RTO serves the Khanna subdivision of Ludhiana district in Punjab. It functions primarily as an SDM-led registration authority handling vehicle registration, driving licenses, and transport permits for the region known for hosting one of Asia's largest grain markets.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, G.T. Road, Khanna, Punjab",
+    "pinCode": "141401",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khanna",
+        "Khanna Subdivision",
+        "Khanna Rural",
+        "Bhadla",
+        "Ikolaha",
+        "Daad"
+    ]
+}

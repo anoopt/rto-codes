@@ -1,0 +1,23 @@
+{
+    "code": "PB-30",
+    "region": "Sri Muktsar Sahib",
+    "city": "Muktsar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Muktsar",
+    "division": "Ferozepur",
+    "description": "PB-30 is the Regional Transport Office for Sri Muktsar Sahib, Punjab. It is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the Muktsar district and surrounding sub-divisions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Administrative Complex, D.C. Office, Muktsar, Punjab",
+    "pinCode": "152026",
+    "phone": "01633-261468",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Muktsar",
+        "Malout",
+        "Gidderbaha",
+        "Bariwala",
+        "Lambi"
+    ]
+}

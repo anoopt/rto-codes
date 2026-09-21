@@ -1,0 +1,23 @@
+{
+    "code": "PB-29",
+    "region": "Moga",
+    "city": "Moga",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "PB-29 is the Regional Transport Office (RTO) for the Moga district in Punjab. It handles various transport-related services including vehicle registration, issuance of driving licenses, and transport permit management for the majority of the district's jurisdiction.",
+    "status": "active",
+    "established": "1995",
+    "address": "Regional Transport Office (RTO), DC Office Complex, Moga, Punjab",
+    "pinCode": "142001",
+    "phone": "+91-1636-234327",
+    "email": "rto.moga@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Moga",
+        "Dharamkot",
+        "Nihal Singh Wala",
+        "Badhni Kalan",
+        "Kot Ise Khan"
+    ]
+}

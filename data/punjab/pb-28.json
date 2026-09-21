@@ -1,0 +1,21 @@
+{
+    "code": "PB-28",
+    "region": "Malerkotla",
+    "city": "Malerkotla",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Malerkotla",
+    "division": "Patiala",
+    "description": "PB-28 is the designated RTO code for Malerkotla, which was formally established as the 23rd district of Punjab in 2021. The office operates under the Sub-Divisional Magistrate (SDM) and manages all transport-related activities including vehicle registration, HSRP issuance, and driving licenses.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate Office, Malerkotla, District Malerkotla, Punjab",
+    "pinCode": "148023",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Malerkotla",
+        "Ahmedgarh",
+        "Amargarh"
+    ]
+}

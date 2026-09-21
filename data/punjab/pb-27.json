@@ -1,0 +1,23 @@
+{
+    "code": "PB-27",
+    "region": "Kharar",
+    "city": "Kharar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sahibzada Ajit Singh Nagar",
+    "division": "Patiala Division",
+    "description": "The PB-27 RTO serves the Kharar subdivision in the Sahibzada Ajit Singh Nagar district of Punjab. As a Sub-Divisional Magistrate office, it handles vehicle registration, driving licenses, and transport permits for the local population. It is a key administrative hub for transport services in the region adjacent to Chandigarh and Mohali.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office (SDM Office), Kharar, District SAS Nagar, Punjab",
+    "pinCode": "140301",
+    "phone": "0160-2280222",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kharar",
+        "Kurali",
+        "Nayagaon",
+        "Majri",
+        "Mullanpur Garibdass"
+    ]
+}
