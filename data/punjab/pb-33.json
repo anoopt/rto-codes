@@ -1,0 +1,22 @@
+{
+    "code": "PB-33",
+    "region": "Nakodar",
+    "city": "Nakodar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "The PB-33 RTO serves the Nakodar subdivision within the Jalandhar district of Punjab. Managed by the Sub-Divisional Magistrate (SDM), this office handles various transport-related services including vehicle registration, driving license issuance, and local tax collection.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Nakodar, District Jalandhar, Punjab",
+    "pinCode": "144040",
+    "phone": "01821-220042",
+    "email": "sdm.nak@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Nakodar",
+        "Mehatpur",
+        "Nurmahal",
+        "Jalandhar District (Subdivision)"
+    ]
+}

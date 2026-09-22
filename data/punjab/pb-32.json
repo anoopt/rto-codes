@@ -1,0 +1,22 @@
+{
+    "code": "PB-32",
+    "region": "Nawanshahr",
+    "city": "Nawanshahr",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Shahid Bhagat Singh Nagar",
+    "division": "Jalandhar Division",
+    "description": "PB-32 is the Regional Transport Office serving the Nawanshahr sub-division within the Shahid Bhagat Singh Nagar district of Punjab. The office, managed by the Sub-Divisional Magistrate (SDM), is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Near Bus Stand, Nawanshahr, Punjab",
+    "pinCode": "144514",
+    "phone": "01823-222295",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nawanshahr",
+        "Aur",
+        "Rahon",
+        "Jadla"
+    ]
+}

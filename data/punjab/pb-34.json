@@ -1,0 +1,23 @@
+{
+    "code": "PB-34",
+    "region": "Nabha",
+    "city": "Nabha",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala",
+    "description": "The PB-34 RTO serves as a Sub-Divisional Magistrate (SDM) level office for the Punjab Transport Department located in Nabha. It is responsible for essential services including vehicle registration (RC), driving license issuance, and road tax collection for the Nabha subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Nabha, District Patiala, Punjab",
+    "pinCode": "147201",
+    "phone": "01765-220646",
+    "email": "sdm.nabh-pun@nic.in",
+    "jurisdictionAreas": [
+        "Nabha",
+        "Bhadson",
+        "Chhintanwala",
+        "Galwatti",
+        "Kakrala"
+    ]
+}

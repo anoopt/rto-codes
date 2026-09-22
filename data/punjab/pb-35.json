@@ -1,0 +1,23 @@
+{
+    "code": "PB-35",
+    "region": "Pathankot",
+    "city": "Pathankot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Pathankot",
+    "division": "Jalandhar",
+    "description": "PB-35 RTO serves the Pathankot district in Punjab, handling vehicle registration, driving licenses, and road tax collection. Established after Pathankot became a separate district in 2011, it plays a vital role in the transport administration of this border region.",
+    "status": "active",
+    "established": "2011",
+    "address": "SDM Office, Pathankot, Punjab - 145001",
+    "pinCode": "145001",
+    "phone": "0186-2220036",
+    "email": "sdm.ptk.pj@nic.in",
+    "jurisdictionAreas": [
+        "Pathankot",
+        "Narot Jaimal Singh",
+        "Bamial",
+        "Taragarh",
+        "Sujanpur"
+    ]
+}

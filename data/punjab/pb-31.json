@@ -1,0 +1,22 @@
+{
+    "code": "PB-31",
+    "region": "Mansa",
+    "city": "Mansa",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mansa",
+    "division": "Faridkot",
+    "description": "PB-31 is the Regional Transport Office for Mansa district in Punjab. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations within the Mansa region. The office serves as a critical administrative hub for the transport needs of the Malwa belt.",
+    "status": "active",
+    "established": "1992",
+    "address": "Room No. 9, 10, 11, 33, District Administrative Complex (DAC), Mansa, Punjab",
+    "pinCode": "151505",
+    "phone": "01652-233400",
+    "email": "rto.mns-pb@nic.in",
+    "jurisdictionAreas": [
+        "Mansa",
+        "Bhikhi",
+        "Jhunir",
+        "Mansa Tehsil"
+    ]
+}
