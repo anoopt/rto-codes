@@ -692,5 +692,117 @@
       "Bariwala",
       "Lambi"
     ]
+  },
+  {
+    "code": "PB-31",
+    "region": "Mansa",
+    "city": "Mansa",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mansa",
+    "division": "Faridkot",
+    "description": "PB-31 is the Regional Transport Office for Mansa district in Punjab. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations within the Mansa region. The office serves as a critical administrative hub for the transport needs of the Malwa belt.",
+    "status": "active",
+    "established": "1992",
+    "address": "Room No. 9, 10, 11, 33, District Administrative Complex (DAC), Mansa, Punjab",
+    "pinCode": "151505",
+    "phone": "01652-233400",
+    "email": "rto.mns-pb@nic.in",
+    "jurisdictionAreas": [
+      "Mansa",
+      "Bhikhi",
+      "Jhunir",
+      "Mansa Tehsil"
+    ]
+  },
+  {
+    "code": "PB-32",
+    "region": "Nawanshahr",
+    "city": "Nawanshahr",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Shahid Bhagat Singh Nagar",
+    "division": "Jalandhar Division",
+    "description": "PB-32 is the Regional Transport Office serving the Nawanshahr sub-division within the Shahid Bhagat Singh Nagar district of Punjab. The office, managed by the Sub-Divisional Magistrate (SDM), is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Near Bus Stand, Nawanshahr, Punjab",
+    "pinCode": "144514",
+    "phone": "01823-222295",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nawanshahr",
+      "Aur",
+      "Rahon",
+      "Jadla"
+    ]
+  },
+  {
+    "code": "PB-33",
+    "region": "Nakodar",
+    "city": "Nakodar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "The PB-33 RTO serves the Nakodar subdivision within the Jalandhar district of Punjab. Managed by the Sub-Divisional Magistrate (SDM), this office handles various transport-related services including vehicle registration, driving license issuance, and local tax collection.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Nakodar, District Jalandhar, Punjab",
+    "pinCode": "144040",
+    "phone": "01821-220042",
+    "email": "sdm.nak@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Nakodar",
+      "Mehatpur",
+      "Nurmahal",
+      "Jalandhar District (Subdivision)"
+    ]
+  },
+  {
+    "code": "PB-34",
+    "region": "Nabha",
+    "city": "Nabha",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala",
+    "description": "The PB-34 RTO serves as a Sub-Divisional Magistrate (SDM) level office for the Punjab Transport Department located in Nabha. It is responsible for essential services including vehicle registration (RC), driving license issuance, and road tax collection for the Nabha subdivision.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Nabha, District Patiala, Punjab",
+    "pinCode": "147201",
+    "phone": "01765-220646",
+    "email": "sdm.nabh-pun@nic.in",
+    "jurisdictionAreas": [
+      "Nabha",
+      "Bhadson",
+      "Chhintanwala",
+      "Galwatti",
+      "Kakrala"
+    ]
+  },
+  {
+    "code": "PB-35",
+    "region": "Pathankot",
+    "city": "Pathankot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Pathankot",
+    "division": "Jalandhar",
+    "description": "PB-35 RTO serves the Pathankot district in Punjab, handling vehicle registration, driving licenses, and road tax collection. Established after Pathankot became a separate district in 2011, it plays a vital role in the transport administration of this border region.",
+    "status": "active",
+    "established": "2011",
+    "address": "SDM Office, Pathankot, Punjab - 145001",
+    "pinCode": "145001",
+    "phone": "0186-2220036",
+    "email": "sdm.ptk.pj@nic.in",
+    "jurisdictionAreas": [
+      "Pathankot",
+      "Narot Jaimal Singh",
+      "Bamial",
+      "Taragarh",
+      "Sujanpur"
+    ]
   }
 ]
