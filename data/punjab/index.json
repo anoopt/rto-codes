@@ -804,5 +804,121 @@
       "Taragarh",
       "Sujanpur"
     ]
+  },
+  {
+    "code": "PB-36",
+    "region": "Phagwara",
+    "city": "Phagwara",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Kapurthala",
+    "division": "Jalandhar",
+    "description": "PB-36 is the official RTO code for Phagwara, functioning as a Sub-Divisional Magistrate (SDM) office under the Punjab Transport Department. It manages vehicle registrations, driving licenses, and road tax collection for the Phagwara sub-division in Kapurthala district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Phagwara, District Kapurthala, Punjab",
+    "pinCode": "144401",
+    "phone": "01824-503451",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Phagwara",
+      "Phagwara Sub-division",
+      "Panchhat",
+      "Rawalpindi",
+      "Mauli"
+    ]
+  },
+  {
+    "code": "PB-37",
+    "region": "Phillour",
+    "city": "Phillour",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar Transport Division",
+    "description": "PB-37 is the Regional Transport Office serving the Phillour sub-division of the Jalandhar district in Punjab. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, driving licenses, and local transport law enforcement. It is a critical administrative hub for the residents of the Phillour and Goraya areas within the Jalandhar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Phillour, District Jalandhar, Punjab",
+    "pinCode": "144410",
+    "phone": "01826-222600",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Phillour",
+      "Goraya",
+      "Apra",
+      "Bara Pind",
+      "Bilga",
+      "Dosanjh Kalan",
+      "Rurka Kalan"
+    ]
+  },
+  {
+    "code": "PB-38",
+    "region": "Patti",
+    "city": "Patti",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar Division",
+    "description": "PB-38 is the Regional Transport Office for the Patti subdivision within the Tarn Taran district of Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, road tax collection, and the issuance of driving licenses for the Patti tehsil.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Patti, District Tarn Taran, Punjab",
+    "pinCode": "143416",
+    "phone": "01851-244940",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Patti",
+      "Khemkaran",
+      "Bhikhiwind",
+      "Amarkot",
+      "Khalra"
+    ]
+  },
+  {
+    "code": "PB-39",
+    "region": "Rajpura",
+    "city": "Rajpura",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala",
+    "description": "The PB-39 RTO is the official registration authority for the Rajpura sub-division in the Patiala district of Punjab. It operates under the Sub-Divisional Magistrate (SDM) office and manages vehicle registrations, driving license issuances, and transport permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Rajpura, Patiala, Punjab",
+    "pinCode": "140401",
+    "phone": "01762-224397",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rajpura",
+      "Banur",
+      "Rajpura Tehsil"
+    ]
+  },
+  {
+    "code": "PB-40",
+    "region": "Rampura Phul",
+    "city": "Rampura Phul",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Faridkot",
+    "description": "The PB-40 RTO operates as a Sub-Divisional Magistrate (SDM) office in Rampura Phul under the Punjab Transport Department. It handles crucial services like vehicle registration, road tax collection, and driving license issuance for the local sub-division and its surrounding rural zones.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDM, Rampura Phul, District Bathinda, Punjab",
+    "pinCode": "151103",
+    "phone": "01651-248225",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Rampura Phul",
+      "Bhucho Mandi",
+      "Phul Town",
+      "Balianwali",
+      "Bhagta Bhai Ka",
+      "Rampura Mandi"
+    ]
   }
 ]
