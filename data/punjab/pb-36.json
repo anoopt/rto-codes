@@ -1,0 +1,23 @@
+{
+    "code": "PB-36",
+    "region": "Phagwara",
+    "city": "Phagwara",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Kapurthala",
+    "division": "Jalandhar",
+    "description": "PB-36 is the official RTO code for Phagwara, functioning as a Sub-Divisional Magistrate (SDM) office under the Punjab Transport Department. It manages vehicle registrations, driving licenses, and road tax collection for the Phagwara sub-division in Kapurthala district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Phagwara, District Kapurthala, Punjab",
+    "pinCode": "144401",
+    "phone": "01824-503451",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Phagwara",
+        "Phagwara Sub-division",
+        "Panchhat",
+        "Rawalpindi",
+        "Mauli"
+    ]
+}

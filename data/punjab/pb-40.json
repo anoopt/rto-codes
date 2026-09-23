@@ -1,0 +1,24 @@
+{
+    "code": "PB-40",
+    "region": "Rampura Phul",
+    "city": "Rampura Phul",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Faridkot",
+    "description": "The PB-40 RTO operates as a Sub-Divisional Magistrate (SDM) office in Rampura Phul under the Punjab Transport Department. It handles crucial services like vehicle registration, road tax collection, and driving license issuance for the local sub-division and its surrounding rural zones.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDM, Rampura Phul, District Bathinda, Punjab",
+    "pinCode": "151103",
+    "phone": "01651-248225",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rampura Phul",
+        "Bhucho Mandi",
+        "Phul Town",
+        "Balianwali",
+        "Bhagta Bhai Ka",
+        "Rampura Mandi"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "PB-38",
+    "region": "Patti",
+    "city": "Patti",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar Division",
+    "description": "PB-38 is the Regional Transport Office for the Patti subdivision within the Tarn Taran district of Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, road tax collection, and the issuance of driving licenses for the Patti tehsil.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Patti, District Tarn Taran, Punjab",
+    "pinCode": "143416",
+    "phone": "01851-244940",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Patti",
+        "Khemkaran",
+        "Bhikhiwind",
+        "Amarkot",
+        "Khalra"
+    ]
+}

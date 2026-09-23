@@ -1,0 +1,21 @@
+{
+    "code": "PB-39",
+    "region": "Rajpura",
+    "city": "Rajpura",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala",
+    "description": "The PB-39 RTO is the official registration authority for the Rajpura sub-division in the Patiala district of Punjab. It operates under the Sub-Divisional Magistrate (SDM) office and manages vehicle registrations, driving license issuances, and transport permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Rajpura, Patiala, Punjab",
+    "pinCode": "140401",
+    "phone": "01762-224397",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Rajpura",
+        "Banur",
+        "Rajpura Tehsil"
+    ]
+}

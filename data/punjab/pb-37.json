@@ -1,0 +1,25 @@
+{
+    "code": "PB-37",
+    "region": "Phillour",
+    "city": "Phillour",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar Transport Division",
+    "description": "PB-37 is the Regional Transport Office serving the Phillour sub-division of the Jalandhar district in Punjab. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, driving licenses, and local transport law enforcement. It is a critical administrative hub for the residents of the Phillour and Goraya areas within the Jalandhar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Phillour, District Jalandhar, Punjab",
+    "pinCode": "144410",
+    "phone": "01826-222600",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Phillour",
+        "Goraya",
+        "Apra",
+        "Bara Pind",
+        "Bilga",
+        "Dosanjh Kalan",
+        "Rurka Kalan"
+    ]
+}
