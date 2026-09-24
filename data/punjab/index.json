@@ -920,5 +920,117 @@
       "Bhagta Bhai Ka",
       "Rampura Mandi"
     ]
+  },
+  {
+    "code": "PB-41",
+    "region": "Sultanpur Lodhi",
+    "city": "Sultanpur Lodhi",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Kapurthala",
+    "division": "Jalandhar Division",
+    "description": "PB-41 is the Regional Transport Office (RTO) serving the Sultanpur Lodhi subdivision in the Kapurthala district of Punjab. It is an SDM-level RTO responsible for vehicle registration, driving licenses, and the enforcement of the Motor Vehicles Act within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate (SDM), Sultanpur Lodhi, District Kapurthala, Punjab",
+    "pinCode": "144626",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sultanpur Lodhi",
+      "Talwandi Chaudhrian",
+      "Kabirpur",
+      "Sultanpur Lodhi Subdivision"
+    ]
+  },
+  {
+    "code": "PB-42",
+    "region": "Samana",
+    "city": "Samana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala",
+    "description": "PB-42 is the registration code assigned to the Sub-Divisional Magistrate (SDM) office in Samana, Punjab. It is an active transport authority office responsible for vehicle registrations, driving license issuance, and local transport regulation within the Samana sub-division of Patiala district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Samana, District Patiala, Punjab - 147101",
+    "pinCode": "147101",
+    "phone": "01764-220038",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Samana",
+      "Samana Sub-division",
+      "Patiala East regions under Samana jurisdiction"
+    ]
+  },
+  {
+    "code": "PB-43",
+    "region": "Samrala",
+    "city": "Samrala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala",
+    "description": "PB-43 is the Regional Transport Office serving the Samrala sub-division in the Ludhiana district of Punjab. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and transport permits for the local jurisdiction. It plays a crucial role in regulating road safety and transport services within the Samrala region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ludhiana Road, Near Bus Stand, Samrala, Punjab - 141114",
+    "pinCode": "141114",
+    "phone": "01628-262354",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Samrala",
+      "Machhiwara",
+      "Bahlolpur",
+      "Bondli",
+      "Otalan",
+      "Lall Kalan"
+    ]
+  },
+  {
+    "code": "PB-44",
+    "region": "Sunam",
+    "city": "Sunam",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala Division",
+    "description": "PB-44 is the Regional Transport Office code for the Sunam subdivision in the Sangrur district of Punjab. This office, managed by the Sub-Divisional Magistrate (SDM), is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Sunam, Sangrur, Punjab",
+    "pinCode": "148028",
+    "phone": "01676-220070",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sunam",
+      "Sunam Udham Singh Wala",
+      "Cheema",
+      "Longowal"
+    ]
+  },
+  {
+    "code": "PB-45",
+    "region": "Talwandi Sabo",
+    "city": "Talwandi Sabo",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Faridkot",
+    "description": "The PB-45 RTO serves the Talwandi Sabo sub-division in the Bathinda district of Punjab. It operates as an SDM-level registering authority responsible for vehicle registrations and driving license issuance. The office plays a vital role in managing transport regulations for this significant agricultural and religious center.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Talwandi Sabo, District Bathinda, Punjab",
+    "pinCode": "151302",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Talwandi Sabo",
+      "Rama Mandi",
+      "Maur",
+      "Singu",
+      "Bangi Deepa Singh"
+    ]
   }
 ]
