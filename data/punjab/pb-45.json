@@ -1,0 +1,23 @@
+{
+    "code": "PB-45",
+    "region": "Talwandi Sabo",
+    "city": "Talwandi Sabo",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Faridkot",
+    "description": "The PB-45 RTO serves the Talwandi Sabo sub-division in the Bathinda district of Punjab. It operates as an SDM-level registering authority responsible for vehicle registrations and driving license issuance. The office plays a vital role in managing transport regulations for this significant agricultural and religious center.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Talwandi Sabo, District Bathinda, Punjab",
+    "pinCode": "151302",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Talwandi Sabo",
+        "Rama Mandi",
+        "Maur",
+        "Singu",
+        "Bangi Deepa Singh"
+    ]
+}

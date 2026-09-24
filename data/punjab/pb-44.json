@@ -1,0 +1,22 @@
+{
+    "code": "PB-44",
+    "region": "Sunam",
+    "city": "Sunam",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala Division",
+    "description": "PB-44 is the Regional Transport Office code for the Sunam subdivision in the Sangrur district of Punjab. This office, managed by the Sub-Divisional Magistrate (SDM), is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Sunam, Sangrur, Punjab",
+    "pinCode": "148028",
+    "phone": "01676-220070",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sunam",
+        "Sunam Udham Singh Wala",
+        "Cheema",
+        "Longowal"
+    ]
+}

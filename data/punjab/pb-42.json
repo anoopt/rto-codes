@@ -1,0 +1,21 @@
+{
+    "code": "PB-42",
+    "region": "Samana",
+    "city": "Samana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala",
+    "description": "PB-42 is the registration code assigned to the Sub-Divisional Magistrate (SDM) office in Samana, Punjab. It is an active transport authority office responsible for vehicle registrations, driving license issuance, and local transport regulation within the Samana sub-division of Patiala district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Samana, District Patiala, Punjab - 147101",
+    "pinCode": "147101",
+    "phone": "01764-220038",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Samana",
+        "Samana Sub-division",
+        "Patiala East regions under Samana jurisdiction"
+    ]
+}

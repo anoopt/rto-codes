@@ -1,0 +1,24 @@
+{
+    "code": "PB-43",
+    "region": "Samrala",
+    "city": "Samrala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala",
+    "description": "PB-43 is the Regional Transport Office serving the Samrala sub-division in the Ludhiana district of Punjab. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and transport permits for the local jurisdiction. It plays a crucial role in regulating road safety and transport services within the Samrala region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Ludhiana Road, Near Bus Stand, Samrala, Punjab - 141114",
+    "pinCode": "141114",
+    "phone": "01628-262354",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Samrala",
+        "Machhiwara",
+        "Bahlolpur",
+        "Bondli",
+        "Otalan",
+        "Lall Kalan"
+    ]
+}
