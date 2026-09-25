@@ -1032,5 +1032,119 @@
       "Singu",
       "Bangi Deepa Singh"
     ]
+  },
+  {
+    "code": "PB-46",
+    "region": "Tarn Taran",
+    "city": "Tarn Taran Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar Division",
+    "description": "PB-46 is the Regional Transport Office for the Tarn Taran district in Punjab, responsible for vehicle registration, licensing, and transport permit issuance. It serves as a vital administrative hub in a predominantly agricultural border region, managing significant numbers of commercial and private vehicles.",
+    "status": "active",
+    "established": "2006",
+    "address": "Office of the District Transport Officer, Adarsh Nagar, Tarn Taran, Punjab",
+    "pinCode": "143401",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tarn Taran Sahib",
+      "Khadoor Sahib",
+      "Patti",
+      "Bhikhiwind",
+      "Chohla Sahib",
+      "Goindwal Sahib",
+      "Jhabal",
+      "Naushehra Pannuan"
+    ]
+  },
+  {
+    "code": "PB-47",
+    "region": "Zira",
+    "city": "Zira",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ferozepur",
+    "division": "Ferozepur",
+    "description": "PB-47 is the Regional Transport Office for the Zira sub-division in the Ferozepur district of Punjab. Operated under the Sub-Divisional Magistrate (SDM), this office is responsible for vehicle registration, issuance of driving licenses, and transport permit management for the Zira region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Zira, Punjab",
+    "pinCode": "142047",
+    "phone": "01632-250117",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Zira",
+      "Makhu",
+      "Mallanwala",
+      "Zira Tehsil"
+    ]
+  },
+  {
+    "code": "PB-48",
+    "region": "Amloh",
+    "city": "Amloh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala",
+    "description": "PB-48 is the Sub-Divisional Magistrate (SDM) office acting as the Regional Transport Office for the Amloh subdivision in Punjab. It manages vehicle registration, driving licenses, and transport tax collection for the Amloh and Mandi Gobindgarh industrial belt.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Amloh, District Fatehgarh Sahib, Punjab",
+    "pinCode": "147203",
+    "phone": "01765-230076",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Amloh",
+      "Mandi Gobindgarh",
+      "Fatehgarh Sahib District"
+    ]
+  },
+  {
+    "code": "PB-49",
+    "region": "Khamanon",
+    "city": "Khamanon",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala",
+    "description": "PB-49 RTO serves the Khamanon sub-division within the Fatehgarh Sahib district of Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving license issuance, and local transport regulation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Khamanon, District Fatehgarh Sahib, Punjab",
+    "pinCode": "141801",
+    "phone": "01628-260700",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khamanon",
+      "Khamano",
+      "Sanghol",
+      "Khamanon Kalan",
+      "Ranwan"
+    ]
+  },
+  {
+    "code": "PB-50",
+    "region": "Budhlada",
+    "city": "Budhlada",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mansa",
+    "division": "Patiala",
+    "description": "The PB-50 RTO serves the Budhlada subdivision within the Mansa district of Punjab. Operating under the Sub-Divisional Magistrate (SDM), this office handles vehicle registrations, issuance of permits, and driving licenses for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Budhlada, District Mansa, Punjab",
+    "pinCode": "151502",
+    "phone": "01652-253198",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Budhlada",
+      "Bareta",
+      "Boha",
+      "Budhlada Tehsil"
+    ]
   }
 ]
