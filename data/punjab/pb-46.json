@@ -1,0 +1,26 @@
+{
+    "code": "PB-46",
+    "region": "Tarn Taran",
+    "city": "Tarn Taran Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar Division",
+    "description": "PB-46 is the Regional Transport Office for the Tarn Taran district in Punjab, responsible for vehicle registration, licensing, and transport permit issuance. It serves as a vital administrative hub in a predominantly agricultural border region, managing significant numbers of commercial and private vehicles.",
+    "status": "active",
+    "established": "2006",
+    "address": "Office of the District Transport Officer, Adarsh Nagar, Tarn Taran, Punjab",
+    "pinCode": "143401",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tarn Taran Sahib",
+        "Khadoor Sahib",
+        "Patti",
+        "Bhikhiwind",
+        "Chohla Sahib",
+        "Goindwal Sahib",
+        "Jhabal",
+        "Naushehra Pannuan"
+    ]
+}

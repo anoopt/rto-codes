@@ -1,0 +1,22 @@
+{
+    "code": "PB-50",
+    "region": "Budhlada",
+    "city": "Budhlada",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mansa",
+    "division": "Patiala",
+    "description": "The PB-50 RTO serves the Budhlada subdivision within the Mansa district of Punjab. Operating under the Sub-Divisional Magistrate (SDM), this office handles vehicle registrations, issuance of permits, and driving licenses for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Budhlada, District Mansa, Punjab",
+    "pinCode": "151502",
+    "phone": "01652-253198",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Budhlada",
+        "Bareta",
+        "Boha",
+        "Budhlada Tehsil"
+    ]
+}

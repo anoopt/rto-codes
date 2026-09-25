@@ -1,0 +1,22 @@
+{
+    "code": "PB-47",
+    "region": "Zira",
+    "city": "Zira",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ferozepur",
+    "division": "Ferozepur",
+    "description": "PB-47 is the Regional Transport Office for the Zira sub-division in the Ferozepur district of Punjab. Operated under the Sub-Divisional Magistrate (SDM), this office is responsible for vehicle registration, issuance of driving licenses, and transport permit management for the Zira region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Zira, Punjab",
+    "pinCode": "142047",
+    "phone": "01632-250117",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Zira",
+        "Makhu",
+        "Mallanwala",
+        "Zira Tehsil"
+    ]
+}

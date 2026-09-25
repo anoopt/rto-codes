@@ -1,0 +1,21 @@
+{
+    "code": "PB-48",
+    "region": "Amloh",
+    "city": "Amloh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala",
+    "description": "PB-48 is the Sub-Divisional Magistrate (SDM) office acting as the Regional Transport Office for the Amloh subdivision in Punjab. It manages vehicle registration, driving licenses, and transport tax collection for the Amloh and Mandi Gobindgarh industrial belt.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Amloh, District Fatehgarh Sahib, Punjab",
+    "pinCode": "147203",
+    "phone": "01765-230076",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Amloh",
+        "Mandi Gobindgarh",
+        "Fatehgarh Sahib District"
+    ]
+}

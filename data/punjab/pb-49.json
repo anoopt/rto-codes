@@ -1,0 +1,23 @@
+{
+    "code": "PB-49",
+    "region": "Khamanon",
+    "city": "Khamanon",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala",
+    "description": "PB-49 RTO serves the Khamanon sub-division within the Fatehgarh Sahib district of Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving license issuance, and local transport regulation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Khamanon, District Fatehgarh Sahib, Punjab",
+    "pinCode": "141801",
+    "phone": "01628-260700",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Khamanon",
+        "Khamano",
+        "Sanghol",
+        "Khamanon Kalan",
+        "Ranwan"
+    ]
+}
