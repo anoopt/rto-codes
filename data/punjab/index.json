@@ -1146,5 +1146,122 @@
       "Boha",
       "Budhlada Tehsil"
     ]
+  },
+  {
+    "code": "PB-51",
+    "region": "Sardulgarh",
+    "city": "Sardulgarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mansa",
+    "division": "Bathinda Division",
+    "description": "PB-51 RTO represents the Sardulgarh sub-division in the Mansa district of Punjab. This office operates under the Sub-Divisional Magistrate and handles vehicle registration, licensing, and road tax collection for the Sardulgarh and Jhunir areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Sardulgarh, District Mansa, Punjab",
+    "pinCode": "151507",
+    "phone": "01659-250287",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sardulgarh",
+      "Jhunir"
+    ]
+  },
+  {
+    "code": "PB-52",
+    "region": "Bassi Pathana",
+    "city": "Bassi Pathana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala",
+    "description": "PB-52 RTO operates as the Sub-Divisional Magistrate (SDM) office in Bassi Pathana, serving as a secondary registration authority for the Fatehgarh Sahib district. It handles vehicle registration, licensing, and transport permits specifically for the Bassi Pathana sub-division. This office ensures decentralized transport services for residents who would otherwise have to travel to the main district headquarters.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Bassi Pathana, District Fatehgarh Sahib, Punjab",
+    "pinCode": "140412",
+    "phone": "01763-250135",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bassi Pathana",
+      "Khamano",
+      "Khera",
+      "Nandpur Kalour",
+      "Chanarthal Kalan"
+    ]
+  },
+  {
+    "code": "PB-53",
+    "region": "Malout",
+    "city": "Malout",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sri Muktsar Sahib",
+    "division": "Ferozepur Division",
+    "description": "The PB-53 RTO office is located in Malout, serving the Malout sub-division of the Sri Muktsar Sahib district in Punjab. It functions as a Sub-Divisional Magistrate (SDM) office responsible for issuing driving licenses, vehicle registration certificates, and managing transport permits in this agricultural hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Tehsil Road, Malout, Punjab",
+    "pinCode": "152107",
+    "phone": "01637-263001",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Malout",
+      "Lambi",
+      "Sham Khera",
+      "Ratta Khera",
+      "Bodiwala Kharak Singh",
+      "Midda",
+      "Mohlan",
+      "Sikhwala",
+      "Fatuhi Khera"
+    ]
+  },
+  {
+    "code": "PB-54",
+    "region": "Mukerian",
+    "city": "Mukerian",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Hoshiarpur",
+    "division": "Jalandhar",
+    "description": "The PB-54 RTO serves the Mukerian subdivision within the Hoshiarpur district of Punjab. Operating under the Sub-Divisional Magistrate (SDM), this office handles motor vehicle registrations, driving license issuances, and transport permit renewals for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Mukerian, Village Bagowal, State Highway 25, Mukerian, Punjab",
+    "pinCode": "144214",
+    "phone": "01883-22441",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Mukerian",
+      "Talwara",
+      "Hajipur",
+      "Kamahi Devi",
+      "Mansar"
+    ]
+  },
+  {
+    "code": "PB-55",
+    "region": "Payal",
+    "city": "Payal",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala Division",
+    "description": "PB-55 RTO refers to the Sub-Divisional Magistrate (SDM) office in Payal, Ludhiana district. It serves as an authorized body for vehicle registration, driving licenses, and other transport-related services for the Payal subdivision under the Punjab Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Kaddon Road, Payal, District Ludhiana, Punjab",
+    "pinCode": "141416",
+    "phone": "01628-276892",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Payal",
+      "Malaudh",
+      "Kaddon",
+      "Dhamot",
+      "Sihaar",
+      "Doraha"
+    ]
   }
 ]
