@@ -1,0 +1,20 @@
+{
+    "code": "PB-51",
+    "region": "Sardulgarh",
+    "city": "Sardulgarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mansa",
+    "division": "Bathinda Division",
+    "description": "PB-51 RTO represents the Sardulgarh sub-division in the Mansa district of Punjab. This office operates under the Sub-Divisional Magistrate and handles vehicle registration, licensing, and road tax collection for the Sardulgarh and Jhunir areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Sardulgarh, District Mansa, Punjab",
+    "pinCode": "151507",
+    "phone": "01659-250287",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sardulgarh",
+        "Jhunir"
+    ]
+}

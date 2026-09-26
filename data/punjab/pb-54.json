@@ -1,0 +1,23 @@
+{
+    "code": "PB-54",
+    "region": "Mukerian",
+    "city": "Mukerian",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Hoshiarpur",
+    "division": "Jalandhar",
+    "description": "The PB-54 RTO serves the Mukerian subdivision within the Hoshiarpur district of Punjab. Operating under the Sub-Divisional Magistrate (SDM), this office handles motor vehicle registrations, driving license issuances, and transport permit renewals for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Mukerian, Village Bagowal, State Highway 25, Mukerian, Punjab",
+    "pinCode": "144214",
+    "phone": "01883-22441",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mukerian",
+        "Talwara",
+        "Hajipur",
+        "Kamahi Devi",
+        "Mansar"
+    ]
+}

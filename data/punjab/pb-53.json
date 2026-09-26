@@ -1,0 +1,27 @@
+{
+    "code": "PB-53",
+    "region": "Malout",
+    "city": "Malout",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sri Muktsar Sahib",
+    "division": "Ferozepur Division",
+    "description": "The PB-53 RTO office is located in Malout, serving the Malout sub-division of the Sri Muktsar Sahib district in Punjab. It functions as a Sub-Divisional Magistrate (SDM) office responsible for issuing driving licenses, vehicle registration certificates, and managing transport permits in this agricultural hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Tehsil Road, Malout, Punjab",
+    "pinCode": "152107",
+    "phone": "01637-263001",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Malout",
+        "Lambi",
+        "Sham Khera",
+        "Ratta Khera",
+        "Bodiwala Kharak Singh",
+        "Midda",
+        "Mohlan",
+        "Sikhwala",
+        "Fatuhi Khera"
+    ]
+}

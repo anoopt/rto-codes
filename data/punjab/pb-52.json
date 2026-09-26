@@ -1,0 +1,23 @@
+{
+    "code": "PB-52",
+    "region": "Bassi Pathana",
+    "city": "Bassi Pathana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fatehgarh Sahib",
+    "division": "Patiala",
+    "description": "PB-52 RTO operates as the Sub-Divisional Magistrate (SDM) office in Bassi Pathana, serving as a secondary registration authority for the Fatehgarh Sahib district. It handles vehicle registration, licensing, and transport permits specifically for the Bassi Pathana sub-division. This office ensures decentralized transport services for residents who would otherwise have to travel to the main district headquarters.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Bassi Pathana, District Fatehgarh Sahib, Punjab",
+    "pinCode": "140412",
+    "phone": "01763-250135",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bassi Pathana",
+        "Khamano",
+        "Khera",
+        "Nandpur Kalour",
+        "Chanarthal Kalan"
+    ]
+}

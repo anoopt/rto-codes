@@ -1,0 +1,24 @@
+{
+    "code": "PB-55",
+    "region": "Payal",
+    "city": "Payal",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala Division",
+    "description": "PB-55 RTO refers to the Sub-Divisional Magistrate (SDM) office in Payal, Ludhiana district. It serves as an authorized body for vehicle registration, driving licenses, and other transport-related services for the Payal subdivision under the Punjab Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Kaddon Road, Payal, District Ludhiana, Punjab",
+    "pinCode": "141416",
+    "phone": "01628-276892",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Payal",
+        "Malaudh",
+        "Kaddon",
+        "Dhamot",
+        "Sihaar",
+        "Doraha"
+    ]
+}
