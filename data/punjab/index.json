@@ -1263,5 +1263,118 @@
       "Sihaar",
       "Doraha"
     ]
+  },
+  {
+    "code": "PB-56",
+    "region": "Raikot",
+    "city": "Raikot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala",
+    "description": "PB-56 is the official RTO code for the Raikot subdivision in Ludhiana district, Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and tax collections for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Malerkotla Road, Dana Mandi, Raikot, District Ludhiana, Punjab",
+    "pinCode": "141109",
+    "phone": "01624-266934",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Raikot",
+      "Lohat Baddi",
+      "Bassiian",
+      "Jalaladdi",
+      "Halwara",
+      "Talwandi Rai",
+      "Sudhar"
+    ]
+  },
+  {
+    "code": "PB-57",
+    "region": "Bhulath",
+    "city": "Bhulath",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Kapurthala",
+    "division": "Jalandhar",
+    "description": "PB-57 is the Regional Transport Office serving the Bhulath subdivision in Kapurthala, Punjab. It operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, driving tests, and licensing for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Bhulath, District Kapurthala, Punjab",
+    "pinCode": "144622",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bhulath",
+      "Nadala",
+      "Begowal",
+      "Bholath Subdivision"
+    ]
+  },
+  {
+    "code": "PB-58",
+    "region": "Dera Baba Nanak",
+    "city": "Dera Baba Nanak",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar",
+    "description": "PB-58 is the dedicated RTO code for the Dera Baba Nanak sub-division in Gurdaspur district, Punjab. The office, operating under the Sub-Divisional Magistrate, manages vehicle registrations, driving license issuances, and transport permit renewals for this strategically important border town.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate (SDM) Office, Dera Baba Nanak, Gurdaspur, Punjab",
+    "pinCode": "143604",
+    "phone": "01871-247420",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dera Baba Nanak",
+      "Kalanaur",
+      "Dhariwal Rural"
+    ]
+  },
+  {
+    "code": "PB-59",
+    "region": "Dhuri",
+    "city": "Dhuri",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-59 is the Regional Transport Office for the Dhuri sub-division in the Sangrur district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and transport permit services for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Dhuri, Sangrur, Punjab",
+    "pinCode": "148024",
+    "phone": "01675-220561",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dhuri",
+      "Sherpur",
+      "Dhuri Tehsil"
+    ]
+  },
+  {
+    "code": "PB-60",
+    "region": "Gidderbaha",
+    "city": "Gidderbaha",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sri Muktsar Sahib",
+    "division": "Ferozepur",
+    "description": "PB-60 is the Regional Transport Office code for Gidderbaha sub-division in the Sri Muktsar Sahib district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and transport permit renewals for the local area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Gidderbaha, District Sri Muktsar Sahib, Punjab",
+    "pinCode": "152101",
+    "phone": "01637-260295",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Gidderbaha",
+      "Doda",
+      "Kot Bhai",
+      "Husnar",
+      "Bhalaiana",
+      "Buttar Saru"
+    ]
   }
 ]
