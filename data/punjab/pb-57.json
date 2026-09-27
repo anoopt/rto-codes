@@ -1,0 +1,22 @@
+{
+    "code": "PB-57",
+    "region": "Bhulath",
+    "city": "Bhulath",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Kapurthala",
+    "division": "Jalandhar",
+    "description": "PB-57 is the Regional Transport Office serving the Bhulath subdivision in Kapurthala, Punjab. It operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registration, driving tests, and licensing for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Bhulath, District Kapurthala, Punjab",
+    "pinCode": "144622",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhulath",
+        "Nadala",
+        "Begowal",
+        "Bholath Subdivision"
+    ]
+}

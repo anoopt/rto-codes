@@ -1,0 +1,21 @@
+{
+    "code": "PB-59",
+    "region": "Dhuri",
+    "city": "Dhuri",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-59 is the Regional Transport Office for the Dhuri sub-division in the Sangrur district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and transport permit services for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Dhuri, Sangrur, Punjab",
+    "pinCode": "148024",
+    "phone": "01675-220561",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dhuri",
+        "Sherpur",
+        "Dhuri Tehsil"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "PB-60",
+    "region": "Gidderbaha",
+    "city": "Gidderbaha",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sri Muktsar Sahib",
+    "division": "Ferozepur",
+    "description": "PB-60 is the Regional Transport Office code for Gidderbaha sub-division in the Sri Muktsar Sahib district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and transport permit renewals for the local area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Gidderbaha, District Sri Muktsar Sahib, Punjab",
+    "pinCode": "152101",
+    "phone": "01637-260295",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gidderbaha",
+        "Doda",
+        "Kot Bhai",
+        "Husnar",
+        "Bhalaiana",
+        "Buttar Saru"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "PB-56",
+    "region": "Raikot",
+    "city": "Raikot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ludhiana",
+    "division": "Patiala",
+    "description": "PB-56 is the official RTO code for the Raikot subdivision in Ludhiana district, Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and tax collections for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Malerkotla Road, Dana Mandi, Raikot, District Ludhiana, Punjab",
+    "pinCode": "141109",
+    "phone": "01624-266934",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Raikot",
+        "Lohat Baddi",
+        "Bassiian",
+        "Jalaladdi",
+        "Halwara",
+        "Talwandi Rai",
+        "Sudhar"
+    ]
+}
