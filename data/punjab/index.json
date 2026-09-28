@@ -1376,5 +1376,125 @@
       "Bhalaiana",
       "Buttar Saru"
     ]
+  },
+  {
+    "code": "PB-61",
+    "region": "Jalalabad (West)",
+    "city": "Jalalabad",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fazilka",
+    "division": "Ferozepur Division",
+    "description": "PB-61 is the Regional Transport Office for the Jalalabad (West) sub-division in the Fazilka district of Punjab. It functions as a Sub-Divisional Magistrate (SDM) office responsible for vehicle registration, driving license issuance, and local transport regulation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Jalalabad (West), District Fazilka, Punjab",
+    "pinCode": "152024",
+    "phone": "01638-251336",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jalalabad (West)",
+      "Arniwala Sheikh Subhan",
+      "Ladhuka",
+      "Jalalabad Rural",
+      "Ghuman Kalan",
+      "Chak Saido Ke"
+    ]
+  },
+  {
+    "code": "PB-62",
+    "region": "Jaitu",
+    "city": "Jaitu",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Faridkot",
+    "division": "Faridkot",
+    "description": "The PB-62 RTO is the administrative transport office for the Jaitu subdivision in Punjab. Operated through the Subdivisional Magistrate (SDM) office, it facilitates vehicle registration, driving license issuance, and road tax collection for the Jaitu area and its rural hinterlands.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Subdivisional Magistrate Office, Grain Market, Jaitu, District Faridkot, Punjab",
+    "pinCode": "151202",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Jaitu",
+      "Bajakhana",
+      "Gangsar Jaito",
+      "Behbal Kalan",
+      "Chand Bhan",
+      "Gumti Kalan"
+    ]
+  },
+  {
+    "code": "PB-63",
+    "region": "Khadoor Sahib",
+    "city": "Khadoor Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar",
+    "description": "PB-63 is the Regional Transport Office for the Khadoor Sahib sub-division in the Tarn Taran district of Punjab. This office facilitates motor vehicle registration, issuance of driving licenses, and other transport-related services under the state transport department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub-Divisional Magistrate Office, Tehsil Complex, Khadoor Sahib, District Tarn Taran, Punjab",
+    "pinCode": "143117",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khadoor Sahib",
+      "Goindwal Sahib",
+      "Fatehabad",
+      "Nagoke",
+      "Chola Sahib"
+    ]
+  },
+  {
+    "code": "PB-64",
+    "region": "Moonak",
+    "city": "Moonak",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-64 is the designated Regional Transport Office for the Moonak sub-division in Sangrur district, Punjab. This office operates under the Sub-Divisional Magistrate and handles vehicle registration, issuance of driving licenses, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Moonak, Sangrur District, Punjab",
+    "pinCode": "148033",
+    "phone": "01676-276654",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Moonak",
+      "Khanauri",
+      "Moonak Sub-division",
+      "Surjan Bhaini",
+      "Hamirgarh"
+    ]
+  },
+  {
+    "code": "PB-65",
+    "region": "SAS Nagar (Mohali)",
+    "city": "Mohali",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mohali",
+    "division": "Rupnagar",
+    "description": "PB-65 is the primary Regional Transport Office for Mohali (SAS Nagar), Punjab. It handles vehicle registrations, driving licenses, and transport permits for the urban and suburban areas of this major commercial and IT hub adjacent to Chandigarh.",
+    "status": "active",
+    "established": "2006",
+    "address": "Room No. 11, District Transport Office, District Administrative Complex, Sector 76, SAS Nagar (Mohali), Punjab",
+    "pinCode": "140308",
+    "phone": "0172-5044506",
+    "email": "dto.sas@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Mohali City",
+      "SAS Nagar",
+      "Sector 76",
+      "Sector 62",
+      "Phase 1-11 Mohali",
+      "Mullanpur Garibdass",
+      "Zirakpur",
+      "Nayagaon"
+    ]
   }
 ]
