@@ -1,0 +1,23 @@
+{
+    "code": "PB-64",
+    "region": "Moonak",
+    "city": "Moonak",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-64 is the designated Regional Transport Office for the Moonak sub-division in Sangrur district, Punjab. This office operates under the Sub-Divisional Magistrate and handles vehicle registration, issuance of driving licenses, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Moonak, Sangrur District, Punjab",
+    "pinCode": "148033",
+    "phone": "01676-276654",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Moonak",
+        "Khanauri",
+        "Moonak Sub-division",
+        "Surjan Bhaini",
+        "Hamirgarh"
+    ]
+}

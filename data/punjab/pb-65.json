@@ -1,0 +1,26 @@
+{
+    "code": "PB-65",
+    "region": "SAS Nagar (Mohali)",
+    "city": "Mohali",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Mohali",
+    "division": "Rupnagar",
+    "description": "PB-65 is the primary Regional Transport Office for Mohali (SAS Nagar), Punjab. It handles vehicle registrations, driving licenses, and transport permits for the urban and suburban areas of this major commercial and IT hub adjacent to Chandigarh.",
+    "status": "active",
+    "established": "2006",
+    "address": "Room No. 11, District Transport Office, District Administrative Complex, Sector 76, SAS Nagar (Mohali), Punjab",
+    "pinCode": "140308",
+    "phone": "0172-5044506",
+    "email": "dto.sas@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Mohali City",
+        "SAS Nagar",
+        "Sector 76",
+        "Sector 62",
+        "Phase 1-11 Mohali",
+        "Mullanpur Garibdass",
+        "Zirakpur",
+        "Nayagaon"
+    ]
+}

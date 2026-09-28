@@ -1,0 +1,24 @@
+{
+    "code": "PB-61",
+    "region": "Jalalabad (West)",
+    "city": "Jalalabad",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Fazilka",
+    "division": "Ferozepur Division",
+    "description": "PB-61 is the Regional Transport Office for the Jalalabad (West) sub-division in the Fazilka district of Punjab. It functions as a Sub-Divisional Magistrate (SDM) office responsible for vehicle registration, driving license issuance, and local transport regulation.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Jalalabad (West), District Fazilka, Punjab",
+    "pinCode": "152024",
+    "phone": "01638-251336",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jalalabad (West)",
+        "Arniwala Sheikh Subhan",
+        "Ladhuka",
+        "Jalalabad Rural",
+        "Ghuman Kalan",
+        "Chak Saido Ke"
+    ]
+}
