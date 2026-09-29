@@ -1496,5 +1496,121 @@
       "Zirakpur",
       "Nayagaon"
     ]
+  },
+  {
+    "code": "PB-66",
+    "region": "Nihal Singh Wala",
+    "city": "Nihal Singh Wala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "PB-66 is the Regional Transport Office for the Nihal Singh Wala sub-division in the Moga district of Punjab. It operates as a Sub-Divisional Magistrate office providing essential vehicle registration and driver licensing services to the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Nihal Singh Wala, District Moga, Punjab",
+    "pinCode": "142046",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nihal Singh Wala",
+      "Badhni Kalan",
+      "Bilaspur",
+      "Himmatpura",
+      "Ransih Kalan",
+      "Saidoke",
+      "Patton Hira Singh"
+    ]
+  },
+  {
+    "code": "PB-67",
+    "region": "Shahkot",
+    "city": "Shahkot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "PB-67 is the official RTO code for the Shahkot sub-division in Jalandhar district, Punjab. It operates under the authority of the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving license issuances, and transport permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Shahkot, District Jalandhar, Punjab",
+    "pinCode": "144702",
+    "phone": "01821-260991",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shahkot",
+      "Lohian Khas",
+      "Malsian",
+      "Mehatpur",
+      "Shahkot Sub-division"
+    ]
+  },
+  {
+    "code": "PB-68",
+    "region": "Dhar Kalan",
+    "city": "Dhar Kalan",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Pathankot",
+    "division": "Jalandhar",
+    "description": "PB-68 is the Regional Transport Office serving the Dhar Kalan subdivision in the Pathankot district of Punjab. Operated under the Sub-Divisional Magistrate (SDM), this office handles vehicle registration, driving licenses, and local transport administrative duties for the hilly border regions of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Dhar Kalan, Pathankot, Punjab",
+    "pinCode": "145021",
+    "phone": "01870-255305",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dhar Kalan",
+      "Dunera",
+      "Bungal",
+      "Dhar Kalan Tehsil",
+      "Narot Jaimal Singh"
+    ]
+  },
+  {
+    "code": "PB-69",
+    "region": "Bagha Purana",
+    "city": "Bagha Purana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "PB-69 is the Regional Transport Office for the Bagha Purana sub-division in the Moga district of Punjab. Managed by the Sub-Divisional Magistrate, it handles vehicle registrations, driving licenses, and transport permits for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mudki Road, Bagha Purana, District Moga, Punjab",
+    "pinCode": "142038",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bagha Purana",
+      "Nathuwala West",
+      "Mari Mustafa",
+      "Samalsar",
+      "Bhaloor",
+      "Kotla Mehar Singh Wala"
+    ]
+  },
+  {
+    "code": "PB-70",
+    "region": "Dera Bassi",
+    "city": "Dera Bassi",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "SAS Nagar",
+    "division": "Patiala Division",
+    "description": "The PB-70 RTO office is the Sub Divisional Magistrate (SDM) office located in Dera Bassi, Punjab. It serves as a specialized registration authority for the Dera Bassi sub-division of SAS Nagar district, handling essential services like vehicle registration, driving licenses, and NOC issuance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Dera Bassi, Punjab",
+    "pinCode": "140507",
+    "phone": "01762-282224",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dera Bassi",
+      "Zirakpur",
+      "Lalru"
+    ]
   }
 ]
