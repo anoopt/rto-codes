@@ -1,0 +1,25 @@
+{
+    "code": "PB-66",
+    "region": "Nihal Singh Wala",
+    "city": "Nihal Singh Wala",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "PB-66 is the Regional Transport Office for the Nihal Singh Wala sub-division in the Moga district of Punjab. It operates as a Sub-Divisional Magistrate office providing essential vehicle registration and driver licensing services to the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Nihal Singh Wala, District Moga, Punjab",
+    "pinCode": "142046",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nihal Singh Wala",
+        "Badhni Kalan",
+        "Bilaspur",
+        "Himmatpura",
+        "Ransih Kalan",
+        "Saidoke",
+        "Patton Hira Singh"
+    ]
+}

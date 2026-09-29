@@ -1,0 +1,23 @@
+{
+    "code": "PB-68",
+    "region": "Dhar Kalan",
+    "city": "Dhar Kalan",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Pathankot",
+    "division": "Jalandhar",
+    "description": "PB-68 is the Regional Transport Office serving the Dhar Kalan subdivision in the Pathankot district of Punjab. Operated under the Sub-Divisional Magistrate (SDM), this office handles vehicle registration, driving licenses, and local transport administrative duties for the hilly border regions of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Dhar Kalan, Pathankot, Punjab",
+    "pinCode": "145021",
+    "phone": "01870-255305",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dhar Kalan",
+        "Dunera",
+        "Bungal",
+        "Dhar Kalan Tehsil",
+        "Narot Jaimal Singh"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "PB-70",
+    "region": "Dera Bassi",
+    "city": "Dera Bassi",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "SAS Nagar",
+    "division": "Patiala Division",
+    "description": "The PB-70 RTO office is the Sub Divisional Magistrate (SDM) office located in Dera Bassi, Punjab. It serves as a specialized registration authority for the Dera Bassi sub-division of SAS Nagar district, handling essential services like vehicle registration, driving licenses, and NOC issuance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sub Divisional Office, Dera Bassi, Punjab",
+    "pinCode": "140507",
+    "phone": "01762-282224",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dera Bassi",
+        "Zirakpur",
+        "Lalru"
+    ]
+}

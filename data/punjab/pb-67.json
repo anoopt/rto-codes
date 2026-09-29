@@ -1,0 +1,23 @@
+{
+    "code": "PB-67",
+    "region": "Shahkot",
+    "city": "Shahkot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "PB-67 is the official RTO code for the Shahkot sub-division in Jalandhar district, Punjab. It operates under the authority of the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving license issuances, and transport permit services for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Shahkot, District Jalandhar, Punjab",
+    "pinCode": "144702",
+    "phone": "01821-260991",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shahkot",
+        "Lohian Khas",
+        "Malsian",
+        "Mehatpur",
+        "Shahkot Sub-division"
+    ]
+}

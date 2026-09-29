@@ -1,0 +1,24 @@
+{
+    "code": "PB-69",
+    "region": "Bagha Purana",
+    "city": "Bagha Purana",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "PB-69 is the Regional Transport Office for the Bagha Purana sub-division in the Moga district of Punjab. Managed by the Sub-Divisional Magistrate, it handles vehicle registrations, driving licenses, and transport permits for the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Mudki Road, Bagha Purana, District Moga, Punjab",
+    "pinCode": "142038",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bagha Purana",
+        "Nathuwala West",
+        "Mari Mustafa",
+        "Samalsar",
+        "Bhaloor",
+        "Kotla Mehar Singh Wala"
+    ]
+}
