@@ -1612,5 +1612,120 @@
       "Zirakpur",
       "Lalru"
     ]
+  },
+  {
+    "code": "PB-71",
+    "region": "Chamkaur Sahib",
+    "city": "Chamkaur Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala",
+    "description": "PB-71 is the Sub-Divisional Regional Transport Office located in Chamkaur Sahib, Punjab. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and transport permits for the Chamkaur Sahib sub-division within the Rupnagar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Chamkaur Sahib, District Rupnagar, Punjab",
+    "pinCode": "140112",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chamkaur Sahib",
+      "Bela",
+      "Sanduan",
+      "Luton",
+      "Fatehgarh Sahib Boundary Area Border",
+      "Ghanauli"
+    ]
+  },
+  {
+    "code": "PB-72",
+    "region": "Patran",
+    "city": "Patran",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala Division",
+    "description": "PB-72 RTO is the Sub-Divisional Magistrate (SDM) office serving the Patran sub-division of the Patiala district. It acts as the local Registering and Licensing Authority (RLA) responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDM, Patran, District Patiala, Punjab",
+    "pinCode": "147105",
+    "phone": "01764-243610",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Patran",
+      "Ghagga",
+      "Shutrana",
+      "Kartarpur",
+      "Haryau Sangat"
+    ]
+  },
+  {
+    "code": "PB-73",
+    "region": "Tappa Mandi",
+    "city": "Tappa Mandi",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Barnala",
+    "division": "Patiala",
+    "description": "PB-73 serves the Tappa Mandi sub-division in the Barnala district of Punjab. It operates as a Sub-Divisional RTO (SDM) office providing services such as vehicle registration, driving license issuance, and transport permits for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tappa Mandi, District Barnala, Punjab",
+    "pinCode": "151108",
+    "phone": "01679-273201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tappa Mandi",
+      "Tappa Sub-division",
+      "Barnala District"
+    ]
+  },
+  {
+    "code": "PB-74",
+    "region": "Nangal",
+    "city": "Nangal",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala",
+    "description": "The PB-74 RTO functions as the Sub-Divisional Magistrate (SDM) office for Nangal in the Rupnagar district of Punjab. It handles local vehicle registrations, driving license issuances, and enforces transport regulations within the Nangal sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Nangal, District Rupnagar, Punjab - 140124",
+    "pinCode": "140124",
+    "phone": "01887-226030",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nangal",
+      "Naya Nangal",
+      "Bhanupli",
+      "Ajouli",
+      "Bhallan",
+      "Mehandpur"
+    ]
+  },
+  {
+    "code": "PB-75",
+    "region": "Lehragaga",
+    "city": "Lehragaga",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-75 is the official registration code for the Lehragaga Regional Transport Office (SDM office) in Punjab. It serves the Lehragaga sub-division, handling vehicle registration, driving licenses, and other transport-related permits for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM (Sub-Divisional Magistrate) Office, Lehragaga, District Sangrur, Punjab",
+    "pinCode": "148031",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Lehragaga",
+      "Moonak",
+      "Khanauri",
+      "Lehra Gaga Sub-Division",
+      "Surjan Basti"
+    ]
   }
 ]
