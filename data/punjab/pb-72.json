@@ -1,0 +1,23 @@
+{
+    "code": "PB-72",
+    "region": "Patran",
+    "city": "Patran",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala Division",
+    "description": "PB-72 RTO is the Sub-Divisional Magistrate (SDM) office serving the Patran sub-division of the Patiala district. It acts as the local Registering and Licensing Authority (RLA) responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDM, Patran, District Patiala, Punjab",
+    "pinCode": "147105",
+    "phone": "01764-243610",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Patran",
+        "Ghagga",
+        "Shutrana",
+        "Kartarpur",
+        "Haryau Sangat"
+    ]
+}

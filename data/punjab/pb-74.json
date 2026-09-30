@@ -1,0 +1,24 @@
+{
+    "code": "PB-74",
+    "region": "Nangal",
+    "city": "Nangal",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala",
+    "description": "The PB-74 RTO functions as the Sub-Divisional Magistrate (SDM) office for Nangal in the Rupnagar district of Punjab. It handles local vehicle registrations, driving license issuances, and enforces transport regulations within the Nangal sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Nangal, District Rupnagar, Punjab - 140124",
+    "pinCode": "140124",
+    "phone": "01887-226030",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nangal",
+        "Naya Nangal",
+        "Bhanupli",
+        "Ajouli",
+        "Bhallan",
+        "Mehandpur"
+    ]
+}

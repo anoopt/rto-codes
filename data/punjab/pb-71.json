@@ -1,0 +1,24 @@
+{
+    "code": "PB-71",
+    "region": "Chamkaur Sahib",
+    "city": "Chamkaur Sahib",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Patiala",
+    "description": "PB-71 is the Sub-Divisional Regional Transport Office located in Chamkaur Sahib, Punjab. This office operates under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and transport permits for the Chamkaur Sahib sub-division within the Rupnagar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Chamkaur Sahib, District Rupnagar, Punjab",
+    "pinCode": "140112",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chamkaur Sahib",
+        "Bela",
+        "Sanduan",
+        "Luton",
+        "Fatehgarh Sahib Boundary Area Border",
+        "Ghanauli"
+    ]
+}

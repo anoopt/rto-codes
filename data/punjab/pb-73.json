@@ -1,0 +1,21 @@
+{
+    "code": "PB-73",
+    "region": "Tappa Mandi",
+    "city": "Tappa Mandi",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Barnala",
+    "division": "Patiala",
+    "description": "PB-73 serves the Tappa Mandi sub-division in the Barnala district of Punjab. It operates as a Sub-Divisional RTO (SDM) office providing services such as vehicle registration, driving license issuance, and transport permits for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Tappa Mandi, District Barnala, Punjab",
+    "pinCode": "151108",
+    "phone": "01679-273201",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tappa Mandi",
+        "Tappa Sub-division",
+        "Barnala District"
+    ]
+}
