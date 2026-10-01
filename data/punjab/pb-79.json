@@ -1,0 +1,22 @@
+{
+    "code": "PB-79",
+    "region": "Kotkapura",
+    "city": "Kotkapura",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Faridkot",
+    "division": "Ferozepur",
+    "description": "The PB-79 RTO serves the Kotkapura sub-division within the Faridkot district of Punjab. It is an active sub-divisional transport office responsible for issuing driving licenses, vehicle registrations, and road permits for the local region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Kotkapura, District Faridkot, Punjab",
+    "pinCode": "151204",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kotkapura",
+        "Kotkapura Sub-division",
+        "Jaitu",
+        "Bajakhana"
+    ]
+}

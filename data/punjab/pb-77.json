@@ -1,0 +1,22 @@
+{
+    "code": "PB-77",
+    "region": "Guru Har Sahai",
+    "city": "Guru Har Sahai",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Ferozepur",
+    "division": "Ferozepur",
+    "description": "PB-77 is a Sub-Regional Transport Office (Sub-RTO) located in Guru Har Sahai, a subdivision of the Ferozepur district in Punjab. The office operates under the Sub-Divisional Magistrate (SDM) and is responsible for vehicle registration, driving licenses, and transport tax collection for the Guru Har Sahai region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Complex, Guru Har Sahai, District Ferozepur, Punjab",
+    "pinCode": "152022",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Guru Har Sahai Tehsil",
+        "Guru Har Sahai Subdivision",
+        "Lakhoke Ke Behram",
+        "Mohan Ke Uttar"
+    ]
+}

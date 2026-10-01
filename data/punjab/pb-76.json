@@ -1,0 +1,24 @@
+{
+    "code": "PB-76",
+    "region": "Dharamkot",
+    "city": "Dharamkot",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Moga",
+    "division": "Ferozepur",
+    "description": "The PB-76 RTO serves the Dharamkot subdivision in the Moga district of Punjab. It is an SDM-level office handling vehicle registration, tax collection, and driving license issuance for the local population. It is officially assigned to Dharamkot, though some online sources erroneously associate this code with Ahmedgarh.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Dharamkot, District Moga, Punjab",
+    "pinCode": "142042",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dharamkot",
+        "Kot Ise Khan",
+        "Fatehgarh Panjtur",
+        "Indergarh",
+        "Kishanpura Kalan",
+        "Jalal"
+    ]
+}

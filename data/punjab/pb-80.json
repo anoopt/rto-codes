@@ -1,0 +1,24 @@
+{
+    "code": "PB-80",
+    "region": "Maur Mandi",
+    "city": "Maur Mandi",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Bathinda",
+    "division": "Bathinda",
+    "description": "The PB-80 RTO office functions as the Sub-Divisional Magistrate (SDM) office for Maur Mandi in the Bathinda district of Punjab. It is responsible for providing essential transport services such as vehicle registration, driving license issuance, and road tax collection for the Maur sub-division. This office plays a critical role in managing transport regulations and vehicle documentation for the local population.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Maur Mandi, District Bathinda, Punjab",
+    "pinCode": "151509",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Maur Mandi",
+        "Maur Kalan",
+        "Maur Khurd",
+        "Mysar Khana",
+        "Sadda Singh Wala",
+        "Kotli Kalan"
+    ]
+}
