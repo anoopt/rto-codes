@@ -1,0 +1,21 @@
+{
+    "code": "PB-81",
+    "region": "Majitha",
+    "city": "Majitha",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Amritsar",
+    "description": "PB-81 RTO is the official transport registration authority for the Majitha sub-division in Punjab. It functions under the Sub-Divisional Magistrate (SDM) and handles vehicle registration, fitness certificates, and licensing for the local jurisdiction within Amritsar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDM, Majitha, District Amritsar, Punjab",
+    "pinCode": "143601",
+    "phone": "9907680240",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Majitha",
+        "Majitha Tehsil",
+        "Amritsar North Localities"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "PB-85",
+    "region": "Kalanaur",
+    "city": "Kalanaur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar Division",
+    "description": "PB-85 is the dedicated registration code for the Kalanaur Sub-Divisional Transport Office in the Gurdaspur district of Punjab. This office operates as a Sub-RTO, providing essential services such as the issuance of driving licenses, vehicle registration (RC), and road tax collection for the local sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Kalanaur, District Gurdaspur, Punjab",
+    "pinCode": "143512",
+    "phone": "01874-280330",
+    "email": "sdm.kalanaur@punjab.gov.in",
+    "jurisdictionAreas": [
+        "Kalanaur",
+        "Agwan",
+        "Dostpur",
+        "Killa Lal Singh",
+        "Mustafapur"
+    ]
+}

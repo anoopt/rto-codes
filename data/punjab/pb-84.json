@@ -1,0 +1,25 @@
+{
+    "code": "PB-84",
+    "region": "Bhawanigarh",
+    "city": "Bhawanigarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-84 is the Regional Transport Office serving the Bhawanigarh sub-division in the Sangrur district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and road tax collections for the local jurisdiction.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Bhawanigarh, District Sangrur, Punjab",
+    "pinCode": "148026",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhawanigarh Tehsil",
+        "Gharachon",
+        "Nadampur",
+        "Balad Kalan",
+        "Phaguwala",
+        "Bakhopir",
+        "Batuan"
+    ]
+}

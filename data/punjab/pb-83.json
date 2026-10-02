@@ -1,0 +1,21 @@
+{
+    "code": "PB-83",
+    "region": "Dudhan Sadhan",
+    "city": "Dudhan Sadhan",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala Division",
+    "description": "The PB-83 RTO serves the Dudhan Sadhan subdivision in the Patiala district of Punjab. It operates under the Sub-Divisional Magistrate (SDM) who serves as the Registering and Licensing Authority for vehicle registration and driving license issuance.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Sub Divisional Magistrate, Dudhan Sadhan, District Patiala, Punjab",
+    "pinCode": "147111",
+    "phone": "0175-2632388",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dudhan Sadhan Tehsil",
+        "Ghunrana",
+        "Dhudan Sadhan Subdivision"
+    ]
+}

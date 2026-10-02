@@ -1,0 +1,25 @@
+{
+    "code": "PB-82",
+    "region": "Ahmedgarh",
+    "city": "Ahmedgarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Malerkotla",
+    "division": "Patiala Division",
+    "description": "The PB-82 RTO office is located in Ahmedgarh and serves as the primary authority for vehicle registration and licensing in the Ahmedgarh subdivision. This office manages transport services for the region, which was recently incorporated into the newly formed Malerkotla district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Ahmedgarh, District Malerkotla, Punjab",
+    "pinCode": "148021",
+    "phone": "01675-240005",
+    "email": "sdmahmedgarh@gmail.com",
+    "jurisdictionAreas": [
+        "Ahmedgarh",
+        "Ahmedgarh Rural",
+        "Ahmedgarh West",
+        "Kup Kalan",
+        "Sandaur",
+        "Bhogiwal",
+        "Dehliz Kalan"
+    ]
+}
