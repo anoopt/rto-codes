@@ -1843,5 +1843,120 @@
       "Sadda Singh Wala",
       "Kotli Kalan"
     ]
+  },
+  {
+    "code": "PB-81",
+    "region": "Majitha",
+    "city": "Majitha",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Amritsar",
+    "description": "PB-81 RTO is the official transport registration authority for the Majitha sub-division in Punjab. It functions under the Sub-Divisional Magistrate (SDM) and handles vehicle registration, fitness certificates, and licensing for the local jurisdiction within Amritsar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the SDM, Majitha, District Amritsar, Punjab",
+    "pinCode": "143601",
+    "phone": "9907680240",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Majitha",
+      "Majitha Tehsil",
+      "Amritsar North Localities"
+    ]
+  },
+  {
+    "code": "PB-82",
+    "region": "Ahmedgarh",
+    "city": "Ahmedgarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Malerkotla",
+    "division": "Patiala Division",
+    "description": "The PB-82 RTO office is located in Ahmedgarh and serves as the primary authority for vehicle registration and licensing in the Ahmedgarh subdivision. This office manages transport services for the region, which was recently incorporated into the newly formed Malerkotla district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Ahmedgarh, District Malerkotla, Punjab",
+    "pinCode": "148021",
+    "phone": "01675-240005",
+    "email": "sdmahmedgarh@gmail.com",
+    "jurisdictionAreas": [
+      "Ahmedgarh",
+      "Ahmedgarh Rural",
+      "Ahmedgarh West",
+      "Kup Kalan",
+      "Sandaur",
+      "Bhogiwal",
+      "Dehliz Kalan"
+    ]
+  },
+  {
+    "code": "PB-83",
+    "region": "Dudhan Sadhan",
+    "city": "Dudhan Sadhan",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Patiala",
+    "division": "Patiala Division",
+    "description": "The PB-83 RTO serves the Dudhan Sadhan subdivision in the Patiala district of Punjab. It operates under the Sub-Divisional Magistrate (SDM) who serves as the Registering and Licensing Authority for vehicle registration and driving license issuance.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Sub Divisional Magistrate, Dudhan Sadhan, District Patiala, Punjab",
+    "pinCode": "147111",
+    "phone": "0175-2632388",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dudhan Sadhan Tehsil",
+      "Ghunrana",
+      "Dhudan Sadhan Subdivision"
+    ]
+  },
+  {
+    "code": "PB-84",
+    "region": "Bhawanigarh",
+    "city": "Bhawanigarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "PB-84 is the Regional Transport Office serving the Bhawanigarh sub-division in the Sangrur district of Punjab. It functions under the Sub-Divisional Magistrate (SDM) and manages vehicle registrations, driving licenses, and road tax collections for the local jurisdiction.",
+    "status": "active",
+    "established": "2016",
+    "address": "Office of the Sub-Divisional Magistrate (SDM), Bhawanigarh, District Sangrur, Punjab",
+    "pinCode": "148026",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bhawanigarh Tehsil",
+      "Gharachon",
+      "Nadampur",
+      "Balad Kalan",
+      "Phaguwala",
+      "Bakhopir",
+      "Batuan"
+    ]
+  },
+  {
+    "code": "PB-85",
+    "region": "Kalanaur",
+    "city": "Kalanaur",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar Division",
+    "description": "PB-85 is the dedicated registration code for the Kalanaur Sub-Divisional Transport Office in the Gurdaspur district of Punjab. This office operates as a Sub-RTO, providing essential services such as the issuance of driving licenses, vehicle registration (RC), and road tax collection for the local sub-division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub-Divisional Magistrate, Kalanaur, District Gurdaspur, Punjab",
+    "pinCode": "143512",
+    "phone": "01874-280330",
+    "email": "sdm.kalanaur@punjab.gov.in",
+    "jurisdictionAreas": [
+      "Kalanaur",
+      "Agwan",
+      "Dostpur",
+      "Killa Lal Singh",
+      "Mustafapur"
+    ]
   }
 ]
