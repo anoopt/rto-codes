@@ -1,0 +1,26 @@
+{
+    "code": "PB-86",
+    "region": "Dirba",
+    "city": "Dirba",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "The PB-86 RTO is the official transport registration authority for the Dirba sub-division in Sangrur district, Punjab. It operates under the Sub-Divisional Magistrate (SDM) office, handling vehicle registrations, driving licenses, and regional transport permits for the local area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Dirba, District Sangrur, Punjab",
+    "pinCode": "148035",
+    "phone": "01676-242368",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dirba",
+        "Khadial",
+        "Kauarian",
+        "Janel",
+        "Rogla",
+        "Sullar Gharat",
+        "Guariara",
+        "Kamalpur"
+    ]
+}

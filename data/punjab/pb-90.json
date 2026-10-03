@@ -1,0 +1,23 @@
+{
+    "code": "PB-90",
+    "region": "Jalandhar-2",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "PB-90 is the Regional Transport Office for the Jalandhar-2 sub-division in Punjab, functioning as an Additional Registering Authority. It handles vehicle registrations, driving licenses, and transport permits specifically for the administrative areas falling under the SDM Jalandhar-2 jurisdiction to reduce the load on the main PB-08 office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Jalandhar-2, Jalandhar District, Punjab",
+    "pinCode": "144001",
+    "phone": "0181-2224417",
+    "email": "sdmjalandhar2@gmail.com",
+    "jurisdictionAreas": [
+        "Jalandhar-2 Sub-division",
+        "Bhogpur",
+        "Kartarpur",
+        "Adampur",
+        "Jalandhar West"
+    ]
+}

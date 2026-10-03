@@ -1,0 +1,23 @@
+{
+    "code": "PB-88",
+    "region": "Bhikhiwind",
+    "city": "Bhikhiwind",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar",
+    "description": "PB-88 is the Regional Transport Office (RTO) serving the Bhikhiwind sub-division in the Tarn Taran district of Punjab. It functions under the authority of the Sub-Divisional Magistrate (SDM) to handle vehicle registrations, driving licenses, and transport permits for this border region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Complex, Bhikhiwind, District Tarn Taran, Punjab",
+    "pinCode": "143303",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhikhiwind",
+        "Khalra",
+        "Khem Karan",
+        "Valtoha",
+        "Amarkot"
+    ]
+}
