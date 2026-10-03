@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-02T02:09:03.574Z",
-  "totalRTOs": 875,
-  "totalVerified": 875,
+  "generatedAt": "2026-10-03T02:03:07.478Z",
+  "totalRTOs": 880,
+  "totalVerified": 880,
   "totalStates": 28,
   "completedStates": 19,
   "inProgressStates": 1,
@@ -1207,10 +1207,10 @@
     {
       "stateCode": "PB",
       "stateName": "Punjab",
-      "rtoCount": 85,
+      "rtoCount": 90,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 85,
+      "verifiedCount": 90,
       "rtoCodes": [
         "pb-01",
         "pb-02",
@@ -1296,7 +1296,12 @@
         "pb-82",
         "pb-83",
         "pb-84",
-        "pb-85"
+        "pb-85",
+        "pb-86",
+        "pb-87",
+        "pb-88",
+        "pb-89",
+        "pb-90"
       ],
       "isComplete": false,
       "type": "state",
@@ -2616,10 +2621,10 @@
     "PB": {
       "stateCode": "PB",
       "stateName": "Punjab",
-      "rtoCount": 85,
+      "rtoCount": 90,
       "totalExpectedRTOs": 99,
       "activeRTOs": 0,
-      "verifiedCount": 85,
+      "verifiedCount": 90,
       "rtoCodes": [
         "pb-01",
         "pb-02",
@@ -2705,7 +2710,12 @@
         "pb-82",
         "pb-83",
         "pb-84",
-        "pb-85"
+        "pb-85",
+        "pb-86",
+        "pb-87",
+        "pb-88",
+        "pb-89",
+        "pb-90"
       ],
       "isComplete": false,
       "type": "state",

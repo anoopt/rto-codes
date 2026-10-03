@@ -1958,5 +1958,122 @@
       "Killa Lal Singh",
       "Mustafapur"
     ]
+  },
+  {
+    "code": "PB-86",
+    "region": "Dirba",
+    "city": "Dirba",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Sangrur",
+    "division": "Patiala",
+    "description": "The PB-86 RTO is the official transport registration authority for the Dirba sub-division in Sangrur district, Punjab. It operates under the Sub-Divisional Magistrate (SDM) office, handling vehicle registrations, driving licenses, and regional transport permits for the local area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Dirba, District Sangrur, Punjab",
+    "pinCode": "148035",
+    "phone": "01676-242368",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dirba",
+      "Khadial",
+      "Kauarian",
+      "Janel",
+      "Rogla",
+      "Sullar Gharat",
+      "Guariara",
+      "Kamalpur"
+    ]
+  },
+  {
+    "code": "PB-87",
+    "region": "Morinda",
+    "city": "Morinda",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Rupnagar",
+    "division": "Rupnagar",
+    "description": "PB-87 is the Regional Transport Office for the Morinda subdivision in Rupnagar district, Punjab. It functions under the Sub-Divisional Magistrate (SDM) of Morinda and facilitates vehicle registration, driving license issuance, and other transport-related services.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Office of the Sub Divisional Magistrate, Morinda, District Rupnagar, Punjab",
+    "pinCode": "140101",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Morinda",
+      "Morinda Subdivision",
+      "Morinda Rural",
+      "Kurali-Morinda Road Areas"
+    ]
+  },
+  {
+    "code": "PB-88",
+    "region": "Bhikhiwind",
+    "city": "Bhikhiwind",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Tarn Taran",
+    "division": "Jalandhar",
+    "description": "PB-88 is the Regional Transport Office (RTO) serving the Bhikhiwind sub-division in the Tarn Taran district of Punjab. It functions under the authority of the Sub-Divisional Magistrate (SDM) to handle vehicle registrations, driving licenses, and transport permits for this border region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Complex, Bhikhiwind, District Tarn Taran, Punjab",
+    "pinCode": "143303",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Bhikhiwind",
+      "Khalra",
+      "Khem Karan",
+      "Valtoha",
+      "Amarkot"
+    ]
+  },
+  {
+    "code": "PB-89",
+    "region": "Amritsar-2",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar Division",
+    "description": "PB-89 is the Additional Registering Authority office for the Amritsar-2 sub-division in Punjab. It operates under the SDM office to facilitate vehicle registration and driving license services, alleviating the workload of the primary PB-02 RTO office in Amritsar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office Amritsar-2, Kot Mit Singh Road, Amritsar, Punjab",
+    "pinCode": "143001",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Amritsar-2",
+      "Kot Mit Singh",
+      "Sultanwind",
+      "Chaba",
+      "Administrative Wards of Amritsar-2"
+    ]
+  },
+  {
+    "code": "PB-90",
+    "region": "Jalandhar-2",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Jalandhar",
+    "division": "Jalandhar",
+    "description": "PB-90 is the Regional Transport Office for the Jalandhar-2 sub-division in Punjab, functioning as an Additional Registering Authority. It handles vehicle registrations, driving licenses, and transport permits specifically for the administrative areas falling under the SDM Jalandhar-2 jurisdiction to reduce the load on the main PB-08 office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Jalandhar-2, Jalandhar District, Punjab",
+    "pinCode": "144001",
+    "phone": "0181-2224417",
+    "email": "sdmjalandhar2@gmail.com",
+    "jurisdictionAreas": [
+      "Jalandhar-2 Sub-division",
+      "Bhogpur",
+      "Kartarpur",
+      "Adampur",
+      "Jalandhar West"
+    ]
   }
 ]
