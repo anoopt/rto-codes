@@ -1,0 +1,22 @@
+{
+    "code": "PB-93",
+    "region": "Lopoke",
+    "city": "Lopoke",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar",
+    "description": "PB-93 is the Regional Transport Office for the Lopoke subdivision in the Amritsar district of Punjab. Operating as an SDM-led registration authority, it handles vehicle registration, fitness certificates, and driving licenses for the border-adjacent rural areas of Amritsar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Lopoke, District Amritsar, Punjab",
+    "pinCode": "143110",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Lopoke",
+        "Chogawan",
+        "Ajnala Road Areas",
+        "Amritsar Rural"
+    ]
+}
