@@ -2075,5 +2075,48 @@
       "Adampur",
       "Jalandhar West"
     ]
+  },
+  {
+    "code": "PB-92",
+    "region": "Amargarh",
+    "city": "Amargarh",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Malerkotla",
+    "division": "Patiala Division",
+    "description": "PB-92 is the official RTO code for the Amargarh sub-division in the Malerkotla district of Punjab. The office operates as a Sub-Divisional Magistrate (SDM) unit, handling vehicle registrations, licensing, and transport permits for the newly formed district's jurisdiction.",
+    "status": "active",
+    "established": "2021",
+    "address": "SDM Office, Amargarh, District Malerkotla, Punjab",
+    "pinCode": "148022",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Amargarh",
+      "Amargarh Tehsil",
+      "Local Villages of Amargarh Sub-division"
+    ]
+  },
+  {
+    "code": "PB-93",
+    "region": "Lopoke",
+    "city": "Lopoke",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Amritsar",
+    "division": "Jalandhar",
+    "description": "PB-93 is the Regional Transport Office for the Lopoke subdivision in the Amritsar district of Punjab. Operating as an SDM-led registration authority, it handles vehicle registration, fitness certificates, and driving licenses for the border-adjacent rural areas of Amritsar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "SDM Office, Lopoke, District Amritsar, Punjab",
+    "pinCode": "143110",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Lopoke",
+      "Chogawan",
+      "Ajnala Road Areas",
+      "Amritsar Rural"
+    ]
   }
 ]
