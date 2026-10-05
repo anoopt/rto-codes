@@ -2118,5 +2118,26 @@
       "Ajnala Road Areas",
       "Amritsar Rural"
     ]
+  },
+  {
+    "code": "PB-99",
+    "region": "Dinanagar",
+    "city": "Dinanagar",
+    "state": "Punjab",
+    "stateCode": "PB",
+    "district": "Gurdaspur",
+    "division": "Jalandhar",
+    "description": "PB-99 is the designated RTO code for the Dinanagar subdivision in Gurdaspur district, Punjab. This office operates under the Sub-Divisional Magistrate and manages vehicle registration, driving licenses, and road tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "2012",
+    "address": "Office of the Sub Divisional Magistrate, Dinanagar, District Gurdaspur, Punjab",
+    "pinCode": "143531",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Dinanagar Subdivision",
+      "Behrampur",
+      "Dinanagar Tehsil"
+    ]
   }
 ]
