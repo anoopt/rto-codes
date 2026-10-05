@@ -3,7 +3,7 @@
     "name": "Punjab",
     "displayName": "Punjab",
     "capital": "Chandigarh",
-    "totalRTOs": 96,
+    "totalRTOs": 93,
     "districtMapping": {},
     "isComplete": false,
     "type": "state",
@@ -100,9 +100,6 @@
         "PB-90",
         "PB-92",
         "PB-93",
-        "PB-96",
-        "PB-97",
-        "PB-98",
         "PB-99"
     ]
 }
