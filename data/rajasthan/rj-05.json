@@ -1,0 +1,28 @@
+{
+    "code": "RJ-05",
+    "region": "Bharatpur",
+    "city": "Bharatpur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Bharatpur",
+    "division": "Bharatpur Division",
+    "description": "RJ-05 is the Regional Transport Office serving the Bharatpur district in eastern Rajasthan. It is responsible for critical services including vehicle registration, driving license issuance, and road tax collection. The office plays a vital role in managing the heavy tourist and commercial traffic flow characteristic of the Bharatpur region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Keshav Nagar, Near New Myes Nagar, Bharatpur, Rajasthan",
+    "pinCode": "321001",
+    "phone": "05644-260199",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bharatpur",
+        "Bayana",
+        "Deeg",
+        "Kaman",
+        "Kumher",
+        "Nadbai",
+        "Pahari",
+        "Rupbas",
+        "Weir",
+        "Nagar"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "RJ-01",
+    "region": "Ajmer",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Ajmer",
+    "division": "Ajmer",
+    "description": "The Regional Transport Office (RTO) Ajmer is the primary authority for vehicle registration and licensing in the Ajmer district of Rajasthan. It serves as a key administrative hub for transport services in central Rajasthan, overseeing the issuance of driving licenses, permits, and fitness certificates.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Jaipur Road, Near Village Ghooghra, Ajmer, Rajasthan",
+    "pinCode": "305001",
+    "phone": "0145-2787047",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ajmer",
+        "Pushkar",
+        "Nasirabad",
+        "Srinagar",
+        "Peesangan",
+        "Ghooghra",
+        "Arain"
+    ]
+}

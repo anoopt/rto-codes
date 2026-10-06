@@ -1,0 +1,26 @@
+{
+    "code": "RJ-02",
+    "region": "Alwar",
+    "city": "Alwar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Alwar",
+    "division": "Jaipur",
+    "description": "RJ-02 is the Regional Transport Office for Alwar district, Rajasthan. It acts as a major hub for vehicle registration and licensing in the region, which is a significant industrial and historical center located between Delhi and Jaipur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office, Vijay Mandir Road, Dholi Dhub, Alwar, Rajasthan",
+    "pinCode": "301001",
+    "phone": "0144-2731335",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Alwar",
+        "Rajgarh",
+        "Laxmangarh",
+        "Ramgarh",
+        "Thanagazi",
+        "Bansur",
+        "Mundawar",
+        "Kishangarh Bas"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "code": "RJ-04",
+    "region": "Barmer",
+    "city": "Barmer",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Barmer",
+    "division": "Jodhpur",
+    "description": "The RJ-04 Regional Transport Office serves the Barmer district in Rajasthan, facilitating vehicle registration, driving licenses, and transport permit services. It plays a vital role in regulating transport activities in Western Rajasthan, particularly supporting the local economy and border-area logistics.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Circuit House, National Highway 15 (N.H.-15), Barmer, Rajasthan",
+    "pinCode": "344001",
+    "phone": "02982-220615",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Barmer",
+        "Chohtan",
+        "Gudamalani",
+        "Baytoo",
+        "Siwana",
+        "Sindhari",
+        "Sheo",
+        "Ramsar",
+        "Pachpadra",
+        "Samdari",
+        "Dhorimanna"
+    ]
+}

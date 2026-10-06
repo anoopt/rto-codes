@@ -1,0 +1,28 @@
+{
+    "code": "RJ-03",
+    "region": "Banswara",
+    "city": "Banswara",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Banswara",
+    "division": "Udaipur",
+    "description": "RJ-03 is the official District Transport Office (DTO) for Banswara, Rajasthan. It manages vehicle registration, permits, and licensing for the tribal-dominated Vagad region, also known as the City of a Hundred Islands.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Gandhi Nagar, GPO Circle, Banswara, Rajasthan",
+    "pinCode": "327001",
+    "phone": "02962-242440",
+    "email": "dto.banswara.tr@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Banswara",
+        "Kushalgarh",
+        "Bagidora",
+        "Garhi",
+        "Ghatol",
+        "Anandpuri",
+        "Sajjangarh",
+        "Talwara",
+        "Abhapura",
+        "Chhoti Sarwa"
+    ]
+}
