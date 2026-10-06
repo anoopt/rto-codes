@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-05T02:13:34.740Z",
-  "totalRTOs": 883,
-  "totalVerified": 883,
+  "generatedAt": "2026-10-06T02:07:33.786Z",
+  "totalRTOs": 888,
+  "totalVerified": 888,
   "totalStates": 28,
-  "completedStates": 19,
-  "inProgressStates": 0,
+  "completedStates": 20,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 8,
   "inProgressUTs": 0,
@@ -1306,23 +1306,29 @@
         "pb-93",
         "pb-99"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "RJ",
       "stateName": "Rajasthan",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 60,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "rj-01",
+        "rj-02",
+        "rj-03",
+        "rj-04",
+        "rj-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2723,23 +2729,29 @@
         "pb-93",
         "pb-99"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "RJ": {
       "stateCode": "RJ",
       "stateName": "Rajasthan",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 60,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "rj-01",
+        "rj-02",
+        "rj-03",
+        "rj-04",
+        "rj-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
