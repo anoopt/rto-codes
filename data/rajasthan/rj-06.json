@@ -1,0 +1,31 @@
+{
+    "code": "RJ-06",
+    "region": "Bhilwara",
+    "city": "Bhilwara",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Bhilwara",
+    "division": "Ajmer",
+    "description": "RJ-06 is the Regional Transport Office for the Bhilwara district in Rajasthan. This office provides essential services including vehicle registration, issuance of driving licenses, and enforcement of the Motor Vehicles Act within the prominent textile hub of India.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Pur Road, Bhilwara, Rajasthan",
+    "pinCode": "311001",
+    "phone": "01482-226427",
+    "email": "dto.bhilwara@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Bhilwara",
+        "Asind",
+        "Banera",
+        "Badnor",
+        "Beejoliya",
+        "Hamirgarh",
+        "Hurda",
+        "Jahazpur",
+        "Kotri",
+        "Mandal",
+        "Mandalgarh",
+        "Raipur",
+        "Sahara"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "RJ-07",
+    "region": "Bikaner",
+    "city": "Bikaner",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Bikaner",
+    "division": "Bikaner Division",
+    "description": "The RJ-07 RTO serves the Bikaner district, a major transport hub in northern Rajasthan known for its wool industry and strategic border location. This Regional Transport Office manages a high volume of commercial vehicle registrations and oversees transport activities across the vast desert terrain of the Bikaner division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Near Inden Gas Plant, Bichwal, Bikaner, Rajasthan",
+    "pinCode": "334022",
+    "phone": "0151-2226981",
+    "email": "rto.bikaner@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Bikaner",
+        "Lunkaransar",
+        "Kolayat",
+        "Sridungargarh",
+        "Khajuwala",
+        "Bichwal",
+        "Chhattargarh"
+    ]
+}

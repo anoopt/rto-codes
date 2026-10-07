@@ -1,0 +1,27 @@
+{
+    "code": "RJ-09",
+    "region": "Chittorgarh",
+    "city": "Chittorgarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Chittorgarh",
+    "division": "Udaipur",
+    "description": "The RJ-09 RTO office serves the Chittorgarh district of Rajasthan, handling all motor vehicle-related administrative tasks. It is responsible for vehicle registration, driving licenses, and tax collection within its jurisdiction. The office plays a crucial role in maintaining transport records for this historic city and surrounding rural areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Dagla Ka Khera, Kapasan Road, Chittorgarh, Rajasthan",
+    "pinCode": "312001",
+    "phone": "01472-241512",
+    "email": "rto.chittorgarh@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Chittorgarh",
+        "Kapasan",
+        "Begun",
+        "Nimbahera",
+        "Rawatbhata",
+        "Rashmi",
+        "Bari Sadri",
+        "Bhadesar",
+        "Dungla"
+    ]
+}

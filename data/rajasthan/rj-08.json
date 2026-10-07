@@ -1,0 +1,24 @@
+{
+    "code": "RJ-08",
+    "region": "Bundi",
+    "city": "Bundi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Bundi",
+    "division": "Kota",
+    "description": "The RJ-08 RTO office serves the Bundi district in Rajasthan, managing essential transport services such as vehicle registration, permit issuance, and driving license examinations. It operates under the jurisdiction of the Kota transport division and ensures compliance with the Motor Vehicles Act across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Opposite Telephone Exchange, Bypass Road, Bundi, Rajasthan",
+    "pinCode": "323001",
+    "phone": "0747-2443420",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bundi",
+        "Hindoli",
+        "Nainwa",
+        "Keshoraipatan",
+        "Indergarh",
+        "Talera"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "RJ-10",
+    "region": "Churu",
+    "city": "Churu",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Churu",
+    "division": "Bikaner Division",
+    "description": "The RJ-10 RTO office serves the Churu district in Rajasthan, providing essential services such as vehicle registration, driving license issuance, and road tax collection. It serves a significant portion of the northern Thar Desert region, facilitating transport for both private and commercial vehicles.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Fatehpur Road, Churu, Rajasthan",
+    "pinCode": "331001",
+    "phone": "01562-250022",
+    "email": "dto.chu-rj@nic.in",
+    "jurisdictionAreas": [
+        "Churu",
+        "Ratangarh",
+        "Rajgarh",
+        "Taranagar",
+        "Sardarshahar",
+        "Bidasar"
+    ]
+}
