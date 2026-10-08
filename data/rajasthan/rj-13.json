@@ -1,0 +1,25 @@
+{
+    "code": "RJ-13",
+    "region": "Sri Ganganagar",
+    "city": "Sri Ganganagar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sri Ganganagar",
+    "division": "Bikaner",
+    "description": "The RJ-13 Regional Transport Office serves the Sri Ganganagar district, a prominent agricultural and commercial hub in northern Rajasthan. It facilitates vehicle registration, driving license issuance, and transport permit management for the border region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Ridhi-sidhi Enclave, Hanumangarh Road, Sri Ganganagar, Rajasthan",
+    "pinCode": "335001",
+    "phone": "0154-2463432",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sri Ganganagar",
+        "Suratgarh",
+        "Raisinghnagar",
+        "Padampur",
+        "Karanpur",
+        "Sadulshahar",
+        "Gharshana"
+    ]
+}

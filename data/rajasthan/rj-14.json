@@ -1,0 +1,26 @@
+{
+    "code": "RJ-14",
+    "region": "Jaipur South",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur Division",
+    "description": "RJ-14 is the primary Regional Transport Office for Jaipur South, situated in the Jhalana Institutional Area. It is a major hub for vehicle registration, driving licensing, and transport permit services within the southern part of Rajasthan's capital city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Jhalana Institutional Area, Jhalana Doongri, Jaipur, Rajasthan",
+    "pinCode": "302004",
+    "phone": "0141-2704201",
+    "email": "rto.jaipur.tport@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Jaipur South",
+        "Jhalana",
+        "Malviya Nagar",
+        "Mansarovar",
+        "Sanganer",
+        "Phagi",
+        "Chaksu",
+        "Bassie"
+    ]
+}

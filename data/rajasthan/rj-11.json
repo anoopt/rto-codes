@@ -1,0 +1,24 @@
+{
+    "code": "RJ-11",
+    "region": "Dholpur",
+    "city": "Dholpur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Dholpur",
+    "division": "Bharatpur",
+    "description": "RJ-11 is the District Transport Office (DTO) serving the Dholpur district in Rajasthan. It handles vehicle registration, issuance of driving licenses, and transport permit management for the easternmost region of the state, which is famous for its distinctive red sandstone.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Near Collectorate, Dholpur, Rajasthan",
+    "pinCode": "328001",
+    "phone": "+91-5642-224577",
+    "email": "dto.dholpur@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Dholpur",
+        "Bari",
+        "Baseri",
+        "Rajakhera",
+        "Saipau",
+        "Sarmathura"
+    ]
+}

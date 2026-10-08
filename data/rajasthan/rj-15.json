@@ -1,0 +1,24 @@
+{
+    "code": "RJ-15",
+    "region": "Jaisalmer",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaisalmer",
+    "division": "Jodhpur",
+    "description": "RJ-15 is the Regional Transport Office for Jaisalmer, the largest district in India by land area. It serves as a crucial hub for vehicle registration and licensing in the Thar Desert region, managing both civilian and commercial transport needs near the international border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Barmer Road, Jaisalmer, Rajasthan",
+    "pinCode": "345001",
+    "phone": "02992-252519",
+    "email": "dto.jaisalmer.transport@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Jaisalmer",
+        "Pokaran",
+        "Fatehgarh",
+        "Bhaniyana",
+        "Sam",
+        "Jaisalmer Rural"
+    ]
+}

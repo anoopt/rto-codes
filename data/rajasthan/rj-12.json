@@ -1,0 +1,25 @@
+{
+    "code": "RJ-12",
+    "region": "Dungarpur",
+    "city": "Dungarpur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Dungarpur",
+    "division": "Udaipur",
+    "description": "The RJ-12 RTO serves the Dungarpur district in Rajasthan, handling vehicle registrations, driving licenses, and permit issuances. It is a key transport hub for the Vagad region, ensuring compliance with the Motor Vehicles Act across the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Near New Bus Stand, Dungarpur, Rajasthan",
+    "pinCode": "314001",
+    "phone": "02964-232581",
+    "email": "dto.dun-rj@nic.in",
+    "jurisdictionAreas": [
+        "Dungarpur",
+        "Sagwara",
+        "Simalwara",
+        "Bichhiwara",
+        "Aspur",
+        "Dovra",
+        "Galiyakot"
+    ]
+}
