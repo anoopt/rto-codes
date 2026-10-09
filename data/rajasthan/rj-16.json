@@ -1,0 +1,21 @@
+{
+    "code": "RJ-16",
+    "region": "Jalore",
+    "city": "Jalore",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jalore",
+    "division": "Jodhpur",
+    "description": "RJ-16 is the District Transport Office (DTO) for Jalore, Rajasthan. It handles vehicle registration, driving licenses, and transport permits for the Jalore district, excluding the Bhinmal area which is served by RJ-46.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Narbada Nagar Colony, Samanti Pura Road, Jalore, Rajasthan",
+    "pinCode": "343001",
+    "phone": "02973-222398",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jalore",
+        "Ahore",
+        "Sayla"
+    ]
+}

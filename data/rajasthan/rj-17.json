@@ -1,0 +1,26 @@
+{
+    "code": "RJ-17",
+    "region": "Jhalawar",
+    "city": "Jhalawar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jhalawar",
+    "division": "Kota Division",
+    "description": "The RJ-17 District Transport Office (DTO) is the primary vehicle registration authority for the Jhalawar district. It facilitates services such as issuance of driving licenses, vehicle registration certificates, and permit management for the southeastern border region of Rajasthan.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Khanpur Road, Jhalawar, Rajasthan",
+    "pinCode": "326001",
+    "phone": "07432-232307",
+    "email": "dto.jhalawar.tport@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Jhalawar",
+        "Jhalrapatan",
+        "Khanpur",
+        "Pirawa",
+        "Manohar Thana",
+        "Aklera",
+        "Bakani",
+        "Sunel"
+    ]
+}

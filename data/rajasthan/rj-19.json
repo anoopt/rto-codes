@@ -1,0 +1,27 @@
+{
+    "code": "RJ-19",
+    "region": "Jodhpur",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jodhpur",
+    "division": "Jodhpur",
+    "description": "The RJ-19 Regional Transport Office (RTO) is the primary transport authority for the Jodhpur district in Rajasthan. It is responsible for vehicle registration, issuance of driving licenses, and the collection of road taxes for a significant portion of Western Rajasthan.",
+    "status": "active",
+    "established": "N/A",
+    "address": "BJS Colony, Barnard Road, Jodhpur, Rajasthan",
+    "pinCode": "342006",
+    "phone": "0291-2544191",
+    "email": "rto.jodhpur.tport@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Jodhpur City",
+        "Luni",
+        "Bilara",
+        "Bhopalgarh",
+        "Osian",
+        "Shergarh",
+        "Balesar",
+        "Baori",
+        "Mandore"
+    ]
+}

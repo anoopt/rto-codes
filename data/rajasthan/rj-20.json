@@ -1,0 +1,24 @@
+{
+    "code": "RJ-20",
+    "region": "Kota",
+    "city": "Kota",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Kota",
+    "division": "Kota",
+    "description": "The RJ-20 RTO serves the Kota district in Rajasthan, which is a major educational and industrial hub. It handles crucial functions such as vehicle registration, issuance of driving licenses, and collection of road taxes for the city and surrounding regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, DCM Road, Kota, Rajasthan",
+    "pinCode": "324001",
+    "phone": "0744-2364312",
+    "email": "rto-kota@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Kota",
+        "Ladpura",
+        "Sangod",
+        "Digod",
+        "Pipalda",
+        "Kanwas"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "RJ-18",
+    "region": "Jhunjhunu",
+    "city": "Jhunjhunu",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jhunjhunu",
+    "division": "Jaipur",
+    "description": "The RJ-18 RTO office is located in Jhunjhunu and serves the entire Jhunjhunu district in the Shekhawati region of Rajasthan. It is responsible for vehicle registration, issuing driving licenses, and enforcing motor vehicle regulations across its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jaipur Road, Near District Court, Jhunjhunu, Rajasthan",
+    "pinCode": "333001",
+    "phone": "01592-250460",
+    "email": "dto.jhunjhunu-rj@nic.in",
+    "jurisdictionAreas": [
+        "Jhunjhunu",
+        "Nawalgarh",
+        "Udaipurwati",
+        "Chirawa",
+        "Buhana",
+        "Khetri",
+        "Surajgarh",
+        "Malsisar"
+    ]
+}
