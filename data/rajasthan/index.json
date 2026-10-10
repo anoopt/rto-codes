@@ -513,5 +513,127 @@
       "Pipalda",
       "Kanwas"
     ]
+  },
+  {
+    "code": "RJ-21",
+    "region": "Nagaur",
+    "city": "Nagaur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Nagaur",
+    "division": "Ajmer",
+    "description": "RJ-21 is the Regional Transport Office (RTO) for Nagaur, Rajasthan. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport safety regulations within the Nagaur district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Bikaner Road, Near RIICO Industrial Area, Nagaur, Rajasthan",
+    "pinCode": "341001",
+    "phone": "01582-240540",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Nagaur",
+      "Khinvsar",
+      "Jayal",
+      "Mundwa",
+      "Nagaur Tehsil"
+    ]
+  },
+  {
+    "code": "RJ-22",
+    "region": "Pali",
+    "city": "Pali",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Pali",
+    "division": "Jodhpur",
+    "description": "The RJ-22 RTO serves the Pali district in Rajasthan, handling vehicle registration, driving licenses, and permit issuance. Located on Jodhpur Road, it is a key administrative hub for transport services in the Marwar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jodhpur Road, Near Ghumti, Pali, Rajasthan",
+    "pinCode": "306401",
+    "phone": "02932-257445",
+    "email": "dto.pali-rj@nic.in",
+    "jurisdictionAreas": [
+      "Pali",
+      "Sumerpur",
+      "Rohat",
+      "Jaitaran",
+      "Sojat",
+      "Bali",
+      "Marwar Junction",
+      "Desuri"
+    ]
+  },
+  {
+    "code": "RJ-23",
+    "region": "Sikar",
+    "city": "Sikar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sikar",
+    "division": "Jaipur",
+    "description": "The RJ-23 RTO in Sikar is a key transport administrative office in Rajasthan, responsible for motor vehicle registration, driver licensing, and road tax collection. It serves the Shekhawati region, ensuring road safety and legal compliance under the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jhunjhunu Bypass Road, Sikar, Rajasthan",
+    "pinCode": "332001",
+    "phone": "01572-249353",
+    "email": "dto.sikar-rj@nic.in",
+    "jurisdictionAreas": [
+      "Sikar",
+      "Laxmangarh",
+      "Fatehpur",
+      "Neem Ka Thana",
+      "Sri Madhopur",
+      "Danta Ramgarh",
+      "Khandela",
+      "Reengus"
+    ]
+  },
+  {
+    "code": "RJ-24",
+    "region": "Sirohi",
+    "city": "Sirohi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sirohi",
+    "division": "Jodhpur",
+    "description": "The RJ-24 RTO is the District Transport Office (DTO) for Sirohi, Rajasthan. It facilitates vehicle registrations, driving license issuance, and transport permit management for the Sirohi district under the Rajasthan Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Anadra Road, Sirohi, Rajasthan",
+    "pinCode": "307001",
+    "phone": "02972-221688",
+    "email": "dto.sirohi-rj@nic.in",
+    "jurisdictionAreas": [
+      "Sirohi",
+      "Sheoganj",
+      "Pindwara",
+      "Reodar"
+    ]
+  },
+  {
+    "code": "RJ-25",
+    "region": "Sawai Madhopur",
+    "city": "Sawai Madhopur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sawai Madhopur",
+    "division": "Bharatpur",
+    "description": "RJ-25 is the official District Transport Office (DTO) for Sawai Madhopur, Rajasthan. It provides essential services such as vehicle registration, driving license issuance, and road tax collection for the region famous for the Ranthambore National Park.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Chak Chainpura, Sawai Madhopur, Rajasthan",
+    "pinCode": "322001",
+    "phone": "07462-220274",
+    "email": "dto.sawaimadhopur@rajasthan.gov.in",
+    "jurisdictionAreas": [
+      "Sawai Madhopur",
+      "Bonli",
+      "Chauth Ka Barwara",
+      "Khandar",
+      "Malarna Dungar",
+      "Bamanwas",
+      "Gangapur City"
+    ]
   }
 ]
