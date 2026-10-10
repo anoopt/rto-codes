@@ -1,0 +1,26 @@
+{
+    "code": "RJ-22",
+    "region": "Pali",
+    "city": "Pali",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Pali",
+    "division": "Jodhpur",
+    "description": "The RJ-22 RTO serves the Pali district in Rajasthan, handling vehicle registration, driving licenses, and permit issuance. Located on Jodhpur Road, it is a key administrative hub for transport services in the Marwar region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jodhpur Road, Near Ghumti, Pali, Rajasthan",
+    "pinCode": "306401",
+    "phone": "02932-257445",
+    "email": "dto.pali-rj@nic.in",
+    "jurisdictionAreas": [
+        "Pali",
+        "Sumerpur",
+        "Rohat",
+        "Jaitaran",
+        "Sojat",
+        "Bali",
+        "Marwar Junction",
+        "Desuri"
+    ]
+}

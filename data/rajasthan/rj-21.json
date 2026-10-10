@@ -1,0 +1,23 @@
+{
+    "code": "RJ-21",
+    "region": "Nagaur",
+    "city": "Nagaur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Nagaur",
+    "division": "Ajmer",
+    "description": "RJ-21 is the Regional Transport Office (RTO) for Nagaur, Rajasthan. It is responsible for vehicle registration, issuance of driving licenses, and enforcement of transport safety regulations within the Nagaur district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Bikaner Road, Near RIICO Industrial Area, Nagaur, Rajasthan",
+    "pinCode": "341001",
+    "phone": "01582-240540",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nagaur",
+        "Khinvsar",
+        "Jayal",
+        "Mundwa",
+        "Nagaur Tehsil"
+    ]
+}

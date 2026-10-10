@@ -1,0 +1,25 @@
+{
+    "code": "RJ-25",
+    "region": "Sawai Madhopur",
+    "city": "Sawai Madhopur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sawai Madhopur",
+    "division": "Bharatpur",
+    "description": "RJ-25 is the official District Transport Office (DTO) for Sawai Madhopur, Rajasthan. It provides essential services such as vehicle registration, driving license issuance, and road tax collection for the region famous for the Ranthambore National Park.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Chak Chainpura, Sawai Madhopur, Rajasthan",
+    "pinCode": "322001",
+    "phone": "07462-220274",
+    "email": "dto.sawaimadhopur@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Sawai Madhopur",
+        "Bonli",
+        "Chauth Ka Barwara",
+        "Khandar",
+        "Malarna Dungar",
+        "Bamanwas",
+        "Gangapur City"
+    ]
+}

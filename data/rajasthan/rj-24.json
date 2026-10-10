@@ -1,0 +1,22 @@
+{
+    "code": "RJ-24",
+    "region": "Sirohi",
+    "city": "Sirohi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sirohi",
+    "division": "Jodhpur",
+    "description": "The RJ-24 RTO is the District Transport Office (DTO) for Sirohi, Rajasthan. It facilitates vehicle registrations, driving license issuance, and transport permit management for the Sirohi district under the Rajasthan Transport Department.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Anadra Road, Sirohi, Rajasthan",
+    "pinCode": "307001",
+    "phone": "02972-221688",
+    "email": "dto.sirohi-rj@nic.in",
+    "jurisdictionAreas": [
+        "Sirohi",
+        "Sheoganj",
+        "Pindwara",
+        "Reodar"
+    ]
+}

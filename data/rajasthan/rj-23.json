@@ -1,0 +1,26 @@
+{
+    "code": "RJ-23",
+    "region": "Sikar",
+    "city": "Sikar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sikar",
+    "division": "Jaipur",
+    "description": "The RJ-23 RTO in Sikar is a key transport administrative office in Rajasthan, responsible for motor vehicle registration, driver licensing, and road tax collection. It serves the Shekhawati region, ensuring road safety and legal compliance under the Motor Vehicles Act.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jhunjhunu Bypass Road, Sikar, Rajasthan",
+    "pinCode": "332001",
+    "phone": "01572-249353",
+    "email": "dto.sikar-rj@nic.in",
+    "jurisdictionAreas": [
+        "Sikar",
+        "Laxmangarh",
+        "Fatehpur",
+        "Neem Ka Thana",
+        "Sri Madhopur",
+        "Danta Ramgarh",
+        "Khandela",
+        "Reengus"
+    ]
+}
