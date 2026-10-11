@@ -1,0 +1,25 @@
+{
+    "code": "RJ-26",
+    "region": "Tonk",
+    "city": "Tonk",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Tonk",
+    "division": "Ajmer",
+    "description": "The RJ-26 Regional Transport Office (RTO) serves the Tonk district in Rajasthan. It is responsible for providing essential transport services such as vehicle registration, issuance of driving licenses, and enforcement of road safety regulations across its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Opposite Sadar Thana, Jaipur Road, Tonk, Rajasthan",
+    "pinCode": "304001",
+    "phone": "01432-247588",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tonk",
+        "Niwai",
+        "Deoli",
+        "Malpura",
+        "Todaraisingh",
+        "Uniara",
+        "Peeplu"
+    ]
+}

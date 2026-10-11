@@ -1,0 +1,26 @@
+{
+    "code": "RJ-29",
+    "region": "Dausa",
+    "city": "Dausa",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Dausa",
+    "division": "Jaipur",
+    "description": "RJ-29 is the District Transport Office for Dausa, Rajasthan, serving as the primary hub for vehicle registration and licensing in the district. It plays a vital role in monitoring the heavy traffic flow along the Jaipur-Agra National Highway and ensuring regulatory compliance within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Agra Road (Bypass Road), Dausa, Rajasthan",
+    "pinCode": "303303",
+    "phone": "01427-223225",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Dausa",
+        "Lalsot",
+        "Mahwa",
+        "Sikrai",
+        "Bandikui",
+        "Baswa",
+        "Nangal Rajawatan",
+        "Ramgarh Pachwara"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "RJ-30",
+    "region": "Rajsamand",
+    "city": "Rajsamand",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Rajsamand",
+    "division": "Udaipur",
+    "description": "RJ-30 is the District Transport Office (DTO) for the Rajsamand district in Rajasthan, serving as a vital hub for vehicle registration and licensing. The office manages transport services across the district, ensuring compliance with the Motor Vehicles Act and supporting the region's significant connectivity along National Highway 8.",
+    "status": "active",
+    "established": "1991",
+    "address": "Sundarcha Road, Opposite Rameshwer Mahadev, Rajsamand, Rajasthan",
+    "pinCode": "313324",
+    "phone": "02952-220652",
+    "email": "dto.rajsamand@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Rajsamand",
+        "Nathdwara",
+        "Amet",
+        "Kumbhalgarh",
+        "Deogarh",
+        "Railmagra",
+        "Bhim"
+    ]
+}

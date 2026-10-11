@@ -1,0 +1,26 @@
+{
+    "code": "RJ-28",
+    "region": "Baran",
+    "city": "Baran",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Baran",
+    "division": "Kota Transport Division",
+    "description": "The RJ-28 Regional Transport Office serves the Baran district in eastern Rajasthan. It is responsible for vehicle registrations, driving license issuances, and transport permit management within the Kota administrative division.",
+    "status": "active",
+    "established": "1991",
+    "address": "Collectorate Campus, Baran, Rajasthan",
+    "pinCode": "325205",
+    "phone": "07453-232105",
+    "email": "rto.baran@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Baran",
+        "Anta",
+        "Atru",
+        "Chhabra",
+        "Chhipabarod",
+        "Kishanganj",
+        "Mangrol",
+        "Shahbad"
+    ]
+}

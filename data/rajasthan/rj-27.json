@@ -1,0 +1,31 @@
+{
+    "code": "RJ-27",
+    "region": "Udaipur",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Udaipur",
+    "division": "Udaipur Division",
+    "description": "The RJ-27 Regional Transport Office (RTO) serves as the primary administrative hub for vehicle registration and licensing in the Udaipur district of Rajasthan. It manages all transport-related services including permanent registration of motor vehicles, issuance of driving licenses, and collection of road taxes for one of the state's most prominent tourist and commercial centers.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Sukher, Bhuwana Bypass, Udaipur, Rajasthan",
+    "pinCode": "313001",
+    "phone": "0294-2471521",
+    "email": "rto-udaipur@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Udaipur City",
+        "Girwa",
+        "Gogunda",
+        "Jhadol",
+        "Kherwara",
+        "Kotra",
+        "Lasadiya",
+        "Mavli",
+        "Rishabhdev",
+        "Sarada",
+        "Sayra",
+        "Semari",
+        "Vallabhnagar"
+    ]
+}
