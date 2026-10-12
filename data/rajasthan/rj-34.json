@@ -1,0 +1,24 @@
+{
+    "code": "RJ-34",
+    "region": "Karauli",
+    "city": "Karauli",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Karauli",
+    "division": "Bharatpur",
+    "description": "RJ-34 is the District Transport Office (DTO) serving the Karauli district in Rajasthan. It functions under the Bharatpur transport division and handles essential services such as vehicle registration, permit issuance, and driver licensing.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Mandraial Road, Near Collectorate, Karauli, Rajasthan",
+    "pinCode": "322230",
+    "phone": "07464-220025",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Karauli",
+        "Hindaun",
+        "Sapotra",
+        "Todabhim",
+        "Mandrayal",
+        "Nadoti"
+    ]
+}

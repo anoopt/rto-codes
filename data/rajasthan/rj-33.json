@@ -1,0 +1,23 @@
+{
+    "code": "RJ-33",
+    "region": "Ramganj Mandi",
+    "city": "Ramganj Mandi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Kota",
+    "division": "Kota",
+    "description": "RJ-33 is the District Transport Office (DTO) for Ramganj Mandi within the Kota district of Rajasthan. It is responsible for vehicle registration, issuance of driving licenses, and transport permit management for the local subdivision known for its significant stone industry.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Indraprasth Colony, Undawa Road, Ramganjmandi, Rajasthan",
+    "pinCode": "326519",
+    "phone": "07459-222424",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Ramganj Mandi",
+        "Chechat",
+        "Modak",
+        "Sukhet",
+        "Khairabad"
+    ]
+}

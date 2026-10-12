@@ -1,0 +1,23 @@
+{
+    "code": "RJ-35",
+    "region": "Pratapgarh",
+    "city": "Pratapgarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Pratapgarh",
+    "division": "Udaipur",
+    "description": "The RJ-35 District Transport Office (DTO) serves the Pratapgarh district in Rajasthan. Established following the district's formation in 2008, it handles vehicle registration, licensing, and enforcement of transport regulations for the region previously under Chittorgarh's jurisdiction.",
+    "status": "active",
+    "established": "2008",
+    "address": "District Transport Office, Dhariyawad Road, Pratapgarh, Rajasthan",
+    "pinCode": "312605",
+    "phone": "01478-222530",
+    "email": "dto.pratapgarh@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Pratapgarh",
+        "Dhariyawad",
+        "Arnod",
+        "Chhoti Sadri",
+        "Pipalkhoot"
+    ]
+}

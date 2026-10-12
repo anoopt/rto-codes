@@ -1,0 +1,24 @@
+{
+    "code": "RJ-31",
+    "region": "Hanumangarh",
+    "city": "Hanumangarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Hanumangarh",
+    "division": "Bikaner",
+    "description": "The RJ-31 District Transport Office (DTO) is the primary vehicle registration and licensing authority for the Hanumangarh district in northern Rajasthan. It handles motor vehicle inspections, tax collection, and the issuance of permits for both private and commercial transport within its jurisdiction.",
+    "status": "active",
+    "established": "1994",
+    "address": "District Transport Office, Near Police Line, Ganna Pharam, Abohar Road, Hanumangarh, Rajasthan",
+    "pinCode": "335512",
+    "phone": "01552-262202",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Hanumangarh",
+        "Pilibanga",
+        "Sangaria",
+        "Tibbi",
+        "Rawatsar",
+        "Bhadra"
+    ]
+}

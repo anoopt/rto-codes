@@ -1,0 +1,21 @@
+{
+    "code": "RJ-32",
+    "region": "Kotputli",
+    "city": "Kotputli",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Kotputli-Behror",
+    "division": "Jaipur",
+    "description": "RJ-32 is the District Transport Office (DTO) serving the Kotputli region in Rajasthan. It is responsible for vehicle registration, driving licenses, and the enforcement of motor vehicle laws in the northern part of the Jaipur administrative division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Putli Road, Kotputli, Rajasthan",
+    "pinCode": "303108",
+    "phone": "01421-224156",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kotputli",
+        "Paota",
+        "Viratnagar"
+    ]
+}
