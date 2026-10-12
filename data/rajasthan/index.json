@@ -768,5 +768,120 @@
       "Railmagra",
       "Bhim"
     ]
+  },
+  {
+    "code": "RJ-31",
+    "region": "Hanumangarh",
+    "city": "Hanumangarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Hanumangarh",
+    "division": "Bikaner",
+    "description": "The RJ-31 District Transport Office (DTO) is the primary vehicle registration and licensing authority for the Hanumangarh district in northern Rajasthan. It handles motor vehicle inspections, tax collection, and the issuance of permits for both private and commercial transport within its jurisdiction.",
+    "status": "active",
+    "established": "1994",
+    "address": "District Transport Office, Near Police Line, Ganna Pharam, Abohar Road, Hanumangarh, Rajasthan",
+    "pinCode": "335512",
+    "phone": "01552-262202",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Hanumangarh",
+      "Pilibanga",
+      "Sangaria",
+      "Tibbi",
+      "Rawatsar",
+      "Bhadra"
+    ]
+  },
+  {
+    "code": "RJ-32",
+    "region": "Kotputli",
+    "city": "Kotputli",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Kotputli-Behror",
+    "division": "Jaipur",
+    "description": "RJ-32 is the District Transport Office (DTO) serving the Kotputli region in Rajasthan. It is responsible for vehicle registration, driving licenses, and the enforcement of motor vehicle laws in the northern part of the Jaipur administrative division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Putli Road, Kotputli, Rajasthan",
+    "pinCode": "303108",
+    "phone": "01421-224156",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kotputli",
+      "Paota",
+      "Viratnagar"
+    ]
+  },
+  {
+    "code": "RJ-33",
+    "region": "Ramganj Mandi",
+    "city": "Ramganj Mandi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Kota",
+    "division": "Kota",
+    "description": "RJ-33 is the District Transport Office (DTO) for Ramganj Mandi within the Kota district of Rajasthan. It is responsible for vehicle registration, issuance of driving licenses, and transport permit management for the local subdivision known for its significant stone industry.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Indraprasth Colony, Undawa Road, Ramganjmandi, Rajasthan",
+    "pinCode": "326519",
+    "phone": "07459-222424",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Ramganj Mandi",
+      "Chechat",
+      "Modak",
+      "Sukhet",
+      "Khairabad"
+    ]
+  },
+  {
+    "code": "RJ-34",
+    "region": "Karauli",
+    "city": "Karauli",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Karauli",
+    "division": "Bharatpur",
+    "description": "RJ-34 is the District Transport Office (DTO) serving the Karauli district in Rajasthan. It functions under the Bharatpur transport division and handles essential services such as vehicle registration, permit issuance, and driver licensing.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Mandraial Road, Near Collectorate, Karauli, Rajasthan",
+    "pinCode": "322230",
+    "phone": "07464-220025",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Karauli",
+      "Hindaun",
+      "Sapotra",
+      "Todabhim",
+      "Mandrayal",
+      "Nadoti"
+    ]
+  },
+  {
+    "code": "RJ-35",
+    "region": "Pratapgarh",
+    "city": "Pratapgarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Pratapgarh",
+    "division": "Udaipur",
+    "description": "The RJ-35 District Transport Office (DTO) serves the Pratapgarh district in Rajasthan. Established following the district's formation in 2008, it handles vehicle registration, licensing, and enforcement of transport regulations for the region previously under Chittorgarh's jurisdiction.",
+    "status": "active",
+    "established": "2008",
+    "address": "District Transport Office, Dhariyawad Road, Pratapgarh, Rajasthan",
+    "pinCode": "312605",
+    "phone": "01478-222530",
+    "email": "dto.pratapgarh@rajasthan.gov.in",
+    "jurisdictionAreas": [
+      "Pratapgarh",
+      "Dhariyawad",
+      "Arnod",
+      "Chhoti Sadri",
+      "Pipalkhoot"
+    ]
   }
 ]
