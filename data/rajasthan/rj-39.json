@@ -1,0 +1,24 @@
+{
+    "code": "RJ-39",
+    "region": "Balotra",
+    "city": "Balotra",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Balotra",
+    "division": "Jodhpur",
+    "description": "RJ-39 RTO serves the Balotra district of Rajasthan, which was recently upgraded from a subdivision of Barmer. This District Transport Office (DTO) handles all vehicle-related services including registration, permit issuance, and driving license management for this industrial region.",
+    "status": "active",
+    "established": "2023",
+    "address": "District Transport Office, Near Bhagat Singh Circle, Balotra, Rajasthan",
+    "pinCode": "344022",
+    "phone": "02988-225750",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Balotra",
+        "Pachpadra",
+        "Siwana",
+        "Samdari",
+        "Sindhari",
+        "Kalyanpur"
+    ]
+}

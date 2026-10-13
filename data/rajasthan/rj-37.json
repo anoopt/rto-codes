@@ -1,0 +1,22 @@
+{
+    "code": "RJ-37",
+    "region": "Didwana",
+    "city": "Didwana",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Didwana-Kuchaman",
+    "division": "Ajmer",
+    "description": "The RJ-37 RTO office in Didwana serves as a District Transport Office (DTO) for the Didwana-Kuchaman region. It handles vehicle registration, issuance of driving licenses, and enforcement of transport regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Kuchaman Road, Didwana, Rajasthan",
+    "pinCode": "341303",
+    "phone": "01583-220100",
+    "email": "dto.didwana@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Didwana",
+        "Ladnun",
+        "Maulasar",
+        "Kuchaman City"
+    ]
+}

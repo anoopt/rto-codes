@@ -1,0 +1,25 @@
+{
+    "code": "RJ-36",
+    "region": "Beawar",
+    "city": "Beawar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Beawar",
+    "division": "Ajmer",
+    "description": "The RJ-36 Regional Transport Office serves the Beawar district, handling vehicle registrations, driving licenses, and road safety regulations. It is a critical transport hub located on the National Highway, facilitating trade and movement in this industrial region.",
+    "status": "active",
+    "established": "N/A",
+    "address": "G.A.D Quarters, Near Katthat Petrol Pump, Beawar Bypass, Beawar, Rajasthan",
+    "pinCode": "305901",
+    "phone": "01462-225841",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Beawar",
+        "Tatgarh",
+        "Jawaja",
+        "Raipur",
+        "Jaitaran",
+        "Masuda",
+        "Bijainagar"
+    ]
+}

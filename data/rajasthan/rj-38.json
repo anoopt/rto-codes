@@ -1,0 +1,23 @@
+{
+    "code": "RJ-38",
+    "region": "Abu Road",
+    "city": "Abu Road",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sirohi",
+    "division": "Jodhpur",
+    "description": "RJ-38 is the District Transport Office (DTO) for Abu Road, located in the Sirohi district of Rajasthan. It serves as a crucial administrative point for vehicle registration and licensing near the Rajasthan-Gujarat border, covering major areas including the hill station of Mount Abu.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Ambaji Road, Abu Road, District Sirohi, Rajasthan",
+    "pinCode": "307026",
+    "phone": "02974-226670",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Abu Road",
+        "Mount Abu",
+        "Reodar",
+        "Amthala",
+        "Santpur"
+    ]
+}
