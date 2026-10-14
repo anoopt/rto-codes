@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T02:16:11.220Z",
-  "totalRTOs": 923,
-  "totalVerified": 923,
+  "generatedAt": "2026-10-14T02:01:57.057Z",
+  "totalRTOs": 928,
+  "totalVerified": 928,
   "totalStates": 28,
   "completedStates": 20,
   "inProgressStates": 1,
@@ -1315,10 +1315,10 @@
     {
       "stateCode": "RJ",
       "stateName": "Rajasthan",
-      "rtoCount": 40,
+      "rtoCount": 45,
       "totalExpectedRTOs": 60,
       "activeRTOs": 0,
-      "verifiedCount": 40,
+      "verifiedCount": 45,
       "rtoCodes": [
         "rj-01",
         "rj-02",
@@ -1359,7 +1359,12 @@
         "rj-37",
         "rj-38",
         "rj-39",
-        "rj-40"
+        "rj-40",
+        "rj-41",
+        "rj-42",
+        "rj-43",
+        "rj-44",
+        "rj-45"
       ],
       "isComplete": false,
       "type": "state",
@@ -2773,10 +2778,10 @@
     "RJ": {
       "stateCode": "RJ",
       "stateName": "Rajasthan",
-      "rtoCount": 40,
+      "rtoCount": 45,
       "totalExpectedRTOs": 60,
       "activeRTOs": 0,
-      "verifiedCount": 40,
+      "verifiedCount": 45,
       "rtoCodes": [
         "rj-01",
         "rj-02",
@@ -2817,7 +2822,12 @@
         "rj-37",
         "rj-38",
         "rj-39",
-        "rj-40"
+        "rj-40",
+        "rj-41",
+        "rj-42",
+        "rj-43",
+        "rj-44",
+        "rj-45"
       ],
       "isComplete": false,
       "type": "state",

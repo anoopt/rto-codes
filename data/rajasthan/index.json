@@ -1000,5 +1000,124 @@
       "Khushkhera",
       "Sare Khurd"
     ]
+  },
+  {
+    "code": "RJ-41",
+    "region": "Chomu",
+    "city": "Chomu",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "RJ-41 is the District Transport Office (DTO) located in Chomu, Jaipur district. It serves as a key administrative center for vehicle registration, licensing, and transport permit issuance for the Chomu tehsil and surrounding areas within the Jaipur division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Jaipur Road, Chomu, District Jaipur, Rajasthan",
+    "pinCode": "303702",
+    "phone": "01423-224570",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Chomu",
+      "Govindgarh",
+      "Kushalpur",
+      "Jaitpura",
+      "Morija"
+    ]
+  },
+  {
+    "code": "RJ-42",
+    "region": "Kishangarh",
+    "city": "Kishangarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Ajmer",
+    "division": "Ajmer",
+    "description": "The RJ-42 RTO is a District Transport Office (DTO) serving Kishangarh in the Ajmer district. It handles vehicle registrations, permits, and licensing for the region, which is a major global hub for the marble industry and home to a regional airport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Near Krishi-Upaj Mandi, Jaipur Road, Kishangarh, Rajasthan",
+    "pinCode": "305801",
+    "phone": "01463-245062",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Kishangarh",
+      "Arain",
+      "Roopangarh",
+      "Bandar Sindri",
+      "Harmara"
+    ]
+  },
+  {
+    "code": "RJ-43",
+    "region": "Phalodi",
+    "city": "Phalodi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Phalodi",
+    "division": "Jodhpur",
+    "description": "The RJ-43 District Transport Office (DTO) serves the Phalodi region in Rajasthan. It is responsible for vehicle registration, issuing driving licenses, and enforcing various motor vehicle acts and safety regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Nagaur Road, IGNP Campus, Phalodi, Rajasthan",
+    "pinCode": "342301",
+    "phone": "02925-222020",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Phalodi",
+      "Lohawat",
+      "Bap",
+      "Dechu",
+      "Baori",
+      "Ghantiyali"
+    ]
+  },
+  {
+    "code": "RJ-44",
+    "region": "Sujangarh",
+    "city": "Sujangarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Churu",
+    "division": "Bikaner",
+    "description": "RJ-44 is the District Transport Office (DTO) for Sujangarh, located in the Churu district of Rajasthan. This office was established to manage vehicle registration, licensing, and transport permits specifically for the Sujangarh subdivision, alleviating the workload of the primary Churu RTO (RJ-10).",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Mega Highway, Near Buleria Phatak, Sujangarh, District Churu, Rajasthan",
+    "pinCode": "331507",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sujangarh",
+      "Salasar",
+      "Chapar",
+      "Sujangarh Tehsil"
+    ]
+  },
+  {
+    "code": "RJ-45",
+    "region": "Jaipur North",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "The RJ-45 RTO serves the northern region of Jaipur and was established to decentralize the workload of the primary RJ-14 registration office. It manages vehicle registrations, driving licenses, and transport permits for the northern residential and industrial suburbs of the state capital. The office is centrally located in Vidhyadhar Nagar to cater to the city's expanding northern demographic.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office Jaipur North, Central Spine, Vidhyadhar Nagar, Jaipur, Rajasthan",
+    "pinCode": "302039",
+    "phone": "0141-2336647",
+    "email": "rto.jaipur.rj@nic.in",
+    "jurisdictionAreas": [
+      "Vidhyadhar Nagar",
+      "Amer",
+      "Jhotwara",
+      "Murlipura",
+      "Shastri Nagar",
+      "Bani Park",
+      "Vishwakarma Industrial Area (VKI)",
+      "Ambabari",
+      "Subhash Nagar"
+    ]
   }
 ]
