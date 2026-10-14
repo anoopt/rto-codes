@@ -1,0 +1,27 @@
+{
+    "code": "RJ-45",
+    "region": "Jaipur North",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "The RJ-45 RTO serves the northern region of Jaipur and was established to decentralize the workload of the primary RJ-14 registration office. It manages vehicle registrations, driving licenses, and transport permits for the northern residential and industrial suburbs of the state capital. The office is centrally located in Vidhyadhar Nagar to cater to the city's expanding northern demographic.",
+    "status": "active",
+    "established": "N/A",
+    "address": "RTO Office Jaipur North, Central Spine, Vidhyadhar Nagar, Jaipur, Rajasthan",
+    "pinCode": "302039",
+    "phone": "0141-2336647",
+    "email": "rto.jaipur.rj@nic.in",
+    "jurisdictionAreas": [
+        "Vidhyadhar Nagar",
+        "Amer",
+        "Jhotwara",
+        "Murlipura",
+        "Shastri Nagar",
+        "Bani Park",
+        "Vishwakarma Industrial Area (VKI)",
+        "Ambabari",
+        "Subhash Nagar"
+    ]
+}

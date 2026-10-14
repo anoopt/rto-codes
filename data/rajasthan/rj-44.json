@@ -1,0 +1,22 @@
+{
+    "code": "RJ-44",
+    "region": "Sujangarh",
+    "city": "Sujangarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Churu",
+    "division": "Bikaner",
+    "description": "RJ-44 is the District Transport Office (DTO) for Sujangarh, located in the Churu district of Rajasthan. This office was established to manage vehicle registration, licensing, and transport permits specifically for the Sujangarh subdivision, alleviating the workload of the primary Churu RTO (RJ-10).",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Mega Highway, Near Buleria Phatak, Sujangarh, District Churu, Rajasthan",
+    "pinCode": "331507",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sujangarh",
+        "Salasar",
+        "Chapar",
+        "Sujangarh Tehsil"
+    ]
+}

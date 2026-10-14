@@ -1,0 +1,24 @@
+{
+    "code": "RJ-43",
+    "region": "Phalodi",
+    "city": "Phalodi",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Phalodi",
+    "division": "Jodhpur",
+    "description": "The RJ-43 District Transport Office (DTO) serves the Phalodi region in Rajasthan. It is responsible for vehicle registration, issuing driving licenses, and enforcing various motor vehicle acts and safety regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Nagaur Road, IGNP Campus, Phalodi, Rajasthan",
+    "pinCode": "342301",
+    "phone": "02925-222020",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Phalodi",
+        "Lohawat",
+        "Bap",
+        "Dechu",
+        "Baori",
+        "Ghantiyali"
+    ]
+}

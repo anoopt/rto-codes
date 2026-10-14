@@ -1,0 +1,23 @@
+{
+    "code": "RJ-41",
+    "region": "Chomu",
+    "city": "Chomu",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "RJ-41 is the District Transport Office (DTO) located in Chomu, Jaipur district. It serves as a key administrative center for vehicle registration, licensing, and transport permit issuance for the Chomu tehsil and surrounding areas within the Jaipur division.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Jaipur Road, Chomu, District Jaipur, Rajasthan",
+    "pinCode": "303702",
+    "phone": "01423-224570",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Chomu",
+        "Govindgarh",
+        "Kushalpur",
+        "Jaitpura",
+        "Morija"
+    ]
+}

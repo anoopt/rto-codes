@@ -1,0 +1,23 @@
+{
+    "code": "RJ-42",
+    "region": "Kishangarh",
+    "city": "Kishangarh",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Ajmer",
+    "division": "Ajmer",
+    "description": "The RJ-42 RTO is a District Transport Office (DTO) serving Kishangarh in the Ajmer district. It handles vehicle registrations, permits, and licensing for the region, which is a major global hub for the marble industry and home to a regional airport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Near Krishi-Upaj Mandi, Jaipur Road, Kishangarh, Rajasthan",
+    "pinCode": "305801",
+    "phone": "01463-245062",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kishangarh",
+        "Arain",
+        "Roopangarh",
+        "Bandar Sindri",
+        "Harmara"
+    ]
+}
