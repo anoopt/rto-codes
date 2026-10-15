@@ -1,0 +1,21 @@
+{
+    "code": "RJ-47",
+    "region": "Dudu",
+    "city": "Dudu",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Dudu",
+    "division": "Jaipur",
+    "description": "RJ-47 is the District Transport Office (DTO) serving the Dudu district in Rajasthan. This office handles various services including vehicle registration, issuance of driving licenses, and transport permit management for the local region.",
+    "status": "active",
+    "established": "2023",
+    "address": "District Transport Office, Dudu, Rajasthan",
+    "pinCode": "303008",
+    "phone": "N/A",
+    "email": "dto.dudu@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Dudu",
+        "Phagi",
+        "Mauzamabad"
+    ]
+}

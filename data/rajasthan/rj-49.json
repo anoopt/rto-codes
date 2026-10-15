@@ -1,0 +1,20 @@
+{
+    "code": "RJ-49",
+    "region": "Nohar",
+    "city": "Nohar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Hanumangarh",
+    "division": "Bikaner",
+    "description": "The RJ-49 District Transport Office (DTO) is located in Nohar and serves the Hanumangarh district. It is responsible for vehicle registration, issuance of driving licenses, and collection of road taxes for the Nohar and Bhadra regions of northern Rajasthan.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Hanumangarh Road, Nohar, Rajasthan",
+    "pinCode": "335523",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nohar",
+        "Bhadra"
+    ]
+}

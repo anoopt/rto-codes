@@ -1,0 +1,23 @@
+{
+    "code": "RJ-48",
+    "region": "Kekri",
+    "city": "Kekri",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Kekri",
+    "division": "Ajmer",
+    "description": "RJ-48 is the Regional Transport Office serving the Kekri district in Rajasthan, handling vehicle registration, road tax collection, and driving licenses. It was formally established as a dedicated office following the creation of the Kekri district to improve administrative efficiency in the region.",
+    "status": "active",
+    "established": "2023",
+    "address": "District Transport Office, Ajmer Road, Kekri, Rajasthan",
+    "pinCode": "305404",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Kekri",
+        "Sawar",
+        "Sarwar",
+        "Bhinai",
+        "Todaraisingh"
+    ]
+}

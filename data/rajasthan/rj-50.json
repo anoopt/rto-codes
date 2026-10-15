@@ -1,0 +1,22 @@
+{
+    "code": "RJ-50",
+    "region": "Nokha",
+    "city": "Nokha",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Bikaner",
+    "division": "Bikaner",
+    "description": "The RJ-50 RTO represents the District Transport Office in Nokha, situated within the Bikaner district of Rajasthan. This office is responsible for vehicle registration, issuance of driving licenses, and road safety enforcement for the Nokha tehsil and its surrounding rural zones.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Bikaner Road, Nokha, Rajasthan",
+    "pinCode": "334803",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Nokha",
+        "Nokha Tehsil",
+        "Jasrasar",
+        "Panchu"
+    ]
+}

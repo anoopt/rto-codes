@@ -1,0 +1,23 @@
+{
+    "code": "RJ-46",
+    "region": "Bhinmal",
+    "city": "Bhinmal",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jalore",
+    "division": "Jodhpur",
+    "description": "RJ-46 is the District Transport Office (DTO) for Bhinmal, located in the Jalore district of Rajasthan. It handles vehicle registration, licensing, and road tax collection for the southern region of the district to streamline services alongside the primary Jalore office (RJ-16).",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Jalore Road, Bhinmal, Rajasthan",
+    "pinCode": "343029",
+    "phone": "02969-220015",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Bhinmal",
+        "Sayla",
+        "Jaswantpura",
+        "Bagoda",
+        "Raniwara"
+    ]
+}
