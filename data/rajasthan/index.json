@@ -1228,5 +1228,121 @@
       "Jasrasar",
       "Panchu"
     ]
+  },
+  {
+    "code": "RJ-51",
+    "region": "Shahpura (Bhilwara)",
+    "city": "Shahpura",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Shahpura",
+    "division": "Ajmer",
+    "description": "RJ-51 is the Regional Transport Office serving the newly formed Shahpura district in Rajasthan, which was previously under the administrative jurisdiction of Bhilwara. The office handles various transport-related services including vehicle registration, issuance of driving licenses, and collection of road taxes.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Shahpura, Rajasthan",
+    "pinCode": "311404",
+    "phone": "01484-220100",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shahpura",
+      "Jahazpur",
+      "Kotri",
+      "Phulia Kalan",
+      "Banera",
+      "Kachola"
+    ]
+  },
+  {
+    "code": "RJ-52",
+    "region": "Shahpura (Jaipur)",
+    "city": "Shahpura",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "RJ-52 serves the Shahpura region in the Jaipur district of Rajasthan. This District Transport Office (DTO) handles vehicle registration, license issuance, and transport tax management for the northern part of Jaipur district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Shahpura, Jaipur, Rajasthan",
+    "pinCode": "303103",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shahpura Tehsil",
+      "Shahpura Municipal Area",
+      "Pratapgarh Area (Jaipur)",
+      "Amarsar"
+    ]
+  },
+  {
+    "code": "RJ-53",
+    "region": "Khetri",
+    "city": "Khetri",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Neem Ka Thana",
+    "division": "Jaipur",
+    "description": "RJ-53 is the District Transport Office (DTO) for Khetri, Rajasthan. It manages vehicle registration, driver licensing, and permits for the Khetri tehsil, which was recently moved from Jhunjhunu to the Neem Ka Thana district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Tehsil Road, Khetri, Rajasthan",
+    "pinCode": "333503",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Khetri",
+      "Babai",
+      "Gothra",
+      "Khetri Nagar",
+      "Tiba",
+      "Dada Fatehpura"
+    ]
+  },
+  {
+    "code": "RJ-54",
+    "region": "Pipar City",
+    "city": "Pipar City",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jodhpur",
+    "division": "Jodhpur",
+    "description": "The RJ-54 RTO serves Pipar City and its surrounding areas within the Jodhpur district of Rajasthan. It functions as a District Transport Office providing vehicle registration, driving licenses, and permit services to local residents to alleviate the administrative load on the primary Jodhpur RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Borunda Road, Pipar City, Jodhpur, Rajasthan",
+    "pinCode": "342601",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pipar City",
+      "Pipad City",
+      "Bhopalgarh",
+      "Borunda"
+    ]
+  },
+  {
+    "code": "RJ-55",
+    "region": "Pokaran",
+    "city": "Pokaran",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaisalmer",
+    "division": "Jodhpur",
+    "description": "RJ-55 serves the Pokaran region within the Jaisalmer district of Rajasthan. As a District Transport Office (DTO), it manages vehicle registration, driving licenses, and transport permit services for the Pokaran subdivision and its surrounding rural areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office (DTO), Pokaran, District Jaisalmer, Rajasthan",
+    "pinCode": "345021",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pokaran",
+      "Sankra",
+      "Nachna",
+      "Bhadariya",
+      "Ramdevra",
+      "Lathi"
+    ]
   }
 ]
