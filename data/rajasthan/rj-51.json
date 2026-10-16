@@ -1,0 +1,24 @@
+{
+    "code": "RJ-51",
+    "region": "Shahpura (Bhilwara)",
+    "city": "Shahpura",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Shahpura",
+    "division": "Ajmer",
+    "description": "RJ-51 is the Regional Transport Office serving the newly formed Shahpura district in Rajasthan, which was previously under the administrative jurisdiction of Bhilwara. The office handles various transport-related services including vehicle registration, issuance of driving licenses, and collection of road taxes.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Shahpura, Rajasthan",
+    "pinCode": "311404",
+    "phone": "01484-220100",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shahpura",
+        "Jahazpur",
+        "Kotri",
+        "Phulia Kalan",
+        "Banera",
+        "Kachola"
+    ]
+}

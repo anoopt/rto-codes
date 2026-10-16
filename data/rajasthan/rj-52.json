@@ -1,0 +1,22 @@
+{
+    "code": "RJ-52",
+    "region": "Shahpura (Jaipur)",
+    "city": "Shahpura",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "RJ-52 serves the Shahpura region in the Jaipur district of Rajasthan. This District Transport Office (DTO) handles vehicle registration, license issuance, and transport tax management for the northern part of Jaipur district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Shahpura, Jaipur, Rajasthan",
+    "pinCode": "303103",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Shahpura Tehsil",
+        "Shahpura Municipal Area",
+        "Pratapgarh Area (Jaipur)",
+        "Amarsar"
+    ]
+}

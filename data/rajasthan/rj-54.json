@@ -1,0 +1,22 @@
+{
+    "code": "RJ-54",
+    "region": "Pipar City",
+    "city": "Pipar City",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jodhpur",
+    "division": "Jodhpur",
+    "description": "The RJ-54 RTO serves Pipar City and its surrounding areas within the Jodhpur district of Rajasthan. It functions as a District Transport Office providing vehicle registration, driving licenses, and permit services to local residents to alleviate the administrative load on the primary Jodhpur RTO.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Borunda Road, Pipar City, Jodhpur, Rajasthan",
+    "pinCode": "342601",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pipar City",
+        "Pipad City",
+        "Bhopalgarh",
+        "Borunda"
+    ]
+}
