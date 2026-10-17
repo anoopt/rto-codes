@@ -1344,5 +1344,119 @@
       "Ramdevra",
       "Lathi"
     ]
+  },
+  {
+    "code": "RJ-56",
+    "region": "Sadulshahar",
+    "city": "Sadulshahar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sri Ganganagar",
+    "division": "Bikaner",
+    "description": "RJ-56 is the District Transport Office (DTO) for Sadulshahar, serving the northernmost part of Rajasthan in the Sri Ganganagar district. This office facilitates vehicle registration, issuing of driving licenses, and other transport-related regulatory services for the local population and farming community.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Hanumangarh Road, Sadulshahar, Rajasthan - 335062",
+    "pinCode": "335062",
+    "phone": "N/A",
+    "email": "dto.sadulshahar.transport@rajasthan.gov.in",
+    "jurisdictionAreas": [
+      "Sadulshahar",
+      "Sadulshahar Tehsil",
+      "Sri Ganganagar District Rural Areas"
+    ]
+  },
+  {
+    "code": "RJ-57",
+    "region": "Sumerpur",
+    "city": "Sumerpur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Pali",
+    "division": "Jodhpur",
+    "description": "RJ-57 is the District Transport Office (DTO) for Sumerpur in the Pali district of Rajasthan. This office was established as part of the state transport department's expansion to manage the increasing volume of vehicle registrations and licensing services in the Sumerpur and Takhatgarh regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Sumerpur, Pali, Rajasthan",
+    "pinCode": "306902",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Sumerpur",
+      "Takhatgarh",
+      "Sumerpur Tehsil",
+      "Pali District (Southern Region)"
+    ]
+  },
+  {
+    "code": "RJ-58",
+    "region": "Salumber",
+    "city": "Salumber",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Salumber",
+    "division": "Udaipur Transport Division",
+    "description": "RJ-58 is the Regional Transport Office for Salumber, Rajasthan, established to manage vehicle registrations and licensing for the newly formed Salumber district. It serves as a District Transport Office (DTO) to decentralize services from the Udaipur RTO (RJ-27), facilitating easier access for local residents.",
+    "status": "active",
+    "established": "2022",
+    "address": "District Transport Office, Salumber, Rajasthan",
+    "pinCode": "313027",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Salumber",
+      "Sarada",
+      "Semari",
+      "Lasadiya",
+      "Jhadol"
+    ]
+  },
+  {
+    "code": "RJ-59",
+    "region": "Shahpura",
+    "city": "Shahpura",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur",
+    "description": "The RJ-59 RTO serves as the Jaipur Second Regional Transport Office located in Shahpura. It was established to manage vehicle registrations, driving licenses, and transport permits for the northern rural areas of Jaipur district, alleviating pressure on the central Jaipur RTO offices.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Shahpura, Jaipur District, Rajasthan",
+    "pinCode": "303103",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Shahpura",
+      "Paota",
+      "Amarsar",
+      "Manoharpur",
+      "Shahpura Tehsil"
+    ]
+  },
+  {
+    "code": "RJ-60",
+    "region": "Jaipur West",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur Division",
+    "description": "RJ-60 is an active RTO series introduced in May 2023 for the Jaipur region to alleviate the registration load on the existing RJ-14 and RJ-45 series. It primarily serves private vehicle registrations in the western and suburban parts of Jaipur city and operates under the jurisdiction of the Jaipur (RTO-I) office.",
+    "status": "active",
+    "established": "2023",
+    "address": "Regional Transport Office, Jhalana Institutional Area, Jaipur, Rajasthan",
+    "pinCode": "302004",
+    "phone": "0141-2704154",
+    "email": "rto.jaipur.rj@nic.in",
+    "jurisdictionAreas": [
+      "Jaipur West",
+      "Jhalana",
+      "Malviya Nagar",
+      "Mansarovar",
+      "Vaishali Nagar",
+      "Sanganer",
+      "Transport Nagar"
+    ]
   }
 ]
