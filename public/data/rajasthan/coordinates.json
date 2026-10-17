@@ -1,0 +1,284 @@
+{
+  "generatedAt": "2026-10-17T02:05:30.882Z",
+  "state": "Rajasthan",
+  "rtoCount": 55,
+  "successCount": 55,
+  "failedRTOs": [],
+  "coordinates": {
+    "RJ-01": {
+      "lat": 26.4691,
+      "lon": 74.639,
+      "displayName": "Ajmer, Ajmer Tehsil, Ajmer, Rajasthan, India"
+    },
+    "RJ-02": {
+      "lat": 27.5645949,
+      "lon": 76.6132248,
+      "displayName": "Alwar, Alwar Tehsil, Alwar, Rajasthan, India"
+    },
+    "RJ-03": {
+      "lat": 23.550075,
+      "lon": 74.446294,
+      "displayName": "Banswara, Banswara Tehsil, Banswara, Rajasthan, 327001, India"
+    },
+    "RJ-04": {
+      "lat": 25.745304,
+      "lon": 71.3998217,
+      "displayName": "Barmer, Barmer Tehsil, Barmer, Rajasthan, 344001, India"
+    },
+    "RJ-05": {
+      "lat": 27.2154447,
+      "lon": 77.4986962,
+      "displayName": "Bharatpur, Bharatpur Tehsil, Bharatpur, Rajasthan, 321001, India"
+    },
+    "RJ-06": {
+      "lat": 25.348,
+      "lon": 74.636,
+      "displayName": "Bhilwara, Bhilwara Tehsil, Bhilwara, Rajasthan, 311001, India"
+    },
+    "RJ-07": {
+      "lat": 28.0159286,
+      "lon": 73.3171367,
+      "displayName": "Bikaner, Bikaner Tehsil, Bikaner, Rajasthan, 334001, India"
+    },
+    "RJ-08": {
+      "lat": 25.4416137,
+      "lon": 75.6375815,
+      "displayName": "Bundi, Bundi Tehsil, Bundi, Rajasthan, 323001, India"
+    },
+    "RJ-09": {
+      "lat": 24.8837157,
+      "lon": 74.6244155,
+      "displayName": "Chittorgarh, Chittaurgarh Tehsil, Chittorgarh, Rajasthan, 312001, India"
+    },
+    "RJ-10": {
+      "lat": 28.5,
+      "lon": 74.5,
+      "displayName": "Chūru, Churu, Rajasthan, India"
+    },
+    "RJ-11": {
+      "lat": 26.6963543,
+      "lon": 77.9059515,
+      "displayName": "Dholpur Junction, NH23, Dhaulpur, Dhaulpur Tehsil, Dhaulpur, Rajasthan, 328001, India"
+    },
+    "RJ-12": {
+      "lat": 23.8538893,
+      "lon": 73.7087177,
+      "displayName": "Dungarpur, Dungarpur Tehsil, Dungarpur, Rajasthan, 314001, India"
+    },
+    "RJ-13": {
+      "lat": 29.9270556,
+      "lon": 73.8761519,
+      "displayName": "Sri Ganganagar, Ganganagar Tehsil, Sri Ganganagar, Rajasthan, 335001, India"
+    },
+    "RJ-14": {
+      "lat": 26.9154576,
+      "lon": 75.8189817,
+      "displayName": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India"
+    },
+    "RJ-15": {
+      "lat": 26.9116615,
+      "lon": 70.9124888,
+      "displayName": "Jaisalmer, Jaisalmer Tehsil, Jaisalmer, Rajasthan, 345001, India"
+    },
+    "RJ-16": {
+      "lat": 25.3476006,
+      "lon": 72.6260916,
+      "displayName": "Jalore, Jalor Tehsil, Jalore, Rajasthan, 343001, India"
+    },
+    "RJ-17": {
+      "lat": 24.5931704,
+      "lon": 76.1664528,
+      "displayName": "Jhalawar, Jhalrapatan Tehsil, Jhalawar, Rajasthan, 326001, India"
+    },
+    "RJ-18": {
+      "lat": 28.1287995,
+      "lon": 75.3992581,
+      "displayName": "Jhunjhunu, Jhunjhunun Tehsil, Jhunjhunu, Rajasthan, 333001, India"
+    },
+    "RJ-19": {
+      "lat": 26.2967719,
+      "lon": 73.0351433,
+      "displayName": "Jodhpur, Jodhpur Tehsil, Jodhpur, Rajasthan, India"
+    },
+    "RJ-20": {
+      "lat": 25.1737019,
+      "lon": 75.8574194,
+      "displayName": "Kota, Ladpura Tehsil, Kota, Rajasthan, 324001, India"
+    },
+    "RJ-21": {
+      "lat": 27.2000117,
+      "lon": 73.7237044,
+      "displayName": "Nagaur, Nagaur Railway Station Road, Nagaur, Nagaur Tehsil, Nagaur, Rajasthan, 341001, India"
+    },
+    "RJ-22": {
+      "lat": 25.7682376,
+      "lon": 73.3275135,
+      "displayName": "Pali, Pali Tehsil, Pali, Rajasthan, 306400, India"
+    },
+    "RJ-23": {
+      "lat": 27.6091864,
+      "lon": 75.1395503,
+      "displayName": "Sikar, Sikar Tehsil, Sikar, Rajasthan, 332001, India"
+    },
+    "RJ-24": {
+      "lat": 24.8858,
+      "lon": 72.8589,
+      "displayName": "Sirohi, Sirohi Tehsil, Sirohi, Rajasthan, 307001, India"
+    },
+    "RJ-25": {
+      "lat": 26.0188919,
+      "lon": 76.3522441,
+      "displayName": "Sawai Madhopur, Sawai Madhopur Tehsil, Sawai Madhopur, Rajasthan, 322021, India"
+    },
+    "RJ-26": {
+      "lat": 26.1612436,
+      "lon": 75.7858103,
+      "displayName": "Tonk, Tonk Tehsil, Tonk, Rajasthan, 304001, India"
+    },
+    "RJ-27": {
+      "lat": 24.578721,
+      "lon": 73.6862571,
+      "displayName": "Udaipur, Girwa Tehsil, Udaipur, Rajasthan, 313001, India"
+    },
+    "RJ-28": {
+      "lat": 25.0952665,
+      "lon": 76.5070495,
+      "displayName": "Baran, MDR112, Baran, Baran Tehsil, Baran, Rajasthan, 325205, India"
+    },
+    "RJ-29": {
+      "lat": 26.9001256,
+      "lon": 76.3306011,
+      "displayName": "Dausa, NH 11, Dausa, Dausa Tehsil, Dausa, Rajasthan, 303300, India"
+    },
+    "RJ-30": {
+      "lat": 25.0585825,
+      "lon": 73.8880816,
+      "displayName": "Rajsamand, Rajsamand Tehsil, Rajsamand, Rajasthan, 313326, India"
+    },
+    "RJ-31": {
+      "lat": 29.6152878,
+      "lon": 74.2903968,
+      "displayName": "Hanumangarh, Hanumangarh Tehsil, Hanumangarh, Rajasthan, 335500, India"
+    },
+    "RJ-32": {
+      "lat": 27.707172,
+      "lon": 76.1996447,
+      "displayName": "Kotputli, Kotpuli Tehsil, Kotputli-Behror, Rajasthan, 303108, India"
+    },
+    "RJ-33": {
+      "lat": 24.6453169,
+      "lon": 75.9430409,
+      "displayName": "Ramganj Mandi, Ramganj Mandi Tehsil, Kota, Rajasthan, 326519, India"
+    },
+    "RJ-34": {
+      "lat": 26.4956,
+      "lon": 77.0275,
+      "displayName": "karauli, Karauli Tehsil, Karauli, Rajasthan, India"
+    },
+    "RJ-35": {
+      "lat": 24.0333495,
+      "lon": 74.7801315,
+      "displayName": "Pratapgarh, Pratapgarh Tehsil, Pratapgarh, Rajasthan, 312605, India"
+    },
+    "RJ-36": {
+      "lat": 26.1070559,
+      "lon": 74.3128424,
+      "displayName": "Beawar, Railway Station Road, Beawar, Beawar Tehsil, Beawar, Rajasthan, 305900, India"
+    },
+    "RJ-37": {
+      "lat": 27.4061158,
+      "lon": 74.5577959,
+      "displayName": "Didwana, SH7D;60;84, Didwana, Didwana Tehsil, Didwana-Kuchaman, Rajasthan, 341300, India"
+    },
+    "RJ-38": {
+      "lat": 24.4812736,
+      "lon": 72.7852867,
+      "displayName": "Abu Road, SH11, Gandhi Nagar, Abu Road, Abu Road Tehsil, Sirohi, Rajasthan, 307026, India"
+    },
+    "RJ-39": {
+      "lat": 25.8300564,
+      "lon": 72.2470946,
+      "displayName": "Balotra, SH68, Balotra, Pachpadra Tehsil, Balotra, Rajasthan, 344022, India"
+    },
+    "RJ-40": {
+      "lat": 28.1980672,
+      "lon": 76.8678644,
+      "displayName": "ESIC Hospital ,Bhiwadi, NH919, Bhiwadi, Alwar, Khairthal-Tijara, Rajasthan, 301019, India"
+    },
+    "RJ-41": {
+      "lat": 27.1726642,
+      "lon": 75.720359,
+      "displayName": "Chomu, Chomu Tehsil, Jaipur, Rajasthan, 303702, India"
+    },
+    "RJ-42": {
+      "lat": 26.5885585,
+      "lon": 74.861097,
+      "displayName": "Kishangarh, Kishangarh Tehsil, Ajmer, Rajasthan, 305802, India"
+    },
+    "RJ-43": {
+      "lat": 27.1294121,
+      "lon": 72.3649644,
+      "displayName": "Phalodi, Phalodi Tehsil, Phalodi, Rajasthan, India"
+    },
+    "RJ-44": {
+      "lat": 27.709355,
+      "lon": 74.4642899,
+      "displayName": "Sujangarh, SH20A, Sujangarh, Sujangarh Tehsil, Churu, Rajasthan, 331507, India"
+    },
+    "RJ-45": {
+      "lat": 26.9154576,
+      "lon": 75.8189817,
+      "displayName": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India"
+    },
+    "RJ-46": {
+      "lat": 25.0071053,
+      "lon": 72.2653077,
+      "displayName": "Bhinmal, Bhinmal Tehsil, Jalore, Rajasthan, 343029, India"
+    },
+    "RJ-47": {
+      "lat": 26.6811224,
+      "lon": 75.2320764,
+      "displayName": "Dudu, Dudu Tehsil, Jaipur, Rajasthan, 303008, India"
+    },
+    "RJ-48": {
+      "lat": 25.974212,
+      "lon": 75.1545672,
+      "displayName": "Kekri, Kekri Tehsil, Ajmer, Rajasthan, 305404, India"
+    },
+    "RJ-49": {
+      "lat": 29.1922355,
+      "lon": 74.7743423,
+      "displayName": "Nohar, SH106, 14 Barani, Nohar Tehsil, Hanumangarh, Rajasthan, 335523, India"
+    },
+    "RJ-50": {
+      "lat": 27.5552713,
+      "lon": 73.4755961,
+      "displayName": "Nokha, MDR37, Nokha, Nokha Tehsil, Bikaner, Rajasthan, 334803, India"
+    },
+    "RJ-51": {
+      "lat": 25.6301339,
+      "lon": 74.9264383,
+      "displayName": "Shahpura, Shahpura Tehsil, Bhilwara, Rajasthan, 311400, India"
+    },
+    "RJ-52": {
+      "lat": 27.3690805,
+      "lon": 75.8901723,
+      "displayName": "Shahpura Tehsil, Jaipur, Rajasthan, India"
+    },
+    "RJ-53": {
+      "lat": 28.0003366,
+      "lon": 75.784133,
+      "displayName": "Khetri, Khetri Tehsil, Jhunjhunu, Rajasthan, 333503, India"
+    },
+    "RJ-54": {
+      "lat": 26.3746911,
+      "lon": 73.5315802,
+      "displayName": "Pipar City, MDR121, Pipar City, Pipar City Tehsil, Jodhpur, Rajasthan, 342600, India"
+    },
+    "RJ-55": {
+      "lat": 26.9198813,
+      "lon": 71.9197573,
+      "displayName": "Pokaran, Pokaran Tehsil, Jaisalmer, Rajasthan, India"
+    }
+  }
+}
