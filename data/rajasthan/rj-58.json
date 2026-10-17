@@ -1,0 +1,23 @@
+{
+    "code": "RJ-58",
+    "region": "Salumber",
+    "city": "Salumber",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Salumber",
+    "division": "Udaipur Transport Division",
+    "description": "RJ-58 is the Regional Transport Office for Salumber, Rajasthan, established to manage vehicle registrations and licensing for the newly formed Salumber district. It serves as a District Transport Office (DTO) to decentralize services from the Udaipur RTO (RJ-27), facilitating easier access for local residents.",
+    "status": "active",
+    "established": "2022",
+    "address": "District Transport Office, Salumber, Rajasthan",
+    "pinCode": "313027",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Salumber",
+        "Sarada",
+        "Semari",
+        "Lasadiya",
+        "Jhadol"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "RJ-60",
+    "region": "Jaipur West",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Jaipur",
+    "division": "Jaipur Division",
+    "description": "RJ-60 is an active RTO series introduced in May 2023 for the Jaipur region to alleviate the registration load on the existing RJ-14 and RJ-45 series. It primarily serves private vehicle registrations in the western and suburban parts of Jaipur city and operates under the jurisdiction of the Jaipur (RTO-I) office.",
+    "status": "active",
+    "established": "2023",
+    "address": "Regional Transport Office, Jhalana Institutional Area, Jaipur, Rajasthan",
+    "pinCode": "302004",
+    "phone": "0141-2704154",
+    "email": "rto.jaipur.rj@nic.in",
+    "jurisdictionAreas": [
+        "Jaipur West",
+        "Jhalana",
+        "Malviya Nagar",
+        "Mansarovar",
+        "Vaishali Nagar",
+        "Sanganer",
+        "Transport Nagar"
+    ]
+}

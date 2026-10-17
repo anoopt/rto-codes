@@ -1,0 +1,22 @@
+{
+    "code": "RJ-57",
+    "region": "Sumerpur",
+    "city": "Sumerpur",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Pali",
+    "division": "Jodhpur",
+    "description": "RJ-57 is the District Transport Office (DTO) for Sumerpur in the Pali district of Rajasthan. This office was established as part of the state transport department's expansion to manage the increasing volume of vehicle registrations and licensing services in the Sumerpur and Takhatgarh regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Sumerpur, Pali, Rajasthan",
+    "pinCode": "306902",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Sumerpur",
+        "Takhatgarh",
+        "Sumerpur Tehsil",
+        "Pali District (Southern Region)"
+    ]
+}

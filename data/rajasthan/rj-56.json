@@ -1,0 +1,21 @@
+{
+    "code": "RJ-56",
+    "region": "Sadulshahar",
+    "city": "Sadulshahar",
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "district": "Sri Ganganagar",
+    "division": "Bikaner",
+    "description": "RJ-56 is the District Transport Office (DTO) for Sadulshahar, serving the northernmost part of Rajasthan in the Sri Ganganagar district. This office facilitates vehicle registration, issuing of driving licenses, and other transport-related regulatory services for the local population and farming community.",
+    "status": "active",
+    "established": "N/A",
+    "address": "District Transport Office, Hanumangarh Road, Sadulshahar, Rajasthan - 335062",
+    "pinCode": "335062",
+    "phone": "N/A",
+    "email": "dto.sadulshahar.transport@rajasthan.gov.in",
+    "jurisdictionAreas": [
+        "Sadulshahar",
+        "Sadulshahar Tehsil",
+        "Sri Ganganagar District Rural Areas"
+    ]
+}
