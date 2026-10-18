@@ -6,5 +6,15 @@
   "totalRTOs": 8,
   "districtMapping": {},
   "isComplete": false,
-  "type": "state"
+  "type": "state",
+  "validCodes": [
+    "SK-01",
+    "SK-02",
+    "SK-03",
+    "SK-04",
+    "SK-05",
+    "SK-06",
+    "SK-07",
+    "SK-08"
+  ]
 }
