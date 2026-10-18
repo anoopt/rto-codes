@@ -1,0 +1,23 @@
+{
+    "code": "SK-05",
+    "region": "Namchi",
+    "city": "Namchi",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Namchi",
+    "division": "Namchi Transport Division",
+    "description": "SK-05 is the Regional Transport Office serving the Namchi district in Sikkim. It was officially designated as a separate registration authority to manage vehicle services for the Namchi town and its immediate subdivisions, distinct from the Jorethang RTO.",
+    "status": "active",
+    "established": "2021",
+    "address": "Regional Transport Office, Transport Department, Namchi, Sikkim",
+    "pinCode": "737126",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Namchi",
+        "Ravangla",
+        "Yangang",
+        "Melli",
+        "Temi-Tea Garden"
+    ]
+}

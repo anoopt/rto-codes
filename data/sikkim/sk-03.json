@@ -1,0 +1,24 @@
+{
+    "code": "SK-03",
+    "region": "Mangan",
+    "city": "Mangan",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Mangan",
+    "division": "Sikkim Motor Vehicles Division",
+    "description": "The SK-03 RTO serves the Mangan district (formerly North Sikkim), handling essential transport services including vehicle registration and driving license issuance. It is the primary transport authority for the geographically vast and mountainous northern region of Sikkim.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Mangan, North Sikkim, Sikkim - 737116",
+    "pinCode": "737116",
+    "phone": "03592-204234",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Mangan",
+        "Chungthang",
+        "Dzongu",
+        "Kabi",
+        "Lachen",
+        "Lachung"
+    ]
+}

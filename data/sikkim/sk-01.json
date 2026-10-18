@@ -1,0 +1,23 @@
+{
+    "code": "SK-01",
+    "region": "Gangtok",
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "East Sikkim",
+    "division": "East Sikkim Division",
+    "description": "The SK-01 RTO is the primary transport office for Gangtok, the capital of Sikkim. It manages vehicle registrations, driving licenses, and transport permits for the East Sikkim region, operating out of the Yatayat Bhawan.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Yatayat Bhawan, SNT Complex, Gangtok, East Sikkim, Sikkim - 737101",
+    "pinCode": "737101",
+    "phone": "03592-204234",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gangtok",
+        "Pakyong",
+        "Rongli",
+        "Rangpo",
+        "Singtam"
+    ]
+}

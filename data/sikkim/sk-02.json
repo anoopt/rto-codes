@@ -1,0 +1,24 @@
+{
+    "code": "SK-02",
+    "region": "Gyalshing",
+    "city": "Gyalshing",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Gyalshing",
+    "division": "Sikkim Transport Department",
+    "description": "The SK-02 RTO serves the Gyalshing district in West Sikkim, facilitating vehicle registration and driving licensing services. It is the primary transport administrative body for the western part of the state, ensuring compliance with the Motor Vehicles Act across various mountainous terrains.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Gyalshing, West Sikkim, Sikkim",
+    "pinCode": "737111",
+    "phone": "03592-204234",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Gyalshing",
+        "Pelling",
+        "Yuksom",
+        "Dentam",
+        "Tashiding",
+        "Hee-Bermoik"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "code": "SK-04",
+    "region": "Jorethang",
+    "city": "Jorethang",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "South Sikkim",
+    "division": "South Sikkim Transport Division",
+    "description": "The SK-04 RTO is located in Jorethang and serves as the nodal office for vehicle registration and licensing in the South Sikkim district. It manages the issuance of driving licenses, fitness certificates for commercial vehicles, and the collection of road taxes for the southern region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Jorethang, South Sikkim, Sikkim - 737121",
+    "pinCode": "737121",
+    "phone": "03592-204234",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Jorethang",
+        "Namchi",
+        "Ravangla",
+        "Melli",
+        "Yangang",
+        "Temi",
+        "Sumbuk"
+    ]
+}
