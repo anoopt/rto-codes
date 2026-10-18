@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-17T02:02:34.615Z",
-  "totalRTOs": 943,
-  "totalVerified": 943,
+  "generatedAt": "2026-10-18T02:02:37.686Z",
+  "totalRTOs": 948,
+  "totalVerified": 948,
   "totalStates": 28,
-  "completedStates": 20,
-  "inProgressStates": 0,
+  "completedStates": 21,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 8,
   "inProgressUTs": 0,
@@ -1381,23 +1381,29 @@
         "rj-59",
         "rj-60"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "SK",
       "stateName": "Sikkim",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 8,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "sk-01",
+        "sk-02",
+        "sk-03",
+        "sk-04",
+        "sk-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2859,23 +2865,29 @@
         "rj-59",
         "rj-60"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "SK": {
       "stateCode": "SK",
       "stateName": "Sikkim",
-      "rtoCount": 0,
+      "rtoCount": 5,
       "totalExpectedRTOs": 8,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "sk-01",
+        "sk-02",
+        "sk-03",
+        "sk-04",
+        "sk-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
