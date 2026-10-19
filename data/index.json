@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-18T02:02:37.686Z",
-  "totalRTOs": 948,
-  "totalVerified": 948,
+  "generatedAt": "2026-10-19T02:05:27.406Z",
+  "totalRTOs": 951,
+  "totalVerified": 951,
   "totalStates": 28,
   "completedStates": 21,
-  "inProgressStates": 1,
+  "inProgressStates": 0,
   "totalUTs": 8,
   "completedUTs": 8,
   "inProgressUTs": 0,
@@ -1390,20 +1390,23 @@
     {
       "stateCode": "SK",
       "stateName": "Sikkim",
-      "rtoCount": 5,
+      "rtoCount": 8,
       "totalExpectedRTOs": 8,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 8,
       "rtoCodes": [
         "sk-01",
         "sk-02",
         "sk-03",
         "sk-04",
-        "sk-05"
+        "sk-05",
+        "sk-06",
+        "sk-07",
+        "sk-08"
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2874,20 +2877,23 @@
     "SK": {
       "stateCode": "SK",
       "stateName": "Sikkim",
-      "rtoCount": 5,
+      "rtoCount": 8,
       "totalExpectedRTOs": 8,
       "activeRTOs": 0,
-      "verifiedCount": 5,
+      "verifiedCount": 8,
       "rtoCodes": [
         "sk-01",
         "sk-02",
         "sk-03",
         "sk-04",
-        "sk-05"
+        "sk-05",
+        "sk-06",
+        "sk-07",
+        "sk-08"
       ],
       "isComplete": false,
       "type": "state",
-      "status": "In Progress",
+      "status": "Complete",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },

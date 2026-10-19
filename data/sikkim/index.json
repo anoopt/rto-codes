@@ -117,5 +117,74 @@
       "Melli",
       "Temi-Tea Garden"
     ]
+  },
+  {
+    "code": "SK-06",
+    "region": "Soreng",
+    "city": "Soreng",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Soreng",
+    "division": "Sikkim Transport Department",
+    "description": "SK-06 is the Regional Transport Office for the Soreng district in Sikkim, facilitating vehicle registration and driving licenses. This RTO was established to serve the administrative needs of the Soreng district, ensuring efficient transport services for the local population in the western region.",
+    "status": "active",
+    "established": "2018",
+    "address": "Soreng Bazar, Above SBS (Sikkim Bank Ltd), Soreng, Sikkim",
+    "pinCode": "737121",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Soreng",
+      "Kaluk",
+      "Chumbong",
+      "Darap",
+      "Dentam"
+    ]
+  },
+  {
+    "code": "SK-07",
+    "region": "Pakyong",
+    "city": "Pakyong",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Pakyong",
+    "division": "Pakyong Transport Division",
+    "description": "The SK-07 Regional Transport Office (RTO) serves the Pakyong district, which was officially carved out of East Sikkim. This office manages vehicle registrations, driving licenses, and transport permits for the Pakyong and Rongli sub-divisions, facilitating local governance in the newly formed district.",
+    "status": "active",
+    "established": "2018",
+    "address": "Regional Transport Office, Pakyong District, Sikkim",
+    "pinCode": "737106",
+    "phone": "03592-201218",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Pakyong Sub-Division",
+      "Rongli Sub-Division",
+      "Rhenock",
+      "Rangpo"
+    ]
+  },
+  {
+    "code": "SK-08",
+    "region": "Singtam",
+    "city": "Singtam",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Gangtok",
+    "division": "Sikkim Transport Department",
+    "description": "The SK-08 RTO serves the Singtam region within the Gangtok district of Sikkim. This office was established as part of the state's administrative expansion to facilitate vehicle registration, driving license issuance, and transport tax collection for the Singtam sub-division.",
+    "status": "active",
+    "established": "2024",
+    "address": "Regional Transport Office, Singtam, Gangtok District, Sikkim",
+    "pinCode": "737134",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Singtam",
+      "Sirwani",
+      "Bermoik",
+      "Topakhani",
+      "Sang",
+      "Martam"
+    ]
   }
 ]
