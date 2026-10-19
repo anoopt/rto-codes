@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-10-19T02:05:49.251Z",
+  "state": "Sikkim",
+  "rtoCount": 5,
+  "successCount": 5,
+  "failedRTOs": [],
+  "coordinates": {
+    "SK-01": {
+      "lat": 27.329046,
+      "lon": 88.6122673,
+      "displayName": "Gangtok, Gangtok subdivision, Gangtok, Sikkim, 737101, India"
+    },
+    "SK-02": {
+      "lat": 27.4185174,
+      "lon": 88.1808338,
+      "displayName": "Gyalshing, Sikkim, India"
+    },
+    "SK-03": {
+      "lat": 27.5299656,
+      "lon": 88.402506,
+      "displayName": "Mangan, Sikkim, India"
+    },
+    "SK-04": {
+      "lat": 27.132393,
+      "lon": 88.283958,
+      "displayName": "Jorethang, PHC, SH, Jorethang, Namchi, Sikkim, 737121, India"
+    },
+    "SK-05": {
+      "lat": 27.1661262,
+      "lon": 88.3651981,
+      "displayName": "Namchi, Sikkim, 737126, India"
+    }
+  }
+}
