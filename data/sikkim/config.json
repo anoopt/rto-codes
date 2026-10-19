@@ -4,8 +4,17 @@
   "displayName": "Sikkim",
   "capital": "Gangtok",
   "totalRTOs": 8,
-  "districtMapping": {},
-  "isComplete": false,
+  "districtMapping": {
+    "East Sikkim": "East Sikkim",
+    "Gangtok": "Gangtok",
+    "Gyalshing": "Gyalshing",
+    "Mangan": "Mangan",
+    "Namchi": "Namchi",
+    "Pakyong": "Pakyong",
+    "Soreng": "Soreng",
+    "South Sikkim": "South Sikkim"
+  },
+  "isComplete": true,
   "type": "state",
   "validCodes": [
     "SK-01",
@@ -16,5 +25,6 @@
     "SK-06",
     "SK-07",
     "SK-08"
-  ]
+  ],
+  "osmEnabled": true
 }
