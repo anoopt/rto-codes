@@ -1,0 +1,22 @@
+{
+    "code": "SK-07",
+    "region": "Pakyong",
+    "city": "Pakyong",
+    "state": "Sikkim",
+    "stateCode": "SK",
+    "district": "Pakyong",
+    "division": "Pakyong Transport Division",
+    "description": "The SK-07 Regional Transport Office (RTO) serves the Pakyong district, which was officially carved out of East Sikkim. This office manages vehicle registrations, driving licenses, and transport permits for the Pakyong and Rongli sub-divisions, facilitating local governance in the newly formed district.",
+    "status": "active",
+    "established": "2018",
+    "address": "Regional Transport Office, Pakyong District, Sikkim",
+    "pinCode": "737106",
+    "phone": "03592-201218",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Pakyong Sub-Division",
+        "Rongli Sub-Division",
+        "Rhenock",
+        "Rangpo"
+    ]
+}
