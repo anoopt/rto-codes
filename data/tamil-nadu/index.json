@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "code": "TN-01",
+    "region": "Chennai Central",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "The TN-01 RTO serves the central part of Chennai city, including major residential and commercial hubs. It is the primary office for vehicle registration and licensing in the central zone of the state capital, operating from its headquarters in Ayanavaram.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 4, Anderson Road, Ayanavaram, Chennai - 600023",
+    "pinCode": "600023",
+    "phone": "044-26745959",
+    "email": "rto-tn01@nic.in",
+    "jurisdictionAreas": [
+      "Egmore",
+      "Nungambakkam",
+      "Triplicane",
+      "Ayanavaram",
+      "Purasawalkam",
+      "Kilpauk",
+      "Chetpet"
+    ]
+  },
+  {
+    "code": "TN-02",
+    "region": "Chennai (North West)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "The Chennai (North West) Regional Transport Office, identified by the code TN-02, is one of the primary transport administrative centers in the state capital. It serves the northwestern residential and commercial corridors, managing a high volume of vehicle registrations and driving license issuances.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 3623, G-17, New Avadi Road, Anna Nagar East, Chennai, Tamil Nadu",
+    "pinCode": "600102",
+    "phone": "044-26215969",
+    "email": "rtotn02@nic.in",
+    "jurisdictionAreas": [
+      "Anna Nagar East",
+      "Anna Nagar West",
+      "Shenoy Nagar",
+      "Aminjikarai"
+    ]
+  },
+  {
+    "code": "TN-03",
+    "region": "Chennai (North-East)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai Transport Division",
+    "description": "The TN-03 RTO serves the North-East zone of Chennai, headquartered in Tondiarpet. It is responsible for vehicle registration, driver licensing, and enforcement of transport regulations within its jurisdiction of North Chennai.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 147, Balakrishna Street, Thiruvottiyur High Road (T.H. Road), Tondiarpet, Chennai, Tamil Nadu",
+    "pinCode": "600081",
+    "phone": "044-25914849",
+    "email": "rtotn03@nic.in",
+    "jurisdictionAreas": [
+      "Tondiarpet",
+      "Royapuram",
+      "Washermanpet",
+      "Old Washermanpet",
+      "Thiruvottiyur High Road area",
+      "Korukkupet"
+    ]
+  },
+  {
+    "code": "TN-04",
+    "region": "Chennai East",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai Transport Division",
+    "description": "TN-04 is the Regional Transport Office serving the eastern sector of Chennai, headquartered in Pulianthoppu. It handles a high volume of commercial and private vehicle registrations, driving licenses, and road tax collections for the older, densely populated parts of the city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Power Mills Road, Pulianthoppu, Chennai, Tamil Nadu",
+    "pinCode": "600012",
+    "phone": "044-26670663",
+    "email": "rtotn04@nic.in",
+    "jurisdictionAreas": [
+      "Pulianthoppu",
+      "Basin Bridge",
+      "Choolai",
+      "Vepery",
+      "Periamet",
+      "Elephant Gate",
+      "Wall Tax Road"
+    ]
+  },
+  {
+    "code": "TN-05",
+    "region": "Chennai North",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai North",
+    "description": "TN-05 is the Regional Transport Office for North Chennai, serving significant northern residential and commercial hubs like Kolathur and Vysarpadi. It oversees vehicle registration, driver licensing, and various transport-related regulatory activities for a large portion of the city's northern sector.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 9, Inner Ring Road, Sastri Nagar, Kolathur, Chennai, Tamil Nadu - 600099",
+    "pinCode": "600099",
+    "phone": "044-25562700",
+    "email": "rtotn05@nic.in",
+    "jurisdictionAreas": [
+      "Kolathur",
+      "Perambur",
+      "Vysarpadi",
+      "Madhavaram",
+      "Kodungaiyur",
+      "Sastri Nagar",
+      "MKB Nagar"
+    ]
+  }
+]

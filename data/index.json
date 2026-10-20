@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T02:05:27.406Z",
-  "totalRTOs": 951,
-  "totalVerified": 951,
+  "generatedAt": "2026-10-20T02:03:27.644Z",
+  "totalRTOs": 956,
+  "totalVerified": 956,
   "totalStates": 28,
-  "completedStates": 21,
-  "inProgressStates": 0,
+  "completedStates": 22,
+  "inProgressStates": 1,
   "totalUTs": 8,
   "completedUTs": 8,
   "inProgressUTs": 0,
@@ -1404,23 +1404,29 @@
         "sk-07",
         "sk-08"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     {
       "stateCode": "TN",
       "stateName": "Tamil Nadu",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 143,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 88,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "tn-01",
+        "tn-02",
+        "tn-03",
+        "tn-04",
+        "tn-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
@@ -2891,23 +2897,29 @@
         "sk-07",
         "sk-08"
       ],
-      "isComplete": false,
+      "isComplete": true,
       "type": "state",
       "status": "Complete",
-      "osmStatus": "Pending",
-      "osmColor": "yellow"
+      "osmStatus": "Enabled",
+      "osmColor": "brightgreen"
     },
     "TN": {
       "stateCode": "TN",
       "stateName": "Tamil Nadu",
-      "rtoCount": 0,
-      "totalExpectedRTOs": 143,
+      "rtoCount": 5,
+      "totalExpectedRTOs": 88,
       "activeRTOs": 0,
-      "verifiedCount": 0,
-      "rtoCodes": [],
+      "verifiedCount": 5,
+      "rtoCodes": [
+        "tn-01",
+        "tn-02",
+        "tn-03",
+        "tn-04",
+        "tn-05"
+      ],
       "isComplete": false,
       "type": "state",
-      "status": "Not Started",
+      "status": "In Progress",
       "osmStatus": "Pending",
       "osmColor": "yellow"
     },
