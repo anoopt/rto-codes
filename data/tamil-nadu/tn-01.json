@@ -1,0 +1,25 @@
+{
+    "code": "TN-01",
+    "region": "Chennai Central",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "The TN-01 RTO serves the central part of Chennai city, including major residential and commercial hubs. It is the primary office for vehicle registration and licensing in the central zone of the state capital, operating from its headquarters in Ayanavaram.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 4, Anderson Road, Ayanavaram, Chennai - 600023",
+    "pinCode": "600023",
+    "phone": "044-26745959",
+    "email": "rto-tn01@nic.in",
+    "jurisdictionAreas": [
+        "Egmore",
+        "Nungambakkam",
+        "Triplicane",
+        "Ayanavaram",
+        "Purasawalkam",
+        "Kilpauk",
+        "Chetpet"
+    ]
+}

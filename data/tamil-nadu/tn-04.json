@@ -1,0 +1,25 @@
+{
+    "code": "TN-04",
+    "region": "Chennai East",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai Transport Division",
+    "description": "TN-04 is the Regional Transport Office serving the eastern sector of Chennai, headquartered in Pulianthoppu. It handles a high volume of commercial and private vehicle registrations, driving licenses, and road tax collections for the older, densely populated parts of the city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Power Mills Road, Pulianthoppu, Chennai, Tamil Nadu",
+    "pinCode": "600012",
+    "phone": "044-26670663",
+    "email": "rtotn04@nic.in",
+    "jurisdictionAreas": [
+        "Pulianthoppu",
+        "Basin Bridge",
+        "Choolai",
+        "Vepery",
+        "Periamet",
+        "Elephant Gate",
+        "Wall Tax Road"
+    ]
+}

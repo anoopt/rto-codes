@@ -1,0 +1,22 @@
+{
+    "code": "TN-02",
+    "region": "Chennai (North West)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "The Chennai (North West) Regional Transport Office, identified by the code TN-02, is one of the primary transport administrative centers in the state capital. It serves the northwestern residential and commercial corridors, managing a high volume of vehicle registrations and driving license issuances.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 3623, G-17, New Avadi Road, Anna Nagar East, Chennai, Tamil Nadu",
+    "pinCode": "600102",
+    "phone": "044-26215969",
+    "email": "rtotn02@nic.in",
+    "jurisdictionAreas": [
+        "Anna Nagar East",
+        "Anna Nagar West",
+        "Shenoy Nagar",
+        "Aminjikarai"
+    ]
+}

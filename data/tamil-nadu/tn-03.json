@@ -1,0 +1,24 @@
+{
+    "code": "TN-03",
+    "region": "Chennai (North-East)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai Transport Division",
+    "description": "The TN-03 RTO serves the North-East zone of Chennai, headquartered in Tondiarpet. It is responsible for vehicle registration, driver licensing, and enforcement of transport regulations within its jurisdiction of North Chennai.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 147, Balakrishna Street, Thiruvottiyur High Road (T.H. Road), Tondiarpet, Chennai, Tamil Nadu",
+    "pinCode": "600081",
+    "phone": "044-25914849",
+    "email": "rtotn03@nic.in",
+    "jurisdictionAreas": [
+        "Tondiarpet",
+        "Royapuram",
+        "Washermanpet",
+        "Old Washermanpet",
+        "Thiruvottiyur High Road area",
+        "Korukkupet"
+    ]
+}
