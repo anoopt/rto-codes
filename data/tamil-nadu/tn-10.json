@@ -1,0 +1,25 @@
+{
+    "code": "TN-10",
+    "region": "Chennai (South-West)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai South",
+    "description": "TN-10 is the Regional Transport Office for Chennai (South-West), headquartered in Virugambakkam. This office manages vehicle registration, permits, and licensing for several key residential and commercial neighborhoods in the southwestern part of the state capital.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 47 & 49, Kaliamman Koil Street, Sai Nagar, Virugambakkam, Chennai, Tamil Nadu - 600092",
+    "pinCode": "600092",
+    "phone": "044-24797722",
+    "email": "rtotn10@nic.in",
+    "jurisdictionAreas": [
+        "Virugambakkam",
+        "K.K. Nagar",
+        "Saligramam",
+        "Vadapalani",
+        "Valasaravakkam",
+        "Alwarthirunagar",
+        "Koyambedu"
+    ]
+}

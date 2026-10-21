@@ -1,0 +1,26 @@
+{
+    "code": "TN-07",
+    "region": "Chennai South (Thiruvanmiyur)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai South Transport Division",
+    "description": "The TN-07 RTO serves the southern regions of Chennai city, including prime residential and commercial hubs. It is one of the busiest transport offices in the state, handling high volumes of vehicle registrations and licensing services for the Thiruvanmiyur and Adyar corridors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Thiruvalluvar Nagar, East Coast Road (ECR), Thiruvanmiyur, Chennai, Tamil Nadu - 600041",
+    "pinCode": "600041",
+    "phone": "044-24450404",
+    "email": "rtotn07@nic.in",
+    "jurisdictionAreas": [
+        "Thiruvanmiyur",
+        "Adyar",
+        "Besant Nagar",
+        "Kotturpuram",
+        "Velachery",
+        "Taramani",
+        "Perungudi",
+        "Kandanchavadi"
+    ]
+}

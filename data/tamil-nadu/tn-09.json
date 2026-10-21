@@ -1,0 +1,27 @@
+{
+    "code": "TN-09",
+    "region": "Chennai West",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "The TN-09 RTO serves the Western region of Chennai city, headquartered at the Mambalam Taluk Office Complex in K.K. Nagar. It is one of the busiest transport offices in Tamil Nadu, handling vehicle registration and licensing for major commercial centers like T. Nagar.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 1, Mambalam Taluk Office Complex, Bharathidasan Colony, K.K. Nagar, Chennai, Tamil Nadu",
+    "pinCode": "600078",
+    "phone": "044-24894466",
+    "email": "rtotn09@nic.in",
+    "jurisdictionAreas": [
+        "K.K. Nagar",
+        "Mambalam",
+        "T. Nagar",
+        "West Mambalam",
+        "Kodambakkam",
+        "Vadapalani",
+        "Saligramam",
+        "Virugambakkam",
+        "Ashok Nagar"
+    ]
+}

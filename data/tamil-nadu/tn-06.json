@@ -1,0 +1,23 @@
+{
+    "code": "TN-06",
+    "region": "Chennai South-East",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "The TN-06 Regional Transport Office (RTO) serves the South-Eastern jurisdiction of Chennai, specifically the Mandaveli area. This office is responsible for vehicle registration, driving licenses, and managing transport permits for several of Chennai's historic and densely populated neighborhoods.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 4, VC Garden II Street, Mandaveli, Chennai, Tamil Nadu",
+    "pinCode": "600028",
+    "phone": "044-24610405",
+    "email": "rtotn06@nic.in",
+    "jurisdictionAreas": [
+        "Mandaveli",
+        "Mylapore",
+        "Santhome",
+        "Triplicane",
+        "R.K. Nagar"
+    ]
+}
