@@ -1,0 +1,23 @@
+{
+    "code": "TN-16",
+    "region": "Tindivanam",
+    "city": "Tindivanam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Viluppuram",
+    "division": "Viluppuram",
+    "description": "TN-16 is the Regional Transport Office serving the Tindivanam region in the Viluppuram district. It is responsible for motor vehicle registrations, driving license issuance, and road safety regulation enforcement for the Tindivanam and Gingee areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 18, First Street, Jayapuram, Tindivanam, Tamil Nadu",
+    "pinCode": "604001",
+    "phone": "04147-222098",
+    "email": "rtotn16@nic.in",
+    "jurisdictionAreas": [
+        "Tindivanam",
+        "Gingee",
+        "Marakkanam",
+        "Vanur",
+        "Mailam"
+    ]
+}

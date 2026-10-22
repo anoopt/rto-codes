@@ -1,0 +1,30 @@
+{
+    "code": "TN-14",
+    "region": "Sholinganallur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai Suburban South-East",
+    "description": "The TN-14 RTO serves the Sholinganallur region of Chennai, specifically managing the southeastern suburbs and the major IT corridor. It is a critical administrative office for vehicle registration and licensing in one of Chennai's fastest-growing residential and commercial zones.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 275, Old Mahabalipuram Road (OMR), Sholinganallur, Chennai, Tamil Nadu",
+    "pinCode": "600119",
+    "phone": "044-24503939",
+    "email": "rtotn14@nic.in",
+    "jurisdictionAreas": [
+        "Sholinganallur",
+        "Karapakkam",
+        "Thoraipakkam",
+        "Semmancheri",
+        "Uthandi",
+        "Kanathur",
+        "Kottivakkam",
+        "Palavakkam",
+        "Neelankarai",
+        "Injambakkam",
+        "Akkarai",
+        "Panaiyur"
+    ]
+}

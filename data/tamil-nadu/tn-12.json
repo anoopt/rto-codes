@@ -1,0 +1,25 @@
+{
+    "code": "TN-12",
+    "region": "Poonamallee",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvallur",
+    "division": "Chennai",
+    "description": "The TN-12 Regional Transport Office (RTO) serves the Poonamallee region and western suburbs of Chennai. It is a critical administrative hub for vehicle registration, driving licensing, and fitness certifications for one of the city's fastest-growing residential and industrial corridors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 69/48, Bye Pass Road, Senneerkuppam, Poonamallee, Chennai, Tamil Nadu",
+    "pinCode": "600056",
+    "phone": "044-26495595",
+    "email": "rtotn12@nic.in",
+    "jurisdictionAreas": [
+        "Poonamallee",
+        "Avadi",
+        "Paruthipattu",
+        "Senneerkuppam",
+        "Thiruverkadu",
+        "Mangadu",
+        "Kattupakkam"
+    ]
+}

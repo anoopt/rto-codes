@@ -1,0 +1,25 @@
+{
+    "code": "TN-13",
+    "region": "Ambattur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvallur",
+    "division": "Chennai",
+    "description": "The TN-13 RTO serves the Ambattur region within the Chennai Metropolitan Area, acting as a crucial administrative office for vehicle registration and driving licenses. It manages one of the most significant industrial and residential hubs in Tamil Nadu, ensuring transport safety and regulatory compliance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 10A, West Park Street, Venkatapuram, Ambattur, Chennai – 600053",
+    "pinCode": "600053",
+    "phone": "044-23450027",
+    "email": "rtotn13@nic.in",
+    "jurisdictionAreas": [
+        "Ambattur",
+        "Venkatapuram",
+        "Korattur",
+        "Padi",
+        "Mogappair",
+        "Mannurpet",
+        "Athipet"
+    ]
+}
