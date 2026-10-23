@@ -1,0 +1,24 @@
+{
+    "code": "TN-18",
+    "region": "Redhills",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvallur",
+    "division": "Chennai",
+    "description": "TN-18 is the Regional Transport Office for Redhills, serving the northern suburban zones of Chennai. It is an active RTO responsible for vehicle registrations, issuing driving licenses, and transport permit oversight, with an additional unit office located in Gummidipoondi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 2/37, Chamundi Complex, GNT Road, Redhills, Chennai, Tamil Nadu",
+    "pinCode": "600052",
+    "phone": "044-26310636",
+    "email": "rtotn18@nic.in",
+    "jurisdictionAreas": [
+        "Redhills",
+        "Gummidipoondi",
+        "Sholavaram",
+        "Puzhal",
+        "Ponneri",
+        "Madhavaram"
+    ]
+}

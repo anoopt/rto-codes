@@ -1,0 +1,21 @@
+{
+    "code": "TN-21",
+    "region": "Kanchipuram",
+    "city": "Kanchipuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Kanchipuram",
+    "division": "Kanchipuram",
+    "description": "The TN-21 Regional Transport Office serves the historic city of Kanchipuram and its vital industrial surroundings. It facilitates essential services including motor vehicle registration, driving license issuance, and transport permit management for local residents and commercial operators. Its location on the Chennai-Bangalore highway makes it a critical node for monitoring heavy vehicle traffic and interstate transport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 40, Chennai-Bangalore High Road, Karapettai, Kanchipuram, Tamil Nadu",
+    "pinCode": "631552",
+    "phone": "044-27264277",
+    "email": "rtotn21@nic.in",
+    "jurisdictionAreas": [
+        "Kanchipuram",
+        "Walajabad",
+        "Uthiramerur"
+    ]
+}

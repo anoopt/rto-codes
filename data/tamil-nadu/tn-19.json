@@ -1,0 +1,22 @@
+{
+    "code": "TN-19",
+    "region": "Chengalpattu",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chengalpattu",
+    "division": "Chennai",
+    "description": "The TN-19 Regional Transport Office (RTO) serves the Chengalpattu district of Tamil Nadu. It is responsible for vehicle registration, driving license issuance, and road tax collection, covering a vital industrial and residential corridor near Chennai.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 79-B, First Main Road, Anna Nagar, Chengalpattu, Tamil Nadu - 603001",
+    "pinCode": "603001",
+    "phone": "044-27430776",
+    "email": "rtotn19@nic.in",
+    "jurisdictionAreas": [
+        "Chengalpattu",
+        "Madurantagam",
+        "Thirukalukuntram",
+        "Cheyyur"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "TN-20",
+    "region": "Tiruvallur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvallur",
+    "division": "Chennai",
+    "description": "TN-20 is the Regional Transport Office for Tiruvallur in Tamil Nadu, responsible for vehicle registration, driving license issuance, and transport permits. It serves as a vital administrative hub in the Chennai metropolitan region, overseeing motor vehicle regulations for both private and commercial transport sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "156, J.N. Road, Collectorate Complex Annex, Tiruvallur, Tamil Nadu",
+    "pinCode": "602001",
+    "phone": "044-27663333",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Tiruvallur",
+        "Tiruttani",
+        "Gummidipoondi",
+        "Uthukkottai",
+        "Pallipattu"
+    ]
+}
