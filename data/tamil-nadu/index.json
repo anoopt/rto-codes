@@ -371,5 +371,95 @@
       "Vanur",
       "Mailam"
     ]
+  },
+  {
+    "code": "TN-18",
+    "region": "Redhills",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvallur",
+    "division": "Chennai",
+    "description": "TN-18 is the Regional Transport Office for Redhills, serving the northern suburban zones of Chennai. It is an active RTO responsible for vehicle registrations, issuing driving licenses, and transport permit oversight, with an additional unit office located in Gummidipoondi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 2/37, Chamundi Complex, GNT Road, Redhills, Chennai, Tamil Nadu",
+    "pinCode": "600052",
+    "phone": "044-26310636",
+    "email": "rtotn18@nic.in",
+    "jurisdictionAreas": [
+      "Redhills",
+      "Gummidipoondi",
+      "Sholavaram",
+      "Puzhal",
+      "Ponneri",
+      "Madhavaram"
+    ]
+  },
+  {
+    "code": "TN-19",
+    "region": "Chengalpattu",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chengalpattu",
+    "division": "Chennai",
+    "description": "The TN-19 Regional Transport Office (RTO) serves the Chengalpattu district of Tamil Nadu. It is responsible for vehicle registration, driving license issuance, and road tax collection, covering a vital industrial and residential corridor near Chennai.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 79-B, First Main Road, Anna Nagar, Chengalpattu, Tamil Nadu - 603001",
+    "pinCode": "603001",
+    "phone": "044-27430776",
+    "email": "rtotn19@nic.in",
+    "jurisdictionAreas": [
+      "Chengalpattu",
+      "Madurantagam",
+      "Thirukalukuntram",
+      "Cheyyur"
+    ]
+  },
+  {
+    "code": "TN-20",
+    "region": "Tiruvallur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvallur",
+    "division": "Chennai",
+    "description": "TN-20 is the Regional Transport Office for Tiruvallur in Tamil Nadu, responsible for vehicle registration, driving license issuance, and transport permits. It serves as a vital administrative hub in the Chennai metropolitan region, overseeing motor vehicle regulations for both private and commercial transport sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "156, J.N. Road, Collectorate Complex Annex, Tiruvallur, Tamil Nadu",
+    "pinCode": "602001",
+    "phone": "044-27663333",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Tiruvallur",
+      "Tiruttani",
+      "Gummidipoondi",
+      "Uthukkottai",
+      "Pallipattu"
+    ]
+  },
+  {
+    "code": "TN-21",
+    "region": "Kanchipuram",
+    "city": "Kanchipuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Kanchipuram",
+    "division": "Kanchipuram",
+    "description": "The TN-21 Regional Transport Office serves the historic city of Kanchipuram and its vital industrial surroundings. It facilitates essential services including motor vehicle registration, driving license issuance, and transport permit management for local residents and commercial operators. Its location on the Chennai-Bangalore highway makes it a critical node for monitoring heavy vehicle traffic and interstate transport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 40, Chennai-Bangalore High Road, Karapettai, Kanchipuram, Tamil Nadu",
+    "pinCode": "631552",
+    "phone": "044-27264277",
+    "email": "rtotn21@nic.in",
+    "jurisdictionAreas": [
+      "Kanchipuram",
+      "Walajabad",
+      "Uthiramerur"
+    ]
   }
 ]
