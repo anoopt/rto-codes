@@ -461,5 +461,121 @@
       "Walajabad",
       "Uthiramerur"
     ]
+  },
+  {
+    "code": "TN-22",
+    "region": "Meenambakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "TN-22 is the Regional Transport Office for Meenambakkam, also commonly known as the Alandur RTO, serving the southern metropolitan region of Chennai. This office manages vehicle registration, driving licenses, and transport permits for the suburban areas surrounding the Chennai International Airport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 1, New Street, Alandur Municipality Building, Alandur, Meenambakkam, Chennai - 600016",
+    "pinCode": "600016",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+      "Alandur",
+      "Meenambakkam",
+      "Nanganallur",
+      "Adambakkam",
+      "St. Thomas Mount"
+    ]
+  },
+  {
+    "code": "TN-23",
+    "region": "Vellore",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Vellore",
+    "division": "Vellore Zone",
+    "description": "TN-23 is the Regional Transport Office for Vellore, one of the oldest and most prominent administrative hubs in Tamil Nadu. It handles a high volume of registrations for personal and commercial vehicles, particularly given the city's status as a healthcare and educational center. The RTO oversees driving licenses, vehicle fitness certifications, and road tax collection for the Vellore taluk and surrounding regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 482, Phase II, TNHB, Sathuvachari, Vellore",
+    "pinCode": "632009",
+    "phone": "0416-2252040",
+    "email": "rtotn23@nic.in",
+    "jurisdictionAreas": [
+      "Vellore",
+      "Gudiyatham",
+      "Katpadi",
+      "Anaicut",
+      "Kaniyambadi"
+    ]
+  },
+  {
+    "code": "TN-24",
+    "region": "Krishnagiri",
+    "city": "Krishnagiri",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Krishnagiri",
+    "division": "Salem",
+    "description": "The TN-24 RTO serves the Krishnagiri region in Tamil Nadu, acting as the primary office for vehicle registration and licensing in the district. It is a critical transport hub situated at the Integrated Collectorate Campus, managing high volumes of commercial and private vehicle traffic near the Karnataka-Tamil Nadu border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Integrated Collectorate Campus, Krishnagiri, Tamil Nadu",
+    "pinCode": "635014",
+    "phone": "04343-231444",
+    "email": "rtotn24@nic.in",
+    "jurisdictionAreas": [
+      "Krishnagiri",
+      "Bargur",
+      "Pochampalli",
+      "Uthangarai",
+      "Kavereipattinam",
+      "Vepanapalli"
+    ]
+  },
+  {
+    "code": "TN-25",
+    "region": "Tiruvannamalai",
+    "city": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvannamalai",
+    "division": "Vellore",
+    "description": "TN-25 is the Regional Transport Office serving the Tiruvannamalai district in Tamil Nadu. It is responsible for vehicle registrations, driver licensing, and transport permits across the region, including oversight of unit offices in Cheyyar and Arani. The office plays a crucial role in managing transportation for the city, which is a major pilgrimage destination known for the Annamalaiyar Temple.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Complex, Vengikkal, Tiruvannamalai, Tamil Nadu",
+    "pinCode": "606604",
+    "phone": "04175-232266",
+    "email": "rtotn25@nic.in",
+    "jurisdictionAreas": [
+      "Tiruvannamalai",
+      "Cheyyar",
+      "Arani",
+      "Vengikkal",
+      "Polur",
+      "Chengam",
+      "Vandavasi"
+    ]
+  },
+  {
+    "code": "TN-28",
+    "region": "Namakkal North",
+    "city": "Namakkal",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Namakkal",
+    "division": "Salem",
+    "description": "TN-28 is the Regional Transport Office serving the northern sector of Namakkal district in Tamil Nadu. It plays a vital role in the region's transport sector, particularly in managing the registration and permits for the large fleet of commercial trucks that the area is known for.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Namakkal North, Collectorate Complex, Tiruchengodu Road, Namakkal, Tamil Nadu",
+    "pinCode": "637003",
+    "phone": "04286-280885",
+    "email": "rtotn28@nic.in",
+    "jurisdictionAreas": [
+      "Namakkal Taluk",
+      "Sendamangalam Taluk",
+      "Kolli Hills"
+    ]
   }
 ]
