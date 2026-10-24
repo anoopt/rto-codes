@@ -1,0 +1,24 @@
+{
+    "code": "TN-24",
+    "region": "Krishnagiri",
+    "city": "Krishnagiri",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Krishnagiri",
+    "division": "Salem",
+    "description": "The TN-24 RTO serves the Krishnagiri region in Tamil Nadu, acting as the primary office for vehicle registration and licensing in the district. It is a critical transport hub situated at the Integrated Collectorate Campus, managing high volumes of commercial and private vehicle traffic near the Karnataka-Tamil Nadu border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Integrated Collectorate Campus, Krishnagiri, Tamil Nadu",
+    "pinCode": "635014",
+    "phone": "04343-231444",
+    "email": "rtotn24@nic.in",
+    "jurisdictionAreas": [
+        "Krishnagiri",
+        "Bargur",
+        "Pochampalli",
+        "Uthangarai",
+        "Kavereipattinam",
+        "Vepanapalli"
+    ]
+}

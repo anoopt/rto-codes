@@ -1,0 +1,25 @@
+{
+    "code": "TN-25",
+    "region": "Tiruvannamalai",
+    "city": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvannamalai",
+    "division": "Vellore",
+    "description": "TN-25 is the Regional Transport Office serving the Tiruvannamalai district in Tamil Nadu. It is responsible for vehicle registrations, driver licensing, and transport permits across the region, including oversight of unit offices in Cheyyar and Arani. The office plays a crucial role in managing transportation for the city, which is a major pilgrimage destination known for the Annamalaiyar Temple.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Complex, Vengikkal, Tiruvannamalai, Tamil Nadu",
+    "pinCode": "606604",
+    "phone": "04175-232266",
+    "email": "rtotn25@nic.in",
+    "jurisdictionAreas": [
+        "Tiruvannamalai",
+        "Cheyyar",
+        "Arani",
+        "Vengikkal",
+        "Polur",
+        "Chengam",
+        "Vandavasi"
+    ]
+}

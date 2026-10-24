@@ -1,0 +1,21 @@
+{
+    "code": "TN-28",
+    "region": "Namakkal North",
+    "city": "Namakkal",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Namakkal",
+    "division": "Salem",
+    "description": "TN-28 is the Regional Transport Office serving the northern sector of Namakkal district in Tamil Nadu. It plays a vital role in the region's transport sector, particularly in managing the registration and permits for the large fleet of commercial trucks that the area is known for.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Namakkal North, Collectorate Complex, Tiruchengodu Road, Namakkal, Tamil Nadu",
+    "pinCode": "637003",
+    "phone": "04286-280885",
+    "email": "rtotn28@nic.in",
+    "jurisdictionAreas": [
+        "Namakkal Taluk",
+        "Sendamangalam Taluk",
+        "Kolli Hills"
+    ]
+}

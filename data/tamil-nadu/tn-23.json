@@ -1,0 +1,23 @@
+{
+    "code": "TN-23",
+    "region": "Vellore",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Vellore",
+    "division": "Vellore Zone",
+    "description": "TN-23 is the Regional Transport Office for Vellore, one of the oldest and most prominent administrative hubs in Tamil Nadu. It handles a high volume of registrations for personal and commercial vehicles, particularly given the city's status as a healthcare and educational center. The RTO oversees driving licenses, vehicle fitness certifications, and road tax collection for the Vellore taluk and surrounding regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 482, Phase II, TNHB, Sathuvachari, Vellore",
+    "pinCode": "632009",
+    "phone": "0416-2252040",
+    "email": "rtotn23@nic.in",
+    "jurisdictionAreas": [
+        "Vellore",
+        "Gudiyatham",
+        "Katpadi",
+        "Anaicut",
+        "Kaniyambadi"
+    ]
+}

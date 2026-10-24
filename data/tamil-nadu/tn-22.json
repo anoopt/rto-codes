@@ -1,0 +1,23 @@
+{
+    "code": "TN-22",
+    "region": "Meenambakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Chennai",
+    "division": "Chennai",
+    "description": "TN-22 is the Regional Transport Office for Meenambakkam, also commonly known as the Alandur RTO, serving the southern metropolitan region of Chennai. This office manages vehicle registration, driving licenses, and transport permits for the suburban areas surrounding the Chennai International Airport.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 1, New Street, Alandur Municipality Building, Alandur, Meenambakkam, Chennai - 600016",
+    "pinCode": "600016",
+    "phone": "N/A",
+    "email": "N/A",
+    "jurisdictionAreas": [
+        "Alandur",
+        "Meenambakkam",
+        "Nanganallur",
+        "Adambakkam",
+        "St. Thomas Mount"
+    ]
+}
