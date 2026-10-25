@@ -577,5 +577,124 @@
       "Sendamangalam Taluk",
       "Kolli Hills"
     ]
+  },
+  {
+    "code": "TN-29",
+    "region": "Dharmapuri",
+    "city": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Dharmapuri",
+    "division": "Salem Transport Zone",
+    "description": "The TN-29 Regional Transport Office is located in Dharmapuri and serves as the primary regulatory body for vehicle-related services in the district. It handles the issuance of driving licenses, registration of new vehicles, and collection of road taxes for the region. The office also oversees administrative unit offices located in Palacode and Harur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Campus, Dharmapuri, Tamil Nadu",
+    "pinCode": "636705",
+    "phone": "04342-230907",
+    "email": "rtotn29@nic.in",
+    "jurisdictionAreas": [
+      "Dharmapuri",
+      "Palacode",
+      "Harur",
+      "Pennagaram",
+      "Nallampalli",
+      "Pappireddipatti",
+      "Kadathur",
+      "Morappur"
+    ]
+  },
+  {
+    "code": "TN-30",
+    "region": "Salem West",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem",
+    "description": "TN-30 is the Regional Transport Office serving the Salem West region in Tamil Nadu. It is a key administrative hub for vehicle registration, driving license issuance, and enforcement of transport regulations in the western part of the Salem district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "R.R. Kalyana Mahal, No. 3-24, R.R. Fairlands, Kondalampatty Bye-Pass, Salem, Tamil Nadu",
+    "pinCode": "636007",
+    "phone": "0427-2225588",
+    "email": "rtotn30@nic.in",
+    "jurisdictionAreas": [
+      "Salem West",
+      "Omalur",
+      "Kondalampatty",
+      "Mecheri",
+      "Kadayampatti"
+    ]
+  },
+  {
+    "code": "TN-31",
+    "region": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Cuddalore",
+    "division": "Villupuram",
+    "description": "TN-31 is the Regional Transport Office for the Cuddalore district in Tamil Nadu. It is responsible for motor vehicle registrations, driving license issuance, and ensuring compliance with state transport regulations in the Cuddalore municipal area and surrounding talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "6 & 7, Nellikuppam Main Road, SN Chavadi, Cuddalore, Tamil Nadu - 607001",
+    "pinCode": "607001",
+    "phone": "04142-290035",
+    "email": "rtotn31@nic.in",
+    "jurisdictionAreas": [
+      "Cuddalore",
+      "Kurinjipadi",
+      "Nellikuppam",
+      "Cuddalore Old Town",
+      "Cuddalore Taluk",
+      "SN Chavadi"
+    ]
+  },
+  {
+    "code": "TN-32",
+    "region": "Villupuram",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Viluppuram",
+    "division": "Villupuram",
+    "description": "TN-32 is the Regional Transport Office located in Villupuram, Tamil Nadu. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations across the central Villupuram region. The office serves as a key administrative hub for transport services in the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Master Plan Complex, Opposite Collector Office, Villupuram, Tamil Nadu - 605602",
+    "pinCode": "605602",
+    "phone": "04146-223626",
+    "email": "rtotn32@nic.in",
+    "jurisdictionAreas": [
+      "Villupuram",
+      "Vikravandi",
+      "Kandamangalam",
+      "Koliyanur",
+      "Kanai"
+    ]
+  },
+  {
+    "code": "TN-33",
+    "region": "Erode East",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Erode",
+    "division": "Erode",
+    "description": "TN-33 is the Regional Transport Office serving the Erode East region, a significant industrial and textile hub in Tamil Nadu. The office manages vehicle registrations, driving licenses, and road tax collection for the eastern parts of Erode city and its surrounding areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Kollukattu Medu, Karur Road, Lakkapuram Post, Erode, Tamil Nadu",
+    "pinCode": "638002",
+    "phone": "0424-2402611",
+    "email": "rtotn33@nic.in",
+    "jurisdictionAreas": [
+      "Erode East",
+      "Lakkapuram",
+      "Kollukattu Medu",
+      "Karur Road",
+      "Modakkurichi"
+    ]
   }
 ]
