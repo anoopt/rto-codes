@@ -1,0 +1,24 @@
+{
+    "code": "TN-31",
+    "region": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Cuddalore",
+    "division": "Villupuram",
+    "description": "TN-31 is the Regional Transport Office for the Cuddalore district in Tamil Nadu. It is responsible for motor vehicle registrations, driving license issuance, and ensuring compliance with state transport regulations in the Cuddalore municipal area and surrounding talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "6 & 7, Nellikuppam Main Road, SN Chavadi, Cuddalore, Tamil Nadu - 607001",
+    "pinCode": "607001",
+    "phone": "04142-290035",
+    "email": "rtotn31@nic.in",
+    "jurisdictionAreas": [
+        "Cuddalore",
+        "Kurinjipadi",
+        "Nellikuppam",
+        "Cuddalore Old Town",
+        "Cuddalore Taluk",
+        "SN Chavadi"
+    ]
+}

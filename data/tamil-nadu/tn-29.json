@@ -1,0 +1,26 @@
+{
+    "code": "TN-29",
+    "region": "Dharmapuri",
+    "city": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Dharmapuri",
+    "division": "Salem Transport Zone",
+    "description": "The TN-29 Regional Transport Office is located in Dharmapuri and serves as the primary regulatory body for vehicle-related services in the district. It handles the issuance of driving licenses, registration of new vehicles, and collection of road taxes for the region. The office also oversees administrative unit offices located in Palacode and Harur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Campus, Dharmapuri, Tamil Nadu",
+    "pinCode": "636705",
+    "phone": "04342-230907",
+    "email": "rtotn29@nic.in",
+    "jurisdictionAreas": [
+        "Dharmapuri",
+        "Palacode",
+        "Harur",
+        "Pennagaram",
+        "Nallampalli",
+        "Pappireddipatti",
+        "Kadathur",
+        "Morappur"
+    ]
+}

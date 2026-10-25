@@ -1,0 +1,23 @@
+{
+    "code": "TN-33",
+    "region": "Erode East",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Erode",
+    "division": "Erode",
+    "description": "TN-33 is the Regional Transport Office serving the Erode East region, a significant industrial and textile hub in Tamil Nadu. The office manages vehicle registrations, driving licenses, and road tax collection for the eastern parts of Erode city and its surrounding areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Kollukattu Medu, Karur Road, Lakkapuram Post, Erode, Tamil Nadu",
+    "pinCode": "638002",
+    "phone": "0424-2402611",
+    "email": "rtotn33@nic.in",
+    "jurisdictionAreas": [
+        "Erode East",
+        "Lakkapuram",
+        "Kollukattu Medu",
+        "Karur Road",
+        "Modakkurichi"
+    ]
+}

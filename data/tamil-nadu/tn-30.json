@@ -1,0 +1,23 @@
+{
+    "code": "TN-30",
+    "region": "Salem West",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem",
+    "description": "TN-30 is the Regional Transport Office serving the Salem West region in Tamil Nadu. It is a key administrative hub for vehicle registration, driving license issuance, and enforcement of transport regulations in the western part of the Salem district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "R.R. Kalyana Mahal, No. 3-24, R.R. Fairlands, Kondalampatty Bye-Pass, Salem, Tamil Nadu",
+    "pinCode": "636007",
+    "phone": "0427-2225588",
+    "email": "rtotn30@nic.in",
+    "jurisdictionAreas": [
+        "Salem West",
+        "Omalur",
+        "Kondalampatty",
+        "Mecheri",
+        "Kadayampatti"
+    ]
+}

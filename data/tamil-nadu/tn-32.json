@@ -1,0 +1,23 @@
+{
+    "code": "TN-32",
+    "region": "Villupuram",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Viluppuram",
+    "division": "Villupuram",
+    "description": "TN-32 is the Regional Transport Office located in Villupuram, Tamil Nadu. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations across the central Villupuram region. The office serves as a key administrative hub for transport services in the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Master Plan Complex, Opposite Collector Office, Villupuram, Tamil Nadu - 605602",
+    "pinCode": "605602",
+    "phone": "04146-223626",
+    "email": "rtotn32@nic.in",
+    "jurisdictionAreas": [
+        "Villupuram",
+        "Vikravandi",
+        "Kandamangalam",
+        "Koliyanur",
+        "Kanai"
+    ]
+}
