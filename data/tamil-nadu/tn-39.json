@@ -1,0 +1,24 @@
+{
+    "code": "TN-39",
+    "region": "Tiruppur North",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruppur",
+    "division": "Coimbatore",
+    "description": "TN-39 is the Regional Transport Office serving the northern part of Tiruppur, a major textile and garment manufacturing hub in Tamil Nadu. The office handles a high volume of commercial vehicle registrations and oversees transport operations for areas including the Avinashi unit office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "640/616, KK Block, Avinashi Road, Khadi Board, Kumaran Nagar, Tiruppur, Tamil Nadu",
+    "pinCode": "641063",
+    "phone": "0421-2473545",
+    "email": "rtotn39@nic.in",
+    "jurisdictionAreas": [
+        "Tiruppur North",
+        "Avinashi",
+        "Uthukuli",
+        "Nallur",
+        "Velampalayam",
+        "Tiruppur Rural"
+    ]
+}

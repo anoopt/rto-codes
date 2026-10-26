@@ -1,0 +1,23 @@
+{
+    "code": "TN-34",
+    "region": "Tiruchengode",
+    "city": "Tiruchengode",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Namakkal",
+    "division": "Salem",
+    "description": "TN-34 is the Regional Transport Office located in Tiruchengode, serving the western part of Namakkal district. It is responsible for vehicle registration, driving licenses, and transport permits for the Tiruchengode taluk and adjacent areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "AKS Building, Erode Main Road, Varagurampatti, Tiruchengode, Tamil Nadu",
+    "pinCode": "637211",
+    "phone": "04288-282322",
+    "email": "rtotn34@nic.in",
+    "jurisdictionAreas": [
+        "Tiruchengode",
+        "Varagurampatti",
+        "Elachipalayam",
+        "Mallasamudram",
+        "Pallipalayam"
+    ]
+}

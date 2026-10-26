@@ -1,0 +1,24 @@
+{
+    "code": "TN-36",
+    "region": "Gobichettipalayam",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Erode",
+    "division": "Erode",
+    "description": "The TN-36 RTO serves the Gobichettipalayam region within the Erode district of Tamil Nadu. It manages vehicle registrations, driving license renewals, and transport permits for a significant portion of the western agricultural belt of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "6A, Budhar Street, Erode Sathy Main Road, Pudupalayam, Gobichettipalayam, Erode, Tamil Nadu",
+    "pinCode": "638476",
+    "phone": "04285-222922",
+    "email": "rtotn36@nic.in",
+    "jurisdictionAreas": [
+        "Gobichettipalayam",
+        "Sathyamangalam",
+        "Bhavani",
+        "Pudupalayam",
+        "Nambiyur",
+        "Thalavadi"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "TN-38",
+    "region": "Coimbatore North",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "TN-38 is the Regional Transport Office for Coimbatore North, responsible for overseeing motor vehicle registrations and licensing in the northern suburbs of the city. It plays a crucial role in managing the heavy vehicular traffic and transport administration for one of Tamil Nadu's largest industrial hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 337, Vellakinar Road, Near CTC Colony, Thudiyalur, Coimbatore, Tamil Nadu",
+    "pinCode": "641018",
+    "phone": "0422-2646677",
+    "email": "rtotn38@nic.in",
+    "jurisdictionAreas": [
+        "Thudiyalur",
+        "Periyanaickenpalayam",
+        "Vadavalli",
+        "Chinnavedampatti",
+        "Kavundampalayam"
+    ]
+}

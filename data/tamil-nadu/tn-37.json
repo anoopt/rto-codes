@@ -1,0 +1,25 @@
+{
+    "code": "TN-37",
+    "region": "Coimbatore South",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "The TN-37 Regional Transport Office (RTO) serves the southern jurisdiction of Coimbatore city in Tamil Nadu. Located in the Peelamedu area, it is responsible for vehicle registration, driving license issuance, and the enforcement of motor vehicle acts within its specified zone.",
+    "status": "active",
+    "established": "N/A",
+    "address": "100 HMS, Kalyanamahal, Peelamedu Pudur Main Road, Peelamedu, Coimbatore, Tamil Nadu",
+    "pinCode": "641004",
+    "phone": "0422-2562288",
+    "email": "rtotn37@nic.in",
+    "jurisdictionAreas": [
+        "Coimbatore South",
+        "Peelamedu",
+        "Singanallur",
+        "Ondipudur",
+        "Sowripalayam",
+        "Puliyakulam",
+        "Ramanathapuram"
+    ]
+}
