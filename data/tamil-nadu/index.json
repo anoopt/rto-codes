@@ -696,5 +696,124 @@
       "Karur Road",
       "Modakkurichi"
     ]
+  },
+  {
+    "code": "TN-34",
+    "region": "Tiruchengode",
+    "city": "Tiruchengode",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Namakkal",
+    "division": "Salem",
+    "description": "TN-34 is the Regional Transport Office located in Tiruchengode, serving the western part of Namakkal district. It is responsible for vehicle registration, driving licenses, and transport permits for the Tiruchengode taluk and adjacent areas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "AKS Building, Erode Main Road, Varagurampatti, Tiruchengode, Tamil Nadu",
+    "pinCode": "637211",
+    "phone": "04288-282322",
+    "email": "rtotn34@nic.in",
+    "jurisdictionAreas": [
+      "Tiruchengode",
+      "Varagurampatti",
+      "Elachipalayam",
+      "Mallasamudram",
+      "Pallipalayam"
+    ]
+  },
+  {
+    "code": "TN-36",
+    "region": "Gobichettipalayam",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Erode",
+    "division": "Erode",
+    "description": "The TN-36 RTO serves the Gobichettipalayam region within the Erode district of Tamil Nadu. It manages vehicle registrations, driving license renewals, and transport permits for a significant portion of the western agricultural belt of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "6A, Budhar Street, Erode Sathy Main Road, Pudupalayam, Gobichettipalayam, Erode, Tamil Nadu",
+    "pinCode": "638476",
+    "phone": "04285-222922",
+    "email": "rtotn36@nic.in",
+    "jurisdictionAreas": [
+      "Gobichettipalayam",
+      "Sathyamangalam",
+      "Bhavani",
+      "Pudupalayam",
+      "Nambiyur",
+      "Thalavadi"
+    ]
+  },
+  {
+    "code": "TN-37",
+    "region": "Coimbatore South",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "The TN-37 Regional Transport Office (RTO) serves the southern jurisdiction of Coimbatore city in Tamil Nadu. Located in the Peelamedu area, it is responsible for vehicle registration, driving license issuance, and the enforcement of motor vehicle acts within its specified zone.",
+    "status": "active",
+    "established": "N/A",
+    "address": "100 HMS, Kalyanamahal, Peelamedu Pudur Main Road, Peelamedu, Coimbatore, Tamil Nadu",
+    "pinCode": "641004",
+    "phone": "0422-2562288",
+    "email": "rtotn37@nic.in",
+    "jurisdictionAreas": [
+      "Coimbatore South",
+      "Peelamedu",
+      "Singanallur",
+      "Ondipudur",
+      "Sowripalayam",
+      "Puliyakulam",
+      "Ramanathapuram"
+    ]
+  },
+  {
+    "code": "TN-38",
+    "region": "Coimbatore North",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "TN-38 is the Regional Transport Office for Coimbatore North, responsible for overseeing motor vehicle registrations and licensing in the northern suburbs of the city. It plays a crucial role in managing the heavy vehicular traffic and transport administration for one of Tamil Nadu's largest industrial hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 337, Vellakinar Road, Near CTC Colony, Thudiyalur, Coimbatore, Tamil Nadu",
+    "pinCode": "641018",
+    "phone": "0422-2646677",
+    "email": "rtotn38@nic.in",
+    "jurisdictionAreas": [
+      "Thudiyalur",
+      "Periyanaickenpalayam",
+      "Vadavalli",
+      "Chinnavedampatti",
+      "Kavundampalayam"
+    ]
+  },
+  {
+    "code": "TN-39",
+    "region": "Tiruppur North",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruppur",
+    "division": "Coimbatore",
+    "description": "TN-39 is the Regional Transport Office serving the northern part of Tiruppur, a major textile and garment manufacturing hub in Tamil Nadu. The office handles a high volume of commercial vehicle registrations and oversees transport operations for areas including the Avinashi unit office.",
+    "status": "active",
+    "established": "N/A",
+    "address": "640/616, KK Block, Avinashi Road, Khadi Board, Kumaran Nagar, Tiruppur, Tamil Nadu",
+    "pinCode": "641063",
+    "phone": "0421-2473545",
+    "email": "rtotn39@nic.in",
+    "jurisdictionAreas": [
+      "Tiruppur North",
+      "Avinashi",
+      "Uthukuli",
+      "Nallur",
+      "Velampalayam",
+      "Tiruppur Rural"
+    ]
   }
 ]
