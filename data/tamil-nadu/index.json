@@ -815,5 +815,121 @@
       "Velampalayam",
       "Tiruppur Rural"
     ]
+  },
+  {
+    "code": "TN-40",
+    "region": "Mettupalayam",
+    "city": "Mettupalayam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore Division",
+    "description": "The TN-40 Regional Transport Office serves the Mettupalayam region in the Coimbatore district of Tamil Nadu. It manages vehicle registrations, driving licenses, and enforces road safety regulations for the areas surrounding the Nilgiris foothills.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5/611 A & 611 B, Suthanthirapuram, Karamadai Road, Mettupalayam, Tamil Nadu",
+    "pinCode": "641301",
+    "phone": "04254-226330",
+    "email": "rtotn40@nic.in",
+    "jurisdictionAreas": [
+      "Mettupalayam",
+      "Karamadai",
+      "Sirumugai",
+      "Periyanaickenpalayam",
+      "Annur"
+    ]
+  },
+  {
+    "code": "TN-41",
+    "region": "Pollachi",
+    "city": "Pollachi",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "The TN-41 Regional Transport Office serves Pollachi and surrounding regions in the Coimbatore district, functioning as a key hub for vehicle registration and licensing in this agricultural and industrial belt. It holds jurisdiction over the Pollachi and Valparai areas, including the Valparai unit office which utilizes the sub-code TN-41W.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3, Alagappa Layout, Venkatesa Colony, Pollachi, Tamil Nadu - 642002",
+    "pinCode": "642002",
+    "phone": "04259-225159",
+    "email": "rtotn41@nic.in",
+    "jurisdictionAreas": [
+      "Pollachi",
+      "Valparai",
+      "Anaimalai",
+      "Kinathukadavu"
+    ]
+  },
+  {
+    "code": "TN-42",
+    "region": "Tiruppur South",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruppur",
+    "division": "Coimbatore",
+    "description": "TN-42 is the Regional Transport Office serving the southern part of Tiruppur city and surrounding areas. This office is critical for vehicle registration and licensing in one of India's major textile and garment industrial hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Veerapandi Pirivu, Palladam Road, Tiruppur, Tamil Nadu",
+    "pinCode": "641605",
+    "phone": "0421-2215151",
+    "email": "rtotn42@nic.in",
+    "jurisdictionAreas": [
+      "Tiruppur South",
+      "Kangeyam",
+      "Veerapandi",
+      "Nallur",
+      "Chettipalayam"
+    ]
+  },
+  {
+    "code": "TN-43",
+    "region": "Ooty (Udagamandalam)",
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Nilgiris",
+    "division": "Coimbatore Division",
+    "description": "TN-43 is the Regional Transport Office for Ooty (Udagamandalam) in the Nilgiris district. It manages vehicle registrations, driving licenses, and transport permits for the high-altitude regions of the Western Ghats, including monitoring tourist vehicle movements.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Coonoor Road, Ooty, The Nilgiris, Tamil Nadu",
+    "pinCode": "643001",
+    "phone": "0423-2443950",
+    "email": "rtotn43@nic.in",
+    "jurisdictionAreas": [
+      "Udagamandalam",
+      "Gudalur",
+      "Pandalur",
+      "Kundah",
+      "Naduvattam",
+      "Pykara"
+    ]
+  },
+  {
+    "code": "TN-45",
+    "region": "Tiruchirappalli West",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruchirappalli",
+    "division": "Tiruchirappalli",
+    "description": "The TN-45 RTO office serves the western region of Tiruchirappalli and is headquartered in Pirattiyur. It is a critical administrative hub for vehicle registration, licensing, and road safety enforcement for the western parts of the district including the Manapparai unit.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Ground Floor & 1st Floor, Trichy-Dindigul Main Road, Pirattiyur, Tiruchirappalli, Tamil Nadu",
+    "pinCode": "620009",
+    "phone": "0431-2422175",
+    "email": "rtotn45@nic.in",
+    "jurisdictionAreas": [
+      "Pirattiyur",
+      "Manapparai",
+      "Marungapuri",
+      "Ramji Nagar",
+      "Ponnampatti",
+      "Somarasampettai"
+    ]
   }
 ]

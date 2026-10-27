@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-26T02:07:20.676Z",
-  "totalRTOs": 985,
-  "totalVerified": 985,
+  "generatedAt": "2026-10-27T02:06:57.787Z",
+  "totalRTOs": 990,
+  "totalVerified": 990,
   "totalStates": 28,
   "completedStates": 22,
   "inProgressStates": 1,
@@ -1413,10 +1413,10 @@
     {
       "stateCode": "TN",
       "stateName": "Tamil Nadu",
-      "rtoCount": 34,
+      "rtoCount": 39,
       "totalExpectedRTOs": 87,
       "activeRTOs": 0,
-      "verifiedCount": 34,
+      "verifiedCount": 39,
       "rtoCodes": [
         "tn-01",
         "tn-02",
@@ -1451,7 +1451,12 @@
         "tn-36",
         "tn-37",
         "tn-38",
-        "tn-39"
+        "tn-39",
+        "tn-40",
+        "tn-41",
+        "tn-42",
+        "tn-43",
+        "tn-45"
       ],
       "isComplete": false,
       "type": "state",
@@ -2935,10 +2940,10 @@
     "TN": {
       "stateCode": "TN",
       "stateName": "Tamil Nadu",
-      "rtoCount": 34,
+      "rtoCount": 39,
       "totalExpectedRTOs": 87,
       "activeRTOs": 0,
-      "verifiedCount": 34,
+      "verifiedCount": 39,
       "rtoCodes": [
         "tn-01",
         "tn-02",
@@ -2973,7 +2978,12 @@
         "tn-36",
         "tn-37",
         "tn-38",
-        "tn-39"
+        "tn-39",
+        "tn-40",
+        "tn-41",
+        "tn-42",
+        "tn-43",
+        "tn-45"
       ],
       "isComplete": false,
       "type": "state",
