@@ -1,0 +1,24 @@
+{
+    "code": "TN-45",
+    "region": "Tiruchirappalli West",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruchirappalli",
+    "division": "Tiruchirappalli",
+    "description": "The TN-45 RTO office serves the western region of Tiruchirappalli and is headquartered in Pirattiyur. It is a critical administrative hub for vehicle registration, licensing, and road safety enforcement for the western parts of the district including the Manapparai unit.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Ground Floor & 1st Floor, Trichy-Dindigul Main Road, Pirattiyur, Tiruchirappalli, Tamil Nadu",
+    "pinCode": "620009",
+    "phone": "0431-2422175",
+    "email": "rtotn45@nic.in",
+    "jurisdictionAreas": [
+        "Pirattiyur",
+        "Manapparai",
+        "Marungapuri",
+        "Ramji Nagar",
+        "Ponnampatti",
+        "Somarasampettai"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "TN-43",
+    "region": "Ooty (Udagamandalam)",
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Nilgiris",
+    "division": "Coimbatore Division",
+    "description": "TN-43 is the Regional Transport Office for Ooty (Udagamandalam) in the Nilgiris district. It manages vehicle registrations, driving licenses, and transport permits for the high-altitude regions of the Western Ghats, including monitoring tourist vehicle movements.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Coonoor Road, Ooty, The Nilgiris, Tamil Nadu",
+    "pinCode": "643001",
+    "phone": "0423-2443950",
+    "email": "rtotn43@nic.in",
+    "jurisdictionAreas": [
+        "Udagamandalam",
+        "Gudalur",
+        "Pandalur",
+        "Kundah",
+        "Naduvattam",
+        "Pykara"
+    ]
+}

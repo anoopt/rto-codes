@@ -1,0 +1,22 @@
+{
+    "code": "TN-41",
+    "region": "Pollachi",
+    "city": "Pollachi",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "The TN-41 Regional Transport Office serves Pollachi and surrounding regions in the Coimbatore district, functioning as a key hub for vehicle registration and licensing in this agricultural and industrial belt. It holds jurisdiction over the Pollachi and Valparai areas, including the Valparai unit office which utilizes the sub-code TN-41W.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3, Alagappa Layout, Venkatesa Colony, Pollachi, Tamil Nadu - 642002",
+    "pinCode": "642002",
+    "phone": "04259-225159",
+    "email": "rtotn41@nic.in",
+    "jurisdictionAreas": [
+        "Pollachi",
+        "Valparai",
+        "Anaimalai",
+        "Kinathukadavu"
+    ]
+}

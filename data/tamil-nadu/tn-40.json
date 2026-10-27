@@ -1,0 +1,23 @@
+{
+    "code": "TN-40",
+    "region": "Mettupalayam",
+    "city": "Mettupalayam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore Division",
+    "description": "The TN-40 Regional Transport Office serves the Mettupalayam region in the Coimbatore district of Tamil Nadu. It manages vehicle registrations, driving licenses, and enforces road safety regulations for the areas surrounding the Nilgiris foothills.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5/611 A & 611 B, Suthanthirapuram, Karamadai Road, Mettupalayam, Tamil Nadu",
+    "pinCode": "641301",
+    "phone": "04254-226330",
+    "email": "rtotn40@nic.in",
+    "jurisdictionAreas": [
+        "Mettupalayam",
+        "Karamadai",
+        "Sirumugai",
+        "Periyanaickenpalayam",
+        "Annur"
+    ]
+}

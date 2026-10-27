@@ -1,0 +1,23 @@
+{
+    "code": "TN-42",
+    "region": "Tiruppur South",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruppur",
+    "division": "Coimbatore",
+    "description": "TN-42 is the Regional Transport Office serving the southern part of Tiruppur city and surrounding areas. This office is critical for vehicle registration and licensing in one of India's major textile and garment industrial hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Veerapandi Pirivu, Palladam Road, Tiruppur, Tamil Nadu",
+    "pinCode": "641605",
+    "phone": "0421-2215151",
+    "email": "rtotn42@nic.in",
+    "jurisdictionAreas": [
+        "Tiruppur South",
+        "Kangeyam",
+        "Veerapandi",
+        "Nallur",
+        "Chettipalayam"
+    ]
+}
