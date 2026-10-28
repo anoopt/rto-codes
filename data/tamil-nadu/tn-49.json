@@ -1,0 +1,23 @@
+{
+    "code": "TN-49",
+    "region": "Thanjavur",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Thanjavur",
+    "division": "Tiruchirappalli",
+    "description": "The TN-49 RTO is based in Thanjavur and is responsible for overseeing vehicle registration and driving license issuance for the historic city and surrounding areas. It serves as a major transport hub in the Cauvery Delta region, facilitating various motor vehicle regulatory services and road safety initiatives.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Pillaiyurpatty Post, Vallam Road, Thanjavur, Tamil Nadu - 613403",
+    "pinCode": "613403",
+    "phone": "04362-227358",
+    "email": "rtotn49@nic.in",
+    "jurisdictionAreas": [
+        "Thanjavur",
+        "Pattukottai",
+        "Orathanadu",
+        "Thiruvaiyaru",
+        "Budalur"
+    ]
+}

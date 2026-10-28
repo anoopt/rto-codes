@@ -1,0 +1,24 @@
+{
+    "code": "TN-47",
+    "region": "Karur",
+    "city": "Karur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Karur",
+    "division": "Tiruchirappalli",
+    "description": "The TN-47 RTO is the primary transport office for the Karur district in Tamil Nadu, located near the Collectorate in Thanthonimalai. It handles a high volume of commercial vehicle registrations due to Karur's prominence as a hub for bus bodybuilding and textile exports. The office manages driver licensing, vehicle fitness certifications, and tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Thanthonimalai Road, Near Collectorate Office, Karur, Tamil Nadu",
+    "pinCode": "639007",
+    "phone": "04324-255099",
+    "email": "rtotn47@nic.in",
+    "jurisdictionAreas": [
+        "Karur",
+        "Kulithalai",
+        "Aravakurichi",
+        "Manmangalam",
+        "Krishnarayapuram",
+        "Kadavur"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "TN-48",
+    "region": "Srirangam",
+    "city": "Srirangam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruchirappalli",
+    "division": "Tiruchirappalli",
+    "description": "TN-48 is the Regional Transport Office serving the Srirangam region of Tiruchirappalli district in Tamil Nadu. It is responsible for vehicle registrations, issuing driving licenses, and managing transport permits for its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "51/2, Trunk Road, Thiruvanai Kovil, Thiruvanaikoil, Tiruchirappalli, Tamil Nadu",
+    "pinCode": "620006",
+    "phone": "0431-2231993",
+    "email": "rtotn48@nic.in",
+    "jurisdictionAreas": [
+        "Srirangam",
+        "Lalgudi",
+        "Musiri",
+        "Thuraiyur",
+        "Thiruvanai Kovil"
+    ]
+}

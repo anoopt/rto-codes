@@ -1,0 +1,22 @@
+{
+    "code": "TN-46",
+    "region": "Perambalur",
+    "city": "Perambalur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Perambalur",
+    "division": "Tiruchirappalli",
+    "description": "The TN-46 RTO serves the Perambalur district in central Tamil Nadu. This office is responsible for vehicle registration, driving licenses, and the enforcement of transport regulations across the district's rural and urban sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 55, Ariyalur Bypass Road, Thoramangalam North Street, Perambalur, Tamil Nadu - 621220",
+    "pinCode": "621220",
+    "phone": "04328-224415",
+    "email": "rtotn46@nic.in",
+    "jurisdictionAreas": [
+        "Perambalur",
+        "Veppanthattai",
+        "Kunnam",
+        "Alathur"
+    ]
+}

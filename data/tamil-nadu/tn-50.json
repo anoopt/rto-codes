@@ -1,0 +1,25 @@
+{
+    "code": "TN-50",
+    "region": "Tiruvarur",
+    "city": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvarur",
+    "division": "Thanjavur",
+    "description": "TN-50 is the Regional Transport Office serving the Tiruvarur district in Tamil Nadu. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations across its jurisdiction, including sub-offices in Mannargudi and Thiruthuraipoondi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Building, Thiruvarur, Tamil Nadu",
+    "pinCode": "610002",
+    "phone": "04366-221261",
+    "email": "rtotn50@nic.in",
+    "jurisdictionAreas": [
+        "Tiruvarur",
+        "Mannargudi",
+        "Thiruthuraipoondi",
+        "Nannilam",
+        "Kodavasal",
+        "Needamangalam",
+        "Valangaiman"
+    ]
+}
