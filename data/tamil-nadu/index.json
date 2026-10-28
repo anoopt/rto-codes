@@ -931,5 +931,122 @@
       "Ponnampatti",
       "Somarasampettai"
     ]
+  },
+  {
+    "code": "TN-46",
+    "region": "Perambalur",
+    "city": "Perambalur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Perambalur",
+    "division": "Tiruchirappalli",
+    "description": "The TN-46 RTO serves the Perambalur district in central Tamil Nadu. This office is responsible for vehicle registration, driving licenses, and the enforcement of transport regulations across the district's rural and urban sectors.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 55, Ariyalur Bypass Road, Thoramangalam North Street, Perambalur, Tamil Nadu - 621220",
+    "pinCode": "621220",
+    "phone": "04328-224415",
+    "email": "rtotn46@nic.in",
+    "jurisdictionAreas": [
+      "Perambalur",
+      "Veppanthattai",
+      "Kunnam",
+      "Alathur"
+    ]
+  },
+  {
+    "code": "TN-47",
+    "region": "Karur",
+    "city": "Karur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Karur",
+    "division": "Tiruchirappalli",
+    "description": "The TN-47 RTO is the primary transport office for the Karur district in Tamil Nadu, located near the Collectorate in Thanthonimalai. It handles a high volume of commercial vehicle registrations due to Karur's prominence as a hub for bus bodybuilding and textile exports. The office manages driver licensing, vehicle fitness certifications, and tax collection for the local jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Thanthonimalai Road, Near Collectorate Office, Karur, Tamil Nadu",
+    "pinCode": "639007",
+    "phone": "04324-255099",
+    "email": "rtotn47@nic.in",
+    "jurisdictionAreas": [
+      "Karur",
+      "Kulithalai",
+      "Aravakurichi",
+      "Manmangalam",
+      "Krishnarayapuram",
+      "Kadavur"
+    ]
+  },
+  {
+    "code": "TN-48",
+    "region": "Srirangam",
+    "city": "Srirangam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruchirappalli",
+    "division": "Tiruchirappalli",
+    "description": "TN-48 is the Regional Transport Office serving the Srirangam region of Tiruchirappalli district in Tamil Nadu. It is responsible for vehicle registrations, issuing driving licenses, and managing transport permits for its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "51/2, Trunk Road, Thiruvanai Kovil, Thiruvanaikoil, Tiruchirappalli, Tamil Nadu",
+    "pinCode": "620006",
+    "phone": "0431-2231993",
+    "email": "rtotn48@nic.in",
+    "jurisdictionAreas": [
+      "Srirangam",
+      "Lalgudi",
+      "Musiri",
+      "Thuraiyur",
+      "Thiruvanai Kovil"
+    ]
+  },
+  {
+    "code": "TN-49",
+    "region": "Thanjavur",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Thanjavur",
+    "division": "Tiruchirappalli",
+    "description": "The TN-49 RTO is based in Thanjavur and is responsible for overseeing vehicle registration and driving license issuance for the historic city and surrounding areas. It serves as a major transport hub in the Cauvery Delta region, facilitating various motor vehicle regulatory services and road safety initiatives.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Pillaiyurpatty Post, Vallam Road, Thanjavur, Tamil Nadu - 613403",
+    "pinCode": "613403",
+    "phone": "04362-227358",
+    "email": "rtotn49@nic.in",
+    "jurisdictionAreas": [
+      "Thanjavur",
+      "Pattukottai",
+      "Orathanadu",
+      "Thiruvaiyaru",
+      "Budalur"
+    ]
+  },
+  {
+    "code": "TN-50",
+    "region": "Tiruvarur",
+    "city": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruvarur",
+    "division": "Thanjavur",
+    "description": "TN-50 is the Regional Transport Office serving the Tiruvarur district in Tamil Nadu. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations across its jurisdiction, including sub-offices in Mannargudi and Thiruthuraipoondi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Building, Thiruvarur, Tamil Nadu",
+    "pinCode": "610002",
+    "phone": "04366-221261",
+    "email": "rtotn50@nic.in",
+    "jurisdictionAreas": [
+      "Tiruvarur",
+      "Mannargudi",
+      "Thiruthuraipoondi",
+      "Nannilam",
+      "Kodavasal",
+      "Needamangalam",
+      "Valangaiman"
+    ]
   }
 ]
