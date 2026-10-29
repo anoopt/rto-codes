@@ -1,0 +1,25 @@
+{
+    "code": "TN-54",
+    "region": "Salem East",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem",
+    "description": "TN-54 is the Regional Transport Office for Salem East, serving as a vital transport administration hub for the eastern suburbs of Salem city. This office facilitates vehicle registrations, driving license issuance, and ensures compliance with road safety regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5/135, Salem Industrial Co-operative Building, Udayapatti (Post), Salem",
+    "pinCode": "636140",
+    "phone": "0427-2241555",
+    "email": "rtotn54@nic.in",
+    "jurisdictionAreas": [
+        "Salem East",
+        "Udayapatti",
+        "Ayothiyapattinam",
+        "Valapady",
+        "Pethanaickenpalayam",
+        "Attur",
+        "Gangavalli"
+    ]
+}

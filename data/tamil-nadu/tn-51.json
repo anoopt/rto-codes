@@ -1,0 +1,22 @@
+{
+    "code": "TN-51",
+    "region": "Nagapattinam",
+    "city": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Nagapattinam",
+    "division": "Thanjavur",
+    "description": "TN-51 is the Regional Transport Office for Nagapattinam, a prominent coastal district in Tamil Nadu. This office serves as a primary hub for vehicle registrations, licensing, and enforcement of transport safety regulations within the region known for its maritime and religious significance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1298, Public Office Road, Kadambadi, Nagapattinam, Tamil Nadu - 611106",
+    "pinCode": "611106",
+    "phone": "04365-249477",
+    "email": "rtotn51@nic.in",
+    "jurisdictionAreas": [
+        "Nagapattinam",
+        "Kilvelur",
+        "Thirukkuvalai",
+        "Vedaranyam"
+    ]
+}

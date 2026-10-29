@@ -1,0 +1,23 @@
+{
+    "code": "TN-55",
+    "region": "Pudukkottai",
+    "city": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Pudukkottai",
+    "division": "Pudukkottai",
+    "description": "The TN-55 Regional Transport Office serves the Pudukkottai region in Tamil Nadu. It is a critical administrative hub for vehicle registration, issuance of driving licenses, and road tax collection for the central part of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 5, Kalnarmapuram, Ex-Servicemen Welfare Association Office Compound, Pudukkottai, Tamil Nadu",
+    "pinCode": "622001",
+    "phone": "04322-221618",
+    "email": "rtotn55@nic.in",
+    "jurisdictionAreas": [
+        "Pudukkottai",
+        "Gandarvakottai",
+        "Kulathur",
+        "Alangudi",
+        "Karambakudi"
+    ]
+}

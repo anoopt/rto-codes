@@ -1,0 +1,23 @@
+{
+    "code": "TN-56",
+    "region": "Perundurai",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Erode",
+    "division": "Coimbatore",
+    "description": "The TN-56 RTO serves the Perundurai region within the Erode district of Tamil Nadu. It functions as a Regional Transport Office responsible for vehicle registration, issuing driving licenses, and managing transport permits for the Perundurai taluk and surrounding localities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, TMLT Building, Bhavani Road, Perundurai, Erode District",
+    "pinCode": "638052",
+    "phone": "04294-222779",
+    "email": "rtotn56@nic.in",
+    "jurisdictionAreas": [
+        "Perundurai Taluk",
+        "Chennimalai",
+        "Kunnathur",
+        "Perundurai Town",
+        "Vijayamangalam"
+    ]
+}

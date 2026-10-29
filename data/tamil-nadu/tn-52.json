@@ -1,0 +1,23 @@
+{
+    "code": "TN-52",
+    "region": "Sankagiri",
+    "city": "Sankagiri",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem",
+    "description": "TN-52 RTO is the Regional Transport Office located in Sankagiri, serving the Salem district of Tamil Nadu. It manages vehicle registrations, driving license issuances, and transport permits for the Sankagiri taluk, which is a major transport and industrial hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3-12A, Salem Main Road, Jaggery Co-operative Society Building, Sankagiri, Tamil Nadu",
+    "pinCode": "637301",
+    "phone": "04283-242440",
+    "email": "rtotn52@nic.in",
+    "jurisdictionAreas": [
+        "Sankagiri",
+        "Sankari Taluk",
+        "Edappadi",
+        "Mavelipalayam",
+        "Magudanchavadi"
+    ]
+}
