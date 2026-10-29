@@ -1048,5 +1048,121 @@
       "Needamangalam",
       "Valangaiman"
     ]
+  },
+  {
+    "code": "TN-51",
+    "region": "Nagapattinam",
+    "city": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Nagapattinam",
+    "division": "Thanjavur",
+    "description": "TN-51 is the Regional Transport Office for Nagapattinam, a prominent coastal district in Tamil Nadu. This office serves as a primary hub for vehicle registrations, licensing, and enforcement of transport safety regulations within the region known for its maritime and religious significance.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1298, Public Office Road, Kadambadi, Nagapattinam, Tamil Nadu - 611106",
+    "pinCode": "611106",
+    "phone": "04365-249477",
+    "email": "rtotn51@nic.in",
+    "jurisdictionAreas": [
+      "Nagapattinam",
+      "Kilvelur",
+      "Thirukkuvalai",
+      "Vedaranyam"
+    ]
+  },
+  {
+    "code": "TN-52",
+    "region": "Sankagiri",
+    "city": "Sankagiri",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem",
+    "description": "TN-52 RTO is the Regional Transport Office located in Sankagiri, serving the Salem district of Tamil Nadu. It manages vehicle registrations, driving license issuances, and transport permits for the Sankagiri taluk, which is a major transport and industrial hub.",
+    "status": "active",
+    "established": "N/A",
+    "address": "3-12A, Salem Main Road, Jaggery Co-operative Society Building, Sankagiri, Tamil Nadu",
+    "pinCode": "637301",
+    "phone": "04283-242440",
+    "email": "rtotn52@nic.in",
+    "jurisdictionAreas": [
+      "Sankagiri",
+      "Sankari Taluk",
+      "Edappadi",
+      "Mavelipalayam",
+      "Magudanchavadi"
+    ]
+  },
+  {
+    "code": "TN-54",
+    "region": "Salem East",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem",
+    "description": "TN-54 is the Regional Transport Office for Salem East, serving as a vital transport administration hub for the eastern suburbs of Salem city. This office facilitates vehicle registrations, driving license issuance, and ensures compliance with road safety regulations within its jurisdiction.",
+    "status": "active",
+    "established": "N/A",
+    "address": "5/135, Salem Industrial Co-operative Building, Udayapatti (Post), Salem",
+    "pinCode": "636140",
+    "phone": "0427-2241555",
+    "email": "rtotn54@nic.in",
+    "jurisdictionAreas": [
+      "Salem East",
+      "Udayapatti",
+      "Ayothiyapattinam",
+      "Valapady",
+      "Pethanaickenpalayam",
+      "Attur",
+      "Gangavalli"
+    ]
+  },
+  {
+    "code": "TN-55",
+    "region": "Pudukkottai",
+    "city": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Pudukkottai",
+    "division": "Pudukkottai",
+    "description": "The TN-55 Regional Transport Office serves the Pudukkottai region in Tamil Nadu. It is a critical administrative hub for vehicle registration, issuance of driving licenses, and road tax collection for the central part of the district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 5, Kalnarmapuram, Ex-Servicemen Welfare Association Office Compound, Pudukkottai, Tamil Nadu",
+    "pinCode": "622001",
+    "phone": "04322-221618",
+    "email": "rtotn55@nic.in",
+    "jurisdictionAreas": [
+      "Pudukkottai",
+      "Gandarvakottai",
+      "Kulathur",
+      "Alangudi",
+      "Karambakudi"
+    ]
+  },
+  {
+    "code": "TN-56",
+    "region": "Perundurai",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Erode",
+    "division": "Coimbatore",
+    "description": "The TN-56 RTO serves the Perundurai region within the Erode district of Tamil Nadu. It functions as a Regional Transport Office responsible for vehicle registration, issuing driving licenses, and managing transport permits for the Perundurai taluk and surrounding localities.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, TMLT Building, Bhavani Road, Perundurai, Erode District",
+    "pinCode": "638052",
+    "phone": "04294-222779",
+    "email": "rtotn56@nic.in",
+    "jurisdictionAreas": [
+      "Perundurai Taluk",
+      "Chennimalai",
+      "Kunnathur",
+      "Perundurai Town",
+      "Vijayamangalam"
+    ]
   }
 ]
