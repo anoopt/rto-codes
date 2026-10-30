@@ -1164,5 +1164,117 @@
       "Perundurai Town",
       "Vijayamangalam"
     ]
+  },
+  {
+    "code": "TN-57",
+    "region": "Dindigul",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Dindigul",
+    "division": "Madurai",
+    "description": "TN-57 is the Regional Transport Office for Dindigul, serving as a major hub for vehicle registration and licensing in Central Tamil Nadu. It manages the issuance of driving licenses, vehicle fitness certificates, and transport permits for the Dindigul East and West regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Complex, Chettinayakkanpatti (Post), Thadikombu Road, Dindigul - 624 001",
+    "pinCode": "624001",
+    "phone": "0451-2460223",
+    "email": "rtotn57@nic.in",
+    "jurisdictionAreas": [
+      "Dindigul East",
+      "Dindigul West",
+      "Athoor",
+      "Natham",
+      "Nilakkottai"
+    ]
+  },
+  {
+    "code": "TN-58",
+    "region": "Madurai South",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Madurai",
+    "division": "Madurai",
+    "description": "The TN-58 Regional Transport Office serves the Madurai South region and Tirumangalam area in Tamil Nadu. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the southern part of the Madurai district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "TNSTC-Madurai Division Complex, 91, Bye Pass Road, Madurai, Tamil Nadu - 625016",
+    "pinCode": "625016",
+    "phone": "0452-2381560",
+    "email": "rtotn58@nic.in",
+    "jurisdictionAreas": [
+      "Madurai South",
+      "Tirumangalam"
+    ]
+  },
+  {
+    "code": "TN-59",
+    "region": "Madurai North",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Madurai",
+    "division": "Madurai",
+    "description": "The TN-59 Regional Transport Office serves the Madurai North region and its surrounding areas, handling essential vehicle-related services including registration and driver licensing. It works in conjunction with other Madurai-based RTOs to manage the heavy transport volume in this historic temple city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Street, Melur Main Road, Madurai, Tamil Nadu",
+    "pinCode": "625007",
+    "phone": "0452-2569181",
+    "email": "rtotn59@nic.in",
+    "jurisdictionAreas": [
+      "Madurai North",
+      "Melur",
+      "Alanganallur",
+      "Palamedu",
+      "Koodal Nagar",
+      "Othakadai"
+    ]
+  },
+  {
+    "code": "TN-60",
+    "region": "Periyakulam",
+    "city": "Periyakulam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Theni",
+    "division": "Madurai",
+    "description": "TN-60 serves as the Regional Transport Office (RTO) for Periyakulam in the Theni district. It is responsible for vehicle registration, licensing, and enforcing motor vehicle laws within its jurisdiction, including the Uthamapalayam unit office area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Kamban Salai, D. Kallipatty, Periyakulam, Theni District, Tamil Nadu",
+    "pinCode": "625693",
+    "phone": "04546-231565",
+    "email": "rtotn60@nic.in",
+    "jurisdictionAreas": [
+      "Periyakulam",
+      "Uthamapalayam",
+      "Andipatti",
+      "Kandamanur",
+      "Cumbum"
+    ]
+  },
+  {
+    "code": "TN-61",
+    "region": "Ariyalur",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Ariyalur",
+    "division": "Tamil Nadu Transport Department",
+    "description": "TN-61 is the Regional Transport Office for Ariyalur, Tamil Nadu. Established in late 2008, it provides comprehensive vehicle registration, driver licensing, and taxation services for the entire district of Ariyalur.",
+    "status": "active",
+    "established": "2008",
+    "address": "Trichy Main Road, Keelapalur, Ariyalur District, Tamil Nadu",
+    "pinCode": "621707",
+    "phone": "04329-250112",
+    "email": "rtotn61@nic.in",
+    "jurisdictionAreas": [
+      "Ariyalur",
+      "Sendurai",
+      "Udayarpalayam",
+      "Andimadam"
+    ]
   }
 ]
