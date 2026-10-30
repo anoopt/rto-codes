@@ -1,0 +1,23 @@
+{
+    "code": "TN-60",
+    "region": "Periyakulam",
+    "city": "Periyakulam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Theni",
+    "division": "Madurai",
+    "description": "TN-60 serves as the Regional Transport Office (RTO) for Periyakulam in the Theni district. It is responsible for vehicle registration, licensing, and enforcing motor vehicle laws within its jurisdiction, including the Uthamapalayam unit office area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Kamban Salai, D. Kallipatty, Periyakulam, Theni District, Tamil Nadu",
+    "pinCode": "625693",
+    "phone": "04546-231565",
+    "email": "rtotn60@nic.in",
+    "jurisdictionAreas": [
+        "Periyakulam",
+        "Uthamapalayam",
+        "Andipatti",
+        "Kandamanur",
+        "Cumbum"
+    ]
+}

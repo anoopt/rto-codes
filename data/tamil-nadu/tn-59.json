@@ -1,0 +1,24 @@
+{
+    "code": "TN-59",
+    "region": "Madurai North",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Madurai",
+    "division": "Madurai",
+    "description": "The TN-59 Regional Transport Office serves the Madurai North region and its surrounding areas, handling essential vehicle-related services including registration and driver licensing. It works in conjunction with other Madurai-based RTOs to manage the heavy transport volume in this historic temple city.",
+    "status": "active",
+    "established": "N/A",
+    "address": "1st Street, Melur Main Road, Madurai, Tamil Nadu",
+    "pinCode": "625007",
+    "phone": "0452-2569181",
+    "email": "rtotn59@nic.in",
+    "jurisdictionAreas": [
+        "Madurai North",
+        "Melur",
+        "Alanganallur",
+        "Palamedu",
+        "Koodal Nagar",
+        "Othakadai"
+    ]
+}

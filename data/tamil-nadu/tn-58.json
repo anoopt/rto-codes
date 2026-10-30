@@ -1,0 +1,20 @@
+{
+    "code": "TN-58",
+    "region": "Madurai South",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Madurai",
+    "division": "Madurai",
+    "description": "The TN-58 Regional Transport Office serves the Madurai South region and Tirumangalam area in Tamil Nadu. It is responsible for vehicle registrations, issuing driving licenses, and enforcing transport regulations in the southern part of the Madurai district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "TNSTC-Madurai Division Complex, 91, Bye Pass Road, Madurai, Tamil Nadu - 625016",
+    "pinCode": "625016",
+    "phone": "0452-2381560",
+    "email": "rtotn58@nic.in",
+    "jurisdictionAreas": [
+        "Madurai South",
+        "Tirumangalam"
+    ]
+}

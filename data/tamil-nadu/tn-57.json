@@ -1,0 +1,23 @@
+{
+    "code": "TN-57",
+    "region": "Dindigul",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Dindigul",
+    "division": "Madurai",
+    "description": "TN-57 is the Regional Transport Office for Dindigul, serving as a major hub for vehicle registration and licensing in Central Tamil Nadu. It manages the issuance of driving licenses, vehicle fitness certificates, and transport permits for the Dindigul East and West regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Complex, Chettinayakkanpatti (Post), Thadikombu Road, Dindigul - 624 001",
+    "pinCode": "624001",
+    "phone": "0451-2460223",
+    "email": "rtotn57@nic.in",
+    "jurisdictionAreas": [
+        "Dindigul East",
+        "Dindigul West",
+        "Athoor",
+        "Natham",
+        "Nilakkottai"
+    ]
+}

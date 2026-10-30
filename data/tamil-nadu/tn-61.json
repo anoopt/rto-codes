@@ -1,0 +1,22 @@
+{
+    "code": "TN-61",
+    "region": "Ariyalur",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Ariyalur",
+    "division": "Tamil Nadu Transport Department",
+    "description": "TN-61 is the Regional Transport Office for Ariyalur, Tamil Nadu. Established in late 2008, it provides comprehensive vehicle registration, driver licensing, and taxation services for the entire district of Ariyalur.",
+    "status": "active",
+    "established": "2008",
+    "address": "Trichy Main Road, Keelapalur, Ariyalur District, Tamil Nadu",
+    "pinCode": "621707",
+    "phone": "04329-250112",
+    "email": "rtotn61@nic.in",
+    "jurisdictionAreas": [
+        "Ariyalur",
+        "Sendurai",
+        "Udayarpalayam",
+        "Andimadam"
+    ]
+}
