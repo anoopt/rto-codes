@@ -1,0 +1,22 @@
+{
+    "code": "TN-67",
+    "region": "Virudhunagar",
+    "city": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Virudhunagar",
+    "division": "Madurai",
+    "description": "TN-67 is the Regional Transport Office for Virudhunagar in Tamil Nadu, responsible for vehicle registration, licensing, and enforcement of transport laws. It plays a key role in managing transport services for the industrial and agricultural hub of the Virudhunagar district.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Opposite Collectorate Complex, Soorakundi, Virudhunagar, Tamil Nadu",
+    "pinCode": "626003",
+    "phone": "04562-252089",
+    "email": "rtotn67@nic.in",
+    "jurisdictionAreas": [
+        "Virudhunagar",
+        "Aruppukottai",
+        "Kariapatti",
+        "Tiruchuli"
+    ]
+}

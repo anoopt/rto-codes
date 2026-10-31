@@ -1,0 +1,27 @@
+{
+    "code": "TN-63",
+    "region": "Sivaganga",
+    "city": "Sivaganga",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Sivaganga",
+    "division": "Madurai Division",
+    "description": "The TN-63 Regional Transport Office serves the Sivaganga district in Tamil Nadu. It is responsible for vehicle registration, issuance of driving licenses, and enforcing transport regulations across the region, including its unit office in Karaikudi.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Collectorate Complex, Sivagangai, Tamil Nadu",
+    "pinCode": "630560",
+    "phone": "04575-240339",
+    "email": "rtotn63@nic.in",
+    "jurisdictionAreas": [
+        "Sivaganga",
+        "Karaikudi",
+        "Manamadurai",
+        "Ilayangudi",
+        "Tiruppuvanam",
+        "Kalaiyarkoil",
+        "Devakottai",
+        "Tirupathur",
+        "Singampunari"
+    ]
+}

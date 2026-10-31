@@ -1,0 +1,25 @@
+{
+    "code": "TN-64",
+    "region": "Madurai Central",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Madurai",
+    "division": "Madurai",
+    "description": "TN-64 serves as the Madurai Central Regional Transport Office, overseeing vehicle registration and licensing for the central and eastern regions of Madurai city. It is one of the key transport hubs in southern Tamil Nadu, located near the Mattuthavani integrated bus stand.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, SETC Madurai Depot, Melur Road, Madurai, Tamil Nadu",
+    "pinCode": "625020",
+    "phone": "0452-2567835",
+    "email": "rtotn64@nic.in",
+    "jurisdictionAreas": [
+        "Madurai Central",
+        "Mattuthavani",
+        "Melur Road",
+        "K.K. Nagar",
+        "Anna Nagar",
+        "Tallakulam",
+        "Narimedu"
+    ]
+}

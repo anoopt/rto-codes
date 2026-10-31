@@ -1,0 +1,25 @@
+{
+    "code": "TN-66",
+    "region": "Coimbatore (Central)",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Coimbatore",
+    "division": "Coimbatore",
+    "description": "The TN-66 RTO serves the central region of Coimbatore city, managing a high volume of vehicle registrations and driving license issuances. It is one of the key transport offices in the Coimbatore district, facilitating services for both private and commercial vehicles within the central municipal limits.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, Coimbatore (Central), Dr. Balasundaram Road, Coimbatore, Tamil Nadu",
+    "pinCode": "641018",
+    "phone": "0422-2248449",
+    "email": "rtotn66@nic.in",
+    "jurisdictionAreas": [
+        "Gandhipuram",
+        "Peelamedu",
+        "RS Puram",
+        "Race Course",
+        "Ramanathapuram",
+        "Coimbatore North",
+        "Coimbatore South"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "TN-65",
+    "region": "Ramanathapuram",
+    "city": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Ramanathapuram",
+    "division": "Madurai",
+    "description": "The TN-65 Regional Transport Office serves the Ramanathapuram district in Tamil Nadu, overseeing vehicle registration, driving licenses, and transport permits. It is a critical administrative hub for the coastal region, managing traffic and vehicle compliance for areas including the pilgrim center of Rameswaram.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Near Customs Office, Madurai-Rameswaram Road, Ramanathapuram, Tamil Nadu",
+    "pinCode": "623503",
+    "phone": "04567-230722",
+    "email": "rtotn65@nic.in",
+    "jurisdictionAreas": [
+        "Ramanathapuram",
+        "Paramakudi",
+        "Rameswaram",
+        "Tiruvadanai",
+        "Kadaladi",
+        "Mudukulathur",
+        "Kamuthi",
+        "Kilakarai"
+    ]
+}
