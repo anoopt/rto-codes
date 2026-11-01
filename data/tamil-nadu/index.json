@@ -1401,5 +1401,117 @@
       "Kariapatti",
       "Tiruchuli"
     ]
+  },
+  {
+    "code": "TN-68",
+    "region": "Kumbakonam",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Thanjavur",
+    "division": "Tiruchirappalli Transport Division",
+    "description": "TN-68 RTO serves the Kumbakonam region in Thanjavur district. It is an active Regional Transport Office responsible for issuing driving licenses, vehicle registrations, and road permits for the temple city and surrounding talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Arokiasamy Nagar, Kumbakonam, Thanjavur District, Tamil Nadu",
+    "pinCode": "612001",
+    "phone": "0435-2416417",
+    "email": "rtotn68@nic.in",
+    "jurisdictionAreas": [
+      "Kumbakonam",
+      "Thiruvidaimarudur",
+      "Papanasam",
+      "Thiruppanandal"
+    ]
+  },
+  {
+    "code": "TN-69",
+    "region": "Thoothukudi",
+    "city": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Thoothukudi",
+    "division": "Tirunelveli Transport Region",
+    "description": "TN-69 is the Regional Transport Office serving the port city of Thoothukudi, formerly known as Tuticorin. This office manages vehicle registration, commercial transport permits, and licensing for one of Tamil Nadu's primary industrial and maritime hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "29, Masilamanipuram, 3rd Street, Thoothukudi, Tamil Nadu",
+    "pinCode": "628003",
+    "phone": "0461-2341020",
+    "email": "rtotn69@nic.in",
+    "jurisdictionAreas": [
+      "Thoothukudi",
+      "Ottapidaram",
+      "Srivaikuntam"
+    ]
+  },
+  {
+    "code": "TN-70",
+    "region": "Hosur",
+    "city": "Hosur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Krishnagiri",
+    "division": "Tamil Nadu Transport Department",
+    "description": "TN-70 RTO serves the Hosur region in the Krishnagiri district, which is a major industrial and manufacturing hub of Tamil Nadu. This office handles vehicle registration, driving licenses, and transport permits for the Hosur city and its surrounding industrial belt.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mathigiri Kootu Road, Hosur, Tamil Nadu",
+    "pinCode": "635110",
+    "phone": "N/A",
+    "email": "rtotn70@nic.in",
+    "jurisdictionAreas": [
+      "Hosur",
+      "Denkanikottai",
+      "Shoolagiri"
+    ]
+  },
+  {
+    "code": "TN-72",
+    "region": "Tirunelveli",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tirunelveli",
+    "division": "Tirunelveli",
+    "description": "The TN-72 RTO office is located in Tirunelveli and serves as the primary vehicle registration authority for the city and parts of the district. It handles tasks such as issuing driving licenses, vehicle permits, and pollution certificates, and oversees a unit office in Valliyur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO), 111, NGO Colony, Palayamkottai, Tirunelveli, Tamil Nadu",
+    "pinCode": "627007",
+    "phone": "0462-2552555",
+    "email": "rtotn72@nic.in",
+    "jurisdictionAreas": [
+      "Tirunelveli",
+      "Palayamkottai",
+      "Valliyur",
+      "Radhapuram",
+      "Nanguneri",
+      "Manur"
+    ]
+  },
+  {
+    "code": "TN-73",
+    "region": "Ranipet",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Ranipet",
+    "division": "Vellore Zone",
+    "description": "The TN-73 Regional Transport Office serves the Ranipet district in Tamil Nadu, established following the district's creation from the bifurcation of Vellore in 2019. It is responsible for vehicle registration, licensing, and enforcing transport regulations across the industrial and urban clusters of the region.",
+    "status": "active",
+    "established": "2019",
+    "address": "Regional Transport Office, National Highway 4, Bharathi Nagar, Ranipet, Tamil Nadu",
+    "pinCode": "632403",
+    "phone": "04172-273087",
+    "email": "rtotn73@nic.in",
+    "jurisdictionAreas": [
+      "Ranipet",
+      "Arakkonam",
+      "Walajapet",
+      "Arcot",
+      "Sholinghur",
+      "Nemili"
+    ]
   }
 ]
