@@ -1,0 +1,22 @@
+{
+    "code": "TN-68",
+    "region": "Kumbakonam",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Thanjavur",
+    "division": "Tiruchirappalli Transport Division",
+    "description": "TN-68 RTO serves the Kumbakonam region in Thanjavur district. It is an active Regional Transport Office responsible for issuing driving licenses, vehicle registrations, and road permits for the temple city and surrounding talukas.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Arokiasamy Nagar, Kumbakonam, Thanjavur District, Tamil Nadu",
+    "pinCode": "612001",
+    "phone": "0435-2416417",
+    "email": "rtotn68@nic.in",
+    "jurisdictionAreas": [
+        "Kumbakonam",
+        "Thiruvidaimarudur",
+        "Papanasam",
+        "Thiruppanandal"
+    ]
+}

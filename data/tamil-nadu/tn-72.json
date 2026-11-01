@@ -1,0 +1,24 @@
+{
+    "code": "TN-72",
+    "region": "Tirunelveli",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tirunelveli",
+    "division": "Tirunelveli",
+    "description": "The TN-72 RTO office is located in Tirunelveli and serves as the primary vehicle registration authority for the city and parts of the district. It handles tasks such as issuing driving licenses, vehicle permits, and pollution certificates, and oversees a unit office in Valliyur.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office (RTO), 111, NGO Colony, Palayamkottai, Tirunelveli, Tamil Nadu",
+    "pinCode": "627007",
+    "phone": "0462-2552555",
+    "email": "rtotn72@nic.in",
+    "jurisdictionAreas": [
+        "Tirunelveli",
+        "Palayamkottai",
+        "Valliyur",
+        "Radhapuram",
+        "Nanguneri",
+        "Manur"
+    ]
+}

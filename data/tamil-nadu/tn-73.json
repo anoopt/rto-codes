@@ -1,0 +1,24 @@
+{
+    "code": "TN-73",
+    "region": "Ranipet",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Ranipet",
+    "division": "Vellore Zone",
+    "description": "The TN-73 Regional Transport Office serves the Ranipet district in Tamil Nadu, established following the district's creation from the bifurcation of Vellore in 2019. It is responsible for vehicle registration, licensing, and enforcing transport regulations across the industrial and urban clusters of the region.",
+    "status": "active",
+    "established": "2019",
+    "address": "Regional Transport Office, National Highway 4, Bharathi Nagar, Ranipet, Tamil Nadu",
+    "pinCode": "632403",
+    "phone": "04172-273087",
+    "email": "rtotn73@nic.in",
+    "jurisdictionAreas": [
+        "Ranipet",
+        "Arakkonam",
+        "Walajapet",
+        "Arcot",
+        "Sholinghur",
+        "Nemili"
+    ]
+}

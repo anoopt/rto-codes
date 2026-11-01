@@ -1,0 +1,21 @@
+{
+    "code": "TN-69",
+    "region": "Thoothukudi",
+    "city": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Thoothukudi",
+    "division": "Tirunelveli Transport Region",
+    "description": "TN-69 is the Regional Transport Office serving the port city of Thoothukudi, formerly known as Tuticorin. This office manages vehicle registration, commercial transport permits, and licensing for one of Tamil Nadu's primary industrial and maritime hubs.",
+    "status": "active",
+    "established": "N/A",
+    "address": "29, Masilamanipuram, 3rd Street, Thoothukudi, Tamil Nadu",
+    "pinCode": "628003",
+    "phone": "0461-2341020",
+    "email": "rtotn69@nic.in",
+    "jurisdictionAreas": [
+        "Thoothukudi",
+        "Ottapidaram",
+        "Srivaikuntam"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "code": "TN-70",
+    "region": "Hosur",
+    "city": "Hosur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Krishnagiri",
+    "division": "Tamil Nadu Transport Department",
+    "description": "TN-70 RTO serves the Hosur region in the Krishnagiri district, which is a major industrial and manufacturing hub of Tamil Nadu. This office handles vehicle registration, driving licenses, and transport permits for the Hosur city and its surrounding industrial belt.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Mathigiri Kootu Road, Hosur, Tamil Nadu",
+    "pinCode": "635110",
+    "phone": "N/A",
+    "email": "rtotn70@nic.in",
+    "jurisdictionAreas": [
+        "Hosur",
+        "Denkanikottai",
+        "Shoolagiri"
+    ]
+}
