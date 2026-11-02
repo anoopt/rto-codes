@@ -1,0 +1,22 @@
+{
+    "code": "TN-78",
+    "region": "Dharapuram",
+    "city": "Dharapuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruppur",
+    "division": "Coimbatore",
+    "description": "TN-78 is the Regional Transport Office for Dharapuram, established to manage vehicle registrations and licensing in the Tiruppur district. It plays a vital role in regulating transport services and ensuring road safety standards across the Dharapuram and Udumalpet regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "13, Alangiyam Road, Iswarya Nagar, Dharapuram, Tamil Nadu",
+    "pinCode": "638656",
+    "phone": "04258-224445",
+    "email": "rtotn78@nic.in",
+    "jurisdictionAreas": [
+        "Dharapuram",
+        "Udumalpet",
+        "Madathukulam",
+        "Kundadam"
+    ]
+}

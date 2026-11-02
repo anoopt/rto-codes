@@ -1,0 +1,25 @@
+{
+    "code": "TN-75",
+    "region": "Marthandam",
+    "city": "Marthandam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Kanyakumari",
+    "division": "Tirunelveli",
+    "description": "TN-75 is the Regional Transport Office serving the Marthandam region in Kanyakumari district. This RTO is responsible for vehicle registration, driving license issuance, and road tax collection for the western part of the district near the Kerala border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, 11/96 Trivandrum Main Road, Vallee Vilagam, Vilavancode, Marthandam, Kanyakumari, Tamil Nadu",
+    "pinCode": "629165",
+    "phone": "04651-274977",
+    "email": "rtotn75@nic.in",
+    "jurisdictionAreas": [
+        "Marthandam",
+        "Vilavancode",
+        "Kuzhithurai",
+        "Arumanai",
+        "Kaliakkavilai",
+        "Killiyoor",
+        "Nalloor"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "TN-74",
+    "region": "Nagercoil",
+    "city": "Nagercoil",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Kanyakumari",
+    "division": "Nagercoil",
+    "description": "TN-74 is the Regional Transport Office for Nagercoil in the Kanyakumari district of Tamil Nadu. This office handles vehicle registration, licensing, and road tax collection for the southernmost administrative region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 583, Eathamozhy Road, Pattasalianvilai, Nagercoil, Tamil Nadu",
+    "pinCode": "629001",
+    "phone": "04652-265056",
+    "email": "rtotn74@nic.in",
+    "jurisdictionAreas": [
+        "Nagercoil",
+        "Agastheeswaram",
+        "Thovalai",
+        "Pattasalianvilai",
+        "Eathamozhy"
+    ]
+}

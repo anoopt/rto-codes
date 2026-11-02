@@ -1,0 +1,25 @@
+{
+    "code": "TN-77",
+    "region": "Attur",
+    "city": "Attur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem Transport Division",
+    "description": "TN-77 is the Regional Transport Office for Attur, serving the eastern jurisdiction of Salem district in Tamil Nadu. The office oversees vehicle registration, driving license issuance, and road tax collection for both private and commercial vehicles in its coverage area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 17, Block 17, LPGR Nagar, Therkku Nagar, near Railway Station, Attur, Tamil Nadu",
+    "pinCode": "636102",
+    "phone": "04282-251616",
+    "email": "rtotn77@nic.in",
+    "jurisdictionAreas": [
+        "Attur Municipality",
+        "Thalaivasal",
+        "Gangavalli",
+        "Narasingapuram",
+        "Peddanayakanpalayam",
+        "Malliakkarai",
+        "Valappadi"
+    ]
+}

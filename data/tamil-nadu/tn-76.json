@@ -1,0 +1,24 @@
+{
+    "code": "TN-76",
+    "region": "Tenkasi",
+    "city": "Tenkasi",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tenkasi",
+    "division": "Tirunelveli",
+    "description": "TN-76 is the Regional Transport Office for Tenkasi, serving the southern district of Tamil Nadu established after its bifurcation from Tirunelveli. The office is responsible for vehicle registration, issuance of driving licenses, and monitoring commercial transport permits in the region.",
+    "status": "active",
+    "established": "2019",
+    "address": "Regional Transport Office, Madurai Main Road, Tenkasi, Tamil Nadu",
+    "pinCode": "627811",
+    "phone": "N/A",
+    "email": "rtotn76@nic.in",
+    "jurisdictionAreas": [
+        "Tenkasi",
+        "Shenkottai",
+        "Kadayanallur",
+        "Alangulam",
+        "Courtallam",
+        "Ambasamudram"
+    ]
+}
