@@ -1513,5 +1513,124 @@
       "Sholinghur",
       "Nemili"
     ]
+  },
+  {
+    "code": "TN-74",
+    "region": "Nagercoil",
+    "city": "Nagercoil",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Kanyakumari",
+    "division": "Nagercoil",
+    "description": "TN-74 is the Regional Transport Office for Nagercoil in the Kanyakumari district of Tamil Nadu. This office handles vehicle registration, licensing, and road tax collection for the southernmost administrative region of the state.",
+    "status": "active",
+    "established": "N/A",
+    "address": "No. 583, Eathamozhy Road, Pattasalianvilai, Nagercoil, Tamil Nadu",
+    "pinCode": "629001",
+    "phone": "04652-265056",
+    "email": "rtotn74@nic.in",
+    "jurisdictionAreas": [
+      "Nagercoil",
+      "Agastheeswaram",
+      "Thovalai",
+      "Pattasalianvilai",
+      "Eathamozhy"
+    ]
+  },
+  {
+    "code": "TN-75",
+    "region": "Marthandam",
+    "city": "Marthandam",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Kanyakumari",
+    "division": "Tirunelveli",
+    "description": "TN-75 is the Regional Transport Office serving the Marthandam region in Kanyakumari district. This RTO is responsible for vehicle registration, driving license issuance, and road tax collection for the western part of the district near the Kerala border.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Regional Transport Office, 11/96 Trivandrum Main Road, Vallee Vilagam, Vilavancode, Marthandam, Kanyakumari, Tamil Nadu",
+    "pinCode": "629165",
+    "phone": "04651-274977",
+    "email": "rtotn75@nic.in",
+    "jurisdictionAreas": [
+      "Marthandam",
+      "Vilavancode",
+      "Kuzhithurai",
+      "Arumanai",
+      "Kaliakkavilai",
+      "Killiyoor",
+      "Nalloor"
+    ]
+  },
+  {
+    "code": "TN-76",
+    "region": "Tenkasi",
+    "city": "Tenkasi",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tenkasi",
+    "division": "Tirunelveli",
+    "description": "TN-76 is the Regional Transport Office for Tenkasi, serving the southern district of Tamil Nadu established after its bifurcation from Tirunelveli. The office is responsible for vehicle registration, issuance of driving licenses, and monitoring commercial transport permits in the region.",
+    "status": "active",
+    "established": "2019",
+    "address": "Regional Transport Office, Madurai Main Road, Tenkasi, Tamil Nadu",
+    "pinCode": "627811",
+    "phone": "N/A",
+    "email": "rtotn76@nic.in",
+    "jurisdictionAreas": [
+      "Tenkasi",
+      "Shenkottai",
+      "Kadayanallur",
+      "Alangulam",
+      "Courtallam",
+      "Ambasamudram"
+    ]
+  },
+  {
+    "code": "TN-77",
+    "region": "Attur",
+    "city": "Attur",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Salem",
+    "division": "Salem Transport Division",
+    "description": "TN-77 is the Regional Transport Office for Attur, serving the eastern jurisdiction of Salem district in Tamil Nadu. The office oversees vehicle registration, driving license issuance, and road tax collection for both private and commercial vehicles in its coverage area.",
+    "status": "active",
+    "established": "N/A",
+    "address": "Plot No. 17, Block 17, LPGR Nagar, Therkku Nagar, near Railway Station, Attur, Tamil Nadu",
+    "pinCode": "636102",
+    "phone": "04282-251616",
+    "email": "rtotn77@nic.in",
+    "jurisdictionAreas": [
+      "Attur Municipality",
+      "Thalaivasal",
+      "Gangavalli",
+      "Narasingapuram",
+      "Peddanayakanpalayam",
+      "Malliakkarai",
+      "Valappadi"
+    ]
+  },
+  {
+    "code": "TN-78",
+    "region": "Dharapuram",
+    "city": "Dharapuram",
+    "state": "Tamil Nadu",
+    "stateCode": "TN",
+    "district": "Tiruppur",
+    "division": "Coimbatore",
+    "description": "TN-78 is the Regional Transport Office for Dharapuram, established to manage vehicle registrations and licensing in the Tiruppur district. It plays a vital role in regulating transport services and ensuring road safety standards across the Dharapuram and Udumalpet regions.",
+    "status": "active",
+    "established": "N/A",
+    "address": "13, Alangiyam Road, Iswarya Nagar, Dharapuram, Tamil Nadu",
+    "pinCode": "638656",
+    "phone": "04258-224445",
+    "email": "rtotn78@nic.in",
+    "jurisdictionAreas": [
+      "Dharapuram",
+      "Udumalpet",
+      "Madathukulam",
+      "Kundadam"
+    ]
   }
 ]
